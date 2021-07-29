@@ -1,0 +1,407 @@
+{
+    "ages": {
+        "formula": "\"10 years ago, a father was four times as old as his son. 10 years hence, he will be twice as old his son. Find the son's present age.\\n\\nSolution:\\n\\nLet the father's present age be F and the son's age be S.\\n\\n10 years ago:\\nF - 10 = 4(S - 10)\\nF - 10 = 4S - 40\\nF = 4S - 30\\n\\n10 years hence:\\nF + 10 = 2(S + 10)\\nF + 10 = 2S + 20\\nF - 2S = 10\\n\\nReplacing F with (4S - 30):\\n(4S - 30) - 2S = 10\\n2S = 40\\nS = 20\\n\\nSon's present age is 20 years.\"",
+        "tests": [
+            {
+                "text": "The ratio of the ages of A and B is 2:3. If B is 3 years elder than A, find the age of A after 2 years.",
+                "solutions": ["2 years", "4 years", "6 years", "8 years"],
+                "solution": "8 years"
+            },
+            {
+                "text": "Two years ago, A was thrice as old as B. Two years later, A will be twice as old as B. Find the present age of B.",
+                "solutions": ["14 years", "12 years", "8 years", "6 years"],
+                "solution": "6 years"
+            },
+            {
+                "text": "In a family of four, the average age is 20. The parents' age difference is 5 and the siblings' age difference is 4. If the ages of the eldest and yougest member differ by 33, find the age of the youngest member of the family.",
+                "solutions": ["4 years", "6 years", "8 years", "2 years"],
+                "solution": "4 years"
+            },
+            {
+                "text": "A is 5 years elder than B who is 4 years elder than C. The sum of their ages is 61. Find the age of B.",
+                "solutions": ["25 years", "20 years", "15 years", "16 years"],
+                "solution": "20 years"
+            },
+            {
+                "text": "The sum of the ages of a mother and a son is equal to the age of the father. Three years later, the father will be six times as old as his son. The ratio of the present ages of the mother and son is 10:1. Find the age of the father.",
+                "solutions": ["27 years", "30 years", "33 years", "36 years"],
+                "solution": "33 years"
+            },
+            {
+                "text": "A and B are twins. The sum of their ages combined with their father's age is 47. Their father's age at the time of their birth was 29. Find the age of A.",
+                "solutions": ["6 years", "9 years", "11 years", "14 years"],
+                "solution": "6 years"
+            },
+            {
+                "text": "Thirteen years back, my mother was thrice my age and two years back, she was twice my age. Find my mother's present age.",
+                "solutions": ["58 years", "46 years", "28 years", "24 years"],
+                "solution": "46 years"
+            },
+            {
+                "text": "A man has three daughters. The present ages of all three of them are square numbers. The sum of their ages after 5 years is 41. Find the age of his eldest daughter after 2 years.",
+                "solutions": ["18 years", "16 years", "11 years", "9 years"],
+                "solution": "18 years"
+            },
+            {
+                "text": "A wizard named Gaylord says \"I am only three times my son's age. My father is 40 years more than twice my age. Together the three of us are a mere 1240 years old\". How old is Gaylord?",
+                "solutions": ["360 years", "240 years", "120 years", "480 years"],
+                "solution": "360 years"
+            },
+            {
+                "text": "A father is three times as old as his son. After fifteen years the father will be twice as old as his son's age at that time. Hence the father's present age is...",
+                "solutions": ["36 years", "42 years", "45 years", "48 years"],
+                "solution": "45 years"
+            },
+            {
+                "text": "On a man's tombstone, it is said that one sixth of his life was spent in childhood and one twelfth as a teenager. One seventh of his life passed between the time he bacame an adult and the time he married; five years later his son was born. The son died four years before he did. He lived to be twice as old as his son did. How old did the man live to be?",
+                "solutions": ["42 years", "48 years", "70 years", "84 years"],
+                "solution": "84 years"
+            },
+            {
+                "text": "In a group of 4 friends, P is the eldest and R is the youngest. Neither is of the same age as the others. The sum of the ages of R and S is greater than twice the age of Q. Who is the second eldest?",
+                "solutions": ["P", "Q", "R", "S"],
+                "solution": "R"
+            },
+            {
+                "text": "At present, A is twice as old as B. Three years back, A was thrice the age of B. Find B's present age.",
+                "solutions": ["8 years", "9 years", "12 years", "6 years"],
+                "solution": "6 years"
+            },
+            {
+                "text": "Today is A's birthday. One year from today, A will be twice as old as he was 10 years ago. How old is A today?",
+                "solutions": ["21 years", "23 years", "22 years", "25 years"],
+                "solution": "21 years"
+            },
+            {
+                "text": "The ages of A and B are in ratio of 5:3. If A is 8 years elder than B, find the age of B.",
+                "solutions": ["10 years", "12 years", "15 years", "20 years"],
+                "solution": "12 years"
+            },
+            {
+                "text": "The present ages of A and B differ by 7. Five years back, B was twice the age of A. Find the age of A after 4 years.",
+                "solutions": ["16 years", "20 years", "21 years", "25 years"],
+                "solution": "16 years"
+            },
+            {
+                "text": "A is three years older than B who is five years older than C. The sum of their ages is 73. Find the age of B.",
+                "solutions": ["20 years", "25 years", "28 years", "30 years"],
+                "solution": "25 years"
+            },
+            {
+                "text": "5 years ago, 1/5th of A's age was equal to 1/7th of B's age. The average of their present ages is 29. Find A's age after 5 years.",
+                "solutions": ["30 years", "38 years", "35 years", "25 years"],
+                "solution": "30 years"
+            },
+            {
+                "text": "The average age of two brothers in a family is 21. The average drops to 19 when the age of the third brother is also included. Find the age of the third brother.",
+                "solutions": ["18 years", "19 years", "15 years", "21 years"],
+                "solution": "15 years"
+            },
+            {
+                "text": "The difference between the ages of A and C is half the age of B. The difference between the ages of A and B is one-sixth of the age of C. If the sum of the ages of B and C is 32, find the age of A.",
+                "solutions": ["25 years", "22 years", "20 years", "27 years"],
+                "solution": "22 years"
+            },
+            {
+                "text": "The present ages of three people in a family are in the ratio 3:5:7. If the sum of their ages before 5 years was 60, find the age of the youngest.",
+                "solutions": ["12 years", "18 years", "6 years", "15 years"],
+                "solution": "15 years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            },
+            {
+                "text": "",
+                "solutions": [" years", " years", " years", " years"],
+                "solution": " years"
+            }
+        ]
+    }
+}
