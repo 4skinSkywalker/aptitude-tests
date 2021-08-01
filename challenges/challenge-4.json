@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "answer": 2,
+    "answers": [
+      "2",
+      "3",
+      "5",
+      "9"
+    ],
+    "question": "A number 4Y8923Y is divisible by 9. Find Y.",
+    "solution": "Sum of the digits of 4Y8923Y\r\n\t= 26+Y+Y\r\n\t= 26+2Y\r\n26+2Y should be divisible by 9.\r\n\r\nSubstitue the options,\r\n\tIf Y=2, 30 is not divisible by 9.\r\n\tIf Y=3, 32 is not divisible by 9.\r\n\tIf Y=5, 36 is divisible by 9."
+  },
+  {
+    "id": 2,
+    "answer": 3,
+    "answers": [
+      "21",
+      "22",
+      "25",
+      "26"
+    ],
+    "question": "The sum of the present ages of Charu and Divya is 47. If Charu is 5 years younger than Divya, find Divya's present age.",
+    "solution": "C+D = 47\r\nC = D-5\r\n\r\nD-5+D=47\r\n2D = 52\r\nD = 26"
+  },
+  {
+    "id": 3,
+    "answer": 3,
+    "answers": [
+      "10",
+      "35",
+      "30",
+      "60"
+    ],
+    "question": "A and B work together and complete a work in 15 days. If A alone takes 20 days to complete the work, find the time taken by B alone to complete the work.",
+    "solution": "Let A and B be the number of days taken by A and B to complete the work respectively.\r\n\r\nTime taken to complete the work together\r\n\t= AB/(A+B)\r\n\r\nAB/(A+B) = 15\r\n\r\n20A/(20+A) = 15\r\n\r\n20A = 300+15A\r\n\r\n5A = 300\r\n\r\nA = 60"
+  },
+  {
+    "id": 4,
+    "answer": 0,
+    "answers": [
+      "2 m/s",
+      "2.5 m/s",
+      "4 m/s",
+      "5 m/s"
+    ],
+    "question": "In a race, P beats Q by 10 m or 5 seconds. Find Q's speed.",
+    "solution": "The last 10 meters were covered by Q in 5 seconds.\r\n\r\nQ's speed\r\n\t= 10/5\r\n\t= 2 m/s"
+  },
+  {
+    "id": 5,
+    "answer": 1,
+    "answers": [
+      "583",
+      "981",
+      "297",
+      "352"
+    ],
+    "question": "Find the odd one out.\r\n\r\n352, 583, 495, 176, 981, 297",
+    "solution": "981 is the odd one out.\r\n\r\nIn all other numbers,\r\n\tsecond digit = first digit+third digit"
+  },
+  {
+    "id": 6,
+    "answer": 3,
+    "answers": [
+      "35",
+      "37",
+      "38",
+      "39"
+    ],
+    "question": "The sum of three consecutive odd integers is 111. Find the largest of these.",
+    "solution": "Let the three odd integers be x, x+2 and x+4.\r\n\r\nx+x+2+x+4=111\r\n\r\n3x+6=111\r\n\r\n3x=105\r\n\r\nx=35\r\n\r\nLargest=x+4=39"
+  },
+  {
+    "id": 7,
+    "answer": 0,
+    "answers": [
+      "1/13",
+      "2/13",
+      "1/26",
+      "1/4"
+    ],
+    "question": "A random card is drawn from a well-shuffled pack of cards. Find the probability that it is a queen.",
+    "solution": "Total no. of cards = 52\r\n\r\nn(S) = 52\r\n\r\nNo. of kings = 4\r\n\r\nn(E) = 4\r\n\r\nP(E) = n(E)/n(S)\r\n        = 4/52\r\n        = 1/13"
+  },
+  {
+    "id": 8,
+    "answer": 2,
+    "answers": [
+      "x²",
+      "x²+2a",
+      "x(2a+x)",
+      "2ax"
+    ],
+    "question": "The side of a square is a units. If all the sides of the square are increased by x units, the area of the square increases by",
+    "solution": "Let the original side of the square be a units.\r\nArea = a² sq. units\r\n\r\nNew side = (a+x) units\r\nNew area\r\n\t= (a+x)²\r\n\t= a²+2ax+x²\r\n\r\nIncrease in area\r\n\t= 2ax+x²\r\n\t= x(2a+x)\r\n"
+  },
+  {
+    "id": 9,
+    "answer": 2,
+    "answers": [
+      "Rs.24",
+      "Rs.22.5",
+      "Rs.22",
+      "Rs.21"
+    ],
+    "question": "A pen was bought for Rs.25 and sold at a loss of 12%. Find the selling price.",
+    "solution": "Loss\r\n\t= 12% of 25\r\n\t= Rs.3\r\nSP = 25-3 = Rs.22"
+  },
+  {
+    "id": 10,
+    "answer": 1,
+    "answers": [
+      "Rs.3680",
+      "Rs.1840",
+      "Rs.920",
+      "Rs.230"
+    ],
+    "question": "A sum of money is divided between Akshay and Binsal in the ratio 5:3. If Binsal gets Rs.460 less than Akshay, find the total amount.",
+    "solution": "Let the total amount be Rs.8x\r\n\r\nAkshay gets Rs.5x and\r\nBinsal gets Rs.3x\r\n\r\n5x-3x=460\r\n\r\n2x=460\r\nx=230\r\n\r\n8x=1840"
+  }]

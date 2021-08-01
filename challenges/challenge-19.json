@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "answer": 0,
+    "answers": [
+      "2 mins",
+      "2 mins 50 s",
+      "3 mins 20 s",
+      "66 s"
+    ],
+    "question": "The area of a square field is 6050 sq m. How long will a girl take to cross the field diagonally at the rate of 3.3 km/hr?",
+    "solution": "Let the side of the square field be a meters.\r\n\tArea = a² square meters\r\n\r\n\ta² = 6050\r\n\ta = √6050\r\n\ta = 55√2 m\r\n\r\nDiagonal of the square\r\n\t= √2 a meters\r\n\t= √2 * 55√2\r\n\t= 110 m\r\n\r\n3.3 kmph\r\n\t= (3.3*1000/60) meters/minute\r\n\t= 55 meters/min\r\n\r\nTime taken to cross 110 m at 55 m/min\r\n\t= 110/55\r\n\t= 2 minutes"
+  },
+  {
+    "id": 2,
+    "answer": 1,
+    "answers": [
+      "2≤x≤6",
+      "5≤x≤8",
+      "9≤x≤12",
+      "11≤x≤14"
+    ],
+    "question": "A shop stores x kg of rice. The first customer buys half this amount plus half a kg of rice. The second customer buys half the remaining amount plus half a kg of rice. Then the third customer also buys half the remaining amount plus half a kg of rice. Thereafter, no rice is left in the shop. Which of the following best describes the value of x?",
+    "solution": "After the third customer buys, no rice is left. When he entered, the shopkeeper had\r\n\t(0+1/2)*2 = 1 kg\r\nWhen the second customer came, the shopkeeper had\r\n\t(1+1/2)*2 = 3 kg\r\nWhen the first customer came, the shopkeeper had\r\n\t(3+1/2)*2 = 7 kg"
+  },
+  {
+    "id": 3,
+    "answer": 1,
+    "answers": [
+      "11",
+      "13",
+      "17",
+      "19"
+    ],
+    "question": "A number x, when divided by a divisor leaves a remainder 9. Twice the number divided by the same divisor leaves a remainder 5. Find the divisor.",
+    "solution": "Let the divisor be d and the quotient obtained on dividing x by d be y.\r\n\r\nNumber = Quotient*Divisor + Remainder\r\n\r\nx = yd+9\r\n\r\nTwice the number = 2yd+18\r\n\r\nWhen 2yd+18 is divided by the same divisor d,\r\n\ta remainder of 5 is obtained.\r\n\r\n2yd is divisible by d. So, 18 divided by d should leave a remainder of 5.\r\n\r\nHence, d=13."
+  },
+  {
+    "id": 4,
+    "answer": 2,
+    "answers": [
+      "12!/4",
+      "11!/4",
+      "10!/2",
+      "10!"
+    ],
+    "question": "How many unique words, with or without meaning can be formed by rearranging the letters of the word ENCYCLOPEDIA, such that the first and last letters remain unchanged?",
+    "solution": "Leaving out the first and last letters,\r\n\tthere are 10 letters of which C occurs twice.\r\n\r\nNo. of different words that can be formed\r\n\t= 10!/2!\r\n\t= 10!/2"
+  },
+  {
+    "id": 5,
+    "answer": 0,
+    "answers": [
+      "01",
+      "21",
+      "41",
+      "61"
+    ],
+    "question": "What are the last two digits of 7^2008?",
+    "solution": "7^1 = 7\r\n7^2 = 49\r\n7^3 = 343\r\n7^4 = 2401\r\n7^5 = 16807\r\n7^6 = 117649\r\n\r\nThe last two digits keep changing in a cyclic manner.\r\n\t07,49,43,01,07,49,43,01,07,......\r\n\r\nIn this way, the last two digits of 7^2008 are 01."
+  },
+  {
+    "id": 6,
+    "answer": 1,
+    "answers": [
+      "p=q",
+      "p>q",
+      "p<q",
+      "p=q/2"
+    ],
+    "question": "At the end of the year 1998, Shepard bought nine dozen goats. Henceforth, every year, he added p% of the goats at the beginning of the year and sold q% of the goats at the end of the year where p>0 and q>0. If Shepard had nine dozen goats at the end of year 2002, after making the sales for that year, which of the following is true?",
+    "solution": "If p=q,\r\n\tthere will be a net decrease in the number of goats.\r\n\r\nSimilarly, if p<q too,\r\n\tthere will be a net decrease in the number of goats.\r\n\r\nHence, p>q."
+  },
+  {
+    "id": 7,
+    "answer": 3,
+    "answers": [
+      "1/2",
+      "1/10",
+      "2/9",
+      "2/11"
+    ],
+    "question": "Ten identical particles are moving randomly inside a closed box. What is the probability that at any given point of time, all the ten particles will be lying in the same half of the box?",
+    "solution": "Let the box be divided into two halves, A and B.\r\n\r\nAt any point of time, the below options are possible. 0 particles in A, 10 in B. 1 in A, 9 in B and so on.\r\n\r\nA\tB\r\n\r\n0\t10\r\n1\t9\r\n2\t8\r\n3\t7\r\n4\t6\r\n5\t5\r\n6\t4\r\n7\t3\r\n8\t2\r\n9\t1\r\n10\t0\r\n\r\nThere are 11 possible options.\r\n\tFor all the ten particles to lie in the same half of the box, there are 2 possibilities.\r\n0 in A, 10 in B and\r\n10 in A, 0 in B.\r\n\r\nProbability\r\n\t= 2/11"
+  },
+  {
+    "id": 8,
+    "answer": 1,
+    "answers": [
+      "Rs.1100",
+      "Rs.520",
+      "Rs.1080",
+      "Rs.630"
+    ],
+    "question": "A, B and C, each of them working alone can complete a job in 6, 8 and 12 days respectively. If all three of them work together to complete a job and earn Rs.2340, what will be C's share of the earnings?",
+    "solution": "A, B and C will share the amount of $2340 in the ratio of the amounts of work done by them.\r\n\r\nAs A takes 6 days to complete the job, if A works alone, A will be able to complete 1/6 th of the work in a day.\r\n\r\nSimilarly, B will complete 1/8th and C will complete 1/12th of the work.\r\n\r\nSo, the ratio of the work done by A : B : C when they work together will be equal to 1/6 : 1/8 : 1/12 \r\n\r\nLCM(6,8,12) = 24\r\n\r\n1/6 : 1/8 : 1/12\r\n\t= 24/6 : 24/8 : 24/12\r\n\t= 4 : 3 : 2.\r\n\r\nThe ratio in which A, B and C will share $2340 will be 4 : 3 : 2. \r\n\r\nHence, C's share will be 2*2340/9 = 520."
+  },
+  {
+    "id": 9,
+    "answer": 2,
+    "answers": [
+      "15/40",
+      "1/12",
+      "1/6",
+      "4/9"
+    ],
+    "question": "There are 5 letters and 5 addressed envelopes. If the letters are randomly put into the envelope, find the probability that only 2 letters are in the correct envelopes.",
+    "solution": "No. of ways of putting 5 letters into 5 envelopes\r\n\t= 5! = 120\r\n\r\nOnly 2 letters are in the correct envelopes.\r\n\r\nLet ABCDE be the letters.\r\n\r\nA and B alone are put in the correct envelopes.\r\n\r\nNo. of ways:\r\n\tAB ECD\r\n\tAB DEC\r\n2 ways.\r\n\r\nNo. of ways of selecting 2 letters from 5\r\n\t= 5C2\r\n\t= 10\r\nNo. of ways in which 2 letters are put in correct envelopes\r\n\t= 10*2\r\n\t= 20\r\nTotal no. of ways\r\n\t= 20/120\r\n\t= 1/6"
+  },
+  {
+    "id": 10,
+    "answer": 0,
+    "answers": [
+      "81",
+      "41",
+      "91",
+      "51"
+    ],
+    "question": "A square is divided into 9 identical smaller squares. Six identical balls are to be placed in these smaller squares such that each of the three rows gets at least one ball (one ball in one square only). In how many different ways can this be done?",
+    "solution": "Each row should have atleast one ball.\r\n\r\nSeven possible ways\r\n\r\nRow 1\tRow 2\tRow 3\r\n\r\n1,2,3\r\n1,3,2\r\n2,1,3\r\n2,2,2\r\n2,3,1\r\n3,1,2\r\n3,2,1\r\n\r\nNo. of ways of arranging 1 ball in first row, 2 balls in second row and 3 balls in third row\r\n\t= 3C1*3C2*3C3\r\n\t= 3*3*1\r\n\t= 9\r\nP(1,3,2) = 9\r\nP(2,1,3) = 9\r\nP(2,2,2) = 3C2*3C2*3C2 = 27\r\nP(2,3,1) = 9\r\nP(3,1,2) = 9\r\nP(3,2,1) = 9\r\n\r\nNo. of different ways\r\n\t= 9+9+9+27+9+9+9\r\n\t= 81"
+  }]

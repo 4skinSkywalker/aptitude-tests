@@ -1,0 +1,842 @@
+[
+    {
+      "id": 1,
+      "answer": 1,
+      "answers": [
+        "2.5 kmph",
+        "3.5 kmph",
+        "7 kmph",
+        "23.5 kmph"
+      ],
+      "question": "A man can row upstream at a speed of 20 kmph and downstream at a speed of 27 kmph. Find the speed of the stream.",
+      "solution": "Let the speed of the stream be s kmph and the speed of the boat be b kmph.\r\n\tb+s = 27\r\n \t b-s = 20 \r\nSolving the equations, s = 3.5 kmph"
+    },
+    {
+      "id": 2,
+      "answer": 0,
+      "answers": [
+        "10.5 km",
+        "24.5 km",
+        "17.5 km",
+        "20 km"
+      ],
+      "question": "The speed of a boat in still water is 5 km/hr. The speed of the stream is 2 km/hr. The distance travelled by a boat upstream in 3.5 hrs is",
+      "solution": "Upstream speed \r\n\t= Speed of the boat - Speed of the stream \r\n\t= 3 km/hr\r\nDistance travelled \r\n\t= Speed * time \r\n\t= 3*3.5 = 10.5 km"
+    },
+    {
+      "id": 3,
+      "answer": 1,
+      "answers": [
+        "2 kmph",
+        "3 kmph",
+        "4 kmph",
+        "5 kmph"
+      ],
+      "question": "A boat travels 10 km upstream and 5 km downstream in 3 hrs. If the speed of the boat in still water is 7 kmph, find the speed of the stream.",
+      "solution": "Let the speed of the stream be x kmph.\r\n\tUpstream speed = (7-x) kmph\r\n\tDownstream speed = (7+x) kmph\r\nTime taken to travel upstream = (10/(7-x)) hrs\t\r\nTime taken to travel upstream = (5/(7+x)) hrs\r\n\r\n(10/(7-x)) + (5/(7+x)) = 3\r\n3x2+5x-42=0\r\nSolving this equation, x=3"
+    },
+    {
+      "id": 4,
+      "answer": 2,
+      "answers": [
+        "2 kmph",
+        "2.5 kmph",
+        "3 kmph",
+        "Data Insufficient"
+      ],
+      "question": "The time taken by a boat to travel upstream is twice the time taken by it to travel downstream. If the speed of the boat in still water is 9 kmph, find the rate of current.",
+      "solution": "The downstream speed should be twice the upstream speed. \r\n\r\n9+x = 2*(9-x)\t\t \r\nx=3"
+    },
+    {
+      "id": 5,
+      "answer": 3,
+      "answers": [
+        "12 kmph",
+        "9 kmph",
+        "2 kmph",
+        "10 kmph"
+      ],
+      "question": "A boat can travel 16 km upstream and 24 km downstream in 4 hours. It can travel 24 km upstream and 18 km downstream in 4.5 hours. Find the speed of the boat.",
+      "solution": "(16/u) + (24/d) = 4\r\n(24/u) + (18/d) = 4.5\r\n\r\nSolving, u = 8, d = 12\r\n\r\nb = (u+d)/2 = 10 kmph"
+    },
+    {
+      "id": 6,
+      "answer": 3,
+      "answers": [
+        "4 hours",
+        "4.5 hours",
+        "5 hours",
+        "6 hours"
+      ],
+      "question": "A motorboat with a speed of 15 kmph travels 72 km downstream in 4 hrs. Find the time required to travel the same distance upstream.",
+      "solution": "Downstream speed \r\n\t= 72/4 = 18 kmph \r\ns = d-b = 3  \r\nu = b-s = 12 kmph\r\n\r\nTime taken to travel 72 km upstream \r\n\t= 72/12 = 6 hours"
+    },
+    {
+      "id": 7,
+      "answer": 0,
+      "answers": [
+        "5:1",
+        "3:2",
+        "4:1",
+        "2:3"
+      ],
+      "question": "Find the ratio between the speeds of the boat and stream if the boat can travel 30 km upstream in 3 hours and the same distance downstream in 2 hours.",
+      "solution": "u = 10 kmph\r\nd = 15 kmph\r\n\r\ns = (d-u)/2 = 2.5 kmph         \r\nb = (d+u)/2 = 12.5 kmph\r\n\r\n\tb:s = 5:1\r\n"
+    },
+    {
+      "id": 8,
+      "answer": 2,
+      "answers": [
+        "8 kmph",
+        "4 kmph",
+        "2 kmph",
+        "6 kmph"
+      ],
+      "question": "Moving along a stream, a boat travels 16 km and moving against the stream, it travels 12 km. The time taken for the entire journey is 5 hours. The upstream speed and downstream speed are in the ratio of 1:2. Find the speed of the stream.",
+      "solution": "(16/d) + (12/u) = 5 \t\r\n\r\nd=2u\r\ns = (d-u)/2\r\n\r\nSolving, s = 2 kmph\r\n"
+    },
+    {
+      "id": 9,
+      "answer": 3,
+      "answers": [
+        "15 km",
+        "10 km",
+        "3 km",
+        "5 km"
+      ],
+      "question": "The speed of a boat in still water is 20 kmph and the speed of the stream is 5 kmph. The distance travelled upstream in 20 minutes is",
+      "solution": "u = 15 kmph\r\nDistance = 15*20/60 = 5 km"
+    },
+    {
+      "id": 10,
+      "answer": 3,
+      "answers": [
+        "45 km",
+        "22.5 km",
+        "36 km",
+        "27 km"
+      ],
+      "question": "A boatman starts from point A at 11:00 am and travels downstream to point B, stays there for an hour and returns to point A at 4:00 pm. If the speed of the boat and stream are 12 km/hr and 3 km/hr respectively, find the distance between A and B.",
+      "solution": "Upstream and downstream travel took him 4 hours (leaving his 1 hour stay at B).\r\n\tu = 9 km/hr\r\n\td = 15 km/hr\r\n(x/9) + (x/15) = 4\t\t\r\nDistance = 22.5 km"
+    },
+    {
+      "id": 11,
+      "answer": 3,
+      "answers": [
+        "9 m/s",
+        "5 m/s",
+        "2 m/s",
+        "2.5 m/s"
+      ],
+      "question": "The upstream and downstream speeds of a boat are 7 kmph and 11 kmph respectively. Find the speed of the boat.",
+      "solution": "b = (u+d)/2 = 9 kmph\r\n\r\nThe options are given in m/s.\r\n\r\n9 kmph = (9*5/18) m/s = 2.5 m/s"
+    },
+    {
+      "id": 12,
+      "answer": 1,
+      "answers": [
+        "16 kmph",
+        "20 kmph",
+        "18 kmph",
+        "24 kmph"
+      ],
+      "question": "The time taken by a ship to travel 48 km downstream is equal to the time taken to travel 32 km upstream. If the velocity of the stream is 4 kmph, find the speed of the ship.",
+      "solution": "Let the speed of the ship be x kmph.\r\n\r\nu = x-4\r\nd = x+4\r\n\r\n48/(x+4) = 32/(x-4)\r\n\r\n48x-192 = 32x+128\r\n\r\n16x = 320\r\n\r\nx = 20kmph"
+    },
+    {
+      "id": 13,
+      "answer": 2,
+      "answers": [
+        "20 km",
+        "25 km",
+        "24 km",
+        "18 km"
+      ],
+      "question": "A boat takes 5 hours to travel upstream from A to B and return back to A. If the speeds of the boat and the stream are 10kmph and 2 kmph respectively, find the distance between A and B.",
+      "solution": "Let the distance between A and B be x km.\r\n\r\nu = b-s = 8 kmph\r\nd = b+s = 12 kmph\r\n\r\n(x/u)+(x/d) = 5\r\n\r\n(x/8)+(x/12)=5\r\n\r\nSolving, x = 24km"
+    },
+    {
+      "id": 14,
+      "answer": 0,
+      "answers": [
+        "3:1",
+        "2:1",
+        "1:2",
+        "3:2"
+      ],
+      "question": "The downstream speed of a boat is twice its upstream speed. Find the ratio of the speed of the boat to the speed of the stream.",
+      "solution": "d=2u\r\n\r\nb+s = 2(b-s)\r\n\r\nb+s = 2b-2s\r\n\r\nb = 3s\r\n\r\nb:s=3:1"
+    },
+    {
+      "id": 15,
+      "answer": 1,
+      "answers": [
+        "2.5 kmph",
+        "3 kmph",
+        "2 kmph",
+        "4 kmph"
+      ],
+      "question": "In one hour, a boat travels 9 km upstream. It takes the same time to travel 15 km downstream. Find the speed of the stream.",
+      "solution": "u=9kmph\r\nd=15kmph\r\n\r\ns=(d-u)/2 = 3kmph"
+    },
+    {
+      "id": 16,
+      "answer": 1,
+      "answers": [
+        "2.1 kmph",
+        "3 kmph",
+        "2.9 kmph",
+        "3.5 kmph"
+      ],
+      "question": "In a to and fro journey between two places, the average speed of a boat was 9.1 kmph. If the upstream speed of the boat is 7 kmph, find the speed of the stream.\r\n",
+      "solution": "u = b-s\r\nd = b+s\r\n\r\nAverage speed\r\n\t= 2ud/(u+d)\r\n\r\n(2*7*d)/(7+d) = 9.1\r\n\r\n14d = 9.1(7+d)\r\n\r\nSolving,\r\n\td=13 kmph\r\n\r\ns = d-u/2 = 3 kmph\r\n\r\n"
+    },
+    {
+      "id": 17,
+      "answer": 0,
+      "answers": [
+        "7:00 am",
+        "8:00 am",
+        "9:30 am",
+        "6:15 am"
+      ],
+      "question": "The speed of a boat in still water is 8 kmph and the speed of the stream is 2 kmph. The boat travels to an island at a distance of 30 km, stays there for 2 hours and returns to the starting point at 5:00 pm. At what time did the boat start to the island?",
+      "solution": "u = b-s = 6 kmph\r\nd = b+s = 10 kmph\r\n\r\nTime taken to travel upstream \r\n\t= 30/6\r\n\t= 5 hours\r\nTime taken to travel downstream\r\n\t= 30/10\r\n\t= 3 hours\r\nTime in the island\r\n\t= 2 hours\r\nTotal time\r\n\t= 10 hours\r\nTherefore, the boat should have started at 7 in the morning."
+    },
+    {
+      "id": 18,
+      "answer": 2,
+      "answers": [
+        "3.5 kmph",
+        "3.25 kmph",
+        "3 kmph",
+        "6.5 kmph"
+      ],
+      "question": "The effective speed of a boat is 10.5 kmph against the stream and 16.5 kmph along the stream. Find the speed of the stream.",
+      "solution": "u = 10.5 kmph\r\nd = 16.5 kmph\r\n\r\ns = (d-u)/2 = 3 kmph"
+    },
+    {
+      "id": 19,
+      "answer": 3,
+      "answers": [
+        "3.5 hours",
+        "3.9 hours",
+        "4.5 hours",
+        "4 hours"
+      ],
+      "question": "A man swims a distance of 35 km against the current in 5 hours and a distance of 39 km downstream in 3 hours. Find the time taken by him to cover a distance of 40 km in still water.",
+      "solution": "u = 35/5 = 7 kmph\r\nd = 39/3 = 13 kmph\r\n\r\nThe man's speed\r\n\t= u+d/2\r\n\t= 10 kmph\r\nHe can cover a distance of 40 km in\r\n\t= 40/10\r\n\t= 4 hours"
+    },
+    {
+      "id": 20,
+      "answer": 1,
+      "answers": [
+        "4 kmph",
+        "2 kmph",
+        "1 kmph",
+        "2.5 kmph"
+      ],
+      "question": "A man can row at a speed of 6 kmph in still water. He travels a distance of 16 km against the current and comes back to the starting point in 6 hours. Find the rate of current.",
+      "solution": "b = 6 kmph\r\n\r\nUpstream travel time = 16/u\r\nDownstream travel time = 16/d\r\n\r\n16/u + 16/d = 6\r\n[16/(6-s)]+[16/(6+s)] = 6\r\n\r\nSolving,\r\n\r\n16(6+s)+16(6-s) = 6(36-s²)\r\n\r\n32*6 = 6(36-s²)\r\n\r\ns² = 36-32 = 4\r\ns = 2 kmph"
+    },
+    {
+      "id": 21,
+      "answer": 3,
+      "answers": [
+        "4.5 hours",
+        "3 hours",
+        "259 minutes",
+        "2(7/9) hours"
+      ],
+      "question": "The current of a stream runs at a rate of 1.5 kmph. A man rows 10 km to an island and returns back immediately. If he can row 4.5 km with the stream in the same time as 3 km against the stream, find the total time taken by him.",
+      "solution": "s = 1.5 kmph\r\n\r\nTime taken to travel 4.5km downstream\r\n\t= time taken for 3km upstream\r\n\r\nSpeed is inversely proportional to time.\r\nHence,\r\n\t4.5*upstream speed = 3*downstream speed\r\n\t\r\n\t4.5u = 3d\r\n\t4.5(b-s) = 3(b+s)\r\n\r\n\t1.5b = 7.5s = 7.5*1.5\r\n\r\n\tb = 7.5kmph\r\n\tu = 6 kmph\r\n\td = 9 kmph\r\n\r\nTime taken to travel 10 km upstream \r\n\t= 10/u\r\n\t= 5/3\r\nTime taken to travel 10 km downstream \r\n\t= 10/d\r\n\t= 10/9\r\nTotal time\r\n\t= 25/9 hours\r\n\t= 2(7/9) hours"
+    },
+    {
+      "id": 25,
+      "answer": 1,
+      "answers": [
+        "1 hour",
+        "1.5 hours",
+        "150 minutes",
+        "180 minutes"
+      ],
+      "question": "John can row at a speed of 6.8 kmph in still water. If the speed of the stream is 3.2 kmph, find the time taken by him to row 15 km downstream.",
+      "solution": "Downstream speed\r\n\t= 6.8+3.2\r\n\t= 10 kmph\r\nTime taken\r\n\t= 15/10\r\n\t= 1.5 hours"
+    },
+    {
+      "id": 24,
+      "answer": 2,
+      "answers": [
+        "10.1 kmph",
+        "9.05 kmph",
+        "5.9 kmph",
+        "4.9 kmph"
+      ],
+      "question": "A boat moves at 8 kmph in still water. If the speed of a stream is 2.1 kmph, find the effective speed with which the boat travels upstream.",
+      "solution": "Upstream speed\r\n\t=8-2.1\r\n\t=5.9 kmph"
+    },
+    {
+      "id": 23,
+      "answer": 3,
+      "answers": [
+        "16.5 km",
+        "9 km",
+        "6 km",
+        "1.5 km"
+      ],
+      "question": "Two boats travel downstream to the same destination. The speeds of the boats in still water are 12 kmph and 15 kmph. If they started at exactly the same time and the speed of the stream is 3 kmph, find the distance between them after half an hour.",
+      "solution": "Downstream speed of the first boat\r\n\t= 15 kmph\r\nDownstream speed of the second boat\r\n\t= 18 kmph\r\nIn half an hour,\r\n\tdistance travelled by first boat\r\n\t\t= 7.5 km\r\n\tdistance travelled by second boat\r\n\t\t= 9 km\r\nDistance between them\r\n\t= 1.5 km"
+    },
+    {
+      "id": 22,
+      "answer": 0,
+      "answers": [
+        "6 kmph",
+        "5 kmph",
+        "4.5 kmph",
+        "7.5 kmph"
+      ],
+      "question": "A swimmer swims 5 km upstream and 3 km downstream in 1 hour. If the speed of the stream is 3 kmph, find the swimmer's speed.",
+      "solution": "Let swimmer's speed=x kmph\r\n\r\nTime taken to swim downstream\r\n\t= 5/(x-3)\r\nTime taken to swim upstream\r\n\t= 3/(x+3)\r\n\r\n[5/(x-3)]+[3/(x+3)] = 2\r\n5x+15+3x-9 = 2(x²-9)\r\n2x²-8x-24=0\r\nx²-4x-12=0\r\n(x-6)(x+2)=0\r\n\r\nx can't be -2\r\n\tHence, x=6 kmph"
+    },
+    {
+      "id": 30,
+      "answer": 2,
+      "answers": [
+        "14 kmph",
+        "8 kmph",
+        "4 kmph",
+        "5 kmph"
+      ],
+      "question": "The effective speed of travel of a boat downstream is 18 kmph whereas it is 10 kmph upstream. What is the speed of the current?",
+      "solution": "Speed of the current\r\n\t= (d-u)/2\r\n\t= (18-10)/2\r\n\t= 4 kmph"
+    },
+    {
+      "id": 29,
+      "answer": 0,
+      "answers": [
+        "15 kmph",
+        "12 kmph",
+        "10 kmph",
+        "9 kmph"
+      ],
+      "question": "A boat takes 30 minutes less to travel 18 km downstream than to travel the same distance upstream. If the  speed of the stream is 3 kmph, find the speed of the boat.",
+      "solution": "Time taken to travel 18 km downstream\r\n\t= 18/(b+3)\r\nTime taken to travel 18 km upstream\r\n\t= 18/(b-3)\r\n[18/(b-3)]-[18/(b+3] = 30/60   ------ (I)\r\n18[(b+3)-(b-3)] = 1/2[b²-9]\r\n36[6] = b²-9\r\nb²-216-9 = 0\r\nb² = 225\r\nb = 15 kmph\r\n\r\n** To do quickly, we can substitute the options in eqn (I)"
+    },
+    {
+      "id": 28,
+      "answer": 1,
+      "answers": [
+        "15 kmph",
+        "12.5 kmph",
+        "10 kmph",
+        "7.5 kmph"
+      ],
+      "question": "The current of a stream runs at the rate of 2.5 km per hr. A motor boat goes 10 km upstream and back again to the starting point in 100 mins. Find the speed of the motor boat in still water?",
+      "solution": "Time taken to travel 10 km upstream\r\n\t= 10/(b-s)\r\nTime taken to travel 10 km downstream\r\n\t= 10/(b+s)\r\n[10/(b-2.5)]+[10/(b+2.5)] = 100/60\r\n\r\n(b+2.5)+(b-2.5) = (1/6)*(b²-6.25)\r\n\r\nb²-12b-6.25 = 0\r\n(b-12.5)(b+0.5) = 0\r\nb=12.5 kmph"
+    },
+    {
+      "id": 27,
+      "answer": 1,
+      "answers": [
+        "3 kmph",
+        "1.5 kmph",
+        "4.5 kmph",
+        "8.5 kmph"
+      ],
+      "question": "A swimmer covers a distance of 28 km against the current and 40 km in the direction of the current. If in each case he takes 4 hours, then the speed of the current is",
+      "solution": "Let the swimmer's speed be x kmph and \r\n\tthe speed of the current be c kmph.\r\nTime taken to travel 28 km upstream\r\n\t= 28/u\r\n\t= 28/(x-c) = 4\r\nx-c = 28/4 = 7     ------ (I)\r\nTime taken to travel 40 km downstream\r\n\t= 40/(x+c) = 4\r\nx+c = 40/4 = 10  ------(II)\r\n\r\nSolving,\r\n\tc=1.5 kmph"
+    },
+    {
+      "id": 26,
+      "answer": 0,
+      "answers": [
+        "12.5 kmph",
+        "8 kmph",
+        "3.5 kmph",
+        "7.5 kmph"
+      ],
+      "question": "A man rows 20km upstream in 150 minutes. If the speed of the stream is 4.5 kmph, find his speed in still water.",
+      "solution": "150 mins=2.5 hrs\r\n\r\nUpstream speed\r\n\t= 20/2.5\r\n\t= 8 kmph\r\nSpeed in still water\r\n\t= 8+4.5\r\n\t= 12.5 kmph"
+    },
+    {
+      "id": 31,
+      "answer": 2,
+      "answers": [
+        "2 hours",
+        "3 hours",
+        "4 hours",
+        "5 hours"
+      ],
+      "question": "A boat can travel with a speed of 13 kmph in still water. If the speed of the stream is 4 kmph, find the time taken by the boat to go 68 km downstream.",
+      "solution": "b = 13\r\ns = 4\r\n\r\nd = b+s = 17\r\n\r\nTime taken to go 68 km downstream\r\n\t= 68/17\r\n\t= 4 hours"
+    },
+    {
+      "id": 32,
+      "answer": 3,
+      "answers": [
+        "1.2 km",
+        "1.8 km",
+        "2.4 km",
+        "3.6 km"
+      ],
+      "question": "The speed of a boat in still water is 15 km/hr and the rate of current is 3 km/hr. The distance travelled downstream in 12 minutes is",
+      "solution": "b = 15\r\ns = 3\r\n\r\nd = 15+3 = 18 kmph\r\n\r\nt = 12 mins = 0.2 hours\r\n\r\nDistance travelled downstream in 0.2 hours\r\n\t= 18*0.2\r\n\t= 3.6 km"
+    },
+    {
+      "id": 33,
+      "answer": 1,
+      "answers": [
+        "160 km",
+        "180 km",
+        "200 km",
+        "220 km"
+      ],
+      "question": "A boat takes 19 hours for travelling downstream from point A to point B and coming back to a point C midway between A and B. If the velocity of the stream is 4 kmph and the speed of the boat in still water is 14 kmph, what is the distance between A and B?",
+      "solution": "s = 4\r\nb = 14\r\n\r\nd = 18\r\nu = 10\r\n\r\nLet the distance between A and B be x.\r\n\r\n(x/18)+((x/2)/10) = 19\r\n\r\n10x+9x = 19*180\r\n\r\nx = 180 km"
+    },
+    {
+      "id": 34,
+      "answer": 1,
+      "answers": [
+        "4 km/hr",
+        "6 km/hr",
+        "8 km/hr",
+        "Data inadequate"
+      ],
+      "question": "A boat running downstream covers a distance of 16 km in 2 hours while for covering the same distance upstream, it takes 4 hours. What is the speed of the boat in still water?",
+      "solution": "16/(b+s) = 2\r\n16/(b-s) = 4\r\n\r\nb+s = 8\r\nb-s = 4\r\n\r\nSolving,\r\n\t2b = 12\r\n\tb = 6"
+    },
+    {
+      "id": 35,
+      "answer": 0,
+      "answers": [
+        "2.5 km/hr",
+        "4.2 km/hr",
+        "5 km/hr",
+        "10.5 km/hr"
+      ],
+      "question": "A man can row upstream at 8 kmph and downstream at 13 kmph. The speed of the stream is",
+      "solution": "u = 8\r\nd = 13\r\n\r\ns = (d-u)/2 = 2.5 kmph"
+    },
+    {
+      "id": 36,
+      "answer": 2,
+      "answers": [
+        "3 kmph",
+        "4.5 kmph",
+        "9 kmph",
+        "18 kmph"
+      ],
+      "question": "A man can row upstream at 6 kmph and downstream at 12 kmph. Find his speed in still water.",
+      "solution": "b = (u+d)/2 = 9 kmph"
+    },
+    {
+      "id": 37,
+      "answer": 1,
+      "answers": [
+        "3 hrs",
+        "5 hrs",
+        "6 hrs",
+        "4.5 hrs"
+      ],
+      "question": "The speed of the boat in still water in 12 kmph. It can travel downstream through 45 kms in 3 hrs. In what time would it cover the same distance upstream?",
+      "solution": "b = 12\r\n\r\nd = b+s\r\n\r\n45/(b+s) = 3\r\n\r\nb+s = 15\r\ns = 3\r\n\r\nu = b-s = 9\r\n\r\nTime taken to travel 45 kms upstream\r\n\t= 45/9\r\n\t= 5 hours"
+    },
+    {
+      "id": 38,
+      "answer": 0,
+      "answers": [
+        "23 km/hr",
+        "27 km/hr",
+        "25 km/hr",
+        "26 kmph"
+      ],
+      "question": "A boat goes 13 km upstream in 39 minutes. The speed of stream is 3 km/hr. The speed of boat in still water is",
+      "solution": "u = 13/(39/60) = 20 kmph\r\n\r\ns = 3 kmph\r\n\r\nb = u+s = 23 kmph"
+    },
+    {
+      "id": 39,
+      "answer": 2,
+      "answers": [
+        "4 km/hr",
+        "2 km/hr",
+        "3 km/hr",
+        "Data Inadequate"
+      ],
+      "question": "A boat running upstream covers a distance of 20 km in 4 hours while for covering the same distance downstream, it takes only 2 hours. Find the speed of the stream.",
+      "solution": "u = 20/5 = 4 kmph\r\nd = 20/2 = 10 kmph\r\n\r\nb-s = 4\r\nb+s = 10\r\n\r\ns = 3 kmph"
+    },
+    {
+      "id": 40,
+      "answer": 3,
+      "answers": [
+        "2",
+        "5",
+        "3",
+        "2.5"
+      ],
+      "question": "The speed of a boat in still water is 10 kmph. If it can travel 20 kms downstream in the same time as it can travel 12 kms upstream, what is the speed of the current in kmph?",
+      "solution": "b = 10\r\n\r\n20/(b+s) = 12/(b-s)\r\n\r\n20*(10-s) = 12*(10+s)\r\n\r\n50-5s = 30+3s\r\n\r\n8s = 20\r\n\r\ns = 2.5"
+    },
+    {
+      "id": 41,
+      "answer": 3,
+      "answers": [
+        "2 hours",
+        "3 hours",
+        "4 hours",
+        "5 hours"
+      ],
+      "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 45 km upstream.",
+      "solution": "b = 13\r\ns = 4\r\n\r\nu = 9\r\n\r\nTime taken to travel 45 km upstream\r\n\t= 45/9\r\n\t= 5 hours"
+    },
+    {
+      "id": 42,
+      "answer": 2,
+      "answers": [
+        "8.5 km/hr",
+        "9 km/hr",
+        "10 km/hr",
+        "12.5 km/hr"
+      ],
+      "question": "A man's speed with the current is 15 km/hr and the speed of the current is 2.5 km/hr. The man's speed against the current is:",
+      "solution": "d = 15\r\ns = 2.5\r\n\r\nMan's speed\r\n\t= 15-2.5\r\n\t= 12.5\r\n\r\nMan's speed against the current\r\n\t= 12.5 - 2.5\r\n\t= 10 kmph"
+    },
+    {
+      "id": 43,
+      "answer": 2,
+      "answers": [
+        "2 : 1",
+        "3 : 2",
+        "8 : 3",
+        "Cannot be determined"
+      ],
+      "question": "A boat running upstream takes 8 hours 48 minutes to cover a certain distance, while it takes 4 hours to cover the same distance running downstream. What is the ratio between the speed of the boat and speed of the water current respectively?",
+      "solution": "Let the distance covered be x km.\r\n\r\n8 hrs 48 mins\r\n\t= 8+(48/60)\r\n\t= 8.8\r\n\r\nx/(b-s) = 8.8\r\nx/(b+s) = 4\r\n\r\n8.8(b-s) = 4(b+s)\r\n\r\n2.2b - 2.2s = b+s\r\n\r\n1.2b = 3.2s\r\n\r\nb:s = 8:3"
+    },
+    {
+      "id": 44,
+      "answer": 1,
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "question": "A motorboat, whose speed in 15 km/hr in still water, goes 30 km downstream and comes back in a total of 4 hours 30 minutes. The speed of the stream (in km/hr) is",
+      "solution": "b = 15\r\n\r\n30/u + 30/d = 4.5\r\n\r\n30/(15-s) + 30/(15+s) = 4.5\r\n\r\n30*30 = 4.5(15-s)(15+s)\r\n\r\n200 = 225 - s²\r\n\r\ns² = 25\r\n\r\ns = 5"
+    },
+    {
+      "id": 45,
+      "answer": 2,
+      "answers": [
+        "3 km/hr",
+        "5 km/hr",
+        "8 km/hr",
+        "9 km/hr"
+      ],
+      "question": "In one hour, a boat goes 11 km/hr along the stream and 5 km/hr against the stream. The speed of the boat in still water (in km/hr) is:",
+      "solution": "b+s = 11\r\nb-s = 5\r\n\r\n2b = 16\r\nb = 8"
+    },
+    {
+      "id": 46,
+      "answer": 2,
+      "answers": [
+        "12 kmph",
+        "13 kmph",
+        "15 kmph",
+        "16 kmph"
+      ],
+      "question": "A boat covers a certain distance downstream in 1 hour, while it comes back in 1½ hours. If the speed of the stream is 3 kmph, what is the speed of the boat in still water?",
+      "solution": "s = 3\r\n\r\nLet the distance be x km.\r\n\r\nx/(b+3) = 1\r\nx/(b-3) = 1.5\r\n\r\nb+3 = 1.5(b-3)\r\n\r\n0.5b = 7.5\r\n\r\nb = 15 kmph"
+    },
+    {
+      "id": 47,
+      "answer": 1,
+      "answers": [
+        "8.5 km/hr",
+        "9 km/hr",
+        "10 km/hr",
+        "12.5 km/hr"
+      ],
+      "question": "A boy's speed with the current is 16 km/hr and the speed of the current is 3.5 km/hr. The boy's speed against the current is",
+      "solution": "d = 16\r\ns = 3.5\r\n\r\nBoy's speed\r\n\t= 16-3.5\r\n\t= 12.5\r\n\r\nBoy's speed against the current\r\n\t= 12.5-3.5\r\n\t= 9 kmph"
+    },
+    {
+      "id": 48,
+      "answer": 1,
+      "answers": [
+        "1.2 km/hr",
+        "1.5 km/hr",
+        "1.6 km/hr",
+        "1.8 km/hr"
+      ],
+      "question": "A man can row upstream at 7 kmph and downstream at 10 kmph. Find the rate of current.",
+      "solution": "s = d-u /2 = 3/2 = 1.5"
+    },
+    {
+      "id": 49,
+      "answer": 2,
+      "answers": [
+        "40 minutes",
+        "1 hour",
+        "1 hour 15 min",
+        "1 hour 30 min"
+      ],
+      "question": "A boatman goes 2 km against the current of the stream in 1 hour and goes 1 km along the current in 10 minutes. How long will it take to go 5 km in stationary water?",
+      "solution": "2/u = 1\r\n1/d = 1/6\r\n\r\nu = 2\r\nd = 6\r\n\r\nb = (u+d)/2 = 4\r\n\r\nTime taken to travel 5 km in still water\r\n\t= 5/4\r\n\t= 1.25 hours\r\n\t= 1 hr 15 mins"
+    },
+    {
+      "id": 50,
+      "answer": 0,
+      "answers": [
+        "P",
+        "Q",
+        "Both P and Q",
+        "Data Inadequate"
+      ],
+      "question": "There is a road beside a river. Two friends, P and Q, started from a place A, moved to a temple situated at another place B and then returned to A again. P moves on a cycle at a speed of 12 km/hr, while Q sails on a boat at a speed of 10 km/hr. If the river flows at the speed of 4 km/hr, which of the two friends will return to place A first?",
+      "solution": "Let the distance between A and B be x km.\r\n\r\nP travels to and fro at a speed of 12 kmph.\r\n\r\nAverage speed of P\r\n\t= 12 kmph\r\n\r\nb = 10\r\ns = 4\r\nu = 6\r\nd = 14\r\n\r\nQ travels x km upstream at 6 kmph and x km downstream at 14 kmph.\r\n\r\nQ's average speed\r\n\t= 2*14*6/20\r\n\t= 8.4 kmph\r\n\r\nHence, P returns first."
+    },
+    {
+      "id": 51,
+      "answer": 1,
+      "answers": [
+        "7.5 km/hr",
+        "7 km/hr",
+        "9 km/hr",
+        "8 km/hr"
+      ],
+      "question": "The speed of a boat in still water is 8 km/hr. If its downstream speed is 15 km/hr, then the speed of the stream is",
+      "solution": "b = 8\r\nb+s = 15\r\ns = 7 kmph"
+    },
+    {
+      "id": 52,
+      "answer": 1,
+      "answers": [
+        "20 mins",
+        "40 mins",
+        "30 mins",
+        "15 mins"
+      ],
+      "question": "The speed of a boat in still water is 20 kmph. If it can travel 16 km upstream in 1 hr, what time it would take to travel the same distance downstream?",
+      "solution": "b = 20\r\nu = 16\r\n\r\ns = 4\r\nd = 24\r\n\r\nTime taken to travel 16 km downstream\r\n\t= 16/24\r\n\t= 2/3\r\n\t= 40 mins"
+    },
+    {
+      "id": 53,
+      "answer": 0,
+      "answers": [
+        "7 km/hr",
+        "8.5 km/hr",
+        "9 km/hr",
+        "None of these"
+      ],
+      "question": "Speed of a man is 10 km/hr in still water. If the rate of current is 3 km/hr, then the effective speed of the man upstream is",
+      "solution": "u = 10-3 = 7 kmph"
+    },
+    {
+      "id": 54,
+      "answer": 2,
+      "answers": [
+        "2 : 1",
+        "3 : 2",
+        "3:1",
+        "1:3"
+      ],
+      "question": "A boat running upstream takes 8 hours to cover a certain distance, while it takes 4 hours to cover the same distance running downstream. What is the ratio between the speed of the boat and speed of the water current respectively?",
+      "solution": "Let the distance covered be x km.\r\n\r\nx/(b-s) = 8\r\nx/(b+s) = 4\r\n\r\n8(b-s) = 4(b+s)\r\n\r\n2b - 2s = b+s\r\n\r\nb = 3s\r\n\r\nb:s = 3:1"
+    },
+    {
+      "id": 55,
+      "answer": 3,
+      "answers": [
+        "1.2 km",
+        "1.8 km",
+        "2.4 km",
+        "3.6 km"
+      ],
+      "question": "The speed of a boat in still water in 15 km/hr and the rate of current is 3 km/hr. The distance travelled downstream in 12 minutes is",
+      "solution": "b = 15\r\ns = 3\r\nd = 18\r\n\r\nDistance in 12 mins\r\n\t= 18*12/60\r\n\t= 3.6 km"
+    },
+    {
+      "id": 56,
+      "answer": 0,
+      "answers": [
+        "2 mph",
+        "2.5 mph",
+        "3 mph",
+        "4 mph"
+      ],
+      "question": "A boat takes 90 minutes less to travel 36 miles downstream than to travel the same distance upstream. If the speed of the boat in still water is 10 mph, the speed of the stream is",
+      "solution": "b = 10\r\n\r\n36/(10-s) - 36/(10+s) = 90/60\r\n\r\n36*2s = 1.5*(100-s²)\r\n\r\n100-s² = 72s/1.5\r\n\r\ns²+48s-100 = 0\r\n\r\n(s-2)(s+50) = 0\r\n\r\ns = 2"
+    },
+    {
+      "id": 57,
+      "answer": 0,
+      "answers": [
+        "2.4 km",
+        "2.5 km",
+        "3 km",
+        "3.6 km"
+      ],
+      "question": "A man can row at 5 kmph in still water. If the velocity of current is 1 kmph and it takes him 1 hour to row to a place and come back, how far is the place?",
+      "solution": "Let the distance be x km.\r\n\r\nu = 4, d = 6\r\n\r\nx/4 + x/6 = 1\r\n\r\n5x = 12\r\n\r\nx = 2.4"
+    },
+    {
+      "id": 58,
+      "answer": 3,
+      "answers": [
+        "12 kmph",
+        "13 kmph",
+        "14 kmph",
+        "15 kmph"
+      ],
+      "question": "A boat covers a certain distance upstream in 1 hour 30 minutes, while it comes back in 1 hour. If the speed of the stream is 3 kmph, what is the speed of the boat in still water?",
+      "solution": "s = 3\r\n\r\nx/(b-3) = 1.5\r\nx/(b+3) = 1\r\n\r\n1.5(b-3) = b+3\r\n\r\n0.5b = 7.5\r\n\r\nb = 15"
+    },
+    {
+      "id": 59,
+      "answer": 2,
+      "answers": [
+        "3",
+        "5",
+        "8",
+        "9"
+      ],
+      "question": "In one hour, a boat goes 11 km along the stream and 5 km against the stream. The speed of the boat in still water in (km/hr) is",
+      "solution": "d = 11\r\nu = 5\r\n\r\nb = (u+d)/2 = 8"
+    },
+    {
+      "id": 60,
+      "answer": 3,
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "question": "A man can row three-quarters of a kilometer against the stream in 11¼ minutes. If the speed of the stream is 1 kmph, the speed (in km/hr) of the man in still water is",
+      "solution": "u = 0.75/(11.25/60)\r\n   = 4 kmph\r\n\r\nb = 5 kmph"
+    },
+    {
+      "id": 61,
+      "answer": 2,
+      "answers": [
+        "4.25 kmnph",
+        "6 kmph",
+        "6.5 kmph",
+        "8.5 kmph"
+      ],
+      "question": "If a man rows at the rate of 5 kmph in still water and his rate against the current is 3.5 kmph, then the man's rate along the current is",
+      "solution": "b = 5\r\nu = 3.5\r\n\r\ns = 1.5\r\nd = 6.5 kmph"
+    },
+    {
+      "id": 62,
+      "answer": 3,
+      "answers": [
+        "16 hours",
+        "18 hours",
+        "20 hours",
+        "24 hours"
+      ],
+      "question": "Speed of a boat in standing water is 9 kmph and the speed of the stream is 1.5 kmph. A man rows to a place at a distance of 105 km and comes back to the starting point. The total time taken by him is",
+      "solution": "b = 9\r\ns = 1.5\r\n\r\nu = 7.5\r\nd = 10.5\r\n\r\nTime taken\r\n\t= (105/10.5)+(105/7.5)\r\n\t= 10+14\r\n\t= 24  hours"
+    },
+    {
+      "id": 63,
+      "answer": 2,
+      "answers": [
+        "2",
+        "7",
+        "5",
+        "6"
+      ],
+      "question": "The effective speed of travel of a boat downstream is 20 kmph whereas it is 10 kmph upstream. What is the speed of the current in kmph?",
+      "solution": "d = 20\r\nu = 10\r\n\r\ns = (d-u)/2 = 5 kmph"
+    },
+    {
+      "id": 64,
+      "answer": 2,
+      "answers": [
+        "6.5 km/hr",
+        "7 km/hr",
+        "5 km/hr",
+        "None of these"
+      ],
+      "question": "A man can row with the stream at 7 km/hr and against the stream at 3 km/hr. His speed in still water is",
+      "solution": "d = 7\r\nu = 3\r\n\r\nb = (7+3)/2 = 5"
+    },
+    {
+      "id": 65,
+      "answer": 2,
+      "answers": [
+        "8.5 km/hr",
+        "9 km/hr",
+        "10 km/hr",
+        "12.5 km/hr"
+      ],
+      "question": "A man's speed with the current is 15 km/hr and the speed of the current is 2.5 km/hr. The man's speed against the current is",
+      "solution": "d = 15\r\ns = 2.5\r\n\r\nb = 12.5\r\nu = 10 kmph"
+    },
+    {
+      "id": 66,
+      "answer": 0,
+      "answers": [
+        "2.5",
+        "3",
+        "3.5",
+        "6"
+      ],
+      "question": "A man can row downstream at the rate of 15 km/hr and upstream at 10 km/hr. Find the rate of current in kmph.",
+      "solution": "d = 15\r\nu = 10\r\n\r\ns = (d-u)/2 = 2.5"
+    },
+    {
+      "id": 67,
+      "answer": 3,
+      "answers": [
+        "3.5 hours",
+        "1.5 hours",
+        "2.5 hours",
+        "2 hours"
+      ],
+      "question": "A swimmer covers a distance of 13 km against the current in 2 hours and a distance of 24 km in still water in 3 hours. Find the time taken by him to cover 19 km downstream.",
+      "solution": "u = 13/2 = 6.5\r\n\r\nSpeed in still water\r\n\t= 24/3 = 8\r\n\r\ns = 1.5\r\nd = 9.5\r\n\r\nTime taken to cover 19 km downstream\r\n\t= 19/9.5\r\n\t= 2 hours"
+    },
+    {
+      "id": 68,
+      "answer": 0,
+      "answers": [
+        "10 hours",
+        "12 hours",
+        "20 hours\r\n",
+        "24 hours"
+      ],
+      "question": "Speed of a boat in standing water is 9 kmph and the speed of the stream is 2 kmph. Find the time taken by the man to row downstream to a place at a distance of 110 km.",
+      "solution": "b = 9\r\ns = 2\r\nd = 11\r\n\r\nTime taken\r\n\t= 110/11\r\n\t= 10 hours"
+    },
+    {
+      "id": 69,
+      "answer": 0,
+      "answers": [
+        "22",
+        "23",
+        "25",
+        "24"
+      ],
+      "question": "The current of a stream runs at the rate of 2 km per hr. A motor boat goes 10 km upstream and back again to the starting point in 55 minutes. Find the speed of the motor boat in still water.",
+      "solution": "s = 2\r\n\r\n10/(b-2) + 10/(b+2) = 55/60\r\n\r\n10*2b = (b²-4)*11/12\r\n\r\n11b²-240b-44 = 0\r\n\r\n(11b+2)(b-22) = 0\r\n\r\nb = 22\r\n"
+    },
+    {
+      "id": 70,
+      "answer": 0,
+      "answers": [
+        "4 km",
+        "4.5 km",
+        "4.9 km",
+        "4.8 km"
+      ],
+      "question": "A man can row 6 kmph is still water. If the river is running at 2 kmph, it takes 90 minutes to row to a place and back. How far is the place?",
+      "solution": "b = 6\r\ns = 2\r\n\r\nu = 4\r\nd = 8\r\n\r\nx/4 + x/8 = 1.5\r\n\r\n3x = 1.5*8\r\n\r\nx = 4 km\r\n"
+    }
+  ]

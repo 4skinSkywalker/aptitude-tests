@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "answer": 1,
+    "answers": [
+      "5",
+      "21",
+      "33",
+      "60"
+    ],
+    "question": "There are 6 boxes numbered 1, 2,....6. Each box is to be filled up either with a red or a green ball in such a way that at least 1 box contains a green ball and the boxes containing green balls are consecutively numbered. The total number of ways in which this can be done is",
+    "solution": "1 box has green ball\r\n\tCan be any of the 6 boxes. This is possible in 6 ways.\r\n\r\n2 boxes have green balls\r\n\tThe boxes may be numbered as\r\n\t\t12, 23, 34, 45, 56\r\n\t5 ways\r\n\r\n3 boxes\r\n\t123, 234, 345, 456\r\n\t4 ways\r\n\r\n4 boxes\r\n\t1234,2345,3456\r\n\t3 ways\r\n\r\n5 boxes\r\n\t12345,23456\r\n\t2 ways\r\n\r\n6 boxes\r\n\t123456\r\n\t1 way\r\n\r\nTotal no. of ways\r\n\t= 6+5+4+3+2+1\r\n\t= 21"
+  },
+  {
+    "id": 2,
+    "answer": 0,
+    "answers": [
+      "1:2",
+      "2:1",
+      "1:3",
+      "3:1"
+    ],
+    "question": "In what ratio should a 20% methyl alcohol solution be mixed with a 50% methyl alcohol solution so that the resultant solution has 40% methyl alcohol in it?",
+    "solution": "Let x liters of the first solution be mixed with y liters of the second solution.\r\n\r\n\tAmount of methy alcohol in x liters of first solution\r\n\t\t= 0.2x\r\n\tAmount of methy alcohol in y liters of second solution\r\n\t\t= 0.5y\r\n\r\n\t(0.2x+0.5y)/(x+y) = 40/100\r\n\r\n\t0.2x+0.5y = 0.4x+0.4y\r\n\r\n\t0.1y = 0.2x\r\n\r\n\tx:y = 0.1:0.2 = 1:2"
+  },
+  {
+    "id": 3,
+    "answer": 1,
+    "answers": [
+      "2601",
+      "2500",
+      "2525",
+      "2704"
+    ],
+    "question": "A lady grows cabbages in her garden that is in the shape of a square. Each cabbage takes 1 square feet of area in her garden. This year, she has increased her output by 101 cabbages as compared to last year. The shape of the area used for growing the cabbages has remained a square in both these years. How many cabbages did she produce last year?",
+    "solution": "Let the side of the square area used for growing cabbages this year be x cm.\r\n\tArea = x² square cm\r\n\r\nLet the side of the square area used for growing cabbages this year be y cm.\r\n\tArea = y² square cm\r\n\r\nEach cabbage occupies 1 square feet.\r\n\tSince, the number of cabbages has increased by 101,\r\n\tthe area should also have increased by 101 square feet.\r\n\r\nx² - y² = 101\r\n\r\n(x+y)(x-y) = 101\r\n\r\n101 is a prime number and hence has only two factors (101 and 1).\r\n\r\nx + y = 101\r\nx - y = 1\r\n\r\nSolving, x = 51, y = 50\r\n\r\nNumber of cabbages produced last year\r\n\t= y²\r\n\t= 50²\r\n\t= 2500"
+  },
+  {
+    "id": 4,
+    "answer": 2,
+    "answers": [
+      "Feb 6, 2013",
+      "Feb 7, 2013",
+      "Feb 8, 2013",
+      "Feb 9, 2013"
+    ],
+    "question": "Three Vice Presidents (VP) regularly visit the plant on different days. Due to labour unrest, VP (HR) regularly visits the plant after a gap of 2 days. VP (Operations) regularly visits the plant after a gap of 3 days. VP (sales) regularly visits the plant after a gap of 5 days. The VPs do not deviate from their individual schedules. CEO of the company meets the VPs when all the three VPs come to the plant together. CEO is on leave from January 5th to January 28th, 2013. Last time, CEO met the VPs on January 3, 2013. When is the next time CEO will meet all the VPs?",
+    "solution": "VP(HR) visits every 3rd day after a gap of 2 days.\r\n\r\nVP(Operations) visits every 4th day after a gap of 3 days.\r\n\r\nVP(Sales) visits every 6th day after a gap of 5 days.\r\n\r\nLCM(3,4,6) = 12\r\n\r\nThe three VPs come to the plant together every 12th day.\r\n\r\nThe last time they met was Jan 3, 2013.\r\n\tThey meet next on Jan 15, Jan 27, Feb 8.\r\n\r\nSince, the CEO is on leave from Jan 5 to Jan 28, they meet the CEO only on\r\n\tFeb 8, 2013."
+  },
+  {
+    "id": 5,
+    "answer": 2,
+    "answers": [
+      "820",
+      "821",
+      "781",
+      "819"
+    ],
+    "question": "The integers 1, 2, ... , 40 are written on a blackboard. The following operation is then repeated 39 times: In each repetition, any two numbers, say a and b, currently on the blackboard are erased and a new number a + b - 1 is written. What will be the number left on the board at the end?",
+    "solution": "1, 2, 3, ........, 40 are written.\r\n\r\nLets first take 1 and 2.\r\n\t1 and 2 are replaced by (1+2-1).\r\n\r\nThen, lets take (1+2-1) and 3.\r\n\tThey are replaced by (1+2-1+3-1) = (1+2+3)-2\r\n\r\nThen, (1+2+3)-2 and 4 are replaced by\r\n\t(1+2+3+4)-3\r\n\r\nThis is done 39 times. The number left on the board will be\r\n\t(1+2+3+4+....+40)-39\r\n\t\t= (40*41)/2 - 39\r\n\t\t= 820-39\r\n\t\t= 781"
+  },
+  {
+    "id": 6,
+    "answer": 3,
+    "answers": [
+      "5 cm",
+      "2 cm",
+      "4 cm",
+      "3 cm"
+    ],
+    "question": "A cylinder, 6 cms in diameter and 6 cms in height, is melted and identical spheres are made from the material obtained. If no material was wasted, what is the diameter of each sphere?",
+    "solution": "Volume of the cylinder\r\n\t= πr²h\r\n\t= π*3*3*6\r\n\t= 54π\r\nVolume of a sphere\r\n\t= (4/3)πr³\r\n\t= (4/3)π(d/2)³\r\n\t= πd³/6\r\nLet n identical spheres be made.\r\n\r\n\tn*πd³/6 = 54π\r\n\tnd³ = 54*6\r\n\r\nn should be an integer.\r\n\r\nWe substitute the given options for d.\r\n\r\nIf d=5, n would not be an integer.\r\n\r\nIf d=2,\r\n\tn=54*6/8 = 40.5\r\n\r\nIf d=3,\r\n\tn=54*6/27 = 12\r\n\r\nHence, d=3 cm"
+  },
+  {
+    "id": 7,
+    "answer": 2,
+    "answers": [
+      "22",
+      "27",
+      "26",
+      "25"
+    ],
+    "question": "If 9 engines consume 24 metric tonnes of coal, when each is working 8 hours a day, how many metric tonnes of coal will be required for 8 engines, each running 13 hours a day, it being given that 3 engines of the former type consume as much as 4 engines of latter type?",
+    "solution": "3 engines of first type consume as much power as\r\n\t4 engines of second type.\r\nLet 3 engines of the first type consume 1 unit of power in 1 hour.\r\n\r\n1 engine of the former type consumes 1/3 unit in 1 hour.\r\n1 engine of the latter type consumes 1/4 unit in hour.\r\n\r\nAmount of coal is\r\n\tdirectly proportional to no. of engines.\r\n\tdirectly proportional to no. of working hours.\r\n\tdirectly proportional to rate of power consumption.\r\n\r\nAmount of coal required\r\n\t= (8/9)*(13/8)*[(1/4)/(1/3)]*24\r\n\t= (8*13*3*24)/(9*8*4)\r\n\t= 26 metric tonnes"
+  },
+  {
+    "id": 8,
+    "answer": 1,
+    "answers": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "question": "A contractor has two parallel contracts, contract 1 and contract 2, on which work needs to be finished in a specified number of days. He puts all his group of workers on contract 1. To be able to finish contract2 also on time, he withdraws one worker each day, from the second day onwards, from contract1 to work on contract 2. Work on contract 1 finishes when the last worker is withdrawn. Had no worker been withdrawn at any stage, work on contract 1 would have finished in 55% of the time it actually took to finish the work. What is the total number of workers in the contractors group?",
+    "solution": "Let the total number of workers be x.\r\n\tThe work was also completed in x days.\r\n\r\nFirst day - x workers\r\nSecond day - (x-1)\r\nThird day - (x-2)\r\n.............\r\nxth day - 1\r\n\r\nLet the amount of work put in a worker in a day be 1 unit.\r\n\r\nTotal work\r\n\t= x+(x-1)+(x-2)+.........+1\r\n\t= x(x+1)/2\r\n\r\nIf x workers had worked every day,\r\n\tx units of work would be completed daily.\r\n\r\nNo. of days needed to finish x(x+1)/2 units of work\r\n\t= (x+1)/2\r\n\r\n(x+1)/2 = 55% of x = 0.55x\r\n\r\nx+1 = 1.1x\r\n0.1x = 1\r\nx = 10"
+  },
+  {
+    "id": 9,
+    "answer": 1,
+    "answers": [
+      "2",
+      "3",
+      "6",
+      "12"
+    ],
+    "question": "Find the value of √(6+√(6+√(6+....)))",
+    "solution": "Let x=√(6+√(6+√(6+....)))\r\n\r\nx = √(6+x)\r\n\r\nSquaring on both sides,\r\n\tx² = 6+x\r\n\tx²-x-6=0\r\n\t(x-3)(x+2) = 0\r\nx = 3,-2"
+  },
+  {
+    "id": 10,
+    "answer": 1,
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "question": "The interior angles of a polygon are in A.P. If the smallest angle is 100° and the common difference is 4°, the  number of sides is",
+    "solution": "The sum of the interior angles of a polygon \r\n\t= (n-2)*180\r\n\r\nLet the number of sides be n.\r\n\r\nThe angles of the polygon are in AP.\r\n\r\n\ta = 100\r\n\td = 4\r\n\r\nThe sum of n terms of an AP\r\n\tSn  = n/2*[2a+(n-1)d]\r\n\r\nSum of all angles\r\n\t= n/2 * [200+(n-1)4]\r\n\t= 100n + 2n(n-1)\r\n\t= 2n² + 98n\r\n\r\n2n² + 98n = 180(n-2)\r\n\r\n2n² - 82n +360 = 0\r\n\r\nn² - 41n +180 = 0\r\n\r\n(n-36)(n-5) = 0\r\n\r\nFrom the given options, 5 is the right answer."
+  }]

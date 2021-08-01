@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "answer": 1,
+    "answers": [
+      "Rs.250",
+      "Rs.255",
+      "Rs.275",
+      "Rs.280"
+    ],
+    "question": "A and B started a business in partnership. A invested Rs.2000 for six months and B invested Rs.1500 for 8 months. What is the share of A in total profit of Rs.510?",
+    "solution": "Ratio of profit sharing between A and B\r\n\t= (2000*6):(1500*8)\r\n\t= 1:1\r\nA's share\r\n\t= 510/2\r\n\t= 255"
+  },
+  {
+    "id": 2,
+    "answer": 0,
+    "answers": [
+      "25%",
+      "20%",
+      "10%",
+      "4%"
+    ],
+    "question": "The CP of 20 articles is equal to the SP of 16 articles. Find the gain %.",
+    "solution": "Let the CP of an article be Rs.x\r\n\r\nCP of 20 articles = Rs.20x\r\n\r\nSP of 16 articles = Rs.20x\r\n\r\nSP of 1 article\r\n\t= 20x/16\r\n\t= 5x/4\r\n\r\nGain = (5x/4)-x = x/4\r\n\r\nGain%\r\n\t= [(x/4)/x]*100\r\n\t= 25%"
+  },
+  {
+    "id": 3,
+    "answer": 1,
+    "answers": [
+      "9450",
+      "9765",
+      "9865",
+      "9550"
+    ],
+    "question": "Which of the following is the largest 4-digit number which is exactly divisible by 7, 9 and 15?",
+    "solution": "LCM(7,9,15)=315\r\n\r\nOn dividing 9999 by 315,\r\n\tthe remainder obtained is 234.\r\n\r\n9999-234=9765"
+  },
+  {
+    "id": 4,
+    "answer": 1,
+    "answers": [
+      "25",
+      "125",
+      "225",
+      "250"
+    ],
+    "question": "The product of two positive numbers is 2500. If one number is 4 times the other, find the sum of the two numbers.",
+    "solution": "xy = 2500\r\n\r\nx = 4y\r\n\r\n4y² = 2500\r\n\r\ny²=625\r\n\r\ny=25\r\nx=100\r\n\r\nx+y=125"
+  },
+  {
+    "id": 5,
+    "answer": 3,
+    "answers": [
+      "8 hours",
+      "7 hours",
+      "13/3 hours",
+      "14 hours"
+    ],
+    "question": "A pump can fill a tank with water in two hours. Because of a leak in the tank, it was taking 2(1/3) hours to fill the tank. In how many hours can the leak drain all the water off the tank?\r\n",
+    "solution": "Part of tank filled in 1 hour by the pump\r\n\t= 1/2\r\nPart of tank filled in 1 hour due to the leak\r\n\t= 1/(2(1/3))\r\n\t= 3/7\r\nPart of tank emptied by the leak in 1 hour\r\n\t= (1/2)-(3/7)\r\n\t= 1/14\r\nThe leak can empty the tank in 14 hours."
+  },
+  {
+    "id": 6,
+    "answer": 1,
+    "answers": [
+      "2/5",
+      "1/5",
+      "3/5",
+      "4/5"
+    ],
+    "question": "The probability that A will clear his interview is 3/5 and the probability that B will clear his interview is 2/3. Find the probability that only A clears his interview.",
+    "solution": "P(A clearing) = 3/5\r\n\r\nP(B not clearing) = 1 - 2/3 = 1/3\r\n\r\nP(only A clearing)\r\n\t= (3/5)*(1/3)\r\n\t= 1/5"
+  },
+  {
+    "id": 7,
+    "answer": 3,
+    "answers": [
+      "3.62 mins",
+      "7.24 mins",
+      "21 mins",
+      "24.62 mins"
+    ],
+    "question": "Pipe A can fill a tank in 30 mins and Pipe B can fill it in 28 mins. If 3/4th of the tank is filled by Pipe B alone and both are opened, how much time is required by both the pipes to fill the tank completely?\r\n ",
+    "solution": "Pipe B can fill a tank in 28 mins.\r\n\r\nIt can fill 3/4 th of a tank in \r\n\t28*3/4 = 21 mins\r\nPart of tank filled by Pipe A and Pipe B in 1 minute\r\n\t= (1/30)+(1/28)\r\n\t= 58/840\r\n1/4 of the tank is filled in\r\n\t(1/4) / (58/840)\r\n\t\t= 105/29\r\n\t\t= 3.62 mins\r\nTotal time to fill the tank\r\n\t= 24.62 mins"
+  },
+  {
+    "id": 8,
+    "answer": 3,
+    "answers": [
+      "Rs.154.50",
+      "Rs.155.50",
+      "Rs.156.50",
+      "Rs.157.50"
+    ],
+    "question": "If A lends Rs. 3500 to B at 10% p.a. and B lends the same sum to C at 11.5% p.a. then the gain of B (in Rs.) in a period of 3 years is",
+    "solution": "Difference in interest rates = 1.5%\r\n\r\nAmount gained by B in 3 years\r\n\t= 3500*3*1.5/100\r\n\t= Rs.157.50"
+  },
+  {
+    "id": 9,
+    "answer": 3,
+    "answers": [
+      "$800.30",
+      "$833.60",
+      "$842.35",
+      "$862.50"
+    ],
+    "question": "After purchasing a flat screen television for $750, John realizes that he got a great deal on it and wishes to sell it for a 15% profit. What should his asking price be for the television?",
+    "solution": "Profit = 15%\r\n\r\nAsking price\r\n\t= 115% of 750\r\n\t= $ 862.50"
+  },
+  {
+    "id": 10,
+    "answer": 1,
+    "answers": [
+      "100 miles",
+      "500 miles",
+      "700 miles",
+      "1000 miles"
+    ],
+    "question": "If two planes leave the same airport at 1:00 PM, how many miles apart will they be at 3:00 PM if one travels directly north at 150 mph and the other travels directly east at 200 mph?",
+    "solution": "Distance travelled by the first plane in 2 hours\r\n\t= 300 miles North\r\nDistance travelled by the second plane in 2 hours\r\n\t= 400 miles East\r\n\r\n\t\r\n\t|\r\n\t| 300\r\n\t|\r\n\t|______________\r\n\t         400\r\n\r\nDistance between them\r\n\t= √[(300)²+(400)²]\r\n\t= 500 miles"
+  }]

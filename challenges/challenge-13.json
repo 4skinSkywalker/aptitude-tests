@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "answer": 0,
+    "answers": [
+      "0.9WL",
+      "10WL",
+      "0.1WL",
+      "9WL"
+    ],
+    "question": "What is the cost in dollars to steam clean a room W yards wide and L yards long if the steam cleaners charge 10 cents per square foot? (1 yard=3 feet)",
+    "solution": "1 yard = 3 feet\r\n\r\nWidth of the room\r\n\t= 3W feet\r\nLength of the room\r\n\t= 3L feet\r\nArea of the room\r\n\t= 9WL square feet\r\nCost\r\n\t= 0.1*9WL\r\n\t= 0.9WL $"
+  },
+  {
+    "id": 2,
+    "answer": 3,
+    "answers": [
+      "5.85%",
+      "75.85%",
+      "80.6%",
+      "93.75%"
+    ],
+    "question": "Two numbers are respectively 25% and 20% less than a third number. What percent is the first number of the second?",
+    "solution": "Let the three numbers be x, y and z.\r\n\r\nx = 0.75z\t\tz = x/0.75\r\ny = 0.8z\t\tz = y/0.8\r\n\r\nx/0.75 = y/0.8\r\n\r\nx = 75y/80\r\n   = 0.9375y\r\n   = 93.75% of y"
+  },
+  {
+    "id": 3,
+    "answer": 3,
+    "answers": [
+      "2.5 hours",
+      "3 hours",
+      "3.33 hours",
+      "3.5 hours"
+    ],
+    "question": "In a journey of 150 km, 2/3 of the distance was travelled with 40 kmph and remaining with 50 kmph. How much time did the journey take?",
+    "solution": "Time taken to travel 100 km\r\n\t= 100/40\r\n\t= 2.5 hours\r\nTime taken to travel the next 50 km\r\n\t= 50/50\r\n\t= 1 hour\r\nTotal time\r\n\t= 3.5 hours"
+  },
+  {
+    "id": 4,
+    "answer": 0,
+    "answers": [
+      "10",
+      "11",
+      "12",
+      "15"
+    ],
+    "question": "A piece of cloth cost Rs.35. If the length of the piece would have been 4m longer and each meter cost Rs.1 less, the cost would have remained unchanged. How long is the piece?",
+    "solution": "Let the length of the piece of cloth be x meters and\r\n\tthe cost per meter be Rs.y\r\n\r\nxy = 35\r\n\r\n(x+4)(y-1) = xy = 35\r\n\r\nxy-x+4y-4 = xy\r\n\r\nx-4y = -4\r\n\r\nx-4*(35/x) = -4\r\n\r\nx²-140 = -4x\r\n\r\nx²+4x-140 = 0\r\n\r\n(x+14)(x-10) = 0\r\n\r\nx=10"
+  },
+  {
+    "id": 5,
+    "answer": 1,
+    "answers": [
+      "20 days",
+      "22.5 days",
+      "25 days",
+      "30 days"
+    ],
+    "question": "A works thrice as much as B. If A takes 60 days less than B to do a work then find the number of days it would take to complete the work if both work together?",
+    "solution": "Let the number of days taken by A and B to complete the work be a and b.\r\n\r\nPart of work completed by A in a day\r\n\t= 1/a\r\nPart of work completed by B in a day\r\n\t= 1/b\r\n\r\n1/a = 3/b\r\nb = 3a\r\n\r\nb-a = 60\r\n2a = 60\r\na = 30\r\nb = 90\r\n\r\nPart of work completed by them together in a day\r\n\t= (1/a)+(1/b)\r\n\t= (1/30)+(1/90)\r\n\t= 4/90\r\n\r\nNo. of days\r\n\t= 90/4 = 22.5"
+  },
+  {
+    "id": 6,
+    "answer": 3,
+    "answers": [
+      "40%",
+      "55%",
+      "35%",
+      "50%"
+    ],
+    "question": "If on an item, a company gives 25% discount, they earn 25% profit. If they give a discount of 10%, then find their gain %.",
+    "solution": "Let \r\n\tthe cost price of the item be Rs.x and \r\n\tthe selling price of the article be Rs.y\r\n\r\n1.25x = 0.75y\r\n\r\nx = 0.6y\r\n\r\nPrice after a discount of 10%\r\n\t= 0.9y\r\n\r\nGain = 0.3y\r\n\r\nGain%\r\n\t= (0.3y/0.6y)*100\r\n\t= 50%"
+  },
+  {
+    "id": 7,
+    "answer": 1,
+    "answers": [
+      "1/16",
+      "1/8",
+      "3/16",
+      "1/4"
+    ],
+    "question": "Two integers are randomly selected from the sets below, one integer from set A and the other from set B.\r\n\tA = {6,2,4,7}\r\n\tB = {3,8,2,5}\r\nWhat is the probability that the sum of the two integers selected is equal to 10?",
+    "solution": "No. of ways in which 2 integers can be selected\r\n\t= 4*4\r\n\t= 16\r\nOf these,\r\n\t2+8=10\r\n\t7+3=10\r\nNo. of ways in which sum equals 10 = 2\r\n\r\nProbability\r\n\t= 2/16\r\n\t= 1/8"
+  },
+  {
+    "id": 8,
+    "answer": 2,
+    "answers": [
+      "Rs.3500",
+      "Rs.3000",
+      "Rs.2500",
+      "Rs.4000"
+    ],
+    "question": "Mohinder and Surinder entered into a partnership investing Rs.12000 and Rs.9000 respectively. After 3 months, Sudhir joined them with an investment of Rs.15000. What is the share of Sudhir in a half yearly profit of Rs. 9500?",
+    "solution": "Mohinder and Surinder have invested for 6 months while Sudhir has invested for just 3 months.\r\n\r\nRatio of profit shares between Mohinder, Surinder and Sudhir\r\n\t= (12*6):(9*6):(15*3)\r\n\t= 72:54:45\r\n\t= 8:6:5\r\n\r\nSudhir's share\r\n\t= (5/19)*9500\r\n\t= Rs.2500"
+  },
+  {
+    "id": 9,
+    "answer": 2,
+    "answers": [
+      "5",
+      "9",
+      "15",
+      "18"
+    ],
+    "question": "Three numbers are in the ratio 2:5:3. The sum of their squares is equal to 342. Find the largest number.",
+    "solution": "Let the three numbers be 2x, 5x and 3x.\r\n\r\n(2x)²+(5x)²+(3x)² = 342\r\n\r\n4x²+25x²+9x² = 342\r\n\r\n38x² = 342\r\n\r\nx² = 9\r\n\r\nx=3\r\n\r\n5x=15"
+  },
+  {
+    "id": 10,
+    "answer": 1,
+    "answers": [
+      "0.8 days",
+      "1.09 days",
+      "1.23 days",
+      "1.65 days"
+    ],
+    "question": "If Carl can do a job in 4 days that Jean can do in 6 days and Fred can do in 2 days, how long would the job take if all three of them worked together to complete it?",
+    "solution": "Part of work completed by all three in a day\r\n\t= (1/4)+(1/6)+(1/2)\r\n\t= 11/12\r\nNo. of days taken to complete the work\r\n\t= 12/11 days\r\n\t= 1.09 days"
+  }]

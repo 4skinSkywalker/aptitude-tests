@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "answer": 1,
+    "answers": [
+      "30",
+      "31",
+      "32",
+      "38"
+    ],
+    "question": "If 5x-3y=4, what is the smallest integer value of x for which y>50?",
+    "solution": "5x-3y=4\r\n\r\n3y = 5x-4\r\n\r\ny = (5x-4)/3\r\n\r\n(5x-4)/3 > 50\r\n\r\n5x-4 > 150\r\n\r\n5x > 154\r\n\r\nx>30.8"
+  },
+  {
+    "id": 2,
+    "answer": 1,
+    "answers": [
+      "20 liters",
+      "25 liters",
+      "28 liters",
+      "30 liters"
+    ],
+    "question": "Five liters of water is added to a certain quantity of pure milk, which costs Rs.3 per liter. If the mixture is sold at the same price of Rs.3 per liter, a profit of 20% is made (ignore the cost of water). What is the amount of pure milk in the mixture?",
+    "solution": "Let the amount of pure milk be x liters.\r\n\r\nCost of milk=Rs.3x\r\n\r\nAfter adding 5 liters of water,\r\n\tthe mixture is sold at Rs.3(x+5) = 3x+15\r\n\r\nGain = Rs.15\r\nGain% = 20\r\n\r\n(15/3x)*100 = 20\r\nx=25"
+  },
+  {
+    "id": 3,
+    "answer": 0,
+    "answers": [
+      "12:48",
+      "12:38",
+      "12:28",
+      "12:25"
+    ],
+    "question": "A clock is set right at 8 a.m. The clock gains 10 minutes in 24 hours. What will be the true time when the clock indicates 1 p.m. on the following day?",
+    "solution": "Time from 8 am on the first day to 1 pm on the next day\r\n\t= 24+5\r\n\t= 29 hours\r\n\r\n24 hours 10 mins of this clock\r\n\t= 24 hours of normal clock\r\n24+(10/60) = 145/6\r\n\r\n(145/6) hrs of this clock\r\n\t= 24 hrs of normal clock\r\n29 hrs of this clock\r\n\t= 24*(6/145)*29\r\n\t= 28.8 hrs of normal clock\r\n0.2 hrs lesser\r\n\r\n0.2*60=12 minutes\r\n\r\nThe correct time is 12:48."
+  },
+  {
+    "id": 4,
+    "answer": 0,
+    "answers": [
+      "4",
+      "7",
+      "8",
+      "Not possible"
+    ],
+    "question": "There are 10 identical coins and each one of them has 'H' engraved on its one face and 'T' engraved on its other face. These 10 coins are lying on a table and each one of them has 'H' face as the upper face. In one attempt, exactly four (neither more nor less) coins can be turned upside down. What is the minimum total number of attempts in which the 'T' faces of all the 10 coins can be brought to be the upper faces?",
+    "solution": "Attempt 1:\r\n\t4 coins are turned.\r\nNow,\r\n\t4 T, 6 H\r\n\r\nAttempt 2:\r\n\tFour more coins are turned.\r\nNow,\r\n\t8 T, 2 H\r\n\r\nAttempt 3:\r\n\t1 coin from the remaining 2 and 3 from the already turned ones.\r\nNow\r\n\t6 T, 4 H\r\n\r\nAttempt 4:\r\n\t4 coins are turned.\r\n\t10 T, 0 H"
+  },
+  {
+    "id": 5,
+    "answer": 3,
+    "answers": [
+      "Rs.280",
+      "Rs.330",
+      "Rs.840",
+      "Rs.930"
+    ],
+    "question": "An amount of Rs.1540 is to be divided among A,B and C in such a way that A shall receive 2/9 as much as B and C together, and B's share is 3/11 of what A and C together receive. Find C's share.",
+    "solution": "A = (2/9)*(B+C)\r\n\r\nA/(B+C) = 2/9\r\nA+B+C=1540\r\n\r\nA's share\r\n\t= (2/11)*1540\r\n\t= 280\r\n\r\nB = (3/11)*(A+C)\r\nB's share\r\n\t= (3/14)*1540\r\n\t= 330\r\n\r\nC's share\r\n\t= 1540-280-330\r\n\t= Rs.930\r\n"
+  },
+  {
+    "id": 6,
+    "answer": 0,
+    "answers": [
+      "18",
+      "20",
+      "24",
+      "30"
+    ],
+    "question": "A and B can do a piece of work in 90 days and 80 days respectively. They began to do the work together but A leaves after some days and then B completed the remaining work in 46 days. The number of days after which A left the work was",
+    "solution": "Part of work completed by A and B in a day\r\n\t= (1/90)+(1/80)\r\n\t= 17/720\r\nIf A had left after x days,\r\n\tPart of work completed in x days\r\n\t\t= 17x/120\r\nPart of work completed by B in 46 days\r\n\t= 46/80\r\n(17x/720)+(46/80) = 1\r\n\r\n17x/720 = 34/80\r\n\r\nx=18"
+  },
+  {
+    "id": 7,
+    "answer": 2,
+    "answers": [
+      "$ 8000",
+      "$ 5000",
+      "$ 3000",
+      "$ 2000"
+    ],
+    "question": "Mary and Mike enter into a partnership by investing $700 and $300 respectively. At the end of one year, they divided their profits such that a third of the profit is divided equally for the efforts they have put into the business and the remaining amount of profit is divided in the ratio of the investments they made in the business. If Mary received $800 more than Mike did, what was the profit made by their business in that year?",
+    "solution": "Let the profit made be $x\r\n\r\nAmount shared equally = $(x/3)\r\n\r\nThe remaining $(2x/3) is shared between Mary and Mike in the ratio\r\n\t700:300 = 7:3\r\n\r\nMary gets (7/10)th of $(2x/3) and\r\nMike gets (3/10)th of $2x/3\r\n\r\nDifference\r\n\t= (4/10)th of 2x/3 = 800\r\n\r\nx = (800*10*3)/(4*2)\r\n   = $ 3000"
+  },
+  {
+    "id": 8,
+    "answer": 3,
+    "answers": [
+      "3/8",
+      "6/25",
+      "1/8",
+      "3/32"
+    ],
+    "question": "Three persons entered into the lift cabin on the ground floor of a 5 floor apartment. Suppose that each of them independently and with equal probability can leave the cabin at any floor begining with the first, the probability of all 3 persons leaving at different floors is",
+    "solution": "The apartment has 5 floors.\r\n\r\nExcluding the ground floor, there are four floors.\r\n\r\nEach person has to leave the cabin at different floors.\r\n\r\nThe first person can get leave the cabin in 4 different ways,\r\n\tthe second in 3 ways,\r\n\tthe third in 2 ways and\r\n\tthe fourth in 1 way.\r\n\r\nNo. of ways\r\n\t= 4*3*2*1\r\n\r\nTotal no. of ways of leaving the cabin\r\n\t= 4*4*4*4\r\n\r\nProbability\r\n\t= (4*3*2*1)/(4*4*4*4)\r\n\t= 3/32"
+  },
+  {
+    "id": 9,
+    "answer": 2,
+    "answers": [
+      "4800",
+      "6400",
+      "8000",
+      "7200"
+    ],
+    "question": "Amit and Sujit together can complete an assignment of data in 5 days. Sujit's speed is 80% of Amit's speed and the total key depressions in the assignment are 5,76,000. What is Amit's speed in key depression per hour if they work 8 hours a day?",
+    "solution": "Let Sujit's speed and Amit's speed be S and A key depressions per hour.\r\n\r\nS = 0.8A\r\n\r\n(S+A)*8*5 = 576000\r\n\r\n40*(1.8A) = 576000\r\n\r\nA = 8000"
+  },
+  {
+    "id": 10,
+    "answer": 3,
+    "answers": [
+      "80 pounds",
+      "90 pounds",
+      "300 pounds",
+      "270 pounds"
+    ],
+    "question": "A cubical block of metal weighs 10 pounds. How much will another cube of the same metal weigh if its sides are thrice as long?",
+    "solution": "Let the side of the cube be a cm\r\n\r\nVolume of the cube\r\n\t= a³ cubic cm\r\n\r\nSide of the other cube\r\n\t= 3a cm\r\nVolume of the cube\r\n\t= (3a)³\r\n\t= 27a³ cubic cm\r\n\r\na³ cubic cm of the metal weighs 10 pounds\r\n\r\n27a³ cubic cm of the metal weighs 270 pounds."
+  }]

@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "answer": 0,
+    "answers": [
+      "28.56%",
+      "35%",
+      "22.22%",
+      "25.39%"
+    ],
+    "question": "After allowing a discount of 11.11%, a trader still makes a gain of 14.28%. At how many percent above the cost price does he mark his goods?",
+    "solution": "Let the cost price be Rs.x and \r\n\tthe marked price be Rs.y\r\n\r\nAfter discount of 11.11%, the price is equal to 14.28% profit on cost price.\r\n\t(100-11.11)% of y = (100+14.28)% of x\r\n\r\n\t0.8889 y = 1.1428 x\r\n\r\n\ty = (1.1428/0.8889) x\r\n\t   = 1.2856 x"
+  },
+  {
+    "id": 2,
+    "answer": 0,
+    "answers": [
+      "5170",
+      "5160",
+      "5120",
+      "4096"
+    ],
+    "question": "A school bus travels from Veldhoven to Roosendaal. There are four children in the bus. Each child has four backpacks with him. There are four dogs sitting in each backpack. Every dog has four puppies with her. All these dogs have four legs, with four toes at each leg. What is the total number of toes in the bus?",
+    "solution": "Driver of the bus\r\n\t1*10=10 toes\r\n\t\r\nChildren\r\n\t4*10=40 toes\r\nDogs\r\n\t4 children * 4 backpacks * 4 dogs * 4 legs * 4 toes\r\n\t\t= 1024\r\nPuppies\r\n\t4 children * 4 backpacks * 4 dogs * 4 puppies * 4 legs * 4 toes\r\n\t\t= 4096"
+  },
+  {
+    "id": 3,
+    "answer": 2,
+    "answers": [
+      "196",
+      "216",
+      "256",
+      "296"
+    ],
+    "question": "An equilateral triangular plate is to be cut into n number of identical small equilateral triangular plates. Which one of the following can be a possible value of n?",
+    "solution": "Minimum no. of identical small equilateral triangles that can be cut is 4. (1 at the top, 3 at the bottom).\r\n\r\nThese 4 can be cut into 4 small triangles each.\r\n\tHence, the next value is 4*4 = 16\r\n\r\nHence, the number of identical small triangles that can be cut is of the form 4^n.\r\n\r\n256=4^4"
+  },
+  {
+    "id": 4,
+    "answer": 3,
+    "answers": [
+      "8%",
+      "16%",
+      "16.16%",
+      "16.64%"
+    ],
+    "question": "The population of a city increases at the rate of 4% p.a. There is an additional annual increase of 4% of the population due to the influx of job seekers. Find the % increase in population after 2 years.",
+    "solution": "Let the population be x.\r\n\r\nIncrease in population in 1 year\r\n\t= 4% + 4%\r\n\t= 8%\r\nPopulation after 1 year\r\n\t= 1.08x\r\nPopulation after 2 years\r\n\t= 1.08*1.08x\r\n\t= 1.1664x\r\n\r\n% increase in population\r\n\t= 16.64%"
+  },
+  {
+    "id": 5,
+    "answer": 0,
+    "answers": [
+      "100",
+      "180",
+      "200",
+      "400"
+    ],
+    "question": "The students in three classes are in the ratio of 2:3:5. If 20 students are increased in each class, the ratio changes to 4:5:7. Originally, the total number of students was ______.",
+    "solution": "Let the number of students in the three classes initially be 2x, 3x and 5x.\r\n\r\nTotal no. of students = 10x\r\n\r\n20 students are added to each class.\r\n\t2x+20, 3x+20, 5x+20\r\n\r\nRatio of students in the first class\r\n\t= 4/(4+5+7)\r\n\t= 4/16\r\n\t= 1/4\r\n\r\n(2x+20)/(10x+60) = 1/4\r\n\r\n8x+80 = 10x+60\r\n\r\n2x=20\r\nx=10\r\n\r\nNo. of students\r\n\t= 10x\r\n\t= 100"
+  },
+  {
+    "id": 6,
+    "answer": 0,
+    "answers": [
+      "27",
+      "36",
+      "72",
+      "112"
+    ],
+    "question": "A credit card number has 6 digits (between 1 to 9). The first two digits are 12 in that order, the third digit is bigger than 6, the fourth is divisible by 3 and the fifth digit is 3 times the sixth. How many different credit card numbers exist?",
+    "solution": "The first two digits are given.\r\n\r\nThree options for the third digit - 7, 8 or 9\r\n\r\nThree options for the fourth digit - 3,6 or 9\r\n\r\nThree options for the fifth and sixth digits\r\n\t- 31, 62 or 93\r\n\r\nNo. of different card numbers\r\n\t= 3*3*3\r\n\t= 27"
+  },
+  {
+    "id": 7,
+    "answer": 3,
+    "answers": [
+      "1/3",
+      "2/9",
+      "1/8",
+      "1/5"
+    ],
+    "question": "At the start of a game of cards, J and B together had four times as much money as T, while T and B together had three times as much as J. At the end of evening, J and B together had three times much money as T, while T and B together had twice as much as J. B lost Rs.200. What fraction of the total money did T have at the begining of the game?",
+    "solution": "Let the total money be Rs.x.\r\n\r\nJ+B+T = x\r\n\r\nJ+B = 4T\r\n\r\n4T+T=x\r\n\r\nT = x/5\r\n\r\nT had (1/5)th of the total amount."
+  },
+  {
+    "id": 8,
+    "answer": 0,
+    "answers": [
+      "357",
+      "277",
+      "356",
+      "267"
+    ],
+    "question": "Two boys begin together to write out a booklet containing 535 lines. The first boy starts with the first line, writing at the rate of 100 lines an hour; and the second starts with the last line then writes line 534 and so on, backward proceeding at the rate of 50 lines an hour. At what line will they meet?",
+    "solution": "No. of lines written by the two boys in 1 hour\r\n\t= 100:50\r\n\t= 2:1\r\nLet the number of lines written by them when they meet be 2x and x.\r\n\r\n2x+x = 535\r\n\r\n3x = 535\r\n\r\n2x = 535*(2/3) = 356.67\r\n\r\nThe first boy was writing the 357th line when they met."
+  },
+  {
+    "id": 9,
+    "answer": 1,
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "question": "Which of the following figures has the largest area?\r\n(A) A circle of radius 3.5 cm\r\n(B) A rectangle whose length is 13 cm and breadth 3 cm\r\n(C) A triangle whose sides have lengths 3 cm, 4 cm and 5 cm\r\n(D) A square whose side is 6 cm",
+    "solution": "Circle\r\n\tArea = πr²\r\n\t         = 38.5 cm²\r\nRectange\r\n\tArea = lb\r\n\t          = 39 cm²\r\n\r\nTriangle\r\n\tIt is a right-angled triangle since the sides are Pythagorean triplets.\r\n\tArea = (1/2) bh\r\n\t          = (1/2)*3*4\r\n\t          = 6 cm²\r\n\r\nSquare\r\n\tArea = a²\r\n\t          = 36 cm²"
+  },
+  {
+    "id": 10,
+    "answer": 3,
+    "answers": [
+      "13*13*13",
+      "6084",
+      "169/2",
+      "1014"
+    ],
+    "question": "In how many ways can 2 diamonds, 1 spade and 1 heart be selected from a standard deck of cards such that the value of the spade is equal to the value of the heart?",
+    "solution": "No. of ways of selecting two diamonds from 13 diamonds\r\n\t= 13C2\r\n\r\nValue of the spade = Value of the heart\r\n\r\nNo. of ways of selecting 1 spade and 1 heart from 13 values\r\n\t= 13\r\n\r\nTotal no. of ways\r\n\t= (13*12/2)*13\r\n\t= 1014"
+  }]
