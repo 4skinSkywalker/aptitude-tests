@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "7",
       "14",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "99991",
       "99891",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "52 kmph",
       "73 kmph",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "66 kmph",
       "75 kmph",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "12.7",
       "13.1",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "3:4:5",
       "9:16:25",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "24",
       "12",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "7.2 minutes",
       "10.8 minutes",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "5:3",
       "1:4",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "1",
       "3",

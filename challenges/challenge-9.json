@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "5.25 hours",
       "4 hours",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "x",
       "x²",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "110",
       "120",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "100m",
       "75m",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "{1, 2, 4}",
       "{-2,-3,-4}",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "20%",
       "30%",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "$5.9",
       "$7.09",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "8",
       "10",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "12 km",
       "98 km",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "28",
       "56",

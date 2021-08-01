@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Sunday",
         "Monday",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "16",
         "17",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "131",
         "132",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "17",
         "18",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Wednesday",
         "Friday",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "185",
         "186",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2016",
         "2017",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2000,2006",
         "2005,2011",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Tuesday",
         "Wednesday",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Friday",
         "Saturday",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Tuesday",
         "Wednesday",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "Monday",
         "Thursday",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "45",
         "44",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1",
         "2",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "23",
         "22",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Today",
         "Two days after today",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Monday",
         "Sunday",
@@ -205,7 +205,7 @@
     },
     {
       "id": 18,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "July 3",
         "July 7",
@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Wednesday",
         "Monday",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Sunday",
         "Saturday",
@@ -241,7 +241,7 @@
     },
     {
       "id": 21,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "0",
         "2",
@@ -253,7 +253,7 @@
     },
     {
       "id": 22,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Nov 25, 2011",
         "Dec 5, 2011",
@@ -265,7 +265,7 @@
     },
     {
       "id": 23,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "Sunday",
         "Friday",
@@ -277,7 +277,7 @@
     },
     {
       "id": 24,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "25th November",
         "25th July",
@@ -289,7 +289,7 @@
     },
     {
       "id": 25,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Mar, Sep",
         "Feb, Nov",
@@ -301,7 +301,7 @@
     },
     {
       "id": 27,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Friday",
         "Monday",
@@ -313,7 +313,7 @@
     },
     {
       "id": 28,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1,8,15,22,29",
         "3,10,17,24,31",
@@ -325,7 +325,7 @@
     },
     {
       "id": 29,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "76",
         "75",
@@ -337,7 +337,7 @@
     },
     {
       "id": 26,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "25",
         "24",
@@ -349,7 +349,7 @@
     },
     {
       "id": 30,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Tuesday",
         "Wednesday",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1975",
         "1976",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Tuesday",
         "Wednesday",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "110",
         "111",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Thursday",
         "Tuesday",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "14",
         "15",
@@ -421,7 +421,7 @@
     },
     {
       "id": 36,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Monday",
         "Tuesday",
@@ -433,7 +433,7 @@
     },
     {
       "id": 37,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "69",
         "70",
@@ -445,7 +445,7 @@
     },
     {
       "id": 38,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "8",
         "7",
@@ -457,7 +457,7 @@
     },
     {
       "id": 39,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Thursday",
         "Friday",
@@ -469,7 +469,7 @@
     },
     {
       "id": 40,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Wednesday",
         "Thursday",
@@ -481,7 +481,7 @@
     },
     {
       "id": 41,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Wedneday",
         "Tuesday",
@@ -493,7 +493,7 @@
     },
     {
       "id": 42,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Friday",
         "Sunday",
@@ -505,7 +505,7 @@
     },
     {
       "id": 43,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "71",
         "73",
@@ -517,7 +517,7 @@
     },
     {
       "id": 44,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Thursday",
         "Tuesday",
@@ -529,7 +529,7 @@
     },
     {
       "id": 45,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Monday",
         "Tuesday",
@@ -541,7 +541,7 @@
     },
     {
       "id": 46,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Monday",
         "Wednesday",
@@ -553,7 +553,7 @@
     },
     {
       "id": 47,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "700",
         "800",
@@ -565,7 +565,7 @@
     },
     {
       "id": 48,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "Sunday",
         "Thursday",
@@ -577,7 +577,7 @@
     },
     {
       "id": 49,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2014",
         "2016",
@@ -589,7 +589,7 @@
     },
     {
       "id": 50,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Monday",
         "Thursday",
@@ -601,7 +601,7 @@
     },
     {
       "id": 51,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "Monday",
         "Wednesday",
@@ -613,7 +613,7 @@
     },
     {
       "id": 52,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "5th Aug.",
         "5th Nov.",
@@ -625,7 +625,7 @@
     },
     {
       "id": 53,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Tuesday",
         "Friday",
@@ -637,7 +637,7 @@
     },
     {
       "id": 54,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Saturday",
         "Wednesday",
@@ -649,7 +649,7 @@
     },
     {
       "id": 55,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Sunday",
         "Saturday",
@@ -661,7 +661,7 @@
     },
     {
       "id": 56,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Sunday",
         "Saturday",
@@ -673,7 +673,7 @@
     },
     {
       "id": 57,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "1, 8, 15, 22, 29",
         "2, 9, 16, 23, 30",
@@ -685,7 +685,7 @@
     },
     {
       "id": 58,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "7x2",
         "8x",
@@ -697,7 +697,7 @@
     },
     {
       "id": 59,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Wednesday",
         "Saturday",
@@ -709,7 +709,7 @@
     },
     {
       "id": 60,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Sunday",
         "Monday",
@@ -721,7 +721,7 @@
     },
     {
       "id": 61,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "Saturday",
         "Friday",
@@ -733,7 +733,7 @@
     },
     {
       "id": 62,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2, 9, 16, 23, 30",
         "4, 11, 18, 25",
@@ -745,7 +745,7 @@
     },
     {
       "id": 63,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2003",
         "2001",
@@ -757,7 +757,7 @@
     },
     {
       "id": 64,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1997",
         "2000",
@@ -769,7 +769,7 @@
     },
     {
       "id": 65,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2005",
         "2006",
@@ -781,7 +781,7 @@
     },
     {
       "id": 66,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2 days ago",
         "3 days ago",

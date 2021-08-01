@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "100",
       "64",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "1,77,000",
       "1,77,366",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "g-a",
       "g/a",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "45%",
       "50%",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "24",
       "18",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "Rs.4000",
       "Rs.5000",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "7/12",
       "-1/12",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "4",
       "5",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "20",
       "250",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "$ 87",
       "$ 90",

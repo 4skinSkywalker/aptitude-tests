@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "81%",
         "82%",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "4 liters",
         "5 liters",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "11 liters",
         "100 liters ",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "6,6",
         "5,7",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "11:6",
         "41:21",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Rs.150",
         "Rs.160",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "8%",
         "9%",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2:3",
         "3:2",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "4,6",
         "6,4",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "14.25 kg",
         "15 kg",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "8.25%",
         "8.75%",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "4:3",
         "3:2",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2:5",
         "3:5",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "12 kg",
         "15 kg",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "21 liters",
         "15 liters",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "18%",
         "16%",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1:1",
         "9:7",
@@ -205,7 +205,7 @@
     },
     {
       "id": 19,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Rs.44",
         "Rs.45",
@@ -217,7 +217,7 @@
     },
     {
       "id": 18,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "3:1",
         "2:1",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "6 liters",
         "7.5 liters",
@@ -241,7 +241,7 @@
     },
     {
       "id": 21,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "15",
         "8",
@@ -253,7 +253,7 @@
     },
     {
       "id": 22,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "20:1",
         "33:7",
@@ -265,7 +265,7 @@
     },
     {
       "id": 23,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "12.5%",
         "15%",
@@ -277,7 +277,7 @@
     },
     {
       "id": 24,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "15 liters",
         "20 liters",
@@ -289,7 +289,7 @@
     },
     {
       "id": 25,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1",
         "2",
@@ -301,7 +301,7 @@
     },
     {
       "id": 30,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "30%",
         "20%",
@@ -313,7 +313,7 @@
     },
     {
       "id": 29,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "22.5%",
         "24%",
@@ -325,7 +325,7 @@
     },
     {
       "id": 28,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "13:22",
         "11:16",
@@ -337,7 +337,7 @@
     },
     {
       "id": 27,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "25%",
         "20%",
@@ -349,7 +349,7 @@
     },
     {
       "id": 26,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "5 liters",
         "6 liters",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "1:5",
         "5:1",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "53.33 liters",
         "60 liters",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "1:5",
         "2:3",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2.5 liters",
         "5 liters",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "13.34 liters",
         "15.73 liters",

@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "435",
       "450",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "480",
       "600",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "10% increase",
       "10% decrease",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "8",
       "6",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "10%",
       "6%",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "129/13",
       "156/13",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "125",
       "127.5",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "13.8 m",
       "138 cm",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "52C4",
       "13C4",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "3",
       "3.33",

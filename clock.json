@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "65 minutes",
         "65(5/11) minutes",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "25°",
         "27°",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "8:40",
         "8:20",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "185°",
         "135°",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "50",
         "48(9/11)",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "145°",
         "150°",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "20°",
         "15°",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "32(8/11)",
         "31(4/11)",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "4:30 pm",
         "4:40 pm",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "44",
         "48",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "20 seconds",
         "24 seconds",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "South-West",
         "South-East",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "255°",
         "105°",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "150°",
         "120°",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "10(10/11)",
         "11(5/11)",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "22",
         "44",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "3:05, 3:27",
         "3:10, 3:20",
@@ -205,7 +205,7 @@
     },
     {
       "id": 18,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "210°",
         "270°",
@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "1:36",
         "1:33",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "7:25",
         "7:23",
@@ -241,7 +241,7 @@
     },
     {
       "id": 21,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2 pm on Tue",
         "3 pm on Wed",
@@ -253,7 +253,7 @@
     },
     {
       "id": 22,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "11 seconds",
         "8.5 seconds",
@@ -265,7 +265,7 @@
     },
     {
       "id": 23,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "6 a.m.",
         "5:59 a.m.",
@@ -277,7 +277,7 @@
     },
     {
       "id": 24,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "24",
         "22",
@@ -289,7 +289,7 @@
     },
     {
       "id": 25,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "6:30 pm",
         "6:08 pm",
@@ -301,7 +301,7 @@
     },
     {
       "id": 26,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "3:45",
         "4:45",
@@ -313,7 +313,7 @@
     },
     {
       "id": 27,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "135°",
         "180°",
@@ -325,7 +325,7 @@
     },
     {
       "id": 28,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2:24 p.m.",
         "2:22 p.m.",
@@ -337,7 +337,7 @@
     },
     {
       "id": 29,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "120°",
         "144°",
@@ -349,7 +349,7 @@
     },
     {
       "id": 30,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "32(8/11)",
         "31(4/11)",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "8 pm",
         "8 am",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "10 am",
         "7 am",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "10:48 pm",
         "11 pm",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "7:58",
         "7:56",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "90°",
         "120°",
@@ -421,7 +421,7 @@
     },
     {
       "id": 36,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "10 am",
         "11 am",

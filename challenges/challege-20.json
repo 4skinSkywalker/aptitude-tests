@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "5",
       "21",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "1:2",
       "2:1",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "2601",
       "2500",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "Feb 6, 2013",
       "Feb 7, 2013",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "820",
       "821",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "5 cm",
       "2 cm",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "22",
       "27",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "5",
       "10",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "2",
       "3",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "4",
       "5",

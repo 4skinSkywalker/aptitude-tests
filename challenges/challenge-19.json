@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "2 mins",
       "2 mins 50 s",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "2≤x≤6",
       "5≤x≤8",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "11",
       "13",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "12!/4",
       "11!/4",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "01",
       "21",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "p=q",
       "p>q",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "1/2",
       "1/10",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "Rs.1100",
       "Rs.520",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "15/40",
       "1/12",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "81",
       "41",

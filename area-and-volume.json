@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2500",
         "500",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "8",
         "16",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "12m",
         "10m",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "108",
         "54",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "150",
         "50",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "1",
         "2",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "10 m³",
         "20 m³",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "600m",
         "300m",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "100 cm",
         "50 cm",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "0.88 hrs",
         "1.76 hrs",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "12.5 cm²",
         "25 cm²",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10m",
         "5m",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "πa²/4",
         "πa²/2",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "30 cm²",
         "36 cm²",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "54 cm",
         "56 cm",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "480 liters",
         "240 liters",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "6 units",
         "36 units",
@@ -205,7 +205,7 @@
     },
     {
       "id": 18,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "64 cm",
         "48 cm",
@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "170m²",
         "136m²",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "6 minutes",
         "30 minutes",
@@ -241,7 +241,7 @@
     },
     {
       "id": 21,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "3:1",
         "1:3",
@@ -253,7 +253,7 @@
     },
     {
       "id": 22,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "13m",
         "5m",
@@ -265,7 +265,7 @@
     },
     {
       "id": 23,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2πx units",
         "2πr units",
@@ -277,7 +277,7 @@
     },
     {
       "id": 24,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2",
         "6",
@@ -289,7 +289,7 @@
     },
     {
       "id": 25,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "6.25%",
         "12.5%",
@@ -301,7 +301,7 @@
     },
     {
       "id": 30,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "lb+x(l+b)+x²",
         "lb+x(l+b)",
@@ -313,7 +313,7 @@
     },
     {
       "id": 29,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "74 cm³",
         "218 cm³",
@@ -325,7 +325,7 @@
     },
     {
       "id": 28,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "150%",
         "600%",
@@ -337,7 +337,7 @@
     },
     {
       "id": 27,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "13m",
         "5m",
@@ -349,7 +349,7 @@
     },
     {
       "id": 26,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "1:π",
         "2:π",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "450 m x 300 m",
         "150 m x 100 m",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "45 feet",
         "63 feet",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "24 feet",
         "22 feet",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "30%",
         "18.75%",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "5.5",
         "4.5",
@@ -421,7 +421,7 @@
     },
     {
       "id": 36,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "6K",
         "8K",
@@ -433,7 +433,7 @@
     },
     {
       "id": 37,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "3",
         "4",
@@ -445,7 +445,7 @@
     },
     {
       "id": 38,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "16%",
         "44%",
@@ -457,7 +457,7 @@
     },
     {
       "id": 39,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "x²/9",
         "x²/8",
@@ -469,7 +469,7 @@
     },
     {
       "id": 40,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "24",
         "120",
@@ -481,7 +481,7 @@
     },
     {
       "id": 41,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "100%",
         "200%",
@@ -493,7 +493,7 @@
     },
     {
       "id": 42,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "100%",
         "150%",
@@ -505,7 +505,7 @@
     },
     {
       "id": 43,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2424 cm²",
         "2446 cm²",
@@ -517,7 +517,7 @@
     },
     {
       "id": 44,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "100%",
         "200%",
@@ -529,7 +529,7 @@
     },
     {
       "id": 45,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Rs.1050",
         "Rs.1400",
@@ -541,7 +541,7 @@
     },
     {
       "id": 46,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "(154×√5) cm²",
         "11 cm²",
@@ -553,7 +553,7 @@
     },
     {
       "id": 47,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "10 cm",
         "15 cm",
@@ -565,7 +565,7 @@
     },
     {
       "id": 48,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "20 cm",
         "25 cm",
@@ -577,7 +577,7 @@
     },
     {
       "id": 49,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2 h",
         "4 h",
@@ -589,7 +589,7 @@
     },
     {
       "id": 50,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1 : 5",
         "1 : 25",
@@ -601,7 +601,7 @@
     },
     {
       "id": 51,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "84",
         "0.84",
@@ -613,7 +613,7 @@
     },
     {
       "id": 52,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "196 cm²",
         "784 cm²",
@@ -625,7 +625,7 @@
     },
     {
       "id": 53,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "9800000",
         "1000000",
@@ -637,7 +637,7 @@
     },
     {
       "id": 54,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "10/√3 cm",
         "10√3 cm",
@@ -649,7 +649,7 @@
     },
     {
       "id": 55,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "720",
         "900",
@@ -661,7 +661,7 @@
     },
     {
       "id": 56,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "36",
         "216",
@@ -673,7 +673,7 @@
     },
     {
       "id": 57,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "56 kg",
         "36 kg",
@@ -685,7 +685,7 @@
     },
     {
       "id": 58,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "32 m³",
         "36 m³",
@@ -697,7 +697,7 @@
     },
     {
       "id": 59,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1 : 4",
         "1 : 16",
@@ -709,7 +709,7 @@
     },
     {
       "id": 60,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "4:π",
         "6:π",
@@ -721,7 +721,7 @@
     },
     {
       "id": 61,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2√2 cm",
         "2√26 cm",
@@ -733,7 +733,7 @@
     },
     {
       "id": 62,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1 : 2",
         "1 : 4",
@@ -745,7 +745,7 @@
     },
     {
       "id": 63,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2 metres",
         "3 metres",
@@ -757,7 +757,7 @@
     },
     {
       "id": 64,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1 time",
         "3 times",
@@ -769,7 +769,7 @@
     },
     {
       "id": 65,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1300 m³",
         "1331 m³",
@@ -781,7 +781,7 @@
     },
     {
       "id": 66,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "is doubled",
         "increases 6 times",
@@ -793,7 +793,7 @@
     },
     {
       "id": 67,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "120 litres",
         "12000 litres",
@@ -805,7 +805,7 @@
     },
     {
       "id": 68,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "30 m",
         "30√2 m",
@@ -817,7 +817,7 @@
     },
     {
       "id": 69,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "3 cm",
         "4 cm",
@@ -829,7 +829,7 @@
     },
     {
       "id": 70,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "4:25",
         "4:15",
@@ -841,7 +841,7 @@
     },
     {
       "id": 71,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "22 cm",
         "24 cm",
@@ -853,7 +853,7 @@
     },
     {
       "id": 72,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "18 m",
         "20 m",
@@ -865,7 +865,7 @@
     },
     {
       "id": 73,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "152600 m²",
         "153500 m²",
@@ -877,7 +877,7 @@
     },
     {
       "id": 74,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "42 m²",
         "49 m²",
@@ -889,7 +889,7 @@
     },
     {
       "id": 75,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "800",
         "125",

@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "12 minutes",
         "13.5 minutes",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "12",
         "15",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "7 liters",
         "5 liters",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "180 minutes",
         "167 minutes",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "30 minutes",
         "45 minutes",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "60 minutes",
         "40 minutes",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10 minutes",
         "7/6 hours",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "6 minutes",
         "12 minutes",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "7 minutes",
         "14 minutes",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "480 liters",
         "360 liters",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "10 hours",
         "5 hours",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "15 minutes",
         "30 minutes",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "20 minutes",
         "1 hour",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "28",
         "20",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "100 minutes",
         "75 minutes",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "3 hours",
         "30 hours",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "4",
         "5",
@@ -205,7 +205,7 @@
     },
     {
       "id": 18,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "70 cans",
         "14 cans",
@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "12 hours",
         "18 hours",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2 hours",
         "4 hours",
@@ -241,7 +241,7 @@
     },
     {
       "id": 25,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "12 hours",
         "15 hours",
@@ -253,7 +253,7 @@
     },
     {
       "id": 24,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1 hr 40 mins",
         "36 mins",
@@ -265,7 +265,7 @@
     },
     {
       "id": 23,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "360 liters",
         "216 liters",
@@ -277,7 +277,7 @@
     },
     {
       "id": 22,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "4.5 hours",
         "6 hours",
@@ -289,7 +289,7 @@
     },
     {
       "id": 21,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "3x/2",
         "3x",
@@ -301,7 +301,7 @@
     },
     {
       "id": 30,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "22 minutes",
         "15 minutes",
@@ -313,7 +313,7 @@
     },
     {
       "id": 29,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "40 minutes",
         "1 hour",
@@ -325,7 +325,7 @@
     },
     {
       "id": 28,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "35 minutes",
         "30 minutes",
@@ -337,7 +337,7 @@
     },
     {
       "id": 27,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "70 mins",
         "(7/5) hrs",
@@ -349,7 +349,7 @@
     },
     {
       "id": 26,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1 hour",
         "36 minutes",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "20 hours",
         "18 hours",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "26 hrs",
         "25 hrs",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "100 mins",
         "90 mins",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "18",
         "10",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "18 hrs",
         "36 hrs",
@@ -421,7 +421,7 @@
     },
     {
       "id": 36,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "192 mins",
         "144 mins",
@@ -433,7 +433,7 @@
     },
     {
       "id": 37,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "30/17",
         "30/11",
@@ -445,7 +445,7 @@
     },
     {
       "id": 38,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "4 hrs",
         "3 hrs 45 mins",
@@ -457,7 +457,7 @@
     },
     {
       "id": 39,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "6.5 hrs",
         "4.5 hrs",
@@ -469,7 +469,7 @@
     },
     {
       "id": 40,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "10 hrs",
         "15 hrs",
@@ -481,7 +481,7 @@
     },
     {
       "id": 41,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "1/11",
         "5/11",
@@ -493,7 +493,7 @@
     },
     {
       "id": 42,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "17 minutes",
         "12 minutes",
@@ -505,7 +505,7 @@
     },
     {
       "id": 43,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "16 minutes",
         "32 minutes",
@@ -517,7 +517,7 @@
     },
     {
       "id": 44,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "8 hrs",
         "6 hrs",
@@ -529,7 +529,7 @@
     },
     {
       "id": 45,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "3.5",
         "2",
@@ -541,7 +541,7 @@
     },
     {
       "id": 46,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "8 hrs",
         "14 hrs",
@@ -553,7 +553,7 @@
     },
     {
       "id": 47,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "6 mins to fill",
         "9 mins to fill",
@@ -565,7 +565,7 @@
     },
     {
       "id": 48,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10 mins",
         "15 mins",
@@ -577,7 +577,7 @@
     },
     {
       "id": 49,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "8",
         "15",
@@ -589,7 +589,7 @@
     },
     {
       "id": 50,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "60 hrs",
         "80 hrs",
@@ -601,7 +601,7 @@
     },
     {
       "id": 51,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "5 mins",
         "12 mins",
@@ -613,7 +613,7 @@
     },
     {
       "id": 52,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "7 mins 45 sec",
         "8 mins 5 sec",
@@ -625,7 +625,7 @@
     },
     {
       "id": 53,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "7580",
         "8290",
@@ -637,7 +637,7 @@
     },
     {
       "id": 54,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "7hrs",
         "7 hrs 30 mins",
@@ -649,7 +649,7 @@
     },
     {
       "id": 55,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "5 hrs",
         "12.5 hrs",
@@ -661,7 +661,7 @@
     },
     {
       "id": 56,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "5 hrs",
         "7 hrs",
@@ -673,7 +673,7 @@
     },
     {
       "id": 57,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "8 minutes",
         "12 minutes",
@@ -685,7 +685,7 @@
     },
     {
       "id": 58,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "10 hours 30 mins",
         "21 hours",
@@ -697,7 +697,7 @@
     },
     {
       "id": 59,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "3 mins 30 secs",
         "4 mins 30 secs",
@@ -709,7 +709,7 @@
     },
     {
       "id": 60,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "60 gallons",
         "100 gallons",
@@ -721,7 +721,7 @@
     },
     {
       "id": 61,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "20 hours",
         "25 hours",
@@ -733,7 +733,7 @@
     },
     {
       "id": 62,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10 min. 20 sec.",
         "11 min. 45 sec.",
@@ -745,7 +745,7 @@
     },
     {
       "id": 63,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "15 mins",
         "20 mins",
@@ -757,7 +757,7 @@
     },
     {
       "id": 64,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "10",
         "12",
@@ -769,7 +769,7 @@
     },
     {
       "id": 65,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "6 hours",
         "7 hours",
@@ -781,7 +781,7 @@
     },
     {
       "id": 66,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "90 mins",
         "60 mins",
@@ -793,7 +793,7 @@
     },
     {
       "id": 67,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "4 hrs 30 mins",
         "5 hrs",
@@ -805,7 +805,7 @@
     },
     {
       "id": 68,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "72 mins",
         "80 mins",
@@ -817,7 +817,7 @@
     },
     {
       "id": 69,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "14 hours",
         "10.5 hours",

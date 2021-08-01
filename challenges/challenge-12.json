@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "Rs.250",
       "Rs.255",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "25%",
       "20%",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "9450",
       "9765",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "25",
       "125",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "8 hours",
       "7 hours",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "2/5",
       "1/5",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "3.62 mins",
       "7.24 mins",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "Rs.154.50",
       "Rs.155.50",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "$800.30",
       "$833.60",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "100 miles",
       "500 miles",

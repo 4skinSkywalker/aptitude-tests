@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "3/7",
       "3*7",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "160 ounces",
       "140 ounces",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "24",
       "25",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "1/250",
       "1/2500",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "20 minutes",
       "22 minutes",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "16",
       "25",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "4",
       "9",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "1.33",
       "1",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "$1620",
       "$1800",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "8!*5!*3!",
       "120",

@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "2",
       "3",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "21",
       "22",
@@ -24,7 +24,7 @@
   },
   {
     "id": 3,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "10",
       "35",
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "2 m/s",
       "2.5 m/s",
@@ -48,7 +48,7 @@
   },
   {
     "id": 5,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "583",
       "981",
@@ -60,7 +60,7 @@
   },
   {
     "id": 6,
-    "answer": 3,
+    "answerIndex": 3,
     "answers": [
       "35",
       "37",
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "answer": 0,
+    "answerIndex": 0,
     "answers": [
       "1/13",
       "2/13",
@@ -84,7 +84,7 @@
   },
   {
     "id": 8,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "x²",
       "x²+2a",
@@ -96,7 +96,7 @@
   },
   {
     "id": 9,
-    "answer": 2,
+    "answerIndex": 2,
     "answers": [
       "Rs.24",
       "Rs.22.5",
@@ -108,7 +108,7 @@
   },
   {
     "id": 10,
-    "answer": 1,
+    "answerIndex": 1,
     "answers": [
       "Rs.3680",
       "Rs.1840",

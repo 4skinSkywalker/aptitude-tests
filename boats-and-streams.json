@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2.5 kmph",
         "3.5 kmph",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "10.5 km",
         "24.5 km",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2 kmph",
         "3 kmph",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2 kmph",
         "2.5 kmph",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "12 kmph",
         "9 kmph",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "4 hours",
         "4.5 hours",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "5:1",
         "3:2",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "8 kmph",
         "4 kmph",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "15 km",
         "10 km",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "45 km",
         "22.5 km",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "9 m/s",
         "5 m/s",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "16 kmph",
         "20 kmph",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "20 km",
         "25 km",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "3:1",
         "2:1",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2.5 kmph",
         "3 kmph",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2.1 kmph",
         "3 kmph",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "7:00 am",
         "8:00 am",
@@ -205,7 +205,7 @@
     },
     {
       "id": 18,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "3.5 kmph",
         "3.25 kmph",
@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "3.5 hours",
         "3.9 hours",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "4 kmph",
         "2 kmph",
@@ -241,7 +241,7 @@
     },
     {
       "id": 21,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "4.5 hours",
         "3 hours",
@@ -253,7 +253,7 @@
     },
     {
       "id": 25,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1 hour",
         "1.5 hours",
@@ -265,7 +265,7 @@
     },
     {
       "id": 24,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "10.1 kmph",
         "9.05 kmph",
@@ -277,7 +277,7 @@
     },
     {
       "id": 23,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "16.5 km",
         "9 km",
@@ -289,7 +289,7 @@
     },
     {
       "id": 22,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "6 kmph",
         "5 kmph",
@@ -301,7 +301,7 @@
     },
     {
       "id": 30,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "14 kmph",
         "8 kmph",
@@ -313,7 +313,7 @@
     },
     {
       "id": 29,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "15 kmph",
         "12 kmph",
@@ -325,7 +325,7 @@
     },
     {
       "id": 28,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "15 kmph",
         "12.5 kmph",
@@ -337,7 +337,7 @@
     },
     {
       "id": 27,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "3 kmph",
         "1.5 kmph",
@@ -349,7 +349,7 @@
     },
     {
       "id": 26,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "12.5 kmph",
         "8 kmph",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2 hours",
         "3 hours",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1.2 km",
         "1.8 km",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "160 km",
         "180 km",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "4 km/hr",
         "6 km/hr",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2.5 km/hr",
         "4.2 km/hr",
@@ -421,7 +421,7 @@
     },
     {
       "id": 36,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "3 kmph",
         "4.5 kmph",
@@ -433,7 +433,7 @@
     },
     {
       "id": 37,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "3 hrs",
         "5 hrs",
@@ -445,7 +445,7 @@
     },
     {
       "id": 38,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "23 km/hr",
         "27 km/hr",
@@ -457,7 +457,7 @@
     },
     {
       "id": 39,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "4 km/hr",
         "2 km/hr",
@@ -469,7 +469,7 @@
     },
     {
       "id": 40,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2",
         "5",
@@ -481,7 +481,7 @@
     },
     {
       "id": 41,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2 hours",
         "3 hours",
@@ -493,7 +493,7 @@
     },
     {
       "id": 42,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "8.5 km/hr",
         "9 km/hr",
@@ -505,7 +505,7 @@
     },
     {
       "id": 43,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2 : 1",
         "3 : 2",
@@ -517,7 +517,7 @@
     },
     {
       "id": 44,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "4",
         "5",
@@ -529,7 +529,7 @@
     },
     {
       "id": 45,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "3 km/hr",
         "5 km/hr",
@@ -541,7 +541,7 @@
     },
     {
       "id": 46,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "12 kmph",
         "13 kmph",
@@ -553,7 +553,7 @@
     },
     {
       "id": 47,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "8.5 km/hr",
         "9 km/hr",
@@ -565,7 +565,7 @@
     },
     {
       "id": 48,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1.2 km/hr",
         "1.5 km/hr",
@@ -577,7 +577,7 @@
     },
     {
       "id": 49,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "40 minutes",
         "1 hour",
@@ -589,7 +589,7 @@
     },
     {
       "id": 50,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "P",
         "Q",
@@ -601,7 +601,7 @@
     },
     {
       "id": 51,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "7.5 km/hr",
         "7 km/hr",
@@ -613,7 +613,7 @@
     },
     {
       "id": 52,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "20 mins",
         "40 mins",
@@ -625,7 +625,7 @@
     },
     {
       "id": 53,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "7 km/hr",
         "8.5 km/hr",
@@ -637,7 +637,7 @@
     },
     {
       "id": 54,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2 : 1",
         "3 : 2",
@@ -649,7 +649,7 @@
     },
     {
       "id": 55,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1.2 km",
         "1.8 km",
@@ -661,7 +661,7 @@
     },
     {
       "id": 56,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2 mph",
         "2.5 mph",
@@ -673,7 +673,7 @@
     },
     {
       "id": 57,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2.4 km",
         "2.5 km",
@@ -685,7 +685,7 @@
     },
     {
       "id": 58,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "12 kmph",
         "13 kmph",
@@ -697,7 +697,7 @@
     },
     {
       "id": 59,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "3",
         "5",
@@ -709,7 +709,7 @@
     },
     {
       "id": 60,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "2",
         "3",
@@ -721,7 +721,7 @@
     },
     {
       "id": 61,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "4.25 kmnph",
         "6 kmph",
@@ -733,7 +733,7 @@
     },
     {
       "id": 62,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "16 hours",
         "18 hours",
@@ -745,7 +745,7 @@
     },
     {
       "id": 63,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "2",
         "7",
@@ -757,7 +757,7 @@
     },
     {
       "id": 64,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "6.5 km/hr",
         "7 km/hr",
@@ -769,7 +769,7 @@
     },
     {
       "id": 65,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "8.5 km/hr",
         "9 km/hr",
@@ -781,7 +781,7 @@
     },
     {
       "id": 66,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2.5",
         "3",
@@ -793,7 +793,7 @@
     },
     {
       "id": 67,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "3.5 hours",
         "1.5 hours",
@@ -805,7 +805,7 @@
     },
     {
       "id": 68,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "10 hours",
         "12 hours",
@@ -817,7 +817,7 @@
     },
     {
       "id": 69,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "22",
         "23",
@@ -829,7 +829,7 @@
     },
     {
       "id": 70,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "4 km",
         "4.5 km",

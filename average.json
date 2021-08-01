@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "95",
         "85",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "24",
         "24.5",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "21",
         "19",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10",
         "10.5",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "30",
         "15",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "94",
         "92",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "12",
         "11.5",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "10",
         "20",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10",
         "20",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "20",
         "25",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "45 kg",
         "50 kg",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "98",
         "90",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "45",
         "37",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "85",
         "85.5",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "34",
         "44",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "7",
         "5.167",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "60 kmph",
         "61.66 kmph",
@@ -205,7 +205,7 @@
     },
     {
       "id": 18,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "83.33 kmph",
         "85 kmph",
@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "(5x-11)/3",
         "x",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "8",
         "7",
@@ -241,7 +241,7 @@
     },
     {
       "id": 21,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "5",
         "6",
@@ -253,7 +253,7 @@
     },
     {
       "id": 22,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10",
         "15",
@@ -265,7 +265,7 @@
     },
     {
       "id": 23,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "0",
         "6",
@@ -277,7 +277,7 @@
     },
     {
       "id": 24,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "29°C",
         "27°C",
@@ -289,7 +289,7 @@
     },
     {
       "id": 25,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "81",
         "95",
@@ -301,7 +301,7 @@
     },
     {
       "id": 30,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "100",
         "98",
@@ -313,7 +313,7 @@
     },
     {
       "id": 29,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "85",
         "75",
@@ -325,7 +325,7 @@
     },
     {
       "id": 28,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "6,3,1",
         "12,6,2",
@@ -337,7 +337,7 @@
     },
     {
       "id": 27,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "40%",
         "8%",
@@ -349,7 +349,7 @@
     },
     {
       "id": 26,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "15 cm",
         "6 cm",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "0",
         "9",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "0",
         "-0.5",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "20",
         "25",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "2*S(last 10 no.s)",
         "2*S(1st 10 no.s)",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "37.33",
         "38.33",
@@ -421,7 +421,7 @@
     },
     {
       "id": 36,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1%",
         "4.5%",
@@ -433,7 +433,7 @@
     },
     {
       "id": 37,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "150 kg",
         "200 kg",
@@ -445,7 +445,7 @@
     },
     {
       "id": 38,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "5 mins",
         "4 mins",
@@ -457,7 +457,7 @@
     },
     {
       "id": 39,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "4 mins",
         "7 mins",
@@ -469,7 +469,7 @@
     },
     {
       "id": 40,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "88.5",
         "77.5",
@@ -481,7 +481,7 @@
     },
     {
       "id": 41,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "3 years",
         "9 years",
@@ -493,7 +493,7 @@
     },
     {
       "id": 42,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "60",
         "58",
@@ -505,7 +505,7 @@
     },
     {
       "id": 43,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Rs.32.98",
         "Rs.34.56",
@@ -517,7 +517,7 @@
     },
     {
       "id": 44,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "42",
         "44",
@@ -529,7 +529,7 @@
     },
     {
       "id": 45,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "37.5",
         "35",
@@ -541,7 +541,7 @@
     },
     {
       "id": 46,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "1",
         "2",
@@ -553,7 +553,7 @@
     },
     {
       "id": 47,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "49",
         "59",
@@ -565,7 +565,7 @@
     },
     {
       "id": 48,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "43",
         "45",
@@ -577,7 +577,7 @@
     },
     {
       "id": 49,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1/11",
         "2/7",
@@ -589,7 +589,7 @@
     },
     {
       "id": 50,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "40",
         "45",
@@ -601,7 +601,7 @@
     },
     {
       "id": 51,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "58.66",
         "75.48",
@@ -613,7 +613,7 @@
     },
     {
       "id": 52,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "22 years",
         "24 years",
@@ -625,7 +625,7 @@
     },
     {
       "id": 53,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "A",
         "B",
@@ -637,7 +637,7 @@
     },
     {
       "id": 54,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "588",
         "645",
@@ -649,7 +649,7 @@
     },
     {
       "id": 55,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "10",
         "9",
@@ -661,7 +661,7 @@
     },
     {
       "id": 56,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "8",
         "12",
@@ -673,7 +673,7 @@
     },
     {
       "id": 57,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "158 cm\t\t\t\t\t\t\t\t\t",
         "158.5",
@@ -685,7 +685,7 @@
     },
     {
       "id": 58,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "12",
         "13",
@@ -697,7 +697,7 @@
     },
     {
       "id": 59,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "265/33",
         "655/93",
@@ -709,7 +709,7 @@
     },
     {
       "id": 60,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "Rs.10/g",
         "Rs.6/g",
@@ -721,7 +721,7 @@
     },
     {
       "id": 61,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "Rs. 52.5",
         "Rs. 290",
@@ -733,7 +733,7 @@
     },
     {
       "id": 62,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "24/25,2/5",
         "48/50,4/5",
@@ -745,7 +745,7 @@
     },
     {
       "id": 63,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "32 years",
         "24 years",
@@ -757,7 +757,7 @@
     },
     {
       "id": 64,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "0.5%",
         "5%",
@@ -769,7 +769,7 @@
     },
     {
       "id": 65,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "18",
         "20",
@@ -781,7 +781,7 @@
     },
     {
       "id": 66,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "6 kg",
         "3 kg",
@@ -793,7 +793,7 @@
     },
     {
       "id": 67,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "23 years",
         "24 years",
@@ -805,7 +805,7 @@
     },
     {
       "id": 68,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "11",
         "13",
@@ -817,7 +817,7 @@
     },
     {
       "id": 69,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "9.09",
         "11.11",
@@ -829,7 +829,7 @@
     },
     {
       "id": 70,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "200",
         "300",
@@ -841,7 +841,7 @@
     },
     {
       "id": 71,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1/2",
         "1/3",
@@ -853,7 +853,7 @@
     },
     {
       "id": 72,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "87.83",
         "86.83",
@@ -865,7 +865,7 @@
     },
     {
       "id": 73,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "M²",
         "3M²",
@@ -877,7 +877,7 @@
     },
     {
       "id": 74,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "RS.300",
         "RS.250",
@@ -889,7 +889,7 @@
     },
     {
       "id": 75,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "65",
         "69",

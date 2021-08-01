@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "24",
         "12",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "1/60",
         "2/5",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "their product",
         "their sum",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "14",
         "10",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "58",
         "47",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "11",
         "12",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "9960",
         "9999",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "24,60",
         "6,40",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "32,48,80",
         "8,12,20",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "1",
         "1/60",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "8",
         "6",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "12",
         "6",
@@ -145,7 +145,7 @@
     },
     {
       "id": 13,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "19",
         "72",
@@ -157,7 +157,7 @@
     },
     {
       "id": 14,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "9",
         "8",
@@ -169,7 +169,7 @@
     },
     {
       "id": 15,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2735",
         "915",
@@ -181,7 +181,7 @@
     },
     {
       "id": 16,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "9:12 am",
         "9:15 am",
@@ -193,7 +193,7 @@
     },
     {
       "id": 17,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "180",
         "312",
@@ -205,7 +205,7 @@
     },
     {
       "id": 18,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1",
         "2",
@@ -217,7 +217,7 @@
     },
     {
       "id": 19,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "74",
         "94",
@@ -229,7 +229,7 @@
     },
     {
       "id": 20,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "330",
         "11",
@@ -241,7 +241,7 @@
     },
     {
       "id": 25,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "59",
         "49",
@@ -253,7 +253,7 @@
     },
     {
       "id": 24,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "3600",
         "400",
@@ -265,7 +265,7 @@
     },
     {
       "id": 23,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "23",
         "33",
@@ -277,7 +277,7 @@
     },
     {
       "id": 22,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "168",
         "84",
@@ -289,7 +289,7 @@
     },
     {
       "id": 21,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "3",
         "6",
@@ -301,7 +301,7 @@
     },
     {
       "id": 30,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "150",
         "180",
@@ -313,7 +313,7 @@
     },
     {
       "id": 29,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "228",
         "114",
@@ -325,7 +325,7 @@
     },
     {
       "id": 28,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "7",
         "6",
@@ -337,7 +337,7 @@
     },
     {
       "id": 27,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "1/60",
         "1/30",
@@ -349,7 +349,7 @@
     },
     {
       "id": 26,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "their product",
         "their sum",
@@ -361,7 +361,7 @@
     },
     {
       "id": 31,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "16",
         "18",
@@ -373,7 +373,7 @@
     },
     {
       "id": 32,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "7",
         "12",
@@ -385,7 +385,7 @@
     },
     {
       "id": 33,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "11",
         "13",
@@ -397,7 +397,7 @@
     },
     {
       "id": 34,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "27, 189",
         "54,162",
@@ -409,7 +409,7 @@
     },
     {
       "id": 35,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "9828",
         "9918",
@@ -421,7 +421,7 @@
     },
     {
       "id": 36,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "200",
         "230",
@@ -433,7 +433,7 @@
     },
     {
       "id": 37,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "214",
         "91",
@@ -445,7 +445,7 @@
     },
     {
       "id": 38,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1394",
         "1406",
@@ -457,7 +457,7 @@
     },
     {
       "id": 39,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "4",
         "7",
@@ -469,7 +469,7 @@
     },
     {
       "id": 40,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "179",
         "359",
@@ -481,7 +481,7 @@
     },
     {
       "id": 41,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "283",
         "318",
@@ -493,7 +493,7 @@
     },
     {
       "id": 42,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "27, 189",
         "108, 108",
@@ -505,7 +505,7 @@
     },
     {
       "id": 43,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "975",
         "939",
@@ -517,7 +517,7 @@
     },
     {
       "id": 44,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "276",
         "299",
@@ -529,7 +529,7 @@
     },
     {
       "id": 45,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "18",
         "36",
@@ -541,7 +541,7 @@
     },
     {
       "id": 46,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "0.44",
         "0.64",
@@ -553,7 +553,7 @@
     },
     {
       "id": 47,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "34",
         "77",
@@ -565,7 +565,7 @@
     },
     {
       "id": 48,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "9000",
         "9400",
@@ -577,7 +577,7 @@
     },
     {
       "id": 49,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "279",
         "242",
@@ -589,7 +589,7 @@
     },
     {
       "id": 50,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "10.30 am",
         "10.59 am",
@@ -601,7 +601,7 @@
     },
     {
       "id": 51,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "12",
         "4",
@@ -613,7 +613,7 @@
     },
     {
       "id": 52,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "179",
         "359",
@@ -625,7 +625,7 @@
     },
     {
       "id": 53,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "125",
         "127",
@@ -637,7 +637,7 @@
     },
     {
       "id": 54,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "75, 55",
         "15, 11",
@@ -649,7 +649,7 @@
     },
     {
       "id": 55,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "50",
         "125",
@@ -661,7 +661,7 @@
     },
     {
       "id": 56,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "1223",
         "1263",
@@ -673,7 +673,7 @@
     },
     {
       "id": 57,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "225",
         "215",
@@ -685,7 +685,7 @@
     },
     {
       "id": 58,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "24",
         "21",
@@ -697,7 +697,7 @@
     },
     {
       "id": 59,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "26 mins 18 s",
         "42 mins 36 s",
@@ -709,7 +709,7 @@
     },
     {
       "id": 60,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "12, 24, 36",
         "5, 10, 15",
@@ -721,7 +721,7 @@
     },
     {
       "id": 61,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "8",
         "24",
@@ -733,7 +733,7 @@
     },
     {
       "id": 62,
-      "answer": 3,
+      "answerIndex": 3,
       "answers": [
         "10010",
         "10020",
@@ -745,7 +745,7 @@
     },
     {
       "id": 63,
-      "answer": 1,
+      "answerIndex": 1,
       "answers": [
         "975",
         "936",
@@ -757,7 +757,7 @@
     },
     {
       "id": 64,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "8:27:12 hrs",
         "8:27:36 hrs",
@@ -769,7 +769,7 @@
     },
     {
       "id": 65,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2574",
         "2500",
@@ -781,7 +781,7 @@
     },
     {
       "id": 66,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "2 x 2 x 3 x 3 x 7",
         "2 x 2 x 2 x 3 x 7",
@@ -793,7 +793,7 @@
     },
     {
       "id": 67,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "75",
         "81",
@@ -805,7 +805,7 @@
     },
     {
       "id": 68,
-      "answer": 0,
+      "answerIndex": 0,
       "answers": [
         "252",
         "240",
@@ -817,7 +817,7 @@
     },
     {
       "id": 69,
-      "answer": 2,
+      "answerIndex": 2,
       "answers": [
         "88",
         "99",
