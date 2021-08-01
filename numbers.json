@@ -1,0 +1,1202 @@
+[
+    {
+      "id": 1,
+      "answer": 2,
+      "answers": [
+        "69",
+        "23",
+        "46",
+        "86"
+      ],
+      "question": "The square of a two digit number is divided by half the number. After 36 is added to the quotient, this sum is then divided by 2. The digits of the resulting number are the same as those in the original number, but they are in reverse order. The ten's place of the original number is equal to twice the difference between its digits. What is the number?",
+      "solution": "Trial and error method is the quickest way to solve this."
+    },
+    {
+      "id": 2,
+      "answer": 0,
+      "answers": [
+        "23",
+        "33",
+        "13",
+        "3"
+      ],
+      "question": "The least number which should be added to 2497 so that the sum is exactly divisible by 5, 6, 4 and 3 is",
+      "solution": "L.C.M of 3,4,5 and 6 is 60\r\n\r\n2520 is divisible by 60. \r\n\r\nHence, 23 should be added"
+    },
+    {
+      "id": 3,
+      "answer": 1,
+      "answers": [
+        "1000",
+        "980",
+        "270",
+        "230"
+      ],
+      "question": "Divide 100 by half, then multiply it with 5 and subtract 20. What is the result?",
+      "solution": "100:(1/2) = 100*2 =200\r\n\r\n(200*5)-20 = 980"
+    },
+    {
+      "id": 4,
+      "answer": 0,
+      "answers": [
+        "3600",
+        "400",
+        "14400",
+        "17280"
+      ],
+      "question": "The least perfect square number which divides 20, 15 and 24 is",
+      "solution": "L.C.M of 20, 15 and 24 is 120.\r\n\r\n120 is divisible by 3600."
+    },
+    {
+      "id": 5,
+      "answer": 2,
+      "answers": [
+        "214",
+        "284",
+        "428",
+        "842"
+      ],
+      "question": "In a three digit number, the first digit is twice the second digit and half of the third digit. The sum of the digits is 14. Find the number.",
+      "solution": "Based on the first statement, \r\n\tthe number can be 214 and 428.\r\nBased on the second statement, \r\n\twe eliminate 214."
+    },
+    {
+      "id": 6,
+      "answer": 0,
+      "answers": [
+        "59",
+        "49",
+        "29",
+        "19"
+      ],
+      "question": "A number when divided by 6 leaves a remainder of 5, when divided by 5 leaves a remainder of 4, when divided by 4 leaves a remainder of 3, when divided by 3 leaves a remainder of 2 and when divided by 2 leaves a remainder of 1. Find the number.",
+      "solution": "On adding 1, the number should be divisible by 6, 5, 4, 3 and 2.\r\n\r\nL.C.M of these numbers is 60.\r\n\r\nHence, the answer is 59."
+    },
+    {
+      "id": 7,
+      "answer": 2,
+      "answers": [
+        "(i)  and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "(i) only"
+      ],
+      "question": "Which of the following numbers is divisible by 6?\r\n\t(i) 5647386\r\n\t(ii) 8460398\r\n\t(iii) 2385972",
+      "solution": "For a number to be divisible by 6,\r\n\tIt should be even.\r\n\tThe sum of its digits should be divisible by 3."
+    },
+    {
+      "id": 8,
+      "answer": 3,
+      "answers": [
+        "35, 25, 5",
+        "25, 15, 4",
+        "25, 15, 5",
+        "30, 20, 5"
+      ],
+      "question": "Divide 55 into three parts such that when 5 is subtracted from the first part, 5 is added to the second part and 5 is multiplied by the third part, all end up in the same result.",
+      "solution": "x+y+z=55\r\nx-5 = y+5 = 5z\r\n\r\nSolving this, x=30, y=20, z=5\r\n\r\nTrial and error method can also be used."
+    },
+    {
+      "id": 9,
+      "answer": 3,
+      "answers": [
+        "132",
+        "135",
+        "138",
+        "144"
+      ],
+      "question": "A multiple of 19 is divided by 3, added with 15 and multiplied by 2. Which of the following numbers could have been the result?",
+      "solution": "\r\n\t3*((x/2) - 15) is a multiple of 19.\r\n\r\nSubstitute x with the choices and check whether the result is a multiple of 19."
+    },
+    {
+      "id": 10,
+      "answer": 1,
+      "answers": [
+        "80,10",
+        "75,15",
+        "60,30",
+        "50,40"
+      ],
+      "question": "Divide 90 into two parts such that the sum of their reciprocals is 2/25.",
+      "solution": "(1/x)+(1/(90-x)) = (2/25)\r\n\r\nSolving, x= 75 or 15"
+    },
+    {
+      "id": 11,
+      "answer": 2,
+      "answers": [
+        "24, 12, 8",
+        "36, 18, 6",
+        "30, 15, 5",
+        "18, 12, 20"
+      ],
+      "question": "Divide 50 into three parts such that the first part is twice the second part and the second part is thrice the third part.",
+      "solution": "x+y+z = 50\r\nx = 2y\r\ny = 3z\r\n\r\nSolving, x=30, y=15, z=5"
+    },
+    {
+      "id": 12,
+      "answer": 3,
+      "answers": [
+        "126",
+        "247",
+        "368",
+        "489"
+      ],
+      "question": "A three digit number is such that the second digit is twice the first digit and sum of the digits is 21. The first and third digits differ by 5. Find the number.",
+      "solution": "Let the number be xyz.\r\n\r\ny=2x\r\nx+y+z=21\r\nz-x=5\r\n\r\nBy substituting the options, the answer is 489"
+    },
+    {
+      "id": 13,
+      "answer": 2,
+      "answers": [
+        "6",
+        "10",
+        "12",
+        "15"
+      ],
+      "question": "Find the number of factors of 60.",
+      "solution": "60 = (2^2) *(3^1) * (5^1)\r\n\r\nHence, the no. of factors = 3*2*2 = 12"
+    },
+    {
+      "id": 14,
+      "answer": 0,
+      "answers": [
+        "6",
+        "5",
+        "4",
+        "7"
+      ],
+      "question": "How many of these numbers are divided by 11?\r\n156,275,187,373,671,947,1045,594,321,819,1232",
+      "solution": "275,187,671,1045,594,1232 are divisible by 11."
+    },
+    {
+      "id": 15,
+      "answer": 3,
+      "answers": [
+        "123",
+        "98",
+        "156",
+        "132"
+      ],
+      "question": "P and Q are two-digit positive integers having the same digits, but in reverse order. Which of the following is a possible value of their sum?",
+      "solution": "If P = 10x+y,\r\n\tQ = 10y+x\r\nP+Q = 11x+11y = 11(x+y)\r\n\r\nThe sum should be divisible by 11.\r\n\r\nOnly 132 is divisible by 11.\r\n"
+    },
+    {
+      "id": 16,
+      "answer": 0,
+      "answers": [
+        "a>b",
+        "a<b",
+        "a=b",
+        "a≤b"
+      ],
+      "question": "If a and b are positive integers and (a-b)/5.5=2/11, then",
+      "solution": "(a-b)/5.5 = 2/11 = 1/5.5\r\n\r\na-b = 1\r\n\r\na = b+1\r\n\r\na>b"
+    },
+    {
+      "id": 17,
+      "answer": 0,
+      "answers": [
+        "20",
+        "25",
+        "52",
+        "16"
+      ],
+      "question": "The product of two positive integers is 100. The minimum value of their sum is ",
+      "solution": "100 can be expressed as \r\n\t100*1\r\n\t50*2\r\n\t25*4\r\n\t20*5\r\n\t10*10\r\nThe minimum value of their sum is 10+10 = 20"
+    },
+    {
+      "id": 18,
+      "answer": 0,
+      "answers": [
+        "942",
+        "700",
+        "950",
+        "853"
+      ],
+      "question": "The total number of digits used in numbering the pages of a book having 350 pages is ",
+      "solution": "Numbers 1-9 have 1 digit.\nNumbers 10-99 have 2 digits.\nNumbers 100-350 have 3 digits.\n\t\n(9*1)+(90*2)+(251*3)=942"
+    },
+    {
+      "id": 19,
+      "answer": 1,
+      "answers": [
+        "22.5",
+        "24",
+        "30",
+        "25"
+      ],
+      "question": "The sum of the squares of 3 numbers is 276. The sum of their products taken two at a time is 150. Find their sum.",
+      "solution": "Let the three numbers be a, b and c.\r\n\r\na²+b²+c²=276 \r\nab+bc+ca=150\r\n\r\n(a+b+c)² \r\n\t= a²+b²+c²+2(ab+bc+ca)\r\n\t= 276+2*150\r\n\t= 576\r\n\r\n(a+b+c) = √576 = 24"
+    },
+    {
+      "id": 20,
+      "answer": 3,
+      "answers": [
+        "p-2",
+        "p",
+        "p+2",
+        "p+4"
+      ],
+      "question": "The product of two positive numbers is p. If each of the numbers is increased by 2, the new product is how much greater than twice the sum of the two original numbers?",
+      "solution": "Let the two numbers be x and y.\r\n\r\nxy = p\r\n\r\n(x+2)(y+2)\r\n\t= xy+2(x+y)+4\r\n\t= p+4+2(x+y)\r\n\r\nThe product is p+4 more than twice the sum of the original numbers.\r\n\t"
+    },
+    {
+      "id": 21,
+      "answer": 3,
+      "answers": [
+        "x²",
+        "x³",
+        "3x+4",
+        "5x+7"
+      ],
+      "question": "If x is an odd integer, the even integer among the following is",
+      "solution": "If x is odd,\r\n\tx² and x³ will also be odd.\r\n\r\n3x will be odd. So, 3x+4 will also be odd.\r\n\todd+even = odd\r\n\r\n5x will be odd. So 5x+7 will be even\r\n\todd+odd = even"
+    },
+    {
+      "id": 22,
+      "answer": 2,
+      "answers": [
+        "120",
+        "125",
+        "119",
+        "113"
+      ],
+      "question": "A printer numbered the pages of a book consecutively, starting with 1 on the first page. He had to print a total of 250 digits. Find the number of pages in the book.",
+      "solution": "Numbers 1 to 9 have 1 digit each.\r\n\t10*1 = 10\r\n\r\nNumbers 10 to 99 have 2 digits each.\r\n\t90*2=180\r\n\r\nNumber of digits printed upto 99 pages\r\n\t= 190\r\n \r\n250-190 = 60 = 20*3\r\n\r\n20 three-digit numbers have been printed.\r\n\r\n100 to 119 \r\nThe book contains 119 pages."
+    },
+    {
+      "id": 23,
+      "answer": 1,
+      "answers": [
+        "2/7",
+        "2/5",
+        "3/5",
+        "1/3"
+      ],
+      "question": "The product of two fractions is 2/15 and their quotient is 5/6. The greater fraction is",
+      "solution": "Let the fractions be x=a/b and y=c/d\r\n\r\nxy = 2/15\r\n\r\nx:y = 5/6\r\n\r\nx =(2/15):y = (5/6)*y\r\n\r\ny²  = (2/15):(5/6) \r\n     = 12/75\r\n     = 4/25\r\ny = 2/5\r\n\r\nx\t= (5/6)y\r\n\t= 5/6*2/5 \r\n\t= 1/3  \r\n\r\nTo find which is greater, take LCM\r\n\tx=5/15 \r\n\ty=6/15\r\ny>x"
+    },
+    {
+      "id": 24,
+      "answer": 0,
+      "answers": [
+        "78",
+        "35",
+        "52",
+        "64"
+      ],
+      "question": "Which of the following could be the sum of three consecutive integers?",
+      "solution": "Let the three consecutive integers be x, x+1, x+2\r\n\tSum = x+x+1+x+2\r\n\t         = 3x+3\r\n\t         = 3(x+1)\r\nThe sum of three consecutive integers should be divisible by 3.\r\n\r\nAmong the given options,\r\n\tonly 78 is divisible by 3."
+    },
+    {
+      "id": 25,
+      "answer": 3,
+      "answers": [
+        "96",
+        "90",
+        "100",
+        "99"
+      ],
+      "question": "If the sum of three consecutive integers is 30, find the product of the largest and smallest of these integers.",
+      "solution": "Divide the sum by 3 to get the middle number.\r\n\r\nThe 3 integers are 9,10,11.\r\n\r\n9*11 = 99"
+    },
+    {
+      "id": 30,
+      "answer": 0,
+      "answers": [
+        "2/3",
+        "3/2",
+        "4/9",
+        "3/5"
+      ],
+      "question": "Divide 4½ by 6¾.",
+      "solution": "4½ = 9/2\r\n6¾ = 27/4\r\n\r\n(9/2)/(27/4)\r\n\t= 2/3"
+    },
+    {
+      "id": 29,
+      "answer": 2,
+      "answers": [
+        "28",
+        "41",
+        "82",
+        "64"
+      ],
+      "question": "The tens digit is four times the ones digit in a certain number. If the sum of the digits is 10, what is the number?",
+      "solution": "Let the number be 10x+y\r\n\tTen's digit - x\r\n\tOne's digit - y\r\nx=4y\r\nx+y=10\r\n\tSolving, y=2\r\n\tx=8\r\nThe number is 82"
+    },
+    {
+      "id": 28,
+      "answer": 1,
+      "answers": [
+        "34",
+        "26",
+        "28",
+        "36"
+      ],
+      "question": "Eight apples are taken from a basket containing two more than four times as many apples. How many are left in the basket?",
+      "solution": "Total no. of apples\r\n\t= 2+4*(8)\r\n\t= 34\r\nNo. of apples left\r\n\t= 34-8\r\n\t= 26"
+    },
+    {
+      "id": 27,
+      "answer": 1,
+      "answers": [
+        "10",
+        "8",
+        "5",
+        "3"
+      ],
+      "question": "Find the smallest number that must be added to 490273 to obtain a multiple of 11.",
+      "solution": "490273 divided by 11\r\n\tgives a remainder of 3\r\n11-3=8 must be added to make it divisible by 11."
+    },
+    {
+      "id": 26,
+      "answer": 2,
+      "answers": [
+        "13",
+        "7",
+        "5",
+        "3"
+      ],
+      "question": "Four prime numbers are written in ascending order. The product of the first 3 numbers is 105. The product of the last 3 is 385. Find the second number.",
+      "solution": "Let the numbers be a,b,c and d.\r\n\tabc=105\r\n\tbcd=385\r\nHCF(abc,bcd) = bc\r\n\tsince a and d are prime.\r\nHCF(105,385)\r\n\t= 35\r\n\t= 5*7\r\nThe second number is 5.\r\n"
+    },
+    {
+      "id": 31,
+      "answer": 0,
+      "answers": [
+        "35",
+        "42",
+        "49",
+        "57"
+      ],
+      "question": "Ray writes a two digit number. He sees that the number exceeds 4 times the sum of its digits by 3. If the number is increased by 18, the result is the same as the number formed by reversing the digits. Find the number.",
+      "solution": "Let the two digit number be xy.\r\n4(x+y) +3 = 10x+y     ---(I)\r\n10x+y + 18 = 10y+x  ---(II)\r\n\r\nSolving (I),\r\n\t2x - y = 1\r\nSolving (II),\r\n\ty - x = 2\r\n\r\nSolving the equations,\r\n\tx=3, y=5\r\nThe number is 35."
+    },
+    {
+      "id": 32,
+      "answer": 3,
+      "answers": [
+        ">15",
+        "≤14",
+        "13",
+        "12"
+      ],
+      "question": "a, b, c are non negative integers such that 28a+30b+31c = 365.\r\n\ta + b + c = ?",
+      "solution": "In a calendar,\r\n\tNo. of months having 28 days = 1\r\n\tNo. of months having 30 days = 4\r\n\tNo. of months having 31 days = 7\r\n\r\nHence, a = 1, b = 4, c = 7.\r\n\r\na+b+c = 12"
+    },
+    {
+      "id": 33,
+      "answer": 0,
+      "answers": [
+        "Rs.2",
+        "Rs.6",
+        "Rs.8",
+        "Rs.10"
+      ],
+      "question": "If a lemon and apple together cost Rs.12, a tomato and a lemon cost Rs.4 and an apple costs Rs.8 more than a lemon,what is the cost of a lemon?",
+      "solution": "l+a=12 --(I)\r\nt+l=4    --(II)\r\na=8+l   --(III)\r\n\r\nSubstituting (III) in (I),\r\n\tl+8+l=12\r\n\t2l=4\r\n\tl=2"
+    },
+    {
+      "id": 34,
+      "answer": 0,
+      "answers": [
+        "37",
+        "39",
+        "35",
+        "36"
+      ],
+      "question": "3 mangoes and 4 apples cost Rs.85. 5 apples and 6 peaches cost Rs.122. 6 mangoes and 2 peaches cost Rs.114. What is the combined price of 1 apple, 1 peach and 1 mango?",
+      "solution": "3m+4a=85   ----(I)\r\n5a +6p=122 ----(II)\r\n6m+2p=114 ----(III)\r\n\r\n(I)*2\r\n\r\n6m+8a=170 ----(IV)\r\n\r\n(IV) - (III)\r\n\r\n8a-2p=56 ----(V)\r\n\r\n(V)*3 ->  24a-6p=168\r\n(II)     ->  5a+6p=122\r\n\r\nSolving,\r\n\r\n29a=290\r\n\ta=10\r\n\tp=12\r\n\tm=15\r\na+p+m=37"
+    },
+    {
+      "id": 35,
+      "answer": 3,
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "question": "Addition of 641 + 852 + 973 = 2456 is incorrect. What is the largest digit that can be changed to make the addition correct?",
+      "solution": "  641\r\n  852\r\n  973\r\n_____\r\n2466\r\n\r\nAny of the digits in the tens place has to be changed. The largest is 7. (973).\r\n\tIf it is replaced by 6 (963), the addition becomes correct and equal to 2456."
+    },
+    {
+      "id": 36,
+      "answer": 3,
+      "answers": [
+        "3,4",
+        "2,3",
+        "2,23",
+        "1,45"
+      ],
+      "question": "(x^y)+(y^x)=46\r\n\r\nFind the values of x and y.",
+      "solution": "(1^45)+(45^1)=46\r\n\r\nx,y = 1,45"
+    },
+    {
+      "id": 37,
+      "answer": 1,
+      "answers": [
+        "10,40",
+        "20,30",
+        "15,35",
+        "24,26"
+      ],
+      "question": "The sum of two numbers is 50 and the sum of their reciprocals is 1/12. Find these two numbers.",
+      "solution": "Let the numbers be x and y.\r\n\r\nx+y=50\r\n\r\n(1/x)+(1/y) = (1/12)\r\n\r\n12(x+y) = xy\r\n\r\n12*50 = (50-y)*y\r\n\r\ny²-50y+600=0\r\n(y-20)(y-30)=0\r\ny=20 or 30.\r\nIf y=20, x=30 and vice-versa.\r\nHence, the numbers are 20 and 30."
+    },
+    {
+      "id": 38,
+      "answer": 1,
+      "answers": [
+        "944",
+        "863",
+        "782",
+        "836"
+      ],
+      "question": "The sum of the three digits of a number is 17.The sum of square of the digits is 109. If we substract 495 from the number, the number is reversed. Find the number.",
+      "solution": "Let the number be xyz.\r\n\r\nx+y+z=17   ----(I)\r\n\r\nx²+y²+z²=109 -- (II)\r\n\r\n100x+10y+z - 495=100z+10y+x\r\n\r\nThe above equation simplifies to\r\n\tx-z=5 --- (III)\r\n\r\nBased on (I), and (III), the possible values for (x,y,z) are \r\n\t(9, 4, 4), (8,6,3), (7,8,2)\r\n\r\nOnly (8,6,3) satisfies (II).\r\n\r\nThe number is 863."
+    },
+    {
+      "id": 39,
+      "answer": 3,
+      "answers": [
+        "47",
+        "38",
+        "29",
+        "56"
+      ],
+      "question": "Find the two digit number which when substracted from the number formed by reversing its digits as well as when added to the number formed by reversing its digits, result in a perfect square.",
+      "solution": "It is better to start from the options.\r\n\r\n56+65 = 121\r\n65-56 = 9"
+    },
+    {
+      "id": 40,
+      "answer": 2,
+      "answers": [
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "question": "Kate wanted to buy 2 kgs of apples. The vendor kept the 2 kg weight on the right side and weighed 4 apples for that. She doubted the correctness of the balance and placed 2 kg weight on the left side and she could weigh 14 apples for 2 kgs. If the balance was correct, how many apples would she have got?",
+      "solution": "The left side has an extra weight of x kgs attached to it.\r\n\r\nLet the weight of an apple be a kgs.\r\n\r\n4a+x = 2\r\n\r\n14a = 2+x\r\n\r\nSolving the two equations,\r\n\t18a = 4\r\n\t9a = 2\r\n\r\nHence, for 2 kgs, she would have got 9 apples."
+    },
+    {
+      "id": 41,
+      "answer": 1,
+      "answers": [
+        "18 kg",
+        "24 kg",
+        "32 kg",
+        "36 kg"
+      ],
+      "question": "There are several bags of same weight.A bag is 6 kgs plus three fourth of the weight of another bag. What is the weight of a bag?",
+      "solution": "Let the weight of the bags be x kg.\r\n\r\n6+ (3/4)x = x\r\n\r\nx/4 = 6\r\n\r\nx = 24"
+    },
+    {
+      "id": 42,
+      "answer": 1,
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "question": "In the equation \r\n\tA + B + C + D + E = FG\r\nFG is the two digit number whose value is 10F + G and letters A, B , C , D , E, F and G each represent different digits. If FG is as large as possible, what is the value of G?",
+      "solution": "FG is as large as possible and all the 7 numbers should be different.\r\n\r\nBy trial and Error method, \r\n\r\n9 + 8 + 7 + 6 + 5 = 35\r\n\t5 is repeated\r\n9 + 8 + 7 + 6 + 4 = 34\r\n\t4 is repeated\r\n9 + 8 + 7 + 5 + 4 = 33\r\n\t3 is repeated\r\n9 + 8 + 6 + 5 + 4 = 32\r\n\tNo number is repeated. Hence, 32 is the largest value FG can take.\r\nG=2."
+    },
+    {
+      "id": 44,
+      "answer": 2,
+      "answers": [
+        "5, 13",
+        "5, 10",
+        "6, 10",
+        "6, 13"
+      ],
+      "question": "A boy buys 18 sharpeners, (brown/white) for Rs.100.For every white sharpener, he pays one rupee more than the brown sharpener. What is the cost of white sharpener and how much did he buy?",
+      "solution": "Let the no. of brown sharpeners he bought be b and\r\n\tthe no. of white sharpeners he bought be w and\r\n\tthe cost of a brown sharpener be Rs.x and\r\n\tthe cost of a white sharpener be Rs.(x+1)\r\n\r\nb+w = 18\r\nb = 18-w\r\n\r\n(b*x)+[(w*(x+1)] = 100\r\n(18-w)x + xw + w = 100\r\n18x+w=100\r\n\r\nSubstitute the options in the above equation.\r\n\r\nOnly option 3 satisfies the equation.\r\n\r\nx+1=6, w=10\r\n\r\n10+(18*5) = 100"
+    },
+    {
+      "id": 45,
+      "answer": 1,
+      "answers": [
+        "4,3,2",
+        "1,0,4",
+        "2,1,3",
+        "4,1,2"
+      ],
+      "question": "A number when successively divided by 5, 3, 2 gives remainder 0, 2, 1 respectively in that order. What will be the remainder when the same number is divided successively by 2, 3, 5 in that order?",
+      "solution": "Let the number be n.\r\n\r\nn = 5a\r\n\r\na = 3b+2\r\n\r\nb = 2c+1\r\n\r\na=3(2c+1)+2 = 6c+5\r\n\r\nn=5*(6c+5) = 30c+25\r\n\r\nFor c=0, n=25.\r\n\r\nWhen 25 is divided by 2,\r\n\tquotient=12\r\n\tremainder=1\r\nWhen 12 is divided by 3,\r\n\tQ = 4\r\n\tR = 0\r\nWhen 4 is divided by 5,\r\n\tQ = 0\r\n\tR = 4\r\n(1,0,4)"
+    },
+    {
+      "id": 46,
+      "answer": 1,
+      "answers": [
+        "45",
+        "34",
+        "25",
+        "20"
+      ],
+      "question": "How many positive integers less than 500 can be formed using the numbers 1,2,3,and 5 for digits, each digit being used only once?",
+      "solution": "Single digit numbers - 4\r\n\t1, 2, 3, 5\r\n\r\n2 digit numbers \r\n\tOne of the four can occupy the tens place and the one of the remaining three can occupy the units place.\r\n\t4*3 = 12\r\n\r\n3 digit numbers\r\n\r\nThe number should be < 500.\r\nHence, only 1, 2 or 3 can occupy the hundreds place.\r\n\t3*3*2=18\r\n\r\nNo. of integers\r\n\t= 34"
+    },
+    {
+      "id": 47,
+      "answer": 3,
+      "answers": [
+        "120",
+        "260",
+        "210",
+        "240"
+      ],
+      "question": "In the simple subtraction problem below some single digits are replaced by letters. Find the value of 7A+5D+6CD.\r\n\r\n  A5C5\r\n- 1B87\r\n   _____\r\n 674D",
+      "solution": "15-7 = 8\r\n\tD = 8\r\n\r\n10+(C-1)-8 = 4\r\n\tC = 3\r\n\r\n10+4-B=7\r\n\tB = 7\r\n(A-1)-1 = 6\r\n\tA = 8\r\n\r\n7A+5D+6CD\r\n\t= 56+40+144\r\n\t= 240"
+    },
+    {
+      "id": 48,
+      "answer": 0,
+      "answers": [
+        "1200 liters",
+        "1000 liters",
+        "700 liters",
+        "1400 liters"
+      ],
+      "question": "Two full tanks, one shaped like a cylinder and the other like a cone, contain liquid fuel. The cylindrical tank holds 500 lts more then the conical tank. After 200 lts of fuel is pumped out from each tank, the cylindrical tank now contains twice the amount of fuel in the conical tank. How many liters of fuel did the cylindrical tank have when it was full?",
+      "solution": "Let the initial amount of fuel in the conical tank be x liters and\r\n\tthat in the cylindrical tank be (x+500) liters.\r\n\r\n(x+500)-200 = 2(x-200)\r\n\r\nx+300 = 2x-400\r\n\r\nx=700\r\n\r\nAmount of fuel in the Cylindrical tank\r\n\t= 1200 liters"
+    },
+    {
+      "id": 49,
+      "answer": 3,
+      "answers": [
+        "17",
+        "49",
+        "64",
+        "97"
+      ],
+      "question": "A shop sells chocolates. It used to sell chocolates for Rs.2 each but there were no sales at that price. When it reduced the price, all the chocolates sold out enabling the shopkeeper to realize Rs 164.90 from the chocolates alone. If the new price was not less than half the original price quoted, how many chocolates were sold?",
+      "solution": "Factorise 16490\r\n\r\n16490 = 2*5*17*97\r\n            = 170*97\r\nThe price of a chocolate should be greater than 1 and less than 2.\r\n\r\n164.90 = 1.7*97\r\n\r\nChocolate price = Rs.1.7\r\n\r\n97 chocolates were sold."
+    },
+    {
+      "id": 50,
+      "answer": 2,
+      "answers": [
+        "600",
+        "800",
+        "1000",
+        "1200"
+      ],
+      "question": "In a park, entry fee is Rs.1. There are 3 rides, the entry for each costs Rs.1. The total number of boys entering are 3000. Total income for the day is Rs.7200. 800 students go for all 3 rides. 1400 go for atleast 2 rides. No one goes for the same ride twice. The number of students who do not go for any ride is",
+      "solution": "Amount collected through entry fees\r\n\t= 3000\r\nAmount collected through rides\r\n\t= 7200-3000\r\n\t= 4200\r\n800 students went for all three rides. Hence, they paid 800*3 = 2400\r\n\r\nNo. of students who went for only two rides\r\n\t= 1400-800\r\n\t= 600\r\nThey paid 600*2 = 1200\r\n\r\nRemaining amount\r\n\t= 4200-(2400+1200)\r\n\t= 600\r\n\r\n600 students would have gone for only one ride.\r\n\r\nNo. of students who didn't go for any ride\r\n\t= 3000-(800+600+600)\r\n\t= 1000"
+    },
+    {
+      "id": 51,
+      "answer": 0,
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "question": "A two digit number is 18 less than the square of the sum of its digits. How many such numbers are there?",
+      "solution": "Let the number be 10a+b.\r\n\r\n10a+b = (a+b)² - 18\r\n10a+b+18 = (a+b)²\r\nFor a = 1 to 9,\r\n\t10a+b+18 will be\r\n28+b, 38+b,....,98+b,108+b.\r\nThese should be equal to perfect squares.\r\nb can also take values only from 1 to 9.\r\nBy trial and error, 63 is the only such number possible."
+    },
+    {
+      "id": 52,
+      "answer": 0,
+      "answers": [
+        "45",
+        "54",
+        "60",
+        "50"
+      ],
+      "question": "A property was originally on a 99 years lease and two thirds of the time passed is equal to the four fifth of the time to come. How many years are there to go?",
+      "solution": "Let the time passed be x years.\r\n\r\n(2/3)x = (4/5)*(99-x)\r\n\r\n10x = 1188-12x\r\n\r\n22x=1188\r\nx=54\r\n\r\nTime left = 99-54 = 45 years"
+    },
+    {
+      "id": 53,
+      "answer": 0,
+      "answers": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "question": "On a 26 question test, 5 points were deducted for each wrong answer and 8 points were added for right answers. If Ram answered all the questions, how many were correct if his score was zero?",
+      "solution": "Let x be the number of correct answers.\r\n\r\n8x = 5(26-x)\r\n\r\n13x=130\r\n\r\nx=10"
+    },
+    {
+      "id": 54,
+      "answer": 2,
+      "answers": [
+        "9",
+        "10",
+        "19",
+        "20"
+      ],
+      "question": "If all the numbers between 11 and 100 are written on a piece of paper, how many times will the number 4 be written?",
+      "solution": "From 11 to 99,\r\n\t4 occurs 9 times in the units place and 10 times in the tens place.\r\n\r\nTotal no. of times 4 occurs\r\n\t\t= 19"
+    },
+    {
+      "id": 55,
+      "answer": 0,
+      "answers": [
+        "52",
+        "45",
+        "10",
+        "26"
+      ],
+      "question": "2ab5 is a four digit number divisible by 25. If a number formed from the two digits ab is a multiple of 13, then ab is",
+      "solution": "For a number to be divisible by 25, the last two digits should be either 00, 25, 50 or 75.\r\n\r\n\t2ab5 is divisible by 25. Hence, b should be either 2 or 7.\r\n\r\nab should be a multiple of 13.\r\n\r\nIn the given options, only 52 satisfies that condition."
+    },
+    {
+      "id": 56,
+      "answer": 0,
+      "answers": [
+        "24",
+        "40",
+        "16",
+        "20"
+      ],
+      "question": "What are the total number of divisors of 600 (including 1 and 600)?",
+      "solution": "\tExpress the number as the product of primes.\r\n\r\n\tn = (a^x)(b^y)(c^z)\r\n\t\ta,b,c are prime numbers\r\n\tthe number of factors of n is (x+1)(y+1)(z+1)\r\n\r\n600 = (2^3)*3*(5^2)\r\n\r\nNo. of factors\r\n\t= 4*2*3\r\n\t= 24"
+    },
+    {
+      "id": 57,
+      "answer": 0,
+      "answers": [
+        "2870",
+        "2000",
+        "5650",
+        "44100"
+      ],
+      "question": "What is the sum of the squares of the first 20 natural numbers?",
+      "solution": "Sum of the squares of first n natural numbers\r\n\t= n(n+1)(2n+1)/6\r\n\r\n20*21*41/6 = 2870"
+    },
+    {
+      "id": 58,
+      "answer": 0,
+      "answers": [
+        "18 minutes",
+        "610 minutes",
+        "206 minutes",
+        "34 minutes"
+      ],
+      "question": "A call center agent has a list of 305 phone numbers of people in alphabetical order of names (but she does not have any of the names). She needs to quickly contact Deepak Sharma to convey a message to him.If each call takes 2 minutes to complete, and every call is answered, what is the minimum amount of time in which she can guarantee to deliver the message to Mr Sharma?",
+      "solution": "She first divides the list into 2 (153 & 152).\r\n\r\nShe calls the last name in the first list. After checking the name, she can decide whether Deepak Sharma's name will be in the first list or second list.\r\n\r\nShe then divides that list into 2 (76 & 77) and repeats the same procedure.\r\n\r\n305 -> 153\r\n153 -> 76\r\n76   -> 38\r\n39   -> 19\r\n19   -> 10\r\n10   -> 5\r\n5     -> 3\r\n3     -> 2\r\n2     -> 1\r\n\r\nShe can finish it in 9 phone calls. Since each call takes 2 minutes, she takes 18 minutes."
+    },
+    {
+      "id": 59,
+      "answer": 0,
+      "answers": [
+        "7",
+        "10",
+        "15",
+        "18"
+      ],
+      "question": "Of the 38 people in my office, 10 like to drink chocolate, 15 are cricket fans, and 20 neither like chocolate nor like cricket. How many people like both cricket and chocolate?",
+      "solution": "Let the no. of people who like both be x.\r\n\r\n10+15-x+20=38\r\n\r\n45-x=38\r\n\r\nx=7"
+    },
+    {
+      "id": 60,
+      "answer": 0,
+      "answers": [
+        "18",
+        "8",
+        "64",
+        "16"
+      ],
+      "question": "If f(x) = 2x+2 what is f(f(3))?",
+      "solution": "f(3) = (2*3)+2 = 8\r\n\r\nf(f(3) = f(8) = 18"
+    },
+    {
+      "id": 61,
+      "answer": 0,
+      "answers": [
+        "4144",
+        "256",
+        "8192",
+        "102"
+      ],
+      "question": "What is the maximum value of x³y³ + 3 xy when x+y = 8?",
+      "solution": "If x=4, y=4\r\n\r\n(64*64)+48 = 4144\r\n\r\nFor all other values of x and y, we get a number <4144."
+    },
+    {
+      "id": 62,
+      "answer": 0,
+      "answers": [
+        "9",
+        "6",
+        "5",
+        "18"
+      ],
+      "question": "Let f(m,n) =45*m + 36*n, where m and n are integers (positive or negative).What is the minimum positive value for f(m,n) for all values of m,n (this may be achieved for various values of m and n)?",
+      "solution": "The minimum positive value can be achieved when\r\n\tm is positive and\r\n\tn is negative.\r\n\r\nm=1, n=-1\r\n\r\nf(m,n) = 45-36=9\r\n\r\nIts not possible to get a value lesser than 9."
+    },
+    {
+      "id": 63,
+      "answer": 0,
+      "answers": [
+        "4",
+        "10",
+        "5",
+        "6"
+      ],
+      "question": "We have an equal arms two pan balance and need to weigh objects with integral weights in the range 1 to 40 kilo grams. We have a set of standard weights and canplace the weights in any pan (i.e) some weights can be in a pan with objects and some weights can be in the other pan. The minimum number of standard weights required is",
+      "solution": "The weights required are 1, 3, 9 and 27.\r\n\r\nHence, the answer is 4."
+    },
+    {
+      "id": 64,
+      "answer": 0,
+      "answers": [
+        "15",
+        "16",
+        "31",
+        "10"
+      ],
+      "question": "How many divisors (including 1, but excluding 1000) are there for the number 1000?",
+      "solution": "\tExpress the number as the product of primes.\r\n\r\n\tn = (a^x)(b^y)(c^z)\r\n\t\ta,b,c are prime numbers\r\n\tthe number of factors of n is (x+1)(y+1)(z+1)\r\n\r\n1000 = (2^3)*(5^3)\r\n\r\nNo. of factors\r\n\t= 4*4\r\n\t= 16\r\n\r\nExcluding 1000, there are 15 divisors."
+    },
+    {
+      "id": 65,
+      "answer": 2,
+      "answers": [
+        "35",
+        "135",
+        "315",
+        "350"
+      ],
+      "question": "4/15 of 5/7 of a number is greater than 4/9 of 2/5 of the same number by 8. What is half of that number?",
+      "solution": "Let the number be x.\r\n\r\n[(4/15)*(5/7)*x] - [(4/9)*(2/5)*x] = 8\r\n\r\n(4x/21) - (8x/45) = 8\r\n\r\n4x = 8*315\r\n\r\nx/2 = 315"
+    },
+    {
+      "id": 66,
+      "answer": 3,
+      "answers": [
+        "38,27",
+        "24,13",
+        "30,19",
+        "28,17"
+      ],
+      "question": "The difference between two numbers is 11 and one-fifth of their sum is 9. Find the numbers.",
+      "solution": "Let the numbers be x and y.\r\n\r\nx-y=11\r\n\r\n(x+y)/5 = 9\r\nx+y=45\r\n\r\nSolving,\r\n\tx=28, y=17"
+    },
+    {
+      "id": 43,
+      "answer": 0,
+      "answers": [
+        "43,59",
+        "49,53",
+        "39,43",
+        "34,49"
+      ],
+      "question": "Of two numbers, 4 times the smaller one is less than 3 times the larger one by 5. If the sum of the numbers is larger than 6 times their difference by 6, find the two numbers.",
+      "solution": "Let the larger number be x and\r\n\tthe smaller number be y.\r\n\r\n3x-4y=5\r\n\r\nx+y - 6(x-y)=6\r\n-5x+7y=6\r\n\r\nSolving the two equations,\r\n\ty=43, x=59"
+    },
+    {
+      "id": 67,
+      "answer": 1,
+      "answers": [
+        "1/2",
+        "39/50",
+        "7/25",
+        "59/100"
+      ],
+      "question": "Which of the following is larger than 3/5?",
+      "solution": "39/50 is larger than 3/5."
+    },
+    {
+      "id": 68,
+      "answer": 1,
+      "answers": [
+        "0 and 3",
+        "3 and 6",
+        "6 and 9",
+        "9 and 12"
+      ],
+      "question": "If x^4 + y^4 = 100, then the greatest possible value of x is between",
+      "solution": "x is greatest when y is lowest.\r\n\r\nThe least possible value of y^4 is 0.\r\n\r\nx^4=100\r\n\r\nx^2=10\r\n\r\nx=3.16"
+    },
+    {
+      "id": 69,
+      "answer": 0,
+      "answers": [
+        "86",
+        "52",
+        "34",
+        "28"
+      ],
+      "question": "If M and N are positive integers that have remainders of 1 and 3 respectively when divided by 6, which of the following could not be a possible value of M+N?",
+      "solution": "M=6x+1\r\nN=6y+3\r\n\r\nM+N=6(x+y)+4\r\n\r\nWhen M+N is divided by 6, it should give a remainder of 4.\r\n\r\n86 gives a remainder of 2. Hence, it is not a possible value."
+    },
+    {
+      "id": 70,
+      "answer": 3,
+      "answers": [
+        "600",
+        "1200",
+        "1800",
+        "2400"
+      ],
+      "question": "A candy assortment consists of seven flavors of chocolate-covered creams packed in two-layered boxes with 27 creams in each layer. The flavors are always packed in rows so that the flavor varies with each piece in the following order, vanilla, orange, cherry, vanilla, raspberry, lime, pecan, cherry, lemon. How many chocolate-covered vanilla creams are needed to pack 200 boxes of the assortment?",
+      "solution": "vanilla, orange, cherry, vanilla, raspberry, lime, pecan, cherry, lemon\r\n\r\nThere are 9 creams in a row. 2 vanillas in each row.\r\n\r\n27 creams in each layer. Hence, 3 such rows are in each layer. 6 vanillas in each layer.\r\n\r\n2 layers in the box. 12 vanilla creams in the box.\r\n\r\nNo. of vanilla creams in 200 boxes\r\n\t= 12*200\r\n\t= 2400"
+    },
+    {
+      "id": 71,
+      "answer": 2,
+      "answers": [
+        "8",
+        "27",
+        "42",
+        "54"
+      ],
+      "question": "Which of the following cannot be a factor of the number (2^i)(3^j) , where i and j are non-negative integers?",
+      "solution": "42 cannot be a factor because it has a factor of 7.\r\n\r\nAll other numbers have factors of only 2 and 3."
+    },
+    {
+      "id": 72,
+      "answer": 1,
+      "answers": [
+        "I only",
+        "III only",
+        "I and III only",
+        "II and III only"
+      ],
+      "question": "If p divided by 9 leaves a remainder of 1, which of the following must be true?\r\n\r\nI. p is even.\r\nII. p is odd.\r\nIII. p = 3z + 1 for some integer z.",
+      "solution": "p-1 is a multiple of 9. p can be either odd or even. (10, 19, ...)\r\n\r\np-1 = 3z for some integer z\r\n\r\nHence, III alone must be true."
+    },
+    {
+      "id": 73,
+      "answer": 1,
+      "answers": [
+        "240",
+        "270",
+        "295",
+        "360"
+      ],
+      "question": "The difference between two numbers is 1365. On dividing the larger number by the smaller, we get 6 as quotient and the 15 as remainder. What is the smaller number?",
+      "solution": "Let the larger number be x and the smaller number be y.\r\n\r\nx-y = 1365\r\nx = 6y+15\r\n\r\nOn solving,\r\n\t6y-1350 = y\r\n\t5y = 1350\r\n\ty = 270"
+    },
+    {
+      "id": 74,
+      "answer": 1,
+      "answers": [
+        "100",
+        "114",
+        "200",
+        "208"
+      ],
+      "question": "A box of 150 packets consists of 1kg packets and 2kg packets. Total weight of the box is 264kg. How many 2kg packets are there?",
+      "solution": "Let the number of 2kg packets be x.\r\n\r\n2x+(150-x)=264\r\n\r\nx=114"
+    },
+    {
+      "id": 75,
+      "answer": 0,
+      "answers": [
+        "Rs.800",
+        "Rs.600",
+        "Rs.200",
+        "Rs.700"
+      ],
+      "question": "A man divides Rs.8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five times as much as each nephew, how much does each daughter receive?",
+      "solution": "5s+4d+2n=8600\r\n\r\nd=4n\r\ns=5n\r\n\r\n25n+16n+2n=8600\r\n43n=8600\r\nn=200\r\n\r\nd=800"
+    },
+    {
+      "id": 76,
+      "answer": 2,
+      "answers": [
+        "37",
+        "38",
+        "36",
+        "35"
+      ],
+      "question": "Of the two-digit numbers (those from 11 to 95, both inclusive) how many have a second digit greater than the first digit?",
+      "solution": "8 numbers from 12 to 19\r\n7 from 23-29\r\n6 from 34-39\r\n5 from 45-49\r\n4 from 56-59\r\n3 from 67-69\r\n2 from 78-79\r\n1 - 89\r\n\r\nTotal - 36"
+    },
+    {
+      "id": 77,
+      "answer": 3,
+      "answers": [
+        "16",
+        "18",
+        "15",
+        "14"
+      ],
+      "question": "Sum of three even consecutive numbers is 48. The least number is",
+      "solution": "x+x+2+x+4=48\r\n\r\n3x+6=48\r\n\r\nx=14"
+    },
+    {
+      "id": 78,
+      "answer": 2,
+      "answers": [
+        "109",
+        "130",
+        "137",
+        "145"
+      ],
+      "question": "The difference between two numbers is 9 and the product of the two is 14. What is the square of their sum?",
+      "solution": "x-y=9\r\nxy=14\r\n\r\n(x-y)²=x²+y²-2xy\r\n\r\n81 = x²+y²-28\r\n\r\nx²+y²=109\r\n\r\n(x+y)² = x²+y²+2xy\r\n           = 137"
+    },
+    {
+      "id": 79,
+      "answer": 3,
+      "answers": [
+        "5^7",
+        "5^6",
+        "5^9",
+        "5^8"
+      ],
+      "question": "How many 9 digit numbers are possible by using the digits 1, 2, 3, 4, 5 which are divisible by 4 if repetition is allowed?",
+      "solution": "The last two digits can take 5 values.\r\n\t12, 24, 32, 44, 52\r\n\r\nThe first seven digits can be any one of the 5 numbers.\r\n\tNo. of ways = 5^7\r\n\r\nTotal no. of ways\r\n\t5^7 * 5 = 5^8"
+    },
+    {
+      "id": 80,
+      "answer": 3,
+      "answers": [
+        "51642",
+        "71963",
+        "92743",
+        "71842"
+      ],
+      "question": "There is a five digit number\r\n1) It has 2 prime digits\r\n2) The third digit is the highest\r\n3) The second digit is lowest\r\n4) The first digit is 1 less that third digit\r\n5) The fifth is half of the fourth\r\n6) The sum of the 4th and 5th digit is less than the first.\r\n\r\nFind the number.",
+      "solution": "71842satisfies all the conditions."
+    },
+    {
+      "id": 81,
+      "answer": 0,
+      "answers": [
+        "120 frames",
+        "140 frames",
+        "90 frames",
+        "84 frames"
+      ],
+      "question": "Two persons have 64 and 20 barrels of wine. the first one pays tax 5 barrels and 40 frames. the second one pays 2 barrel and got back 40 frames. What is the value of each barrel?",
+      "solution": "Tax for 64b\r\n\t5b+40f\r\n\r\nTax for 20b\r\n\t2b-40f\r\n\r\n(5b+40f)*20/64 = 2b-40f\r\n\r\n25b+200f = 32b-640f\r\n\r\n7b = 840f\r\n\r\nb=120f"
+    },
+    {
+      "id": 82,
+      "answer": 3,
+      "answers": [
+        "30",
+        "33",
+        "36",
+        "Cannot determine"
+      ],
+      "question": "In a class, except 18 all are above 50 years. 15 are below 50 years of age. How many people are there?",
+      "solution": "Number of people above 50 years is not given.\r\n\r\nSo the total number of people in the class cannot be determined."
+    },
+    {
+      "id": 83,
+      "answer": 3,
+      "answers": [
+        "20",
+        "30",
+        "32",
+        "39"
+      ],
+      "question": "A, B, C are having some marbles with each of them. A has given B and C the same number of marbles each of them already have. Then, B gave C and A the same number of marbles they already have. Then C gave A and B the same number of marbles they already have. At the end A, B, and C have equal number of marbles. If x, y, z are the marbles initially with A, B, C respectively. If the total number of marbles are 72, then the number of marbles with A at the starting",
+      "solution": "x+y+z=72\r\n\r\nA gives B and C\r\n\tA - (x-y-z)\r\n\tB - 2y\r\n\tC - 2z\r\n\r\nB gives A and C\r\n\tA - 2(x-y-z)\r\n\tB - 2y-(x-y-z+2z) = 3y-x-z\r\n\tC - 4z\r\n\r\nC gives A and B\r\n\tA - 4(x-y-z)\r\n\tB - 2(3y-x-z)\r\n\tC - 4z-(2x-2y-2z+3y-x-z) = 7z-x-y\r\n\r\n4(x-y-z) = (6y - 2x - 2z) = (7z - x - y)\r\n\r\nSum of these three terms is 72.\r\n\r\nSolving these equations, x=39."
+    },
+    {
+      "id": 84,
+      "answer": 3,
+      "answers": [
+        "21",
+        "30",
+        "35",
+        "39"
+      ],
+      "question": "There are 3 persons Sudhir, Arvind, and Gauri. Sudhir lent cars to Arvind and Gauri as many as they had already. After some time, Arvind gave as many cars to Sudhir and Gauri as many as they have. After sometime Gauri did the same thing. At the end of this transaction each one of them had 24. Find the Sudhir originally had.",
+      "solution": "S             A            G\r\n\r\n24           24          24\r\n12           12          48\r\n6             42          24\r\n39           21          12"
+    },
+    {
+      "id": 85,
+      "answer": 0,
+      "answers": [
+        "12",
+        "8",
+        "6",
+        "10"
+      ],
+      "question": "Ria has a jewel chest containing Rings, Pins and Ear-rings. The chest contains 26 pieces. Ria has 2 1/2 times as many rings as pins, and the number of pairs of earrings is 4 less than the number of rings. How many earrings does Ria have?",
+      "solution": "Let e be the number of pairs of earrings.\r\n\r\nr+p+2e=26\r\n\r\nr=2.5p\r\n\r\ne=r-4 = 2.5p-4\r\n\r\n2.5p+p+5p-8=26\r\n8.5p = 34\r\np=4\r\n\r\ne=2.5p - 4 = 6\r\n\r\n6 pairs of earrings. 12 ear rings."
+    },
+    {
+      "id": 86,
+      "answer": 3,
+      "answers": [
+        "24",
+        "729",
+        "27",
+        "486"
+      ],
+      "question": "Spores of a fungus, called late blight, grow and spread infection rapidly. These pathogens were responsible for the Irish potato famine of the mid-19th century. These seem to have attacked the tomato crops in England this year. The tomato crops have reduced and the price of the crop has risen up . The price has already gone up to $45 a box from $27 a box a month ago. How much more would a vegetable vendor need to pay to buy 27 boxes this month over what he would have paid last month?",
+      "solution": "Difference in price of 1 box\r\n\t= 45-27 = 18\r\nDifference in prices of 27 boxes\r\n\t= 18*27 = 486"
+    },
+    {
+      "id": 87,
+      "answer": 0,
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "question": "The unit digit in the product (784 * 618 * 917 * 463) is ?",
+      "solution": "Unit digit in the given product = Unit digit in (4 * 8 * 7 * 3) = 2.\n"
+    },
+    {
+      "id": 88,
+      "answer": 2,
+      "answers": [
+        "1",
+        "5",
+        "7",
+        "9"
+      ],
+      "question": "The unit digit in 7^105 is ?",
+      "solution": "Unit digit in 7105 = Unit digit in [(74)26 * 7]. But, unit digit in (74)26 = 1. So, Unit digit in 7105 = (1 * 7) = 7."
+    },
+    {
+      "id": 89,
+      "answer": 2,
+      "answers": [
+        "1",
+        "2",
+        "5",
+        "6"
+      ],
+      "question": "Which is the smallest number that divides 2880 and gives a perfect square?",
+      "solution": "2880 = 12*12*5*2*2\n\nWhen divided by 5, it gives a perfect square."
+    },
+    {
+      "id": 90,
+      "answer": 1,
+      "answers": [
+        "8",
+        "15",
+        "16",
+        "0"
+      ],
+      "question": "There are 23 reading spots in a room. Each reading spot has a round table. Each round table has 9 chairs. If different number of persons are sitting at each reading spot and if there are 36 persons inside the room, then how many reading spots do not have atleast a single reader?",
+      "solution": "Each reading spot has different number of readers.\n\n1+2+3+4+5+6+7+8=36\n\nOnly 8 spots are occupied.\n\n(23-8)=15 spots have no readers."
+    },
+    {
+      "id": 91,
+      "answer": 0,
+      "answers": [
+        "30",
+        "31",
+        "20",
+        "21"
+      ],
+      "question": "Shreya writes first 100 whole numbers. Let A and B be the number of times she writes 0 and 9 respectively. Find the value of A+B.",
+      "solution": "The first 100 whole numbers are \r\n\t0 to 99.\r\n\r\nA = Number of 0's in (0,10,20,30,40,50,60,70,80,90)\r\n   =10\r\n\r\nB=Number of 9's in (9,19,29,39,49,59,69,79,89,90,91,92,93,94,95,96,97,98,99)\r\n  =20\r\n\r\nA+B=30\r\n"
+    },
+    {
+      "id": 92,
+      "answer": 0,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "A and C"
+      ],
+      "question": "Pizza shops make pizzas of same thickness but different diameter. Cost of pizza A with diameter 8 cm is 80 $, cost of the pizza B with diameter 12 cm is 240 $, cost of the pizza C with diameter 24 cm is 720 $. Which of the above mentioned pizzas gives the best value for money?",
+      "solution": "A\r\n\t8 cm =   80$\r\n\t1 cm =10$\r\n\r\nB\r\n\t12 cm = 240$\r\n\t1 cm =20$\r\n\r\nC\r\n\t24 cm = 720$\r\n\t1 cm =30$\r\n\r\nA gives the best value for money."
+    },
+    {
+      "id": 93,
+      "answer": 2,
+      "answers": [
+        "34",
+        "40",
+        "52",
+        "42"
+      ],
+      "question": "The great Indian mathematician Bhaskaracharya formulated this problem in the twelfth century for his teenager prime number aged daughter Lilavati. He also authored the eponymous Lilavati, a compendium of mathematical puzzles, in which the number of problems that use this formula is the sum of two prime numbers. The product of the two prime numbers is smaller than the total number of problems in the Lilavati. Now, if the difference of any two numbers is 4 and their product is 18, what is the sum of their squares?",
+      "solution": "a-b=4\r\nab=18\r\n\r\na²+b²=(a-b)²+2ab = 16+36 = 52"
+    },
+    {
+      "id": 94,
+      "answer": 0,
+      "answers": [
+        "12",
+        "10",
+        "11",
+        "15"
+      ],
+      "question": "Find the number of trailing zeroes in 52!.",
+      "solution": "10, 20, 30, 40, 50\r\n\t5 zeros\r\n\r\n5, 15, 25, 35, 45\r\n\twhen multiplied by even numbers, give 5 zeros.\r\n\r\n25, 50 contribute an extra zero\r\n\tsince they are multiples of 25.\r\n\r\nTotal\r\n\t= 5+5+2\r\n\t= 12"
+    },
+    {
+      "id": 95,
+      "answer": 2,
+      "answers": [
+        "120",
+        "54",
+        "60",
+        "48"
+      ],
+      "question": "How many numbers can be formed using all of 1,2,3,4,5 (without repetition), when the digit at the units place must be greater than that in the tenth place?",
+      "solution": "Number of 5 digit numbers using 1,2,3,4,5 without repition\r\n\t= 5*4*3*2*1\r\n\t= 120\r\n\r\nUnit's digit > Ten's digit\r\n\r\nEg. Of the numbers ending with 45 and 54, only those ending with 45 will be considered.\r\n\r\nSo, half of the numbers will be ruled out.\r\n\r\n120/2 = 60 numbers meet the criteria."
+    },
+    {
+      "id": 96,
+      "answer": 0,
+      "answers": [
+        "15",
+        "24",
+        "33",
+        "06"
+      ],
+      "question": "The sum of the digits of a two digit number is 6. When 36 is added to the number, the digits are reversed. Find the number.",
+      "solution": "x+y = 6\n\n10x+y+36 = 10y+x\n\n9x-9y = -36\n\nx-y = -4\nx+y = 6\n\nx = 1\ny = 5\n\nThe number is 15."
+    },
+    {
+      "id": 97,
+      "answer": 0,
+      "answers": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "question": "From 1 to 100, how many numbers are divisible by 4 and also contain 4?",
+      "solution": "4, 24, 40, 44, 48, 64, 84"
+    },
+    {
+      "id": 98,
+      "answer": 0,
+      "answers": [
+        "1/3",
+        "1",
+        "1.3",
+        "9"
+      ],
+      "question": "A sales person multiplied a number and got the answer as 3, instead of that number divided by 3. What is the answer he actually has to get?",
+      "solution": "Let the number be x.\n\n3x = 3\nx = 1\n\nHe has to divide the number by 3.\n\nSo, the answer is 1/3."
+    },
+    {
+      "id": 99,
+      "answer": 1,
+      "answers": [
+        "5",
+        "9",
+        "10",
+        "11"
+      ],
+      "question": "Five times an unknown number is 5 less than 50. The unknown number is",
+      "solution": "5x = 50-5\nx = 9"
+    },
+    {
+      "id": 100,
+      "answer": 3,
+      "answers": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "question": "The sum of two consecutive numbers is 55, which is the largest number?",
+      "solution": "x+x+1 = 55\n\n2x = 54\nx = 27\n\nx+1 = 28"
+    }
+  ]

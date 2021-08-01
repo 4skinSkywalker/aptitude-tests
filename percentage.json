@@ -1,0 +1,542 @@
+[
+    {
+      "id": 1,
+      "answer": 2,
+      "answers": [
+        "20%",
+        "25%",
+        "33.33%",
+        "30%"
+      ],
+      "question": "Ravi's salary was reduced by 25%.Percentage increase to be effected to bring the salary to the original level is",
+      "solution": "Let Ravi's salary be x and his new salary be 0.75x.\r\n\r\nTo bring his salary to the original level, 0.25x should be added.\r\n\r\n% increase \r\n         = (0.25x/0.75x) * 100 \r\n         = 33.33 %\r\n\r\n"
+    },
+    {
+      "id": 2,
+      "answer": 2,
+      "answers": [
+        "100%",
+        "50%",
+        "25%",
+        "20%"
+      ],
+      "question": "Reena scores 80 marks in her first internal maths paper. By how much should she improve her mark in the second internal in order to get an average of 90 in maths?",
+      "solution": "If her average should be 90, she should score 100 in the second internal. \r\n\r\n% improvement \r\n        = [(100-80)/80] * 100 \r\n        = 25%\r\n"
+    },
+    {
+      "id": 3,
+      "answer": 2,
+      "answers": [
+        "20%",
+        "30%",
+        "50%",
+        "100%"
+      ],
+      "question": "If the length of a rectangle is halved and the breadth is tripled, by how much % does the area of the rectangle increase?",
+      "solution": "New area = l/2 * 3b = 3lb/2  \r\n\r\n% change \r\n        = [((3lb/2)- lb)/lb] * 100 \r\n        = 50%"
+    },
+    {
+      "id": 4,
+      "answer": 1,
+      "answers": [
+        "25%",
+        "20%",
+        "5%",
+        "4%"
+      ],
+      "question": "Daal is now being sold at Rs. 20 a kg. Last month, its rate was Rs. 16 per kg. By how much percent should a family reduce its consumption so as to keep the expenditure fixed?",
+      "solution": "Let a family's monthly consumption of daal be x kg. \r\n\r\nTo keep the expenditure fixed, their consumption for this month should be 16x/20 = 4x/5. \r\n\r\nReduction in consumption \r\n\t= x/5 = 20% of x"
+    },
+    {
+      "id": 5,
+      "answer": 1,
+      "answers": [
+        "20%",
+        "19%",
+        "15%",
+        "10%"
+      ],
+      "question": "If the sides of a square are decreased by 10%, by how much does the area of the square decrease?",
+      "solution": "Side of the new square \r\n\t= 0.9a\r\nArea of the new square \r\n\t= (0.9a)² = 0.81a²\r\n19% decrease\r\n"
+    },
+    {
+      "id": 6,
+      "answer": 2,
+      "answers": [
+        "50% increase",
+        "25% increase",
+        "50% decrease",
+        "25% decrease"
+      ],
+      "question": "If the length and breadth of a cuboid are halved and the height is doubled, find the % change in volume.",
+      "solution": "New volume \r\n\t= (l/2)*(b/2)*2h \r\n\t= (lbh/2)\r\nSo, there is 50% decrease."
+    },
+    {
+      "id": 7,
+      "answer": 3,
+      "answers": [
+        "40%",
+        "20%",
+        "50%",
+        "44%"
+      ],
+      "question": "If the sides of a square are increased by 20%, by how much will the area of the square increase?",
+      "solution": "Area of the original square\r\n\t=a²\r\nArea of the new square \r\n\t= (1.2a)²=1.44a²\r\n% Increase in area \r\n\t= [(1.44a²-a²)/a²] * 100 \r\n\t= 44%"
+    },
+    {
+      "id": 8,
+      "answer": 0,
+      "answers": [
+        "38%",
+        "35%",
+        "32%",
+        "30%"
+      ],
+      "question": "If the length and breadth of a rectangle is increased by 15% and 20%, by how much will the area of the rectangle increase?",
+      "solution": "Area of the new rectangle \r\n\t= 1.15l*1.2b \r\n\t= 1.38lb\r\n% increase in area = 38%"
+    },
+    {
+      "id": 9,
+      "answer": 3,
+      "answers": [
+        "15%",
+        "12%",
+        "11%",
+        "10%"
+      ],
+      "question": "If the length and area of a rectangle have been increased by 20% and 32% respectively, by how much % has the breadth been increased?",
+      "solution": "New breadth\r\n\t=1.32lb/1.2l = 1.1b\r\n% increase in breadth = 10%"
+    },
+    {
+      "id": 10,
+      "answer": 2,
+      "answers": [
+        "22%",
+        "30%",
+        "33.1%",
+        "35%"
+      ],
+      "question": "The sides of a cube are increased by 10%. By how much will the volume of the cube increase?",
+      "solution": "New volume \r\n\t= (1.1a)³ = 1.331a³\r\n% increase = 33.1%"
+    },
+    {
+      "id": 11,
+      "answer": 2,
+      "answers": [
+        "150",
+        "175",
+        "200",
+        "250"
+      ],
+      "question": "A group consists of 60% men and 40% women. 70% of the people in this group are employed. If 100 men are employed and 50% of the women are employed, find the number of people in the group.",
+      "solution": "Let the number of people in the group be x.\r\n\r\nNumber of men = 0.6x\t\r\nNumber of women = 0.4x\r\nNumber of employed = 0.7x\r\n\r\n100+0.5*(0.4x) = 0.7x\r\nx=200"
+    },
+    {
+      "id": 12,
+      "answer": 0,
+      "answers": [
+        "95",
+        "40",
+        "45",
+        "120"
+      ],
+      "question": "A group of 300 consists of 135 senior citizens. If 40% of the women in the group are senior citizens and there are 200 men in the group, find the number of male senior citizens in the group.",
+      "solution": "Let a and b be the number of Male Senior Citizens and Male Non-Senior Citizens respectively.\r\n\r\nLet c and d be the number of Female Senior Citizens and Female Non-Senior Citizens respectively. \r\n\r\na+b=200\t\t\r\na+c=135\t\r\na+b+c+d=300\t\t\r\n0.4*(c+d)=c\r\nSolving the four equations, a=95"
+    },
+    {
+      "id": 13,
+      "answer": 1,
+      "answers": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "question": "Rahul scored 75 marks in the first internal and 90 marks in the second internal. By how much percentage has Rahul's performance improved?",
+      "solution": "% improvement\r\n\t= [(90-75)/75]*100 \r\n\t= 20%"
+    },
+    {
+      "id": 14,
+      "answer": 2,
+      "answers": [
+        "20",
+        "24",
+        "25",
+        "30"
+      ],
+      "question": "In a class, there are 50 students. A teacher selects 10 students for a competition. The number of boys selected is 32% of the total number of boys and the number of girls selected is 8% of the total number of girls in the class. Find the number of girls in the class.",
+      "solution": "Let the no. of boys and girls in the class be x and y respectively.\r\n\r\nx+y=50\r\n0.32x+0.08y=10\r\n\r\nSolving the two equations, y=25"
+    },
+    {
+      "id": 15,
+      "answer": 3,
+      "answers": [
+        "70%",
+        "50%",
+        "35%",
+        "30%"
+      ],
+      "question": "In a cricket match, Rahul scored a century with 13 boundaries and 3 sixes. What percentage of his runs did he make by running between the wickets?",
+      "solution": "Runs scored in boundaries and sixes \r\n\t= (13*4)+(3*6) \r\n\t= 52+18 = 70\r\nRuns scored between the wickets \r\n\t= 100-70 = 30\r\n30% of the runs are scored by running between the wickets."
+    },
+    {
+      "id": 16,
+      "answer": 3,
+      "answers": [
+        "3%",
+        "10%",
+        "30%",
+        "33.33%"
+      ],
+      "question": "If x=3y, what % of x is y?",
+      "solution": "y = x/3 = (1/3)*x \r\n   = (100/3)% of x\r\n   = 33.33% of x"
+    },
+    {
+      "id": 17,
+      "answer": 0,
+      "answers": [
+        "400",
+        "520",
+        "390",
+        "300"
+      ],
+      "question": "After selling 35% of the oranges, a fruit vendor has 260 oranges left. How many did he have originally?",
+      "solution": "After selling 35% of the oranges, he has 65% left.\r\n\r\n(65/100)*x = 260\r\n\r\nx = 400"
+    },
+    {
+      "id": 18,
+      "answer": 1,
+      "answers": [
+        "60",
+        "15",
+        "9.6",
+        "30"
+      ],
+      "question": "40% of a number is 80. What is 30% of one-fourth of the number?",
+      "solution": "(40/100)*x = 80\r\n\r\nx = 200\r\n\r\n(30/100)*(200/4) = 15"
+    },
+    {
+      "id": 19,
+      "answer": 1,
+      "answers": [
+        "18.67%",
+        "17.33%",
+        "16%",
+        "17%"
+      ],
+      "question": "Out of the first 75 natural numbers, what percentage of them have 7 either in the units place or in the tens place?",
+      "solution": "There are 13 numbers. \r\n\r\n(7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75)\r\n\r\n\t(13/75)*100 = 17.33%"
+    },
+    {
+      "id": 20,
+      "answer": 2,
+      "answers": [
+        "1,10,562",
+        "1,10,000",
+        "1,10,313",
+        "1,11,237"
+      ],
+      "question": "The population of a town was 1,00,000 three years ago. If it increased by 2%, 3% and 5% respectively in the last three years, then the present population of the town is",
+      "solution": "The present population\r\n\t= (102/100)*(103/100)*(105/100)*100000\r\n\t= 1,10,313"
+    },
+    {
+      "id": 21,
+      "answer": 3,
+      "answers": [
+        "72",
+        "36",
+        "90",
+        "45"
+      ],
+      "question": "A two digit number ab is 60% of x. The two-digit number formed by reversing the digits of ab is 60% more than x. Find x.",
+      "solution": "Let the digits of the number be a and b.\r\n\r\n10a + b = 0.6x\r\n10b + a = 1.6x\r\n\r\nSubtracting one from the other, we get\r\n9b - 9a = x or x = 9( b-a)\r\n\r\nx should be a multiple of 9.\r\n\r\n0.6 = 3/5\r\n10a + b = 3x/5, this implies that x should also be a multiple of 5.\r\nOr, x should be a multiple of 45\r\n\r\nx should be equal to 45, ab = 27, ba = 72"
+    },
+    {
+      "id": 22,
+      "answer": 2,
+      "answers": [
+        "12500",
+        "16100",
+        "10100",
+        "15600"
+      ],
+      "question": "In an election, the winning candidate got 58% of the valid votes. If he got 1600 votes more than the other candidate and 100 votes were invalid, find the number of votes cast.",
+      "solution": "Let the no. of valid votes be x\r\n\r\nWinning candidate - 58% of x\r\nOther candidate - 42% of x\r\n\r\nDifference - 16% of x\r\n\r\n16% of x = 1600\r\n\r\nx=10000\r\n\r\nTotal votes \r\n\t= 10000+100 \r\n\t= 10100"
+    },
+    {
+      "id": 23,
+      "answer": 3,
+      "answers": [
+        "10",
+        "0.01",
+        "0.1",
+        "1"
+      ],
+      "question": "What % of 10 is 10% of 1?",
+      "solution": "(x/100)*10 = (10/100)*1\r\n\r\nx = 1\r\n\r\nx% of y = y% of x"
+    },
+    {
+      "id": 24,
+      "answer": 1,
+      "answers": [
+        "500",
+        "1200",
+        "1100",
+        "700"
+      ],
+      "question": "Vimal scored 93% in his exams. If he scored 84 marks less than the maximum marks, find the maximum marks.",
+      "solution": "He scored 7% less than the maximum marks.\r\n\r\n7% of x = 84\r\n\r\nx = 1200"
+    },
+    {
+      "id": 25,
+      "answer": 0,
+      "answers": [
+        "8%",
+        "4.5%",
+        "5%",
+        "20%"
+      ],
+      "question": "A fruit vendor sells 80% of the oranges he had and discards 25% of the remainder. Next day, he sells 80% of the remainder and discards the rest. What % of the oranges does he discard?",
+      "solution": "Let the number of oranges he had in the beginning be x.\r\n\r\nDay 1:\r\n\r\nHe sold 80% = 0.8x and has 0.2x left.\r\n\r\nDiscarded 25% of the remaining 0.2x\r\n\t\r\nNo. of oranges discarded\r\n\t= 25%*0.2x\r\n\t= 0.05x\r\nNo. of oranges left\r\n\t= 0.2x-0.05x\r\n\t= 0.15x \r\n\r\nDay 2:\r\n\r\nSold 80% of 0.15x\r\n\t= 0.12x\r\nDiscarded the rest\r\n\t= 0.15x-0.12x\r\n\t= 0.03x \r\n\r\nTotal oranges discarded\r\n\t= 0.05x+0.03x\r\n\t= 0.08x\r\n\t= 8% of x"
+    },
+    {
+      "id": 26,
+      "answer": 2,
+      "answers": [
+        "6%",
+        "10%",
+        "12%",
+        "30%"
+      ],
+      "question": "M is 30% of Q, Q is 20% of P and N is 50% of P. What % of N is M?\r\n",
+      "solution": "M/N\r\n\t= (M/Q)*(Q/P)*(P/N)\r\n\t= (30/100)*(20/100)*(100/50)\r\n\t= 3/25\r\n\t= 12/100\r\nM is 12% of N"
+    },
+    {
+      "id": 27,
+      "answer": 2,
+      "answers": [
+        "60",
+        "20",
+        "70",
+        "30"
+      ],
+      "question": "The marked price of a coat was 40% less than the suggested retail price. Eesha purchased the coat for half the marked price at the fiftieth anniversary sale. What percentage less than the suggested retail price did Eesha pay?",
+      "solution": "Let the retail price of the coat be Rs.100\r\n\r\nMarked price\r\n\t= 60% of 100\r\n\t= Rs.60\r\n\r\nEesha purchased it for Rs.30.\r\n\r\nHence, she bought it for 70% less than the retail price."
+    },
+    {
+      "id": 28,
+      "answer": 0,
+      "answers": [
+        "10",
+        "14",
+        "6",
+        "20"
+      ],
+      "question": "Weight of M, D and I is 74. Sum of D and I is 46 less than M. I is 60% less than D. What is D's weight?",
+      "solution": "M+D+I = 74  -- (I)\r\n\r\nD+I = M-46 -- (II)\r\n\r\nI = 40% of D\r\nI = 0.4D\r\n\r\nSolve (I) and (II),\r\n\t74-M = M-46\r\n\tM = 60\r\nD+I = 14\r\nD+0.4D = 14\r\n1.4D=14\r\nD=10\r\n"
+    },
+    {
+      "id": 29,
+      "answer": 3,
+      "answers": [
+        "Rs.23125",
+        "Rs.19000",
+        "Rs.13435",
+        "Rs.16875"
+      ],
+      "question": "Value of a scooter depreciates in such a way that its value at the end of each year is 75% of its value at the beginning of the same year. If the initial value of scooter is Rs.40000, what is the value of the scooter at the end of 3 years?",
+      "solution": "75% = 3/4\r\n\r\nValue at the end of 3 years\r\n\t= (3/4)*(3/4)*(3/4)*40000\r\n\t= Rs.16875"
+    },
+    {
+      "id": 30,
+      "answer": 3,
+      "answers": [
+        "100",
+        "125",
+        "150",
+        "200"
+      ],
+      "question": "A survey of n people in the town of badaville found that 50% of them prefer brand A. Another survey of 100 people in the town of chottaville found that 60% prefer brand A. In total, 55% of all the people surveyed together prefer Brand A. What is the total number of people surveyed?\r\nSol: 50% (n)+ 60% (100 ) = 55% (n+ 100)\r\nSolving we get n = 200\r\n",
+      "solution": "(50% of n) + (60% of 100)\r\n\t= 55% of (n+100)\r\n\r\n0.5n+60 = 0.55n+55\r\n0.05n = 5\r\nn=100\r\n\r\nTotal no. of people surveyed\r\n\t= 200"
+    },
+    {
+      "id": 31,
+      "answer": 2,
+      "answers": [
+        "1800",
+        "2000",
+        "2300",
+        "2400"
+      ],
+      "question": "5000 voted in an election between two candidates.14% of the votes were invalid.The winner won by 300 votes. Find the number of votes secured by the winner.",
+      "solution": "No. of valid votes\r\n\t= 86% of 5000\r\n\t= 4300\r\nLet x be the no. of votes secured by the winner.\r\n\tThe other person got (x-300) votes.\r\n\r\nx + x-300 = 4300\r\n\r\nx=2300"
+    },
+    {
+      "id": 32,
+      "answer": 1,
+      "answers": [
+        "50%",
+        "53%",
+        "55%",
+        "60%"
+      ],
+      "question": "In a certain city, 60% of the registered voters are congress supporters and the rest are BJP supporters. In an assembly election, if 75% of the registered congress supporters and 20% of the registered BJP supporters are expected to vote for candidate A, what percent of the registered voters are expected to vote for candidate A?",
+      "solution": "Let the number of registered voters in the city be 100.\r\n\r\nNo. of Congress supporters = 60\r\n\r\nNo. of BJP supporters = 40\r\n\r\nNo. of people who voted for A\r\n\t= (75% of 60) + (20% of 40)\r\n\t= 45+8\r\n\t= 53\r\n53% of the voters voted for A."
+    },
+    {
+      "id": 33,
+      "answer": 1,
+      "answers": [
+        "Rs.29.92",
+        "Rs.29.16",
+        "Rs.30.12",
+        "Rs.32.65"
+      ],
+      "question": "In 1978, a kg of paper was sold at Rs.25/-. If the paper rate increases at 1.5% more than inflation rate which is of 6.5% a year, then what will be the cost of a kg of paper after 2 years?",
+      "solution": "The paper rate increases at 8%.\r\n\r\nCost after 2 years\r\n\t= 1.08*1.08*25\r\n\t= 29.16"
+    },
+    {
+      "id": 34,
+      "answer": 1,
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "question": "A person has Rs.100/- in his pocket, he can use it to buy 20 pencils or 10 books. He kept 15% of the money for traveling expenses and purchased 5 pencils. So how many books can he purchase with the remaining money?",
+      "solution": "Cost of a pencil\r\n\t= 100/20 = 5\r\n\r\nHe keeps Rs.15 for traveling expenses.\r\n\r\nHe spends Rs.25 to buy 5 pencils\r\n\r\nAmount left\r\n\t= Rs.60\r\n\r\nHe can buy 6 books with the remaining money."
+    },
+    {
+      "id": 35,
+      "answer": 1,
+      "answers": [
+        "10%",
+        "2%",
+        "3%",
+        "4%"
+      ],
+      "question": "When the cost of petrol increases by 20%, a man reduces his monthly consumption by 15%. Thepercentage change in his monthly expenditure on petrol will be",
+      "solution": "Let the cost of petrol be Rs.x per liter and man's monthly consumption be y liters.\r\n\r\nMonthly expenditure = Rs.xy\r\n\r\nNew cost = 1.2x\r\nNew consumption = 0.85y\r\n\r\nExpenditure\r\n\t= 1.2x*0.85y\r\n\t= 1.02 xy\r\nHis expenditure increases by 2%."
+    },
+    {
+      "id": 36,
+      "answer": 0,
+      "answers": [
+        "33.33%",
+        "30%",
+        "25%",
+        "13.33%"
+      ],
+      "question": "An athlete decides to run the same distance in 1/4th less time than the time she usually takes. By how much percent will she have to increase her average speed?",
+      "solution": "She has to run the distance in 3/4 th of the time she takes usually.\n\nSo, she has to increase her speed 4/3 times.\n\nIncrease in speed\n\t= 1/3\n\n% increase\n\t= 100*1/3\n\t= 33.33%"
+    },
+    {
+      "id": 37,
+      "answer": 1,
+      "answers": [
+        "20%",
+        "25%",
+        "22.5%",
+        "24%"
+      ],
+      "question": "A person runs from A to B. He has to take 1/5 of the time less to reach B when compared to running at normal speed. To achieve this, by what percentage should he increase his speed?",
+      "solution": "Let his usual speed be s kmph and\r\n\tthe usual time taken be t hours.\r\n\r\nNew time taken\r\n\t= 4t/5\r\nNew speed\r\n\t= st/(4t/5)\r\n\t= 5s/4\r\n\r\nHe should increase his speed by 25%."
+    },
+    {
+      "id": 38,
+      "answer": 1,
+      "answers": [
+        "3.03sx",
+        "3s[1+0.01x]",
+        "3sx",
+        "3sx/100"
+      ],
+      "question": "Salary of a person is 's' per month, 'x'% of salary is given as bonus. Find the amount received by him after 3 months.",
+      "solution": "Salary for 3 months\r\n\t= 3s\r\nBonus\r\n\t= 3sx/100\r\n\r\nTotal\r\n\t= 3s[1+0.01x]"
+    },
+    {
+      "id": 39,
+      "answer": 3,
+      "answers": [
+        "250",
+        "230",
+        "270",
+        "240"
+      ],
+      "question": "In a class 80% have passed english, 70% passed Hindi and 10% did not pass either. If 144 students passed both, what is the total strength of the class?",
+      "solution": "% of students who passed both\r\n\t= 80+70-100+10\r\n\t= 60%\r\n\r\n60% of x = 144\r\nx = 240"
+    },
+    {
+      "id": 40,
+      "answer": 2,
+      "answers": [
+        "80%",
+        "75%",
+        "62.2%",
+        "37.8%"
+      ],
+      "question": "A,B,C are the mechanisms used seperately to reduce the wastage of fuel by 30%, 40%, 10%. What will be the fuel economy when all the mechanisms are combined?",
+      "solution": "Let the fuel wastage be x.\r\n\r\nA reduces this to\r\n\t0.7x\r\nB reduces this to\r\n\t0.6*0.7x = 0.42x\r\nC reduces this to\r\n\t0.9*0.42x = 0.378x\r\n\r\nFuel economy\r\n\t= x-0.378x\r\n\t= 0.622x\r\n\t= 62.2%"
+    },
+    {
+      "id": 41,
+      "answer": 1,
+      "answers": [
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "question": "A student has to secure 40 % marks to pass. He gets 150 marks and fails by 30 marks. What is the maximum marks?",
+      "solution": "He should get 180 marks to pass.\n\n40% of x = 180\n\nx = 450"
+    },
+    {
+      "id": 42,
+      "answer": 2,
+      "answers": [
+        "20",
+        "22",
+        "25",
+        "30"
+      ],
+      "question": "A number consists of 20 plus 20% of its value. The number is",
+      "solution": "20+0.2x = x\n\n0.8x = 20\n\nx = 25"
+    },
+    {
+      "id": 43,
+      "answer": 1,
+      "answers": [
+        "5",
+        "2",
+        "6",
+        "21"
+      ],
+      "question": "20% of 5 + 5% of 20 =",
+      "solution": "20% of 5 + 5% of 20\n\t= 1+1\n\t= 2"
+    },
+    {
+      "id": 44,
+      "answer": 3,
+      "answers": [
+        "5%",
+        "6%",
+        "18%",
+        "20%"
+      ],
+      "question": "What percent of 60 is 12?",
+      "solution": "(12/60)*100 = 20%"
+    },
+    {
+      "id": 45,
+      "answer": 2,
+      "answers": [
+        "10%",
+        "5%",
+        "4%",
+        "20%"
+      ],
+      "question": "If the length of a rectangle is increased by 30% and the width is decreased by 20%, then the area is increased by",
+      "solution": "Area = 1.3l*0.8w = 1.04 lb\n\nArea increases by 4%."
+    }
+  ]
