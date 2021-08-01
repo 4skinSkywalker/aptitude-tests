@@ -1,0 +1,3902 @@
+[
+    {
+      "id": 1,
+      "answerIndex": 3,
+      "answers": [
+        "16 years",
+        "18 years",
+        "28 years",
+        "None of these"
+      ],
+      "question": "Sachin is younger than Rahul by 4 years. If their ages are in the respective ratio of 7:9, how old is Sachin ?",
+      "solution": "S = R-4\n\nS/R = 7/9\n\nS/(S+4) = 7/9\n\n9S = 7S+28\n\n2S = 28\n\nS = 14",
+      "topic": "Ages"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": [
+        "35",
+        "42",
+        "49",
+        "None of these"
+      ],
+      "question": "Present ages of X and Y are in the ratio 5 : 6 respectively. Seven years hence, this ratio will become 6 : 7 respectively. What is X's present age in years?",
+      "solution": "X/Y = 5/6\n\n(X+7)/(Y+7) = 6/7\n\n7(X+7) = 6(Y+7)\n\n7*(5Y/6) + 49 = 6Y + 42\n\n35Y/6 - 6Y = -7\n\n-Y/6 = -7\n\nY = 42\n\nX = 5*42/6 = 35",
+      "topic": "Ages"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "12",
+        "10",
+        "8",
+        "6"
+      ],
+      "question": "The age of Ram and Shyam are in the ratio 5:6 and after 4 years, their ratios are 7:8. What is the present age of Shyam?",
+      "solution": "Let the present ages of Ram and Shyam be 5x and 6x respectively.\n\n(5x+4)/(6x+4) = 7/8\n\n40x+32 = 42x+28\n\n2x = 4\n\nx = 2\n\nShyam's age = 12",
+      "topic": "Ages"
+    },
+    {
+      "id": 4,
+      "answerIndex": 1,
+      "answers": [
+        "12 years",
+        "14 years",
+        "15 years",
+        "16 years"
+      ],
+      "question": "Sister's age is twice than that of the brother. If the brother's age is six, what will the sister's age be after two years?",
+      "solution": "s = 2b = 12\n\ns+2 = 14",
+      "topic": "Ages"
+    },
+    {
+      "id": 5,
+      "answerIndex": 1,
+      "answers": [
+        "7:12",
+        "5:12",
+        "38:43",
+        "42:47"
+      ],
+      "question": "The ratio of Rita's age to her mother's age is 3:8. The difference of their ages is 35 years. The ratio of their ages after 4 years will be",
+      "solution": "Let the present ages of Rita and her mother be 3x and 8x.\n\n8x - 3x =35\nx =7\n\nTheir present ages are 21 and 56 years.\n\nRatio of their ages after 4 years \n\t= 25:60\n\t= 5:12",
+      "topic": "Ages"
+    },
+    {
+      "id": 1,
+      "answerIndex": 2,
+      "answers": [
+        "10",
+        "20",
+        "21",
+        "25"
+      ],
+      "question": "A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 litres of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?",
+      "solution": "Let the amount of liquids A and B in the initial mixture be 7x and 5x litres respectively.\n\n9 litres of the mixture are drawn off and 9 litres of liquid B is poured in.\n\nAmount of liquid A in the can\n\t= 7x - ((7/12)*9)\n\t= 7x - (21/4)\nAmount of liquid B in the can\n\t= 5x - ((5/12)*9) + 9\n\t= 5x - (15/4)+9\n\t= 5x + (21/4)\n\n[7x-(21/4)] / [5x + (21/4)] = 7/9\n\nOn solving,\n\tx = 3.\n\n7x=21 litres of liquid was contained in the can initially.\n",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 1,
+      "answerIndex": 2,
+      "answers": [
+        "3 hrs 45 min",
+        "7 hrs 30 min",
+        "7 hrs 45 min",
+        "11 hrs 45 min"
+      ],
+      "question": "A man takes 5 hours 45 minutes in walking to a certain place and riding back. He would have gained 2 hours by riding both ways. The time he would take to walk both ways, is",
+      "solution": "Let the distance be x km. Then, \n(Time taken to walk x km) + (Time taken to ride x km)\n\t= 5+(45/60) = 23/4 hrs\n\nMultiplying the above equation by 2,\n\n(Time taken to walk 2x km) + (Time taken to ride 2x km) = (23/2)hrs \n\nTime taken to ride 2x km = (15/4) hrs\n\n\nSo, time taken to walk 2x km\n\t= [(23/2) - (15/4)]\n\t= (31/4) hrs\n\t= 7 hrs 45 min\n",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": [
+        "100 m",
+        "150 m",
+        "190 m",
+        "200 m"
+      ],
+      "question": "A thief is noticed by a policeman from a distance of 200 m. The thief starts running and the policeman chases him. The thief and the policeman run at the rate of 10 km and 11 km per hour respectively. What is the distance between them after 6 minutes?",
+      "solution": "Relative speed of the thief and policeman\n\t= (11 - 10)\n\t= 1 km/hr\n\nDistance covered in 6 minutes\n\t= 1*(6/60)\n\t= 0.1 km\n\t= 100 m\n\nThe policeman covers 100 m more than the thief in 6 minutes.\n\nDistance between the thief and policeman\n\t= (200 - 100) m = 100 m.\n",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": [
+        "13.85",
+        "12.56",
+        "13.10",
+        "12.15"
+      ],
+      "question": "(37% of 2370) - (41% of 2105)",
+      "solution": "(37% of 2370) - (41% of 2105)\n\t= 876.9 - 863.05\n\t= 13.85",
+      "topic": "Numbers"
+    },
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": [
+        "1/5",
+        "3/10",
+        "2/5",
+        "1/2"
+      ],
+      "question": "A fruit salad is made from pineapples, pears, and peaches mixed in the ratio of 2 to 3 to 5, respectively, by weight. What fraction of the mixture by weight is pineapple?",
+      "solution": "Fraction of weight of pineapple\n\t= 2/(2+3+5)\n\t= 2/10\n\t= 1/5",
+      "topic": "Fractions"
+    },
+    {
+      "id": 2,
+      "answerIndex": 3,
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "question": "When 50,000 is written as 0.5 * 10^n , what is the value of n?",
+      "solution": "0.5* 10^5 = 50000",
+      "topic": "Numbers"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "2m + 20",
+        "2m - 20",
+        "m² + 20",
+        "m² - 20"
+      ],
+      "question": "On a car trip Sam drove m miles, Kara drove twice as many miles as Sam, and Darin drove 20 fewer miles than Kara. In terms of m, how many miles did Darin drive?",
+      "solution": "Kara drove 2m miles.\n\nDarin drove 2m-20 miles",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 1,
+      "answerIndex": 1,
+      "answers": [
+        "4",
+        "12",
+        "4+3n",
+        "12+n³"
+      ],
+      "question": "12 - n, 12, 12 + n\r\rWhat is the average (arithmetic mean) of the above 3 terms?",
+      "solution": "(12 - n + 12 + 12 + n) / 3 \n\t= 12",
+      "topic": "Average"
+    },
+    {
+      "id": 1,
+      "answerIndex": 3,
+      "answers": [
+        "24",
+        "28",
+        "30",
+        "36"
+      ],
+      "question": "What is the maximum number of rectangular blocks measuring 3 inches by 2 inches by 1 inch that can be packed into a cube-shaped box whose interior measures 6 inches on an edge?",
+      "solution": "Volume of a rectangular block\n\t= 6 cubic inches\nVolume of the cube-shaped box\n\t= 216 cubic inches\n\nNo. of blocks\n\t= 216/6\n\t= 36",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "4x/3",
+        "x/12",
+        "7x/3",
+        "7x/12"
+      ],
+      "question": "A boat costs x dollars, and this cost is to be shared equally by a group of people. In terms of x, how many dollars less will each person contribute if there are 4 people in the group instead of 3?",
+      "solution": "Amount contributed by each of the three persons\n\t= x/3\n\nIf there are 4 persons, the amount contributed\n\t= x/4\n\nDifference\n\t= (x/3)-(x/4)\n\t= (x/12)",
+      "topic": "Numbers"
+    },
+    {
+      "id": 2,
+      "answerIndex": 2,
+      "answers": [
+        "24",
+        "40",
+        "48",
+        "56"
+      ],
+      "question": "If 13 is added to one-half of a certain number, the result is 37. What is the original number?",
+      "solution": "Let the number be x.\n\n13+(x/2) = 37\n\nx = 74-26 = 48",
+      "topic": "Fractions"
+    },
+    {
+      "id": 2,
+      "answerIndex": 3,
+      "answers": [
+        "I only",
+        "I and II only",
+        "I and III only",
+        "I, II, and III"
+      ],
+      "question": "The least and greatest numbers in a list of 7 integers are 2 and 20, respectively. The median of the list is 6, and the number 3 occurs most often in the list. Which of the following could be the average (arithmetic mean) of the numbers in the list?\n\n\tI. 7\n\tII. 8.5\n\tIII. 10",
+      "solution": "3 occurs most often. So, it must occur at least 2 times.\n\nArranging the 7 numbers in ascending order,\n\t2, 3, 3, 6, x, y, 20\n\nLets find the least average.\n\tx = 7, y = 8\nAverage = 49/7 = 7\n\nGreatest average\n\tx = 18, y = 19\nAverage = 71/7 = 10.14\n\nThe average can take any of the three values I, II and III.",
+      "topic": "Average"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "$1500",
+        "$600",
+        "$700",
+        "$2000"
+      ],
+      "question": "Tom and Alison are both salespeople. Tom's weekly compensation consists of $300 plus 20 percent of his sales. Alison's weekly compensation consists of $200 plus 25 percent of her sales. If they both had the same amount of sales and the same compensation for a particular week, what was that compensation, in dollars?",
+      "solution": "Let their sales be x $.\n\n300+0.2x = 200+0.25x\n\n0.05x = 100\n\nx = 2000\n\nAmount of compensation\n\t= 300+(0.2*2000)\n\t= 700$",
+      "topic": "Numbers"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "89",
+        "69",
+        "49",
+        "29"
+      ],
+      "question": "The number n is a 2-digit number. When n is divided by 10, the remainder is 9, and when n is divided by 9, the remainder is 8. What is the value of n ?",
+      "solution": "n/10 gives a remainder of 9.\n\tSo, n can be 19, 29, 39, ....89, 99\n\nn/9 gives a remainder of 8.\n\tSo, n can be 17, 26, 35, 44, 53, 62, 71, 80, 89, 98\n\nSo, n = 89.",
+      "topic": "Numbers"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "-27",
+        "-9",
+        "3",
+        "27"
+      ],
+      "question": "If (1/3) y + 9 = 0, then y =",
+      "solution": "y/3 = -9\n\ny = -27",
+      "topic": "Fractions"
+    },
+    {
+      "id": 4,
+      "answerIndex": 3,
+      "answers": [
+        "90",
+        "112",
+        "135",
+        "225"
+      ],
+      "question": "Roy planted corn on 1/5 of his land. If he planted 45 acres of corn, how many acres of land does he have?",
+      "solution": "He has 45*5 = 225 acres of land.",
+      "topic": "Fractions"
+    },
+    {
+      "id": 1,
+      "answerIndex": 1,
+      "answers": [
+        "7",
+        "18",
+        "24",
+        "33"
+      ],
+      "question": "Emily's school offers 3 English classes and 4 History classes for her to choose from. She must choose 3 of these classes to complete her schedule. If exactly one of these must be an English class, how many different combinations of classes are possible for Emily?",
+      "solution": "No. of possible combinations\n\t= (1 Eng * 2 Hist)\n\t= (3C1*4C2)\n\t= 3*6\n\t= 18",
+      "topic": "Permutations"
+    },
+    {
+      "id": 2,
+      "answerIndex": 3,
+      "answers": [
+        "59500",
+        "60000",
+        "62500",
+        "65000"
+      ],
+      "question": "Find the total number of distinct vehicle numbers that can be formed using two letters followed by two numbers. Letters need to be distinct.",
+      "solution": "The two distinct letters can be arranged in 26P2 ways. The two numbers can be arranged in 10*10 = 100 ways.\n\nTotal number of ways\n\t= 26*25*100\n\t= 65000",
+      "topic": "Permutations"
+    },
+    {
+      "id": 6,
+      "answerIndex": 0,
+      "answers": [
+        "24450",
+        "22250",
+        "23350",
+        "26450"
+      ],
+      "question": "Find the sum of the 4 digit numbers which are the multiples of 5 and are formed by using the digits 5, 3, 2 and 6.",
+      "solution": "The numbers which are multiples of 5 are\n\t2365, 2635, 3265, 3625, 6235 and 6325.\n\nSum of these 6 numbers\n\t= 24450",
+      "topic": "Numbers"
+    },
+    {
+      "id": 7,
+      "answerIndex": 1,
+      "answers": [
+        "10",
+        "1",
+        "1/10",
+        "5"
+      ],
+      "question": "A clerk multiplied a number by ten when it should have been divided by ten.The answer he got was 100. What should the answer have been?",
+      "solution": "Let the number be n\n\n10 n = 100\nn = 10\n\nThe answer should have been n/10 = 1",
+      "topic": "Numbers"
+    },
+    {
+      "id": 1,
+      "answerIndex": 1,
+      "answers": [
+        "15%",
+        "2%",
+        "7.5%",
+        "10%"
+      ],
+      "question": "A salesman marks an item 60% above the cost price & offers 2 successive discounts of 25% & 15% on the marked price. His profit is",
+      "solution": "Let the cost price be Rs.x\n\nMarked Price = 1.6x\n\nSelling price\n\t= 0.75*0.85*1.6x\n\t= 1.02 x\n\nProfit = 2%",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 2,
+      "answerIndex": 2,
+      "answers": [
+        "0.5 inches",
+        "1.75 inches",
+        "3.5 inches",
+        "7 inches"
+      ],
+      "question": "A rectangular plate has length 8 inches breadth 11 inches and 2 inches thickness. What is the length of the circular rod with diameter 8 inches and equal to volume of rectangular plate?",
+      "solution": "Volume of the rod\n\t= Volume of the plate\n\t= 8*11*2\n\nπ r²l = 176\n\nr = 8/2 = 4\n\nl = 7/2 = 3.5 inches",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 8,
+      "answerIndex": 1,
+      "answers": [
+        "15",
+        "12",
+        "18",
+        "10"
+      ],
+      "question": "If 2x-y=4 then 6x-3y=?",
+      "solution": "2x-y = 4\n\nMultiplying by 3,\n\t6x-3y = 12",
+      "topic": "Numbers"
+    },
+    {
+      "id": 4,
+      "answerIndex": 3,
+      "answers": [
+        "16/1,200 mph",
+        "40/288 mph",
+        "1,494/240 mph",
+        "50 mph"
+      ],
+      "question": "A truck departed from Newton at 11:53a.m. and arrived in Far City, 240 miles away, at 4:41 p.m. on the same day. What was the approximate average speed of the truck on this trip?",
+      "solution": "Time for travel\n\t= 4 hours 48 minutes\n\t= 4.8 hours\n\nSpeed\n\t= 240/4.8\n\t= 50 mph",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 9,
+      "answerIndex": 1,
+      "answers": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "question": "Find the remainder when 2^100 is divided by 7.",
+      "solution": "2^1/7\tr = 2\n2^2/7\tr = 4\n2^3/7\tr = 1\n2^4/7\tr = 2\n\nThe pattern starts repeating.\n\n2^99/7\tr = 1\n2^100/7\tr = 2",
+      "topic": "Numbers"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "100",
+        "125",
+        "75",
+        "85"
+      ],
+      "question": "How many four digit numbers can be formed using the digits 1, 2, 3, 4, 5 (but with repetition) that are divisible by 4?",
+      "solution": "The last two digits can be\n\t12, 24, 32, 44, 52\n\nFor the number ending with 12, the first two places can be filled in\n\t5*5 = 25 ways.\n\nTotal number of ways\n\t= 5*5*5\n\t= 125",
+      "topic": "Permutations"
+    },
+    {
+      "id": 10,
+      "answerIndex": 0,
+      "answers": [
+        "40",
+        "50",
+        "70",
+        "110"
+      ],
+      "question": "There are 150 weights .Some are 1 kg weights and some are 2 kg weights. The sum of the weights is 260. What is the number of 1kg weights?",
+      "solution": "x+(150-x)*2 = 260\n\nx = 40",
+      "topic": "Numbers"
+    },
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": [
+        "18 litres",
+        "12 litres",
+        "24 litres",
+        "36 litres"
+      ],
+      "question": "A tank was filled up to 1/3 of its volume and after that again it was filled with 3 litres of water now the tank is 1/2 filled. What is the capacity of the tank?",
+      "solution": "(1/2)x - (1/3)x = 3\n\nx/6 = 3\n\nx = 18",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "60 kmph",
+        "50 kmph",
+        "70 kmph",
+        "80 kmph"
+      ],
+      "question": "Two cars(A & B) started to & from two stations at the same time. Distance b/w the stations is 230 km. After 3 hours, they still haven't crossed each other and the distance b/w them is 20 km. The speed of B increases by 10 km for every one hour. What is the sum of their initial speeds?",
+      "solution": "Let the initial speeds be a & b kmph.\n\nDistance travelled by them in 3 hours\n\t= 230-20\n\t= 210 km\n\nSpeed of b increases by 10 kmph every hour.\n\nDistance travelled in\n\tFirst hour\n\t\ta+b\n\tSecond hour\n\t\ta+b+10\n\tThird hour\n\t\ta+b+20\n\nTotal distance travelled\n\t3a+3b+30 = 210\n\ta+b = 60",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 1,
+      "answerIndex": 1,
+      "answers": [
+        "-1",
+        "1",
+        "1/2",
+        "-1/2"
+      ],
+      "question": "25  16  9  4  1  0  ?",
+      "solution": "(-1)^2 = 1",
+      "topic": "Number Series"
+    },
+    {
+      "id": 1,
+      "answerIndex": 2,
+      "answers": [
+        "10",
+        "14",
+        "16",
+        "20"
+      ],
+      "question": "It takes 40 men eight days to earn Rs.2000. How many men will earn Rs.200 in two days?",
+      "solution": "No. of men\n\t= (200/2000)*(8/2)*40\n\t= 16",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 1,
+      "answerIndex": 1,
+      "answers": [
+        "1/2",
+        "14/19",
+        "37/38",
+        "3/4"
+      ],
+      "question": "There are two boxes, one containing 10 red balls and the other containing 10 green balls. You are allowed to move the balls between the boxes so that when you choose a box at random and a ball at random from the chosen box, the probability of getting a red ball is maximized. This maximum probability is",
+      "solution": "There should by 1 red ball in a box and 9 red balls, 10 green balls in the other box.\n\nP(green ball)\n\t= (1/2)*1 + (1/2)*(9/19)\n\t= 14/19",
+      "topic": "Probability"
+    },
+    {
+      "id": 4,
+      "answerIndex": 3,
+      "answers": [
+        "5^7",
+        "5^6",
+        "5^9",
+        "5^8"
+      ],
+      "question": "How many 9 digit numbers are possible by using the digits 1, 2, 3, 4, 5 which are divisible by 4 if repetition is allowed?",
+      "solution": "The last two digits can be 12, 24, 32, 44, 52.\n\nNo. of ways of arranging first seven digits\n\t= 5^7\n\nTotal no. of ways\n\t= 5^7*5\n\t= 5^8",
+      "topic": "Permutations"
+    },
+    {
+      "id": 5,
+      "answerIndex": 1,
+      "answers": [
+        "132",
+        "66",
+        "48",
+        "128"
+      ],
+      "question": "49 members attended the party. Among them, 22 are males, 27 are females. The handshakes are done between males, females, male and female. Totally, 12 people had given handshakes. How many such kinds of such handshakes are possible?",
+      "solution": "No. of ways of selecting 2 people from 12 people\n\t= 12C2\n\t= 12*11/2\n\t= 66",
+      "topic": "Permutations"
+    },
+    {
+      "id": 2,
+      "answerIndex": 1,
+      "answers": [
+        "10",
+        "13",
+        "15",
+        "17"
+      ],
+      "question": "A can copy 50 papers in 10 hours while both A & B can copy 70 papers in 10 hours. Find the number of hours required by B to copy 26 papers.",
+      "solution": "No. of papers copied by A in an hour\n\t= 5\nNo. of papers copied by A & B in an hour\n\t= 7\n\nNo. of papers copied by B in an hour\n\t= 2\nTime taken by B to copy 26 papers\n\t= 13",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "153.33",
+        "126",
+        "124",
+        "110"
+      ],
+      "question": "Sections A and B of class eight had 20 and 40 students respectively. If the average height of first section was 140 cm and that of the second section was 160 cm, what is the average height of entire class 8?",
+      "solution": "Average height\n\t= [(140*20)+(160*40)]/60\n\t= [2800+6400]/60\n\t= 153.33",
+      "topic": "Average"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "6 mins",
+        "5 mins",
+        "7 mins",
+        "3 mins"
+      ],
+      "question": "Earl can stuff advertising circulars into envelopes at the rate of 36 envelopes per minute and Ellen requires a minute and a half to stuff the same number of envelopes. Working together, how long will it take for Earl and Ellen to stuff 360 envelopes?",
+      "solution": "No. of envelopes stuffed by Ellen in a minute\n\t= 36/1.5\n\t= 24\n\nNo. of envelopes stuffed by Earl and Ellen in a minute\n\t= 36+24\n\t= 60\n\nTime taken to stuff 360 envelopes\n\t= 360/60\n\t= 6 mins",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 6,
+      "answerIndex": 2,
+      "answers": [
+        "2.5 gallons",
+        "2.2 gallons",
+        "2 gallons",
+        "1 gallon"
+      ],
+      "question": "A car is filled with 4.5 gallons of fuel for a round trip. The fuel consumed is 1/4 more in going than coming up. What is the fuel consumed in coming up?",
+      "solution": "(5/4)x+x = 4.5\n\n9x = 4.5*4\n\nx = 2",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 2,
+      "answerIndex": 3,
+      "answers": [
+        "filled in 12 min",
+        "emptied in 12 min",
+        "filled in 8 min",
+        "emptied in 8 min"
+      ],
+      "question": "A tap can fill the tank in 16 minutes and another can empty it in 8 minutes. If the tank is already half full and both the taps are opened together, the tank will be",
+      "solution": "Rate of emptying > Rate of filling\n\nSo, when both the taps are opened, the tank gets emptied.\n\nPart of tank emptied in a minute\n\t\t= (1/8) - (1/16)\n\t\t= 1/16\n\nTime taken to empty half a tank\n\t= (1/2) / (1/16)\n\t= 8 minutes",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": [
+        "55 kmph",
+        "56 kmph",
+        "57 kmph",
+        "58 kmph"
+      ],
+      "question": "A train 100 metres long takes 6 seconds to cross a man walking at 5 kmph in the direction opposite to that of the train. Find the speed of the train.",
+      "solution": "Let the speed of the train be x kmph.\n\nRelative speed\n\t= x+5 kmph\n\n0.1/(x+5) = 6/(60*60)\n\nx+5 = 60\n\nx = 55\n\n",
+      "topic": "Trains"
+    },
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": [
+        "36",
+        "33",
+        "28",
+        "25"
+      ],
+      "question": "The ratio between a two-digit number and the sum of the digits of that number is 4 : 1. If the digit in the unit's place is 3 more than the digit in the ten's place, what is the number?",
+      "solution": "Only 36 satisfies the two conditions.",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 5,
+      "answerIndex": 3,
+      "answers": [
+        "770",
+        "1100",
+        "1825",
+        "1925"
+      ],
+      "question": "If one-seventh of a number exceeds its eleventh part by 100 then the number is",
+      "solution": "(x/7) - (x/11) = 100\n\n4x = 7700\n\nx = 1925",
+      "topic": "Fractions"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "62kg",
+        "65kg",
+        "67kg",
+        "76kg"
+      ],
+      "question": "In Arun's opinion, his weight is greater than 65 kg but less than 72 kg. His brother doest not agree with Arun and he thinks that Arun's weight is greater than 60 kg but less than 70 kg. His mother's view is that his weight cannot be greater than 68 kg. If all are them are correct in their estimation, what is the average of different probable weights of Arun?",
+      "solution": "Possible weights\n\t66, 67, 68\n\nAverage\n\t= (66+67+68)/3\n\t= 67 kg",
+      "topic": "Average"
+    },
+    {
+      "id": 3,
+      "answerIndex": 3,
+      "answers": [
+        "30 cm",
+        "20 cm",
+        "15 cm",
+        "25 cm"
+      ],
+      "question": "50 men took a dip in a water tank 40 m long and 20 m broad on a religious day. If the average displacement of water by a man is 4 m³, then the rise in the water level in the tank will be",
+      "solution": "Total displacement of water\n\t= 50*4\n\t= 200 m³\n\nLet the rise in water level be x.\n\n40*20*x = 200\n\nx = 1/4 m \n   = 0.25 m\n   = 25 cm",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": [
+        "21:22",
+        "22:22",
+        "24:22",
+        "26:22"
+      ],
+      "question": "The ratio of the number of boys and girls in a college is 7 : 8. If the percentage increase in the number of boys and girls be 20% and 10% respectively, what will be the new ratio?",
+      "solution": "Let the number of boys and girls be 7x and 8x respectively.\n\nNew Ratio\n\t= 1.2*7x : 1.1*8x\n\t= 8.4x : 8.8 x\n\t= 21:22",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "7.98",
+        "7.09",
+        "7.99",
+        "7.88"
+      ],
+      "question": "A car owner buys petrol at Rs.7.50, Rs. 8 and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs.4000 each year?",
+      "solution": "Total quantity of petrol used in the past years\n\t= (4000/7.5)+(4000/8)+(4000/8.5)\n\t= 4000*[(2/15)+(1/8)+(2/17)]\n\t= 76700/51\n\nTotal amount\n\t= 12000\n\nAverage cost\n\t= 12000*51/76700\n\t= 6120/767\n\t= 7.98",
+      "topic": "Average"
+    },
+    {
+      "id": 11,
+      "answerIndex": 1,
+      "answers": [
+        "22",
+        "24",
+        "26",
+        "28"
+      ],
+      "question": "In a two-digit number, if it is known that its unit's digit exceeds its ten's digit by 2 and that the product of the given number and the sum of its digits is equal to 144, then the number is:",
+      "solution": "The units digit exceeds its tens digit by 2.\n\nOnly 24 satisfies that condition.",
+      "topic": "Numbers"
+    },
+    {
+      "id": 2,
+      "answerIndex": 1,
+      "answers": [
+        "501",
+        "511",
+        "516",
+        "522"
+      ],
+      "question": "Find the next number in the series.\n\t15, 31, 63, 127, 255, (....)",
+      "solution": "All the numbers are of the 2^n - 1. The next is 512-1 = 511",
+      "topic": "Number Series"
+    },
+    {
+      "id": 1,
+      "answerIndex": 1,
+      "answers": [
+        "40:30",
+        "4:3",
+        "3:4",
+        "4:2"
+      ],
+      "question": "Two numbers A and B are such that the sum of 5% of A and 4% of B is two-third of the sum of 6% of A and 8% of B. Find the ratio of A : B.",
+      "solution": "0.05A+0.04B = 2/3 * (0.06A+0.08B)\n\n0.15A+0.12B = 0.12A+0.16B\n\n0.03A = 0.04B\n\nA:B = 4:3",
+      "topic": "Percentage"
+    },
+    {
+      "id": 6,
+      "answerIndex": 0,
+      "answers": [
+        "11/30",
+        "11/33",
+        "10/30",
+        "15/35"
+      ],
+      "question": "a=2, b=3, c=6. Find the value of c/(a+b)-(a+b)/c",
+      "solution": "c/(a+b)-(a+b)/c\n\t= 6/5 - 5/6\n\t= 11/30",
+      "topic": "Fractions"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "4",
+        "8",
+        "12",
+        "18"
+      ],
+      "question": "3 pumps, working 8 hours a day, can empty a tank in 2 days. How many hours a day must 4 pumps work to empty the tank in 1 day?",
+      "solution": "No. of hours\n\t= (3/4)*(2/1)*8\n\t= 12",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 5,
+      "answerIndex": 2,
+      "answers": [
+        "7",
+        "8",
+        "11",
+        "12"
+      ],
+      "question": "A company contracts to paint 3 houses. Mr. Brown can paint a house in 6 days while Mr. Black would take 8 days and Mr. Blue 12 days. After 8 days, Mr .Brown goes on a vacation and Mr. Black begins to work for a period of 6 days. How many days will it take for Mr. Blue to complete the contract?",
+      "solution": "Let x be no. of taken by Mr. Blue to complete the contract.\n\n(1/6)*8 + (1/8)*6 + (1/12)*x = 3\n\n(25+x)/12 = 3\n\n25+x = 36\n\nx = 11",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 6,
+      "answerIndex": 1,
+      "answers": [
+        "68",
+        "60",
+        "73",
+        "75"
+      ],
+      "question": "When I was married 10 years ago, my wife was the 6th member of the family. Today, my father died and a baby is born to me.The average age of my family during my marriage is the same as today. What is the age of my Father when he died?",
+      "solution": "The average age of the family will increase by 10 years.\n\nSum of the ages increase by 6*10 = 60.\n\nBut since the average remains the same and the age of the newborn is 0,\n\tthe age of the father was 60.",
+      "topic": "Ages"
+    },
+    {
+      "id": 1,
+      "answerIndex": 1,
+      "answers": [
+        "1 min 40 sec",
+        "20 sec",
+        "40 sec",
+        "3 min 20 sec"
+      ],
+      "question": "There is a circular track of length 400 m. If A and B start at the same point but in opposite direction with a speeds of 8 m/s and 12 m/s respectively. Then at what time after the beginning they will meet for the first time?",
+      "solution": "Let them meet after x seconds\n\n8x+12x = 400\n\nx = 20",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "6 km",
+        "1 km",
+        "8 km",
+        "3 km"
+      ],
+      "question": "Peter can cover a certain distance in 1 hr and 24 minutes by covering two-thirds of the distance at 4 kmph and the rest at 5 kmph. Find the total distance.",
+      "solution": "Let the total distance be 3x km.\n\n2x/4 + x/5 = 1.4\n\n14x/20 = 1.4\n\nx = 2\n\nTotal distance = 6 km",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "1848 cm³",
+        "1232 cm³",
+        "1078 cm³",
+        "980 cm³"
+      ],
+      "question": "The ratio between the curved surface area and the total surface area of a right circular cylinder is 1:2. If the total surface is 616 sq. cm, the volume of the cylinder is",
+      "solution": "Curved:Total = 1:2\n\nSo, the curved surface area should be equal to the area of the base and top circle.\n\n2π rh = 2π r²\n\nh = r\n\nTotal Surface Area = 616\n\n2π r(h+r) = 616\n4π r² = 616\nr = 7\n\nVolume of a cylinder\n\t= π r²h\n\t= 1078 cm³",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": [
+        "21911",
+        "21989",
+        "56911",
+        "25067"
+      ],
+      "question": "7214 + 8228 + 9625=?",
+      "solution": "7214 + 8228 + 9625=25067",
+      "topic": "Numbers"
+    },
+    {
+      "id": 13,
+      "answerIndex": 3,
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "question": "If x and y are the two digits of the number 653xy such that this number is divisible by 80, then x+y is equal to",
+      "solution": "For 653xy to be divisible by 80,\n\tx = 6\n\ty = 0",
+      "topic": "Numbers"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "4096",
+        "8192",
+        "512",
+        "1024"
+      ],
+      "question": "2, 4, 8, 32, 256, ?",
+      "solution": "2*4 = 8\n4*8 = 32\n8*32 = 256\n32*256 = 8192",
+      "topic": "Number Series"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": [
+        "120 miles, 24 mph",
+        "10 miles, 4 mph",
+        "100 miles, 20 mph",
+        "150 miles, 14 mph"
+      ],
+      "question": "If I walk with 30 miles/hr, I reach 1 hour earlier and if I walk with 20 miles/hr, I reach 1 hour late. The exact time of reaching the destination is 11 am. Find the distance between the 2 points and the speed with which I walk. ",
+      "solution": "Let the usual time taken to travel be t hours and\n\tthe distance between the two points be x miles\n\nx/30 = t-1\nx/20 = t+1\n\n30t-30 = 20t+20\n10t = 50\nt = 5\n\nx = 150-30 = 120\n\nSpeed = 120/5 = 24 mph",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 6,
+      "answerIndex": 3,
+      "answers": [
+        "2:3",
+        "3:2",
+        "1:3",
+        "3:1"
+      ],
+      "question": "10 women and 14 children can finish a work in 5 days, 11 women and 22 children can finish the same work in 4 days. Find the ratio of work done by a woman on a day to the work done by a child on the same day.",
+      "solution": "Let the work done by a woman and a child in a day be w and c respectively.\n\n10w+14c = 1/5\n11w+22c = 1/4\n\nSolving,\n\tw = 3/220\n\tc = 1/220\n\nw:c = 3:1",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "6, empty",
+        "6, fill",
+        "9, empty",
+        "9, fill"
+      ],
+      "question": "Pipe A can fill a tank in 5 hours, pipe B in 10 hours and pipe C in 30 hours. If all the pipes are open, the tank takes _____ minutes to ____ completely.",
+      "solution": "(1/5)+(1/10)-(1/30)\n\t= (5/30)\n\t= 1/6\n\nThe tank gets filled in 6 minutes.",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.3,699",
+        "Rs.3,798",
+        "Rs.4,279",
+        "Rs.4,799"
+      ],
+      "question": "What would be the simple interest obtained on an amount of Rs.8220 at the rate of 7.5% per annum after six years?",
+      "solution": "SI = 8220*7.5*6/100\n    = Rs.3699",
+      "topic": "Interest"
+    },
+    {
+      "id": 2,
+      "answerIndex": 3,
+      "answers": [
+        "81,600",
+        "81,000",
+        "84,800",
+        "80808"
+      ],
+      "question": "The population of city is 80,000. If it increases 11% in the first year and decreases by 9% in the second year, what will be the population of the city after two years?",
+      "solution": "At the end of two years, population of the city\n\t= 1.11*0.91*80000\n\t= 80808",
+      "topic": "Percentage"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "10",
+        "9",
+        "18",
+        "16"
+      ],
+      "question": "13 20 14 19 15 ?",
+      "solution": "Combination of two series\n\n13\t14\t15\t....\n\n20\t19\t18\t....",
+      "topic": "Number Series"
+    },
+    {
+      "id": 5,
+      "answerIndex": 1,
+      "answers": [
+        "354",
+        "364",
+        "368 ",
+        "370"
+      ],
+      "question": "343, 350, 336, 357, 329, ? , 322",
+      "solution": "Combination of two series\n\n343, 336, 329, 322, ....\n350, 357, 364, .....",
+      "topic": "Number Series"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "question": "6% of 350 + 2% of 700 = ? % of 1400",
+      "solution": "6% of 350 + 2% of 700\n\t= 21+14\n\t= 35\n\nx % of 1400 = 35\n\nx = 2.5",
+      "topic": "Percentage"
+    },
+    {
+      "id": 6,
+      "answerIndex": 2,
+      "answers": [
+        "110",
+        "156",
+        "121",
+        "None of these"
+      ],
+      "question": " 20 33 50 69 92 ?",
+      "solution": "20+13 = 33\n\nThe numbers are added with successive prime numbers.\n\n29+23 = 92\n92+29 = 121",
+      "topic": "Number Series"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "15",
+        "22",
+        "18",
+        "24"
+      ],
+      "question": "12 men can complete a piece of work in 4 days, while 15 women can complete the same work in 4 days. 6 men start working on the job and after working for two days, all of them stop working. How many women should be put on the job to complete the remaining work, if it is to be completed in 3 days?",
+      "solution": "Part of work completed by 12 men in a day\n\t= 1/4\nPart of work completed by 6 men in 2 days\n\t= 1/8 * 2\n\t= 1/4\n\nPart of work completed by 15 women in a day\n\t= 1/4\n\n3/4 of the work should be completed by women in 3 days.\n\nPart of work to be completed in a day\n\t= 1/4\n\nNo. of women needed = 15",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "31",
+        "33",
+        "43",
+        "22"
+      ],
+      "question": "Find the next number in the series\n\t1, 3 ,7 ,13 ,21 ,?",
+      "solution": "21+10 = 31",
+      "topic": "Number Series"
+    },
+    {
+      "id": 8,
+      "answerIndex": 1,
+      "answers": [
+        "Rs.250",
+        "Rs.500",
+        "Rs.1000",
+        "Rs.1500"
+      ],
+      "question": "X and Y can complete a work in 12 days and 10 days respectively. With the help of Z, X and Y can together complete the work in 5 days for a total wage of Rs.6000. Then what wage should be paid to Z for his part of work?",
+      "solution": "Part of work completed by X in one day\n\t= 1/12\nPart of work completed by Y in one day\n\t= 1/10\nPart of work completed by Z in one day\n\t= 1/z\n\n\n(1/x) + (1/y) + (1/z) = 1/5\n\n1/z = 1/5 - (1/12) - (1/10)\n      = 1/60\n\nX's share : Y's share : Z's share\n\t= (1/12) : (1/10) : (1/60)\n\t= 5 : 6 : 1\n\nZ's share\n\t= (1/12)*6000\n\t= Rs.500",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 1,
+      "answerIndex": 3,
+      "answers": [
+        "Rs. 7500",
+        "Rs. 8000",
+        "Rs. 8500",
+        "Rs. 9000"
+      ],
+      "question": "A starts a business with Rs.3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?",
+      "solution": "Let the amount contributed by B be Rs.x\n\n(3500*12):(x*7) = 2:3\n\nx = 6000*3/2 = Rs.9000",
+      "topic": "Partnership"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": [
+        "12",
+        "10",
+        "5",
+        "6"
+      ],
+      "question": "5, 20, 24, 6, 2, 8, ?",
+      "solution": "5*4 = 20\n20+4 = 24\n24/4 = 6\n6 - 4 = 2\n\n2*4 = 8\n8+4 = 12",
+      "topic": "Number Series"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "48\n",
+        "237",
+        "465",
+        "945"
+      ],
+      "question": "A survey carried out on 1500 people showed that 37% liked a new product, while 32% were indifferent. If the rest said they disliked the product, how many people were in category?\n ",
+      "solution": "% of people who disliked the product\n\t= 100 - 37 - 32\n\t= 31\n\n31% of 1500\n\t= 465",
+      "topic": "Percentage"
+    },
+    {
+      "id": 5,
+      "answerIndex": 1,
+      "answers": [
+        "n/(n+12) %",
+        "n/(2n+12) %",
+        "12/(n+12) %",
+        "2n/(n+12) %"
+      ],
+      "question": "The membership of the Service Club at Madison High School is made up of juniors and seniors. There are 12 more seniors than juniors in the club. If there are n juniors in the club, then in terms of n , what percent of the club members are juniors?",
+      "solution": "No. of juniors = n\nNo. of seniors = n+12\n\n% of juniors\n\t= n/(2n+12)",
+      "topic": "Percentage"
+    },
+    {
+      "id": 6,
+      "answerIndex": 3,
+      "answers": [
+        "21.54",
+        "24.67",
+        "22.49",
+        "23.77"
+      ],
+      "question": "Last years sales target was $265000. This years is $328000. By what percentage has this years sales target increased over last years?",
+      "solution": "% Increase in sales target\n\t= (328000-265000)/265000 * 100\n\t= 23.77%",
+      "topic": "Percentage"
+    },
+    {
+      "id": 7,
+      "answerIndex": 3,
+      "answers": [
+        "5%",
+        "10%",
+        "14%",
+        "18%"
+      ],
+      "question": "If a department makes a profit of 30% on a turnover of $85000, what percentage profit can be expected if overheads increase by $10000 but other factors remain unchanged?",
+      "solution": "Profit\n\t= 30% of 85000\n\t= 25500\nAfter subtracting overheads,\n\tprofit = 15500\n\nProfit % \n\t= (15500/85000)*100\n\t= 18.23%",
+      "topic": "Percentage"
+    },
+    {
+      "id": 2,
+      "answerIndex": 3,
+      "answers": [
+        "1:1",
+        "2:3",
+        "1:2",
+        "3:2"
+      ],
+      "question": "Gold is 19 times as heavy as water and copper is 9 times as heavy as water. In what ratio should these be mixed to get an alloy 15 times as heavy as water?",
+      "solution": "Let g gm of gold be mixed with c gm of copper to give (g+c) gm of the alloy. \n\n19g+9c = 15(g+c)\n\n4g = 6c\n\ng:c = 3:2",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 7,
+      "answerIndex": 1,
+      "answers": [
+        "Rs.140",
+        "Rs.120",
+        "Rs.150",
+        "Rs.160"
+      ],
+      "question": "If Rs.200 is available to pay for typing a research report & typist A produces 42 pages and typist B produces 28 pages. How much should typist A receive?",
+      "solution": "Typist A receives\n\t200*42/(42+28)\n\t\t= Rs.120",
+      "topic": "Fractions"
+    },
+    {
+      "id": 9,
+      "answerIndex": 3,
+      "answers": [
+        "10 kmph",
+        "20 kmph",
+        "16 kmph",
+        "15 kmph"
+      ],
+      "question": "A is driving on a highway when the police fines him for overspeeding and exceeding the limit by 10 km/hr. At the same time, B is fined for overspeeding by twice the amount by which A exceeded the limit. If he was driving at 35 km/hr what is the speed limit for the road?",
+      "solution": "Let the speed limit be x kmph.\n\nA's speed = x+10\n\nB's speeed\n\tx+20 = 35\n\tx = 15",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.24",
+        "Rs.26",
+        "Rs.28",
+        "Rs.30"
+      ],
+      "question": "Had an article been sold at 55% loss, SP would have been Rs.10.80. The C.P is",
+      "solution": "0.45*CP = 10.8\n\nCP = 24",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 9,
+      "answerIndex": 0,
+      "answers": [
+        "36",
+        "33",
+        "60",
+        "48"
+      ],
+      "question": "If 18 men can build a 140 m long wall in 42 days, in how many days will 15 men be able to construct a similar wall 100 m long?",
+      "solution": "No. of days\n\t= (18/15)*(100/140)*42\n\t= 36",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 8,
+      "answerIndex": 2,
+      "answers": [
+        "50%",
+        "35%",
+        "32%",
+        "30%"
+      ],
+      "question": "Successive discounts of 15% & 20% on any goods amount to a total discount of",
+      "solution": "0.85*0.8 = 0.68\n\n1-0.68 = 0.32 = 32%",
+      "topic": "Percentage"
+    },
+    {
+      "id": 2,
+      "answerIndex": 2,
+      "answers": [
+        "180",
+        "280",
+        "168",
+        "175"
+      ],
+      "question": "In a km race, A beats B by 40 m or 7 secs. A's time (in secs) over the course is",
+      "solution": "Time taken by B to run the last 40 m = 7 s\n\nB's speed = 40/7 m/s\n\nTime taken by B to run 1 km\n\t= 1000/(40/7)\n\t= 175 s\n\nTime taken by A\n\t= 175-7\n\t= 168",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": [
+        "44,26",
+        "42,28",
+        "40,30",
+        "45,30"
+      ],
+      "question": "A widow & a son are to receive Rs.20,000 and Rs 10,000 respectively from an inheritance of Rs.70,000. The rest is to be divided in such a way that the widow receives 3/2 times as much of it as the son. Then the amount received by the widow and the son in thousands of rupees is",
+      "solution": "Let the remaining 40000 be divided as Rs.x and Rs.3x/2\n\nx+3x/2 = 40000\n\nx = 16000\n\nAmount received by the son\n\t= 10000+16000\n\t= 26000\n\nAmount received by the widow\n\t= 20000+24000\n\t= 44000",
+      "topic": "Fractions"
+    },
+    {
+      "id": 10,
+      "answerIndex": 3,
+      "answers": [
+        "(4x +1)/4x",
+        "5/4",
+        "3/(5x)",
+        "3/5"
+      ],
+      "question": "Machine A produces x units of output per hour, while machine B produces x units of output every 1.5 hrs. How many hours does it take to produce x units of output, with both machines A & B working together?",
+      "solution": "No. of units produced by A & B in an hour\n\t= x+(x/1.5)\n\t= 2.5x/1.5\n\t= 5x/3\n\n5x/3 units -> 1 hour\nx units      -> 3/5 hours",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 9,
+      "answerIndex": 3,
+      "answers": [
+        "3",
+        "4",
+        "4.5",
+        "5"
+      ],
+      "question": "To reproduce an old photograph, a photographer charges x dollars to make a negative, 3x/5 dollars for each of the first 10 prints, & x/5 dollars for each print in excess of 10 prints. If $45 is the total charge to make a negative & 20 prints from an old photograph, what is the value of x?",
+      "solution": "x+(30x/5)+(10x/5) = 45\n\n45x = 45*5\n\nx = 5",
+      "topic": "Fractions"
+    },
+    {
+      "id": 5,
+      "answerIndex": 1,
+      "answers": [
+        "2.5",
+        "2.25",
+        "1.67",
+        "1.44"
+      ],
+      "question": "A certain cake recipe states that the cake should be baked in a pan 8 inches in diameter. If Jules want to make a cake of the same depth but 12 inches in diameter, by what factor should he multiply the recipe ingredients?",
+      "solution": "Volume of the cake\n\t= π r² h\n\t= 16 π h\nNew Volume\n\t= 36 π h\n\nFactor to be multiplied\n\t= 36/16\n\t= 2.25",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 9,
+      "answerIndex": 0,
+      "answers": [
+        "100",
+        "103",
+        "78",
+        "128"
+      ],
+      "question": "10, 14, 23, 39, 64, ?, 149",
+      "solution": "10+4 = 14\n14+9 = 23\n\n\n64+36 = 100",
+      "topic": "Number Series"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": [
+        "34 minutes",
+        "36 minutes",
+        "38 minutes",
+        "40 minutes"
+      ],
+      "question": "A super fast bus of KSRTC starts from 'Trivandrum' and reaches 'Attingal' in 45 minutes with an average speed of 40 km/hr. If the speed is increased by 10 km/hr, how much time it will take to cover the same distance?",
+      "solution": "Distance\n\t= 40*3/4\n\t= 30 km\n\nNew speed\n\t= 50 kmph\n\nTime taken\n\t= 30/50\n\t= 3/5 hours\n\t= 36 minutes",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 9,
+      "answerIndex": 1,
+      "answers": [
+        "4.5",
+        "0.45",
+        "0.045",
+        "45"
+      ],
+      "question": "One fourth percent of 180 is",
+      "solution": "(1/4)*(180/100)\n\t= 0.45",
+      "topic": "Percentage"
+    },
+    {
+      "id": 10,
+      "answerIndex": 3,
+      "answers": [
+        "100",
+        "200",
+        "180",
+        "150"
+      ],
+      "question": "A candidate appearing for an examination has to secure 40% marks to pass paper I. But he secured only 40 marks and failed by 20 marks. What is the maximum mark for paper I?",
+      "solution": "Let the maximum marks be x.\n\n40% of x = 60\n\nx = 150",
+      "topic": "Percentage"
+    },
+    {
+      "id": 11,
+      "answerIndex": 1,
+      "answers": [
+        "16.67",
+        "20",
+        "23",
+        "17"
+      ],
+      "question": "If 250 is increased to 300, what is the percentage increase?",
+      "solution": "% increase\n\t= (50/250)*100\n\t= 20%",
+      "topic": "Percentage"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        " 1:40",
+        "1:4000",
+        "9:10",
+        "1:400"
+      ],
+      "question": "The ratio of 9 seconds to 10 hours is",
+      "solution": "9:(10*60*60)\n\t= 1:4000",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "204",
+        "250",
+        "240",
+        "210"
+      ],
+      "question": "A person lost 10% when he sold goods at Rs.153. For how much should he sell them to gain 20%?",
+      "solution": "0.9*CP = 153\nCP = 170\n\nTo gain 20%\n\tSP = 1.2*170 = 204",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 2,
+      "answerIndex": 3,
+      "answers": [
+        "30 seconds",
+        "36 seconds",
+        "20 seconds",
+        "18 seconds"
+      ],
+      "question": "A train of 100 meters long is running at the speed of 36 km per hour. What time does it take to pass a bridge 80 meters long?",
+      "solution": "Speed\n\t= 36*5/18 m/s\n\t= 10 m/s\nTime taken\n\t= 180/10\n\t= 18 seconds",
+      "topic": "Trains"
+    },
+    {
+      "id": 10,
+      "answerIndex": 0,
+      "answers": [
+        "90 seconds",
+        "70 seconds",
+        "60 seconds",
+        "100 seconds"
+      ],
+      "question": "If two-third of a bucket is filled in one minute, then the time taken to fill the bucket completely will be",
+      "solution": "Time taken\n\t= 60*3/2\n\t= 90 seconds",
+      "topic": "Fractions"
+    },
+    {
+      "id": 11,
+      "answerIndex": 3,
+      "answers": [
+        "5",
+        "8",
+        "10",
+        "6"
+      ],
+      "question": "If 3 men or 6 boys can do a piece of work in 20 days, then how many days will 6 men and 8 boys take to do the same work?",
+      "solution": "Part of work completed by 1 man in a day\n\t= 1/(20*3)\n\t= 1/60\nPart of work completed by 1 boy in a day\n\t= 1/(20*6)\n\t= 1/120\n\nPart of work completed by 6 men and 8 boys in a day\n\t= 6*(1/60) + 8*(1/120)\n\t= 1/6",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 14,
+      "answerIndex": 0,
+      "answers": [
+        "5050",
+        "5005",
+        "9900",
+        "9050"
+      ],
+      "question": "Find the sum of the first 100 natural numbers.",
+      "solution": "Sum\n\t= 100*101/2\n\t= 5050",
+      "topic": "Numbers"
+    },
+    {
+      "id": 6,
+      "answerIndex": 2,
+      "answers": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "question": "How many balls of radius 4 cm can be made from a solid sphere of lead of radius 8 cm?",
+      "solution": "No. of balls\n\t= 8*8*8/(4*4*4)\n\t= 8",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 7,
+      "answerIndex": 3,
+      "answers": [
+        "50000",
+        "54000",
+        "45000",
+        "60000"
+      ],
+      "question": "A 16 storey building has 12000 sq.feet on each floor. Company A rents 7 floors and company B rents 4 floors. Find the area in square feet of unrented floor space.",
+      "solution": "5 floors are unused.\n\nUnused space\n\t= 5*12000\n\t= 60000",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 15,
+      "answerIndex": 3,
+      "answers": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "question": "The last digit in 2 ^ 51 is",
+      "solution": "2^1 = 2\n2^2 = 4\n2^3 = 8\n2^4 = 16\n\n2^5 = 32\n2^6 = 64\n\nThe last digit keeps repeating as 2, 4, 8, 6, 2, 4, ....\n\nIn general, the last digit of 2^n is\n\t2 for 4k+1\n\t4 for 4k+2\n\t8 for 4k+3\n\t6 for 4k\nwhere k is an integer.\n\n51 = 4k+3.\n\nThe last digit of 2^51 is 8",
+      "topic": "Numbers"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "60 inches",
+        "72 inches",
+        "75 inches",
+        "78 inches"
+      ],
+      "question": "A person is painting on a glass board which is of 3:2 ratio. The smaller side is of size 15 inches. What is the total perimeter of board?",
+      "solution": "Larger side\n\t= (3/2)*15\n\t= 22.5\n\nPerimeter\n\t= 2(15+22.5)\n\t= 75 inches",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 6,
+      "answerIndex": 1,
+      "answers": [
+        "110",
+        "105",
+        "100",
+        "120"
+      ],
+      "question": "The average salary of 3 workers is Rs.95 per week. If one earns Rs.115 and the second earns Rs.65, what is the salary of the 3rd worker?",
+      "solution": "(115+65+x)/3 = 95\n\nx = 105",
+      "topic": "Average"
+    },
+    {
+      "id": 12,
+      "answerIndex": 1,
+      "answers": [
+        "12",
+        "18",
+        "24",
+        "36"
+      ],
+      "question": "During a given week, a programer spends 1/4 of his time preparing a flow chart, 3/8 of his time coding and the rest of the time in debugging the programs. If he works 48 hours during the week, how many hours did he spend debugging the program?",
+      "solution": "Amount of time spent debugging\n\t= 48*[1-(1/4)-(3/8)]\n\t= 48*3/8\n\t= 18",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "490",
+        "440",
+        "420",
+        "410"
+      ],
+      "question": "A computer printer produced 176,400 lines in a given day. If the printer was in operation for seven hours during the day, how many lines did it print per minute?",
+      "solution": "No. of lines printed per minute\n\t= 176400/(7*60)\n\t= 420",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 11,
+      "answerIndex": 2,
+      "answers": [
+        "1/4",
+        "3/8",
+        "5/8",
+        "3/4"
+      ],
+      "question": "In a library, there are two racks with 40 books per rack. On a given day, 30 books were issued. What fraction remained in the racks?",
+      "solution": "Fraction left in the rack\n\t= 50/80\n\t= 5/8",
+      "topic": "Fractions"
+    },
+    {
+      "id": 7,
+      "answerIndex": 1,
+      "answers": [
+        "7200",
+        "7600",
+        "7500",
+        "7000"
+      ],
+      "question": "The average length of three tapes is 6800 feet. None of the tapes is less than 6400 feet. What is the greatest possible length of one of the tapes?",
+      "solution": "Given the average is 6800, the length of a tape will be maximum when the length of the other two tapes is minimum.\n\nLet the length of two tapes be 6400 feet and the length of the other be x feet\n\n6400+6400+x = 3*6800\n\nx = 7600",
+      "topic": "Average"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": [
+        "Rs.30000",
+        "Rs.32000",
+        "Rs.34000",
+        "Rs.35000"
+      ],
+      "question": "A company rented a machine for Rs.700/- a month. Five years later, the treasurer calculated that if the company had purchased the machine and paid Rs.100/- monthly maintenance charge, the company would have saved Rs.2000/-. What was the purchase price of the machine?",
+      "solution": "Rent for five years\n\t= 5*12*700\n\t= 42000\n\nLet the purchase price be Rs.x\n\nx+(5*12*100) = 42000-2000\n\nx+6000 = 40000\n\nx = 34000",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 14,
+      "answerIndex": 2,
+      "answers": [
+        "7500",
+        "8000",
+        "9000",
+        "10000"
+      ],
+      "question": "Two computers each produced 48000 public utility bills in a day. One  computer printed bills at the rate of 9600 an hour and the other at the rate of 7800 an hour.  When the first computer finished its run, how many bills did the other computer still have to print?",
+      "solution": "The first computer finished printing in 48000/9600 = 5 hours\n\nBills to be printed by the second computer after five hours\n\t= 48000 - (5*7800)\n\t= 9000",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 15,
+      "answerIndex": 1,
+      "answers": [
+        "2/3",
+        "3/4",
+        "3/5",
+        "4/5"
+      ],
+      "question": "If a salesman's average is a new order every other week, he will break the office record of the year. However, after 28 weeks, he is six orders behind schedule. In what proportion of the remaining weeks does he have to obtain a new order to break the record?",
+      "solution": "Record number of orders\n\t= 52/2\n\t= 26\n\nAfter 28 weeks, he should have got 14 orders.\n\nBut he has got 14-6 = 8 orders.\n\nHe has to complete the remaining (26-8)=18 orders in\n\t(52-28)=24 weeks\n\nNo. of orders to be completed per week\n\t= 18/24\n\t= 3/4",
+      "topic": "Time & Work"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": [
+        "Rs.324",
+        "Rs.405",
+        "Rs.410",
+        "Rs.414"
+      ],
+      "question": "A company figured it needed 37.8 square feet of carpet for its reception room. To allow for waste, it decided to order 20% more material than needed. Fractional parts of square feet cannot be ordered. At Rs.9/- a square feet, how much would the carpet cost?",
+      "solution": "20% more than 37.8\n\t= 1.2*37.8\n\t= 45.36\n\nFractional parts can't be ordered. So, 46 square feet should be ordered.\n\nCost\n\t= 46*9\n\t= 414 square feet",
+      "topic": "Percentage"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": [
+        "6\"",
+        "6.5\"",
+        "7\"",
+        "7.5\""
+      ],
+      "question": "The dimensions of a certain machine are 48\" X 30\" X 52\". If the size of the machine is increased proportionately, until the sum of its dimensions equals 156\", what will be the increase in the shortest side?",
+      "solution": "Increase in the sum of dimensions\n\t= 156-(48+30+52)\n\t= 156-130\n\t= 26\n\nIncrease in the shortest side\n\t= 30*(26/130)\n\t= 6",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 12,
+      "answerIndex": 1,
+      "answers": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "question": "In a team of 12 persons, 1/3 are women and 2/3 are men. To obtain a team with 20% women how many men should be hired?",
+      "solution": "No. of women\n\t= 12*1/3\n\t= 4\n20% of x = 4\n\nx = 20\n\n(20-12) = 8 more men should be hired.",
+      "topic": "Fractions"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "30%",
+        "32%",
+        "33%",
+        "36%"
+      ],
+      "question": "In a certain company, 20% of the men and 40% of the women attended the annual company picnic. If 35% of all the employees are men, what percent of all the employees went to the picnic?",
+      "solution": "% of employees who attended the picnic\n\t= (0.2*35%)+(0.4*65%)\n\t= 33%",
+      "topic": "Percentage"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "35000",
+        "36000",
+        "40000",
+        "42000"
+      ],
+      "question": "It cost a college Rs.0.70 a copy to produce a Programme for the homecoming football game. If Rs.15,000/- was received for advertisements in the programme, how many copies at Rs.0.50 a copy must be sold to make a profit of Rs.8000/-?",
+      "solution": "Let the no. of copies to be sold by x.\n\nCP = 0.7x\n\nProfit = 0.5x+15000 - 0.7x\n\n15000-0.2x = 8000\n\n0.2x = 7000\n\nx = 35000\n\n",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 13,
+      "answerIndex": 3,
+      "answers": [
+        "3 km",
+        "4 km",
+        "6 km",
+        "5 km"
+      ],
+      "question": "A car travels 12 kms with a 4/5th filled tank. How far will the car travel with 1/3 filled tank?",
+      "solution": "The car will travel\n\t12*(5/4)*(1/3)\n\t\t= 5 kms",
+      "topic": "Fractions"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "20%",
+        "25%",
+        "33(1/3)%",
+        "80%"
+      ],
+      "question": "If the ratio of women to men in a meeting is 4 to 1, what percent of the persons in the meeting are men?",
+      "solution": "% of men\n\t= (1/5)*100\n\t= 20%",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 8,
+      "answerIndex": 3,
+      "answers": [
+        "91",
+        "92",
+        "94",
+        "95"
+      ],
+      "question": "Tom received 89, 94, 86, and 96 in the first algebra tests. What grade must he receive on his last test to have an average of 92?",
+      "solution": "(89+94+86+96+x)/5 = 92\n\nx = 460-365 = 95",
+      "topic": "Average"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "Rs.2,880",
+        "Rs.3,600",
+        "Rs.6,480",
+        "Rs.2,500"
+      ],
+      "question": "Emily receives a flat weekly salary of Rs.240 plus 12% commission of the total volume of all sales she makes. What must her sales volume be in a week if she is to make a total weekly of Rs.540?",
+      "solution": "240+0.12x = 540\n\n0.12x = 300\n\nx = 2500",
+      "topic": "Percentage"
+    },
+    {
+      "id": 11,
+      "answerIndex": 3,
+      "answers": [
+        "6 hours",
+        "3 hours",
+        "2.4 hours",
+        "1.6 hours"
+      ],
+      "question": "A postal truck leaves its station and heads for Chicago, averaging 40mph. An error in the mailing schedule is spotted and 24 minutes after the truck leaves, a car is sent to overtake the truck. If the car averages 50mph, how long will it take to catch the postal truck?",
+      "solution": "Distance travelled by the truck in 24 minutes\n\t= 40*(24/60)\n\t= 16 miles\n\nRelative speed\n\t= 50-40\n\t= 10 mph\n\nTime taken to cover 16 miles\n\t= 1.6 hours",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "(2a - b)/h",
+        "2h/a - b",
+        "2a - b",
+        "2a/h - b"
+      ],
+      "question": "The value of B in the equation a = (h/2)(B+b) is",
+      "solution": "a = (h/2)(B+b)\n\nB+b = 2a/h\n\nB = 2a/h - b",
+      "topic": "Fractions"
+    },
+    {
+      "id": 9,
+      "answerIndex": 2,
+      "answers": [
+        "4R",
+        "8R",
+        "4√2 R",
+        "2√2 R"
+      ],
+      "question": "The perimeter of a square inscribed in the circumference of radius R is",
+      "solution": "Diagonal of the square\n\t√2 a = 2R\n\ta = √2 R\n\nPerimeter of the square\n\t4a = 4√2 R",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 6,
+      "answerIndex": 1,
+      "answers": [
+        "2 inches",
+        "6 inches",
+        "9 inches",
+        "10.5 inches"
+      ],
+      "question": "An old picture has dimensions 33 inches by 24 inches. What length must be cut from each dimension so that the ratio of the shorter side to the longer side is 2:3?",
+      "solution": "(24-x):(33-x) = 2:3\n\n72-3x = 66-2x\n\nx = 6",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 9,
+      "answerIndex": 1,
+      "answers": [
+        "II only",
+        "III only",
+        "I and II only",
+        "I, II and III"
+      ],
+      "question": "In a group of 30 people, the average height is 6 feet and 2 inches. Therefore, we can assume that\n\tI) everyone is 6ft and 2 inches\n\tII) most of the people are 6ft and 2 inches\n\tIII) not all could be taller than 6ft and 2 inches",
+      "solution": "Only III is true.",
+      "topic": "Average"
+    },
+    {
+      "id": 15,
+      "answerIndex": 2,
+      "answers": [
+        "1500",
+        "1800",
+        "2000",
+        "2400"
+      ],
+      "question": "A wall being made entirely of bricks is 40% built. If we need 1,200 more bricks to complete the wall, how many bricks will the wall have?",
+      "solution": "60% of x = 1200\n\nx = 2000",
+      "topic": "Percentage"
+    },
+    {
+      "id": 2,
+      "answerIndex": 1,
+      "answers": [
+        "2/3",
+        "1/3",
+        "1/2",
+        "1/5"
+      ],
+      "question": "A box contains 6 red marbles and 4 blue marbles. What is the probability that if 2 marbles are simultaneously drawn from the box, both will be red?",
+      "solution": "n(E) = 6C2 = 15\n\nn(S) = 10C2 = 45\n\nP(E) = 1/3",
+      "topic": "Probability"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": [
+        "12",
+        "24",
+        "36",
+        "48"
+      ],
+      "question": "If it is 250 kms from Delhi to Chandigarh and 120 kms from Delhi to Jaipur, what percentage of the distance from Delhi to Chandigarh is the distance from Delhi to Jaipur?",
+      "solution": "x% of 250 = 120\n\nx = 120*100/250 = 48",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 13,
+      "answerIndex": 0,
+      "answers": [
+        "10",
+        "8",
+        "6.4",
+        "9.6"
+      ],
+      "question": "A car goes 15 kms on a litre of petrol. When it is driven at 60 kmph, it only goes 80% as far. How many litres of petrol will it take to travel 120 kms driving at 60 kmph?",
+      "solution": "No. of litres needed\n\t= 120/(0.8*15)\n\t= 10",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 15,
+      "answerIndex": 2,
+      "answers": [
+        "Rs.1000",
+        "Rs.2000",
+        "Rs.3000",
+        "Rs.6000"
+      ],
+      "question": "I went to Lucky Duck Casino and in the first game I lost one-third of my money, in the second game I lost half of the rest. If I still have Rs.1,000, how much money did I have when I arrived at the Casino?",
+      "solution": "Let the total amount be Rs.x\n\nAfter the first game,\n\t2x/3 is left.\n\nAfter the second game, half of it is left.\n\n2x/3 * 1/2 = 1000\n\nx = 3000",
+      "topic": "Fractions"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "40 : 8 : 3",
+        "20 : 4 : 1",
+        "8 : 4 : 1",
+        "1 : 1 : 5"
+      ],
+      "question": "For each Rupee spent by the sales department, the research department spends 20 paise. For every Rs.4 spent by the research department, the packing department spends Rs.1.50. The triple ratio of the money spent by the sales department to the money spent by the research department to the money spent by the packing department can be expressed as",
+      "solution": "4/0.2 : 4 : 1.5\n\t= 40 : 8 : 3",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 14,
+      "answerIndex": 1,
+      "answers": [
+        "60 kmph",
+        "48 kmph",
+        "45 kmph",
+        "44 kmph"
+      ],
+      "question": "If the total distance of a journey is 120 km. If one goes at 60 kmph and comes back at 40kmph, what is the average speed during the journey?",
+      "solution": "Time taken to go to the place\n\t= 60/60\n\t= 1 hour\nTime taken to come back\n\t= 60/40\n\t= 1.5 hours\n\nAverage Speed\n\t= 120/2.5\n\t= 48 kmph",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 10,
+      "answerIndex": 0,
+      "answers": [
+        "360",
+        "320",
+        "300",
+        "270"
+      ],
+      "question": "Perimeter of the front wheel is 30 feet and that of the back wheel is 20 feet. If the front wheel revolves 240 times, how many revolutions will the back wheel take?",
+      "solution": "30*240 = 20*x\n\nx = 360",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "24%",
+        "36%",
+        "30%",
+        "18%"
+      ],
+      "question": "20% of a 6 litre solution and 60% of 4 litre solution are mixed. What is the resulting percentage of the mixture of solution?",
+      "solution": "Percentage\n\t= ((1.2+2.4)/10)*100\n\t= 36%",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 15,
+      "answerIndex": 1,
+      "answers": [
+        "1 hour",
+        "1.5 hours",
+        "1.2 hours",
+        "1.8 hours"
+      ],
+      "question": "Two cars, traveling in the same direction, are 15 kms apart. One is traveling at a speed of 50 kmph and the other at 40 kmph . How much time will it take for the two cars to meet?",
+      "solution": "Relative speed = 10 kmph\n\nTime taken\n\t= 15/10\n\t= 1.5 hours",
+      "topic": "Time & Distance"
+    },
+    {
+      "id": 6,
+      "answerIndex": 1,
+      "answers": [
+        "521",
+        "30030",
+        "3003",
+        "2796"
+      ],
+      "question": "There are 12 boys and 15 girls. How many different dancing groups of 2 boys and 3 girls can be formed?",
+      "solution": "No. of ways\n\t= 12C2*15C3\n\t= 66*455\n\t= 30030",
+      "topic": "Permutations"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": [
+        "1:2",
+        "2:1",
+        "2:3",
+        "3:2"
+      ],
+      "question": "There are two circles, one circle is inscribed and another circle is circumscribed over a square. What is the ratio of area of inner to outer circle?",
+      "solution": "Inner circle\n\tDiameter = Side of square\n\tArea = π a²/4\n\nOuter circle\n\tDiameter = Diagonal of square\n\tArea = π a²/2\n\nInner:Outer = 1:2",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 7,
+      "answerIndex": 3,
+      "answers": [
+        "26",
+        "18",
+        "16",
+        "10"
+      ],
+      "question": "Out of 10 white, 9 black and 7 red balls, in how many ways can we select three balls?",
+      "solution": "Ways of selecting three balls\n\t= {www, wwb, wwr, bbb, bbw, bbr, rrr, rrb, rrw, wbr}\n\nn(E) = 10",
+      "topic": "Permutations"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "5/12",
+        "7/12",
+        "11/12",
+        "5/36"
+      ],
+      "question": "A and B throw a dice. The probability that A's throw is not greater than B's is",
+      "solution": "n(S) = 36\n\nn(E) = 6+5+4+3+2+1 = 21\n\nP(E) = 7/12",
+      "topic": "Probability"
+    },
+    {
+      "id": 4,
+      "answerIndex": 3,
+      "answers": [
+        "1/2",
+        "1/5",
+        "1/10",
+        "1/32"
+      ],
+      "question": "There is a toy train that can make 10 musical sounds. It makes 2 musical sounds after being defective. What is the probability that same musical sound would be produced 5 times consecutively?",
+      "solution": "It plays only 2 sounds.\n\nProbability of sound 1 being played\n\t= 1/2\n\nP(sound 1 being played 5 times)\n\t= (1/2)^5\n\t= 1/32",
+      "topic": "Probability"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "70 s",
+        "1 min",
+        "1 min 15 s",
+        "54 s"
+      ],
+      "question": "How long will a train 100m long traveling at 72kmph take to overtake another train 200m long traveling at 54kmph?",
+      "solution": "Relative Speed\n\t= 72-54\n\t= 18 kmph\n\t= 5 m/s\n\nTime taken\n\t= (100+200)/5\n\t= 60 seconds",
+      "topic": "Trains"
+    },
+    {
+      "id": 8,
+      "answerIndex": 2,
+      "answers": [
+        "7C3",
+        "7P3",
+        "3^7",
+        "7^3"
+      ],
+      "question": "Seven different toys are distributed among 3 children. how many different ways are possible?",
+      "solution": "The first toy can be given to any of the three children.\nThe second toy too can be given to any of the three.\n\nThis holds true for all the 7 toys.\n\nNo. of ways\n\t= 3*3*3*3*3*3*3\n\t= 3^7",
+      "topic": "Permutations"
+    },
+    {
+      "id": 4,
+      "answerIndex": 0,
+      "answers": [
+        "24",
+        "25",
+        "28",
+        "20"
+      ],
+      "question": "8 liters are drawn from a wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in the cask to that of the water is 16:81. How much wine did the cask hold originally?",
+      "solution": "[1-(8/x)]^4 = 16/81\n\n1-(8/x) = 2/3\n\n8/x = 1/3\n\nx = 24",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 9,
+      "answerIndex": 3,
+      "answers": [
+        "18!*720",
+        "6!*1440",
+        "18!*2!*1440",
+        "18!*1440"
+      ],
+      "question": "A class photograph has to be taken. The first row consists of 6 girls who are sitting. 20 boys are standing behind. The two corner positions are reserved for the two tallest boys. In how many ways can the students be arranged?",
+      "solution": "No. of ways of seating the girls\n\t= 6!\nNo. of ways of arranging 18 boys\n\t= 18!\nThe two tallest boys can take any of the 2 corner positions.\n\nTotal no. of ways\n\t= 6!*18!*2\n\t= 2*720*18!\n\t= 18!*1440",
+      "topic": "Permutations"
+    },
+    {
+      "id": 10,
+      "answerIndex": 0,
+      "answers": [
+        "1:2",
+        "2:1",
+        "2:3",
+        "3:2"
+      ],
+      "question": "There are two circles, one circle is inscribed and another circle is circumscribed over a square. What is the ratio of area of inner to outer circle?",
+      "solution": "Inner circle\n\tDiameter = Side of square\n\tArea = π a²/4\n\nOuter circle\n\tDiameter = Diagonal of square\n\tArea = π a²/2\n\nInner:Outer = 1:2",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "question": "From 5 different green balls, four different blue balls and three different red balls, how many combinations of 3 balls can be chosen taking at least one green ball?",
+      "solution": "GRR, GRB, GRG, GBB, GGG, GBG",
+      "topic": "Permutations"
+    },
+    {
+      "id": 5,
+      "answerIndex": 1,
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "question": "When a pair of dice is thrown, which sum has the higher probability to occur?",
+      "solution": "To get 6,\n\t(1,5), (2,4), (3,3), (4,2), (5,1)\nTo get 7,\n\t(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)\nTo get 8,\n\t(2,6), (3,5), (4,4), (5,3), (6,2)\nTo get 9,\n\t(3,6), (4,5), (5,4), (6,3)\n\n7 occurs the highest number of times.",
+      "topic": "Probability"
+    },
+    {
+      "id": 6,
+      "answerIndex": 1,
+      "answers": [
+        "0.8",
+        "0.48",
+        "0.6",
+        "0.14"
+      ],
+      "question": "If A speaks the truth 80% of the times, B speaks the truth 60% of the times. What is the probability that they tell the truth at the same time?",
+      "solution": "P(E) = 0.8*0.6 = 0.48",
+      "topic": "Probability"
+    },
+    {
+      "id": 4,
+      "answerIndex": 1,
+      "answers": [
+        "2 min",
+        "3 min",
+        "3.2 min",
+        "3.5 min"
+      ],
+      "question": "A train travelling at a speed of 75 mph enters a tunnel 3 1/2 miles long. The train is 1/4 mile long. How long does it take for the train to pass through the tunnel from the moment the front enters to the moment the rear emerges?",
+      "solution": "Total distance\n\t= (7/2)+(1/4)\n\t= 15/4\nTime taken\n\t= (15/4)/75\n\t= 1/20 hours\n\t= 3 mins",
+      "topic": "Trains"
+    },
+    {
+      "id": 11,
+      "answerIndex": 1,
+      "answers": [
+        "684",
+        "780",
+        "612",
+        "710"
+      ],
+      "question": "Mr. Krishnaraj Manickam, a final year student of B. Tech -Information Technology from a College in Kanpur appeared for a recruitment test conducted by a leading IT company in campus interview. The question consisted of two parts - Part A and Part B. There were six questions in each part. A candidate has to answer seven questions in all choosing not more than five from one part. In how many ways a candidate can attempt this paper assuming he answers seven questions?",
+      "solution": "He can answer\n\t5 from A and 2 from B\n\t4 from A and 3 from B\n\t3 from A and 4 from B\n\t2 from A and 5 from B\n\nNo. of ways\n\t= (6C5*6C2)+(6C4*6C3)+(6C3*6C4)+(6D2*6C5)\n\t= 90+300+300+90\n\t= 780",
+      "topic": "Permutations"
+    },
+    {
+      "id": 7,
+      "answerIndex": 3,
+      "answers": [
+        "3",
+        "12",
+        "18",
+        "20"
+      ],
+      "question": "There are 30 socks in a drawer. 60% of the socks are red and the rest are blue. What is the minimum number of socks that must be taken from the drawer without looking in order to be certain that at least two blue socks have been chosen?",
+      "solution": "No. of red socks\n\t= 0.6*30\n\t= 18\n\nThe first 18 picks may be red. So, if we pick 20, we can be sure that we have at least two blue socks.",
+      "topic": "Probability"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": [
+        "4.5 kmph",
+        "4.44 kmph",
+        "4.48 kmph",
+        "4.6 kmph"
+      ],
+      "question": "A person travels at a speed of 4 kmph from A to B and returns to A with a speed of 5 kmph. Find his average speed.",
+      "solution": "Average Speed\n\t= 2ab/(a+b)\n\t= 40/9\n\t= 4.44 kmph",
+      "topic": "Average"
+    },
+    {
+      "id": 8,
+      "answerIndex": 2,
+      "answers": [
+        "3/452",
+        "4/564",
+        "1/372",
+        "3/546"
+      ],
+      "question": "3 blocks are chosen randomly on a chessboard. What is the probability that they are in the same diagonal (consider only the two largest)?",
+      "solution": "No. of ways of choosing 3 blocks from 64\n\t= 64C3\n\nNo. of ways of choosing 3 blocks from the 8 blocks in a diagonal\n\t= 8C3\n\nThere are two diagonals.\n\nNo. of ways\n\t= 2*8C3\n\nP(E)\n\t= 2*8C3/64C3\n\t= 1/372",
+      "topic": "Probability"
+    },
+    {
+      "id": 5,
+      "answerIndex": 2,
+      "answers": [
+        "72 ml",
+        "79 ml",
+        "81 ml",
+        "91 ml"
+      ],
+      "question": "729 ml of a mixture contains milk and water in the ratio 7:2. How much water is to be added to get a new mixture containing milk and water in the ratio 7:3?",
+      "solution": "Amount of milk\n\t= 729*7/9\n\t= 567\nAmount of water\n\t= 729*2/9\n\t= 162\n\nLet the amount of water to added is x ml\n\n567/(162+x) = 7/3\n\n1701 = 1134+7x\n\n7x = 567\n\nx = 81",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 15,
+      "answerIndex": 0,
+      "answers": [
+        "3",
+        "4",
+        "7",
+        "9"
+      ],
+      "question": "What is the 28383rd term in the series 1234567891011121314............?",
+      "solution": "Single digits numbers\n\tTotal number of digits = 9 \n\n2 digit numbers\n\tTotal number of digits = 2 x 90 = 180 \n\n3 digit numbers\n\tTotal number of digits = 3 x 900 = 2700 \n\nSum of these = 9 + 180 + 2700 = 2889 \n\n4 digit numbers\n\tTotal number of digits = 4 x 9000 = 36000 \n\nHence, the 28383 rd digit belongs to a four digit number. \n\n28383 - 2889 = 25494\n\nThe 25494 th digit of all 4 digit numbers is required\n\nDividing 25494 by 4 gives a quotient of 6373 and a remainder of 2.\n\nHence, the 28383 rd term is the second digit of 6374 which is 3.",
+      "topic": "Number Series"
+    },
+    {
+      "id": 6,
+      "answerIndex": 3,
+      "answers": [
+        "25",
+        "30",
+        "45",
+        "50"
+      ],
+      "question": "A hat vendor bought hats at Rs.5 per 3 hats. He sold them at Rs.10 per 4 hats. What was his profit percentage?",
+      "solution": "CP = 5/3\nSP = 10/4 = 5/2\n\nProfit = 5/6\n\nProfit %\n\t= [(5/6)/(5/3)]*100\n\t= 50%",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 11,
+      "answerIndex": 3,
+      "answers": [
+        "167",
+        "176",
+        "186",
+        "191"
+      ],
+      "question": "In a classroom, the average height of all the boys was 170 cm. Rahim recently joined the class which originally had 20 boys and increased the average to 171cm. Find the height of Rahim.",
+      "solution": "Sum of heights of all boys\n\t= 170*20\n\t= 3400\nNew sum\n\t= 171*21\n\t= 3591\n\nRahim's height\n\t= 191 cm",
+      "topic": "Average"
+    },
+    {
+      "id": 11,
+      "answerIndex": 2,
+      "answers": [
+        "1/6",
+        "2/7",
+        "2",
+        "1/18"
+      ],
+      "question": "Find the sum of all terms in the series 1, 1/2, 1/4 .....",
+      "solution": "Sum of all terms of an infinite GP\n\t= a/(1-r)\n\t= 1/(1/2)\n\t= 2",
+      "topic": "Number Series"
+    },
+    {
+      "id": 9,
+      "answerIndex": 0,
+      "answers": [
+        "59",
+        "8",
+        "50",
+        "42"
+      ],
+      "question": "A lady has fine gloves and hats in her closet- 18 blue, 32 red and 25 yellow. The lights are out and it is totally dark. In spite of the darkness, she can make out the difference between a hat and a glove. She takes out an item out of the closet only if she is sure that if it is a glove. How many gloves must she take out to make sure she has a pair of each colour?",
+      "solution": "The first 32 may be red.\nThe next 25 may be yellow.\nThe next 2 will be blue.\n\n32+25+2 = 59",
+      "topic": "Probability"
+    },
+    {
+      "id": 12,
+      "answerIndex": 1,
+      "answers": [
+        "16",
+        "17",
+        "30",
+        "34"
+      ],
+      "question": "5, 15, x, 51, 53,159,161. Find x.",
+      "solution": "5*3 = 15\n15+2 = 17\n\n17*3 = 51\n51+2 = 53\n\n53*3 = 159\n\nHence, x = 17.",
+      "topic": "Number Series"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "1/6"
+      ],
+      "question": "What is the chance of getting a 2 or 4 in rolling a die?",
+      "solution": "n(S) = 6\nn(E) = 2\n\nP(E) = 1/3",
+      "topic": "Probability"
+    },
+    {
+      "id": 11,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.400",
+        "Rs.500",
+        "Rs.540",
+        "Rs.450"
+      ],
+      "question": "The cost of making a robot is divided into cost of material, cost of repairing and cost of painting in the ratio of 5:2:3. The cost used for the material is 200. Find the total cost of making the robot.",
+      "solution": "Let the total cost be Rs.10x\n\n5x = 200\nx = 40\n\n10x = 400",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 11,
+      "answerIndex": 1,
+      "answers": [
+        "20 cm²",
+        "25 cm²",
+        "16 cm²",
+        "24 cm²"
+      ],
+      "question": "A triangle is made from a rope. The sides of the triangle are 5 cm, 6 cm and 9 cm. What will be the area of the square made from the same rope?",
+      "solution": "Perimeter of the square\n\t= Perimeter of the triangle\n\t= 20 cm\n\n4a = 20\na = 5\n\nArea of the square\n\t= 25 sq. cm",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 4,
+      "answerIndex": 1,
+      "answers": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "question": "There are two water tanks A and B, A is much smaller than B. While water fills at the rate of 1 liter every hour in A, it gets filled up like, 10, 20, 40, 80, 160 in tank B. (At the end of first hour, B has 10 liters, second hour it has 20 liters and so on). If tank B is 1/32 filled after 21 hours, what is total number of hours required to fill it completely?",
+      "solution": "1/8 is filled in 22 hours\n1/4 is filled in 23 hours\n1/2 is filled in 24 hours\nFull tank is filled in 25 hours",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 12,
+      "answerIndex": 0,
+      "answers": [
+        "101",
+        "100",
+        "60",
+        "52"
+      ],
+      "question": "Gavaskar's average in the first 50 innings was 50. After the 51st innings, his average was 51. How many runs did he make in the 51st innings?",
+      "solution": "Runs he made\n\t= (51*51)-(50*50)\n\t= 2601-2500\n\t= 101",
+      "topic": "Average"
+    },
+    {
+      "id": 11,
+      "answerIndex": 3,
+      "answers": [
+        "0.5",
+        "0.46",
+        "0.52",
+        "0.54"
+      ],
+      "question": "In a company, 30% are supervisors and the rest are employees. 40% of the employees are male. If 60% of supervisors are male, what is the probability that a randomly chosen employee is a female?",
+      "solution": "% of male supervisors\n\t= 60% of 30%\n\t= 18%\n% of male employees\n\t= 40% of 70%\n\t= 28%\n\n% of male\n\t= 18+28\n\t= 46%\n% female\n\t= 100-46\n\t= 54%\n\nP(female) = 0.54",
+      "topic": "Probability"
+    },
+    {
+      "id": 5,
+      "answerIndex": 3,
+      "answers": [
+        "12:45 pm",
+        "1:00 pm",
+        "1:30 pm",
+        "1:15 pm"
+      ],
+      "question": "Train A starts from X at 12:00 pm & reaches Y at 2:30 pm & train B starts from Y at 12:15 pm and reaches X at 2:15. At what time do the two trains cross each other?",
+      "solution": "Let the distance between x and y be d miles and\n\tthe trains meet at t hours after 12.\n\nA's speed\n\t= d/2.5\nB's speed\n\t= d/2\n\nWhen they meet, the sum of the distance travelled by the two trains should equal d miles.\n\ndt/2.5 + d(t-(1/4))/2 = d\n\nt/2.5 + (4t-1)/8 = 1\n\n8t+10t-2.5 = 20\n\n18t = 22.5\n\nt = 1.25 hours\n  = 1 hour 15 mins\n\nThe trains meet at 1:15 pm.",
+      "topic": "Trains"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": [
+        "10%",
+        "7.5%",
+        "16%",
+        "15%"
+      ],
+      "question": "At what rate of simple interest per annum an amount will be doubled in 10 years?",
+      "solution": "Let the principal be Rs.x.\n\nAmount after 10 years\n\t= 2x\nSimple Interest for 10 years\n\t= 2x-x\n\t= x\n\nx = x*10*R/100\n\nR = 10%",
+      "topic": "Interest"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "20 mins",
+        "25 mins",
+        "7 mins 30 s",
+        "10 mins"
+      ],
+      "question": "Water is filled in a cylindrical vessel in such a way that its volume doubles after every five minutes. If it takes 30 minutes for the vessel to be full, then the vessel will be one fourth full in",
+      "solution": "The vessel was 1/2 full after 25 mins and 1/4 full after 20 mins.",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 7,
+      "answerIndex": 3,
+      "answers": [
+        "33(1/8)%",
+        "66(2/3)%",
+        "25%",
+        "50%"
+      ],
+      "question": "When a shop keeper sold 2/3 of an item, he got the cost price of the whole lot. What is the percentage of his profit?\n",
+      "solution": "(2/3)SP = CP\n\nSP = 1.5CP\n\nProfit\n\t= 0.5CP\n\nProfit %\n\t= (0.5CP/CP)*100\n\t= 50%",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": [
+        "7200 m²",
+        "15000 m²",
+        "54000 m²",
+        "13500 m²"
+      ],
+      "question": "The perimeter of a rectangular field is 480 meters and the ratio between the length and breadth is 5:3. The area of the field is",
+      "solution": "2(l+b) = 480\n\nl:b = 5:3\n\nl+b = 240\n\n(5b/3)+b = 240\n\nb = 90 m\nl = 150 m\n\nArea\n\t= lb\n\t= 13500 m²",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "3r",
+        "4r",
+        "√5r",
+        "√3r"
+      ],
+      "question": "The height of a cone and its base diameter are equal. If the base radius is 'r' what is its slant height?",
+      "solution": "h = 2r\n\nl = √(r²+h²)\n  = √(r²+4r²)\n  = √5 r",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 14,
+      "answerIndex": 0,
+      "answers": [
+        "4:9",
+        "2:3",
+        "8:27",
+        "4:6"
+      ],
+      "question": "The radii of two spheres are in the ratio 2:3. What is the ratio of their surface areas?\n",
+      "solution": "Surface Area of a sphere\n\t= 4π r²\n\nRatio of surface areas\n\t= r1²:r2²\n\t= 4:9",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": [
+        "3",
+        "2",
+        "√3",
+        "√2"
+      ],
+      "question": "What is the common ratio of the progression 3√2, 6, 6√2,...?",
+      "solution": "r = 6/3√2 = √2",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": [
+        "3 kmph",
+        "4 kmph",
+        "4.5 kmph",
+        "5 kmph"
+      ],
+      "question": "Speed of a boat in still water is 9 km/hr. It goes 12 km down stream and comes back to the starting point in three hours. What is the speed of water in the stream?",
+      "solution": "12/(9+s) + 12/(9-s) = 3\n\n36-4s+36+4s = 81-s²\n\ns² = 9\n\ns = 3 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 12,
+      "answerIndex": 2,
+      "answers": [
+        "5 red, 1 blue",
+        "1 red, 5 blue",
+        "3 red, 3 blue",
+        "2 red, 4 blue"
+      ],
+      "question": "A and B play a game between them. The dice consist of colours on their faces (instead of numbers). When the dice are thrown, A wins if both show the same colour, otherwise B wins. One die has 3 red faces and 3 blue faces. How many red and blue faces should the other die have if the both the players have the same chances of winning?",
+      "solution": "P(red in the first die)\r\n\t= P(blue in the first die)\r\n\t= 1/2\r\n\r\nIf the first die shows red,\r\n\tP(other die showing red) should be equal to P(other die showing blue).\r\nOnly then, both players have same chances of winning.\r\n\r\nHence, the second die should also have 3 red and 3 blue faces.",
+      "topic": "Probability"
+    },
+    {
+      "id": 2,
+      "answerIndex": 2,
+      "answers": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "question": "Ramu & Sangeetha went for biological analysis to an island which is 34 km from their place. They travelled in a boat which went at a speed of 2m/s. When they had covered half the distance, Sangeetha noted that there were 7 leg & 8 leg octopuses under the water. Ramu counted the total number of legs of octopuses and got 58. Sangeetha instantly said I know how many 7 legged octopuses are there under the water. They both reached the island after 20 min and then left. How many seven legged octopuses does Sangeetha calculate?",
+      "solution": "Total no. of legs of 7&8 legged octopuses\n\t= 58\n\nLets start from the options given.\n\nLet n be the no. of 7 legged octopuses and x the no. of 8 legged octopuses.\n\n7n+ 8x = 58\n\n8x = 58-7n\n\n58-7n should be divisible by 8.\n\nIf n=4,\n\t58-7n = 30\nn=5,\n\t58-7n = 23\nn=6,\n\t58-7n = 16\n\n16 is divisible by 8.\n\nn=6.",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 13,
+      "answerIndex": 3,
+      "answers": [
+        "73",
+        "70",
+        "68",
+        "65"
+      ],
+      "question": "The average marks scored by Rita in 5 subjects is 61. Her mark in the sixth subject is 85. Find her average of all six subjects.",
+      "solution": "Average\n\t= ((61*5)+85)/6\n\t= 390/6\n\t= 65",
+      "topic": "Average"
+    },
+    {
+      "id": 13,
+      "answerIndex": 1,
+      "answers": [
+        "Red",
+        "Green",
+        "Pink",
+        "Yellow"
+      ],
+      "question": "There are 4 balls and 4 boxes of colours yellow, pink, red and green. Red ball is in a box whose colour is same as that of the ball in a yellow box. Red box has green ball. In which box you find the yellow ball?",
+      "solution": "Green ball -> Red box\n\nColour of box of red ball\n\t= Colour of ball inside yellow box\n\nRed ball can be inside a yellow box/pink box.\n\nIf its inside a yellow box,\n\tthe colour of ball inside yellow box = yellow.\nwhich contradicts the first statement.\n\nHence,\n\tRed ball -> Pink box\n\tPink ball -> Yellow box\n\nThe left out one is\n\tYellow ball -> Green box",
+      "topic": "Probability"
+    },
+    {
+      "id": 12,
+      "answerIndex": 2,
+      "answers": [
+        "3",
+        "5",
+        "6",
+        "10"
+      ],
+      "question": "A bag contains 20 yellow balls, 10 green balls, 5 white balls, 8 black balls and 1 red ball. How many minimum balls should one pick out to make sure the he gets at least 2 balls of same color?",
+      "solution": "The first five balls may be one of each colour.\n\nThe sixth ball will definitely make a pair with any one of the above.",
+      "topic": "Permutations"
+    },
+    {
+      "id": 15,
+      "answerIndex": 0,
+      "answers": [
+        "114",
+        "135",
+        "21",
+        "71"
+      ],
+      "question": "Susan made a block with small cubes of 8 cubic cm volume to make a block ,3 small cubes long, 9 small cubes wide and 5 small cubes deep. She realizes that she has used more small cubes than she really needed. She realized that she could have glued a fewer number of cubes together to lock like a block with same dimensions, if it were made hollow. What is the minimum number of cubes that she needs to make the block?",
+      "solution": "Total no. of cubes\n\t= 3*9*5\n\t= 135\n\nShe could have removed the inner cubes.\n\nNo. of inner cubes\n\t= 1*7*3\n\t= 21\n\nMinimum no. of cubes\n\t= 135-21\n\t= 114",
+      "topic": "Area & Volume"
+    },
+    {
+      "id": 14,
+      "answerIndex": 0,
+      "answers": [
+        "1/2",
+        "1/6",
+        "1/12",
+        "3/5"
+      ],
+      "question": "Sangakara and Ponting select batting by using a dice, but dice is biased. So to resolve, Ponting takes out a coin. What is the probability that the coin shows correct option?",
+      "solution": "P(head) = P(tail) = 1/2",
+      "topic": "Probability"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "40",
+        "36",
+        "32",
+        "48"
+      ],
+      "question": "Fathers age is 5 times his son's age. 4 years back the father was 9 times older than son. Find the fathers' present age.",
+      "solution": "f = 5s\n\n(f-4) = 9(s-4)\n\nSolving,\n\tf = 40",
+      "topic": "Ages"
+    },
+    {
+      "id": 13,
+      "answerIndex": 1,
+      "answers": [
+        "7",
+        "10",
+        "12",
+        "14"
+      ],
+      "question": "What number should be added to or subtracted from each term of the ratio 17 : 24 so that it becomes equal to 1 : 2?",
+      "solution": "(17-x)/(24-x) = 1/2\n\nSolving,\n\tx = 10",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "32",
+        "33",
+        "35",
+        "36"
+      ],
+      "question": "What is the 12th term of the series 2, 5, 8, ....?",
+      "solution": "T12 = 2+(11*3) = 35",
+      "topic": "Number Series"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.520",
+        "Rs.540",
+        "Rs.390",
+        "Rs.260"
+      ],
+      "question": "If Rs.1170 is divided between between A, B and C in the ratio 2:3:4, what is C's share?",
+      "solution": "C's share\n\t= (4/9)*1170\n\t= 520",
+      "topic": "Partnership"
+    },
+    {
+      "id": 8,
+      "answerIndex": 1,
+      "answers": [
+        "20%",
+        "25%",
+        "22.5%",
+        "40%"
+      ],
+      "question": "A shopkeeper bought a watch for Rs.400 and sold it for Rs.500. What is his profit percentage?",
+      "solution": "Profit %\n\t= (100/400)*100\n\t= 25%",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 14,
+      "answerIndex": 2,
+      "answers": [
+        "Rs.18.67 crore",
+        "Rs.17 crore",
+        "Rs.16 crore",
+        "Rs.11.2 crore"
+      ],
+      "question": "Hanish made the following amounts in seven games of cricket in India: Rs.10, Rs.15, Rs.21, Rs.12, Rs.18, Rs.19 and Rs.17(all figures in crores of course). Find his average earnings.",
+      "solution": "Average\n\t= (10+15+21+12+18+19+17)/7\n\t= 16",
+      "topic": "Average"
+    },
+    {
+      "id": 6,
+      "answerIndex": 3,
+      "answers": [
+        "1/2 gallons",
+        "2/3 gallons",
+        "3/4 gallons",
+        "1 gallon"
+      ],
+      "question": "A 3-gallon mixture contains one part S and two parts R. In order to change it to a mixture containing 25% S, how much R should be added?",
+      "solution": "The mixture contains\n\t1 gallon of S and\n\t2 gallons of R.\n\nLet x gallons of R be added.\n\n1/(3+x) = 25%\n\n1/(3+x) = 1/4\n\nx = 1",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 6,
+      "answerIndex": 0,
+      "answers": [
+        "5 m/s",
+        "4 m/s",
+        "3 m/s",
+        "2.5 m/s"
+      ],
+      "question": "Train A is traveling at 72 km per hour and Train B is traveling at a speed of 25 meters per second. What is the difference in their speeds in meters per second?",
+      "solution": "A's speed\n\t= 72 kmph\n\t= 20 m/s\n\nDifference in speeds\n\t= 5 m/s",
+      "topic": "Trains"
+    },
+    {
+      "id": 8,
+      "answerIndex": 3,
+      "answers": [
+        "7",
+        "9",
+        "11",
+        "12"
+      ],
+      "question": "One year ago, Pandit was three times his sister's age. Next year, he will be only twice her age. How old will Pandit be after five years?",
+      "solution": "p-1 = 3(s-1)\n\np+1 = 2(s+1)\n\nSolving,\n\tp=7\n\tp+5 = 12",
+      "topic": "Ages"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "2 kmph",
+        "3 kmph",
+        "4 kmph",
+        "5 kmph"
+      ],
+      "question": "A boat travels 2 km downstream in just 20 minutes and comes back again in 1 hour. Then what is the speed of river?",
+      "solution": "Downstream speed\n\t= 6 kmph\nUpstream speed\n\t= 2 kmph\n\nb+s = 6\nb-s = 2\n\nSolving,\n\ts = 2 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "4",
+        "44",
+        "36",
+        "52"
+      ],
+      "question": "There are three coins of Rs 1, 50 ps, 25 ps in the ratio of 13:11:3. The total sum of money is 77. How many 1 rupee coins are there?",
+      "solution": "13x+11x(0.5)+3x(0.25) = 77\n\n19.25x = 77\n\nx = 4\n\nNo. of 1 rupee coins\n\t= 13x\n\t= 52",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 3,
+      "answerIndex": 1,
+      "answers": [
+        "Rs.4000",
+        "Rs.5000",
+        "Rs.4500",
+        "Rs.6000"
+      ],
+      "question": "Peter got an interest of Rs.150 on a sum of money after a year at 3% interest. Find the sum.",
+      "solution": "P*3/100 = 150\n\nP = Rs.5000",
+      "topic": "Interest"
+    },
+    {
+      "id": 15,
+      "answerIndex": 3,
+      "answers": [
+        "11/25",
+        "1/25",
+        "2/25",
+        "0"
+      ],
+      "question": "After a typist writes 25 letters and addresses 25 envelopes, she inserts the letters randomly into the envelopes (1 letter per envelope). What is the probability that exactly 1 letter is inserted in an improper envelope?",
+      "solution": "One letter alone can't be in an incorrect envelope.\n\nHence, the probability is zero.",
+      "topic": "Probability"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "375",
+        "500",
+        "625",
+        "3125"
+      ],
+      "question": "Alok is attending a workshop \"How to do more with less\" and today's theme is Working with fewer digits. The speakers discuss how a lot of miraculous mathematics can be achieved if mankind (as well as womankind) had only worked with fewer digits. The problem posed at the end of the workshop is How many 5 digit numbers can be formed using the digits 1, 2, 3, 4, 5 (but with repetition) that are divisible by 4? Can you help Alok find the answer?",
+      "solution": "The number of n digit numbers divisible by 4, formed with the digits 1, 2, 3, 4, 5,  is\n\t5 (n-1) when repetition of digits is allowed\n\n5^4 = 625",
+      "topic": "Permutations"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "16",
+        "56",
+        "112",
+        "28"
+      ],
+      "question": "A girl has to make pizza with different toppings. There are 8 different toppings. In how many ways can she make pizzas with 2 different toppings?",
+      "solution": "She has to select 2 out of 8.\n\nNo. of ways\n\t= 8C2\n\t= 28",
+      "topic": "Permutations"
+    },
+    {
+      "id": 6,
+      "answerIndex": 0,
+      "answers": [
+        "3.75 ft",
+        "3.5 ft",
+        "4 ft",
+        "4.5 ft"
+      ],
+      "question": "A tank takes 6 minutes to fill at the rate of 3cu ft /min, length of the tank is 4 ft and the width is 1/2 of length, what is the depth of the tank?",
+      "solution": "Volume of the tank\r\n\t= 6*3\r\n\t= 18 cu. ft\r\n4*2*d = 18\r\nd = 3.75 ft",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 9,
+      "answerIndex": 0,
+      "answers": [
+        "77",
+        "45",
+        "89",
+        "67"
+      ],
+      "question": "We all know that Arya bhatta is the greatest mathematician belonging to India . When his daughter Mayabati was in her teen age, he discovered a problem. At that time, the age of Mayabati was a prime number, let that age be a. After some years, her age becomes b. Then Arya Bhatta was able to solve that problem wit the help of his daughter Mayabati. If a-b=5 & product of a & b is 26 then what is the sum of two squares?",
+      "solution": "a-b = 5\r\nab = 26\r\n\r\na²+b² = (a-b)²+2ab = 77",
+      "topic": "Ages"
+    },
+    {
+      "id": 10,
+      "answerIndex": 3,
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "question": "The ratio of ages of two persons is 5:6. The sum of their present ages is 33. In how many years will the ratio of their ages become 7:8?",
+      "solution": "5x+6x = 33\nx = 3\n\nTheir present ages are 15 and 18.\n\n(15+y) / (18+y) = 7/8\n\nSubstitute y with the options given,\n\t(15+6)/(18+6) = 21/24 = 7/8",
+      "topic": "Ages"
+    },
+    {
+      "id": 14,
+      "answerIndex": 2,
+      "answers": [
+        "17",
+        "15",
+        "16",
+        "18"
+      ],
+      "question": "Students are seated in a class in 4 rows and 8 columns. When the teacher says 'start' the girl who is sitting in first row and first column will say 1, then the next girl sitting behind her will say 4, the next girl sitting behind that girl will say 7, in a particular order, each girl is telling a number, the following girls told 10, 13. Next turn is yours. What will you say?\r\n",
+      "solution": "This is a number series question.\n\t1,4,7,10,13,?\n13+3 = 16",
+      "topic": "Number Series"
+    },
+    {
+      "id": 11,
+      "answerIndex": 2,
+      "answers": [
+        "9",
+        "12",
+        "14",
+        "16"
+      ],
+      "question": "X is 8 years younger to Y. X's father is a businessman who invested Rs.10000 at 8% rate of interest and obtained his amount after 10 years. Y's father is a job holder who invested around 20000 at 2% rate n obtained his amount after 20 years. After 5 years, the ratio of ages of X and Y is 1:2, X's father is 20 years older to Y and Y's father is 30 years elder than X. X's mother asks X's father to purchase a LCD TV which costs around Rs.45000. What is the sum of the present ages of X n Y?",
+      "solution": "x=y-8\n\n(x+5):(y+5) = 1:2\n\n2(y-8+5) = y+5\n\ny=11\nx=3\n\nx+y=14",
+      "topic": "Ages"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": [
+        "108",
+        "111",
+        "120",
+        "118"
+      ],
+      "question": "Find the missing number in the series 13,14,27,30,55,62,?, 126.",
+      "solution": "A combination of two series\n\t13, 27, 55, ? and\n\t14, 30, 62, 126 \n\n13*2+1\n27*2+1\n55*2+1 = 111",
+      "topic": "Number Series"
+    },
+    {
+      "id": 12,
+      "answerIndex": 1,
+      "answers": [
+        "5",
+        "4.87",
+        "4.75",
+        "4.5"
+      ],
+      "question": "There was a grandmother in a village who had a grandchild. Upon asking her grandchild's age, she told that she is as older as many days old as her daughter's age in weeks and as many days as her own age in years. The sum of the three is 149.2 years. Then how many months old is the child?",
+      "solution": "If the grandchild's age is\r\n\tx days,\r\ndaughter's age\r\n\tx weeks\r\ngrandmother's age\r\n\tx years\r\n\r\nx + 7x + 365x = (149.2*365)\r\n\r\nx = (149.2*365)/373 = 146 days\r\n\r\nx = 146/30 = 4.87 months",
+      "topic": "Ages"
+    },
+    {
+      "id": 13,
+      "answerIndex": 1,
+      "answers": [
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "question": "A is 4 years old and B's age is thrice that of A. When A is 12 yrs, how old will B be?",
+      "solution": "B's present age = 12\n\nDifference in their ages = 8\n\nWhen A is 12 years old, B will be 12+8 = 20 years old.",
+      "topic": "Ages"
+    },
+    {
+      "id": 9,
+      "answerIndex": 1,
+      "answers": [
+        "20 pounds",
+        "15 pounds",
+        "25 pounds",
+        "10 pounds"
+      ],
+      "question": "A person buys a horse for 15 pounds, after one year he sells it for 20 pounds. After one year, again he buys the same horse at 30 pounds and sells it for 40 pounds. What is the profit for that person?",
+      "solution": "Profit\r\n\t= (20-15)+(40-30)\r\n\t= 15 pounds",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 15,
+      "answerIndex": 3,
+      "answers": [
+        "100",
+        "1024",
+        "90",
+        "45"
+      ],
+      "question": " In a pizza restaurant, you get a basic pizza with two toppings, cheese and tomato. You can also make up your own pizza with extra toppings. You can also choose from 10 different toppings, e.g. olives, ham, mushroom, salami etc. Ross wants to order a pizza with 2 different extra toppings. How many different combinations are possible?",
+      "solution": "No. of different combinations\n\t= 10C2\n\t= 45",
+      "topic": "Permutations"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "15.73",
+        "14.73",
+        "15.24",
+        "14.24"
+      ],
+      "question": "If 'a' and 'b' are mixed in 3:5 ratio and b, c are mixed in 8:5 ratio and if the final mixture is 35 litres. Find the amount of b in the mixture.",
+      "solution": "a:b:c = 24:40:25\r\n\r\nAmount of b\r\n\t= (40/89)*35\r\n\t= 15.73 litres",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 7,
+      "answerIndex": 1,
+      "answers": [
+        "39 hrs",
+        "78 hrs",
+        "72 hrs",
+        "70 hrs"
+      ],
+      "question": "If a pipe can fill the tank in 6 hrs but unfortunately there was a leak in the tank due to which it took 30 more minutes. Now if the tank was full, how much time will it take to get emptied through the leak?",
+      "solution": "Part of tank emptied by the leak in 1 hour\r\n\t= (1/6)-(1/6.50)\r\n\t= 1/78\r\n\r\nThe leak takes 78 hours to empty the tank.",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 10,
+      "answerIndex": 3,
+      "answers": [
+        "$33,600",
+        "$10,008",
+        "$27,800",
+        "$23,352"
+      ],
+      "question": "The original price of a car was $27,800. Because the car owner thought that he could get more for the car,he increased the price of the car to 120% of its original price. After a week, because the car was not sold, the owner of the car discounted the price by 30% and then sold it. What is  the selling price of the car?",
+      "solution": "120% of 27800\r\n\t= 33360\r\n\r\nAfter 30% discount, selling price\r\n\t= 70% of 33360\r\n\t= $ 23352",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 4,
+      "answerIndex": 1,
+      "answers": [
+        "11,800",
+        "12,500",
+        "13,250",
+        "14,270"
+      ],
+      "question": "The difference between the compound and simple interest on a certain sum for 2 years at the rate of 8% per annum is Rs.80. Find the sum.",
+      "solution": "CI = P(1.08)² - P\r\n     = 0.1664 P\r\nSI = 0.16P\r\n\r\nDifference = 80\r\n0.0064P = 80\r\n\r\nP = Rs.12500",
+      "topic": "Interest"
+    },
+    {
+      "id": 11,
+      "answerIndex": 2,
+      "answers": [
+        "R+(RS/100)",
+        "(1+S)R/100",
+        "R-(RS/100)",
+        "(1-S)R/100"
+      ],
+      "question": "Fridge costs Rs.R. A discount of S% is given on it. Find the new cost.",
+      "solution": "New cost\r\n\t= R*(100-S)/100\r\n\t= R - (RS/100)",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 14,
+      "answerIndex": 0,
+      "answers": [
+        "11011",
+        "11000",
+        "1001",
+        "1010"
+      ],
+      "question": "9 years ago, Andromeda's age was twice Achilles' age. 9 years hence, Andromeda's age will be 4/3 times the age of Achilles'. Find Andromeda's present age in binary numbers.",
+      "solution": "A-9 = 2(B-9)\n\nA+9 = (4/3)(B+9)\n\nSolving,\n\tA=27\n\n27 in binary form is 11011",
+      "topic": "Ages"
+    },
+    {
+      "id": 15,
+      "answerIndex": 1,
+      "answers": [
+        "12 years",
+        "15 years",
+        "19 years",
+        "21 years"
+      ],
+      "question": "At present, the ratio between the ages of Arun and Deepak is 4:3. After 6 years, Arun's age will be 26 years. What is the age of Deepak at present ?",
+      "solution": "A:D = 4:3\n\nA = 26-6 = 20\n\nD = 15",
+      "topic": "Ages"
+    },
+    {
+      "id": 15,
+      "answerIndex": 3,
+      "answers": [
+        "4 mph",
+        "5 mph",
+        "2.4 mph",
+        "4.8 mph"
+      ],
+      "question": "It was the semester exam day, Vidhya caught the college bus. She enjoyed traveling by bus. Moving at 6 mph, the bus took Vidhya to college at the right time. She finished her exam and had a chit chat with her friends and suddenly she realized that it was 6 pm and she had missed the college bus. She decided to walk back home at 4 mph. What is her average speed for the day?",
+      "solution": "Average Speed\r\n\t= 2ab/(a+b)\r\n\t= 48/10\r\n\t= 4.8 mph",
+      "topic": "Average"
+    },
+    {
+      "id": 7,
+      "answerIndex": 2,
+      "answers": [
+        "30 m",
+        "60 m",
+        "75 m",
+        "80 m"
+      ],
+      "question": "Two trains move in the same direction at 50 kmph and 32 kmph respectively. A man in the slower train observes the 15 seconds elapse before the faster train completely passes by him. What is the length of the faster train?",
+      "solution": "Relative speed\r\n\t= 18 kmph\r\n\t= 5 m/s\r\nLength of the faster train\r\n\t= 15*5\r\n\t= 75 m",
+      "topic": "Trains"
+    },
+    {
+      "id": 12,
+      "answerIndex": 1,
+      "answers": [
+        "40%",
+        "50%",
+        "35%",
+        "30%"
+      ],
+      "question": "If on an item a company gives 25% discount, they earn 25% profit. If they give 10% discount, find the profit percentage.",
+      "solution": "Let the SP of the item be Rs.x\r\n\r\n25% profit if SP=0.75x\r\n\r\n1.25 CP = 0.75x\r\n\r\nCP = 0.6x\r\n\r\nIf SP = 0.9x,\r\n\tProfit % = (0.3x/0.6x)*100 = 50%",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.800",
+        "Rs.600",
+        "Rs.200",
+        "Rs.700"
+      ],
+      "question": "A man divides Rs.8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five times as much as each nephew, how much does each daughter receive?",
+      "solution": "2n+4*4n+5*5n = 8600\r\n43n = 8600\r\nn = 200\r\n\r\n4n = 800",
+      "topic": "Partnership"
+    },
+    {
+      "id": 8,
+      "answerIndex": 3,
+      "answers": [
+        "240",
+        "248",
+        "280",
+        "288"
+      ],
+      "question": "A train starts full of passengers. At the first station, it drops one-third of the passengers and takes 280 more. At the second station, it drops one-half of the new total and takes 12 more. On arriving at the third station, it is found to have 248 passengers. Find the number of passengers in the beginning",
+      "solution": "Backtracking,\r\n\r\n248-12 = 236\r\n\r\n236*2 = 472\r\n\r\n472-280=192\r\n\r\n2/3 of x = 192\r\n\r\nx = 192*3/2 = 288",
+      "topic": "Trains"
+    },
+    {
+      "id": 3,
+      "answerIndex": 0,
+      "answers": [
+        "256",
+        "128",
+        "225",
+        "127"
+      ],
+      "question": "A game is played between 2 players and one player is declared as winner. All the winners from first round, played in the second round. All the winners from second round played in third round and so on. If 8 rounds were played to declare only one player as winner, how many players played in first round?",
+      "solution": "No. of players in the first round\n\t= 2^8\n\t= 256",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 8,
+      "answerIndex": 3,
+      "answers": [
+        "24 mins",
+        "36 mins",
+        "48 mins",
+        "54 mins"
+      ],
+      "question": "A tank has 2 pipes A and B which can fill a tank in 4 hrs and 6 hrs respectively. Another pipe C can empty the tank in 4 hrs. A man wanted to set a timer which should open the pipe C after the tank is half filled, but by mistake sets it to open when the tank is one fourth empty. The man was supposed to reach the place at the same time as the tank fills. How late was the man to reach the spot?",
+      "solution": "Part of tank filled by A and B in 1 hour\r\n\t= (1/4)+(1/6)\r\n\t= 5/12\r\nPart of tank filled by A and B in an hour when C is open\r\n\t= (5/12)-(1/4)\r\n\t= 1/6\r\n\r\nIf the timer was correct,\r\n\r\nTime taken to fill half of the tank\r\n\t= 1/2 / (5/12)\r\n\t= 6/5 hours\r\nTime taken to fill the other half of the tank\r\n\t= 1/2 / (1/6)\r\n\t= 3 hours\r\n\r\nTotal time\r\n\t= (6/5)+3\r\n\t= 4.2 hours\r\n\r\nTimer is set when 3/4 of the tank fills.\r\n\r\nTime taken by A and B to fill 3/4 of the tank\r\n\t= 3/4 / (5/12)\r\n\t= 9/5\r\nTime taken by A, B and C to fill 1/4 of the tank\r\n\t= (1/4)/(1/6)\r\n\t= 3/2\r\nTotal time taken\r\n\t= (9/5)+(3/2)\r\n\t= 3.3 hours\r\n\r\nHe arrives late by\r\n\t4.2-3.3 = 0.9 hours = 54 mins",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 9,
+      "answerIndex": 0,
+      "answers": [
+        "54 kmph",
+        "15 kmph",
+        "72 kmph",
+        "120 kmph"
+      ],
+      "question": "A man is standing on a railway bridge which is 180 m long. He finds that a train crosses the bridge in 20 seconds but himself in 8 seconds. Find the length of the train and its speed",
+      "solution": "Speed of the train\r\n\t= (l+180)/20 = l/8\r\n\r\n2l+360 = 5l\r\n\r\n3l = 360\r\n\r\nl = 120 m\r\n\r\nSpeed of the train\r\n\t= 120/8\r\n\t= 15 m/s\r\n\t= 15*(18/5) kmph\r\n\t= 54 kmph",
+      "topic": "Trains"
+    },
+    {
+      "id": 10,
+      "answerIndex": 2,
+      "answers": [
+        "9 s",
+        "10 s",
+        "12 s",
+        "15 s"
+      ],
+      "question": "Two trains 137 metres and 163 metres in length are running towards each other on parallel lines, one at the rate of 42 kmph and another at 48 kmph. In what time will they be clear of each other from the moment they meet?",
+      "solution": "Relative Speed\r\n\t= 42+48\r\n\t= 90 kmph\r\n\t= 25 m/s\r\nTime taken to cross each other\r\n\t= (137+163)/25\r\n\t= 300/25\r\n\t= 12 seconds",
+      "topic": "Trains"
+    },
+    {
+      "id": 11,
+      "answerIndex": 0,
+      "answers": [
+        "160m, 140m",
+        "150m, 150m",
+        "145m, 155m",
+        "135m, 165m"
+      ],
+      "question": "A train running at 54 kmph takes 20 seconds to pass a platform. Next, it takes 12 seconds to pass a man walking at 6 kmph in the same direction in which the train is going . Find the length of the train and the length of the platform.",
+      "solution": "Let the length of train be l metres and length of platform be x metres.\r\n\r\nSpeed of the train\r\n\t= 54 kmph\r\n\t= 15 m/s\r\nRelative Speed of the train and the man\r\n\t= 54-6\r\n\t= 48 kmph\r\n\t= 40/3 m/s\r\n\r\nTime taken to cross the man\r\n\t= 12 seconds\r\n\r\nl/(40/3) = 12\r\nl = 160 m\r\n\r\nTime taken to cross the platform\r\n\t= 20 seconds\r\n\r\n(l+x)/15 = 20\r\nx = 140 m",
+      "topic": "Trains"
+    },
+    {
+      "id": 12,
+      "answerIndex": 1,
+      "answers": [
+        "52 kmph",
+        "62 kmph",
+        "72 kmph",
+        "80 kmph"
+      ],
+      "question": "A man sitting in a train which is traveling at 50 kmph observes that a goods train, traveling in opposite direction, takes 9 seconds to pass him. If the goods train is 280 m long, find its speed.",
+      "solution": "Relative speed \r\n\t= 280/9  m/s\r\n\t= ((280/9)*(18/5)) kmph\r\n\t= 112 kmph.\r\nSpeed of the goods train\r\n\t= (112 - 50) kmph\r\n\t= 62 kmph",
+      "topic": "Trains"
+    },
+    {
+      "id": 13,
+      "answerIndex": 1,
+      "answers": [
+        "10 s",
+        "12 s",
+        "14 s",
+        "15 s"
+      ],
+      "question": "A train 100 m long is running at the speed of 30 kmph. Find the time taken by it to pass a man standing near the railway line.",
+      "solution": "Speed of the train\r\n\t= (30 * 5/18) m/s\r\n\t= (25/3) m/s\r\nTime taken to pass the man\r\n\t= 100/(25/3)\r\n\t= 12 seconds",
+      "topic": "Trains"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "9 s",
+        "5 s",
+        "6 s",
+        "7.5 s"
+      ],
+      "question": "A train is moving at a speed of 132 kmph. If the length of the train is 110 metres, how long will it take to cross a railway platform 165 metres long?",
+      "solution": "Speed of the train\r\n\t= 132 *(5/18) m/s\r\n\t= 110/3 m/s\r\nDistance to be covered\r\n\t= 110+165\r\n\t= 275 m\r\nTime taken\r\n\t= 275/(110/3)\r\n\t= 15/2 s\r\n\t= 7.5 s",
+      "topic": "Trains"
+    },
+    {
+      "id": 9,
+      "answerIndex": 2,
+      "answers": [
+        "8.6 mins",
+        "(120/7) mins",
+        "8 (4/7) mins",
+        "6.7 mins"
+      ],
+      "question": "A tap can fill a tank in 15 mins and another tap can empty it in 8 mins. If both the taps are opened and the tank is half full, after how much time will the tank be empty?",
+      "solution": "Part of tank filled by the first tap in 1 minute\r\n\t= 1/15\r\nPart of tank emptied by the second tap in 1 minute\r\n\t= 1/8\r\nPart of tank emptied when both the taps are opened\r\n\t= (1/8)-(1/15)\r\n\t= 7/120\r\nTime taken to empty half of the tank\r\n\t= (1/2)*(120/7) minutes\r\n\t= 60/7 mins\r\n\t= 8(4/7) mins",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": [
+        "60 litres",
+        "50 litres",
+        "40 litres",
+        "80 litres"
+      ],
+      "question": "In a mixture of 60 litres, the ratio of milk and water is 2:1. If this ratio is to be 1:2, then the quantity of water to be further added is",
+      "solution": "Amount of milk\r\n\t= 40 litres\r\nAmount of water\r\n\t= 20 litres\r\n\r\n60 litres of water should be added to make the ratio\r\n\t40:80 = 1:2",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 4,
+      "answerIndex": 1,
+      "answers": [
+        "30 m",
+        "28 m",
+        "27 m",
+        "25 m"
+      ],
+      "question": "In a 100 metres race, A can beat B by 20 metres and B can beat C by 10 metres. In the same race, A beats C by",
+      "solution": "When A runs 100 m,\n\tB runs 80 m.\nWhen B runs 100 m,\n\tC runs 90 m.\nWhen B runs 80 m,\n\tC runs (90/100)*80 = 72 m\n\nA beats C by (100-72) = 28 m",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 13,
+      "answerIndex": 3,
+      "answers": [
+        "$7945000",
+        "$8126800",
+        "$8346200",
+        "$8757500"
+      ],
+      "question": "The Operating Profit last year was $7.75m. If there is an increase this year of 13%, what will this year's Operating Profit be?",
+      "solution": "New Profit\n\t= 1.13*7.75*10^6\n\t= 8757500",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 14,
+      "answerIndex": 1,
+      "answers": [
+        "12.5%",
+        "14.7%",
+        "20.5%",
+        "18.25%"
+      ],
+      "question": "If a department makes a profit of 30% on a turnover of $85000, what percentage profit can be expected if overheads increase by $10000 but other factors remain unchanged?",
+      "solution": "Profit\r\n\t= 0.3*85000\r\n\t= 22500\r\nNew profit\r\n\t= 22500-10000\r\n\t= 12500\r\nProfit %\r\n\t= (12500/85000)*100\r\n\t= 14.7%",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 9,
+      "answerIndex": 2,
+      "answers": [
+        "Rs.0.90",
+        "Rs.4.5",
+        "Rs.3",
+        "Rs.9"
+      ],
+      "question": "A coffee shop blends 2 kinds of coffee, putting in 2 parts of a 33p. a gm. grade to 1 part of a 24p. a gm. If the mixture is changed to 1 part of the 33p. a gm. to 2 parts of the less expensive grade,how much will the shop save in blending 100 gms?",
+      "solution": "Blending 1:\r\n\r\nCost of 3 gms = (2*33)+24 = 90p\r\n\r\nBlending 2\r\n\r\nCost of 3 gms = 33+(2*24) = 81p\r\n\r\nDifference for 3 gms\r\n\t= Rs.0.09\r\n\r\nDifference for 100 gms\r\n\t= Rs.0.09*100/3\r\n\t= Rs.3",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 10,
+      "answerIndex": 0,
+      "answers": [
+        "36%",
+        "40%",
+        "24%",
+        "20%"
+      ],
+      "question": "20% of a 6 litre solution and 60% of 4 litre solution are mixed. What is the percentage of the mixture?",
+      "solution": "% of the mixture\r\n\t= [(0.2*6)+(0.6*4) / 10]*100\r\n\t= 36%",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "question": "If a sum of money compounded annually amounts to thrice itself in 3 years. In how many years will it become 9 times itself?",
+      "solution": "A = P[1+(R/100)^n]\r\n\r\nThe sum becomes thrice itself in 3 years.\r\n\t3P = P[1+(R/100)]^3\r\n\t[1+(R/100)]^3 = 3\r\n\t[1+(R/100)] = 3^(1/3)\r\n\r\nIf the sum amounts to 9P in t years,\r\n\t9P = P[1+(R/100)]^t\r\n\t9 = [3^(1/3)]^t\r\n\r\n\t3^(t/3) = 9 = 3^2\r\n\r\n\tt/3 = 2\r\n\tt = 6",
+      "topic": "Interest"
+    },
+    {
+      "id": 15,
+      "answerIndex": 0,
+      "answers": [
+        "32%",
+        "28%",
+        "42%",
+        "48%"
+      ],
+      "question": "Gangaram Sait bought three DVD players for Rs.1000 each. He wanted to make a profit of 20% by selling these and accordingly marked the selling price. He was forced to sell the first two DVD players with a discount of 5% for cash. Now he wanted to see that he makes overall profit of 20% by selling these three DVD players. Hence for ensuring this, by what percentage over the cost price should he sell the third DVD player?",
+      "solution": "He marked the players at\r\n\t120% of 1000 = 1200\r\nDiscount\r\n\t= 5% of 1200\r\n\t= 60\r\nProfit\r\n\t= 200-60\r\n\t= 140\r\n\r\nTotal profit he had planned\r\n\t= 20% of 3000\r\n\t= 600\r\nProfit after discount\r\n\t= 140*2\r\n\t= 280\r\n\r\nHe has to get a profit of (600-280) = 320 by selling the third player.\r\n\r\nProfit %\r\n\t= 320/1000 *100\r\n\t= 32%",
+      "topic": "Profit & Loss"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": [
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "question": "Mr. Pugazh Vendhan, a building contractor was approached by Sumanth Apartments for constructing a new water tank and installation of pipes for filling up the same. Mr. Pugazh Vendhan made a study of the complex and fitted Pipe A and Pipe B. Pipe A can fill the tank fully in 16 hours and Pipe B can fill the tank fully in 24 hours. Pipe A and Pipe B run together for 8 hours. Thereafter Pipe A was shut and Pipe B alone was used. How many hours more would Pipe B take to fill the tank fully?",
+      "solution": "Part of tank filled by A and B in 1 hr\r\n\t= (1/16)+(1/24)\r\n\t= 5/48\r\nIn 8 hours,\r\n\t5/6 of the tank is filled.\r\n\r\n1/6 of the tank is filled by B in 24/6 = 4 hours.",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 11,
+      "answerIndex": 1,
+      "answers": [
+        "Ganga, 33rd hour",
+        "Ganga, 31st hour",
+        "Cauvery, 33rd hour",
+        "Cauvery, 32nd hour"
+      ],
+      "question": "Velavan and Company are experts in providing plumbing facilities. They were approached for the construction of a community water tank in Oragadam. Velavan and Company built a huge water tank and fitted it with three pipes named Cauvery, Ganga and Godavari . Pipes Ganga, Cauvery and Godavari can fill the community water tank in 30 hours, 25 hours and 40 hours respectively. In order to see that all the pipes are put into use equally, the Chairman of Oragadam Municipality advised the operator to run the Pipes Ganga, Cauvery and Godavari one after the other i.e. each pipe to be run for one hour each. Viz. Ganga will run for one hour followed by Cauvery for one hour and Godavari for one hour. Again the cycle will be repeated like this. When will the tank be filled fully i.e. during the running of Ganga or Cauvery or Godavari?",
+      "solution": "1/30 + 1/25 + 1/40\r\n\t= (20+24+15)/600\r\n\t= 59/600\r\n\r\nPart of tank filled in 3 hours\r\n\t= 59/600\r\nPart of tank filled in 30 hours\r\n\t= 590/600\r\n\r\nThe remaining 1/60 of the tank is filled by Ganga in the 31st hour",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": [
+        "10 mins",
+        "5 mins",
+        "15 mins",
+        "9 mins"
+      ],
+      "question": "A Plumbing Company has two pipes - Pipe X and Pipe Y. These pipes can fill a tank in 37 1/2 minutes and 45 minutes respectively. Both pipes are opened. The tank will be filled in just 30 minutes, if the pipe Y is turned off after",
+      "solution": "Part of tank filled by X in 1 minute\r\n\t= 2/75\r\nPart of tank filled by Y in 1 minute\r\n\t= 1/45\r\nPart of tank filled by X and Y in 1 minute\r\n\t= (2/75)+(1/45)\r\n\t= 11/225\r\nLet the pipe Y be turned off after x minutes.\r\n\r\n11x/225 + (30-x)*2/75 = 1\r\n\r\n11x/225 + 4/5 - 2x/75 = 1\r\n\r\n5x/225 = 1/5\r\n\r\nx = 9",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 4,
+      "answerIndex": 1,
+      "answers": [
+        "5 (4/5) km",
+        "4 (4/5) km",
+        "6 (2/5) km",
+        "5 km"
+      ],
+      "question": "Sridevi can row 15 kmph in still water. If in a river running at 3 km an hour, it takes her 40 minutes to row to a place and back, how far off is the place?",
+      "solution": "x/18 + x/12 = 40/60\n\n5x = 24\n\nx = 24/5 = 4 (4/5) km",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 5,
+      "answerIndex": 3,
+      "answers": [
+        "15, 2",
+        "18, 2",
+        "14, 2",
+        "12, 3"
+      ],
+      "question": "AK Rehman can row 180 km upstream and 120 km downstream in 28 hours. Also he can row 90 km upstream and 90 km downstream in 16 hours. Find the speed of AK Rehman in still water and the speed of the current.(km/hour)",
+      "solution": "180/u + 120/d = 28\r\n90/u + 90/d = 16\r\n\r\nSolving,\r\n\t60/d = 4\r\n\td = 15\r\n\tu = 9\r\n\r\nb = (u+d)/2 = 12\r\ns = (d-u)/2 = 3",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 6,
+      "answerIndex": 3,
+      "answers": [
+        "18 kmph",
+        "12 kmph",
+        "14 kmph",
+        "16 kmph"
+      ],
+      "question": "On Monday, Mayawati rows 42 km upstream to a spot and returns back. While returning, she overshoots the starting point by 48 km. The overall travel time is 8 hours. On Tuesday, Mayawati rows 70 km upstream to a spot. Now, while returning, she is careful not to overshoot as on Monday. However, she again overshooted the origin by 2 km. The overall journey time was 9 hours.What is the speed of Mayawati in still water?",
+      "solution": "42/u + 90/d = 8\r\n70/u + 72/d = 9\r\n\r\nSolving,\r\n\t(168-350)/u = 32-45\r\n\tu = 14\r\n\td = 18\r\n\r\nb = (u+d)/2 = 16 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "8 hrs 20 mins",
+        "7 hrs 40 mins",
+        "6 hrs 45 mins",
+        "None of these"
+      ],
+      "question": "A contractor was engaged to construct a residential complex along with a water tank. The water tank can filled up by Pipe One in 6 hours and by Pipe Two in 8 hours. If the two pipes are opened one after the other each for one hour, how long will it take for the two pipes, pipe One and pipe Two to fill the water tank?",
+      "solution": "Part of tank filled in two hours\r\n\t= (1/6)+(1/8)\r\n\t= 14/48\r\n\t= 7/24\r\n\r\nIn 4 hrs, 14/24\r\nIn 6 hrs, 21/24\r\n\r\nThe remaining 3/24 of the tank is filled by Pipe A in\r\n\t6/8 = 3/4 hrs = 45 mins",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "Pandian, 30 hrs 30 min",
+        "Karuna, 10 hrs 30 min",
+        "Pandian, 5 hrs 30 min",
+        "Karuna, 20 hrs 30 min"
+      ],
+      "question": "SivaChrist constructions constructed a community water tank for Pozhichalur village. The water tank can be filled by Karuna Pipe in 18 hours and Pandian pipe in 24 hours. Karuna Pipe will run for one hour and be closed. Pandian pipe will run for the next one hour and be closed. This process continues. Which pipe will be running when the tank is filled in fully? How many hours will it take for the tank to be filled in the above process?",
+      "solution": "Part of tank filled in 2 hours\r\n\t= 1/18 + 1/24\r\n\t= 7/72\r\n\r\nPart of tank filled in 20 hours\r\n\t= 70/72\r\n\r\nThe rest 2/72 is filled by Karuna in\r\n\t(2/72) / (1/18)\r\n\t\t= 1/2 hrs",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 15,
+      "answerIndex": 2,
+      "answers": [
+        "2 hours",
+        "1 hour",
+        "6 hours",
+        "8 hours"
+      ],
+      "question": "Two pipe manufacturers were asked to show demonstration about the performance of their pipes. Pipe X and Pipe Y can fill a tank in four hours. Had they been opened separately, Pipe Y will take 6 hours more than Pipe X to fill the tank. How much time will Pipe X take to fill the tank separately?",
+      "solution": "Let the time taken by Pipe X to fill the tank be x hours.\r\n\r\n(1/x) + (1/(x+6)) = 1/4\r\n\r\n4(x+x+6) = x²+6x\r\n\r\n8x+24 = x²+6x\r\n\r\nx²-2x-24 = 0\r\n\r\n(x-6)(x+4) = 0\r\n\r\nx = 6",
+      "topic": "Pipes & Cisterns"
+    },
+    {
+      "id": 15,
+      "answerIndex": 0,
+      "answers": [
+        "26:1\n",
+        "38:1",
+        "1:26",
+        "1:38"
+      ],
+      "question": "A batch of shampoo requires 510 litres of herbal extract and 13400 litres of water. What is the approximate ratio of water to herbal extracts?",
+      "solution": "Ratio of water to herbal extracts\n\t= 13400:510\n\t= 26:1",
+      "topic": "Ratio & Proportion"
+    },
+    {
+      "id": 15,
+      "answerIndex": 0,
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "question": "A train left station X at A hour B minutes. It reached station Y at B hour C minutes on the same day, after travelling C hours A minutes (clock shows time from 0 hours to 24 hours). Number of possible value(s) of A is",
+      "solution": "A hours + C hours = B hours\r\n\tsince A, B and C < 24.\r\n\r\nB minutes + A minutes = C minutes\r\n\r\nNo value of A satisfies the two equations.",
+      "topic": "Trains"
+    },
+    {
+      "id": 11,
+      "answerIndex": 2,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question": "A manufacturer has 200 liters of acid solution which has 15% acid content. How many liters of acid solution with 30% acid content may be added so that acid content in the resulting mixture will be more than 20% but less than 25% ?\n\n(A) More than 100 liters but less than 300 liters\n(B) More than 120 liters but less than 400 liters\n(C) More than 100 liters but less than 400 liters\n(D) More than 120 liters but less than 300 liters",
+      "solution": "Let x liters of 30% solution be added.\n\nFor the mixture to be 20%,\n\t15% of 200+30% of x = 20% of(200+x)\n\t30+0.3x = 40+0.4x\n\tx = 100\nFor the mixture to be 25%,\n\t15% of 200+30% of x = 25% of(200+x)\n\t30+0.3x = 50+0.25x\n\tx = 400\n\nx should be greater than 100 but less than 400.",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 6,
+      "answerIndex": 2,
+      "answers": [
+        "4%",
+        "4.5%",
+        "7%",
+        "9%"
+      ],
+      "question": "In 4 years, the SI on a certain sum of money is 7/25 of the principal. What is the annual rate of interest ?",
+      "solution": "SI = PTR/100\r\n\r\n(7/25)P = P*4*R/100\r\n\r\nR = 7%",
+      "topic": "Interest"
+    },
+    {
+      "id": 5,
+      "answerIndex": 3,
+      "answers": [
+        "Akshay, 1/12 miles",
+        "Chinmay, 1/32 miles",
+        "Akshay, 1/24 miles",
+        "Chinmay, 1/16 miles"
+      ],
+      "question": "In a mile race, Akshay can be given a start of 128 meters by Bhairav. If Bhairav can give Chinmay a start of 4 meters in a 100 meters dash, then who out of Akshay and Chinmay will win a race of one and half mile, and what will be the final lead given by the winner to the loser?  (One mile is 1600 meters)",
+      "solution": "When Bhairav runs 1600 m,\r\n\tAkshay runs (1600-128)=1472 m\r\nWhen Bhairav runs 100 m,\r\n\tChinmay runs (100-4)=96 m\r\n\r\nWhen Akshay runs 1472 m,\r\n\tChinmay runs 96*16 = 1536 m\r\n\r\nChinmay will win the race with Akshay.\r\n\r\nWhen Chinmay runs 2400 m (1.5 miles),\r\n\tAkshay runs 2400*1472/(96*16)\r\n\t\t= 2300 m\r\nLead of 100 m (1/16 miles)",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "1200 yards",
+        "1000 yards",
+        "900 yards",
+        "800 yards"
+      ],
+      "question": "A boat M leaves shore A and at the same time boat N leaves shore B. They move across the river. They meet at 500 yards away from A and after that they meet 300 yards away from shore B without halting at shores. Find the distance between the shore A & B. ",
+      "solution": "Let the distance between the shores be d yards and\r\n\tthe speeds of the boats M and N be m and n yards/hour.\r\n\r\n500/m = (d-500)/n\r\n\r\n(d+300)/m = (d+d-300)/n\r\n\r\nSolving,\r\n\td = 1200 yards",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 8,
+      "answerIndex": 1,
+      "answers": [
+        "1759 yards",
+        "1760 yards",
+        "1761 yards",
+        "1766 yards"
+      ],
+      "question": "Two boats start from opposite banks of river perpendicular to the shore. One is faster then the other. They meet at 720 yards from one of the ends. After reaching opposite ends they rest for 10mins each. After that they start back. This time on the return journey they meet at 400yards from the other end of the river. Calculate the width of the river.",
+      "solution": "Let the width of the river be w yards and\r\n\tthe speeds of the two boats be x and y yards/minute.\r\n\r\n720/x = (w-720)/y\r\n\r\nw/x + 10 + 400/x = w/y + 10 + (w-400)/y\r\n\r\nSolving the above two equations,\r\n\tw = 1760",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 6,
+      "answerIndex": 2,
+      "answers": [
+        "After 4 s",
+        "After 50 s",
+        "After 100 s",
+        "After 200 s"
+      ],
+      "question": "In a circular racetrack of length 100 m, three persons A, B and C start together. A and B start in the same direction at speeds of 10 m/s and 8 m/s respectively, while C runs in the opposite at 15 m/s. When will all the three meet for the first time after the start?",
+      "solution": "Backtrack from the options.\n\nAfter 100s,\n\tA covers 1000 m.\n\tB covers 800 m.\n\tC covers 1500 m.\n\nHence, they meet each other for the first time after 100 seconds.",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 7,
+      "answerIndex": 0,
+      "answers": [
+        "32",
+        "63",
+        "45",
+        "52"
+      ],
+      "question": "I participated in a race. 1/5th of those who are before me are equal to 5/6th of those behind me. Find the minimum number of participants in the race which satisfies the above condition.",
+      "solution": "Let the number of people in front of me be x and\r\n\tthe number of people behind me be y.\r\n\r\nx/5 = 5y/6\r\n\r\nx = 25y/6\r\n\r\nTotal no. of people\r\n\t= x+y+1\r\n\t= 25y/6 + y +1\r\n\t= 31y/6 + 1\r\n\r\ny should be a mutliple of 6.\r\n\r\nTo find the minimum number of participants,\r\n\ty = 1.\r\n\r\nTotal number of participants\r\n\t= 32",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 8,
+      "answerIndex": 2,
+      "answers": [
+        "Anne",
+        "Belle",
+        "Doug",
+        "Anne & Belle"
+      ],
+      "question": "There was a race between Doug, Anne and Belle. When Belle takes 21 steps, the distance covered is equal to Doug's 24 steps and Anne's 28 steps. Belle takes 6 steps to every 7 steps of Doug and 8 steps of Anne. Who won the race?",
+      "solution": "Ratio of speeds\r\n\t(6/21):(7/24):(8/28)\r\n\t48 : 49 : 48\r\n\r\nDoug wins the race.\t",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": [
+        "2:1",
+        "5:1",
+        "99:61",
+        "227:133"
+      ],
+      "question": "The proportion of milk and water in 3 samples is 2:1, 3:2 and 5:3. A mixture comprising of equal quantities of all 3 samples is made. The proportion of milk and water in the mixture is",
+      "solution": "Proportion of milk\r\n\t= (2/3)+(3/5)+(5/8)\r\n\t= 227/120\r\nProportion of water\r\n\t= (1/3)+(2/5)+(3/8)\r\n\t= 133/120\r\nProportion of milk and water\r\n\t= 227:133",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 4,
+      "answerIndex": 0,
+      "answers": [
+        "4888.88",
+        "9333.33",
+        "4000",
+        "3666.66"
+      ],
+      "question": "A, B and C enter into a partnership by investing Rs.3600, Rs.4400 and Rs.2800. A is a working partner and gets a fourth of the profit for his services and the remaining profit is divided amongst the three in the ratio of their investments. What is the amount of profit that B gets if A gets a total of Rs. 8000?",
+      "solution": "Let the profit be Rs.x\r\n\r\nA:B:C = 36:44:28 = 9:11:7\r\n\r\nAmount received by A\r\n\t= 8000\r\n\r\n(x/4)+(9/27)*3x/4 = 8000\r\nx/2 = 8000\r\nx = 16000\r\n3x/4 = 12000\r\n\r\nAmount received by B\r\n\t= (11/27)*12000\r\n\t= 4888.88",
+      "topic": "Partnership"
+    },
+    {
+      "id": 9,
+      "answerIndex": 2,
+      "answers": [
+        "150",
+        "200",
+        "100",
+        "170"
+      ],
+      "question": "A can give B 20 points, A can give C 32 points and B can give C 15 points. How many points make the game?",
+      "solution": "Let n points make the game.\r\n\r\nWhen A gets n points,\r\n\tB gets (n-20) points.\r\n\tC gets (n-32) points.\r\n\r\nWhen B gets n points,\r\n\tC gets (n-15) points.\r\n\r\nn/(n-15) = (n-20)/(n-32)\r\n\r\nn²-32n = n²-35n+300\r\n\r\n3n = 300\r\n\r\nn=100",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 9,
+      "answerIndex": 0,
+      "answers": [
+        "80 km",
+        "180 km",
+        "60 km",
+        "100 km"
+      ],
+      "question": "The speed of a motor boat itself is 20 km/h and the rate of flow of the river is 4 km/h. Moving with the stream, the boat went 120 km. What distance will the boat cover during the same time going against the stream?",
+      "solution": "Downstream speed\r\n\t= 24 kmph\r\nTime taken to travel 120 km downstream\r\n\t= 120/24\r\n\t= 5 hours\r\nUpstream Speed\r\n\t= 16 kmph\r\nDistance travelled in 5 hours\r\n\t= 5*16\r\n\t= 80 km",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "12 liters",
+        "15 liters",
+        "9 liters",
+        "6 liters"
+      ],
+      "question": "Two solutions of 90% and 97% purity are mixed resulting in 21 liter of mixture of 94% purity. How much is the quantity of the first solution in the resulting mixture?",
+      "solution": "Let x liters of the first solutionbe taken.\r\n\r\n0.9x+0.97(21-x) = 0.94*21\r\n\r\n-0.07x+20.37 = 19.74\r\n\r\n7x = 63\r\n\r\nx = 9",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": [
+        "40",
+        "41",
+        "42",
+        "44"
+      ],
+      "question": "I lost Rs.68 in two races. My second race loss is Rs.6 more than the first race. My friend lost Rs.4 more than me in the second race. What is the amount lost by my friend in the second race?",
+      "solution": "Let the amount lost by me in the first and second races be Rs.l1 and Rs.l2.\r\n\r\nl1+l2=68\r\nl2=l1+6\r\n\r\nSolving,\r\n\tl2=37\r\n\r\nl2+4=41",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 10,
+      "answerIndex": 2,
+      "answers": [
+        "3 kmph",
+        "4 kmph",
+        "5 kmph",
+        "6 kmph"
+      ],
+      "question": "A motorboat whose speed is 15 km/hr in still water goes 30km downstream and comes back in four and a half hours. The speed of the stream is",
+      "solution": "Let the speed of the stream be s kmph.\r\n\r\nDownstream speed\r\n\t= 15+s kmph\r\nUpstream speed\r\n\t= 15-s kmph\r\n\r\n30/(15+s) + 30/(15-s) = 9/2\r\n\r\n20(15-s)+20(15+s) = 3(15-s)(15+s)\r\n\r\n300-20s+300+20s = 3(225-s²)\r\n\r\n600 = 3(225-s²)\r\n\r\n225-s² = 200\r\n\r\ns = 5 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 7,
+      "answerIndex": 3,
+      "answers": [
+        "Rs.17.50",
+        "Rs.36",
+        "Rs.45",
+        "Rs.72"
+      ],
+      "question": "The difference between the simple interest and the compound interest compounded annually at the rate of 12% per annum on Rs.5000 for two years will be",
+      "solution": "SI = 5000*2*12/100\r\n    = 1200\r\n\r\nCompound Interest\r\n\r\nA = 5000*[1.12]^2\r\n    = 5000*1.2544\r\nCI = 5000*0.2544 = 1272\r\n\r\nDifference = 72",
+      "topic": "Interest"
+    },
+    {
+      "id": 8,
+      "answerIndex": 2,
+      "answers": [
+        "Rs.700",
+        "Rs.800",
+        "Rs.900",
+        "Rs.1000"
+      ],
+      "question": "Two equal sums of money were invested, one at 4% and the other at 9/2 %. At the end of 7 years, the simple interest received from the latter exceeded that received from the former by Rs 31.50. Each sum was",
+      "solution": "(P*7*4.5/100) - (P*7*4/100)\r\n\t= 31.5\r\n7P*0.5/100 = 31.5\r\n\r\n35P/100 = 315\r\n\r\nP = 900",
+      "topic": "Interest"
+    },
+    {
+      "id": 5,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.140",
+        "Rs.154",
+        "Rs.165",
+        "Rs.170"
+      ],
+      "question": "Rs.770 has been divided among A, B and C such that A receives 2/9th of what B and C together receives. Then A's share is",
+      "solution": "Let A's share be Rs.x\r\n\r\nSum of shares of B and C = 770-x\r\n\r\nx = 2/9 * (770-x)\r\n\r\n11x = 2*770\r\n\r\nx = 140",
+      "topic": "Partnership"
+    },
+    {
+      "id": 14,
+      "answerIndex": 1,
+      "answers": [
+        "10 L",
+        "15 L",
+        "17 L",
+        "20 L"
+      ],
+      "question": "In a mixture of 45 L, the ratio of milk and water is 3:2. How much water must be added to make the ratio 9:11?",
+      "solution": "Amount of milk = 27 L\r\nAmount of water = 18 L\r\n\r\nLet x L of water be added.\r\n\r\n27/(18+x) = 9/11\r\n\r\nx = 15",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 15,
+      "answerIndex": 2,
+      "answers": [
+        "12 L",
+        "16 L",
+        "18 L",
+        "24 L"
+      ],
+      "question": "Several litres of acid were drawn off from a 54 L vessel full of acid and an equal amount of water is added. Again the same volume of mixture was drawn off and replaced by water. As a result, the vessel contained 24L of pure acid. How much acid was drawn off initially?",
+      "solution": "From a vessed containing 54 litres of milk, y litres are withdrawn and replaced with water. \r\n\r\nAmount of acid after 2 operations\r\n\t= 54*[(1-(y/54))^2] = 24\r\n\r\n[(1-(y/54))^2] = 4/9\r\n\r\n1-(y/54) = 2/3\r\n\r\ny/54 = 1/3\r\n\r\ny = 18\r\n",
+      "topic": "Mixtures"
+    },
+    {
+      "id": 11,
+      "answerIndex": 0,
+      "answers": [
+        "3.5 kmph",
+        "4 kmph",
+        "5 kmph",
+        "2 kmph"
+      ],
+      "question": "A boat travels 12 km upstream in 4 hours and 24 km downstream in 6 hours. Find the speed of the boat in still water.",
+      "solution": "12/(b-s) = 4\r\n24/(b+s) = 6\r\n\r\nb-s = 3\r\nb+s = 4\r\n\r\nb = 3.5 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 6,
+      "answerIndex": 0,
+      "answers": [
+        "1200",
+        "3600",
+        "7200",
+        "4800"
+      ],
+      "question": "A,B,C enter into a partnership. A invests 3 times as much as B invests and B invests two third of what C invests. At the end of the year, the profit earned is Rs 6600. What is the share of B?",
+      "solution": "a=3b\r\nb=2c/3\r\na=2c\r\n\r\nThe profits are divided in the ratio\r\n\t2c : 2c/3 : c\r\n\t\t= 6:2:3\r\n\r\nB's share\r\n\t= (2/11)*6600\r\n\t= Rs.1200",
+      "topic": "Partnership"
+    },
+    {
+      "id": 12,
+      "answerIndex": 0,
+      "answers": [
+        "3 km",
+        "6 km",
+        "9 km",
+        "7.5 km"
+      ],
+      "question": "A man can row 7 1/2kmph in still water. If in a river running at 1.5 km an hour, if takes him 50 minutes to row to a place and back, how far off is the place?",
+      "solution": "Upstream speed\r\n\t= 9 kmph\r\nDownstream speed\r\n\t= 6 kmph\r\nLet the distance to the place be x km.\r\n\r\n(x/9)+(x/6) = 50/60\r\n\r\n5x/18 = 50/60\r\n\r\nx = 3",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 13,
+      "answerIndex": 2,
+      "answers": [
+        "2.5",
+        "7.5",
+        "9.5",
+        "10.5"
+      ],
+      "question": "In an hour, a boat goes 12 km/hr along the stream and 7 km/hr against the stream. The speed of the boat in still water (in km/hr) is",
+      "solution": "u = 7\r\nd = 12\r\n\r\nb = (u+d)/2 = 19/2 = 9.5 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "2 kmph",
+        "3 kmph",
+        "4 kmph",
+        "5 kmph"
+      ],
+      "question": "A girl can row three quarters of a kilometer against the stream in 11(1/4) minutes and return in 7(1/2) minutes. The speed of the girl in still water is",
+      "solution": "Upstream Speed\r\n\t= (3/4) / [11(1/4)] km per min\r\n\t= (1/15) * 60 kmph\r\n\t= 4 kmph\r\nDownstream Speed\r\n\t= (3/4) / [7(1/2)] km per min\r\n\t= (1/10)*60 kmph\r\n\t= 6 kmph\r\n\r\nSpeed in still water\r\n\t= (4+6)/2\r\n\t= 5 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 11,
+      "answerIndex": 2,
+      "answers": [
+        "100 m",
+        "200 m",
+        "250 m",
+        "300 m"
+      ],
+      "question": "A can run 40 m in the same time that B takes to run 30 m. In a race of 1 km, A beats B by",
+      "solution": "When A runs 1 km,\r\n\tB runs (30/40)*1000\r\n\t\t= 750 m\r\nA beats B by 250 m",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 12,
+      "answerIndex": 0,
+      "answers": [
+        "200 m",
+        "300 m",
+        "270 m",
+        "160 m"
+      ],
+      "question": "A runs 1(2/3) times as fast as B. If A gives B a start of 80 m, how far must the winning post be so that A and B might reach it at the same time?",
+      "solution": "Ratio of speeds of A and B\r\n\t= 5:3\r\n\r\nWhen A runs 5 m, B runs 3 m.\r\n\tA gains 2 m in a race of 5 m.\r\n\r\nFor A to gain 80 m, they should run a race of\r\n\t5*80/2 = 200 m",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 9,
+      "answerIndex": 1,
+      "answers": [
+        "Rs. 11023.20",
+        "Rs. 10123.20",
+        "Rs. 11123.20",
+        "Rs. 10023.20"
+      ],
+      "question": "What will be the compound interest on Rs. 25000 after 3 years at the rate of 12 % per annum?",
+      "solution": "A = 25000[1.12]³\n    = 35123.2\n\nCI = 10123.20",
+      "topic": "Interest"
+    },
+    {
+      "id": 10,
+      "answerIndex": 2,
+      "answers": [
+        "Rs 660",
+        "Rs 661.3",
+        "Rs 662.025",
+        "Rs 666.66"
+      ],
+      "question": "A man saves Rs 200 at the end of each year and lends the money at 5% compound interest. How much will it become at the end of 3 years.",
+      "solution": "A1 = 200*(1.05)³\r\nA2 = 200*(1.05)²\r\nA3 = 200*(1.05)\r\n\r\nA = 662.025",
+      "topic": "Interest"
+    },
+    {
+      "id": 11,
+      "answerIndex": 1,
+      "answers": [
+        "Rs 155.25",
+        "Rs 156.25",
+        "Rs 157.25",
+        "Rs 158.25"
+      ],
+      "question": "The present worth of Rs.169 due in 2 years at 4% per annum compound interest is",
+      "solution": "A = P[1+(R/100)]^n\r\n\r\n169 = P*(1.04)²\r\n\r\nP = 156.25\r\n",
+      "topic": "Interest"
+    },
+    {
+      "id": 12,
+      "answerIndex": 0,
+      "answers": [
+        "4100",
+        "4200",
+        "4300",
+        "4400"
+      ],
+      "question": "Sahil took a loan for 6 years at the rate of 5% per annum on Simple Interest. If the total interest paid was Rs. 1230, the principal was",
+      "solution": "1230 = P*6*5/100\r\n\r\nP = 4100",
+      "topic": "Interest"
+    },
+    {
+      "id": 13,
+      "answerIndex": 1,
+      "answers": [
+        "9%",
+        "10%",
+        "11%",
+        "12%"
+      ],
+      "question": "A lent Rs. 5000 to B for 2 years and Rs 3000 to C for 4 years at the same rate of simple interest and received Rs 2200 in all from both of them as interest. The rate of interest per annum is",
+      "solution": "5000*2*R/100 + 3000*4*R/100 = 2200\r\n\r\n100R+120R = 2200\r\n\r\nR = 10%",
+      "topic": "Interest"
+    },
+    {
+      "id": 14,
+      "answerIndex": 0,
+      "answers": [
+        "Rs 1052",
+        "Rs 1152",
+        "Rs 1252",
+        "Rs 1352"
+      ],
+      "question": "Rs. 800 amounts to Rs. 956 in 3 years at a certain rate of simple interest. If the rate of interest is increased by 4%, the amount is",
+      "solution": "SI = 156\r\n\r\n800*3*R/100 = 156\r\n\r\nR = 6.5%\r\n\r\nR1 = 10.5%\r\n\r\nSI1 = 800*3*10.5/100 = 252\r\n\r\nA1 = 800+252 = 1052",
+      "topic": "Interest"
+    },
+    {
+      "id": 15,
+      "answerIndex": 3,
+      "answers": [
+        "1:2",
+        "2:1",
+        "1:1",
+        "2:3"
+      ],
+      "question": "What will the ratio of simple interest earned by a certain amount at the same rate of interest for 6 years and that for 9 years.",
+      "solution": "SI is directly proportional to time.\r\n\r\nRatio\r\n\t= 6:9\r\n\t= 2:3",
+      "topic": "Interest"
+    },
+    {
+      "id": 7,
+      "answerIndex": 1,
+      "answers": [
+        "Rs. 2.80 lacs",
+        "Rs. 2.88 lacs",
+        "Rs. 3.60 lacs",
+        "Rs. 3.80 lacs"
+      ],
+      "question": "Puja & Dave enter into a partnership investing in the ratio of 2:3. They get uniform profits every month and divide it in the ratio of their investments. If Dave gets an amount of Rs.36000 per month, find the amount Puja earns in a year.",
+      "solution": "Amount earned by Puja in a month\r\n\t= (2/3)*36000\r\n\t= 24000\r\nAmount earned in a year\r\n\t= 12*24000\r\n\t= 2.88 lacs",
+      "topic": "Partnership"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.32000",
+        "Rs.34000",
+        "Rs.35000",
+        "Rs.36000"
+      ],
+      "question": "Ashwin & Akil started a sales company investing equal amounts. From the total income, they spent Rs.20,000 for advertising, half of the remainder on commissions and had Rs.6000 left. What was the total income?",
+      "solution": "Let the total income be Rs.x\n\n20000+[(x-20000)/2]+6000 = x\n\nx-32000=2x\n\nx=32000",
+      "topic": "Partnership"
+    },
+    {
+      "id": 13,
+      "answerIndex": 0,
+      "answers": [
+        "255",
+        "256",
+        "257",
+        "128"
+      ],
+      "question": "Middle - earth  is a fictional land inhabited by Hobbits, Elves, dwarves and men. The Hobbits and the Elves are peaceful creatures who prefer slow, silent lives and appreciate nature and art. The dwarves and the men engage in physical games. The game is as follows. A tournol is one where out of the two teams that play a match, the one that loses get eliminated. The matches are played in different rounds where in every round, half of the teams get eliminated from the tournament. If there are 8 rounds played in a knock-out tournol, how many matches were played?",
+      "solution": "Round 8\t1 match\nRound 7\t2 matches\nRound 6\t4 matches\nRound 5\t8 matches\nRound 4\t16 matches\nRound 3\t32 matches\nRound 2\t64 matches\nRound 1\t128 matches\n\nTotal no. of matches\n\t= 255",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 9,
+      "answerIndex": 2,
+      "answers": [
+        "Rs.12000",
+        "Rs.12500",
+        "Rs.13500",
+        "Rs.15000"
+      ],
+      "question": "A,B and C enter into a partnership investing Rs 35000, Rs 45000 and 55000. Find B's share in an annual profit of Rs 40500.",
+      "solution": "B's share\r\n\t= 40500*45000/135000\r\n\t= 13500",
+      "topic": "Partnership"
+    },
+    {
+      "id": 10,
+      "answerIndex": 0,
+      "answers": [
+        "Rs. 5400",
+        "Rs.7200",
+        "Rs. 8400",
+        "Rs. 9600"
+      ],
+      "question": "Anand and Deepak started a business investing Rs.22,500 and Rs.35,000 respectively. Out of a total profit of Rs. 13,800. Deepak's share is",
+      "solution": "Deepak's share\r\n\t= 13800*35000/(22500+35000)\r\n\t= 5400",
+      "topic": "Partnership"
+    },
+    {
+      "id": 11,
+      "answerIndex": 0,
+      "answers": [
+        "2,70,000",
+        "1,80,000",
+        "3,60,000",
+        "4,50,000"
+      ],
+      "question": "A,B and C enter into a partnership by investing in the ratio of 3:2:4. After one year, B invests another Rs 2,70,000 and C, at the end of 2 years, also invests Rs 2,70,000. At the end of 3 years, the profit is shared in the ratio of 3:4:5. Find the initial investment of A.",
+      "solution": "Let the initial investments of A, B and C be 3x, 2x and 4x.\r\n\r\nRatio of profit share\r\n\r\n(3x*3) : (6x+540000) : (12x+270000)\r\n\t= 3:4:5\r\n\r\n9x/3 = (6x+540000)/4\r\n\r\n36x = 18x+1620000\r\n\r\nx = 90000\r\n\r\nA's investment\r\n\t= 3x\r\n\t= 2,70,000",
+      "topic": "Partnership"
+    },
+    {
+      "id": 12,
+      "answerIndex": 1,
+      "answers": [
+        "Rs.24000",
+        "Rs.30000",
+        "Rs.36000",
+        "Rs.33000"
+      ],
+      "question": "Two friends, Jack and Ned, enter into partnership. Jack puts in Rs. 20,000 in the first month and at the end of four months adds Rs.5,000 to his capital. While Ned withdraws Rs.20,000 at the end of 8 months. At the end of the year, both of them received equal profit. Find the amount invested by Ned.",
+      "solution": "Let the initial amount invested by Ned be Rs.x\r\n\r\n20000*12 + 5000*8\r\n\t= x*8 + (x-20000)*4\r\n\r\n280000 = 12x-80000\r\n\r\nx = 30000",
+      "topic": "Partnership"
+    },
+    {
+      "id": 13,
+      "answerIndex": 1,
+      "answers": [
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "question": "Three companies are working independently and receiving the savings 20%, 30%, 40%.  If the companies work combinely, what will be their net savings?",
+      "solution": "Let the income of each company be Rs.x\r\n\r\nAmount saved\r\n\t= 0.2x+0.3x+0.4x\r\n\t= 0.9x\r\nTotal income\r\n\t= 3x\r\n\r\n% of savings\r\n\t= (0.9x/3x)*100\r\n\t= 30%",
+      "topic": "Partnership"
+    },
+    {
+      "id": 14,
+      "answerIndex": 0,
+      "answers": [
+        "Rs.1200",
+        "Rs.3600",
+        "Rs.7200",
+        "Rs.6000"
+      ],
+      "question": "A,B,C enter into a partnership. A invests 3 times as much as B who invests two-thirds of what C invests. At the end of the year ,the profit earned is Rs 6600. What is the share of B?",
+      "solution": "a=3b\r\nb=2c/3\r\n\r\na+b+c = 6600\r\n\r\n3b+b+(3b/2) = 6600\r\n\r\nb = 1200",
+      "topic": "Partnership"
+    },
+    {
+      "id": 14,
+      "answerIndex": 3,
+      "answers": [
+        "70",
+        "69",
+        "139",
+        "138"
+      ],
+      "question": "139 members participate in a game. One person is eliminated after each round. How many matches should be held to choose the champion?",
+      "solution": "138 matches should be held.\n\nAfter 138 matches, 138 persons will be eliminated and the remaining person is the winner.",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 15,
+      "answerIndex": 1,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question": "Alice and Bob play the following coins-on-a-stack game. 20 coins are stacked one above the other. One of them is a special (gold) coin and the rest are ordinary coins. The goal is to bring the gold coin to the top by repeatedly moving the topmost coin to another position in the stack. Alice starts and the players take turns. A turn consists of moving the coin on the top to a position i below the top coin (0 ≤ i ≤ 20). We will call this an i-move (thus a 0-move implies doing nothing). The proviso is that an i-move cannot be repeated; for example once a player makes a 2-move, on subsequent turns neither player can make a 2-move. If the gold coin happens to be on top when it's a player's turn then the player wins the game. Initially, the gold coin is the third coin from the top. Then\n(A) In order to win, Alice's first move should be a 0-move.\n(B) In order to win, Alice's first move should be a 1-move.\n(C) Alice has no winning strategy.\n(D) In order to win, Alice's first move can be a 0-move or a 1-move",
+      "solution": "In order to win, Alice should first make a 1-move. All other possibilities would lead to Bob winning the game.",
+      "topic": "Races & Games"
+    },
+    {
+      "id": 15,
+      "answerIndex": 1,
+      "answers": [
+        "Rs.30000",
+        "Rs.36000",
+        "Rs.40000",
+        "Rs.42000"
+      ],
+      "question": "X, Y and Z enter into a partnership investing Rs.25000, Rs.40000 and Rs.60000 respectively. After a year, the profit obtained is 75000. Find Y's share of the profit.",
+      "solution": "Y's share\r\n\t= 75000*60/125\r\n\t= 36000",
+      "topic": "Partnership"
+    },
+    {
+      "id": 15,
+      "answerIndex": 3,
+      "answers": [
+        "6 kmph",
+        "7.5 kmph",
+        "8 kmph",
+        "9 kmph"
+      ],
+      "question": "A boat travels 5 km downstream in 20 minutes. If the speed of the stream is 3 kmph, find the upstream speed of the boat.",
+      "solution": "Downstream speed\r\n\t= 5*60/20\r\n\t= 15 kmph\r\nSpeed of stream\r\n\t= 3 kmph\r\nUpstream speed\r\n\t= 12-3\r\n\t= 9 kmph",
+      "topic": "Boats & Streams"
+    },
+    {
+      "id": 9,
+      "answerIndex": 2,
+      "answers": [
+        "10:9",
+        "11:21",
+        "12:19",
+        "12:16"
+      ],
+      "question": "The ratio of the incomes of C and D is 3:4. The ratio of their expenditures is 4:5. Find the ratio of their savings if the savings of C is one fourths of his income.",
+      "solution": "Let the incomes of C and D be 3x and 4x and\n\ttheir expenditures be 4y and 5y.\n\nAmount saved by C\n\t= 3x-4y = 3x/4\n\t9x = 16y\n\ty = 9x/16\n\nAmount saved by D\n\t= 4x-5y\n\t= 4x-45x/16\n\t= 19x/16\n\nRatio of their savings\n\t= (3x/4):(19x/16)\n\t= 12:19",
+      "topic": "Ratio & Proportion"
+    }
+  ]
