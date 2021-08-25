@@ -206,7 +206,7 @@ function render(el) {
 
   genreProblems = await Promise.all(
     genre.map(area =>
-      readJSON(`../${area}.json`)
+      readJSON(area + ".json")
     )
   );
 
