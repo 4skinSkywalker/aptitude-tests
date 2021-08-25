@@ -13,11 +13,35 @@ pre {
 
 label,
 input[type="radio"],
-.pnt-ovr {
+.pointer-hover {
   cursor: pointer;
 }
 
-.pnt-ovr:hover {
+.pointer-hover:hover {
   opacity: 0.95;
 }
 
+#genre-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 1200px) {
+  #genre-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  #genre-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  #genre-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

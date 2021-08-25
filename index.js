@@ -83,19 +83,17 @@ function getGenreList(areas, genreProblems) {
     }
   };
   d.innerHTML = `
-    <div class="container">
-      <h1 class="display-5 text-white text-center my-5">Aptitude Areas</h1>
-      <div class="d-grid gap-3 m-3">
+    <div class="container text-white text-center">
+      <h1 class="display-5 my-5">Aptitude Areas</h1>
+      <div id="genre-grid" class="m-3">
         ${
           areas.map((area, i) => {
             let userCorrectAnswers = Object.entries(localStorage)
               .filter(([key, value]) => key.includes("aptitude-" + area));
             return `
-              <div class="bg-dark text-white p-3 pnt-ovr shadow" style="border-radius: 1rem;" onclick="render(getProblemsList('${area}'));">
-                <div class="d-grid gap-2 text-center">
-                  <div class="fs-3">${dashedToCapitalize(area)}</div>
-                  <div class="fs-5">${userCorrectAnswers.length} / ${genreProblems[i].length}</div>
-                </div>
+              <div class="d-flex flex-column justify-content-between align-items-center bg-dark p-3 pointer-hover shadow" style="border-radius: 1rem;" onclick="render(getProblemsList('${area}'));">
+                <div class="fs-3">${dashedToCapitalize(area)}</div>
+                <div class="fs-5">${userCorrectAnswers.length} / ${genreProblems[i].length}</div>
               </div>
             `
           }).join("")
@@ -120,8 +118,8 @@ function getProblemsList(title) {
     }
   };
   d.innerHTML = `
-    <div class="container">
-      <header class="text-white text-center">
+    <div class="container text-white">
+      <header class="text-center">
         <h1 class="display-5 my-5">${dashedToCapitalize(title)}</h1>
         <a class="text-reset" target="_blank" href="https://github.com/4skinSkywalker/aptitude-tests/issues/${index + 1}">Issues with questions in ${dashedToCapitalize(title)}?<br>Click here to report it</a>
       </header>
@@ -130,7 +128,7 @@ function getProblemsList(title) {
           problems.map((problem, i) => {
             let answerMemoryKey = "aptitude-" + title + "-" + problem.id;
             let savedAnswer = localStorage.getItem(answerMemoryKey);
-            return `<div class="d-grid gap-2 bg-dark text-white p-3 shadow" style="border-radius: 1rem;">
+            return `<div class="d-grid gap-2 bg-dark p-3 shadow" style="border-radius: 1rem;">
               <div>${problem.id} / ${problems.length}</div>
               <pre class="fs-5">${escapeHTML(problem.question)}</pre>
               <div class="d-grid gap-2 m-2">
