@@ -198,6 +198,8 @@ function render(el) {
   } else {
     app.appendChild(el);
   }
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 (async function (){
