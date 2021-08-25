@@ -123,7 +123,7 @@ function getProblemsList(title) {
     <div class="container">
       <header class="text-white text-center">
         <h1 class="display-5 mb-5">${dashedToCapitalize(title)}</h1>
-        <a class="text-reset" href="https://github.com/4skinSkywalker/aptitude-tests/issues/${index + 1}">Issues with questions in ${dashedToCapitalize(title)}?<br>Click here to report it</a>
+        <a class="text-reset" target="_blank" href="https://github.com/4skinSkywalker/aptitude-tests/issues/${index + 1}">Issues with questions in ${dashedToCapitalize(title)}?<br>Click here to report it</a>
       </header>
       <div class="d-grid gap-3 m-3">
         ${
