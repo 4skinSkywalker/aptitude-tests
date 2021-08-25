@@ -32,8 +32,8 @@
         "8m",
         "6m"
       ],
-      "question": "Two cubes of sides 3m, 4m and 5m are melted to form a new cube. The side of the new cube is",
-      "solution": "Total volume of the three cubes \n= 3³+³3+5³ = 216m³\nSide of the new cube = 6m"
+      "question": "Three cubes of sides 3m, 4m and 5m are melted to form a new cube. The side of the new cube is",
+      "solution": "Total volume of the three cubes \n= 3³+4³+5³ = 216m³\nSide of the new cube = 6m"
     },
     {
       "id": 4,
