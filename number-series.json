@@ -8,7 +8,7 @@
         "217",
         "225"
       ],
-      "question": "Find the next number\r\n2, 7, 28, 63, 126, ___",
+      "question": "Find the next number\n2, 7, 28, 63, 126, ___",
       "solution": "1³+1, 2³-1, 3³+1, 4³-1, 5³+1, 6³-1......"
     },
     {
@@ -57,7 +57,7 @@
         "63"
       ],
       "question": "1, 2, 6, 15, 31, ___",
-      "solution": "The difference between the numbers is 1, 4, 9 and 16. \r\nThe next difference is 25.\r\n31+25 = 56"
+      "solution": "The difference between the numbers is 1, 4, 9 and 16. \nThe next difference is 25.\n31+25 = 56"
     },
     {
       "id": 6,
@@ -80,7 +80,7 @@
         "583",
         "493"
       ],
-      "question": "Find the odd man out\r\n165,275,341,583,493",
+      "question": "Find the odd man out\n165,275,341,583,493",
       "solution": "In the other numbers, second digit = first digit + third digit"
     },
     {
@@ -92,7 +92,7 @@
         "64",
         "126"
       ],
-      "question": "Find the odd man out\r\n2, 9, 28, 64, 126",
+      "question": "Find the odd man out\n2, 9, 28, 64, 126",
       "solution": "All other numbers are of the form x³+1"
     },
     {
@@ -104,7 +104,7 @@
         "422",
         "121"
       ],
-      "question": "Find the odd one out\r\n212, 331, 824, 632, 422, 121",
+      "question": "Find the odd one out\n212, 331, 824, 632, 422, 121",
       "solution": "In the other numbers, first digit = second digit*third digit"
     },
     {
@@ -116,7 +116,7 @@
         "59",
         "79"
       ],
-      "question": "Find the odd one out\r\n19, 29, 39, 59, 79",
+      "question": "Find the odd one out\n19, 29, 39, 59, 79",
       "solution": "All other numbers are prime numbers"
     },
     {
@@ -128,7 +128,7 @@
         "393",
         "263"
       ],
-      "question": "Find the odd one out\r\n561, 482, 393, 263, 144",
+      "question": "Find the odd one out\n561, 482, 393, 263, 144",
       "solution": "In all other numbers, first digit* third digit = second digit"
     },
     {
@@ -140,7 +140,7 @@
         "24",
         "25"
       ],
-      "question": "Find the next number\r\n3, 4, 6, 8, 12, 14, 18, 20, __",
+      "question": "Find the next number\n3, 4, 6, 8, 12, 14, 18, 20, __",
       "solution": "Prime Number+1"
     },
     {
@@ -152,7 +152,7 @@
         "53",
         "73"
       ],
-      "question": "Find the odd one out\r\n23, 33, 43, 53, 73",
+      "question": "Find the odd one out\n23, 33, 43, 53, 73",
       "solution": "All other numbers are prime numbers"
     },
     {
@@ -164,8 +164,8 @@
         "422",
         "426"
       ],
-      "question": "Which number comes next?\r\n402, 388, 410, 396, 418, 404, ____",
-      "solution": "388+8=396\t396+8=404\r\n410+8=418\t418+8=426\r\nThe two series are combined together."
+      "question": "Which number comes next?\n402, 388, 410, 396, 418, 404, ____",
+      "solution": "388+8=396396+8=404\n410+8=418418+8=426\nThe two series are combined together."
     },
     {
       "id": 15,
@@ -201,7 +201,7 @@
         "16"
       ],
       "question": "0,1,1,2,3,5,8,____",
-      "solution": "This is the Fibonacci Series.\r\n\r\n0+1 = 1\r\n1+1=2\r\n..........\r\n5+8 = 13"
+      "solution": "This is the Fibonacci Series.\n\n0+1 = 1\n1+1=2\n..........\n5+8 = 13"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "17"
       ],
       "question": "9,12,11,14,13,____",
-      "solution": "Add 3 to the first number.\r\n\r\nSubtract 1 from the second number.\r\n\r\n9+3, 12-1, 11+3, 14-1, \r\n\r\n13+3 = 16"
+      "solution": "Add 3 to the first number.\n\nSubtract 1 from the second number.\n\n9+3, 12-1, 11+3, 14-1, \n\n13+3 = 16"
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "81"
       ],
       "question": "5,10,13,26,29,58,61,___",
-      "solution": "First number is multiplied by 2.\r\n\r\n3 is added to the second number.\r\n\r\nThis is repeated.\r\n\r\n61*2 = 122"
+      "solution": "First number is multiplied by 2.\n\n3 is added to the second number.\n\nThis is repeated.\n\n61*2 = 122"
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "70"
       ],
       "question": "2,6,12,20,30,42,56,____",
-      "solution": "The difference between consecutive numbers increases by 2.\r\n2+4 = 6\r\n6+6 = 12\r\n12+8 = 20\r\n......\r\n56+16 = 72\r\n"
+      "solution": "The difference between consecutive numbers increases by 2.\n2+4 = 6\n6+6 = 12\n12+8 = 20\n......\n56+16 = 72\n"
     },
     {
       "id": 21,
@@ -249,7 +249,7 @@
         "44"
       ],
       "question": "2,4,7,12,19,30,____",
-      "solution": "The differences between consecutive numbers are prime.\r\n\t2,3,5,7,11\r\nThe next prime number is 13.\r\n\t30+13=43"
+      "solution": "The differences between consecutive numbers are prime.\n2,3,5,7,11\nThe next prime number is 13.\n30+13=43"
     },
     {
       "id": 22,
@@ -285,7 +285,7 @@
         "9"
       ],
       "question": "5,4,6,3,7,2,8,1,?",
-      "solution": "5-1, 4+2, 6-3, 3+4, 7-5, 2+6, 8-7, 1+8=9\r\n\r\nIt can also be taken as the combination of the two series\r\n\t5,6,7,8,9,.... and\r\n\t4,3,2,1,0,.....\r\n\t"
+      "solution": "5-1, 4+2, 6-3, 3+4, 7-5, 2+6, 8-7, 1+8=9\n\nIt can also be taken as the combination of the two series\n5,6,7,8,9,.... and\n4,3,2,1,0,.....\n"
     },
     {
       "id": 25,
@@ -297,7 +297,7 @@
         "88"
       ],
       "question": "8,15,24,35,48,63,?",
-      "solution": "The difference between consecutive numbers increases by 2. \r\n8+7\r\n15+9\r\n21+11\r\n........\r\n63+17 = 80"
+      "solution": "The difference between consecutive numbers increases by 2. \n8+7\n15+9\n21+11\n........\n63+17 = 80"
     },
     {
       "id": 26,
@@ -309,7 +309,7 @@
         "5"
       ],
       "question": "4,3,5,4,6,5,7,6,?",
-      "solution": "The first number is subtracted by 1.\r\nThe next number is added by 2.\r\n\r\n6+2 = 8"
+      "solution": "The first number is subtracted by 1.\nThe next number is added by 2.\n\n6+2 = 8"
     },
     {
       "id": 27,
@@ -321,7 +321,7 @@
         "11"
       ],
       "question": "17,19,17,17,17,15,17,13,___",
-      "solution": "In the series\r\n\r\n19,17,15,13,11,.....\r\n\r\n17 is present between all numbers.\r\n\r\nSo the next number in the series is 17."
+      "solution": "In the series\n\n19,17,15,13,11,.....\n\n17 is present between all numbers.\n\nSo the next number in the series is 17."
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "42"
       ],
       "question": "48,44,46,42,44,40,?",
-      "solution": "4 is subtracted from the first number.\r\n\r\n2 is added to the next number. \r\n\r\nThis is repeated.\r\n\r\n40+2=42"
+      "solution": "4 is subtracted from the first number.\n\n2 is added to the next number. \n\nThis is repeated.\n\n40+2=42"
     },
     {
       "id": 29,
@@ -345,7 +345,7 @@
         "5.2"
       ],
       "question": "1.3,2.2,3.1,4.0,4.9,___",
-      "solution": "Addition series\r\n\r\n0.9 is added to each number.\r\n\r\n4.9+0.9 = 5.8"
+      "solution": "Addition series\n\n0.9 is added to each number.\n\n4.9+0.9 = 5.8"
     },
     {
       "id": 30,
@@ -357,7 +357,7 @@
         "166"
       ],
       "question": "140,142,146,152,160,___",
-      "solution": "Addition Series\r\n\r\n2 is added to the first number.\r\n4 is added to the second number.\r\n6 is added to the third number and so on.\r\n\r\n160+10=170"
+      "solution": "Addition Series\n\n2 is added to the first number.\n4 is added to the second number.\n6 is added to the third number and so on.\n\n160+10=170"
     },
     {
       "id": 31,
@@ -369,7 +369,7 @@
         "176"
       ],
       "question": "1, 4, 2, 8, 6, 24, 22, 88, ____",
-      "solution": "The first number is multiplied by 4 and the next number is subtracted by 2. This is repeated.\r\n\r\n88-2=86"
+      "solution": "The first number is multiplied by 4 and the next number is subtracted by 2. This is repeated.\n\n88-2=86"
     },
     {
       "id": 32,
@@ -381,7 +381,7 @@
         "1221"
       ],
       "question": "1, 7, 8, 49, 50, 56, 57, 343, ____",
-      "solution": "1*7 = 7\r\n7+1 = 8\r\n\r\n7*7 = 49\r\n49+1 = 50\r\n\r\n8*7 = 56\r\n56+1 = 57\r\n\r\n49*7 = 343\r\n343+1 = 344"
+      "solution": "1*7 = 7\n7+1 = 8\n\n7*7 = 49\n49+1 = 50\n\n8*7 = 56\n56+1 = 57\n\n49*7 = 343\n343+1 = 344"
     },
     {
       "id": 33,
@@ -393,7 +393,7 @@
         "1"
       ],
       "question": "5, ?, 15, 75, 525, 4725",
-      "solution": "5 x 1 = 5\r\n5 x 3 = 15\r\n15 x 5 = 75\r\n75 x 7 = 525\r\n525 x 9 = 4725\r\n\r\nHence, the answer is 5."
+      "solution": "5 x 1 = 5\n5 x 3 = 15\n15 x 5 = 75\n75 x 7 = 525\n525 x 9 = 4725\n\nHence, the answer is 5."
     },
     {
       "id": 34,
@@ -405,7 +405,7 @@
         "39"
       ],
       "question": "70, 54, 45, 41, ___",
-      "solution": "70-16 = 54\r\n54-9 = 45\r\n45-4 = 41\r\n41-1 = 40"
+      "solution": "70-16 = 54\n54-9 = 45\n45-4 = 41\n41-1 = 40"
     },
     {
       "id": 35,
@@ -417,7 +417,7 @@
         "86"
       ],
       "question": "Cara, a blue whale participated in a weight loss program at the biggest office. At the end of every month, the decrease in weight from original weight was measured and noted as 1, 2, 6, 21, 86, 445, 2676. While Cara made a steadfast effort, the weighing machine showed an erroneous weight once. What was that?",
-      "solution": "This is a number series problem.\r\n\t1, 2, 6, 21, 86, 445, 2676\r\nThe wrong term has to be found out.\r\n\r\n1*1 + 1 = 2\r\n2*2 + 2 = 6\r\n6*3 + 3 = 21\r\n21*4 + 4 = 88\r\n88*5 + 5 = 445\r\n\r\nHence, 86 is wrong. It should be 88."
+      "solution": "This is a number series problem.\n1, 2, 6, 21, 86, 445, 2676\nThe wrong term has to be found out.\n\n1*1 + 1 = 2\n2*2 + 2 = 6\n6*3 + 3 = 21\n21*4 + 4 = 88\n88*5 + 5 = 445\n\nHence, 86 is wrong. It should be 88."
     },
     {
       "id": 36,
@@ -429,7 +429,7 @@
         "35"
       ],
       "question": "3, 22, 7, 45, 15, ?, 31",
-      "solution": "Combination of two series\r\n\r\n3, 7, 15, 31\r\n22, 45, ?\r\n\r\nThe number is doubled and 1 is added to it.\r\n\r\n(45*2)+1=91"
+      "solution": "Combination of two series\n\n3, 7, 15, 31\n22, 45, ?\n\nThe number is doubled and 1 is added to it.\n\n(45*2)+1=91"
     },
     {
       "id": 37,
@@ -441,7 +441,7 @@
         "28"
       ],
       "question": "19,24,20,25,21,26,?",
-      "solution": "This is a combination of two series.\n\n\t19, 20, 21, 22, ... and\n\t24, 25, 26, ...."
+      "solution": "This is a combination of two series.\n\n19, 20, 21, 22, ... and\n24, 25, 26, ...."
     },
     {
       "id": 38,
@@ -453,7 +453,7 @@
         "17"
       ],
       "question": "11,14,12,15,13,16,?",
-      "solution": "This is a combination of two series.\n\n\t11, 12, 13, 14, .... and\n\t14, 15, 16, ....."
+      "solution": "This is a combination of two series.\n\n11, 12, 13, 14, .... and\n14, 15, 16, ....."
     },
     {
       "id": 39,
@@ -464,8 +464,8 @@
         "9",
         "10"
       ],
-      "question": "What is the missing number in this series?\r\n\t8 2 14 6 11 _ 14 6 18 12",
-      "solution": "The sum of the first and last numbers is 20.\r\n\r\nThe sum of the second and second from last numbers is 20.\r\n\r\nIn this way, 11+9=20"
+      "question": "What is the missing number in this series?\n8 2 14 6 11 _ 14 6 18 12",
+      "solution": "The sum of the first and last numbers is 20.\n\nThe sum of the second and second from last numbers is 20.\n\nIn this way, 11+9=20"
     },
     {
       "id": 40,
@@ -476,8 +476,8 @@
         "17",
         "18"
       ],
-      "question": "Which number comes before 30 in the below series?\r\n\t1,2,3,6,7,14, __ , 30,....",
-      "solution": "Combination of two series.\r\n\r\n1,3,7,?\r\n2,6,14,30\r\n\r\n1+2=3\r\n3+4=7\r\n7+8=15"
+      "question": "Which number comes before 30 in the below series?\n1,2,3,6,7,14, __ , 30,....",
+      "solution": "Combination of two series.\n\n1,3,7,?\n2,6,14,30\n\n1+2=3\n3+4=7\n7+8=15"
     },
     {
       "id": 41,
@@ -488,8 +488,8 @@
         "25 and 5",
         "49 and 7"
       ],
-      "question": "1 4 9 ?\r\n1 2 3 4\r\n2 4 6 ?",
-      "solution": "The numbers in the first row are square numbers.\r\nThe numbers in the third row are multiples of 2.\r\n\r\nSo, 16 and 8."
+      "question": "1 4 9 ?\n1 2 3 4\n2 4 6 ?",
+      "solution": "The numbers in the first row are square numbers.\nThe numbers in the third row are multiples of 2.\n\nSo, 16 and 8."
     },
     {
       "id": 42,
@@ -500,8 +500,8 @@
         "8",
         "4"
       ],
-      "question": "  6     6     8\r\n  5     7     5\r\n  4     3     ?\r\n120 126 320",
-      "solution": "6*5*4=120\r\n6*7*3=126\r\n8*5*x=320\r\n\r\nx=320/40=8"
+      "question": "  6     6     8\n  5     7     5\n  4     3     ?\n120 126 320",
+      "solution": "6*5*4=120\n6*7*3=126\n8*5*x=320\n\nx=320/40=8"
     },
     {
       "id": 43,
@@ -512,8 +512,8 @@
         "13",
         "8"
       ],
-      "question": "1  2  3   2  10 12\r\n2  5 12 10 16 13\r\n1  2  1   ?  10 24",
-      "solution": "Adding the numbers in each column,\r\n\t4, 9, 16, (12+?), 36, 49\r\n\r\n12+13=25"
+      "question": "1  2  3   2  10 12\n2  5 12 10 16 13\n1  2  1   ?  10 24",
+      "solution": "Adding the numbers in each column,\n4, 9, 16, (12+?), 36, 49\n\n12+13=25"
     },
     {
       "id": 44,
@@ -524,8 +524,8 @@
         "5",
         "7"
       ],
-      "question": "3 8  10  2  ?  1\r\n6 56 90 2 20 0",
-      "solution": "Adding the numbers in each column,\r\n\t9, 64, 100, 4, (20+?), 1\r\n\r\nAll are square numbers.\r\n\r\nHence, 5 replaces the question mark."
+      "question": "3 8  10  2  ?  1\n6 56 90 2 20 0",
+      "solution": "Adding the numbers in each column,\n9, 64, 100, 4, (20+?), 1\n\nAll are square numbers.\n\nHence, 5 replaces the question mark."
     },
     {
       "id": 45,
@@ -537,7 +537,7 @@
         "15, 19"
       ],
       "question": "8, 12, 9, 13, 10, 14, 11, ___ , ___",
-      "solution": "It is a combination of two series.\r\n\r\n8, 9, 10, 11, 12, ....  and\r\n12, 13, 14, 15, ....\r\n\r\nHence, the answer is 15, 12"
+      "solution": "It is a combination of two series.\n\n8, 9, 10, 11, 12, ....  and\n12, 13, 14, 15, ....\n\nHence, the answer is 15, 12"
     },
     {
       "id": 46,
@@ -549,7 +549,7 @@
         "50"
       ],
       "question": "80, 10, 70, 15, 60, ___",
-      "solution": "This is a combination of two series.\r\n\r\n80, 70, 60, 50... and\r\n10, 15, 20, ....\r\n\r\nHence, 20 comes next."
+      "solution": "This is a combination of two series.\n\n80, 70, 60, 50... and\n10, 15, 20, ....\n\nHence, 20 comes next."
     },
     {
       "id": 47,
@@ -561,7 +561,7 @@
         "3.6"
       ],
       "question": "5.2, 4.8, 4.4, 4, ___",
-      "solution": "0.4 is subtracted from every number.\r\n\r\n3.6 comes next."
+      "solution": "0.4 is subtracted from every number.\n\n3.6 comes next."
     },
     {
       "id": 48,
@@ -573,7 +573,7 @@
         "20"
       ],
       "question": "1000, 200, 40, ___",
-      "solution": "Each number is divided by 5.\r\n\r\n40/5 = 8"
+      "solution": "Each number is divided by 5.\n\n40/5 = 8"
     },
     {
       "id": 49,
@@ -585,7 +585,7 @@
         "26"
       ],
       "question": "22, 21, 23, 22, 24, 23, ___",
-      "solution": "This is a combination of two series.\r\n\r\n22, 23, 24, 25,....  and\r\n21, 22, 23, 24,..\r\n\r\nHence, 25 comes next."
+      "solution": "This is a combination of two series.\n\n22, 23, 24, 25,....  and\n21, 22, 23, 24,..\n\nHence, 25 comes next."
     },
     {
       "id": 50,
@@ -597,7 +597,7 @@
         "47"
       ],
       "question": "1, 6, 13, 22, 33,",
-      "solution": "The pattern is + 5, + 7, + 9, + 11,...\r\n\r\nMissing number = 33 + 13 = 46.\r\n"
+      "solution": "The pattern is + 5, + 7, + 9, + 11,...\n\nMissing number = 33 + 13 = 46.\n"
     },
     {
       "id": 51,
@@ -608,8 +608,8 @@
         "210",
         "162"
       ],
-      "question": "3, 9, 27, 81,\r\n",
-      "solution": "Each term of the given series is obtained by multiplying its preceding term by 3.\r\n\r\nMissin number = 81 * 3 = 243."
+      "question": "3, 9, 27, 81,\n",
+      "solution": "Each term of the given series is obtained by multiplying its preceding term by 3.\n\nMissin number = 81 * 3 = 243."
     },
     {
       "id": 52,
@@ -621,19 +621,19 @@
         "100"
       ],
       "question": "1, 9, 17, 33, 49, 73,",
-      "solution": "The pattern is + 8, + 8, + 16, + 24,....\r\n\r\nMissing number = 73 + 24 = 97"
+      "solution": "The pattern is + 8, + 8, + 16, + 24,....\n\nMissing number = 73 + 24 = 97"
     },
     {
       "id": 53,
       "answerIndex": 0,
       "answers": [
-        "14\t",
+        "14",
         "16",
         "18",
         "24"
       ],
       "question": "2, 5, 9, , 20, 27",
-      "solution": "The pattern is + 3, + 4,....\r\n\r\nMissing number = 9 + 5 = 14."
+      "solution": "The pattern is + 3, + 4,....\n\nMissing number = 9 + 5 = 14."
     },
     {
       "id": 54,
@@ -645,7 +645,7 @@
         "70"
       ],
       "question": "5, 9, 17, 29, 45,",
-      "solution": "The pattern is + 4, + 8, + 12, + 16, ...\r\n\r\nMissing number = 45 + 20 = 65."
+      "solution": "The pattern is + 4, + 8, + 12, + 16, ...\n\nMissing number = 45 + 20 = 65."
     },
     {
       "id": 55,
@@ -657,7 +657,7 @@
         "131"
       ],
       "question": "3, 7, 15, 31, 63,",
-      "solution": "Each number in the series is the preceding number multiplied by 2 and then increased by 1.\r\nThus, (3 * 2) + 1 = 7, \r\n(7 * 2) + 1 = 15,\r\n(15 * 2) + 1 = 31 ans so on.\r\n\r\nMissing number = (63 * 2) + 1 =127."
+      "solution": "Each number in the series is the preceding number multiplied by 2 and then increased by 1.\nThus, (3 * 2) + 1 = 7, \n(7 * 2) + 1 = 15,\n(15 * 2) + 1 = 31 ans so on.\n\nMissing number = (63 * 2) + 1 =127."
     },
     {
       "id": 56,
@@ -669,7 +669,7 @@
         "28"
       ],
       "question": "1, 6, 15, , 45, 66, 91",
-      "solution": "The pattern is + 5, + 9, ..., + 21, + 25\r\n\r\nMissing number = 15 + 13 = 28."
+      "solution": "The pattern is + 5, + 9, ..., + 21, + 25\n\nMissing number = 15 + 13 = 28."
     },
     {
       "id": 57,
@@ -677,11 +677,11 @@
       "answers": [
         "9",
         "11",
-        "13\t",
+        "13",
         "15"
       ],
       "question": "1, 2, 3, 5, 8",
-      "solution": "Each term in the series is the sum of the preceding two terms.\r\nThus,  1 + 2 = 3,\r\n2 + 3 = 5,\r\n3 + 5 = 8 and so on.\r\n\r\nMissing number = 5 + 8 = 13."
+      "solution": "Each term in the series is the sum of the preceding two terms.\nThus,  1 + 2 = 3,\n2 + 3 = 5,\n3 + 5 = 8 and so on.\n\nMissing number = 5 + 8 = 13."
     },
     {
       "id": 58,
@@ -693,7 +693,7 @@
         "40.5"
       ],
       "question": "0.5, 1.5, 4.5, 13.5",
-      "solution": "Each term of the series is obtained by multiplying the preceding term by 3.\r\n\r\nMissing number = 13.5 * 3 = 40.5."
+      "solution": "Each term of the series is obtained by multiplying the preceding term by 3.\n\nMissing number = 13.5 * 3 = 40.5."
     },
     {
       "id": 59,
@@ -705,19 +705,19 @@
         "729"
       ],
       "question": "121, 225, 361,",
-      "solution": "The numbers are 112, 152, 192,... i.e. 112, (11 + 4 * 1)2, (11 + 4 * 2)2,....\r\n\r\nMissing number =(11 + 4 * 3)2 =  (23)2 = 529."
+      "solution": "The numbers are 112, 152, 192,... i.e. 112, (11 + 4 * 1)2, (11 + 4 * 2)2,....\n\nMissing number =(11 + 4 * 3)2 =  (23)2 = 529."
     },
     {
       "id": 60,
       "answerIndex": 0,
       "answers": [
-        "24\t\t",
+        "24",
         "22",
         "20",
         "18"
       ],
       "question": "0, 2, 8, 14, , 34",
-      "solution": "The number are 12 - 1,  22 - 2,  32 - 1,  42 - 2,....\r\n\r\nMissing number = 52 - 1 = 24."
+      "solution": "The number are 12 - 1,  22 - 2,  32 - 1,  42 - 2,....\n\nMissing number = 52 - 1 = 24."
     },
     {
       "id": 61,
@@ -729,7 +729,7 @@
         "456"
       ],
       "question": "19, 2, 38, 3, 114, 4,",
-      "solution": "The sequence is a combination of two series :\r\nI.  19, 38, 114, (....)        and     II.  2, 3, 4\r\nThe pattern followed in I is * 2, * 3,...\r\n\r\nMissing number = 114 * 4 = 456."
+      "solution": "The sequence is a combination of two series :\nI.  19, 38, 114, (....)        and     II.  2, 3, 4\nThe pattern followed in I is * 2, * 3,...\n\nMissing number = 114 * 4 = 456."
     },
     {
       "id": 62,
@@ -741,19 +741,19 @@
         "81"
       ],
       "question": "1, 2, 3, 6, 9, 18, , 54",
-      "solution": "The numbers are alternately multiplied by 2 and 3 / 2.\r\nThus, 1 * 2 = 2,\r\n2 * 3 / 2 = 3, \r\n3 * 2 = 6,\r\n6 * 3 / 2 = 9 and so on.\r\n\r\nMissing number = 18 * 3 / 2 = 27."
+      "solution": "The numbers are alternately multiplied by 2 and 3 / 2.\nThus, 1 * 2 = 2,\n2 * 3 / 2 = 3, \n3 * 2 = 6,\n6 * 3 / 2 = 9 and so on.\n\nMissing number = 18 * 3 / 2 = 27."
     },
     {
       "id": 63,
       "answerIndex": 3,
       "answers": [
-        "43\t",
+        "43",
         "49",
         "50",
         "59"
       ],
       "question": "4, 5, 9, 18, 34, (.....)",
-      "solution": "The pattern is + 1, + 4, + 9, + 16,... i.e., + 12, + 22, + 32,+ 42,...\r\n\r\nMissing number = 34 + 52 = 34 + 25 = 59."
+      "solution": "The pattern is + 1, + 4, + 9, + 16,... i.e., + 12, + 22, + 32,+ 42,...\n\nMissing number = 34 + 52 = 34 + 25 = 59."
     },
     {
       "id": 64,
@@ -765,7 +765,7 @@
         "360"
       ],
       "question": "3, 6, 18, 72",
-      "solution": "The pattern is  * 2, * 3, * 4,...\r\n\r\nMissing number = 72 * 5 = 360."
+      "solution": "The pattern is  * 2, * 3, * 4,...\n\nMissing number = 72 * 5 = 360."
     },
     {
       "id": 65,
@@ -777,7 +777,7 @@
         "9"
       ],
       "question": "66, 36, 18,",
-      "solution": "Each number is the series is the product of the digit of the preceding number.\r\nThus, 6 * 6 = 36,\r\n3 * 6 = 18  and so on.\r\n\r\nMissing number = 1 * 8 = 8."
+      "solution": "Each number is the series is the product of the digit of the preceding number.\nThus, 6 * 6 = 36,\n3 * 6 = 18  and so on.\n\nMissing number = 1 * 8 = 8."
     },
     {
       "id": 66,
@@ -789,7 +789,7 @@
         "97"
       ],
       "question": "21, 25, 33, 49, 81",
-      "solution": "The pattern is + 4, + 8, + 16, + 32,....  i.e. + 22, + 23, + 24, + 25,...\r\n\r\nMissing number = 81 + 26 = 81 + 64 = 145."
+      "solution": "The pattern is + 4, + 8, + 16, + 32,....  i.e. + 22, + 23, + 24, + 25,...\n\nMissing number = 81 + 26 = 81 + 64 = 145."
     },
     {
       "id": 67,
@@ -801,7 +801,7 @@
         "72"
       ],
       "question": "3, 6, 5, 20, 7, 42, 9,",
-      "solution": "The sequence is a combination of two series :\r\nI.    3, 5, 7, 9      and\r\nII.   6, 20, 42, (....)\r\nThe pattern is followed in II is + 14, + 22,....\r\n\r\nMissing number = 42 + 30 = 72."
+      "solution": "The sequence is a combination of two series :\nI.    3, 5, 7, 9      and\nII.   6, 20, 42, (....)\nThe pattern is followed in II is + 14, + 22,....\n\nMissing number = 42 + 30 = 72."
     },
     {
       "id": 68,
@@ -813,7 +813,7 @@
         "55"
       ],
       "question": "1, 3, 4, 8, 15, 27,",
-      "solution": "The sum of any three consecutive terms of the series gives the next term.\r\nThus, 1 + 3 + 4 = 8 ;\r\n3 + 4 + 8 = 15 ;\r\n4 + 8 + 15 = 27  and so on.\r\n\r\nMissing number = 8 + 15 + 27 = 50.\r\n"
+      "solution": "The sum of any three consecutive terms of the series gives the next term.\nThus, 1 + 3 + 4 = 8 ;\n3 + 4 + 8 = 15 ;\n4 + 8 + 15 = 27  and so on.\n\nMissing number = 8 + 15 + 27 = 50.\n"
     },
     {
       "id": 69,
@@ -825,7 +825,7 @@
         "132"
       ],
       "question": "2, 15, 41, 80",
-      "solution": "The pattern is + 13, + 26, + 39,...\r\n\r\nMissing number = 80 + 52 = 132."
+      "solution": "The pattern is + 13, + 26, + 39,...\n\nMissing number = 80 + 52 = 132."
     },
     {
       "id": 70,
@@ -837,7 +837,7 @@
         "27"
       ],
       "question": "8, 10, 14, 18, , 34, 50, 66",
-      "solution": "The pattern is + 2, + 4, + 4,... + 16, + 16.\r\n\r\nMissin number = 18 + 8 = 26."
+      "solution": "The pattern is + 2, + 4, + 4,... + 16, + 16.\n\nMissin number = 18 + 8 = 26."
     },
     {
       "id": 71,
@@ -849,7 +849,7 @@
         "150"
       ],
       "question": "1, 2, 6, 24",
-      "solution": "The pattern is * 2, * 3, * 4,....\r\n\r\nMissing number = 24 * 5 = 120."
+      "solution": "The pattern is * 2, * 3, * 4,....\n\nMissing number = 24 * 5 = 120."
     },
     {
       "id": 72,
@@ -861,7 +861,7 @@
         "3968"
       ],
       "question": "2, 3, 8, 63, (.....)",
-      "solution": "Each term in the series is one less than the square of the preceding term.\r\nThus, 22 - 1 = 3,\r\n32 - 1 = 8,\r\n82 - 1 = 63.\r\n\r\nMissing number = (63)2 - 1 = 3969 - 1 = 3968."
+      "solution": "Each term in the series is one less than the square of the preceding term.\nThus, 22 - 1 = 3,\n32 - 1 = 8,\n82 - 1 = 63.\n\nMissing number = (63)2 - 1 = 3969 - 1 = 3968."
     },
     {
       "id": 73,
@@ -873,7 +873,7 @@
         "166.5"
       ],
       "question": "95, 115.5, 138, , 189",
-      "solution": "The pattern is + 20.5, + 22.5,....\r\n\r\nMissing term = 138 + 24.5 = 162.5"
+      "solution": "The pattern is + 20.5, + 22.5,....\n\nMissing term = 138 + 24.5 = 162.5"
     },
     {
       "id": 74,
@@ -897,7 +897,7 @@
         "256"
       ],
       "question": "4, 32, 128,",
-      "solution": "The pattern is * 8, * 4,....\r\n\r\nMissing term = 128 * 2 = 256."
+      "solution": "The pattern is * 8, * 4,....\n\nMissing term = 128 * 2 = 256."
     },
     {
       "id": 76,
@@ -909,7 +909,7 @@
         "72"
       ],
       "question": "2, 5, 9, 19, 37,",
-      "solution": "The pattern is * 2 + 1, * 2 - 1, * 2 + 1, * 2 - 1,....\r\n\r\nMissing number = 37 * 2 + 1 = 75."
+      "solution": "The pattern is * 2 + 1, * 2 - 1, * 2 + 1, * 2 - 1,....\n\nMissing number = 37 * 2 + 1 = 75."
     },
     {
       "id": 77,
@@ -921,7 +921,7 @@
         "525"
       ],
       "question": "24, 60, 120, 210,",
-      "solution": "The pattern is+ 36, + 60, + 90, ....\r\ni.e., + [ 6 * (6 + 0) ], + [ 6 * (6 + 4) ], + [ 6 * (6 + 9) ],.....\r\n\r\nMissng number = 210 + [ 6 * (6 + 15)]  = 210 + 126 = 336."
+      "solution": "The pattern is+ 36, + 60, + 90, ....\ni.e., + [ 6 * (6 + 0) ], + [ 6 * (6 + 4) ], + [ 6 * (6 + 9) ],.....\n\nMissng number = 210 + [ 6 * (6 + 15)]  = 210 + 126 = 336."
     },
     {
       "id": 78,
@@ -933,7 +933,7 @@
         "390"
       ],
       "question": "165, 195, 255, 285, 345,",
-      "solution": "Eacch number is 15 multiplied by a primev number\r\ni.e. 15 * 11,  15 * 13, 15 * 17, 15 * 19, 15 * 23.\r\n\r\nMissing term = 15 * 29 = 435."
+      "solution": "Eacch number is 15 multiplied by a primev number\ni.e. 15 * 11,  15 * 13, 15 * 17, 15 * 19, 15 * 23.\n\nMissing term = 15 * 29 = 435."
     },
     {
       "id": 79,
@@ -945,7 +945,7 @@
         "101"
       ],
       "question": "5, 17, 37, 65, , 145",
-      "solution": "The numbers are 2² + 1, 4² + 1, 6²+ 1, 8²+ 1,...., 12²+ 1.\r\n\r\nMissing number = 10²+ 1 = 101."
+      "solution": "The numbers are 2² + 1, 4² + 1, 6²+ 1, 8²+ 1,...., 12²+ 1.\n\nMissing number = 10²+ 1 = 101."
     },
     {
       "id": 80,
@@ -957,7 +957,7 @@
         "71"
       ],
       "question": "9, 11, 20, 31, (.......), 82",
-      "solution": "Each term in the series is the sum of the preceding two terms.\r\n\r\nMissing number =  20 + 31 = 51."
+      "solution": "Each term in the series is the sum of the preceding two terms.\n\nMissing number =  20 + 31 = 51."
     },
     {
       "id": 81,
@@ -969,7 +969,7 @@
         "181"
       ],
       "question": "5, 16, 49, 104,",
-      "solution": "The pattern is + 11, + 33, + 55,....\r\ni.e., + (11 * 1), + (11 * 3), + (11 * 5),....\r\n\r\nMissing number = 104 + (11 * 7) = 181."
+      "solution": "The pattern is + 11, + 33, + 55,....\ni.e., + (11 * 1), + (11 * 3), + (11 * 5),....\n\nMissing number = 104 + (11 * 7) = 181."
     },
     {
       "id": 82,
@@ -981,7 +981,7 @@
         "3"
       ],
       "question": "34, 18, 10, 6, 4",
-      "solution": "Each term is divided by 2 and then increased by 1 to obtain the next term.\r\n\r\nMissing term = (4 / 2) + 1 = 3."
+      "solution": "Each term is divided by 2 and then increased by 1 to obtain the next term.\n\nMissing term = (4 / 2) + 1 = 3."
     },
     {
       "id": 83,
@@ -993,7 +993,7 @@
         "352"
       ],
       "question": "462, 420, 380, , 306",
-      "solution": "The pattern is - 42, - 40, ...\r\n\r\nMissing number = 380 - 38 = 342."
+      "solution": "The pattern is - 42, - 40, ...\n\nMissing number = 380 - 38 = 342."
     },
     {
       "id": 84,
@@ -1005,7 +1005,7 @@
         "285"
       ],
       "question": "3, 8, 22, 63, 185,",
-      "solution": "The pattern is * 3 - 1, * 3 - 2, * 3 - 3, * 3 - 4,..\r\n\r\nMissing number = (185 * 3 ) - 5 = 550."
+      "solution": "The pattern is * 3 - 1, * 3 - 2, * 3 - 3, * 3 - 4,..\n\nMissing number = (185 * 3 ) - 5 = 550."
     },
     {
       "id": 85,
@@ -1017,7 +1017,7 @@
         "249"
       ],
       "question": "1, 2, 5, 12, 27, 58, 121,",
-      "solution": "The pattern is * 2 + 0, * 2 + 1, * 2 + 2, * 2 + 3, * 2 + 4, * 2 + 5,...\r\n\r\nMissing number = 121 * 2 + 6 = 248."
+      "solution": "The pattern is * 2 + 0, * 2 + 1, * 2 + 2, * 2 + 3, * 2 + 4, * 2 + 5,...\n\nMissing number = 121 * 2 + 6 = 248."
     },
     {
       "id": 86,
@@ -1029,7 +1029,7 @@
         "0.95"
       ],
       "question": "0.5, 0.55, 0.65, 0.8,",
-      "solution": "The pattern is + 0.05, 0.10, + 0.15,....\r\n\r\nMissing number = 0.8 + 0.20 = 1."
+      "solution": "The pattern is + 0.05, 0.10, + 0.15,....\n\nMissing number = 0.8 + 0.20 = 1."
     },
     {
       "id": 87,
@@ -1041,7 +1041,7 @@
         "85"
       ],
       "question": "3, 8, 13, 24, 41,",
-      "solution": "The pattern followed is :\r\nnth term + (n + 1) th term + (n + 1) = (n + 2) th term.\r\nThus, 1st term + 2nd term + 2 = 3rd term;\r\n2nd term + 3rd term + 3 = 4th term and so on.\r\n\r\nMissing term = 6th term\r\n\t= 4th term + 5th term + 5\r\n\t= 24 + 41 + 5 = 70."
+      "solution": "The pattern followed is :\nnth term + (n + 1) th term + (n + 1) = (n + 2) th term.\nThus, 1st term + 2nd term + 2 = 3rd term;\n2nd term + 3rd term + 3 = 4th term and so on.\n\nMissing term = 6th term\n= 4th term + 5th term + 5\n= 24 + 41 + 5 = 70."
     },
     {
       "id": 88,
@@ -1053,7 +1053,7 @@
         "56"
       ],
       "question": "97, 86, 73, 58, 45,",
-      "solution": "The pattern is - 11, - 13, - 15, - 13,...\r\n\r\nMissin number = 45 -11 = 34."
+      "solution": "The pattern is - 11, - 13, - 15, - 13,...\n\nMissin number = 45 -11 = 34."
     },
     {
       "id": 89,
@@ -1065,7 +1065,7 @@
         "36"
       ],
       "question": "17, 19, 23, 29, , 37",
-      "solution": "The given series consists of consecutive prime numbers starting from 17. The next prime number after 29 is 31.\r\nSo, the missing number is 31."
+      "solution": "The given series consists of consecutive prime numbers starting from 17. The next prime number after 29 is 31.\nSo, the missing number is 31."
     },
     {
       "id": 90,
@@ -1077,7 +1077,7 @@
         "33"
       ],
       "question": "5, 6, 9, 15, , 40",
-      "solution": "The pattern is + 1, + 3, + 6,...   i.e. + 1, + (1 + 2), + (1 + 2 + 3),...\r\n\r\nMissing number = 15 + (1 + 2 + 3 + 4) = 25."
+      "solution": "The pattern is + 1, + 3, + 6,...   i.e. + 1, + (1 + 2), + (1 + 2 + 3),...\n\nMissing number = 15 + (1 + 2 + 3 + 4) = 25."
     },
     {
       "id": 91,
@@ -1089,7 +1089,7 @@
         "192"
       ],
       "question": "3, 12, 27, 48, 75, 108, (........)",
-      "solution": "The numbers are 3 * 1², 3 * 2², 3 * 3², 3 * 4², 3 * 5², 3 * 6²,.....\r\n\r\nMissing number = 3 * 7² = 3 * 49 = 147."
+      "solution": "The numbers are 3 * 1², 3 * 2², 3 * 3², 3 * 4², 3 * 5², 3 * 6²,.....\n\nMissing number = 3 * 7² = 3 * 49 = 147."
     },
     {
       "id": 92,
@@ -1101,7 +1101,7 @@
         "478"
       ],
       "question": "134, 245, 356, 467,",
-      "solution": "Each term is obtained by adding 111 to the preceding term.\r\n\r\nMissing number = 467 + 111 = 578."
+      "solution": "Each term is obtained by adding 111 to the preceding term.\n\nMissing number = 467 + 111 = 578."
     },
     {
       "id": 93,
@@ -1113,7 +1113,7 @@
         "49"
       ],
       "question": "5, 11, 18, 26, 35, ?",
-      "solution": "5+6=11\r\n11+7=18\r\n......\r\n35+11=45"
+      "solution": "5+6=11\n11+7=18\n......\n35+11=45"
     },
     {
       "id": 94,
@@ -1125,7 +1125,7 @@
         "180"
       ],
       "question": "0, 6, 24, 60, 120, ?",
-      "solution": "0*1*2=0\r\n1*2*3=6\r\n2*3*4=24\r\n3*4*5=60\r\n4*5*6=120\r\n5*6*7=210"
+      "solution": "0*1*2=0\n1*2*3=6\n2*3*4=24\n3*4*5=60\n4*5*6=120\n5*6*7=210"
     },
     {
       "id": 95,
@@ -1137,7 +1137,7 @@
         "21"
       ],
       "question": "1, 3, 3, 6, 7, 9, ?, 12, 21.",
-      "solution": "This is a combination of two series.\r\n\r\n1,3,7,?,21\r\n3,6,9,12\r\n\r\n1+2=3\r\n3+4=7\r\n7+6=13\r\n13+8=21"
+      "solution": "This is a combination of two series.\n\n1,3,7,?,21\n3,6,9,12\n\n1+2=3\n3+4=7\n7+6=13\n13+8=21"
     },
     {
       "id": 96,
@@ -1149,7 +1149,7 @@
         "38"
       ],
       "question": "1, 2, 5, 10, 17, 26, ____",
-      "solution": "1+1=2\r\n2+3=5\r\n5+5=10\r\n.............\r\n26+11=37"
+      "solution": "1+1=2\n2+3=5\n5+5=10\n.............\n26+11=37"
     },
     {
       "id": 97,
@@ -1161,7 +1161,7 @@
         "36"
       ],
       "question": "3, 4, 6, 8, 12, 16, 24, ____",
-      "solution": "This is a combination of two series.\r\n\r\n4,8,16,____\r\n3,6,12,24\r\n\r\n16*2=32"
+      "solution": "This is a combination of two series.\n\n4,8,16,____\n3,6,12,24\n\n16*2=32"
     },
     {
       "id": 98,
@@ -1185,7 +1185,7 @@
         "9"
       ],
       "question": "3, 8, 6, 14, ?, 20",
-      "solution": "3,6,....\r\n8,14,20,....\r\n\r\n3+3=6\r\n6+3=9"
+      "solution": "3,6,....\n8,14,20,....\n\n3+3=6\n6+3=9"
     },
     {
       "id": 100,
@@ -1197,6 +1197,6 @@
         "27"
       ],
       "question": "(1/9), (1/3), 1, ____ , 9",
-      "solution": "Each number is multiplied by 3.\r\n\r\n1*3=3"
+      "solution": "Each number is multiplied by 3.\n\n1*3=3"
     }
   ]

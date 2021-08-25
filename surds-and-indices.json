@@ -9,7 +9,7 @@
         "12"
       ],
       "question": "If √2^n = 4, then the value of n is",
-      "solution": "√2^n = 4\r\n\r\n2^(n/2) = 2^2\r\n\r\nn/2 = 2\r\n\r\nn = 4"
+      "solution": "√2^n = 4\n\n2^(n/2) = 2^2\n\nn/2 = 2\n\nn = 4"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "5"
       ],
       "question": "If 5^y= 3125, then the value of 5^(y-4) is",
-      "solution": "5^5 = 3125\r\n\r\nSo, y = 5\r\n\r\n5^(y-4) = 5^1 = 5"
+      "solution": "5^5 = 3125\n\nSo, y = 5\n\n5^(y-4) = 5^1 = 5"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "4.5"
       ],
       "question": "(20)^3.25 x (20)^x = 20^8. Find x.",
-      "solution": "(20)^3.25 x (20)^x = 20^8\r\n\r\n(20)^(3.25+x) = 20^8\r\n\r\n3.25+x = 8\r\n\r\nx = 4.75"
+      "solution": "(20)^3.25 x (20)^x = 20^8\n\n(20)^(3.25+x) = 20^8\n\n3.25+x = 8\n\nx = 4.75"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "3.7"
       ],
       "question": "Given that 10^0.48 = x, 10^0.70 = y and x^z = y^2, then the value of z is close to",
-      "solution": "10^0.48 = x\r\n10^0.70 = y\r\n\r\nx^z = y^2\r\n\r\n10^(0.48z) = 10^(0.7*2)\r\n\r\n0.48z = 1.4\r\n\r\nz = 1.4/0.48 = 2.9167"
+      "solution": "10^0.48 = x\n10^0.70 = y\n\nx^z = y^2\n\n10^(0.48z) = 10^(0.7*2)\n\n0.48z = 1.4\n\nz = 1.4/0.48 = 2.9167"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "6"
       ],
       "question": "If 3^(x - y) = 27 and 3^(x + y) = 243, then x is equal to",
-      "solution": "3^(x - y) = 27\r\n\tx-y = 3 ---- (I)\r\n\r\n3^(x + y) = 243\r\n\tx+y = 5 ----(II)\r\n\r\nSolving (I) and (II),\r\n\t2x = 8\r\n\tx = 4"
+      "solution": "3^(x - y) = 27\nx-y = 3 ---- (I)\n\n3^(x + y) = 243\nx+y = 5 ----(II)\n\nSolving (I) and (II),\n2x = 8\nx = 4"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "81.25"
       ],
       "question": "(81)^0.16 x (81)^0.09 = ?",
-      "solution": "(81)^0.16 x (81)^0.09\r\n\t= (81)^(0.16+0.09)\r\n\t= 81^0.25\r\n\t= (3^4)^0.25\r\n\t= 3^(4*0.25)\r\n\t= 3"
+      "solution": "(81)^0.16 x (81)^0.09\n= (81)^(0.16+0.09)\n= 81^0.25\n= (3^4)^0.25\n= 3^(4*0.25)\n= 3"
     },
     {
       "id": 7,
@@ -81,19 +81,19 @@
         "8"
       ],
       "question": "(0.25)^-1.5 = ?",
-      "solution": "(0.25)^-1.5\r\n\t= (1/4)^-1.5\r\n\t= 4^1.5\r\n\t= (2^2)^1.5\r\n\t= 2^3\r\n\t= 8"
+      "solution": "(0.25)^-1.5\n= (1/4)^-1.5\n= 4^1.5\n= (2^2)^1.5\n= 2^3\n= 8"
     },
     {
       "id": 8,
       "answerIndex": 2,
       "answers": [
-        "7/16 \r\n",
+        "7/16 \n",
         "7 / 32",
         "7/48",
         "7/64"
       ],
       "question": "If 2^x = 4^y =8^z and (1/2x +1/4y +1/6z) =24/7 then the value of 'z' is",
-      "solution": "2^x = 4^y =8^z\r\n\r\n2^x = 2^(2y) = 2^(3z)\r\n\r\nx = 2y = 3z\r\n\r\nx = 3z\r\ny = 3z/2\r\n\r\n(1/2x +1/4y +1/6z) =24/7\r\n\r\n1/6z + 1/6z + 1/6z = 24/7\r\n\r\n1/2z = 24/7\r\n\r\nz = 7/48"
+      "solution": "2^x = 4^y =8^z\n\n2^x = 2^(2y) = 2^(3z)\n\nx = 2y = 3z\n\nx = 3z\ny = 3z/2\n\n(1/2x +1/4y +1/6z) =24/7\n\n1/6z + 1/6z + 1/6z = 24/7\n\n1/2z = 24/7\n\nz = 7/48"
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
         "243"
       ],
       "question": "If a and b are whole numbers such that a^b = 49, the value of (a - 1)^(b + 1) is",
-      "solution": "a^b = 49\r\n7^2 = 49\r\na = 7, b = 2\r\n\r\n(a-1)^(b+1)\r\n\t= 6^3\r\n\t= 216"
+      "solution": "a^b = 49\n7^2 = 49\na = 7, b = 2\n\n(a-1)^(b+1)\n= 6^3\n= 216"
     },
     {
       "id": 10,
@@ -116,8 +116,8 @@
         "xyz",
         "√xyz"
       ],
-      "question": "If x= ya , y = zb  , z = xc  then find the value\r\nof abc.",
-      "solution": "a = x/y\r\nb = y/z\r\nc = z/x\r\n\r\nabc = (x/y)*(y/z)*(z/x) = 1\r\n"
+      "question": "If x= ya , y = zb  , z = xc  then find the value\nof abc.",
+      "solution": "a = x/y\nb = y/z\nc = z/x\n\nabc = (x/y)*(y/z)*(z/x) = 1\n"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
         "10^6"
       ],
       "question": "x = 10^175 : 10^169. Find x.",
-      "solution": "x = 10^175 : 10^169\r\n   = 10^(175-169)\r\n   = 10^6"
+      "solution": "x = 10^175 : 10^169\n   = 10^(175-169)\n   = 10^6"
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
         "250"
       ],
       "question": "(0.04)^-2.5 = ?",
-      "solution": "(0.04)^(-2.5)\r\n\t= (4/100)^(-5/2)\r\n\t= (1/25)^(-5/2)\r\n\t= 25^(5/2)\r\n\t= 5^(2*5/2)\r\n\t= 5^5\r\n\t= 3125"
+      "solution": "(0.04)^(-2.5)\n= (4/100)^(-5/2)\n= (1/25)^(-5/2)\n= 25^(5/2)\n= 5^(2*5/2)\n= 5^5\n= 3125"
     },
     {
       "id": 13,
@@ -153,7 +153,7 @@
         "6"
       ],
       "question": "(243)^(x/5) = 81. Find x.",
-      "solution": "(243)^(x/5) = 81\r\n\r\n3^5 = 243\r\n\r\n3^x = 81\r\n\r\nx = 4"
+      "solution": "(243)^(x/5) = 81\n\n3^5 = 243\n\n3^x = 81\n\nx = 4"
     },
     {
       "id": 14,
@@ -165,7 +165,7 @@
         "10"
       ],
       "question": "2^a * 2^b = 128. Find the sum of a and b.",
-      "solution": "2^a * 2^b = 128\r\n\r\n2^(a+b) = 2^7\r\n\r\na+b = 7"
+      "solution": "2^a * 2^b = 128\n\n2^(a+b) = 2^7\n\na+b = 7"
     },
     {
       "id": 15,
@@ -177,7 +177,7 @@
         "3√2"
       ],
       "question": "If x = 3+√2, y= 3-√2, find the product of x and y.",
-      "solution": "xy\r\n\t= (3+√2)*(3-√2)\r\n\t= 9-2\r\n\t= 7"
+      "solution": "xy\n= (3+√2)*(3-√2)\n= 9-2\n= 7"
     },
     {
       "id": 16,
@@ -189,7 +189,7 @@
         "4:1"
       ],
       "question": "If √3^p = 9^q, find the ratio of p and q.",
-      "solution": "√3^p = 9^q\r\n\r\n3^(p/2) = 3^2q\r\n\r\np/2 = 2q\r\n\r\np:q = 4:1"
+      "solution": "√3^p = 9^q\n\n3^(p/2) = 3^2q\n\np/2 = 2q\n\np:q = 4:1"
     },
     {
       "id": 17,
@@ -201,7 +201,7 @@
         "4.25"
       ],
       "question": "(15)^m : (15)^2.65 = (15)^7.8. Find m.",
-      "solution": "(15)^m : (15)^2.65 = (15)^7.8\r\n\r\nm-2.65 = 7.8\r\n\r\nm = 10.45"
+      "solution": "(15)^m : (15)^2.65 = (15)^7.8\n\nm-2.65 = 7.8\n\nm = 10.45"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "0.67"
       ],
       "question": "Given m = 12^0.27, n = 12^0.81 and n^p=m³. Find the value of p.",
-      "solution": "m = 12^0.27, n = 12^0.81, n^p=m³\r\n\r\nm³ = 12^(0.27*3) = 12^0.81\r\n\r\np = 1"
+      "solution": "m = 12^0.27, n = 12^0.81, n^p=m³\n\nm³ = 12^(0.27*3) = 12^0.81\n\np = 1"
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "3.2"
       ],
       "question": "(32)^1.1 - (32)^0.9 = ?",
-      "solution": "(32)^1.5 : (32)^0.9\r\n\t= (32)^(1.5-0.9)\r\n\t= (32)^0.6\r\n\t= (2^5)^0.6\r\n\t= 2^3\r\n\t= 8"
+      "solution": "(32)^1.5 : (32)^0.9\n= (32)^(1.5-0.9)\n= (32)^0.6\n= (2^5)^0.6\n= 2^3\n= 8"
     },
     {
       "id": 20,
@@ -237,6 +237,6 @@
         "4/9"
       ],
       "question": "If 3^a = 27^b and (1/3a +1/9b) = 5/36, find the value of b.",
-      "solution": "3^a = 3^(3b)\r\n\r\na = 3b\r\n\r\n(1/3a)+(1/9b) = 5/36\r\n(1/9b)+(1/9b) = 5/36\r\n\r\n2/9b = 5/36\r\n\r\nb = 8/5"
+      "solution": "3^a = 3^(3b)\n\na = 3b\n\n(1/3a)+(1/9b) = 5/36\n(1/9b)+(1/9b) = 5/36\n\n2/9b = 5/36\n\nb = 8/5"
     }
   ]

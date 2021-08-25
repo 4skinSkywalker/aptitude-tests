@@ -9,7 +9,7 @@
         "Rs.10500"
       ],
       "question": "Ram lends a sum of money to Shyam at an interest rate of 5% p.a. After two years, he charges an interest of 8% p.a. At the end of five years, Shyam pays Rs. 13400 to Ram, how much money did he initially borrow?",
-      "solution": "Let the sum of money be Rs.x\r\nTotal Interest \r\n\t= (x*2*5/100) + (x*3*8/100) \r\n\t= 0.34x\r\nx+0.34x = 1.34x = 13400\r\nx = Rs.10000"
+      "solution": "Let the sum of money be Rs.x\nTotal Interest \n= (x*2*5/100) + (x*3*8/100) \n= 0.34x\nx+0.34x = 1.34x = 13400\nx = Rs.10000"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "6%"
       ],
       "question": "On Simple Interest, a given sum amounts to an interest equal to 9/25 of the sum. Find the rate of interest if it is numerically equal to time.",
-      "solution": "I = P*T*R/100\r\n(9/25)P = P*R*R/100\r\nR = 6%"
+      "solution": "I = P*T*R/100\n(9/25)P = P*R*R/100\nR = 6%"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "Rs.19200"
       ],
       "question": "A sum of money fetched an interest of Rs.3840 in 4 years at an interest rate of 8%. Find the sum.",
-      "solution": "I = PTR/100\r\n3840 = P*4*8/100\r\nP = Rs.12000"
+      "solution": "I = PTR/100\n3840 = P*4*8/100\nP = Rs.12000"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "7 years"
       ],
       "question": "How many years does it take for an amount of Rs.20000 to fetch an interest of Rs.8400 at 7% interest?",
-      "solution": "I = PTR/100\r\n8400 = 20000*T*7/100\r\nT=6"
+      "solution": "I = PTR/100\n8400 = 20000*T*7/100\nT=6"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "10%"
       ],
       "question": "Ganesh lends an amount of Rs.15000 to Arun for 3 years and an amount of Rs.25000 to Varun for 2 years at the same interest rate. The total interest received by him is Rs.9500. Find the rate of interest.",
-      "solution": "(15000*3*R/100)+(25000*2*R)/100 = 9500\r\n\r\nSolving this, R=10"
+      "solution": "(15000*3*R/100)+(25000*2*R)/100 = 9500\n\nSolving this, R=10"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "8%"
       ],
       "question": "A sum of money amounts to Rs.49440 in three years and Rs.50400 in five years at the same interest rate. Find the rate of interest per annum.",
-      "solution": "Interest for 2 years \r\n\t= 50400-49440 \r\n\t= Rs.960\r\nInterest for 3 years \r\n\t= 3*960/2 \r\n\t= Rs.1440\r\nPrincipal = 49440-1440 = Rs.48000\r\n1440 = 48000*3*R/100\r\nR=10%\r\n"
+      "solution": "Interest for 2 years \n= 50400-49440 \n= Rs.960\nInterest for 3 years \n= 3*960/2 \n= Rs.1440\nPrincipal = 49440-1440 = Rs.48000\n1440 = 48000*3*R/100\nR=10%\n"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
         "24%"
       ],
       "question": "A lends a sum of Rs.15000 to B at an interest rate of 8%. B uses Rs.5000 and he lends the remaining amount to C. At what rate should B lend the amount to C so that the interest received by B will equal the interest payable by B to A? ",
-      "solution": "15000*T*8/100 = 10000*T*R/100\r\nR = 15*8/10 = 12%"
+      "solution": "15000*T*8/100 = 10000*T*R/100\nR = 15*8/10 = 12%"
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
         "Rs.5"
       ],
       "question": "The difference between compound interest and simple interest on a sum of Rs.10000 for 2 years at a rate of 5% interest is",
-      "solution": "S.I = 10000*2*5/100 = 1000\r\n\r\nC.I = [10000(1+(5/100))^2)] - 10000 = 1025\r\n\r\nC.I-S.I = Rs.25"
+      "solution": "S.I = 10000*2*5/100 = 1000\n\nC.I = [10000(1+(5/100))^2)] - 10000 = 1025\n\nC.I-S.I = Rs.25"
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
         "9%"
       ],
       "question": "A finance company claims to lend money at simple interest, but includes the interest every six months for calculating the principal. If they charge an interest of 8%, what is the effective rate of interest?",
-      "solution": "Consider a sum of Rs.100\r\n\r\nInterest for the first 6 months \r\n\t= 100 * ½ *8/100 \r\n\t= Rs.4\r\nInterest for the next 6 months \r\n\t= 104 * ½ *8/100 \r\n\t= Rs.4.16\r\nInterest at the end of 1 year \r\n\t= Rs.8.16 for a sum of Rs.100\r\n\r\nEffective rate of interest = 8.16%"
+      "solution": "Consider a sum of Rs.100\n\nInterest for the first 6 months \n= 100 * ½ *8/100 \n= Rs.4\nInterest for the next 6 months \n= 104 * ½ *8/100 \n= Rs.4.16\nInterest at the end of 1 year \n= Rs.8.16 for a sum of Rs.100\n\nEffective rate of interest = 8.16%"
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
         "1:2"
       ],
       "question": "Ram and Shyam deposit an equal amount of money in a bank at simple interest. Ram deposits for a time thrice as long as Shyam at two-thirds of Shyam's interest rate. Find the ratio of the interests received by Ram and Shyam.",
-      "solution": "Let the amount be Rs.P\r\n\r\nInterest received by Shyam \r\n\t= P*T*R/100\r\nInterest received by Ram \r\n\t=[ P*3T*(2/3)R]/100 \r\n\t= 2PTR/100\r\nRam's Interest:Shyam's Interest = 2:1"
+      "solution": "Let the amount be Rs.P\n\nInterest received by Shyam \n= P*T*R/100\nInterest received by Ram \n=[ P*3T*(2/3)R]/100 \n= 2PTR/100\nRam's Interest:Shyam's Interest = 2:1"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
         "6"
       ],
       "question": "The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is",
-      "solution": "A>2P\r\nP((1+(20/100))^n) >2P\r\n(1.2)^n>2\r\nBy trial and error, \r\n\t1.2^2=1.44\r\n\t1.2^3=1.728\r\n\t1.2^4=2.0736\r\nLeast possible value of n=4"
+      "solution": "A>2P\nP((1+(20/100))^n) >2P\n(1.2)^n>2\nBy trial and error, \n1.2^2=1.44\n1.2^3=1.728\n1.2^4=2.0736\nLeast possible value of n=4"
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
         "Rs.331"
       ],
       "question": "If the simple interest on a certain sum of money for 3 years at 10% interest is Rs.300, find the compound interest on the same sum for the same time at the same rate of interest.",
-      "solution": "P = 300*100/(3*10) = Rs.1000\r\n\r\nA = 1000*(1+(10/100))^3 = 1331\r\n\r\nC.I = 1331-1000 =Rs.331"
+      "solution": "P = 300*100/(3*10) = Rs.1000\n\nA = 1000*(1+(10/100))^3 = 1331\n\nC.I = 1331-1000 =Rs.331"
     },
     {
       "id": 13,
@@ -153,7 +153,7 @@
         "Rs.6300"
       ],
       "question": "Simple interest on Rs.3500 for 2 years at 9% interest is equal to the compound interest on a certain sum of money for the same number of years at 10% per annum. Find the sum of money.",
-      "solution": "S.I \t= 3500*2*9/100 = Rs.630\r\n\r\nC.I \t= P[(1+(10/100))^2] - P \r\n\t= P[(1.1)^2 - 1] \r\n\t= 0.21P \r\n\t= 630\r\nP = Rs.3000"
+      "solution": "S.I = 3500*2*9/100 = Rs.630\n\nC.I = P[(1+(10/100))^2] - P \n= P[(1.1)^2 - 1] \n= 0.21P \n= 630\nP = Rs.3000"
     },
     {
       "id": 14,
@@ -165,7 +165,7 @@
         "5%"
       ],
       "question": "At what rate of compound interest will a sum of Rs.8000 amount to Rs.8820 in two years?",
-      "solution": "8820 = 8000[(1+(R/100))²]\r\n\r\n[1+(R/100)]² = 8820/8000 = 1.1025 = (1.05)² \r\n\r\nR = 5%"
+      "solution": "8820 = 8000[(1+(R/100))²]\n\n[1+(R/100)]² = 8820/8000 = 1.1025 = (1.05)² \n\nR = 5%"
     },
     {
       "id": 15,
@@ -177,7 +177,7 @@
         "13.31%"
       ],
       "question": "An amount increases by 40% in 5 years at simple interest. By how much % does it increase in 2 years at the same rate on compound interest?",
-      "solution": "S.I = 0.4P = P*5*R/100\t\r\nR=8%\r\nA = P[1+(8/100)]^2 = P[1.08]^2 = 1.1664P\r\nIt increases by 16.64%"
+      "solution": "S.I = 0.4P = P*5*R/100\nR=8%\nA = P[1+(8/100)]^2 = P[1.08]^2 = 1.1664P\nIt increases by 16.64%"
     },
     {
       "id": 16,
@@ -189,7 +189,7 @@
         "Rs.8082"
       ],
       "question": "A sum of Rs.7500 at compound interest at 4% per annum for 2 years amounts to",
-      "solution": "A = P[1+(R/100)]^n\r\n    = 7500[[1+4/100]²\r\n    = 7500[1.04]²\r\n    = Rs.8112"
+      "solution": "A = P[1+(R/100)]^n\n    = 7500[[1+4/100]²\n    = 7500[1.04]²\n    = Rs.8112"
     },
     {
       "id": 17,
@@ -201,7 +201,7 @@
         "10%"
       ],
       "question": "The difference between the compound and simple interest on Rs.40000 for 2 years at the same rate of interest is Rs.400. Find the rate of interest.",
-      "solution": "SI = 40000*2*R/100\r\n    = 800R\r\n\r\nCI = [40000(1+(R/100))²]-40000\r\n     = 40000[(1+(R/100))²-1]\r\n     = 40000[1+(2R/100)+(R²/10000)-1]\r\n     = 800R+4R²\r\n\r\nCI-SI = 400\r\n\r\n4R²+800R-800R = 400\r\n\r\nR²=100\r\n\r\nR=10%"
+      "solution": "SI = 40000*2*R/100\n    = 800R\n\nCI = [40000(1+(R/100))²]-40000\n     = 40000[(1+(R/100))²-1]\n     = 40000[1+(2R/100)+(R²/10000)-1]\n     = 800R+4R²\n\nCI-SI = 400\n\n4R²+800R-800R = 400\n\nR²=100\n\nR=10%"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "10250"
       ],
       "question": "The rate of growth of population of a village has been compounding annually at a constant rate of 5%. If the present population of the village is 10000, find the population after two years.",
-      "solution": "The current population is taken as P.\r\n\r\nPopulation after 2 years\r\n\t= 10000[((1+(5/100))²]\r\n\t= 11025"
+      "solution": "The current population is taken as P.\n\nPopulation after 2 years\n= 10000[((1+(5/100))²]\n= 11025"
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "49 years"
       ],
       "question": "How long does it take for a sum of Rs.2500 to become Rs.12500 at 10% simple interest?",
-      "solution": "SI = PTR/100\r\n    = 2500*T*10/100\r\n    = 250T\r\n\r\nP+SI = A\r\n\r\n2500+250T = 12500\r\n\r\n10+T = 50\r\n\r\nT = 40 years"
+      "solution": "SI = PTR/100\n    = 2500*T*10/100\n    = 250T\n\nP+SI = A\n\n2500+250T = 12500\n\n10+T = 50\n\nT = 40 years"
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "5:3"
       ],
       "question": "Amar and Amit divide Rs.100000 between them and deposit it in a bank at 8% simple interest. At the end of 5 years, Amar's share is R.28000 more than that of Amit. Find the ratio in which they divided the original amount.",
-      "solution": "Let Amar's original share be P1 and Amit's share be P2.\r\nP1+P2=100000\r\n\r\nSI1 = P1*5*8/100\r\n      = 0.4P1\r\nA1 = P1+SI1\r\n      = 1.4P1\r\n\r\nSI2 = 0.4P2\r\nA2 = 1.4P2\r\n\r\nA1 - A2 = 28000\r\n1.4P1-1.4P2=28000\r\n\r\nP1-P2=20000\r\nP1+P2=100000\r\n\r\nSolving,\r\n\tP1=60000\r\n\tP2=40000\r\nP1:P2=3:2"
+      "solution": "Let Amar's original share be P1 and Amit's share be P2.\nP1+P2=100000\n\nSI1 = P1*5*8/100\n      = 0.4P1\nA1 = P1+SI1\n      = 1.4P1\n\nSI2 = 0.4P2\nA2 = 1.4P2\n\nA1 - A2 = 28000\n1.4P1-1.4P2=28000\n\nP1-P2=20000\nP1+P2=100000\n\nSolving,\nP1=60000\nP2=40000\nP1:P2=3:2"
     },
     {
       "id": 21,
@@ -249,7 +249,7 @@
         "Rs.6500"
       ],
       "question": "On simple interest, a sum of Rs.5000 amounts to Rs.6200 in 3 years at a given rate of interest. How much would it amount to if the interest rate is increased by 2%?",
-      "solution": "Interest=Rs.1200\r\n\r\nI=PTR/100\r\n\r\n1200=5000*3*R/100\r\n\r\nR=8%\r\n\r\nR1=10%\r\nI1=5000*3*10/100\r\n   = 1500\r\n\r\nA1=Rs.6500"
+      "solution": "Interest=Rs.1200\n\nI=PTR/100\n\n1200=5000*3*R/100\n\nR=8%\n\nR1=10%\nI1=5000*3*10/100\n   = 1500\n\nA1=Rs.6500"
     },
     {
       "id": 22,
@@ -261,7 +261,7 @@
         "Rs.400"
       ],
       "question": "A borrows an amount of Rs.15000 from B at 8% simple interest and lends it to C at 10% interest. How much does B gain after 2 years?",
-      "solution": "Interest paid by B to A\r\n\t= 15000*2*8/100\r\n\t= 2400\r\nInterest paid by C to B\r\n\t= 15000*2*10/100\r\n\t= 3000\r\nB gains Rs.600.\r\n\r\nAlternatively, B gains (10-8)=2% of 15000."
+      "solution": "Interest paid by B to A\n= 15000*2*8/100\n= 2400\nInterest paid by C to B\n= 15000*2*10/100\n= 3000\nB gains Rs.600.\n\nAlternatively, B gains (10-8)=2% of 15000."
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
         "Rs.2442"
       ],
       "question": "Rs.20000 is invested at 11% compound interest for 2 years. Find the interest in the second year.",
-      "solution": "After 1 year,\r\n\tA = 20000[1+(11/100)]\r\n\t    = Rs.22200\r\n\t I = Rs.2200\r\nAfter 2 years,\r\n\tA = 20000[1+(11/100)]^2\r\n\t    = Rs.24642\r\n\t  I = Rs.4642\r\nInterest in the second year\r\n\t= 4642-2200\r\n\t= Rs.2442"
+      "solution": "After 1 year,\nA = 20000[1+(11/100)]\n    = Rs.22200\n I = Rs.2200\nAfter 2 years,\nA = 20000[1+(11/100)]^2\n    = Rs.24642\n  I = Rs.4642\nInterest in the second year\n= 4642-2200\n= Rs.2442"
     },
     {
       "id": 24,
@@ -285,7 +285,7 @@
         "10%"
       ],
       "question": "The compound interest on a certain sum at a certain rate of interest for the 1st year is Rs.1200 and for the 2nd year is Rs.1344. Find the rate of interest.",
-      "solution": "At the end of 1 year,\r\n\tA = P[1+(R/100)]\r\n\tP+1200 = P+(PR/100)\r\n\tPR = 120000\r\n\r\nAt the end of 2 years,\r\n\tA = P[1+(R/100)]²\r\n\tP+1200+1344 = P+(2PR/100)+(PR²/10000)\r\n\r\nSubstitute PR=120000,\r\n\t2544 = (2*120000/100)+(120000R/10000)\r\nSolving,\r\n\tR=12%"
+      "solution": "At the end of 1 year,\nA = P[1+(R/100)]\nP+1200 = P+(PR/100)\nPR = 120000\n\nAt the end of 2 years,\nA = P[1+(R/100)]²\nP+1200+1344 = P+(2PR/100)+(PR²/10000)\n\nSubstitute PR=120000,\n2544 = (2*120000/100)+(120000R/10000)\nSolving,\nR=12%"
     },
     {
       "id": 25,
@@ -297,7 +297,7 @@
         "Rs.512.5"
       ],
       "question": "If the compound interest on a certain sum at 5% for 2 years is Rs.512.50, what would be the  simple interest?",
-      "solution": "A = P[1+(R/100)]²\r\n\r\nP+512.5 = P*(105/100)²\r\n\r\nP+512.5 = 1.1025P\r\n\r\n0.1025P = 512.5\r\n\r\nP=5000\r\n\r\nSI = 5000*2*5/100 = Rs.500"
+      "solution": "A = P[1+(R/100)]²\n\nP+512.5 = P*(105/100)²\n\nP+512.5 = 1.1025P\n\n0.1025P = 512.5\n\nP=5000\n\nSI = 5000*2*5/100 = Rs.500"
     },
     {
       "id": 30,
@@ -309,7 +309,7 @@
         "Rs.17024"
       ],
       "question": "A sum of money amounts to Rs.53200 at 11% simple interest in 3 years. Find the sum.",
-      "solution": "Let the sum be Rs.x\r\nSI = x*11*3/100\r\n    = 33x/100\r\n\r\nP+SI = A\r\nx+(33x/100) = 53200\r\n133x = 5320000\r\nx=40000"
+      "solution": "Let the sum be Rs.x\nSI = x*11*3/100\n    = 33x/100\n\nP+SI = A\nx+(33x/100) = 53200\n133x = 5320000\nx=40000"
     },
     {
       "id": 29,
@@ -321,7 +321,7 @@
         "Rs.24200"
       ],
       "question": "A sum of Rs.20000 is compounded annually at an interest rate of 10%. How much does it amount to after 2 years?",
-      "solution": "A = P[1+(R/100)]^n\r\n    = 20000[1+(10/100)]²\r\n    = 20000[1.1]²\r\n    = 20000*1.21\r\n    = Rs.24200\r\n"
+      "solution": "A = P[1+(R/100)]^n\n    = 20000[1+(10/100)]²\n    = 20000[1.1]²\n    = 20000*1.21\n    = Rs.24200\n"
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "Rs.50000"
       ],
       "question": "I borrowed two equal amounts, one at 12% S.I. for 2 years and the other at 10% for 3 years respectively. If the difference in the interest was Rs.1200 , find the total amount borrowed.",
-      "solution": "Let the amount borrowed be Rs.x\r\n\r\nSI on the first amount\r\n\t= 12*2*x/100\r\n\t= 24x/100\r\nSI on the second amount\r\n\t= 10*3*x/100\r\n\t= 30x/100\r\nDifference in the interests\r\n\t= 6x/100 = 1200\r\nSolving,\r\n\tx=Rs.20000\r\nTotal amount\r\n\t=Rs.40000"
+      "solution": "Let the amount borrowed be Rs.x\n\nSI on the first amount\n= 12*2*x/100\n= 24x/100\nSI on the second amount\n= 10*3*x/100\n= 30x/100\nDifference in the interests\n= 6x/100 = 1200\nSolving,\nx=Rs.20000\nTotal amount\n=Rs.40000"
     },
     {
       "id": 27,
@@ -345,7 +345,7 @@
         "Rs.24000"
       ],
       "question": "A sum of Rs.50000 was divided into two parts and the first part was deposited at 10% simple interest and the second part at 8% interest. At the end of two years, the interest earned was Rs.8800 . Find the amount deposited at 8% interest.",
-      "solution": "Let the sum be divided into Rs.x and Rs.y\r\n\tx+y=50000\r\n\tx=50000-y\r\nInterest on the first part\r\n\t= x*2*10/100\r\n\t= 20x/100\r\nInterest on the second part\r\n\t= y*2*8/100\r\n\t= 16y/100\r\nTotal interest\r\n\t[(20(50000-y))+16y]/100 = 8800\r\n\t1000000-20y+16y=880000\r\n\t4y=120000\r\n\ty=30000"
+      "solution": "Let the sum be divided into Rs.x and Rs.y\nx+y=50000\nx=50000-y\nInterest on the first part\n= x*2*10/100\n= 20x/100\nInterest on the second part\n= y*2*8/100\n= 16y/100\nTotal interest\n[(20(50000-y))+16y]/100 = 8800\n1000000-20y+16y=880000\n4y=120000\ny=30000"
     },
     {
       "id": 26,
@@ -357,7 +357,7 @@
         "Rs.8000"
       ],
       "question": "Find the simple interest on a sum of Rs.80000 at 8% interest for 8 years.",
-      "solution": "SI=PTR/100\r\n   =80000*8*8/100\r\n   =51200"
+      "solution": "SI=PTR/100\n   =80000*8*8/100\n   =51200"
     },
     {
       "id": 31,
@@ -369,7 +369,7 @@
         "Rs.1800"
       ],
       "question": "A sum at simple interest at 13 ½ % per annum amounts to Rs.2502.50 after 4 years. Find the sum.",
-      "solution": "13 ½ = 27/2\r\n\r\nSI = PTR/100\r\n\r\nI = P*(27/2)*4/100\r\n  = 27P/50\r\nP+I = 2502.5\r\n\r\nP+(27P/50) = 2502.5\r\n\r\n77P/50 = 2502.5\r\n\r\nP = 1625"
+      "solution": "13 ½ = 27/2\n\nSI = PTR/100\n\nI = P*(27/2)*4/100\n  = 27P/50\nP+I = 2502.5\n\nP+(27P/50) = 2502.5\n\n77P/50 = 2502.5\n\nP = 1625"
     },
     {
       "id": 32,
@@ -381,7 +381,7 @@
         "Rs. 123"
       ],
       "question": "A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs.1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is",
-      "solution": "CI from Rs.1600 deposited on 1st January\r\n\t= 1600*(1.025)^2 - 1600\r\n\t= 1681 - 1600\r\n\t= 81\r\n\r\nCI from Rs.1600 deposited on 1st July\r\n\t= 1600(1.025) - 1600\r\n\t= 40\r\n\r\nTotal\r\n\t= 121"
+      "solution": "CI from Rs.1600 deposited on 1st January\n= 1600*(1.025)^2 - 1600\n= 1681 - 1600\n= 81\n\nCI from Rs.1600 deposited on 1st July\n= 1600(1.025) - 1600\n= 40\n\nTotal\n= 121"
     },
     {
       "id": 33,
@@ -393,7 +393,7 @@
         "2522"
       ],
       "question": "Find the compound interest on Rs. 16,000 at 20% per annum for 9 months, compounded quarterly.",
-      "solution": "Principal = Rs. 16000\r\nTime = 9 months =3 quarters\r\nRate = 20% per annum = 5% per quarter\r\n\r\nAmount\r\n\t= Rs. [16000 x (1+(5/100))3]\r\n\t= Rs. 18522 \r\n\r\nCI = Rs. (18522 - 16000) = Rs. 2522"
+      "solution": "Principal = Rs. 16000\nTime = 9 months =3 quarters\nRate = 20% per annum = 5% per quarter\n\nAmount\n= Rs. [16000 x (1+(5/100))3]\n= Rs. 18522 \n\nCI = Rs. (18522 - 16000) = Rs. 2522"
     },
     {
       "id": 34,
@@ -405,7 +405,7 @@
         "1291"
       ],
       "question": "If the simple interest on a sum of money at 5% per annum for 3 years is Rs. 1200, find the compound interest on the same sum for the same period at the same rate.",
-      "solution": "R = 5% p.a\r\nT = 3 years\r\nS.I.= Rs. 1200 \r\n\r\nP = Rs. [100*1200]/3*5\r\n   = Rs. 8000\r\n\r\nA = Rs. 8000 x [1 +5/100]^3 = Rs. 9261\r\n\r\nC.I. = Rs. (9261 - 8000) = Rs. 1261"
+      "solution": "R = 5% p.a\nT = 3 years\nS.I.= Rs. 1200 \n\nP = Rs. [100*1200]/3*5\n   = Rs. 8000\n\nA = Rs. 8000 x [1 +5/100]^3 = Rs. 9261\n\nC.I. = Rs. (9261 - 8000) = Rs. 1261"
     },
     {
       "id": 35,
@@ -417,7 +417,7 @@
         "622"
       ],
       "question": "Find compound interest on Rs. 7500 at 4% per annum for 2 years, compounded annually.",
-      "solution": "A = Rs [7500*(1+(4/100)^2]\r\n    = Rs (7500 * (26/25) * (26/25))\r\n    = Rs. 8112 \r\n\r\nC.I. = Rs. (8112 - 7500)\r\n      = Rs. 612."
+      "solution": "A = Rs [7500*(1+(4/100)^2]\n    = Rs (7500 * (26/25) * (26/25))\n    = Rs. 8112 \n\nC.I. = Rs. (8112 - 7500)\n      = Rs. 612."
     },
     {
       "id": 36,
@@ -429,7 +429,7 @@
         "3113"
       ],
       "question": "Find compound interest on Rs. 8000 at 15% per annum for 2 years 4 months, compounded annually.",
-      "solution": "T = 2 years 4 months \r\n   = 2(1/3) years\r\n\r\nA = [8000 X (1+(15/100))^2 X (1+((1/3)*15)/100)]\r\n   = [8000 * (23/20) * (23/20) * (21/20)]\r\n   = 11109\r\n\r\nCI = (11109-8000) = Rs.3109"
+      "solution": "T = 2 years 4 months \n   = 2(1/3) years\n\nA = [8000 X (1+(15/100))^2 X (1+((1/3)*15)/100)]\n   = [8000 * (23/20) * (23/20) * (21/20)]\n   = 11109\n\nCI = (11109-8000) = Rs.3109"
     },
     {
       "id": 37,
@@ -441,7 +441,7 @@
         "825.52"
       ],
       "question": "Find the compound interest on Rs. 10,000 in 2 years at 4% per annum, the interest being compounded half-yearly.",
-      "solution": "P = Rs. 10000\r\nR = 4% per annum = 2% per half-year\r\n\r\nT = 2 years = 4 half-years\r\n\r\nA = Rs [10000 * (1+(2/100))^4]\r\n   = Rs(10000 * (51/50) * (51/50) * (51/50) * (51/50))\r\n   = Rs. 10824.32\r\n\r\nCI = Rs. (10824.32 - 10000)\r\n    = Rs. 824.32"
+      "solution": "P = Rs. 10000\nR = 4% per annum = 2% per half-year\n\nT = 2 years = 4 half-years\n\nA = Rs [10000 * (1+(2/100))^4]\n   = Rs(10000 * (51/50) * (51/50) * (51/50) * (51/50))\n   = Rs. 10824.32\n\nCI = Rs. (10824.32 - 10000)\n    = Rs. 824.32"
     },
     {
       "id": 38,
@@ -453,7 +453,7 @@
         "4"
       ],
       "question": "In what time will Rs. 1000 become Rs. 1331 at 10% per annum compounded annually?",
-      "solution": "P = Rs. 1000\r\nA = Rs. 1331\r\nR = 10%\r\n\r\nLet the time be n years.\r\n\r\n[ 1000 (1+ (10/100))^n ] = 1331\r\n\r\n(11/10)^n = (1331/1000) = (11/10)^3\r\n\r\nn = 3 years"
+      "solution": "P = Rs. 1000\nA = Rs. 1331\nR = 10%\n\nLet the time be n years.\n\n[ 1000 (1+ (10/100))^n ] = 1331\n\n(11/10)^n = (1331/1000) = (11/10)^3\n\nn = 3 years"
     },
     {
       "id": 39,
@@ -465,7 +465,7 @@
         "4"
       ],
       "question": "The compound interest on Rs. 30,000 at 7% per annum is Rs. 4347. The period (in years) is",
-      "solution": "P = 30000\r\nR = 7%\r\nCI = 4347\r\n\r\nA = P+CI = 34347\r\n\r\nA = P[1+(R/100)]^n\r\n\r\n34347 = 30000[1.07]^n\r\n\r\n(1.07)^n = 34347/30000 = 1.1449\r\n\r\n1.07^2 = 1.1449\r\n\r\nn = 2"
+      "solution": "P = 30000\nR = 7%\nCI = 4347\n\nA = P+CI = 34347\n\nA = P[1+(R/100)]^n\n\n34347 = 30000[1.07]^n\n\n(1.07)^n = 34347/30000 = 1.1449\n\n1.07^2 = 1.1449\n\nn = 2"
     },
     {
       "id": 40,
@@ -477,7 +477,7 @@
         "Rs. 3.02"
       ],
       "question": "What is the difference between the compound interests on Rs. 5000 for 1 year at 4% per annum compounded yearly and half-yearly?",
-      "solution": "CI when calculated yearly\r\n\t= 5000 [1.04] - 5000\r\n\t= 200\r\nCI when calculated half-yearly\r\n\t= 500[1.02]^2 - 5000\r\n\t= 202\r\n\r\nDifference\r\n\t= 202-200\r\n\t= 2"
+      "solution": "CI when calculated yearly\n= 5000 [1.04] - 5000\n= 200\nCI when calculated half-yearly\n= 500[1.02]^2 - 5000\n= 202\n\nDifference\n= 202-200\n= 2"
     },
     {
       "id": 41,
@@ -489,7 +489,7 @@
         "Rs. 6240"
       ],
       "question": "There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?",
-      "solution": "Let\r\nP = Rs. 100\r\nS.I. Rs. 60\r\nT = 6 years\r\n\r\nR = 60/(100*6) = 10%\r\n\r\nA = 12000*[1.1]^3 = 15972\r\n\r\nCI = A - P = 3972"
+      "solution": "Let\nP = Rs. 100\nS.I. Rs. 60\nT = 6 years\n\nR = 60/(100*6) = 10%\n\nA = 12000*[1.1]^3 = 15972\n\nCI = A - P = 3972"
     },
     {
       "id": 42,
@@ -501,7 +501,7 @@
         "Rs. 7500"
       ],
       "question": "Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B?",
-      "solution": "Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).\r\n\r\n(x*2*14)/100 + ((13900-x)*2*11)/100 = 3508\r\n\r\n28x+305800-22x = 350800\r\n\r\n6x = 45000\r\n\r\nx = 7500\r\n\r\n13900-x = 6400\r\nx x 14 x 2\r\n\r\n+\r\n\r\n(13900 - x) x 11 x 2\r\n\r\n= 3508\r\n100\r\n100\r\n 28x - 22x = 350800 - (13900 x 22)\r\n 6x = 45000\r\n x = 7500.\r\nSo, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400."
+      "solution": "Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).\n\n(x*2*14)/100 + ((13900-x)*2*11)/100 = 3508\n\n28x+305800-22x = 350800\n\n6x = 45000\n\nx = 7500\n\n13900-x = 6400\nx x 14 x 2\n\n+\n\n(13900 - x) x 11 x 2\n\n= 3508\n100\n100\n 28x - 22x = 350800 - (13900 x 22)\n 6x = 45000\n x = 7500.\nSo, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400."
     },
     {
       "id": 43,
@@ -519,13 +519,13 @@
       "id": 44,
       "answerIndex": 1,
       "answers": [
-        "3.6\r\n",
+        "3.6\n",
         "6",
         "18",
         "Cannot be determined"
       ],
       "question": "Reena took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If she paid Rs. 432 as interest at the end of the loan period, what was the rate of interest?",
-      "solution": "Rate = R%\r\nTime = R years\r\n\r\n1200*R*R/100 = 432\r\n\r\nR*R = 432/12 = 36\r\n\r\nR = 6"
+      "solution": "Rate = R%\nTime = R years\n\n1200*R*R/100 = 432\n\nR*R = 432/12 = 36\n\nR = 6"
     },
     {
       "id": 45,
@@ -537,7 +537,7 @@
         "1095"
       ],
       "question": "If the compound interest on a certain sum at 16 (2/3)% to 3 years is Rs.1270, find the simple interest on the same sum at the same rate and for the same period.",
-      "solution": "Let the sum be Rs. x.\r\n\r\nC.I. = [ x * (1 + (( 50/(3*100))^3 - x ]\r\n      = ((343x / 216) - x)\r\n      = 127x / 216 \r\n\r\n127x /216 = 1270 \r\n\r\nx = (1270 * 216) / 127 = 2160\r\n\r\nP = Rs. 2160 \r\n\r\nS.I. = ( 2160 * (50/3) * 3 * (1 /100 ) )\r\n     = Rs. 1080"
+      "solution": "Let the sum be Rs. x.\n\nC.I. = [ x * (1 + (( 50/(3*100))^3 - x ]\n      = ((343x / 216) - x)\n      = 127x / 216 \n\n127x /216 = 1270 \n\nx = (1270 * 216) / 127 = 2160\n\nP = Rs. 2160 \n\nS.I. = ( 2160 * (50/3) * 3 * (1 /100 ) )\n     = Rs. 1080"
     },
     {
       "id": 46,
@@ -549,7 +549,7 @@
         "21"
       ],
       "question": "The difference between the compound interest and the simple interest accrued on an amount of Rs. 18,000 in 2 years was Rs. 405. What was the rate of interest p.c.p.a.?",
-      "solution": "Let the rate be R% p.a.\r\n\r\n[18000 ( 1 + ( R / 100 )^2 ) - 18000 ] - ((18000 * R * 2) / 100 ) = 405\r\n\r\n18000 [ ( 100 + (R / 100 )^2 / 10000) - 1 - (2R / 100 ) ] = 405\r\n\r\n18000[( (100 + R )^ 2 - 10000 - 200R) / 10000 ] = 405\r\n\r\n9R^2 / 5 = 405 \r\n\r\nR^2 =((405 * 5 ) / 9) = 225 \r\n\r\nR = 15"
+      "solution": "Let the rate be R% p.a.\n\n[18000 ( 1 + ( R / 100 )^2 ) - 18000 ] - ((18000 * R * 2) / 100 ) = 405\n\n18000 [ ( 100 + (R / 100 )^2 / 10000) - 1 - (2R / 100 ) ] = 405\n\n18000[( (100 + R )^ 2 - 10000 - 200R) / 10000 ] = 405\n\n9R^2 / 5 = 405 \n\nR^2 =((405 * 5 ) / 9) = 225 \n\nR = 15"
     },
     {
       "id": 47,
@@ -561,7 +561,7 @@
         "992"
       ],
       "question": "A sum of Rs. 800 amounts to Rs. 920 in 8 years at simple interest. If the interest rate is increased by 3%, how much would the sum amount to?",
-      "solution": "S.l. = Rs. (920 - 800)\r\n     = Rs. 120\r\nP = Rs. 800\r\nT = 3 yrs\r\n\r\nR = ((100 x 120)/(800*3) ) % = 5%\r\n\r\nNew rate\r\n\t= (5 + 3)%\r\n\t= 8%\r\n\r\nNew S.l.\r\n\t= Rs. (800*8*3)/100\r\n\t= Rs. 192 \r\n\r\nNew amount\r\n\t= Rs.(800+192)\r\n\t= Rs. 992"
+      "solution": "S.l. = Rs. (920 - 800)\n     = Rs. 120\nP = Rs. 800\nT = 3 yrs\n\nR = ((100 x 120)/(800*3) ) % = 5%\n\nNew rate\n= (5 + 3)%\n= 8%\n\nNew S.l.\n= Rs. (800*8*3)/100\n= Rs. 192 \n\nNew amount\n= Rs.(800+192)\n= Rs. 992"
     },
     {
       "id": 48,
@@ -573,7 +573,7 @@
         "Rs. 175"
       ],
       "question": "A person borrows Rs. 5000 for 2 years at 4% p.a. simple interest. He immediately lends it to another person at 6(1/4) p.a for 2 years. Find his gain in the transaction per year.",
-      "solution": "Gain in 2 years\r\n\t= 5000*2*[6(1/4) - 4]/100\r\n\t= 10000*9/400\r\n\t= 225"
+      "solution": "Gain in 2 years\n= 5000*2*[6(1/4) - 4]/100\n= 10000*9/400\n= 225"
     },
     {
       "id": 49,
@@ -585,7 +585,7 @@
         "Cannot be determined"
       ],
       "question": "A certain amount earns simple interest of Rs. 1750 after 7 years. Had the interest been 2% more, how much more interest would it have earned?",
-      "solution": "Data inadequate.\r\n\r\nEither the principal or the rate of interest should have been given."
+      "solution": "Data inadequate.\n\nEither the principal or the rate of interest should have been given."
     },
     {
       "id": 50,
@@ -597,7 +597,7 @@
         "Data inadequate"
       ],
       "question": "What will be the ratio of simple interest earned by a certain amount at the same rate of interest for 6 years and that for 9 years?",
-      "solution": "SI is directly proportional to time.\r\n\r\n6:9 = 2:3"
+      "solution": "SI is directly proportional to time.\n\n6:9 = 2:3"
     },
     {
       "id": 51,
@@ -609,7 +609,7 @@
         "5 years"
       ],
       "question": "How much time will it take for an amount of Rs. 450 to yield Rs. 81 as interest at 4.5% per annum of simple interest?",
-      "solution": "T = 81*100/(450*4.5)\r\n   = 4 years"
+      "solution": "T = 81*100/(450*4.5)\n   = 4 years"
     },
     {
       "id": 52,
@@ -621,7 +621,7 @@
         "None of these"
       ],
       "question": "Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 % p.a. How much amount will Albert get on maturity of the fixed deposit?",
-      "solution": "A = 8000*[1.05]^2\r\n   = 8820"
+      "solution": "A = 8000*[1.05]^2\n   = 8820"
     },
     {
       "id": 53,
@@ -633,7 +633,7 @@
         "6.09%"
       ],
       "question": "The effective annual rate of interest corresponding to a nominal rate of 6% per annum payable half-yearly is",
-      "solution": "Let P = 100.\r\n\r\nCompounded half-yearly\r\n\tA = 100*[1.03]^2 = 106.09\r\n\r\nEffective rate\r\n\t= (106.09 - 100)%\r\n\t= 6.09%"
+      "solution": "Let P = 100.\n\nCompounded half-yearly\nA = 100*[1.03]^2 = 106.09\n\nEffective rate\n= (106.09 - 100)%\n= 6.09%"
     },
     {
       "id": 54,
@@ -645,7 +645,7 @@
         "690, 611"
       ],
       "question": "Divide Rs. 1301 between A and B, so that the amount of A after 7 years is equal to the amount of B after 9 years, the interest being compounded at 4% per annum.",
-      "solution": "Let the two parts be Rs. x and Rs. (1301 - x).\r\n\r\nx(1+4/100)^7 =(1301-x)(1+4/100)^9 \r\n\r\nx/(1301-x) = (1+4/100)^2 = (26/25*26/25) \r\n\r\n625x=676(1301-x)\r\n\r\n1301x=676*1301 \r\n\r\nx=676 \r\n\r\nThe two parts are Rs.676 and Rs.625."
+      "solution": "Let the two parts be Rs. x and Rs. (1301 - x).\n\nx(1+4/100)^7 =(1301-x)(1+4/100)^9 \n\nx/(1301-x) = (1+4/100)^2 = (26/25*26/25) \n\n625x=676(1301-x)\n\n1301x=676*1301 \n\nx=676 \n\nThe two parts are Rs.676 and Rs.625."
     },
     {
       "id": 55,
@@ -657,7 +657,7 @@
         "Rs. 2000"
       ],
       "question": "Simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on Rs. 4000 for 2 years at 10% per annum. The sum placed on simple interest is",
-      "solution": "SI = P*3*8/100\r\n\r\nCI = 4000(1.1)^2 - 4000\r\n    = 840\r\n\r\n24P/100 = 840/2\r\n\r\nP = 1750"
+      "solution": "SI = P*3*8/100\n\nCI = 4000(1.1)^2 - 4000\n    = 840\n\n24P/100 = 840/2\n\nP = 1750"
     },
     {
       "id": 56,
@@ -669,7 +669,7 @@
         "Rs. 60"
       ],
       "question": "If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?",
-      "solution": "P*2*5/100 = 50\r\nP = 500\r\n\r\nCI = 500(1.05)^2 - 500\r\n    = 51.25"
+      "solution": "P*2*5/100 = 50\nP = 500\n\nCI = 500(1.05)^2 - 500\n    = 51.25"
     },
     {
       "id": 57,
@@ -681,7 +681,7 @@
         "Cannot be determined"
       ],
       "question": "The difference between compound interest and simple interest on an amount of Rs. 15,000 for 2 years is Rs. 96. What is the rate of interest per annum?",
-      "solution": "CI - SI = 96\r\n\r\n15000[1+(R/100)]^2 - 15000 - (15000*2*R/100) = 96\r\n\r\n15000[(1+(R/100)^2 - 1 - 2R/100] = 96\r\n\r\n1+R²/10000 + 2R/100 -1 - 2R/100 = 96/15000\r\n\r\nR²/10000 = 96/15000\r\n\r\nR² = 96*2/3 = 64\r\n\r\nR = 8"
+      "solution": "CI - SI = 96\n\n15000[1+(R/100)]^2 - 15000 - (15000*2*R/100) = 96\n\n15000[(1+(R/100)^2 - 1 - 2R/100] = 96\n\n1+R²/10000 + 2R/100 -1 - 2R/100 = 96/15000\n\nR²/10000 = 96/15000\n\nR² = 96*2/3 = 64\n\nR = 8"
     },
     {
       "id": 58,
@@ -693,7 +693,7 @@
         "Rs. 800"
       ],
       "question": "The compound interest on a certain sum for 2 years at 10% per annum is Rs. 525. The simple interest on the same sum for double the time at half the rate percent per annum is",
-      "solution": "P*[1.1]^2 - P = 525\r\n\r\n0.21 P = 525\r\n\r\nP = 2500\r\n\r\nSI = 2500*4*5/100 = 500"
+      "solution": "P*[1.1]^2 - P = 525\n\n0.21 P = 525\n\nP = 2500\n\nSI = 2500*4*5/100 = 500"
     },
     {
       "id": 59,
@@ -705,6 +705,6 @@
         "10.5%"
       ],
       "question": "On a sum of money, the simple interest for 2 years is Rs.660, while the compound interest is Rs.696.30, the rate of interest being the same in both the cases. The rate of interest is",
-      "solution": "Difference in C.I and S.I for 2 years\r\n\t= Rs.(696.30-660)\r\n\t= Rs.36.30.\r\n\r\nS.I for one year= Rs330\r\n\r\nS.I on Rs.330 for 1 year=Rs.36.30\r\n\r\n330*1*R/100 = 36.30\r\n\r\nR = 11%."
+      "solution": "Difference in C.I and S.I for 2 years\n= Rs.(696.30-660)\n= Rs.36.30.\n\nS.I for one year= Rs330\n\nS.I on Rs.330 for 1 year=Rs.36.30\n\n330*1*R/100 = 36.30\n\nR = 11%."
     }
   ]

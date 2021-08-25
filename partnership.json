@@ -9,7 +9,7 @@
         "Rs.2000"
       ],
       "question": "A, B and C invest Rs.50000, Rs.30000 and Rs.20000 in a business respectively. If the profit earned is Rs. 20000, find C's share of the profit.",
-      "solution": "Share of Profits between A, B and C is in the ratio 5:3:2\r\n\r\nC's share = (2/10) * 20000 = Rs.4000"
+      "solution": "Share of Profits between A, B and C is in the ratio 5:3:2\n\nC's share = (2/10) * 20000 = Rs.4000"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "Rs.20000"
       ],
       "question": "A and B invest Rs.50000 and Rs.75000 in a business respectively. B withdraws the amount after 8 months. If the profit earned after a year is Rs. 30000, find B's share of the profit.",
-      "solution": "Share of Profits between A and B is in the ratio \r\n\t50000*12:75000*8 =  1:1\r\nB's share = ½ * 30000 = RS.15000"
+      "solution": "Share of Profits between A and B is in the ratio \n50000*12:75000*8 =  1:1\nB's share = ½ * 30000 = RS.15000"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "Rs.40000"
       ],
       "question": "A and B invest Rs.150000 and Rs.200000 in a business respectively. A withdraws an amount of Rs.50000 after 6 months. B withdraws an amount of Rs.50000 after 8 months. If the profit earned is Rs. 74000, find A's share of the profit.",
-      "solution": "A:B = [(150000*6)+(100000*6)] : \r\n\t\t[(200000*8)+(150000*4)] \r\n      = 15:22\r\nA's share = (15/37)*74000 = Rs.30000"
+      "solution": "A:B = [(150000*6)+(100000*6)] : \n[(200000*8)+(150000*4)] \n      = 15:22\nA's share = (15/37)*74000 = Rs.30000"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "1:4:3"
       ],
       "question": "A, B, C share the profits earned after a year in the ratio of 6:8:9. A was a full-time partner. B had partnered for 4 months and C had partnered for 6 months. Find the ratio of their investments.",
-      "solution": "A*12:B*4:C*6 = 6:8:9\r\n\r\nA:B:C = (6/12):(8/4):(9/6) = 1:4:3"
+      "solution": "A*12:B*4:C*6 = 6:8:9\n\nA:B:C = (6/12):(8/4):(9/6) = 1:4:3"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "Rs.60000"
       ],
       "question": "A starts a business investing Rs.40000. B joins him after 4 months. After a year, they divide the profit earned in the ratio of 6:5. How much did B invest?",
-      "solution": "[(12*40000)/8x] = 6/5\r\n\r\nSolving the equation, x=Rs.50000"
+      "solution": "[(12*40000)/8x] = 6/5\n\nSolving the equation, x=Rs.50000"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "Rs. 30000"
       ],
       "question": "Arun started a company investing Rs. 200000. After 8 months, Varun joined him with a capital of Rs. 120000. After 2 years, they earned a profit of Rs. 42000, what is Varun's share of the profit?",
-      "solution": "Profits of Arun and Varun are in the ratio \r\n\t200000*24:120000*16  = 5:2\r\nVarun's share \r\n\t= (2/7) * 42000 = Rs.12000"
+      "solution": "Profits of Arun and Varun are in the ratio \n200000*24:120000*16  = 5:2\nVarun's share \n= (2/7) * 42000 = Rs.12000"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
         "Rs.10000"
       ],
       "question": "A, B and C invest Rs.50000, Rs.75000 and Rs.125000 in a business respectively. The profit earned is Rs.20000. Find the profit share of B.",
-      "solution": "Ratio of the shares of A, B and C \r\n\t= 50000:75000:12500 \r\n\t= 2:3:5\r\nB's share of profit \r\n\t= (3/10) * 20000 \r\n\t= Rs.6000"
+      "solution": "Ratio of the shares of A, B and C \n= 50000:75000:12500 \n= 2:3:5\nB's share of profit \n= (3/10) * 20000 \n= Rs.6000"
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
         "Rs.3800"
       ],
       "question": "A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is",
-      "solution": "Let the total profit be Rs.x\r\n\r\n0.05x goes to charity\r\n\r\nOut of the remaining 95%, \r\n\tA's share is 0.95x*3/5 = 0.57x = 855\r\nx=Rs.1500"
+      "solution": "Let the total profit be Rs.x\n\n0.05x goes to charity\n\nOut of the remaining 95%, \nA's share is 0.95x*3/5 = 0.57x = 855\nx=Rs.1500"
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
         "Rs.2576"
       ],
       "question": "A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest Rs. 6500 for 6 months, B, Rs. 8400 for 5 months and C, Rs. 10,000 for 3 months. A is the only working partner and hence gets 8% of the profits. The profit earned was Rs. 7400. Calculate the share of B in the profit.",
-      "solution": "A:B:C \r\n\t= (6500*6):(8400*5):(10000*3) \r\n\t= 13:14:10\r\n8% goes to A.\r\n\r\nOf the remaining 92%, \r\n\tB's share = 0.92*7400*14/37 = Rs.2576"
+      "solution": "A:B:C \n= (6500*6):(8400*5):(10000*3) \n= 13:14:10\n8% goes to A.\n\nOf the remaining 92%, \nB's share = 0.92*7400*14/37 = Rs.2576"
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
         "Rs.60"
       ],
       "question": "A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is Rs. 175, how much must C pay as his share of rent?",
-      "solution": "A:B:C = 70:60:45\r\n\r\n70x+60x+45x = 175\r\n\r\nx=1\r\n\r\nC's share = Rs.45"
+      "solution": "A:B:C = 70:60:45\n\n70x+60x+45x = 175\n\nx=1\n\nC's share = Rs.45"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
         "Rs.1500"
       ],
       "question": "Ajay, Vijay and Sanjay hired a car for Rs.3000 and used it for 6, 4 and 10 hours respectively. Find the hire charges paid by Ajay.",
-      "solution": "A:V:S = 6:4:10\r\n\r\nCharges paid by Ajay \r\n\t= 3000*(6/20) = Rs.900"
+      "solution": "A:V:S = 6:4:10\n\nCharges paid by Ajay \n= 3000*(6/20) = Rs.900"
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
         "Rs.45000"
       ],
       "question": "A, B and C invest in a business. B invests Rs.5000 more than A and C invests Rs. 5000 more than B. 4/9th of the total profit goes to C. Find the total capital invested in the business.",
-      "solution": "Let the amount of money invested by A be Rs.x\r\n\r\nA:B:C = x:x+5000:x+10000\r\n\r\nC's share = (x+10000)/(3x+15000) = 4/9\r\n\r\nSolving the equation, x = Rs.10000\r\n\r\n3x+15000 = Rs.45000"
+      "solution": "Let the amount of money invested by A be Rs.x\n\nA:B:C = x:x+5000:x+10000\n\nC's share = (x+10000)/(3x+15000) = 4/9\n\nSolving the equation, x = Rs.10000\n\n3x+15000 = Rs.45000"
     },
     {
       "id": 13,
@@ -153,7 +153,7 @@
         "None of these"
       ],
       "question": "A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined them after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed amount A, B and C?",
-      "solution": "A:B:C = (3x*12):(5x*12):(5x*6) \r\n          = 36x:60x:30x = 6:10:5"
+      "solution": "A:B:C = (3x*12):(5x*12):(5x*6) \n          = 36x:60x:30x = 6:10:5"
     },
     {
       "id": 14,
@@ -165,7 +165,7 @@
         "Rs.80000"
       ],
       "question": "P and Q start a business. P invests Rs.20000 more than Q. After a year, the total profit earned is Rs.24000. Q earns Rs.4000 less than P. How much did Q invest in the business?",
-      "solution": "Let the amount invested by Q be Rs.x and the profit earned by Q be Rs.y\r\n\r\nP:Q = (x+20000):x\r\n\r\ny+y+4000 = 24000\r\ny = 10000\r\n\r\nx/(2x+20000) = (10000/24000)\r\nx=Rs.50000"
+      "solution": "Let the amount invested by Q be Rs.x and the profit earned by Q be Rs.y\n\nP:Q = (x+20000):x\n\ny+y+4000 = 24000\ny = 10000\n\nx/(2x+20000) = (10000/24000)\nx=Rs.50000"
     },
     {
       "id": 15,
@@ -177,7 +177,7 @@
         "Rs.9000"
       ],
       "question": "A starts business with Rs. 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?",
-      "solution": "Let B's contribution be Rs.x\r\n\r\nA:B = (3500*12) : (x*7) = 2:3\r\n\r\nSolving the equation, x=9000"
+      "solution": "Let B's contribution be Rs.x\n\nA:B = (3500*12) : (x*7) = 2:3\n\nSolving the equation, x=9000"
     },
     {
       "id": 16,
@@ -189,7 +189,7 @@
         "1:4"
       ],
       "question": "Ram and Raj started a business investing Rs.200000 and Rs.50000 respectively. In what ratio should they divide the profit earned?",
-      "solution": "The profits are divided in proportion to the investments.\r\n\r\n200000:50000 = 4:1"
+      "solution": "The profits are divided in proportion to the investments.\n\n200000:50000 = 4:1"
     },
     {
       "id": 17,
@@ -201,7 +201,7 @@
         "Rs.15000"
       ],
       "question": "Rahul starts a business investing Rs.30000. After a year, Sunil joins him with a capital of Rs.40000 and Tarun joins them after another year with Rs.50000. The profit at the end of three years is Rs.44000. Find Sunil's share.",
-      "solution": "Ratio of their investments after 3 years\r\n\t= (30000*3):(40000*2):(50000)\r\n\t= 9:8:5\r\nSunil's share\r\n\t= (8/22)*44000\r\n\t= Rs.16000"
+      "solution": "Ratio of their investments after 3 years\n= (30000*3):(40000*2):(50000)\n= 9:8:5\nSunil's share\n= (8/22)*44000\n= Rs.16000"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "Rs.20000"
       ],
       "question": "David, Sam and James invest a total sum of Rs.50000. The total profit earned was Rs.4000, of which Sam gets Rs.2000 and James gets Rs.800. Find the capital invested by David.",
-      "solution": "The profit earned by David\r\n\t= 4000-(2000+800)\r\n\t= 1200\r\n\r\nRatio of profits=Ratio of capitals\r\n\r\nDavid's capital\r\n\t=(1200/4000)*50000\r\n\t= 15000"
+      "solution": "The profit earned by David\n= 4000-(2000+800)\n= 1200\n\nRatio of profits=Ratio of capitals\n\nDavid's capital\n=(1200/4000)*50000\n= 15000"
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "2:3:2"
       ],
       "question": "A,B and C start a business with their investments in the ratio 3:2:1. A leaves after 6 months and B leaves after 9 months. Find the ratio of their profits at the end of a year.",
-      "solution": "Ratio of their profits\r\n\t= (3*6):(2*9):(1*12)\r\n\t= 18:18:12\r\n\t= 3:3:2"
+      "solution": "Ratio of their profits\n= (3*6):(2*9):(1*12)\n= 18:18:12\n= 3:3:2"
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "6"
       ],
       "question": "A starts a business with Rs.30000. B joins after a few months with a capital of Rs.40000. If the profits are shared equally after a year, after how months did B join?",
-      "solution": "If B joined after x months, the profits are shared in the ratio\r\n\r\n(30000*12):40000*(12-x) = 1:1\r\n\r\n30000*12=40000*(12-x)\r\n\r\n3*12=4*(12-x)\r\n\r\n48-4x=36\r\n\r\n4x=12\r\n\r\nx=3"
+      "solution": "If B joined after x months, the profits are shared in the ratio\n\n(30000*12):40000*(12-x) = 1:1\n\n30000*12=40000*(12-x)\n\n3*12=4*(12-x)\n\n48-4x=36\n\n4x=12\n\nx=3"
     },
     {
       "id": 21,
@@ -249,7 +249,7 @@
         "Rs.2135"
       ],
       "question": "A, B and C rent a pasture. A grazed his 35 cows for 20 days, B grazed his 20 cows for 30 days and C grazed his 30 cows for 15 days. If A paid Rs.1050 as rent, find the total rent paid by them.",
-      "solution": "Let the rent per cow per day be Rs.x\r\n\r\nA's rent = 35*20x\r\n700x=1050\r\nx=1.5\r\n\r\nTotal rent\r\n\t= 1050+600x+450x\r\n\t= 1050+900+675\r\n\t= Rs.2625"
+      "solution": "Let the rent per cow per day be Rs.x\n\nA's rent = 35*20x\n700x=1050\nx=1.5\n\nTotal rent\n= 1050+600x+450x\n= 1050+900+675\n= Rs.2625"
     },
     {
       "id": 22,
@@ -261,7 +261,7 @@
         "8"
       ],
       "question": "P and Q start a business investing Rs.25000 each. Q leaves after a few months. At the end of 2 years, the profit was divided in the ratio of 12:5. After how many months did Q leave?",
-      "solution": "Let B leave after x months.\r\n\r\nProfit share after 2 years\r\n\t= 25000*24:25000*x\r\n\t= 24:x = 12:5\r\nx=10"
+      "solution": "Let B leave after x months.\n\nProfit share after 2 years\n= 25000*24:25000*x\n= 24:x = 12:5\nx=10"
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
         "Rs.9000"
       ],
       "question": "X,Y and Z divide an amount of Rs.11000 among themselves such that Z get half as much as Y and Y gets thrice as much as X. Find the total share of X and Y.",
-      "solution": "y = 3x\r\nz = y/2 = 3x/2\r\n\r\nx+y+z = 11000\r\nx+3x+3x/2 = 11000\r\n11x/2=11000\r\n\r\nx=Rs.2000\r\ny=Rs.6000\r\n\r\nx+y=8000\r\n"
+      "solution": "y = 3x\nz = y/2 = 3x/2\n\nx+y+z = 11000\nx+3x+3x/2 = 11000\n11x/2=11000\n\nx=Rs.2000\ny=Rs.6000\n\nx+y=8000\n"
     },
     {
       "id": 24,
@@ -285,7 +285,7 @@
         "3:1"
       ],
       "question": "A and B enter into a partnership investing equal amounts. A doubled his capital after a year while B withdrew his capital after 1.5 years. Find the ratio of profit share after 2 years.",
-      "solution": "1.5 years = 18 months\r\n\r\nLet the amount invested by them be Rs.x\r\n\r\nA:B = [(x*12)+(2x*12)]:[x*18]\r\n       = 36x:18x\r\n       = 36:18\r\n       = 2:1"
+      "solution": "1.5 years = 18 months\n\nLet the amount invested by them be Rs.x\n\nA:B = [(x*12)+(2x*12)]:[x*18]\n       = 36x:18x\n       = 36:18\n       = 2:1"
     },
     {
       "id": 25,
@@ -297,7 +297,7 @@
         "Rs.4800"
       ],
       "question": "A and B entered into a partnership investing Rs.16000 and Rs.12000 respectively. After 4 months, A withdrew his capital while B added Rs. 4000 to his capital. After 2 more months, C joins the business with a capital of Rs.20000. Out of a total profit of Rs.22500, find C's share.",
-      "solution": "A withdrew after 4 months.\r\nC joined after 6 months.\r\n\r\nA:B:C \r\n\t= (16000*4):[(12000*4)+(16000*8)]:(20000*6)\r\n\t= 64:176:120\r\n\t= 8:22:15\r\nC'share = (15/45)*22500 = Rs.7500"
+      "solution": "A withdrew after 4 months.\nC joined after 6 months.\n\nA:B:C \n= (16000*4):[(12000*4)+(16000*8)]:(20000*6)\n= 64:176:120\n= 8:22:15\nC'share = (15/45)*22500 = Rs.7500"
     },
     {
       "id": 30,
@@ -309,7 +309,7 @@
         "Rs.1,90,000"
       ],
       "question": "A, B and C start a business investing a total amount of Rs.7,50,000. B left the business after 16 months and C left 4 months after B. After 2 years, the total profit earned is Rs.3,80,000. If A invested Rs.50,000 more than B and B invested Rs.50,000 more than C, find A's share of the profit.",
-      "solution": "A=B+50000\r\nB=C+50000\r\n\tA+B+C=750000\r\n\tB+50000+B+B-50000 = 750000\r\n\tB=250000\r\n\tA=300000\r\n\tC=200000\r\nRaio of Profit share\r\n\t= (30*24):(25*16):(20*20)\r\n\t= 720:400:400\r\n\t= 9:5:5\r\nA's share\r\n\t= (9/19)*380000\r\n\t= Rs.1,80,000"
+      "solution": "A=B+50000\nB=C+50000\nA+B+C=750000\nB+50000+B+B-50000 = 750000\nB=250000\nA=300000\nC=200000\nRaio of Profit share\n= (30*24):(25*16):(20*20)\n= 720:400:400\n= 9:5:5\nA's share\n= (9/19)*380000\n= Rs.1,80,000"
     },
     {
       "id": 29,
@@ -321,7 +321,7 @@
         "25:48"
       ],
       "question": "James and George enter into a partnersip investing 2590$ and 4810$ respectively. After 10 months, they decide to share the profit. Find the ratio of profit share.",
-      "solution": "Ratio of profit shares\r\n\t= 2590:4810\r\n\t= (7*370):(13*370)\r\n\t= 7:13"
+      "solution": "Ratio of profit shares\n= 2590:4810\n= (7*370):(13*370)\n= 7:13"
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "11:15"
       ],
       "question": "Ram starts a business investing Rs.60000. After 3 months, Shyam joined him investing Rs.75000. Find the ratio of profit shares after a year.",
-      "solution": "Ram:Shyam\r\n\t= (60000*12):(75000*9)\r\n\t= 16:15"
+      "solution": "Ram:Shyam\n= (60000*12):(75000*9)\n= 16:15"
     },
     {
       "id": 27,
@@ -345,7 +345,7 @@
         "Rs.35560"
       ],
       "question": "The profit earned from a firm is to be divided between A, B and C in the ratio of 3:5:2. If B's share is Rs.88900, find C's share.",
-      "solution": "Let the total profit be Rs.x\r\n\r\n(5/10)*x = 88900\r\n\r\nx = 177800\r\n\r\nC's share\r\n\t= (2/10)*177800\r\n\t= Rs.35560"
+      "solution": "Let the total profit be Rs.x\n\n(5/10)*x = 88900\n\nx = 177800\n\nC's share\n= (2/10)*177800\n= Rs.35560"
     },
     {
       "id": 26,
@@ -357,6 +357,6 @@
         "Rs.29400"
       ],
       "question": "Harish and Rajesh invested a total amount of Rs.58800 in a firm. If the ratio of their capitals is 2:1, find the amount invested by Rajesh.",
-      "solution": "Amount invested by Rajesh\r\n\t= (1/3)*58800\r\n\t= Rs.19600"
+      "solution": "Amount invested by Rajesh\n= (1/3)*58800\n= Rs.19600"
     }
   ]

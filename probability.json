@@ -9,7 +9,7 @@
       "38/66"
     ],
     "question": "A bag contains 5 red balls, 3 blue balls and 4 green balls. Two balls are drawn out at random. Find the probability that they will be of the same colour.",
-    "solution": "No. of ways of drawing 2 balls from 12 balls \r\n\tn(S) = 12C2 = (12*11)/(2*1) = 66\r\nNo. of ways of drawing two balls of the same colour \r\n\tn(E) = 5C2+3C2+4C2 \r\n\t              = (5*4/2)+(3*2/2)+(4*3/2) = 19\r\nP(E) = n(E)/n(S) = 19/66"
+    "solution": "No. of ways of drawing 2 balls from 12 balls \nn(S) = 12C2 = (12*11)/(2*1) = 66\nNo. of ways of drawing two balls of the same colour \nn(E) = 5C2+3C2+4C2 \n              = (5*4/2)+(3*2/2)+(4*3/2) = 19\nP(E) = n(E)/n(S) = 19/66"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "8/663"
     ],
     "question": "From an ordinary pack of cards, two cards are drawn out at random. Find the probability that they consist of a king and a queen.",
-    "solution": "n(S) = 52C2 = 52*51/2 = 1326\r\n\r\nn(E) = 4C1*4C1 = 16\r\n\r\nP(E) = 16/1326 = 8/663"
+    "solution": "n(S) = 52C2 = 52*51/2 = 1326\n\nn(E) = 4C1*4C1 = 16\n\nP(E) = 16/1326 = 8/663"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "3/4"
     ],
     "question": "Three coins are tossed. Find the probability of getting two heads and a tail.",
-    "solution": "S={HHH,HHT,HTH,HTT,THH,TTH,THT,TTT}\r\n\tn(S) = 8\r\nE = {HHT,HTH,THH}\r\n\tn(E) = 3\r\nP(E) = 3/8"
+    "solution": "S={HHH,HHT,HTH,HTT,THH,TTH,THT,TTT}\nn(S) = 8\nE = {HHT,HTH,THH}\nn(E) = 3\nP(E) = 3/8"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
       "1/5"
     ],
     "question": "Out of 5 children, the eldest is a girl. Find the probability that the rest are boys.",
-    "solution": "Probability of a boy = 1/2\r\n\r\nP(the remaining 4 are boys) \r\n\t= (1/2)*(1/2)*(1/2)*(1/2) = 1/16"
+    "solution": "Probability of a boy = 1/2\n\nP(the remaining 4 are boys) \n= (1/2)*(1/2)*(1/2)*(1/2) = 1/16"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
       "1/5"
     ],
     "question": "Two dice are thrown simultaneously. Find the probability of getting a prime number on both the dice.",
-    "solution": "n(S) = 36\r\n\r\nE = {(2,2),(2,3),(2,5),(3,2),(3,3),(3,5),(5,2),(5,3),(5,5)}\r\n\r\nn(E) = 9\r\n\r\nP(E) = 9/36 = 1/4"
+    "solution": "n(S) = 36\n\nE = {(2,2),(2,3),(2,5),(3,2),(3,3),(3,5),(5,2),(5,3),(5,5)}\n\nn(E) = 9\n\nP(E) = 9/36 = 1/4"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
       "3/13"
     ],
     "question": "A card is drawn at random from a pack of well-shuffled cards. What is the probability that the card is a face card?",
-    "solution": "There are 3 face cards in each suit. \r\n\r\nHence, a total of 12 face cards in a pack.\r\n\r\nP(E) = 12/52 = 3/13"
+    "solution": "There are 3 face cards in each suit. \n\nHence, a total of 12 face cards in a pack.\n\nP(E) = 12/52 = 3/13"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
       "3/4"
     ],
     "question": "What is the probability of getting at most two tails in tossing three fair coins?",
-    "solution": "Probability of getting three tails \r\n\t= 1/8\r\nProbability of getting atmost two tails \r\n\t= 1-(1/8) = 7/8"
+    "solution": "Probability of getting three tails \n= 1/8\nProbability of getting atmost two tails \n= 1-(1/8) = 7/8"
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
       "7/42"
     ],
     "question": "Three balls are drawn out at random from a bag containing 4 red balls and 5 yellow balls. What is the probability of getting at least two red balls?",
-    "solution": "n(S) = 9C3 = (9*8*7)/(3*2*1) = 84\r\n\r\nn(E) = No. of ways of drawing 2 red balls and 1 yellow ball+ \r\n\tNo. of ways of drawing 3 red balls\r\n        = (4C2*5C1) + (4C3) = 34\r\n\r\nP(E) = 34/84 = 17/42"
+    "solution": "n(S) = 9C3 = (9*8*7)/(3*2*1) = 84\n\nn(E) = No. of ways of drawing 2 red balls and 1 yellow ball+ \nNo. of ways of drawing 3 red balls\n        = (4C2*5C1) + (4C3) = 34\n\nP(E) = 34/84 = 17/42"
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
       "1/6"
     ],
     "question": "Two fair dice are thrown. What is the probability of getting a sum that is a multiple of 3?",
-    "solution": "n(S) = 36\r\n\r\nE = {(1,2),(1,5),(2,1),(2,4),(3,3),(3,3),(4,2),(4,5),(5,1),(5,4),(6,3),(6,6)}\r\n\r\nn(E) = 12\r\n\r\nP(E) = 12/36 = 1/3"
+    "solution": "n(S) = 36\n\nE = {(1,2),(1,5),(2,1),(2,4),(3,3),(3,3),(4,2),(4,5),(5,1),(5,4),(6,3),(6,6)}\n\nn(E) = 12\n\nP(E) = 12/36 = 1/3"
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
       "17/52"
     ],
     "question": "The probability that a card drawn from a pack will be a queen or a spade is",
-    "solution": "n(S) = 52\r\n\r\nn(E) = No. of spades + No. of queens in other suits \r\n        = 13+3 = 16\r\nP(E) = 16/52 = 4/13"
+    "solution": "n(S) = 52\n\nn(E) = No. of spades + No. of queens in other suits \n        = 13+3 = 16\nP(E) = 16/52 = 4/13"
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
       "37/88"
     ],
     "question": "A teacher selects two students at random from a class of 30 students. If there are 10 boys and 20 girls in the class, find the probability that both of the selected students are girls.",
-    "solution": "n(S) = 30C2\r\n\r\nn(E) = 20C2\r\n\r\nP(E) = 38/87"
+    "solution": "n(S) = 30C2\n\nn(E) = 20C2\n\nP(E) = 38/87"
   },
   {
     "id": 13,
@@ -153,7 +153,7 @@
       "19/20"
     ],
     "question": "A box contains 20 watches of which 2 are defective. 2 watches are drawn out of the box. Find the probability that both the drawn watches are in good condition.",
-    "solution": "n(S) = 20C2 = 190\r\n\r\nn(E) = 18C2 = 153\r\n\r\nP(E) = 153/190"
+    "solution": "n(S) = 20C2 = 190\n\nn(E) = 18C2 = 153\n\nP(E) = 153/190"
   },
   {
     "id": 14,
@@ -165,7 +165,7 @@
       "11/30"
     ],
     "question": "Two friends appear for an interview. The probability of each of them getting selected is 1/5 and 1/6 respectively. Find the probability that both are selected.",
-    "solution": "P(both being selected) \r\n\t= (1/5)*(1/6) = 1/30"
+    "solution": "P(both being selected) \n= (1/5)*(1/6) = 1/30"
   },
   {
     "id": 15,
@@ -177,7 +177,7 @@
       "21/95"
     ],
     "question": "A box contains 20 electric bulbs, out of which 4 are defective. Two bulbs are chosen at random from this box. The probability that at least one of these is defective is",
-    "solution": "P(No bulb is defective) \r\n\t= 16C2/20C2 = 12/19\r\nP(Atleast one is defective) \r\n\t= 1-(12/19) = 7/19"
+    "solution": "P(No bulb is defective) \n= 16C2/20C2 = 12/19\nP(Atleast one is defective) \n= 1-(12/19) = 7/19"
   },
   {
     "id": 16,
@@ -189,7 +189,7 @@
       "7/10"
     ],
     "question": "A set contains the integers from -5 to +4. A number x is selected at random from the set. Find the probability that |x|>2.",
-    "solution": "S= {-5,-4,-3,-2,-1,0,1,2,3,4}\r\n\r\nNumbers with |x|>2 \r\nE = {-5,-4,-3,3,4}\r\n\r\nn(S) = 10\r\nn(E) = 5\r\n\r\nP(E) = 1/2"
+    "solution": "S= {-5,-4,-3,-2,-1,0,1,2,3,4}\n\nNumbers with |x|>2 \nE = {-5,-4,-3,3,4}\n\nn(S) = 10\nn(E) = 5\n\nP(E) = 1/2"
   },
   {
     "id": 17,
@@ -201,7 +201,7 @@
       "5/12"
     ],
     "question": "Two fair dice are tossed. What is the probability of getting a sum that is a prime number?",
-    "solution": "n(S) = 36\r\n\r\nThe sum can take a maximum value of 12. The prime numbers in that range are 2,3,5,7 and 11.\r\n\r\nE = { (1,1),(1,2),(2,1),(1,4),(2,3),(3,2),(4,1),(1,6),(2,5),(3,4),(4,3),(5,2),(6,1),(5,6),(6,5) }\r\n\r\nn(E) = 15\r\n\r\nP(E) = 15/36 = 5/12"
+    "solution": "n(S) = 36\n\nThe sum can take a maximum value of 12. The prime numbers in that range are 2,3,5,7 and 11.\n\nE = { (1,1),(1,2),(2,1),(1,4),(2,3),(3,2),(4,1),(1,6),(2,5),(3,4),(4,3),(5,2),(6,1),(5,6),(6,5) }\n\nn(E) = 15\n\nP(E) = 15/36 = 5/12"
   },
   {
     "id": 18,
@@ -213,7 +213,7 @@
       "12"
     ],
     "question": "A four-digit number is formed using the digits 1,2,3 and 5 without repetition. Find the probability that the number will be divisible by 5.",
-    "solution": "For the number to be divisible by 5, the last digit should be 5.\r\n\r\nThe first 3 digits can be arranged in any order. \r\n\r\nNo. of ways of arranging 3 digits\r\n\t= 3P3\r\n\t= 3!\r\n\t= 6"
+    "solution": "For the number to be divisible by 5, the last digit should be 5.\n\nThe first 3 digits can be arranged in any order. \n\nNo. of ways of arranging 3 digits\n= 3P3\n= 3!\n= 6"
   },
   {
     "id": 19,
@@ -225,7 +225,7 @@
       "1/3"
     ],
     "question": "Two brothers appeared for an exam. The probability of each of them getting selected is 1/4 and 1/6 respectively. Find the probability that only one of the two are selected.",
-    "solution": "Probability that only of the two are selected\r\n\t= P(A alone selected)+P(B alone selected)\r\n\t= P(A selected)*P(B not selected)+\r\n\t\tP(A not selected)*P(B selected)\r\n\t= [(1/4)*(5/6)]+[(3/4)*(1/6)]\r\n\t= [5/24]+[3/24]\r\n\t= 8/24\r\n\t= 1/3"
+    "solution": "Probability that only of the two are selected\n= P(A alone selected)+P(B alone selected)\n= P(A selected)*P(B not selected)+\nP(A not selected)*P(B selected)\n= [(1/4)*(5/6)]+[(3/4)*(1/6)]\n= [5/24]+[3/24]\n= 8/24\n= 1/3"
   },
   {
     "id": 20,
@@ -237,7 +237,7 @@
       "35/87"
     ],
     "question": "A bag contains 10 pink boxes and 20 blue boxes. 2 boxes are picked at random. Find the probability that they are of the same colour.",
-    "solution": "n(S) = Selecting 2 from 30 boxes\r\n        = 30C2\r\n        = 435\r\nn(E) = Selecting 2 pink or 2 blue boxes\r\n        = 10C2+20C2\r\n        = 45+190\r\n        = 235\r\nP(E) = n(E)/n(S)\r\n        = 47/87"
+    "solution": "n(S) = Selecting 2 from 30 boxes\n        = 30C2\n        = 435\nn(E) = Selecting 2 pink or 2 blue boxes\n        = 10C2+20C2\n        = 45+190\n        = 235\nP(E) = n(E)/n(S)\n        = 47/87"
   },
   {
     "id": 21,
@@ -249,7 +249,7 @@
       "1/27"
     ],
     "question": "A man can hit a target once in 3 shots. If he fires 3 shots in succession, find the probability that he will hit his target.",
-    "solution": "Probability of hitting the target is the sum of the probability of hitting in \r\n\t(i) any 1 of the 3 shots;\r\n\t(ii) any 2 of the 3 shots or\r\n\t(iii) all of the shots.\r\nHence\r\n\tP(E) = 1-Prob of not hitting in 3 shots\r\n\r\nProbability of hitting the target in 1 shot\r\n\t= 1/3\r\nProbability of not hitting the target in 1 shot\r\n\t= 2/3\r\nProbability of not hitting the target in 3 shots\r\n\t= (2/3)*(2/3)*(2/3)\r\n\t= 8/27\r\nProbability of hitting in 3 shots\r\n\t= 1-(8/27)\r\n\t= 19/27"
+    "solution": "Probability of hitting the target is the sum of the probability of hitting in \n(i) any 1 of the 3 shots;\n(ii) any 2 of the 3 shots or\n(iii) all of the shots.\nHence\nP(E) = 1-Prob of not hitting in 3 shots\n\nProbability of hitting the target in 1 shot\n= 1/3\nProbability of not hitting the target in 1 shot\n= 2/3\nProbability of not hitting the target in 3 shots\n= (2/3)*(2/3)*(2/3)\n= 8/27\nProbability of hitting in 3 shots\n= 1-(8/27)\n= 19/27"
   },
   {
     "id": 22,
@@ -261,7 +261,7 @@
       "7/18"
     ],
     "question": "The odds against an event are 11:7. Find the probability that the event will occur.",
-    "solution": "If the odds against an event are 11:7, it means that out of 11+7=18 times,\t\r\n\tit does not occur 11 times and\r\n\toccurs 7 times\r\nProbability of occurrence\r\n\t= 7/18"
+    "solution": "If the odds against an event are 11:7, it means that out of 11+7=18 times,\nit does not occur 11 times and\noccurs 7 times\nProbability of occurrence\n= 7/18"
   },
   {
     "id": 23,
@@ -273,7 +273,7 @@
       "2197/132600"
     ],
     "question": "Find the probability that the first card drawn from a standard deck of cards is a diamond, the second is a spade and the third is a heart. The cards are drawn without replacement.",
-    "solution": "Probability\r\n\t= (13/52)*(13/51)*(13/50)\r\n\t= 2197/132600"
+    "solution": "Probability\n= (13/52)*(13/51)*(13/50)\n= 2197/132600"
   },
   {
     "id": 24,
@@ -285,7 +285,7 @@
       "1/4"
     ],
     "question": "There are 4 hotels in a town. If 3 men check into the hotels in a day, find the probability that each checks into a different hotel.",
-    "solution": "No. of ways in which 3 men can check into 4 hotels\r\n\tn(S) = 4*4*4 = 64\r\nNo. of ways in which they check into different hotels\r\n\tn(E) = 4*3*2 = 24\r\nP(E) = 24/64 = 3/8"
+    "solution": "No. of ways in which 3 men can check into 4 hotels\nn(S) = 4*4*4 = 64\nNo. of ways in which they check into different hotels\nn(E) = 4*3*2 = 24\nP(E) = 24/64 = 3/8"
   },
   {
     "id": 25,
@@ -297,7 +297,7 @@
       "111/154"
     ],
     "question": "The odds in favor of an event are 7:4 while the odds against another event are 9:5. If the events are independent, find the probability that both of the events occur.",
-    "solution": "Probability that the first event will occur\r\n\t= 7/11\r\nProbability that the second event will not occur\r\n\t= 9/(9+5)\r\n\t= 9/14\r\nProbability that the second event will occur\r\n\t= 5/14\r\nProbability that both the events occur\r\n\t= (7/11)*(5/14)\r\n\t= 5/22"
+    "solution": "Probability that the first event will occur\n= 7/11\nProbability that the second event will not occur\n= 9/(9+5)\n= 9/14\nProbability that the second event will occur\n= 5/14\nProbability that both the events occur\n= (7/11)*(5/14)\n= 5/22"
   },
   {
     "id": 30,
@@ -309,7 +309,7 @@
       "14/27"
     ],
     "question": "A bag contains 4 pink and 5 blue beads. Another bag contains 3 pink and 6 blue beads. Two beads are drawn, one from each bag. Find the probability that one is pink and the other is blue.",
-    "solution": "n(S) = 9C1*9C1 = 81\r\n\r\nNo. of ways of selecting a pink and a blue bead\r\n\t= [n(Pink from bag 1)*n(Blue from bag 2)]+\r\n\t\t[n(Blue from bag 1)*n(Pink from bag 2)]\r\nn(E) = (4*6)+(5*3)\r\n        = 39\r\nP(E) = 13/27"
+    "solution": "n(S) = 9C1*9C1 = 81\n\nNo. of ways of selecting a pink and a blue bead\n= [n(Pink from bag 1)*n(Blue from bag 2)]+\n[n(Blue from bag 1)*n(Pink from bag 2)]\nn(E) = (4*6)+(5*3)\n        = 39\nP(E) = 13/27"
   },
   {
     "id": 29,
@@ -321,7 +321,7 @@
       "1/16"
     ],
     "question": "A card is selected at random from a pack of cards. After replacing it, another draw is made. Find the probability that the first card is a spade and the second is a club.",
-    "solution": "P(drawing a spade)\r\n\t= 13/52\r\n\t= 1/4\r\nP(drawing a club)\r\n\t= 1/4\r\nP(E) = (1/4)*(1/4)\r\n        = 1/16"
+    "solution": "P(drawing a spade)\n= 13/52\n= 1/4\nP(drawing a club)\n= 1/4\nP(E) = (1/4)*(1/4)\n        = 1/16"
   },
   {
     "id": 28,
@@ -333,7 +333,7 @@
       "1/6"
     ],
     "question": "A bag contains 2 red, 4 blue and 6 green balls. If one ball is drawn from the bag, what is the probablity that it is red or green?",
-    "solution": "E is the event of drawing a red or green ball.\r\n\r\nn(E) = 8\r\nn(S) = 12\r\nP(E) = 8/12 = 2/3"
+    "solution": "E is the event of drawing a red or green ball.\n\nn(E) = 8\nn(S) = 12\nP(E) = 8/12 = 2/3"
   },
   {
     "id": 27,
@@ -344,8 +344,8 @@
       "1/20",
       "1/4"
     ],
-    "question": "Two integers are randomly selected from the below sets, one from A and the other from set B. Find the probability that the sum of the two integers is 11.\r\n\tA={1,2,3,4,5}\r\n\tB={6,7,8,9,10}",
-    "solution": "No. of ways of selecting 2 integers\r\n\t= n(selecting 1 number from A)*\r\n\t\tn(selecting 1 number from B)\r\n\t= 5*5\r\n\t= 25\r\n{1,10}, {2,9}, (3,8}, (4,7), {5,6}\r\n\tThese 5 pairs of integers have their sum as 11.\r\nn(E) = 5/25 = 1/5"
+    "question": "Two integers are randomly selected from the below sets, one from A and the other from set B. Find the probability that the sum of the two integers is 11.\nA={1,2,3,4,5}\nB={6,7,8,9,10}",
+    "solution": "No. of ways of selecting 2 integers\n= n(selecting 1 number from A)*\nn(selecting 1 number from B)\n= 5*5\n= 25\n{1,10}, {2,9}, (3,8}, (4,7), {5,6}\nThese 5 pairs of integers have their sum as 11.\nn(E) = 5/25 = 1/5"
   },
   {
     "id": 26,
@@ -357,7 +357,7 @@
       "3/25"
     ],
     "question": "Tickets numbered 1 to 100 are placed in a box. Find the probability that a ticket selected at random has a number that is divisible by both 3 and 5.",
-    "solution": "For the number to be divisible by both 3 and 5, it should be a multiple of 15.\r\n\r\nE={15,30,45,60,75,90}\r\nn(E) = 6\r\nn(S) = 100\r\n\r\nP(E) = 6/100 = 3/50"
+    "solution": "For the number to be divisible by both 3 and 5, it should be a multiple of 15.\n\nE={15,30,45,60,75,90}\nn(E) = 6\nn(S) = 100\n\nP(E) = 6/100 = 3/50"
   },
   {
     "id": 31,
@@ -369,7 +369,7 @@
       "17/36"
     ],
     "question": "In a single throw with two dice, find the probability that their sum is a multiple of either 3 or 4.",
-    "solution": "The sum of the throws has to be\r\n\t3, 4, 6, 8, 9, or 12\r\n\r\n3 - (1,2), (2,1)\r\n4 - (1,3), (2,2), (3,1)\r\n6 - (1,5), (2,4), (3,3), (4,2), (5,1)\r\n8 - (2,6), (3,5), (4,4), (5,3), (6,2)\r\n9 - (3,6), (4,5), (5,4), (6,3)\r\n12 - (6,6)\r\n\r\nNo. of possible ways n(E)\r\n\t= 2+3+5+5+4+1\r\n\t= 20\r\nn(S) = 36\r\n\r\nP(E) = 20/36 = 5/9\r\n\r\nIn general, when two dice are thrown, the number of ways of getting 'n' as the sum of the throws is\r\n\t(n-1)     for 2≤n≤7\r\n\t(13-1)   for 8≤n≤13"
+    "solution": "The sum of the throws has to be\n3, 4, 6, 8, 9, or 12\n\n3 - (1,2), (2,1)\n4 - (1,3), (2,2), (3,1)\n6 - (1,5), (2,4), (3,3), (4,2), (5,1)\n8 - (2,6), (3,5), (4,4), (5,3), (6,2)\n9 - (3,6), (4,5), (5,4), (6,3)\n12 - (6,6)\n\nNo. of possible ways n(E)\n= 2+3+5+5+4+1\n= 20\nn(S) = 36\n\nP(E) = 20/36 = 5/9\n\nIn general, when two dice are thrown, the number of ways of getting 'n' as the sum of the throws is\n(n-1)     for 2≤n≤7\n(13-1)   for 8≤n≤13"
   },
   {
     "id": 32,
@@ -381,7 +381,7 @@
       "24/49"
     ],
     "question": "A man who goes to work long before sunrise every morning gets dressed in the dark. In his sock drawer, he has 6 black and 8 blue socks. What is the probability that his first pick was a black sock, but his second pick was a blue sock?",
-    "solution": "Probability of picking up a black sock first and a blue sock second\r\n\t= (6/14)*(8/13)\r\n\t= 24/91"
+    "solution": "Probability of picking up a black sock first and a blue sock second\n= (6/14)*(8/13)\n= 24/91"
   },
   {
     "id": 33,
@@ -393,7 +393,7 @@
       "312/16807"
     ],
     "question": "There are 6 red balls, 8 blue balls and 7 green balls in a bag. If 5 are drawn with replacement, what is the probability that at least three are red?",
-    "solution": "P(3 red balls)\r\n\t= (6/21)*(6/21)*(6/21)*(15/21)*(15/21)\r\n\t= 200/16807\r\nP(4 red balls)\r\n\t= (6/21)*(6/21)*(6/21)*(6/21)*(15/21)\r\n\t= 80/16807\r\nP(5 red balls)\r\n\t= (6/21)*(6/21)*(6/21)*(6/21)*(6/21)\r\n\t= 32/16807\r\nTotal probability\r\n\t= 312/16801"
+    "solution": "P(3 red balls)\n= (6/21)*(6/21)*(6/21)*(15/21)*(15/21)\n= 200/16807\nP(4 red balls)\n= (6/21)*(6/21)*(6/21)*(6/21)*(15/21)\n= 80/16807\nP(5 red balls)\n= (6/21)*(6/21)*(6/21)*(6/21)*(6/21)\n= 32/16807\nTotal probability\n= 312/16801"
   },
   {
     "id": 34,
@@ -405,7 +405,7 @@
       "1/6"
     ],
     "question": "A father purchased dress for his 3 daughters. The dresses are of same color but different size and they are kept in dark room. What is probability that all the 3 will not choose their own dress?",
-    "solution": "If the correct order is 123,\r\n\t231 and 312 are the two ways in which all 3 dont choose their own dress.\r\n\r\nTotal no. of ways of choosing\r\n\t= 3*2*1\r\n\t= 6\r\nP(choosing wrongly)\r\n\t= 2/6\r\n\t= 1/3"
+    "solution": "If the correct order is 123,\n231 and 312 are the two ways in which all 3 dont choose their own dress.\n\nTotal no. of ways of choosing\n= 3*2*1\n= 6\nP(choosing wrongly)\n= 2/6\n= 1/3"
   },
   {
     "id": 35,
@@ -417,7 +417,7 @@
       "1/8"
     ],
     "question": "A drawer holds 4 red hats and 4 blue hats. What is probability of getting exactly 3 red hats or 3 blue hats when taking out 4 hats randomly out of the drawer and immediately returning every hat to the drawer before taking out the next?",
-    "solution": "P(getting a red hat in 1 draw)\r\n\t = 4/8 = 1/2\r\nP(getting a blue hat in 1 draw)\r\n\t= 1/2\r\nP(getting 3 red hats)\r\n\t= (1/2)*(1/2)*(1/2)\r\n\t= 1/8\r\nP(getting 3 blue hats)\r\n\t= 1/8\r\nP(getting 3 red hats or 3 blue hats)\r\n\t= (1/8)+(1/8)\r\n\t= 1/4"
+    "solution": "P(getting a red hat in 1 draw)\n = 4/8 = 1/2\nP(getting a blue hat in 1 draw)\n= 1/2\nP(getting 3 red hats)\n= (1/2)*(1/2)*(1/2)\n= 1/8\nP(getting 3 blue hats)\n= 1/8\nP(getting 3 red hats or 3 blue hats)\n= (1/8)+(1/8)\n= 1/4"
   },
   {
     "id": 36,
@@ -429,7 +429,7 @@
       "12"
     ],
     "question": "There are 4 different letters and 4 addressed envelopes. In how many ways can the letters be put in the envelopes so that atleast one letter goes to the correct address ?",
-    "solution": "No. of ways of putting 4 letters into 4 envelopes\r\n\t= 4!\r\n\r\nNo. of ways that no letter goes into the correct envelope\r\n\t= D4\r\n\t= 4!*[(1/2!)-(1/3!)+(1/4!)]\r\n\t= 24*[(12-4+1)/24]\r\n\t= 9\r\nP(atleast one letter goes into the correct envelope)\r\n\t= 24-9\r\n\t= 15"
+    "solution": "No. of ways of putting 4 letters into 4 envelopes\n= 4!\n\nNo. of ways that no letter goes into the correct envelope\n= D4\n= 4!*[(1/2!)-(1/3!)+(1/4!)]\n= 24*[(12-4+1)/24]\n= 9\nP(atleast one letter goes into the correct envelope)\n= 24-9\n= 15"
   },
   {
     "id": 37,
@@ -441,7 +441,7 @@
       "1/3"
     ],
     "question": "A man is known to speak truth 3 out of 4 times. He throws a die and reports that it is a 6. The probability that it is actually a 6 is",
-    "solution": "Let E be the event that it is actually a 6.\r\n\r\nn(E)\r\n\t= P(6)*P(truth)\r\n\t= (1/6)*(3/4)\r\n\t= 1/8\r\nn(S)\r\n\t= P(6)*P(truth) + P(number other than 6)*P(lie)\r\n\t= [(1/6)*(3/4)] + [(5/6)*(1/4)]\r\n\t= (3/24) + (5/24)\r\n\t= 1/3\r\nP(E)\r\n\t= n(E)/n(S)\r\n\t= (1/8) / (1/3)\r\n\t= 3/8"
+    "solution": "Let E be the event that it is actually a 6.\n\nn(E)\n= P(6)*P(truth)\n= (1/6)*(3/4)\n= 1/8\nn(S)\n= P(6)*P(truth) + P(number other than 6)*P(lie)\n= [(1/6)*(3/4)] + [(5/6)*(1/4)]\n= (3/24) + (5/24)\n= 1/3\nP(E)\n= n(E)/n(S)\n= (1/8) / (1/3)\n= 3/8"
   },
   {
     "id": 38,
@@ -453,7 +453,7 @@
       "5/6"
     ],
     "question": "Eric throws two dice, and his score is the sum of the values shown. Sandra throws one die, and her score is the square of the value shown. What is the probability that Sandra's score will be strictly higher than Eric's score?",
-    "solution": "Sandra's score can be 1, 4, 9, 16, 25 or 36.\r\nEric's score ranges from 2 to 12.\r\n\r\n\r\nWhenever Sandra scores 16, 25 or 36, her score is definitely higher.\r\n\t36+36+36 = 108 ways\r\nIf she scores 1,\r\n\tEric's score will always be greater.\r\nIf she scores 4,\r\n\ther score will be higher only if Eric scores (1,1), (1,2) or (2,1)\r\n\t3 ways\r\nIf she scores 9,\r\n\tEric's score will be greater if he scores (3,6), (4,5), (5,4), (6,3), (4,6), (5,5), (6,4), (5,6), (6,5), (6,6)\r\n\tEric's score will be lesser in (36-10 =)26  ways.\r\n\r\nn(E) = 108+0+3+26\r\n        = 137\r\n\r\nn(S) = No. of ways of throwing three dice\r\n       = 6*6*6 = 216\r\n\r\nP(E) = 137/216"
+    "solution": "Sandra's score can be 1, 4, 9, 16, 25 or 36.\nEric's score ranges from 2 to 12.\n\n\nWhenever Sandra scores 16, 25 or 36, her score is definitely higher.\n36+36+36 = 108 ways\nIf she scores 1,\nEric's score will always be greater.\nIf she scores 4,\nher score will be higher only if Eric scores (1,1), (1,2) or (2,1)\n3 ways\nIf she scores 9,\nEric's score will be greater if he scores (3,6), (4,5), (5,4), (6,3), (4,6), (5,5), (6,4), (5,6), (6,5), (6,6)\nEric's score will be lesser in (36-10 =)26  ways.\n\nn(E) = 108+0+3+26\n        = 137\n\nn(S) = No. of ways of throwing three dice\n       = 6*6*6 = 216\n\nP(E) = 137/216"
   },
   {
     "id": 39,
@@ -464,8 +464,8 @@
       "1/2",
       "5/24"
     ],
-    "question": "In a simultaneous throw of a pair of dice, find the probability of getting the sum more than 7.\r\n",
-    "solution": "n(S) = 36\r\n\r\n(2,6), (3,5), (3,6), (4,4), (4,5), (4,6), (5,3), (5,4), (5,5), (5,6), (6,2), (6,3), (6,4), (6,5), (6,6)\r\n\r\nn(E) = 15\r\n\r\nP(E) = 15/36 = 5/12"
+    "question": "In a simultaneous throw of a pair of dice, find the probability of getting the sum more than 7.\n",
+    "solution": "n(S) = 36\n\n(2,6), (3,5), (3,6), (4,4), (4,5), (4,6), (5,3), (5,4), (5,5), (5,6), (6,2), (6,3), (6,4), (6,5), (6,6)\n\nn(E) = 15\n\nP(E) = 15/36 = 5/12"
   },
   {
     "id": 40,
@@ -477,7 +477,7 @@
       "121/221"
     ],
     "question": "Two cards are drawn at random from a pack of 52 cards. What is the probability that either both are black or both are queens?",
-    "solution": "Probability that both are black\r\n\t= 26C2/52C2\r\n\t= 26*25/(52*51)\r\nProbability that both are queens\r\n\t= 4C2/52C2\r\n\t= 4*3/(52*51)\r\nProbability that both are black queens\r\n\t= 2C2/52C2\r\n\t= 2/(52*51)\r\n\r\nBlack queens are repeated in both. So we subtract them.\r\n\r\nP(BB or QQ)\r\n\t= P(BB)+P(QQ)-P(BQ&BQ)\r\n\t= 660/(52*51)\r\n\t= 55/221"
+    "solution": "Probability that both are black\n= 26C2/52C2\n= 26*25/(52*51)\nProbability that both are queens\n= 4C2/52C2\n= 4*3/(52*51)\nProbability that both are black queens\n= 2C2/52C2\n= 2/(52*51)\n\nBlack queens are repeated in both. So we subtract them.\n\nP(BB or QQ)\n= P(BB)+P(QQ)-P(BQ&BQ)\n= 660/(52*51)\n= 55/221"
   },
   {
     "id": 41,
@@ -489,7 +489,7 @@
       "0.56"
     ],
     "question": "A speaks truth 70% of the time; B speaks truth 80% of the time. What is the probability that both are contradicting each other?",
-    "solution": "P(contradiction)\r\n\t= P(A truth)*P(B lie) + P(B truth)*P(A lie)\r\n\t= (0.7*0.2) + (0.8*0.3)\r\n\t= 0.14+0.24\r\n\t= 0.38"
+    "solution": "P(contradiction)\n= P(A truth)*P(B lie) + P(B truth)*P(A lie)\n= (0.7*0.2) + (0.8*0.3)\n= 0.14+0.24\n= 0.38"
   },
   {
     "id": 42,
@@ -501,7 +501,7 @@
       "6!*9!/14!"
     ],
     "question": "At a banquet, 9 women and 6 men are to be seated in a row of 15 chairs. If the entire seating arrangement is to be chosen at random, what is the probability that all of the men will be seated next to each other in 6 consecutive positions?",
-    "solution": "No. of ways in which 15 people can be seated in a row\r\n\t= 15!\r\n\r\n6 men should be seated together. They can be considered as a single element and should be seated with 9 women.\r\n\r\nNo. of ways of seating 10 people in a row\r\n\t= 10!\r\n\r\nNo. of ways in which the 6 men are seated\r\n\t= 6!\r\n\r\nP(E) = 6!*10!/15!"
+    "solution": "No. of ways in which 15 people can be seated in a row\n= 15!\n\n6 men should be seated together. They can be considered as a single element and should be seated with 9 women.\n\nNo. of ways of seating 10 people in a row\n= 10!\n\nNo. of ways in which the 6 men are seated\n= 6!\n\nP(E) = 6!*10!/15!"
   },
   {
     "id": 43,
@@ -513,7 +513,7 @@
       "0.91"
     ],
     "question": "A certain jar contains 100 jelly beans: 50 white, 30 green, 10 yellow, 5 red, 4 purple, and 1 black. If a jelly bean is to be chosen at random, what is the probability that the jelly bean will be neither purple nor red?",
-    "solution": "P(purple)\r\n\t= 4/100\r\nP(red)\r\n\t= 5/100\r\nP(neither purple nor red)\r\n\t= 1-(4/100)-(5/100)\r\n\t= 1-(9/100)\r\n\t= 91/100\r\n\t= 0.91"
+    "solution": "P(purple)\n= 4/100\nP(red)\n= 5/100\nP(neither purple nor red)\n= 1-(4/100)-(5/100)\n= 1-(9/100)\n= 91/100\n= 0.91"
   },
   {
     "id": 44,
@@ -525,7 +525,7 @@
       "3/4"
     ],
     "question": "The odds that a certain event will occur is the ratio of the probability that the event will occur to the probability that it will not occur. If the odds that Lee will win the match are 4 to 3, what is the probability that Lee will not win the match?",
-    "solution": "P(Lee won't win the match)\r\n\t= 3/(3+4)\r\n\t= 3/7"
+    "solution": "P(Lee won't win the match)\n= 3/(3+4)\n= 3/7"
   },
   {
     "id": 45,
@@ -537,7 +537,7 @@
       "5/8"
     ],
     "question": "If one number is chosen at random from the first 1,000 positive integers, what is the probability that the number chosen is multiple of both 2 and 8?",
-    "solution": "All multiples of 8 will be a multiple of 2.\r\n\r\n1000/8 = 125\r\n\r\nn(E) = 125\r\nn(S) = 1000\r\n\r\nP(E) = 125/1000 = 1/8"
+    "solution": "All multiples of 8 will be a multiple of 2.\n\n1000/8 = 125\n\nn(E) = 125\nn(S) = 1000\n\nP(E) = 125/1000 = 1/8"
   },
   {
     "id": 46,
@@ -549,7 +549,7 @@
       "1/12"
     ],
     "question": "In a group of three people, what is the probability that no two persons share the same month of birth?",
-    "solution": "n(S) = 12*12*12\r\nn(E) = 12*11*10\r\n\r\nP(E) = n(E)/n(S) = 55/72"
+    "solution": "n(S) = 12*12*12\nn(E) = 12*11*10\n\nP(E) = n(E)/n(S) = 55/72"
   },
   {
     "id": 47,
@@ -573,7 +573,7 @@
       "0.25"
     ],
     "question": "A circular dartboard of radius 1 foot is at a distance of 20 feet from you. You throw a dart at it and it hits the dartboard at some point Q in the circle. What is the probability that Q is closer to the center of the circle than the periphery?",
-    "solution": "The dart has to be inside the circle with a radius of 1/2 foot.\r\n\r\nArea of the inner circle\r\n\t= π/4 square feet\r\n\r\nArea of the outer circle\r\n\t= π square feet\r\n\r\nP(Q is closer to the center)\r\n\t= 1/4\r\n\t= 0.25"
+    "solution": "The dart has to be inside the circle with a radius of 1/2 foot.\n\nArea of the inner circle\n= π/4 square feet\n\nArea of the outer circle\n= π square feet\n\nP(Q is closer to the center)\n= 1/4\n= 0.25"
   },
   {
     "id": 49,
@@ -585,7 +585,7 @@
       "3/4"
     ],
     "question": "There are two boxes, one containing 10 red balls and the other containing 10 green balls. You are allowed to move the balls between the boxes so that when you choose a box at random and a ball at random from the chosen box, the probability of getting a red ball is maximized. This maximum probability is",
-    "solution": "1 red ball in a box.\r\n\tP(red ball) = 1\r\n\r\n9 red balls and 10 green balls in the other box.\r\n\tP(red ball) = 9/19\r\n\r\nTotal probability\r\n\t= (1/2)*1 + (1/2)*(9/19)\r\n\t= 14/19"
+    "solution": "1 red ball in a box.\nP(red ball) = 1\n\n9 red balls and 10 green balls in the other box.\nP(red ball) = 9/19\n\nTotal probability\n= (1/2)*1 + (1/2)*(9/19)\n= 14/19"
   },
   {
     "id": 50,
@@ -597,7 +597,7 @@
       "2/3"
     ],
     "question": "For the FIFA world cup, Paul the octopus has been predicting the winner of each match with amazing success. It is rumored that in a match between 2 teams A and B, Paul picks A with the same probability as A's chances of winning. Let's assume such rumors to be true and that in a match between Ghana and Bolivia; Ghana the stronger team has a probability of 2/3 of winning the game. What is the probability that Paul will correctly pick the winner of the Ghana-Bolivia game?",
-    "solution": "P(Ghana winning)\r\n\t= 2/3\r\nP(Paul picking Ghana)\r\n\t= 2/3\r\nP(Bolivia winning)\r\n\t= 1/3\r\nP(Paul picking Bolivia)\r\n\t= 1/3\r\nP(Paul picking the correct winner)\r\n\t= (2/3)*(2/3) + (1/3)*(1/3)\r\n\t= (4/9)+(1/9)\r\n\t= 5/9"
+    "solution": "P(Ghana winning)\n= 2/3\nP(Paul picking Ghana)\n= 2/3\nP(Bolivia winning)\n= 1/3\nP(Paul picking Bolivia)\n= 1/3\nP(Paul picking the correct winner)\n= (2/3)*(2/3) + (1/3)*(1/3)\n= (4/9)+(1/9)\n= 5/9"
   },
   {
     "id": 51,
@@ -609,7 +609,7 @@
       "28/256"
     ],
     "question": "The mean and the variance of a binomial distribution are 4 and 2 respectively. Then the probability of 2 successes is",
-    "solution": "np = 4\r\nnpq = 2\r\n\r\n4q = 2\r\n\r\nq = 1/2\r\np = 1/2\r\nn = 8\r\n\r\nP(2) = 8C2 (p^2)(q^6)\r\n        = 28*(1/2)^8\r\n        = 28/256"
+    "solution": "np = 4\nnpq = 2\n\n4q = 2\n\nq = 1/2\np = 1/2\nn = 8\n\nP(2) = 8C2 (p^2)(q^6)\n        = 28*(1/2)^8\n        = 28/256"
   },
   {
     "id": 52,
@@ -621,7 +621,7 @@
       "0.14"
     ],
     "question": "A speaks the truth 80% of the times and B speaks the truth 60% of the times. What is the probability that they tell the truth at the same time?",
-    "solution": "P(A and B telling the truth)\r\n\t= 0.8*0.6\r\n\t= 0.48"
+    "solution": "P(A and B telling the truth)\n= 0.8*0.6\n= 0.48"
   },
   {
     "id": 53,
@@ -633,7 +633,7 @@
       "9/10"
     ],
     "question": "There are 19 red balls and one black ball. Ten balls are put in a blue jar at random and the remaining 10 are put in a green jar. What is the possibility that the black ball is in the green jar?",
-    "solution": "The black ball has equal probability of ending up in either the blue jar or the green jar.\r\n\r\nSo, probabilty = 1/2"
+    "solution": "The black ball has equal probability of ending up in either the blue jar or the green jar.\n\nSo, probabilty = 1/2"
   },
   {
     "id": 54,
@@ -644,8 +644,8 @@
       "C",
       "D"
     ],
-    "question": "There is a die with 10 faces with the numbers 1-10 written on it. It is not known if it is fair or not. 2 captains want to toss the die for batting selection. What is the possible solution among the following?\r\n\r\nA) If no. is odd it is head, if no. is even it is tail\r\nB) If no. is odd it is tail, if no. is even it is head\r\nC) Toss the die until all the 10 digits appear on top face. And if the first number in the sequence is odd, then consider it as tail. If it is even, consider it as head.\r\nD) None of the above",
-    "solution": "Since it is not known if the die is fair or not,\r\n\toption C is the possible solution."
+    "question": "There is a die with 10 faces with the numbers 1-10 written on it. It is not known if it is fair or not. 2 captains want to toss the die for batting selection. What is the possible solution among the following?\n\nA) If no. is odd it is head, if no. is even it is tail\nB) If no. is odd it is tail, if no. is even it is head\nC) Toss the die until all the 10 digits appear on top face. And if the first number in the sequence is odd, then consider it as tail. If it is even, consider it as head.\nD) None of the above",
+    "solution": "Since it is not known if the die is fair or not,\noption C is the possible solution."
   },
   {
     "id": 55,
@@ -657,7 +657,7 @@
       "505/1001"
     ],
     "question": "There are 6 positive and 8 negative numbers. Four numbers are chosen at random and multiplied. The probability that the product is positive is",
-    "solution": "For the product to be positive, the numbers can be\r\n\t4 positive\r\n\t2 positive, 2 negative\r\n\t4 negative\r\n\r\nn(E)\r\n\t= 6C4+(6C2*8C2)+8C4\r\n\t= 15+420+70\r\n\t= 505\r\nn(S)\r\n\t= 14C4\r\n\t= 1001\r\n\r\nP(E)\r\n\t= 505/1001"
+    "solution": "For the product to be positive, the numbers can be\n4 positive\n2 positive, 2 negative\n4 negative\n\nn(E)\n= 6C4+(6C2*8C2)+8C4\n= 15+420+70\n= 505\nn(S)\n= 14C4\n= 1001\n\nP(E)\n= 505/1001"
   },
   {
     "id": 56,
@@ -669,7 +669,7 @@
       "14/25"
     ],
     "question": "Two dice are rolled together. What is the probability of getting two numbers whose product is odd?",
-    "solution": "Odd*Odd = Odd\r\n\r\nP(Odd) = 1/2\r\n\r\nP(E) = 1/2 * 1/2 = 1/4"
+    "solution": "Odd*Odd = Odd\n\nP(Odd) = 1/2\n\nP(E) = 1/2 * 1/2 = 1/4"
   },
   {
     "id": 57,
@@ -681,7 +681,7 @@
       "2/3"
     ],
     "question": "If x is chosen randomly from the set {1,2,3,4} and y is to be chosen at random from the set {5,6,7}, what is the probability that xy will be even?",
-    "solution": "E = {(1,6), (2,5), (2,6), (2,7), (3,6), (4,5), (4,6), (4,7)}\r\n\r\nn(E) = 8\r\nn(S) = 4*3 = 12\r\n\r\nP(E) = 8/12 = 2/3"
+    "solution": "E = {(1,6), (2,5), (2,6), (2,7), (3,6), (4,5), (4,6), (4,7)}\n\nn(E) = 8\nn(S) = 4*3 = 12\n\nP(E) = 8/12 = 2/3"
   },
   {
     "id": 58,
@@ -693,7 +693,7 @@
       "5/12"
     ],
     "question": "When two dice are tossed, what is the probability that the sum is a prime number?",
-    "solution": "E = {(1,1), (1,2), (1,4), (1,6), (2,1), (2,3), (2,5), (3,2), (3,4), (4,1), (4,3), (5,2), (5,6), (6,1), (6,5)}\r\n\r\nn(E) = 15\r\nn(S) = 36\r\n\r\nP(E) = 5/12"
+    "solution": "E = {(1,1), (1,2), (1,4), (1,6), (2,1), (2,3), (2,5), (3,2), (3,4), (4,1), (4,3), (5,2), (5,6), (6,1), (6,5)}\n\nn(E) = 15\nn(S) = 36\n\nP(E) = 5/12"
   },
   {
     "id": 59,
@@ -705,7 +705,7 @@
       "5/8"
     ],
     "question": "A box contains 100 balls, numbered from 1 to 100. If three balls are selected at random and with replacement from the box, what is the probability that the sum of the three numbers on the balls selected from the box will be odd?",
-    "solution": "O+O+O = Odd\r\nO+E+O = Even \r\nO+O+E = Even\r\nE+O+O = Even \r\nO+E+E = Odd \r\nE+O+E = Odd \r\nE+E+O = Odd\r\nE+E+E = Even\r\n\r\nIn 4 out of the 8 possibilites, the sum is odd.\r\n\r\nP(E) = 4/8 = 1/2"
+    "solution": "O+O+O = Odd\nO+E+O = Even \nO+O+E = Even\nE+O+O = Even \nO+E+E = Odd \nE+O+E = Odd \nE+E+O = Odd\nE+E+E = Even\n\nIn 4 out of the 8 possibilites, the sum is odd.\n\nP(E) = 4/8 = 1/2"
   },
   {
     "id": 60,
@@ -717,7 +717,7 @@
       "11/12"
     ],
     "question": "In a race, the odd favour of cars A,B,C,D are 1:3, 1:4, 1:6 and 1:8 respectively. Find the probability that one of them wins the race.",
-    "solution": "P(A) = 1/3\r\nP(B) = 1/4\r\nP(C) = 1/6\r\nP(D) = 1/8\r\n\r\nAll the events are mutually exclusive.\r\n\r\nRequired Probability\r\n\t= Sum of the 4 Probabilities\r\n\t= (1/3)+(1/4)+(1/6)+(1/8)\r\n\t= 7/8"
+    "solution": "P(A) = 1/3\nP(B) = 1/4\nP(C) = 1/6\nP(D) = 1/8\n\nAll the events are mutually exclusive.\n\nRequired Probability\n= Sum of the 4 Probabilities\n= (1/3)+(1/4)+(1/6)+(1/8)\n= 7/8"
   },
   {
     "id": 61,
@@ -728,8 +728,8 @@
       "0.25",
       "0.30"
     ],
-    "question": "A = {2, 3, 4, 5}\r\n\r\nB= {4, 5, 6, 7, 8}\r\n\r\nTwo integers are randomly selected from the sets above, one from set A and one from set B. What is the probability that the sum of the two integers will equal 9?",
-    "solution": "E = {(2,7), (3,6), (4,5), (5,4)}\r\n\r\nn(E) = 4\r\nn(S) = 4*5 = 20\r\n\r\nP(E) = 4/20 = 1/5 = 0.2"
+    "question": "A = {2, 3, 4, 5}\n\nB= {4, 5, 6, 7, 8}\n\nTwo integers are randomly selected from the sets above, one from set A and one from set B. What is the probability that the sum of the two integers will equal 9?",
+    "solution": "E = {(2,7), (3,6), (4,5), (5,4)}\n\nn(E) = 4\nn(S) = 4*5 = 20\n\nP(E) = 4/20 = 1/5 = 0.2"
   },
   {
     "id": 62,
@@ -741,7 +741,7 @@
       "4/19"
     ],
     "question": "A box contains 20 electric bulbs, out of which 4 are defective. Two bulbs are chosen at random from this box. The probability that at least one of these is defective is",
-    "solution": "Please remember that Maximum portability is 1.\r\n\r\nSo we can get total probability of non defective bulbs and subtract it form 1 to get total probability of defective bulbs.\r\n\r\nSo here we go,\r\nTotal cases of non defective bulbs\r\n\r\n16C2=16*152*1=120total cases =20C2=20*192*1=190probability =120190=1219P of at least one defective =1-1219=719"
+    "solution": "Please remember that Maximum portability is 1.\n\nSo we can get total probability of non defective bulbs and subtract it form 1 to get total probability of defective bulbs.\n\nSo here we go,\nTotal cases of non defective bulbs\n\n16C2=16*152*1=120total cases =20C2=20*192*1=190probability =120190=1219P of at least one defective =1-1219=719"
   },
   {
     "id": 63,
@@ -753,7 +753,7 @@
       "1/5"
     ],
     "question": "A and B sit in a ring arrangement with 8 persons. What is the probability that A and B will sit together?",
-    "solution": "A and B should be together.\r\n\r\nn(S) = No. of ways in which 8 persons can sit around a table\r\n        = 7!\r\n\r\nA&B should always be together. So they can be considered as a single person.\r\n\r\n9 persons can be seated around a table in 8! ways and\r\nA and B can be seated in 2! ways.\r\n\r\nn(E) = 8!*2!\r\n\r\nP(E) = 8!*2!/9! = 2/9"
+    "solution": "A and B should be together.\n\nn(S) = No. of ways in which 8 persons can sit around a table\n        = 7!\n\nA&B should always be together. So they can be considered as a single person.\n\n9 persons can be seated around a table in 8! ways and\nA and B can be seated in 2! ways.\n\nn(E) = 8!*2!\n\nP(E) = 8!*2!/9! = 2/9"
   },
   {
     "id": 64,
@@ -765,7 +765,7 @@
       "1/5"
     ],
     "question": "Find the probability that in a random arrangement of the letters of the word 'UNIVERSITY' the two I's come together.",
-    "solution": "The word UNIVERSITY has 10 letters. The letter I occurs twice.\r\n\r\nn(S)\r\n\t= No. of different ways of arranging the word\r\n\t= 10!/2!\r\n\r\nThe two I's should always come together. So, they can be considered as a single letter.\r\n\r\nn(E)\r\n\t= No. of ways of arranging 9 different letters\r\n\t= 9!\r\n\r\nP(E) = 9!*2/10! = 1/5"
+    "solution": "The word UNIVERSITY has 10 letters. The letter I occurs twice.\n\nn(S)\n= No. of different ways of arranging the word\n= 10!/2!\n\nThe two I's should always come together. So, they can be considered as a single letter.\n\nn(E)\n= No. of ways of arranging 9 different letters\n= 9!\n\nP(E) = 9!*2/10! = 1/5"
   },
   {
     "id": 65,
@@ -777,7 +777,7 @@
       "3/44"
     ],
     "question": "A box contains 3 purple, 4 orange and 5 green balls. Three balls are drawn at random. What is the probability that they are not of the same colour?",
-    "solution": "n(S) = 12C3 = (12*11*10)/6 = 220\r\n\r\nLet E be the event of drawing all balls of the same color.\r\n\r\nn(E) = 5C3+4C3+3C3 = 15\r\n\r\nP(E) = n(E)/n(S) = 15/220 = 3/44\r\n\r\nProbability that all balls are not of the same color\r\n\t= 1 - 3/44\r\n\t= 41/44"
+    "solution": "n(S) = 12C3 = (12*11*10)/6 = 220\n\nLet E be the event of drawing all balls of the same color.\n\nn(E) = 5C3+4C3+3C3 = 15\n\nP(E) = n(E)/n(S) = 15/220 = 3/44\n\nProbability that all balls are not of the same color\n= 1 - 3/44\n= 41/44"
   },
   {
     "id": 66,
@@ -789,7 +789,7 @@
       "13/37"
     ],
     "question": "From a bag containing 4 green and 5 silver balls, a man drawn 3 balls at random. What are the odds against all these balls being silver?",
-    "solution": "n(S) = 9C3 = 9*8*7/6 = 84\r\n\r\nLet E be the event that all the balls are silver.\r\n\r\nn(E) = 5C3 = 10\r\n\r\nP(E) = 10/84 = 5/42\r\n\r\nProbability that all the balls are not silver\r\n\t= 1 - 5/42\r\n\t= 37/42\r\n\r\nOdds against all balls being silver\r\n\t= 37:5"
+    "solution": "n(S) = 9C3 = 9*8*7/6 = 84\n\nLet E be the event that all the balls are silver.\n\nn(E) = 5C3 = 10\n\nP(E) = 10/84 = 5/42\n\nProbability that all the balls are not silver\n= 1 - 5/42\n= 37/42\n\nOdds against all balls being silver\n= 37:5"
   },
   {
     "id": 67,
@@ -801,7 +801,7 @@
       "1/120"
     ],
     "question": "In a race where 12 cars are running, the chance that car X will win is 1/6, that Y will win is 1/10 and that Z will win is 1/8. Assuming that a dead heat is impossible, find the chance that one of them will win.",
-    "solution": "P(X) = 1/6\r\nP(Y) = 1/10\r\nP(Z) = 1/8\r\n\r\nThe required probability is the sum of the three probabilities since they are mutually exclusive events.\r\n\r\nP(X)+P(Y)+P(Z)\r\n\t= 47/120"
+    "solution": "P(X) = 1/6\nP(Y) = 1/10\nP(Z) = 1/8\n\nThe required probability is the sum of the three probabilities since they are mutually exclusive events.\n\nP(X)+P(Y)+P(Z)\n= 47/120"
   },
   {
     "id": 68,
@@ -813,7 +813,7 @@
       "13/36"
     ],
     "question": "Two dice are thrown simultaneously. Find the probability of getting a multiple of 2 on one dice and a multiple of 3 on the other dice.",
-    "solution": "E = {(2,3),(4,3),(6,3),(2,6),(4,6),(6,6),(3,2),(3,4),(3,6),(6,2),(6,4)}\r\n\r\nn(E) = 11\r\nn(S) = 6*6 = 36\r\n\r\nP(E) = 11/36"
+    "solution": "E = {(2,3),(4,3),(6,3),(2,6),(4,6),(6,6),(3,2),(3,4),(3,6),(6,2),(6,4)}\n\nn(E) = 11\nn(S) = 6*6 = 36\n\nP(E) = 11/36"
   },
   {
     "id": 69,
@@ -825,7 +825,7 @@
       "15,000"
     ],
     "question": "In a certain lottery, the prize is Rs. 1 crore and 5000 tickets have been sold. What is the expectation of a man who holds 10 tickets?",
-    "solution": "(10/5000)*1,00,00,000\r\n\t= 20000"
+    "solution": "(10/5000)*1,00,00,000\n= 20000"
   },
   {
     "id": 70,
@@ -837,7 +837,7 @@
       "6"
     ],
     "question": "36 identical chairs must be arranged in rows with the same number of chairs in each row. Each row must contain at least 3 chairs and there must be at least 3 rows. A row is parallel to the front of the room. How many different arrangements are possible?",
-    "solution": "Let R be the number of rows and\r\n\tC be the number of columns.\r\n\r\nR and C can take the values {(6,6),(4,9),(9,4),(12,3),(3,12)}\r\n\r\nNo. of different arrangements\r\n\t= 5"
+    "solution": "Let R be the number of rows and\nC be the number of columns.\n\nR and C can take the values {(6,6),(4,9),(9,4),(12,3),(3,12)}\n\nNo. of different arrangements\n= 5"
   },
   {
     "id": 71,
@@ -849,7 +849,7 @@
       "7/15"
     ],
     "question": "A bag contains 3 white balls and 2 black balls. Another bag contains 2 white and 4 black balls. A bag and a ball are picked at random. The probability that the ball will be white is",
-    "solution": "P(white ball)\r\n\t= [(1/2)*(3/5)]+[(1/2)*(2/6)]\r\n\t= 7/15"
+    "solution": "P(white ball)\n= [(1/2)*(3/5)]+[(1/2)*(2/6)]\n= 7/15"
   },
   {
     "id": 72,
@@ -861,7 +861,7 @@
       "11/50"
     ],
     "question": "Out of a pack of 52 cards, one is lost; from the remainder of the pack, two cards are drawn and are found to be spades. Find the chance that the missing card is a spade.",
-    "solution": "n(S) = 52-2 = 50\r\nn(E) = 13-2 = 11\r\n\r\nP(E) = 11/50"
+    "solution": "n(S) = 52-2 = 50\nn(E) = 13-2 = 11\n\nP(E) = 11/50"
   },
   {
     "id": 73,
@@ -873,7 +873,7 @@
       "1/76"
     ],
     "question": "The letters B,G,I,N and R are rearranged randomly. Find the probability that the word 'BRING' will be formed.",
-    "solution": "No. of different arrangements possible\r\n\t= 5!\r\n\t= 120\r\n\r\n120 different words can be formed.\r\n\r\nProbability that 'BRING' will be formed\r\n\t= 1/120"
+    "solution": "No. of different arrangements possible\n= 5!\n= 120\n\n120 different words can be formed.\n\nProbability that 'BRING' will be formed\n= 1/120"
   },
   {
     "id": 74,
@@ -885,7 +885,7 @@
       "None of these"
     ],
     "question": "The probability that a student is not a swimmer is 1/5. Then the probability that out of the five students, four are swimmers is",
-    "solution": "No. of ways of selecting 4 students from 5\r\n\t= 5C4\r\n\r\nP(Non-Swimmer) = 1/5\r\nP(Swimmer) = 4/5\r\n\r\nRequired Probability\r\n\t= 5C4 *(1/5)*(4/5)^4"
+    "solution": "No. of ways of selecting 4 students from 5\n= 5C4\n\nP(Non-Swimmer) = 1/5\nP(Swimmer) = 4/5\n\nRequired Probability\n= 5C4 *(1/5)*(4/5)^4"
   },
   {
     "id": 75,
@@ -897,7 +897,7 @@
       "3/5"
     ],
     "question": "Tom and Dick are running in the same race. The probabilities of their winning are 1/5 and 1/2 respectively. Find the probability that neither of them will win the race.",
-    "solution": "Required Probability\r\n\t= [1-(1/5)]*[1-(1/2)]\r\n\t= (4/5)*(1/2)\r\n\t= 2/5"
+    "solution": "Required Probability\n= [1-(1/5)]*[1-(1/2)]\n= (4/5)*(1/2)\n= 2/5"
   },
   {
     "id": 76,
@@ -909,7 +909,7 @@
       "99.25"
     ],
     "question": "A pharmaceutical company made 3000 strips of tablets at a cost of Rs. 4800. The company gave away 1000 strips of tablets to doctors as free samples. A discount of 25% was allowed on the printed price. Find the ratio of profit if the price is raised from Rs. 3.25 to Rs. 4.25 per strip and if at the latter price, samples to doctors also included. (New profit/old profit)",
-    "solution": "Case I:\r\n\tCost of a strip = Rs.3.25\r\n\tDiscount = 25%\r\n\r\n\tProfit\r\n\t\t= (2000*3.25*0.75) - 4800\r\n\t\t= 75\r\n\r\nCase II:\r\n\tCost of a strip = Rs.4.25\r\n\tDiscount = 25%\r\n\tSamples to doctors are also included.\r\n\r\n\tProfit\r\n\t\t= (3000*4.25*0.75) - 4800\r\n\t\t= 4762.5\r\n\r\nNew Profit/Old Profit = 4762.5/75 = 63.5"
+    "solution": "Case I:\nCost of a strip = Rs.3.25\nDiscount = 25%\n\nProfit\n= (2000*3.25*0.75) - 4800\n= 75\n\nCase II:\nCost of a strip = Rs.4.25\nDiscount = 25%\nSamples to doctors are also included.\n\nProfit\n= (3000*4.25*0.75) - 4800\n= 4762.5\n\nNew Profit/Old Profit = 4762.5/75 = 63.5"
   },
   {
     "id": 77,
@@ -921,7 +921,7 @@
       "7/11"
     ],
     "question": "A bag contains 3 green and 7 white balls. Two balls are drawn from the bag in succession without replacement. What is the probability that they are of different colors?",
-    "solution": "n(S) = 10C2 = 45\r\n\r\nn(E) = 3C1*7C1 = 21\r\n\r\nP(E) = 21/45 = 7/15"
+    "solution": "n(S) = 10C2 = 45\n\nn(E) = 3C1*7C1 = 21\n\nP(E) = 21/45 = 7/15"
   },
   {
     "id": 78,
@@ -933,7 +933,7 @@
       "25/44"
     ],
     "question": "In a shirt factory, processes A, B and C respectively manufacture 25%, 35% and 40% of the total shirts. Of their respective productions, 5%, 4% and 2% of the shirts are defective. A shirt is selected at random from the production of a particular day. If it is found to be defective, what is the probability that it is manufactured by the process C?",
-    "solution": "% of shirts defective in A\r\n\t= 5% * 25%\r\n\t= 1.25%\r\n% of shirts defective in B\r\n\t= 4% * 35%\r\n\t= 1.4%\r\n% of shirts defective in C\r\n\t= 2% * 40%\r\n\t= 0.8%\r\n\r\n% of the total shirts which are defective\r\n\t= (1.25+1.4+0.8)%\r\n\t= 3.45 %\r\n\r\nP(Defective) = 0.0345\r\nP(C & Defective) = 0.8% = 0.008\r\n\r\nP(C|Defective)\r\n\t= P(C & Defective)/P(Defective)\r\n\t= 0.008/0.345\r\n\t= 0.231\r\n\t= 16/69"
+    "solution": "% of shirts defective in A\n= 5% * 25%\n= 1.25%\n% of shirts defective in B\n= 4% * 35%\n= 1.4%\n% of shirts defective in C\n= 2% * 40%\n= 0.8%\n\n% of the total shirts which are defective\n= (1.25+1.4+0.8)%\n= 3.45 %\n\nP(Defective) = 0.0345\nP(C & Defective) = 0.8% = 0.008\n\nP(C|Defective)\n= P(C & Defective)/P(Defective)\n= 0.008/0.345\n= 0.231\n= 16/69"
   },
   {
     "id": 79,
@@ -945,7 +945,7 @@
       "10 and 1"
     ],
     "question": "A and B throw one dice for a stake of Rs. 11, which is to be won by the player who first throws a six. The game ends when the stake is won by A or B. If A has the first throw, what are their respective expectations?",
-    "solution": "P(throwing a 6) = 1/6\r\nP(not throwing a 6) = 5/6\r\n\r\nP(A winning the stake in the first throw) = 1/6\r\n\r\nP(A winning the stake in the second throw)\r\n\t= (5/6)*(5/6)*(1/6)\r\n\r\n..... and goes on.\r\n\r\nP(B winning the stake in the first throw)\r\n\t= (5/6)*(1/6)\r\nP(B winning the stake in the second throw)\r\n\t= (5/6)*(5/6)*(5/6)*(1/6)\r\n..... and goes on.\r\n\r\nP(A winning)\r\n\t= 1/6 + ((5/6)*(5/6)*(1/6)) + .......\r\n\t= (1/6)*[1+(25/36)+(25/36)²+.....]\r\n\r\nFor the GP,\r\n\ta,ar,ar²,ar³,.....\r\n\r\n\tSum of terms\r\n\t\t= a/(1-r)\tif r<1\r\n\r\nP(A winning)\r\n\t= (1/6)*[1/(1- 25/36)]\r\n\t= 6/11\r\n\r\nE(A winning)\r\n\t= P(A winning) * 11\r\n\t= 6\r\n\r\nP(B winning)\r\n\t= [(5/6)*(1/6)] + ((5/6)*(5/6)*(5/6)*(1/6)) + .......\r\n\t= (5/6)*(1/6)*[1+(25/36)+(25/36)²+.....]\r\n\t= (5/6)*(6/11)\r\n\t= 5/11\r\n\r\nE(B winning)\r\n\t= 5\r\n"
+    "solution": "P(throwing a 6) = 1/6\nP(not throwing a 6) = 5/6\n\nP(A winning the stake in the first throw) = 1/6\n\nP(A winning the stake in the second throw)\n= (5/6)*(5/6)*(1/6)\n\n..... and goes on.\n\nP(B winning the stake in the first throw)\n= (5/6)*(1/6)\nP(B winning the stake in the second throw)\n= (5/6)*(5/6)*(5/6)*(1/6)\n..... and goes on.\n\nP(A winning)\n= 1/6 + ((5/6)*(5/6)*(1/6)) + .......\n= (1/6)*[1+(25/36)+(25/36)²+.....]\n\nFor the GP,\na,ar,ar²,ar³,.....\n\nSum of terms\n= a/(1-r)if r<1\n\nP(A winning)\n= (1/6)*[1/(1- 25/36)]\n= 6/11\n\nE(A winning)\n= P(A winning) * 11\n= 6\n\nP(B winning)\n= [(5/6)*(1/6)] + ((5/6)*(5/6)*(5/6)*(1/6)) + .......\n= (5/6)*(1/6)*[1+(25/36)+(25/36)²+.....]\n= (5/6)*(6/11)\n= 5/11\n\nE(B winning)\n= 5\n"
   },
   {
     "id": 80,
@@ -957,7 +957,7 @@
       "598"
     ],
     "question": "All the words formed by using all the letters A,L,B,E,S,T are arranged, with no repetition, in the alphabetical order, as in a dictionary. What is the rank of the word 'STABLE' in this order?",
-    "solution": "No. of words starting with A = 5!\r\nNo. of words starting with B = 5!\r\nNo. of words starting with E = 5!\r\nNo. of words starting with L = 5!\r\n\r\nNo. of words starting with SA = 4!\r\nNo. of words starting with SB = 4!\r\nNo. of words starting with SE = 4!\r\nNo. of words starting with SL = 4!\r\n\r\nNo. of words starting with STAB = 2!\r\n\tSTABEL\r\n\tSTABLE\r\n\r\nThe rank of STABLE\r\n\t= (4*120)+(4*24)+2\r\n\t= 578"
+    "solution": "No. of words starting with A = 5!\nNo. of words starting with B = 5!\nNo. of words starting with E = 5!\nNo. of words starting with L = 5!\n\nNo. of words starting with SA = 4!\nNo. of words starting with SB = 4!\nNo. of words starting with SE = 4!\nNo. of words starting with SL = 4!\n\nNo. of words starting with STAB = 2!\nSTABEL\nSTABLE\n\nThe rank of STABLE\n= (4*120)+(4*24)+2\n= 578"
   },
   {
     "id": 81,
@@ -969,7 +969,7 @@
       "Q"
     ],
     "question": "Which letter is such that the difference of its integer-code with the integer-code of T is the same as that between the integer-codes of N and S?",
-    "solution": "N = 14\r\nS = 19\r\n\r\nS-N = 5\r\n\r\nT = 20\r\n20-5 = 15\r\n\r\nO = 15"
+    "solution": "N = 14\nS = 19\n\nS-N = 5\n\nT = 20\n20-5 = 15\n\nO = 15"
   },
   {
     "id": 82,
@@ -981,7 +981,7 @@
       "1/35"
     ],
     "question": "The probability that a man will be alive in 35 years is 3/5 and the probability that his wife will be alive is 3/7. Find the probability that after 35 years, both will be alive.",
-    "solution": "P(both will be alive)\r\n\t= (3/5)*(3/7)\r\n\t= 9/35"
+    "solution": "P(both will be alive)\n= (3/5)*(3/7)\n= 9/35"
   },
   {
     "id": 83,
@@ -993,7 +993,7 @@
       "120/297"
     ],
     "question": "The probability that a student will pass in Mathematics is 3/5 and the probability that he will pass in English is 1/3. If the probability that he will pass in both Mathematics and English is 1/8, what is the probability that he will pass in at least one subject?",
-    "solution": "P(Passing in atleast one subject)\r\n\t= (3/5) + (1/3) - (1/8)\r\n\t= 97/120"
+    "solution": "P(Passing in atleast one subject)\n= (3/5) + (1/3) - (1/8)\n= 97/120"
   },
   {
     "id": 84,
@@ -1005,7 +1005,7 @@
       "8"
     ],
     "question": "N persons stand on the circumference of a circle at distinct points. Each possible pair of persons, not standing next to each other, sings a two-minute song one pair after the other. If the total time taken for singing is 28 minutes, what is N?",
-    "solution": "Each person forms a pair with every other person except the two near him.\r\n\r\nSo, each person pairs with (N-3) persons.\r\n\r\nTotal number of pairs = N(N-3)\r\n\r\nBut each pair has been counted twice.\r\n\r\nSo, the number of pairs\r\n\t= N(N-3)/2\r\n\r\n2*N(N-3)/2 = 28\r\n\r\nN(N-3) = 28\r\n\r\n7*4 = 28\r\n\r\nN = 7"
+    "solution": "Each person forms a pair with every other person except the two near him.\n\nSo, each person pairs with (N-3) persons.\n\nTotal number of pairs = N(N-3)\n\nBut each pair has been counted twice.\n\nSo, the number of pairs\n= N(N-3)/2\n\n2*N(N-3)/2 = 28\n\nN(N-3) = 28\n\n7*4 = 28\n\nN = 7"
   },
   {
     "id": 85,
@@ -1017,6 +1017,6 @@
       "None of these"
     ],
     "question": "The game 'Chunk-a-Luck' is played at carnivals in some parts of Europe. Its rules are as follows: You pick a number from 1 to 6 and the operator rolls three dice. If the number you picked comes up on all three dice, the operator pays you Rs. 3 ; If it comes up on two dice, you are paid Rs. 2; And it comes up on just one dice, you are paid Rs. 1. Only if the number you picked does not come up at all, you pay the operator Rs. 1. The probability that you will win money playing in this game is",
-    "solution": "We lose money if the number we choose doesn't appear on all 3 dice.\r\n\r\nP(losing the game)\r\n\t= (5/6)*(5/6)*(5/6)\r\n\t= 125/216\r\n\r\nP(winning money)\r\n\t= 1 - (125/216)\r\n\t= 91/216\r\n\t= 0.42"
+    "solution": "We lose money if the number we choose doesn't appear on all 3 dice.\n\nP(losing the game)\n= (5/6)*(5/6)*(5/6)\n= 125/216\n\nP(winning money)\n= 1 - (125/216)\n= 91/216\n= 0.42"
   }
 ]

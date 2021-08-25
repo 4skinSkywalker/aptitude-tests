@@ -9,7 +9,7 @@
         "75"
       ],
       "question": "In a class test, the average mark of Leena and Meena is 80. The average of Meena and Reena is 85 and the average of Leena and Reena is 90. Find Meena's mark.",
-      "solution": "(L+M)/2 = 80\r\n(M+R)/2 = 85\r\n(L+R)/2 = 90\r\n\r\nSolving the three equations, \r\n\tM = 75"
+      "solution": "(L+M)/2 = 80\n(M+R)/2 = 85\n(L+R)/2 = 90\n\nSolving the three equations, \nM = 75"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "25.5"
       ],
       "question": "Find the average of the first 50 whole numbers.",
-      "solution": "Sum of the first 50 whole numbers \r\n\t= 0+1+2+....+48+49 \r\n\t= 49*50/2 \r\n\r\nAvg = Sum/50 = 49/2 = 24.5"
+      "solution": "Sum of the first 50 whole numbers \n= 0+1+2+....+48+49 \n= 49*50/2 \n\nAvg = Sum/50 = 49/2 = 24.5"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "29"
       ],
       "question": "The average of 5 consecutive odd numbers is 25. Find the smallest of these numbers.",
-      "solution": "Let the 5 numbers be \r\n\tx,x+2,x+4,x+6 and x+8\r\n\r\nAvg of the five numbers \r\n\t= (5x+20)/5 = 25 \r\nx=21"
+      "solution": "Let the 5 numbers be \nx,x+2,x+4,x+6 and x+8\n\nAvg of the five numbers \n= (5x+20)/5 = 25 \nx=21"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "9"
       ],
       "question": "Find the average of all composite numbers between 1 and 15.",
-      "solution": "The composite numbers between 1 and 15 are 4, 6, 8, 9, 10, 12 and 14.\r\n\r\nTheir average is 63/7 = 9"
+      "solution": "The composite numbers between 1 and 15 are 4, 6, 8, 9, 10, 12 and 14.\n\nTheir average is 63/7 = 9"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "16.5"
       ],
       "question": "Find the average of the first ten multiples of 3.",
-      "solution": "Sum of the first 10 multiples of 3 \r\n\t= 3+6+9+...+30 \r\n\t= 3*(1+2+..+10) \r\n\t= 3*(10*11/2) \r\n\t= 165\r\nAverage = 165/10 = 16.5"
+      "solution": "Sum of the first 10 multiples of 3 \n= 3+6+9+...+30 \n= 3*(1+2+..+10) \n= 3*(10*11/2) \n= 165\nAverage = 165/10 = 16.5"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "88"
       ],
       "question": "Vinay scores 96 in the first internal and 82 in the second internal. How much should he score in the third internal in order to get an average of 90?",
-      "solution": "(96+82+x)/3 = 90\t\r\nx = 92"
+      "solution": "(96+82+x)/3 = 90\nx = 92"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
         "11.75"
       ],
       "question": "In a T-20 match, India's target is 180. After 12 overs, the run rate is 7.5. What is the required run for the remaining overs to achieve the target?",
-      "solution": "The score after 12 overs \r\n\t= 12*7.5 = 90. \r\nTo achieve another 90 runs in 8 overs, \r\n\tthe required rate = 90/8 = 11.25"
+      "solution": "The score after 12 overs \n= 12*7.5 = 90. \nTo achieve another 90 runs in 8 overs, \nthe required rate = 90/8 = 11.25"
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
         "15"
       ],
       "question": "The average height of a class of 30 students is 166 cm. The average height of the girls in the class is 158 cm and the average height of the boys is 170 cm. Find the number of boys in the class.",
-      "solution": "Let the number of boys be x.\r\n\r\n170x + 158*(30-x) = 166*30\r\n\r\nSolving, x = 20"
+      "solution": "Let the number of boys be x.\n\n170x + 158*(30-x) = 166*30\n\nSolving, x = 20"
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
         "40"
       ],
       "question": "The average age of 10 members of a committee is the same as it was 4 years ago, because an old member has been replaced by a young member. Find how much younger is the new member?",
-      "solution": "The sum of the ages of the 10 members after 4 years increases by 40.\r\n\r\nSince the average remains the same, the sum should remain the same.\r\n\r\nHence, the new member is 40 years younger than the replaced member.\r\n"
+      "solution": "The sum of the ages of the 10 members after 4 years increases by 40.\n\nSince the average remains the same, the sum should remain the same.\n\nHence, the new member is 40 years younger than the replaced member.\n"
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
         "15"
       ],
       "question": "The average age of our family of four is 35. Excluding me, the average age is 40. Find my age.",
-      "solution": "Sum of all 4 ages\r\n\t= 35*4 \r\n\t= 140\r\n\r\n(140-x)/3 = 40\r\nx=20"
+      "solution": "Sum of all 4 ages\n= 35*4 \n= 140\n\n(140-x)/3 = 40\nx=20"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
         "52.5 kg"
       ],
       "question": "The average weight of A and B is 47.5kg. The average weight of B and C is 52.5 kg. The average weight of all three of them is 50 kg. Find the average weight of A and C.",
-      "solution": "(A+B)/2 = 47.5\r\n(B+C)/2 = 52.5\r\n(A+B+C)/3 = 50\r\n\r\nSolving these, A=45, C=55\r\n\t(A+C)/2 = 50"
+      "solution": "(A+B)/2 = 47.5\n(B+C)/2 = 52.5\n(A+B+C)/3 = 50\n\nSolving these, A=45, C=55\n(A+C)/2 = 50"
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
         "96"
       ],
       "question": "In a cricket match, a team loses all its wickets for 242 runs. Excluding the highest and lowest score, the average runs of the other 9 players is 16. The highest score exceeds the lowest score by 86 runs. Find the highest score.",
-      "solution": "Let the highest score be x.\r\n\r\nSum of the scores of the other 9 players \r\n\t= 16*9 = 144\r\nx+x-86+144 = 242\r\nSolving, x=92 "
+      "solution": "Let the highest score be x.\n\nSum of the scores of the other 9 players \n= 16*9 = 144\nx+x-86+144 = 242\nSolving, x=92 "
     },
     {
       "id": 13,
@@ -153,7 +153,7 @@
         "25"
       ],
       "question": "The average mark of a class in a science test is 75. Geetha was the topper with 96 marks. If her mark was wrongly entered as 69, the average of the class decreases by 1. Find the number of students in the class.",
-      "solution": "Let the number of students be x.\r\n\r\nSum of all marks = 75x\r\n\r\n(75x-96+69)/x = 74\r\n\r\nx=27"
+      "solution": "Let the number of students be x.\n\nSum of all marks = 75x\n\n(75x-96+69)/x = 74\n\nx=27"
     },
     {
       "id": 14,
@@ -165,7 +165,7 @@
         "86.5"
       ],
       "question": "A class is divided into two groups consisting of 20 and 30 students. If the average marks of the two groups in a test are 83 and 88 respectively, find the average mark of the whole class.",
-      "solution": "Sum of the marks of the first group \r\n\t= 20*83 = 1660\r\nSum of the marks of the second group \r\n\t= 30*88 = 2640\r\nAverage of the class = (1660+2640)/50 = 86"
+      "solution": "Sum of the marks of the first group \n= 20*83 = 1660\nSum of the marks of the second group \n= 30*88 = 2640\nAverage of the class = (1660+2640)/50 = 86"
     },
     {
       "id": 15,
@@ -177,7 +177,7 @@
         "42"
       ],
       "question": "The average mark of a class in a mathematics exam is 65. The sum of the marks of all students is 2210. How many students are there in the class?",
-      "solution": "Number of Students\r\n\t= Sum/Average\r\n\t= 2210/65\r\n\t= 34\r\n"
+      "solution": "Number of Students\n= Sum/Average\n= 2210/65\n= 34\n"
     },
     {
       "id": 16,
@@ -189,7 +189,7 @@
         "6"
       ],
       "question": "Find the average of the first six prime numbers.",
-      "solution": "The first 6 prime numbers are\r\n\t2,3,5,7,11,13\r\nTheir average\r\n\t= (2+3+5+7+11+13)/6\r\n\t= 41/6\r\n\t= 6.833"
+      "solution": "The first 6 prime numbers are\n2,3,5,7,11,13\nTheir average\n= (2+3+5+7+11+13)/6\n= 41/6\n= 6.833"
     },
     {
       "id": 17,
@@ -201,7 +201,7 @@
         "62.5 kmph"
       ],
       "question": "During the journey from place A to place B, Peter drove at an average of 70 kmph for 3 hours and 50 kmph for 2 hours. Find his average speed for the total journey.",
-      "solution": "Distance travelled \r\n\t= (70*3)+(50*2)\r\n\t= 310 km\r\nTime taken\r\n\t= 5 hours\r\nAverage Speed\r\n\t= 310/5\r\n\t= 62 kmph\r\n"
+      "solution": "Distance travelled \n= (70*3)+(50*2)\n= 310 km\nTime taken\n= 5 hours\nAverage Speed\n= 310/5\n= 62 kmph\n"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "84 kmph"
       ],
       "question": "Vinu drove 350 kms from Chennai to Bengaluru at an average speed of 70 kmph and drove back a distance of 400 kms at an average speed of 100 kmph. Find his average speed for the whole journey.",
-      "solution": "Time taken for the forward journey\r\n\t= 350/70\r\n\t= 5 hours\r\nTime taken for the return journey\r\n\t= 400/100\r\n\t= 4 hours\r\nTotal time taken \r\n\t= 9 hours\r\nTotal distance travelled\r\n\t= 750 km\r\nAverage Speed\r\n\t= 750/9\r\n\t= 83.33 kmph"
+      "solution": "Time taken for the forward journey\n= 350/70\n= 5 hours\nTime taken for the return journey\n= 400/100\n= 4 hours\nTotal time taken \n= 9 hours\nTotal distance travelled\n= 750 km\nAverage Speed\n= 750/9\n= 83.33 kmph"
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "3x/4"
       ],
       "question": "Find the average of 3x+4, 7-2x and 2x-11.",
-      "solution": "(3x+4+7-2x+2x-11)/3\r\n\t= 3x/3\r\n\t= x"
+      "solution": "(3x+4+7-2x+2x-11)/3\n= 3x/3\n= x"
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "10"
       ],
       "question": "The average of a two digit number and the number obtained by interchanging the digits is 55. What is the sum of the two digits of the number?",
-      "solution": "Let the number be 10x+y.\r\n\r\nThen the number obtained by interchanging the digits is 10y+x.\r\n\r\n(10x+y+10y+x)/2 = 55\r\n\r\n11x+11y = 110\r\n\r\nx+y=10"
+      "solution": "Let the number be 10x+y.\n\nThen the number obtained by interchanging the digits is 10y+x.\n\n(10x+y+10y+x)/2 = 55\n\n11x+11y = 110\n\nx+y=10"
     },
     {
       "id": 21,
@@ -249,7 +249,7 @@
         "8"
       ],
       "question": "If the average of 4,8,6,p and q is 6, find the average of p+1 and q-3. ",
-      "solution": "(4+6+8+p+q)/5 = 6\r\n\r\np+q = 12\r\n\r\n(p+1+q-3)/2 \r\n\t= (p+q-2)/2 \r\n\t= (12-2)/2\r\n\t= 5"
+      "solution": "(4+6+8+p+q)/5 = 6\n\np+q = 12\n\n(p+1+q-3)/2 \n= (p+q-2)/2 \n= (12-2)/2\n= 5"
     },
     {
       "id": 22,
@@ -261,7 +261,7 @@
         "20"
       ],
       "question": "If the average of x and y is 30 and the average of y and z is 20, find x-z.",
-      "solution": "(x+y)/2 = 30\r\nx+y=60\r\n\r\n(y+z)/2 = 20\r\ny+z=40\r\n\r\nx-z = (x+y)-(y+z)\r\n      = 20 \r\n"
+      "solution": "(x+y)/2 = 30\nx+y=60\n\n(y+z)/2 = 20\ny+z=40\n\nx-z = (x+y)-(y+z)\n      = 20 \n"
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
         "8"
       ],
       "question": "S={0,2,5,6,8,9} Which number can be removed from the S without affecting the average of S?",
-      "solution": "If a number which equals the average of a set is removed, the average of the resulting set remains the same. \r\n\r\nAverage of S\r\n\t= 30/6 = 5\r\nIf 5 is removed from the set, the average of S remains the same"
+      "solution": "If a number which equals the average of a set is removed, the average of the resulting set remains the same. \n\nAverage of S\n= 30/6 = 5\nIf 5 is removed from the set, the average of S remains the same"
     },
     {
       "id": 24,
@@ -285,7 +285,7 @@
         "28°C"
       ],
       "question": "The average temperature of a given week was 25°C. If the average temperature on Monday, Tuesday and Wednesday was 23°C and the average temperature of Thursday, Friday and Saturday was 26°C, find the temperature on Sunday.",
-      "solution": "Sum of the temperatures of the week\r\n\t= 25*7 = 175\r\nSum of the temperatures of Monday, Tuesday and Wednesday\r\n\t= 23*3 = 69\r\nSum of the temperatures of Thursday, Friday and Saturday\r\n\t= 26*3 = 78\r\nTemperature on Sunday\r\n\t= 175-69-78\r\n\t= 28°C"
+      "solution": "Sum of the temperatures of the week\n= 25*7 = 175\nSum of the temperatures of Monday, Tuesday and Wednesday\n= 23*3 = 69\nSum of the temperatures of Thursday, Friday and Saturday\n= 26*3 = 78\nTemperature on Sunday\n= 175-69-78\n= 28°C"
     },
     {
       "id": 25,
@@ -297,7 +297,7 @@
         "85"
       ],
       "question": "After his 15th inning, the average score of a batsman increases by 1. His previous average was 80. Find his score in the 15th inning.",
-      "solution": "Total runs scored by him in 14 innings\r\n\t= 80*14\r\n\t= 1120\r\nTotal runs scored by him in 15 innings\r\n\t= 81*15\r\n\t= 1215\r\nScore in the 15th inning\r\n\t= 1215-1120\r\n\t= 95\r\n\r\nTo generalize this,\r\n\tScore = Previous average + (Increase in average*No. of matches)"
+      "solution": "Total runs scored by him in 14 innings\n= 80*14\n= 1120\nTotal runs scored by him in 15 innings\n= 81*15\n= 1215\nScore in the 15th inning\n= 1215-1120\n= 95\n\nTo generalize this,\nScore = Previous average + (Increase in average*No. of matches)"
     },
     {
       "id": 30,
@@ -309,7 +309,7 @@
         "90"
       ],
       "question": "A score of 50 in the 25th inning brings down a batsman's average score by 2. Find his average after the 25th inning.",
-      "solution": "Score = Previous Average -(Decrease in Avg*No. of matches)\r\n\r\n50 = x - (2*25)\r\n\r\nx = 100\r\n\r\nAverage after 25th inning = 100-2 = 98\t"
+      "solution": "Score = Previous Average -(Decrease in Avg*No. of matches)\n\n50 = x - (2*25)\n\nx = 100\n\nAverage after 25th inning = 100-2 = 98"
     },
     {
       "id": 29,
@@ -321,7 +321,7 @@
         "75.5"
       ],
       "question": "In an English exam, the average marks of a class of 19 students is 75. The average of the first 10 students is 86 and the average of the last 10 students is 65. Find the mark scored by the tenth student.",
-      "solution": "Sum of the marks of all students\r\n\t= 19*75\r\n\t= 1425\r\nSum of the marks of the first 10 students\r\n\t= 860\r\nSum of the marks of the last 10 students\r\n\t= 650\r\nMarks scored by the 10th student\r\n\t= 860+650-1425\r\n\t= 85"
+      "solution": "Sum of the marks of all students\n= 19*75\n= 1425\nSum of the marks of the first 10 students\n= 860\nSum of the marks of the last 10 students\n= 650\nMarks scored by the 10th student\n= 860+650-1425\n= 85"
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "3,1.5,0.5"
       ],
       "question": "In a set of three numbers, the first is twice the second and the second is thrice the third. The average of the reciprocals of the three integers is 1/2. Find the three numbers.",
-      "solution": "Let the integers be x, y and z.\r\n\r\ny=3z\r\nx=2y=6z\r\n\r\n[(1/x)+(1/y)+(1/z)]:3 = 1/2\r\n\r\n(1/6z)+(1/3z)+(1/z) = 3/2\r\n\r\n9/6z = 3/2\r\n\r\nz = 1\r\n\r\nx=6, y=3, z=1"
+      "solution": "Let the integers be x, y and z.\n\ny=3z\nx=2y=6z\n\n[(1/x)+(1/y)+(1/z)]:3 = 1/2\n\n(1/6z)+(1/3z)+(1/z) = 3/2\n\n9/6z = 3/2\n\nz = 1\n\nx=6, y=3, z=1"
     },
     {
       "id": 27,
@@ -345,7 +345,7 @@
         "20%"
       ],
       "question": "A set S contains eight positive integers. If each of these numbers is increased by 5%, the average of the set increases by",
-      "solution": "If the average of all numbers in a set is increased equally,\r\n\tthe average of the set also increases equally.\r\nSo, the average of the set increases by 5%"
+      "solution": "If the average of all numbers in a set is increased equally,\nthe average of the set also increases equally.\nSo, the average of the set increases by 5%"
     },
     {
       "id": 26,
@@ -357,7 +357,7 @@
         "18 cm"
       ],
       "question": "The area of a rectangle is 180 cm². If the average of three of its sides is 14 cm, find the fourth side which is the length.",
-      "solution": "Traditional Method:\r\n\r\nAverage of 3 sides is 14cm.\r\n(l+2b)/3 = 14 cm\r\n\tl+2b = 42\r\n\tl = 42-2b\r\nlb = 180 cm²\r\n\t(42-2b)*b = 180\r\n\t42b-2b² = 180\r\n\r\nb²-21b+90 = 0\r\n(b-15)(b-6) = 0\r\n\r\nb can take two values,\r\n\t15cm and 6 cm\r\n\r\nIf b = 15 cm, l =12 cm\r\nIf b = 6 cm, l = 30cm\r\n\r\nBreadth cant be larger than length.\r\nSo, b=6 cm, l=30cm\r\n\r\nTrial and Error method is the quickest way.\r\n\tIf l=15cm, \r\n\t\tb=180/15=12 cm\r\n\t(l+2b)/3=39/3=13\r\n\tBut, the average is 14.\r\n\r\n\tIf l=6cm, b=180/6=30cm\r\n\tb can't be greater than l\r\n\r\n\tIf l=30cm, b=180/30=6 cm\r\n\t(l+2b)/3=42/3 = 14cm\r\nHence, l=30 cm"
+      "solution": "Traditional Method:\n\nAverage of 3 sides is 14cm.\n(l+2b)/3 = 14 cm\nl+2b = 42\nl = 42-2b\nlb = 180 cm²\n(42-2b)*b = 180\n42b-2b² = 180\n\nb²-21b+90 = 0\n(b-15)(b-6) = 0\n\nb can take two values,\n15cm and 6 cm\n\nIf b = 15 cm, l =12 cm\nIf b = 6 cm, l = 30cm\n\nBreadth cant be larger than length.\nSo, b=6 cm, l=30cm\n\nTrial and Error method is the quickest way.\nIf l=15cm, \nb=180/15=12 cm\n(l+2b)/3=39/3=13\nBut, the average is 14.\n\nIf l=6cm, b=180/6=30cm\nb can't be greater than l\n\nIf l=30cm, b=180/30=6 cm\n(l+2b)/3=42/3 = 14cm\nHence, l=30 cm"
     },
     {
       "id": 31,
@@ -369,7 +369,7 @@
         "18"
       ],
       "question": "The average mark obtained by 22 candidates in an examination is 45. The average of the first ten is 55 while the last eleven is 40 .The marks obtained by the 11th candidate is",
-      "solution": "Let the marks obtained by the 11th candidate be x.\r\n\r\n(55*10)+(11*40)+x = (22*45)\r\n\r\n18+x=18\r\n\r\nx=0"
+      "solution": "Let the marks obtained by the 11th candidate be x.\n\n(55*10)+(11*40)+x = (22*45)\n\n18+x=18\n\nx=0"
     },
     {
       "id": 32,
@@ -380,8 +380,8 @@
         "1",
         "-1"
       ],
-      "question": "Find the average of the terms in the series.\r\n\t1-2+3-4+5....+199-200",
-      "solution": "n=200\r\n\r\nSum of the 200 terms\r\n\t= (1-2)+(3-4)+......+(199-200)\r\n\t= (-1)+(-1)+....(-1)\r\n\t= -100\r\nAverage\r\n\t= -100/200\r\n\t= -0.5"
+      "question": "Find the average of the terms in the series.\n1-2+3-4+5....+199-200",
+      "solution": "n=200\n\nSum of the 200 terms\n= (1-2)+(3-4)+......+(199-200)\n= (-1)+(-1)+....(-1)\n= -100\nAverage\n= -100/200\n= -0.5"
     },
     {
       "id": 33,
@@ -393,7 +393,7 @@
         "40"
       ],
       "question": "Mean of 3 numbers is 10 more than the least of the numbers and 15 less than greatest of the 3. If the median of 3 numbers is 5, find the sum of the 3 numbers.",
-      "solution": "Median is the middle number when the numbers are arranged in ascending order.\r\n\r\nHence the three numbers should be\r\n\tx, 5 and y\r\nwhere x is the least of the three and\r\n\ty is the greatest of the three.\r\n\r\nMean\r\n\t= (x+y+5)/3 = x+10 = y-15\r\n\r\n(x+y+5)/3 = x+10\r\nx+y+5 = 3x+30\r\ny=2x+25\r\n\r\nx+10 = y-15\r\nx+10 = 2x+25-15\r\nx = 0\r\ny = 25\r\n\r\nThe numbers are 0, 5 and 25.\r\n\r\nSum of the numbers = 30"
+      "solution": "Median is the middle number when the numbers are arranged in ascending order.\n\nHence the three numbers should be\nx, 5 and y\nwhere x is the least of the three and\ny is the greatest of the three.\n\nMean\n= (x+y+5)/3 = x+10 = y-15\n\n(x+y+5)/3 = x+10\nx+y+5 = 3x+30\ny=2x+25\n\nx+10 = y-15\nx+10 = 2x+25-15\nx = 0\ny = 25\n\nThe numbers are 0, 5 and 25.\n\nSum of the numbers = 30"
     },
     {
       "id": 34,
@@ -405,7 +405,7 @@
         "S(1st 20 no.s)"
       ],
       "question": "Of a set of 30 numbers, average of 1st 10 numbers is equal to average of last 20 numbers. The sum of last 20 numbers is",
-      "solution": "Avg of 1st 10 numbers\r\n\t= Avg of last 20 numbers\r\n\r\nS(1st 10 numbers) / 10\r\n\t= S(last 20 numbers) / 20\r\n\r\nS(last 20 numbers)\r\n\t= 2*S(1st 10 numbers)"
+      "solution": "Avg of 1st 10 numbers\n= Avg of last 20 numbers\n\nS(1st 10 numbers) / 10\n= S(last 20 numbers) / 20\n\nS(last 20 numbers)\n= 2*S(1st 10 numbers)"
     },
     {
       "id": 35,
@@ -417,7 +417,7 @@
         "35"
       ],
       "question": "The average temperature of Tuesday, Wednesday and Thursday was 37 °C. The average temperature of Wednesday, Thursday and Friday was 38 °C. If the temperature on Friday was 39 °C, find the temperature on Tuesday.",
-      "solution": "Sum(Tues, Wed, Thurs)\r\n\t=37*3=111\r\nSum(Wed, Thurs, Fri)\r\n\t= 38*3=114\r\nFri = 39\r\nWed+Thurs\r\n\t= 114-39 = 75\r\nTues = 111-75 = 36"
+      "solution": "Sum(Tues, Wed, Thurs)\n=37*3=111\nSum(Wed, Thurs, Fri)\n= 38*3=114\nFri = 39\nWed+Thurs\n= 114-39 = 75\nTues = 111-75 = 36"
     },
     {
       "id": 36,
@@ -429,7 +429,7 @@
         "No change"
       ],
       "question": "Rajesh calculated his average over the last 24 tests and found it to be 76. He finds out that the marks for three tests have been inverted by mistake. The correct marks for these tests are 87, 79 and 98. What is the approximate percentage difference between his actual average and his incorrect average?",
-      "solution": "Marks entered incorrectly\r\n\t78, 97, 89\r\nCorrect marks\r\n\t87, 79, 98\r\nChange in marks\r\n\t9-18+9 = 0"
+      "solution": "Marks entered incorrectly\n78, 97, 89\nCorrect marks\n87, 79, 98\nChange in marks\n9-18+9 = 0"
     },
     {
       "id": 37,
@@ -441,7 +441,7 @@
         "75 kg"
       ],
       "question": "There are 5 boxes in a cargo. The weight of the 1st box is 200 kg, the weight of the 2nd box is 20% higher than the third box, whose weight is 25% higher than the 1st box weight. The 4th box which weighs 350 kg is 30% lighter than the 5th box. Find the difference in the average weight of the 4 heaviest boxes and the 4 lightest boxes.",
-      "solution": "Weight of first box\r\n\t= 200 kg\r\nWeight of third box\r\n\t= 1.25*200\r\n\t= 250 kg\r\nWeight of second box\r\n\t= 1.2*250\r\n\t= 300 kg\r\nWeight of fourth box\r\n\t= 350 kg\r\n0.7*Weight of fifth box\r\n\t= Weight of fourth box\r\nWeight of fifth box\r\n\t= 350/0.7 = 500 kg\r\n\r\nAvg weight of the 4 heaviest boxes\r\n\t= (250+300+350+500)/4\r\n\t= 1400/4\r\n\t= 350\r\nAvg weight of the 4 lightest boxes\r\n\t= (200+250+300+350)\r\n\t= 1100/4\r\n\t= 275\r\nDifference\r\n\t= 350-275\r\n\t= 75 kg"
+      "solution": "Weight of first box\n= 200 kg\nWeight of third box\n= 1.25*200\n= 250 kg\nWeight of second box\n= 1.2*250\n= 300 kg\nWeight of fourth box\n= 350 kg\n0.7*Weight of fifth box\n= Weight of fourth box\nWeight of fifth box\n= 350/0.7 = 500 kg\n\nAvg weight of the 4 heaviest boxes\n= (250+300+350+500)/4\n= 1400/4\n= 350\nAvg weight of the 4 lightest boxes\n= (200+250+300+350)\n= 1100/4\n= 275\nDifference\n= 350-275\n= 75 kg"
     },
     {
       "id": 38,
@@ -453,7 +453,7 @@
         "7 mins"
       ],
       "question": "The times taken by a phone operator to complete a call are 2,9,3,1,5 minutes respectively.What is the median time per call?",
-      "solution": "Median is the middle value of a set of data when arranged in ascending order.\r\n\r\n1,2,3,5,9\r\n\r\nMedian - 3"
+      "solution": "Median is the middle value of a set of data when arranged in ascending order.\n\n1,2,3,5,9\n\nMedian - 3"
     },
     {
       "id": 39,
@@ -465,7 +465,7 @@
         "5 mins"
       ],
       "question": "The times taken by a phone operator to complete a call are 2,9,3,1,5 minutes respectively. What is the average time per call?",
-      "solution": "Avg\r\n\t= (2+9+3+1+5)/5\r\n\t= 20/5\r\n\t= 4 mins"
+      "solution": "Avg\n= (2+9+3+1+5)/5\n= 20/5\n= 4 mins"
     },
     {
       "id": 40,
@@ -477,7 +477,7 @@
         "55"
       ],
       "question": "3 friends A, B, C went for week end party to McDonald's restaurant and there they measure their weights in some order in 7 rounds. A, B, C, AB, BC, AC, ABC. Final round measure is 155kg then find the average weight of all the 7 rounds.",
-      "solution": "Final round measure = 155\r\nA+B+C = 155\r\n\r\nSum of weights of all rounds\r\n\t= A+B+C+A+B+B+C+A+C+A+B+C\r\n\t= 4(A+B+C)\r\n\t= 4*155\r\n\t= 620\r\nAverage weight of 7 rounds\r\n\t= 620/7\r\n\t= 88.5"
+      "solution": "Final round measure = 155\nA+B+C = 155\n\nSum of weights of all rounds\n= A+B+C+A+B+B+C+A+C+A+B+C\n= 4(A+B+C)\n= 4*155\n= 620\nAverage weight of 7 rounds\n= 620/7\n= 88.5"
     },
     {
       "id": 41,
@@ -489,7 +489,7 @@
         "12 years"
       ],
       "question": "The average ages of three persons is 27 years. Their ages are in the proportion of 1:3:5. What is the age, in years, of the youngest one among them?",
-      "solution": "(x+3x+5x)/3 = 27\r\n\r\n9x=81\r\n\r\nx=9"
+      "solution": "(x+3x+5x)/3 = 27\n\n9x=81\n\nx=9"
     },
     {
       "id": 42,
@@ -501,7 +501,7 @@
         "56"
       ],
       "question": "The average of 11 numbers is 50. If the average of the first 6 numbers is 49 and that of the last 6 is 52, find the 6th number.",
-      "solution": "Sum of the first 6 numbers\r\n\t= 49*6 = 294\r\nSum of the last 6 numbers\r\n\t= 52*6 = 312\r\nSum of the 11 numbers\r\n\t= 550\r\nSixth number\r\n\t= 294+312-550\r\n\t= 56"
+      "solution": "Sum of the first 6 numbers\n= 49*6 = 294\nSum of the last 6 numbers\n= 52*6 = 312\nSum of the 11 numbers\n= 550\nSixth number\n= 294+312-550\n= 56"
     },
     {
       "id": 43,
@@ -513,7 +513,7 @@
         "Rs.38.13"
       ],
       "question": "13 sheeps and 9 pigs were bought for Rs.1291.85. If the average price of a sheep is Rs.74, what is the average price of a pig?",
-      "solution": "Total price of 13 sheeps\r\n\t= 13*74 = Rs.962\r\nTotal price of 9 pigs\r\n\t= 1291.85-962\r\n\t= Rs. 329.85\r\nAverage price of a pig\r\n\t= 329.85/9\r\n\t= Rs.36.65"
+      "solution": "Total price of 13 sheeps\n= 13*74 = Rs.962\nTotal price of 9 pigs\n= 1291.85-962\n= Rs. 329.85\nAverage price of a pig\n= 329.85/9\n= Rs.36.65"
     },
     {
       "id": 44,
@@ -525,7 +525,7 @@
         "48"
       ],
       "question": "A batsman in his 18th innings makes a score of 150 runs and thereby increases his average by 6. Find his average after 18th innings.",
-      "solution": "Let the average score of the first 17 innings be x runs.\r\n\r\nTotal runs in 17 innings\r\n\t= 17x\r\nTotal runs in 18 innings\r\n\t= 17x+150\r\n\r\n(17x+150)/18 = x+6\r\n\r\n17x+150 = 18x+108\r\n\r\nx=42\r\n\r\nAverage after 18 innings = 48"
+      "solution": "Let the average score of the first 17 innings be x runs.\n\nTotal runs in 17 innings\n= 17x\nTotal runs in 18 innings\n= 17x+150\n\n(17x+150)/18 = x+6\n\n17x+150 = 18x+108\n\nx=42\n\nAverage after 18 innings = 48"
     },
     {
       "id": 45,
@@ -537,7 +537,7 @@
         "33"
       ],
       "question": "The average of 50 numbers is 38. Two numbers, 45 and 55 are discarded. The average of the remaining numbers is",
-      "solution": "Sum of 50 numbers\r\n\t= 50*38\r\n\t= 1900\r\nAverage of 48 numbers\r\n\t= (1900-45-55)/48\r\n\t= 1800/48\r\n\t= 37.5"
+      "solution": "Sum of 50 numbers\n= 50*38\n= 1900\nAverage of 48 numbers\n= (1900-45-55)/48\n= 1800/48\n= 37.5"
     },
     {
       "id": 46,
@@ -549,7 +549,7 @@
         "4"
       ],
       "question": "Five years ago, the average age of a family of 3 members was 27 years. A child has been born, due to which the average age of the family is 25 years today. What is the present age of the child?",
-      "solution": "Current average age of the 3 members\r\n\t= 27+5 = 32\r\n\r\nLet the age of the child be x years.\r\n\r\n((32*3)+x)/4 = 25\r\n\r\n96+x = 100\r\n\r\nx=4"
+      "solution": "Current average age of the 3 members\n= 27+5 = 32\n\nLet the age of the child be x years.\n\n((32*3)+x)/4 = 25\n\n96+x = 100\n\nx=4"
     },
     {
       "id": 47,
@@ -561,7 +561,7 @@
         "75"
       ],
       "question": "6 persons of different age groups are standing in queue. After two years, their average age will be 43. A seventh person joins them and hence the current average age becomes 45. Find the age of the seventh person.",
-      "solution": "Current average age of the six persons\r\n\t= 41\r\nSum of their ages\r\n\t= 41*6 = 246\r\nSum of the ages of the 7 persons\r\n\t= 45*7\r\n\t= 315\r\nAge of the seventh person\r\n\t= 315-246\r\n\t= 69"
+      "solution": "Current average age of the six persons\n= 41\nSum of their ages\n= 41*6 = 246\nSum of the ages of the 7 persons\n= 45*7\n= 315\nAge of the seventh person\n= 315-246\n= 69"
     },
     {
       "id": 48,
@@ -573,7 +573,7 @@
         "49"
       ],
       "question": "In a market 4 men are standing. The average age of the four before 4 years was 45. After some days, one man is added and his age is 49. What is the average age of all?",
-      "solution": "The current average age of the 4 persons is 45+4=49.\r\n\r\nAge of the fifth person is also 49.\r\n\r\nHence, the average age remains the same."
+      "solution": "The current average age of the 4 persons is 45+4=49.\n\nAge of the fifth person is also 49.\n\nHence, the average age remains the same."
     },
     {
       "id": 49,
@@ -585,7 +585,7 @@
         "2/5"
       ],
       "question": "One adult and 10 children are on an elevator. If the adult's weight is 4 times the average (arithmetic mean) weight of the children, the adult's weight is what fraction of the total weight of the 11 people on the elevator?",
-      "solution": "Let the average weight of the 10 children be x.\r\n\r\nAdult's weight = 4x\r\n\r\nTotal weight of 11 people\r\n\t= 10x+4x\r\n\t= 14x\r\n\r\n4x/14x = 2/7"
+      "solution": "Let the average weight of the 10 children be x.\n\nAdult's weight = 4x\n\nTotal weight of 11 people\n= 10x+4x\n= 14x\n\n4x/14x = 2/7"
     },
     {
       "id": 50,
@@ -597,7 +597,7 @@
         "60"
       ],
       "question": "In a class of 20 students, in an examination in Mathematics, 2 students scored 100 marks each, 3 get zero each and the average of the rest was 40. What is the average of the whole class?",
-      "solution": "Average marks of 15 students\r\n\t= 40\r\n\r\nSum of the marks of 20 students\r\n\t= (2*100)+(3*0)+(15*40)\r\n\t= 800\r\nAverage of the class\r\n\t= 800/20\r\n\t= 40"
+      "solution": "Average marks of 15 students\n= 40\n\nSum of the marks of 20 students\n= (2*100)+(3*0)+(15*40)\n= 800\nAverage of the class\n= 800/20\n= 40"
     },
     {
       "id": 51,
@@ -609,7 +609,7 @@
         "None of these"
       ],
       "question": "There are two qualities of milk Amul and Sudha, having different prices per litre, their volumes being 130 litres and 180 litres respectively After equal amounts of milk were removed from both, the milk removed from Amul was added to Sudha and vice-versa. The resulting two types of milk now have the same price per liter. Find the amount of milk drawn out from each type of milk.",
-      "solution": "Let x liters of milk be removed from both and\r\n\tthe price of Amul and Sudha per liter be Rs.a and Rs.s\r\n\r\n((130-x)*a + x*s)/130 = ((180-x)*s + x*a)/180\r\n\r\n(180*130)a-180 ax + 180 sx = (180*130)s - 130 sx + 130 ax\r\n\r\n23400(a-s) - 180x(a-s) = 130x (a-s)\r\n\r\na != s, so (a-s) can be cancelled on both sides.\r\n\r\n23400 - 180x = 130x\r\n\r\n310x = 23400\r\n\r\nx = 75.48"
+      "solution": "Let x liters of milk be removed from both and\nthe price of Amul and Sudha per liter be Rs.a and Rs.s\n\n((130-x)*a + x*s)/130 = ((180-x)*s + x*a)/180\n\n(180*130)a-180 ax + 180 sx = (180*130)s - 130 sx + 130 ax\n\n23400(a-s) - 180x(a-s) = 130x (a-s)\n\na != s, so (a-s) can be cancelled on both sides.\n\n23400 - 180x = 130x\n\n310x = 23400\n\nx = 75.48"
     },
     {
       "id": 52,
@@ -621,7 +621,7 @@
         "30 years"
       ],
       "question": "The average age of 8 men increased by 2 years when two of them whose ages are 21 years and 23 years are replaced by two new men. The average age of the two new men is",
-      "solution": "Let the initial average of the 8 men be x.\r\n\r\nSum of the ages of the 8 men = 8x\r\nSum of the ages of 8 men after replacing = 8(x+2)\r\n\r\n8(x+2) - Sum of the ages of 2 new men = 8x - 21 - 23\r\n\r\nSum of the ages of the 2 new men\r\n\t= 8(x+2)-8x+21+23\r\n\t= 60\r\n\r\nAverage age of the two men\r\n\t= 30"
+      "solution": "Let the initial average of the 8 men be x.\n\nSum of the ages of the 8 men = 8x\nSum of the ages of 8 men after replacing = 8(x+2)\n\n8(x+2) - Sum of the ages of 2 new men = 8x - 21 - 23\n\nSum of the ages of the 2 new men\n= 8(x+2)-8x+21+23\n= 60\n\nAverage age of the two men\n= 30"
     },
     {
       "id": 53,
@@ -632,8 +632,8 @@
         "C",
         "D"
       ],
-      "question": "There are 60 students in a class. These students are divided into three groups A, B and C of 15, 20 and 25 students each. The groups A and C are combined to form group D. If all students of the class have the same weight, then which of the following is false?\r\n\r\n(A) The average weight of all the four groups is the same.\r\n(B) The total weight of A and C is twice the total weight of B.\r\n(C) The average weight of D is greater than the average weight of A.\r\n(D) The average weight of all the groups remains the same even if a number of students are shifted from one group to another.",
-      "solution": "D is false.\r\n\r\nThe average weight remains the same since all the students have the same weight."
+      "question": "There are 60 students in a class. These students are divided into three groups A, B and C of 15, 20 and 25 students each. The groups A and C are combined to form group D. If all students of the class have the same weight, then which of the following is false?\n\n(A) The average weight of all the four groups is the same.\n(B) The total weight of A and C is twice the total weight of B.\n(C) The average weight of D is greater than the average weight of A.\n(D) The average weight of all the groups remains the same even if a number of students are shifted from one group to another.",
+      "solution": "D is false.\n\nThe average weight remains the same since all the students have the same weight."
     },
     {
       "id": 54,
@@ -645,7 +645,7 @@
         "672"
       ],
       "question": "A team of 8 persons joins in a shooting competition. The best marksman scored 85 points. If he had scored 92 points, the average score for the team would have been 84. The number of points, the team scored was",
-      "solution": "Let the score of the team be x.\r\n\r\n(x-85+92)/8 = 84\r\n\r\nx = 665"
+      "solution": "Let the score of the team be x.\n\n(x-85+92)/8 = 84\n\nx = 665"
     },
     {
       "id": 55,
@@ -657,7 +657,7 @@
         "2.50"
       ],
       "question": "A man engaged a servant on the condition that he would pay him Rs. 90 and also give him a turban after service of one year. He served only for nine months and received a turban and Rs. 65. Find the value of the turban in rupees.",
-      "solution": "Let the value of the turban be Rs.x\r\n\r\n12 months\r\n\tRs.90 + turban\r\n9 months\r\n\tRs.65 + turban\r\n\r\n(90+x)/12 = (65+x)/9\r\n\r\n270+3x = 260+4x\r\n\r\nx = 10"
+      "solution": "Let the value of the turban be Rs.x\n\n12 months\nRs.90 + turban\n9 months\nRs.65 + turban\n\n(90+x)/12 = (65+x)/9\n\n270+3x = 260+4x\n\nx = 10"
     },
     {
       "id": 56,
@@ -669,19 +669,19 @@
         "5"
       ],
       "question": "The average salary of the entire staff in an office is Rs. 3200 per month. The average salary of officers is Rs. 6800 and that of non-officers is Rs. 2000. If the number of officers is 5, then find the number of non-officers in the office.",
-      "solution": "Let the number of non-officers be x.\r\n\r\n3200*(5+x) = (6800*5)+2000x\r\n\r\n1200x = 18000\r\n\r\nx = 15"
+      "solution": "Let the number of non-officers be x.\n\n3200*(5+x) = (6800*5)+2000x\n\n1200x = 18000\n\nx = 15"
     },
     {
       "id": 57,
       "answerIndex": 2,
       "answers": [
-        "158 cm\t\t\t\t\t\t\t\t\t",
+        "158 cm",
         "158.5",
         "159",
         "157"
       ],
       "question": "The average height of 30 girls out of a class of 40 is 160 cm and that of the remaining girls is 156 cm. The average height of the whole class is",
-      "solution": "((160*30)+(156*10))/40\r\n\t= 159"
+      "solution": "((160*30)+(156*10))/40\n= 159"
     },
     {
       "id": 58,
@@ -693,7 +693,7 @@
         "24"
       ],
       "question": "The age of Charan and Kailash is in the ratio 2: 6. After 5 years, the ratio of their ages will be 6: 8. Find the average of their ages after 10 years.",
-      "solution": "C:K = 2:6 = 1:3\r\n3C = K\r\n\r\n(C+5):(K+5) = 6:8 = 3:4\r\n4(C+5) = 3(3C+5)\r\n5C = 5\r\n\r\nC = 1\r\nK = 3\r\n\r\nC+10 = 11\r\nK+10 = 13\r\n\r\nAverage\r\n\t= (11+13)/2\r\n\t= 12"
+      "solution": "C:K = 2:6 = 1:3\n3C = K\n\n(C+5):(K+5) = 6:8 = 3:4\n4(C+5) = 3(3C+5)\n5C = 5\n\nC = 1\nK = 3\n\nC+10 = 11\nK+10 = 13\n\nAverage\n= (11+13)/2\n= 12"
     },
     {
       "id": 59,
@@ -705,7 +705,7 @@
         "530/33"
       ],
       "question": "Typist X can type a sheet in 6 minutes, typist Y in 7 minutes and typist Z in 9 minutes. The average number of sheets typed per hour per typist for all three typists is",
-      "solution": "X types (60/6) = 10 sheets in an hour.\r\nY types (60/7) sheets in an hour.\r\nZ types (60/9) = 20/3 sheets in an hour.\r\n\r\nAverage\r\n\t= [10+(60/7)+(20/3)]/3\r\n\t= [210+180+140]/63\r\n\t= 530/63"
+      "solution": "X types (60/6) = 10 sheets in an hour.\nY types (60/7) sheets in an hour.\nZ types (60/9) = 20/3 sheets in an hour.\n\nAverage\n= [10+(60/7)+(20/3)]/3\n= [210+180+140]/63\n= 530/63"
     },
     {
       "id": 60,
@@ -717,7 +717,7 @@
         "Rs.5/g"
       ],
       "question": "A toy weighing 24 grams of an alloy of two metals is worth Rs 174 but if the weights of metals in alloy be interchanged, the toy would be worth Rs 162. If the price of one metal be Rs 8 per gram, find the price of the other metal in the alloy used to make the toy.",
-      "solution": "Let the weights of the two metals used in the toy be x grams and (24-x) grams\r\n\tand the price of the other metal be Rs.y per gram.\r\n\r\n8x+y(24-x) = 174\r\n8(24-x)+xy = 162\r\n\r\n8x+24y-xy = 174\r\n192-8x+xy = 162\r\n\r\nAdding the two equations,\r\n\t24y+192 = 174+162\r\n\t24y = 144\r\n\ty = 6"
+      "solution": "Let the weights of the two metals used in the toy be x grams and (24-x) grams\nand the price of the other metal be Rs.y per gram.\n\n8x+y(24-x) = 174\n8(24-x)+xy = 162\n\n8x+24y-xy = 174\n192-8x+xy = 162\n\nAdding the two equations,\n24y+192 = 174+162\n24y = 144\ny = 6"
     },
     {
       "id": 61,
@@ -729,7 +729,7 @@
         "Rs. 300.25"
       ],
       "question": "Out of 9 persons, 8 persons spent Rs. 30 each for their meals. The ninth one spent Rs. 20 more than the average of expenditure of all the nine. Find the total money spent by all of them.",
-      "solution": "Let the average money spent by all the 9 persons be Rs.x\r\n\r\n(8*30)+20+x = 9x\r\n\r\n8x = 260\r\nx = 32.5\r\n\r\nTotal money spent\r\n\t= 9x\r\n\t= 292.5"
+      "solution": "Let the average money spent by all the 9 persons be Rs.x\n\n(8*30)+20+x = 9x\n\n8x = 260\nx = 32.5\n\nTotal money spent\n= 9x\n= 292.5"
     },
     {
       "id": 62,
@@ -741,7 +741,7 @@
         "24/25,3/7"
       ],
       "question": "The weight of three heaps of gold are in the ratio 5:6:7. By what fractions of themselves must the first two be increased so that the ratio of the weights may be changed to 7:6:5?",
-      "solution": "Let the first heap be increased x times of itself and\r\n\tthe second heap be increased y times of itself.\r\n\r\n5(1+x):6(1+y):7 = 7:6:5\r\n\r\n5(1+x):7 = 7:5\r\n1+x = 49/25\r\nx = 24/25\r\n\r\n6(1+y):7 = 6:5\r\n1+y = 7/5\r\ny = 2/5"
+      "solution": "Let the first heap be increased x times of itself and\nthe second heap be increased y times of itself.\n\n5(1+x):6(1+y):7 = 7:6:5\n\n5(1+x):7 = 7:5\n1+x = 49/25\nx = 24/25\n\n6(1+y):7 = 6:5\n1+y = 7/5\ny = 2/5"
     },
     {
       "id": 63,
@@ -753,7 +753,7 @@
         "26 years"
       ],
       "question": "The average age of a class of 80 students is 22 years. The average age of the 20 faculty members is 37 years. Find the average age of the students and the teachers.",
-      "solution": "(80*22)+(20*37) / 100\r\n\t= 25"
+      "solution": "(80*22)+(20*37) / 100\n= 25"
     },
     {
       "id": 64,
@@ -765,7 +765,7 @@
         "5.5%"
       ],
       "question": "What strength of 20 ml alcohol should be added to 10 ml of 50% alcohol to get an average strength of 20% alcohol?",
-      "solution": "(10*0.5)+(20*x) = 30*0.2\r\n\r\n20x = 6-5 = 1\r\n\r\nx = 0.05 = 5%"
+      "solution": "(10*0.5)+(20*x) = 30*0.2\n\n20x = 6-5 = 1\n\nx = 0.05 = 5%"
     },
     {
       "id": 65,
@@ -777,7 +777,7 @@
         "24"
       ],
       "question": "A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are",
-      "solution": "Common difference = 3 months = (1/4) years\r\n\r\na = 7, d = 1/4\r\n\r\nSn = (n/2)[2a+(n-1)d]\r\n\r\n250 = (n/2)[14+(1/4)(n-1)]\r\n\r\n14n + n(n-1)/4 = 500\r\n\r\nn²+55n-2000 = 0\r\n\r\n(n+80)(n-25) = 0\r\n\r\nn = 25"
+      "solution": "Common difference = 3 months = (1/4) years\n\na = 7, d = 1/4\n\nSn = (n/2)[2a+(n-1)d]\n\n250 = (n/2)[14+(1/4)(n-1)]\n\n14n + n(n-1)/4 = 500\n\nn²+55n-2000 = 0\n\n(n+80)(n-25) = 0\n\nn = 25"
     },
     {
       "id": 66,
@@ -789,7 +789,7 @@
         "4 kg"
       ],
       "question": "How many kilograms of sugar worth Rs. 3.60 per kg should be mixed with 8 kg of sugar worth Rs. 4.20 per kg, such that by selling the mixture at Rs. 4.40 per kg, there may be a gain of 10%?",
-      "solution": "Let x kg of sugar worth Rs.3.60/kg be mixed.\r\n\r\nCost price\r\n\t= 3.6x+(8*4.2)\r\n\t= 33.6+3.6x\r\n\r\nThere should be a gain of 10%.\r\n\r\nSelling Price\r\n\t= 1.1*(33.6+3.6x) = 4.4(x+8)\r\n\r\n33.6+3.6x = 4x+32\r\n\r\n0.4x = 1.6\r\n\r\nx = 4"
+      "solution": "Let x kg of sugar worth Rs.3.60/kg be mixed.\n\nCost price\n= 3.6x+(8*4.2)\n= 33.6+3.6x\n\nThere should be a gain of 10%.\n\nSelling Price\n= 1.1*(33.6+3.6x) = 4.4(x+8)\n\n33.6+3.6x = 4x+32\n\n0.4x = 1.6\n\nx = 4"
     },
     {
       "id": 67,
@@ -801,7 +801,7 @@
         "None of these"
       ],
       "question": "The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",
-      "solution": "Let the average of the team be x.\r\n\r\nAge of Captain + Age of Wicket-Keeper + Ages of Rest of the 9 players = 11*(Average Age of the Team)\r\n\r\n26+29+9(x-1) = 11x\r\n\r\n2x = 46\r\n\r\nx = 23"
+      "solution": "Let the average of the team be x.\n\nAge of Captain + Age of Wicket-Keeper + Ages of Rest of the 9 players = 11*(Average Age of the Team)\n\n26+29+9(x-1) = 11x\n\n2x = 46\n\nx = 23"
     },
     {
       "id": 68,
@@ -813,7 +813,7 @@
         "17"
       ],
       "question": "If the mean of 5 observations x, x + 2, x + 4, x + 6 and x + 8 is 11, then the mean of the last three observations is",
-      "solution": "x+x+2+x+4+x+6+x+8 = 11*5\r\n\r\n5x+20 = 55\r\n\r\n5x = 35\r\n\r\nx = 7\r\n\r\n(x+4)+(x+6)+(x+8) = 3x+18 = 39\r\n\r\n39/3 = 13"
+      "solution": "x+x+2+x+4+x+6+x+8 = 11*5\n\n5x+20 = 55\n\n5x = 35\n\nx = 7\n\n(x+4)+(x+6)+(x+8) = 3x+18 = 39\n\n39/3 = 13"
     },
     {
       "id": 69,
@@ -825,7 +825,7 @@
         "10.5"
       ],
       "question": "The average of the first nine prime numbers is",
-      "solution": "Sum = 2+3+5+7+11+13+17+19+23 = 100\r\n\r\n100/9 = 11.11"
+      "solution": "Sum = 2+3+5+7+11+13+17+19+23 = 100\n\n100/9 = 11.11"
     },
     {
       "id": 70,
@@ -837,7 +837,7 @@
         "100"
       ],
       "question": "4/5th of the voters in a constituency promised to vote for Party A and the rest promised to vote for Party B. Of these voters, 10% of the voters who had promised to vote for Party A, did not vote on the election day, while 20% of the voters who had promised to vote for Party B did not vote on the election day. Find the total number of votes polled if Party A got 216 votes.",
-      "solution": "Let the number of voters in the constituency be x.\r\n\r\nNumber of votes polled\r\n\t= 0.9*(4/5)x + 0.8*(1/5)x\r\n\t= 0.72x+0.16x\r\n\t= 0.88x\r\n\r\n0.9*(4/5)x = 216\r\nx = 216/0.72 = 300\r\n\r\nNumber of votes polled\r\n\t= 0.88x\r\n\t= 264"
+      "solution": "Let the number of voters in the constituency be x.\n\nNumber of votes polled\n= 0.9*(4/5)x + 0.8*(1/5)x\n= 0.72x+0.16x\n= 0.88x\n\n0.9*(4/5)x = 216\nx = 216/0.72 = 300\n\nNumber of votes polled\n= 0.88x\n= 264"
     },
     {
       "id": 71,
@@ -849,7 +849,7 @@
         "2/3"
       ],
       "question": "A and B have written an entrance exam and scored 55 marks and 85 marks respectively. Every question answered correctly fetches one mark but the negative marks per wrong answer for the first twenty wrong answers is different from that for the remaining wrong answers. A and B attempted 160 and 150 questions respectively. If A and B correctly answered 50% and 66(2/3)% of the questions that they attempted respectively, find the negative mark for each wrong answer beyond the first twenty wrong answers.",
-      "solution": "Let the negative mark for the first 20 wrong answers be x and\r\n\tfor the remaining answers be y.\r\n\r\nA answered 50% of 160 questions correctly and scored 55.\r\n\t80 questions were correct and 80 were wrong.\r\n\r\n\t80-(20x+60y) = 55\r\n\t20x+60y = 25\r\n\t4x+12y = 5\r\n\r\nB answered 66(2/3)% of 150 questions correctly but scored 85. \r\n\t100 questions were correct and 50 were wrong.\r\n\r\n\t100 - (20x+30y) = 85\r\n\t20x+30y = 15\r\n\t4x+6y = 3\r\n\r\nSolving the two questions,\r\n\t6y = 2\r\n\ty = 1/3"
+      "solution": "Let the negative mark for the first 20 wrong answers be x and\nfor the remaining answers be y.\n\nA answered 50% of 160 questions correctly and scored 55.\n80 questions were correct and 80 were wrong.\n\n80-(20x+60y) = 55\n20x+60y = 25\n4x+12y = 5\n\nB answered 66(2/3)% of 150 questions correctly but scored 85. \n100 questions were correct and 50 were wrong.\n\n100 - (20x+30y) = 85\n20x+30y = 15\n4x+6y = 3\n\nSolving the two questions,\n6y = 2\ny = 1/3"
     },
     {
       "id": 72,
@@ -861,7 +861,7 @@
         "77.33"
       ],
       "question": "The marks obtained by a student in History, Physics and Mathematics are respectively 93 out of 100, 78 out of 150 and 177 out of 200. Find his average score in percent.",
-      "solution": "(93+78+177)/(100+150+200)\r\n\t= 77.33%"
+      "solution": "(93+78+177)/(100+150+200)\n= 77.33%"
     },
     {
       "id": 73,
@@ -873,7 +873,7 @@
         "9M²"
       ],
       "question": "If the mean of a, b, c is M and ab + bc + ca = 0, then the mean of a², b², c² is",
-      "solution": "(a+b+c)/3 = M\r\n(a+b+c) = 3M\r\n\r\n(a+b+c)² = a²+b²+c²+2(ab+bc+ca)\r\n\r\na²+b²+c² = (3M)²-0 = 9M²\r\n\r\n(a²+b²+c²)/3 = 9M²/3 = 3M²"
+      "solution": "(a+b+c)/3 = M\n(a+b+c) = 3M\n\n(a+b+c)² = a²+b²+c²+2(ab+bc+ca)\n\na²+b²+c² = (3M)²-0 = 9M²\n\n(a²+b²+c²)/3 = 9M²/3 = 3M²"
     },
     {
       "id": 74,
@@ -885,7 +885,7 @@
         "RS.500"
       ],
       "question": "A college has raised 75% of the amount it needs for a new building by receiving an average donation of Rs. 600 from the people already solicited. The people already solicited represent 60% of the people the college will ask for donations. If the college is to raise exactly the amount needed for the new building, what should be the average donation from the remaining people to be solicited?",
-      "solution": "Let the total number of people be x.\r\n\r\nRs.600 has been collected from 60% of the people.\r\n\r\nAmount collected\r\n\t= 600*0.6x\r\n\t= 360x\r\n\r\n75% of the amount = 360x\r\n\r\nRemaining 25% of the amount\r\n\t= 360x/3 = 120x\r\n\r\n120x has to be collected from 40% of the people.\r\n\r\nAverage\r\n\t= 120x/0.4x\r\n\t= 300"
+      "solution": "Let the total number of people be x.\n\nRs.600 has been collected from 60% of the people.\n\nAmount collected\n= 600*0.6x\n= 360x\n\n75% of the amount = 360x\n\nRemaining 25% of the amount\n= 360x/3 = 120x\n\n120x has to be collected from 40% of the people.\n\nAverage\n= 120x/0.4x\n= 300"
     },
     {
       "id": 75,

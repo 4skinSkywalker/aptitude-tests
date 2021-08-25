@@ -9,7 +9,7 @@
         "36"
       ],
       "question": "The LCM and HCF of two numbers is 48 and 8. If one of the numbers is 16, find the other number.",
-      "solution": "Product of two numbers\r\n\t= LCM*HCF\r\n16*x = 48*8\r\n\r\nx = 24"
+      "solution": "Product of two numbers\n= LCM*HCF\n16*x = 48*8\n\nx = 24"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "2/15"
       ],
       "question": "Find the HCF of 2/3,3/4 and 4/5.",
-      "solution": "HCF of numerators\r\n\t= HCF(2,3,4)\r\n\t= 1\r\nLCM of denominators\r\n\t= LCM(3,4,5)\r\n\t= 60\r\n1/60"
+      "solution": "HCF of numerators\n= HCF(2,3,4)\n= 1\nLCM of denominators\n= LCM(3,4,5)\n= 60\n1/60"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "zero"
       ],
       "question": "The HCF of 2 prime numbers is",
-      "solution": "Prime numbers have only two factors\r\n\t1 and themselves\r\nThe HCF of 2 prime numbers is always 1."
+      "solution": "Prime numbers have only two factors\n1 and themselves\nThe HCF of 2 prime numbers is always 1."
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "12"
       ],
       "question": "The HCF and LCM of two numbers is 2 and 70. If the sum of the numbers is 24, find the smallest of the two numbers.",
-      "solution": "Let the numbers be x and y.\r\n\r\nxy = HCF*LCM = 140\r\nx+y = 24\r\n\r\nSolving,\r\n\tx(24-x) = 140\r\n\tx²-24x+140 = 0\r\n\tx = 10 or 14\r\nIf x=10, y=14 and vice-versa\r\n\r\nThe smallest among the two is 10."
+      "solution": "Let the numbers be x and y.\n\nxy = HCF*LCM = 140\nx+y = 24\n\nSolving,\nx(24-x) = 140\nx²-24x+140 = 0\nx = 10 or 14\nIf x=10, y=14 and vice-versa\n\nThe smallest among the two is 10."
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "29"
       ],
       "question": "The greatest number that will divide 82, 111 and 140 leaving the same remainder in each case is",
-      "solution": "Using the formula,\r\n\tthe greatest number which divides three numbers x, y and z, leaving the same remainder in each case is\r\n\tHCF(x-y, y-z, z-x)\r\n\r\n111-82 = 29\r\n140-82 = 58\r\n140-111 = 29\r\n\r\nHCF(29,58,29) = 29"
+      "solution": "Using the formula,\nthe greatest number which divides three numbers x, y and z, leaving the same remainder in each case is\nHCF(x-y, y-z, z-x)\n\n111-82 = 29\n140-82 = 58\n140-111 = 29\n\nHCF(29,58,29) = 29"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "6"
       ],
       "question": "Five bells commence tolling together and toll at intervals of 2, 5, 6, 8 and 9 seconds respectively. How many times do they toll together in an hour?",
-      "solution": "They toll together at the zeroth second.\r\n\r\nThe next time they toll together\r\n\t= LCM(2,5,6,8,9)\r\n\t= 360 seconds\r\n\t= 6 minutes\r\nEvery 6 minutes, they toll together.\r\n\r\nIn an hour(60 mins), they toll together\r\n\t(60/6)+1 = 11 times\r\n1 is added because they toll at the zeroth second.\r\n\r\n0,6,12,18,24,30,36,42,48,54,60\r\n"
+      "solution": "They toll together at the zeroth second.\n\nThe next time they toll together\n= LCM(2,5,6,8,9)\n= 360 seconds\n= 6 minutes\nEvery 6 minutes, they toll together.\n\nIn an hour(60 mins), they toll together\n(60/6)+1 = 11 times\n1 is added because they toll at the zeroth second.\n\n0,6,12,18,24,30,36,42,48,54,60\n"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
         "9600"
       ],
       "question": "The greatest 4-digit number which is divisible by 6,8 and 10 is",
-      "solution": "For a number to be divisible by 6,8 and 10,\r\n\tit should be divisible by their LCM.\r\n\r\nLCM(6,8,10) = 120\r\n\r\nTo find the greatest 4-digit number divisible by 120,\r\n\tdivide 9999 by 120 and find the remainder.\r\nRemainder = 39\r\n9999-39=9960 "
+      "solution": "For a number to be divisible by 6,8 and 10,\nit should be divisible by their LCM.\n\nLCM(6,8,10) = 120\n\nTo find the greatest 4-digit number divisible by 120,\ndivide 9999 by 120 and find the remainder.\nRemainder = 39\n9999-39=9960 "
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
         "18,40"
       ],
       "question": "The HCF and LCM of two numbers are 4 and 60. Which of the following could be those numbers?",
-      "solution": "Product of the numbers\r\n\t= 4*60\r\n\t= 240\r\nOnly the options B and C satisfy this.\r\n\r\nHCF(6,40) = 2\r\nHCF(12,20) = 4\r\n\r\nHence, the numbers are 12 and 20."
+      "solution": "Product of the numbers\n= 4*60\n= 240\nOnly the options B and C satisfy this.\n\nHCF(6,40) = 2\nHCF(12,20) = 4\n\nHence, the numbers are 12 and 20."
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
         "16,24,40"
       ],
       "question": "Three numbers are in the ratio 2:3:5 and their H.C.F. is 8. The numbers are",
-      "solution": "The highest common factor of these numbers is 8.\r\n\r\nHence, the numbers are\r\n\t2*8, 3*8 and 5*8\r\n\t16,24 and 40"
+      "solution": "The highest common factor of these numbers is 8.\n\nHence, the numbers are\n2*8, 3*8 and 5*8\n16,24 and 40"
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
         "1/12"
       ],
       "question": "Find the LCM of 1/3,1/4 and 1/5.",
-      "solution": "LCM of numerators\r\n\t= 1\r\nHCF of denominators\r\n\t= HCF(3,4,5)\r\n\t= 1"
+      "solution": "LCM of numerators\n= 1\nHCF of denominators\n= HCF(3,4,5)\n= 1"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
         "Infinite"
       ],
       "question": "How many multiples does the number 24 have?",
-      "solution": "All numbers have infinitely many multiples.\r\n\r\n24,48,72,96,120,........."
+      "solution": "All numbers have infinitely many multiples.\n\n24,48,72,96,120,........."
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
         "4"
       ],
       "question": "The product of LCM and HCF of two positive integers x and y is 12. How many distinct values can x take?",
-      "solution": "LCM*HCF = Product of the numbers\r\n\r\nx has to be a factor of 12.\r\n\r\nFactors of 12\r\n\t1,2,3,4,6,12\r\nx can take 6 distinct values."
+      "solution": "LCM*HCF = Product of the numbers\n\nx has to be a factor of 12.\n\nFactors of 12\n1,2,3,4,6,12\nx can take 6 distinct values."
     },
     {
       "id": 13,
@@ -153,7 +153,7 @@
         "15"
       ],
       "question": "Harshini has three pieces of thread of length 15m, 18m and 24m. She is asked to cut them into smaller pieces of equal length such that no piece of thread gets wasted. Find the minimum number of smaller threads she will get.",
-      "solution": "She can get minimum number of such threads if\r\n\tthe length of each smaller thread is maximum.\r\n\r\nFor no piece to be wasted, the length should be a factor of 15,18 and 24.\r\n\r\nHCF(15,18,24)\r\n\t= 3\r\nFrom the first thread,\r\n\tshe will get 15/3=5 pieces\r\nFrom the second,\r\n\t18/3=6\r\nFrom the third,\r\n\t24/3=8\r\nNo. of pieces\r\n\t= 19"
+      "solution": "She can get minimum number of such threads if\nthe length of each smaller thread is maximum.\n\nFor no piece to be wasted, the length should be a factor of 15,18 and 24.\n\nHCF(15,18,24)\n= 3\nFrom the first thread,\nshe will get 15/3=5 pieces\nFrom the second,\n18/3=6\nFrom the third,\n24/3=8\nNo. of pieces\n= 19"
     },
     {
       "id": 14,
@@ -165,7 +165,7 @@
         "6"
       ],
       "question": "Which of the following has only 2 factors?",
-      "solution": "Only prime numbers have two factors (1 and themselves)\r\n\r\nHere, 7 is the only prime number."
+      "solution": "Only prime numbers have two factors (1 and themselves)\n\nHere, 7 is the only prime number."
     },
     {
       "id": 15,
@@ -177,7 +177,7 @@
         "3145"
       ],
       "question": "The largest number which when divided by 10, 13 and 21 leaves 5 as the remainder in each case is",
-      "solution": "Using the formula,\r\n\tthe least number which when divided by two numbers x and y, leaving the same remainder z in each case is\r\n\tLCM(x,y) + z\r\n\r\nLCM(10,13,21)\r\n \t= 2730\r\n2730+5=2735"
+      "solution": "Using the formula,\nthe least number which when divided by two numbers x and y, leaving the same remainder z in each case is\nLCM(x,y) + z\n\nLCM(10,13,21)\n = 2730\n2730+5=2735"
     },
     {
       "id": 16,
@@ -189,7 +189,7 @@
         "9:30 am"
       ],
       "question": "The traffic signals at four road crossings change every 30 seconds, 1 minute, 45 seconds and 75 seconds respectively. If they changed simultaneously at 9:00 am, at what time will they change simultaneously again?",
-      "solution": "LCM(30,60,45,75)\r\n\t= 900 seconds\r\n\t= 15 minutes\r\nThey change simultaneously at 9:15 am."
+      "solution": "LCM(30,60,45,75)\n= 900 seconds\n= 15 minutes\nThey change simultaneously at 9:15 am."
     },
     {
       "id": 17,
@@ -201,7 +201,7 @@
         "168"
       ],
       "question": "The HCF of two positive integers is 24. Which of the following cannot be their LCM?",
-      "solution": "The LCM has to be a multiple of HCF.\r\n\r\n180 is not divisible by 24. \r\nHence, 180 cannot be the LCM.\r\n"
+      "solution": "The LCM has to be a multiple of HCF.\n\n180 is not divisible by 24. \nHence, 180 cannot be the LCM.\n"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "5"
       ],
       "question": "The sum of two numbers is 50 and their HCF is 10. The number of values the LCM can take is",
-      "solution": "x+y=50\r\n\r\nHCF(x,y) = 10\r\nHence, x and y are multiples of 10.\r\n\r\nThe following pairs of numbers satisfy this condition.\r\n\t(10,40) and (20,30)\r\nLCM(10,40) = 40\r\nLCM(20,30) = 60\r\n\r\nThe LCM can take 2 values."
+      "solution": "x+y=50\n\nHCF(x,y) = 10\nHence, x and y are multiples of 10.\n\nThe following pairs of numbers satisfy this condition.\n(10,40) and (20,30)\nLCM(10,40) = 40\nLCM(20,30) = 60\n\nThe LCM can take 2 values."
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "364"
       ],
       "question": "The least multiple of 7, which leaves a remainder of 4, when divided by 6, 9, 15 and 18 is",
-      "solution": "LCM(6,9,15,18) = 90\r\n\r\nThe number is of the form 90x+4.\r\n\r\n90x+4 should be a multiple of 7.\r\n\r\nBy trial and error method,\r\n\tx=1\t94 not divisible by 7.\r\n\tx=2\t184 not divisible by 7.\r\n\tx=3\t274 not divisible by 7.\r\n\tx=4\t364 is divisible by 7.\r\nHence, the number is 364."
+      "solution": "LCM(6,9,15,18) = 90\n\nThe number is of the form 90x+4.\n\n90x+4 should be a multiple of 7.\n\nBy trial and error method,\nx=194 not divisible by 7.\nx=2184 not divisible by 7.\nx=3274 not divisible by 7.\nx=4364 is divisible by 7.\nHence, the number is 364."
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "3"
       ],
       "question": "Find the HCF of two co-prime numbers whose product is 330.",
-      "solution": "Co-prime numbers have no common factors.\r\n\r\nHence, their HCF=1"
+      "solution": "Co-prime numbers have no common factors.\n\nHence, their HCF=1"
     },
     {
       "id": 25,
@@ -249,7 +249,7 @@
         "19"
       ],
       "question": "A number when divided by 6 leaves a remainder of 5, when divided by 5 leaves a remainder of 4, when divided by 4 leaves a remainder of 3, when divided by 3 leaves a remainder of 2 and when divided by 2 leaves a remainder of 1. Find the number.",
-      "solution": "On adding 1, the number should be divisible by 6, 5, 4, 3 and 2.\r\n\r\nL.C.M of these numbers is 60.\r\n\r\nHence, the answer is 59."
+      "solution": "On adding 1, the number should be divisible by 6, 5, 4, 3 and 2.\n\nL.C.M of these numbers is 60.\n\nHence, the answer is 59."
     },
     {
       "id": 24,
@@ -261,7 +261,7 @@
         "17280"
       ],
       "question": "The least perfect square number which divides 20, 15 and 24 is",
-      "solution": "L.C.M of 20, 15 and 24 is 120.\r\n\r\n120 is divisible by 3600."
+      "solution": "L.C.M of 20, 15 and 24 is 120.\n\n120 is divisible by 3600."
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
         "3"
       ],
       "question": "The least number which should be added to 2497 so that the sum is exactly divisible by 5, 6, 4 and 3 is",
-      "solution": "L.C.M of 3,4,5 and 6 is 60\r\n\r\n2520 is divisible by 60. \r\n\r\nHence, 23 should be added"
+      "solution": "L.C.M of 3,4,5 and 6 is 60\n\n2520 is divisible by 60. \n\nHence, 23 should be added"
     },
     {
       "id": 22,
@@ -285,7 +285,7 @@
         "420"
       ],
       "question": "Find the LCM of the first seven natural numbers.",
-      "solution": "LCM(1,2,3,4,5,6,7)\r\n\t= 420"
+      "solution": "LCM(1,2,3,4,5,6,7)\n= 420"
     },
     {
       "id": 21,
@@ -309,7 +309,7 @@
         "90"
       ],
       "question": "The HCF of two numbers a and b is 24. If ab=3600, find the least common mutliple of a and b.",
-      "solution": "HCF*LCM\r\n\t= 3600\r\nLCM = 3600/24 = 150"
+      "solution": "HCF*LCM\n= 3600\nLCM = 3600/24 = 150"
     },
     {
       "id": 29,
@@ -321,7 +321,7 @@
         "38"
       ],
       "question": "The H.C.F. of two numbers is 19 and their L.C.M. is 114. If one of the numbers is 57, find the other number.",
-      "solution": "Product\r\n\t= 19*114\r\nOther number\r\n\t= 19*114/57\r\n\t= 38\r\n"
+      "solution": "Product\n= 19*114\nOther number\n= 19*114/57\n= 38\n"
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "4"
       ],
       "question": "Let N be the greatest number that will divide 1305, 4665 and 6905, leaving the same remainder in each case. The sum of the digits of N is",
-      "solution": "Using the formula,\r\n\tthe greatest number which divides three numbers x, y and z, leaving the same remainder in each case is\r\n\tHCF(x-y, y-z, z-x)\r\n\r\n\tHCF(3360,2240,5600)\r\n\t\t= 1120\r\nSum of digits\r\n\t= 4"
+      "solution": "Using the formula,\nthe greatest number which divides three numbers x, y and z, leaving the same remainder in each case is\nHCF(x-y, y-z, z-x)\n\nHCF(3360,2240,5600)\n= 1120\nSum of digits\n= 4"
     },
     {
       "id": 27,
@@ -345,7 +345,7 @@
         "1/10"
       ],
       "question": "If the sum of two numbers is 50 and the H.C.F. and L.C.M. of these numbers are 10 and 60 respectively, then the sum of the reciprocals of the numbers is equal to",
-      "solution": "x+y = 50\r\n\r\nxy = 10*60 = 600\r\n\r\n(1/x)+(1/y)\r\n\t= (x+y)/xy\r\n\t= 50/600\r\n\t= 1/12"
+      "solution": "x+y = 50\n\nxy = 10*60 = 600\n\n(1/x)+(1/y)\n= (x+y)/xy\n= 50/600\n= 1/12"
     },
     {
       "id": 26,
@@ -357,7 +357,7 @@
         "1"
       ],
       "question": "The smallest positive integer which is a common multiple of two prime numbers is",
-      "solution": "LCM(2 prime numbers)\r\n\t= their product\r\nsince they have no common factors except 1."
+      "solution": "LCM(2 prime numbers)\n= their product\nsince they have no common factors except 1."
     },
     {
       "id": 31,
@@ -369,7 +369,7 @@
         "24"
       ],
       "question": "A school has 120, 192 and 144 students enrolled for its science, arts and commerce courses. All students have to be seated in rooms for an exam such that each room has students of only the same course and also all rooms have equal number of students. What is the least number of rooms needed?",
-      "solution": "HCF(120, 192, 144)\r\n\t= 24\r\nHence, there should be 24 students in each room.\r\n\r\nNo. of rooms needed for Science students\r\n\t= 120/24 = 5\r\nNo. of rooms needed for Arts students\r\n\t= 192/24 = 8\r\nNo. of rooms needed for Commerce students\r\n\t= 144/24 = 6\r\nTotal no. of rooms\r\n\t= 19"
+      "solution": "HCF(120, 192, 144)\n= 24\nHence, there should be 24 students in each room.\n\nNo. of rooms needed for Science students\n= 120/24 = 5\nNo. of rooms needed for Arts students\n= 192/24 = 8\nNo. of rooms needed for Commerce students\n= 144/24 = 6\nTotal no. of rooms\n= 19"
     },
     {
       "id": 32,
@@ -381,7 +381,7 @@
         "Data Insufficient"
       ],
       "question": "2 gears one with 12 teeth and another with 14 teeth are engaged with each other. One tooth in smaller and one tooth in bigger are marked and initially those 2 marked teeth are in contact with each other. After how many rotations of the smaller gear, will the marked teeth in the two gears come into contact for the first time?",
-      "solution": "Let the distance between two teeth be 1 cm.\r\n\r\nCircumference of first gear\r\n\t= 12 cm\r\nCircumference of second gear\r\n\t= 14 cm\r\nLCM(12,14) = 84\r\n\r\nTo cover 84 cm, no. of rotations taken by the first gear\r\n\t= 84/12\r\n\t= 7"
+      "solution": "Let the distance between two teeth be 1 cm.\n\nCircumference of first gear\n= 12 cm\nCircumference of second gear\n= 14 cm\nLCM(12,14) = 84\n\nTo cover 84 cm, no. of rotations taken by the first gear\n= 84/12\n= 7"
     },
     {
       "id": 33,
@@ -393,7 +393,7 @@
         "17"
       ],
       "question": "The greatest number, which can divide 432, 534 and 398 leaving the same remainder 7 in each case, is",
-      "solution": "432-7=425\r\n534-7=527\r\n398-7=391\r\n\r\nHCF(425, 527, 391) = 17"
+      "solution": "432-7=425\n534-7=527\n398-7=391\n\nHCF(425, 527, 391) = 17"
     },
     {
       "id": 34,
@@ -405,7 +405,7 @@
         "81, 189"
       ],
       "question": "The sum of two numbers is 216 and their HCF is 27. The numbers are",
-      "solution": "Let the numbers be 27x and 27y\r\n\r\n27x+27y=216\r\n\r\nx+y=216/27 = 8\r\n\r\nx and y should be co-primes.\r\n\r\nTheir values can be (1,7) or (3,5)\r\n\r\nx=1, 27x=27\r\ny=7, 27y=189"
+      "solution": "Let the numbers be 27x and 27y\n\n27x+27y=216\n\nx+y=216/27 = 8\n\nx and y should be co-primes.\n\nTheir values can be (1,7) or (3,5)\n\nx=1, 27x=27\ny=7, 27y=189"
     },
     {
       "id": 35,
@@ -417,7 +417,7 @@
         "9952"
       ],
       "question": "The greatest number of 4 digits which is divisible by each one of the number 12,18,21 and 28 is",
-      "solution": "Greatest number of 4 digits is 9999\r\n\r\nL.C.M (12, 18, 21, 28) = 252\r\n\r\nOn dividing 9999 by 252,\r\n\tthe remainder is 171\r\n\r\n9999-171 = 9828\r\n"
+      "solution": "Greatest number of 4 digits is 9999\n\nL.C.M (12, 18, 21, 28) = 252\n\nOn dividing 9999 by 252,\nthe remainder is 171\n\n9999-171 = 9828\n"
     },
     {
       "id": 36,
@@ -429,7 +429,7 @@
         "330"
       ],
       "question": "The L.C.M of two numbers is 2310 and their H.C.F is 30. If one number is 210, the other is",
-      "solution": "Other number\r\n\t= 2310*30/210\r\n\t= 330"
+      "solution": "Other number\n= 2310*30/210\n= 330"
     },
     {
       "id": 37,
@@ -441,7 +441,7 @@
         "637"
       ],
       "question": "The least multiple of 7 which leaves a remainder 4 when divided by 6,9,15 and 18 is",
-      "solution": "LCM(6,9,15,18) = 90\r\n\r\nThe number should be a multiple of 7 and of the form 90k+4.\r\n\r\nk=1, n=94\r\nk=2, n=184\r\nk=3, n=274\r\nk=4, n=364\r\n\r\n364 is a multiple of 7."
+      "solution": "LCM(6,9,15,18) = 90\n\nThe number should be a multiple of 7 and of the form 90k+4.\n\nk=1, n=94\nk=2, n=184\nk=3, n=274\nk=4, n=364\n\n364 is a multiple of 7."
     },
     {
       "id": 38,
@@ -453,7 +453,7 @@
         "694"
       ],
       "question": "The smallest number which when divided by 20, 25, 35, 40 leaves the remainder 6 is",
-      "solution": "(L.C.M of 20, 25, 35, 40) + 6\r\n\t= 1400+6 \r\n\t= 1406"
+      "solution": "(L.C.M of 20, 25, 35, 40) + 6\n= 1400+6 \n= 1406"
     },
     {
       "id": 39,
@@ -465,7 +465,7 @@
         "13"
       ],
       "question": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
-      "solution": "HCF of (91 - 43), (183 - 91) and (183 - 43)\r\n\t= HCF(48, 92,140)\r\n\t= 4."
+      "solution": "HCF of (91 - 43), (183 - 91) and (183 - 43)\n= HCF(48, 92,140)\n= 4."
     },
     {
       "id": 40,
@@ -477,7 +477,7 @@
         "361"
       ],
       "question": "What is the least number which when divided by 6,8,9,12 and 15 leaves the same remainder 1 in each case?",
-      "solution": "LCM(6,8,9,12,15)+1\r\n\t= 360+1\r\n\t= 361\r\n"
+      "solution": "LCM(6,8,9,12,15)+1\n= 360+1\n= 361\n"
     },
     {
       "id": 41,
@@ -489,7 +489,7 @@
         "279"
       ],
       "question": "The H.CF. of two numbers is 11 and their L.C.M. is 7700. If one of the numbers is 275, the other one is",
-      "solution": "Other number\r\n\t= (11* 7700) / 275\r\n\t= 308"
+      "solution": "Other number\n= (11* 7700) / 275\n= 308"
     },
     {
       "id": 42,
@@ -501,7 +501,7 @@
         "81, 189"
       ],
       "question": "The sum of two numbers is 216 and their HCF is 27. The numbers are",
-      "solution": "Let the numbers be 27x and 27y.\r\n\r\n27x+27y = 216\r\nx+y = 216/27 = 8\r\n\r\nx and y should be co-primes.\r\n\r\nThe possible combinations are\r\n\t(1,7) and (3,5)\r\n\r\nThe numbers can be (27,189) or (81,135)."
+      "solution": "Let the numbers be 27x and 27y.\n\n27x+27y = 216\nx+y = 216/27 = 8\n\nx and y should be co-primes.\n\nThe possible combinations are\n(1,7) and (3,5)\n\nThe numbers can be (27,189) or (81,135)."
     },
     {
       "id": 43,
@@ -513,7 +513,7 @@
         "972"
       ],
       "question": "What is the greatest number of three digits which when divided by 6, 9 and 12 leaves a remainder of 3 in each case?",
-      "solution": "LCM(6,9,12) = 36\r\n\r\n999 is the greatest 3 digit number.\r\n\r\nWhen 999 is divided by 36, the remainder is 27.\r\n\r\nThe greatest 3 digit number divisible by 6, 9 and 12 is (999-27) = 972.\r\n\r\n972+3=975 is the greatest 3 digit number which leaves a remainder of 3 when divided by 6,9 and 12."
+      "solution": "LCM(6,9,12) = 36\n\n999 is the greatest 3 digit number.\n\nWhen 999 is divided by 36, the remainder is 27.\n\nThe greatest 3 digit number divisible by 6, 9 and 12 is (999-27) = 972.\n\n972+3=975 is the greatest 3 digit number which leaves a remainder of 3 when divided by 6,9 and 12."
     },
     {
       "id": 44,
@@ -525,7 +525,7 @@
         "345"
       ],
       "question": "The H.C.F. of two numbers is 23 and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:",
-      "solution": "HCF=23\r\nLCM = 23*13*14\r\n\r\nThe two numbers are (23*13) and (23*14).\r\n\r\nLarger number\r\n\t= 23*14\r\n\t= 322"
+      "solution": "HCF=23\nLCM = 23*13*14\n\nThe two numbers are (23*13) and (23*14).\n\nLarger number\n= 23*14\n= 322"
     },
     {
       "id": 45,
@@ -537,7 +537,7 @@
         "108"
       ],
       "question": "Find the HCF of 54, 288, 360.",
-      "solution": "HCF(54,288,360)\r\n\t= 18"
+      "solution": "HCF(54,288,360)\n= 18"
     },
     {
       "id": 46,
@@ -549,7 +549,7 @@
         "0.35"
       ],
       "question": "Find the HCF of 2.1, 1.05 and 0.63.",
-      "solution": "HCF(210,105,63)\r\n\t= 21\r\n\r\nHCF(.21,1.05,.63)\r\n\t= 0.21"
+      "solution": "HCF(210,105,63)\n= 21\n\nHCF(.21,1.05,.63)\n= 0.21"
     },
     {
       "id": 47,
@@ -561,7 +561,7 @@
         "45"
       ],
       "question": "If the LCM of two numbers is 693, HCF is 11 and one number is 99, then find the other number.",
-      "solution": "Product of two numbers\r\n\t= LCM*HCF\r\n\r\n99x = 693*11\r\n\r\nx = 77"
+      "solution": "Product of two numbers\n= LCM*HCF\n\n99x = 693*11\n\nx = 77"
     },
     {
       "id": 48,
@@ -570,10 +570,10 @@
         "9000",
         "9400",
         "9600",
-        "9800\r\n"
+        "9800\n"
       ],
       "question": "The greatest number of four digits which is divisible by 15, 25, 40 and 75 is",
-      "solution": "LCM(15,25,40,75) = 600\r\n\r\nThe greatest 4 digit number is 9999.\r\n\r\nWhen 9999 is divided by 600, the remainder is 399.\r\n\r\nRequired number\r\n\t= 9999-399 = 9600"
+      "solution": "LCM(15,25,40,75) = 600\n\nThe greatest 4 digit number is 9999.\n\nWhen 9999 is divided by 600, the remainder is 399.\n\nRequired number\n= 9999-399 = 9600"
     },
     {
       "id": 49,
@@ -585,7 +585,7 @@
         "363"
       ],
       "question": "The H.C.F. of two numbers is 11 and their L.C.M. is 6600. If one of the numbers is 264, then the other is",
-      "solution": "Required number\r\n\t= 6600*11/264\r\n\t= 275"
+      "solution": "Required number\n= 6600*11/264\n= 275"
     },
     {
       "id": 50,
@@ -597,7 +597,7 @@
         "11 am"
       ],
       "question": "An electronic device makes a beep after every 60 seconds. Another device makes a beep after every 62 seconds. They beeped together at 10 a.m. At what time will they beep together next?",
-      "solution": "LCM(60,62) = 1860\r\n\r\nThey will beep together after 1860 seconds (31 minutes).\r\n\r\n10.31 am"
+      "solution": "LCM(60,62) = 1860\n\nThey will beep together after 1860 seconds (31 minutes).\n\n10.31 am"
     },
     {
       "id": 51,
@@ -609,7 +609,7 @@
         "8"
       ],
       "question": "The sum of two numbers is 528 and their HCF is 33. The number of pairs of such numbers satisfying the above condition is",
-      "solution": "Let the two numbers be 33x and 33y.\r\n\r\nx and y are co-primes.\r\n\r\n33x+33y = 528\r\n\r\nx+y = 16\r\n\r\n(1,15), (3,13), (5,11), (7,9)\r\n\r\nAll other pairs have a common factor.\r\n\r\nThere are 4 such pairs of numbers."
+      "solution": "Let the two numbers be 33x and 33y.\n\nx and y are co-primes.\n\n33x+33y = 528\n\nx+y = 16\n\n(1,15), (3,13), (5,11), (7,9)\n\nAll other pairs have a common factor.\n\nThere are 4 such pairs of numbers."
     },
     {
       "id": 52,
@@ -621,7 +621,7 @@
         "361"
       ],
       "question": "What is the least number which when divided by 4,6,8,9,12 and 15 leaves the same remainder 1 in each case?",
-      "solution": "LCM(4,6,8,9,12,15)\r\n\t= 360\r\n\r\nRequired number\r\n\t= 360+1\r\n\t= 361"
+      "solution": "LCM(4,6,8,9,12,15)\n= 360\n\nRequired number\n= 360+1\n= 361"
     },
     {
       "id": 53,
@@ -633,7 +633,7 @@
         "131"
       ],
       "question": "Find the greatest number which on dividing 1661 and 2045, leaves a reminder of 10 and 13 respectively",
-      "solution": "Required number\r\n\t= HCF((1661-10),(2045-13))\r\n\t= HCF(1651,2032)\r\n\t= 127"
+      "solution": "Required number\n= HCF((1661-10),(2045-13))\n= HCF(1651,2032)\n= 127"
     },
     {
       "id": 54,
@@ -645,7 +645,7 @@
         "195, 143"
       ],
       "question": "Two numbers are in the ratio of 15 : 11. If their H.C.F. is 13, then the numbers are",
-      "solution": "The numbers are (13*15) and (13*11).\r\n\r\n195,143"
+      "solution": "The numbers are (13*15) and (13*11).\n\n195,143"
     },
     {
       "id": 55,
@@ -657,7 +657,7 @@
         "100"
       ],
       "question": "The H.C.F. and L.C.M. of two numbers are 50 and 250 respectively. If the first number is divided by 2, the quotient is 50. The second number is",
-      "solution": "When the first number is divided by 2, the quotient is 50. Since the HCF is 50, the number is divisible by 2.\r\n\r\nFirst number\r\n\t= 50*2\r\n\t= 100\r\n\r\nSecond number\r\n\t= (50*250)/100\r\n\t= 125"
+      "solution": "When the first number is divided by 2, the quotient is 50. Since the HCF is 50, the number is divisible by 2.\n\nFirst number\n= 50*2\n= 100\n\nSecond number\n= (50*250)/100\n= 125"
     },
     {
       "id": 56,
@@ -669,7 +669,7 @@
         "1260"
       ],
       "question": "The smallest number which when diminished by 3 is divisible by 21, 28, 36 and 45 is",
-      "solution": "Required number\r\n\t= LCM(21, 28, 36, 45) + 3\r\n\t= 1263."
+      "solution": "Required number\n= LCM(21, 28, 36, 45) + 3\n= 1263."
     },
     {
       "id": 57,
@@ -681,7 +681,7 @@
         "235"
       ],
       "question": "The L.C.M. of two numbers is 45 times their H.C.F. If one of the numbers is 125 and the sum of H.C.F. and L.C.M. is 1150, the other number is",
-      "solution": "Let the LCM and HCF be l and h.\r\n\r\nl = 45h\r\n\r\nl+h = 1150\r\n46h = 1150\r\nh = 25\r\nl = 45*25 = 1125\r\n\r\nRequired number\r\n\t= (1125*25)/125\r\n\t= 225"
+      "solution": "Let the LCM and HCF be l and h.\n\nl = 45h\n\nl+h = 1150\n46h = 1150\nh = 25\nl = 45*25 = 1125\n\nRequired number\n= (1125*25)/125\n= 225"
     },
     {
       "id": 58,
@@ -693,7 +693,7 @@
         "6"
       ],
       "question": "The largest number which divides 25, 73 and 97 to leave the same remainder in each case is",
-      "solution": "Required number\r\n\t= HCF((97 - 73),(73 - 25),(97 - 25))\r\n\t= HCF(48,24,72)\r\n\t= 24"
+      "solution": "Required number\n= HCF((97 - 73),(73 - 25),(97 - 25))\n= HCF(48,24,72)\n= 24"
     },
     {
       "id": 59,
@@ -705,7 +705,7 @@
         "46 mins 12 s"
       ],
       "question": "A, B and C start at the same time in the same direction to run around a circular stadium. A completes a round in 252 seconds, B in 308 seconds and C in 198 seconds, all starting at the same point. After how much time will they meet again at the starting point?",
-      "solution": "LCM(252, 308, 198) = 2772\r\n\r\nA, B and C will meet again at the starting point in 2772 seconds (46 minutes 12 seconds)"
+      "solution": "LCM(252, 308, 198) = 2772\n\nA, B and C will meet again at the starting point in 2772 seconds (46 minutes 12 seconds)"
     },
     {
       "id": 60,
@@ -729,7 +729,7 @@
         "35"
       ],
       "question": "The LCM of three different numbers is 120. Which of the following can not be their HCF?",
-      "solution": "HCF should be a factor of the LCM.\r\n\r\nSo, the HCF can't be 35."
+      "solution": "HCF should be a factor of the LCM.\n\nSo, the HCF can't be 35."
     },
     {
       "id": 62,
@@ -741,7 +741,7 @@
         "10080"
       ],
       "question": "The least number of five digits which is exactly divisible by 12, 15 and 18 is",
-      "solution": "The least number of 5 digits is 10000. \r\n\r\nLCM(12,15,18) = 180\r\n\r\nWhen 10000 is divided by 180, the remainder is 100.\r\n\r\nRequired number\r\n\t= 10000+(180-100)\r\n\t= 10080"
+      "solution": "The least number of 5 digits is 10000. \n\nLCM(12,15,18) = 180\n\nWhen 10000 is divided by 180, the remainder is 100.\n\nRequired number\n= 10000+(180-100)\n= 10080"
     },
     {
       "id": 63,
@@ -753,7 +753,7 @@
         "972"
       ],
       "question": "What is the greatest number of three digits which when divided by 5, 8, 9 and 12 leaves a remainder of 3 in each case?",
-      "solution": "LCM(8,9,12) = 72\r\n\r\n999 is the greatest 3 digit number.\r\n\r\nWhen 999 is divided by 72, the remainder is 63.\r\n\r\nThe greatest 3 digit number divisible by 8, 9 and 12 is (999-63) = 936.\r\n\r\n972+3=975 is the greatest 3 digit number which leaves a remainder of 3 when divided by 6,9 and 12."
+      "solution": "LCM(8,9,12) = 72\n\n999 is the greatest 3 digit number.\n\nWhen 999 is divided by 72, the remainder is 63.\n\nThe greatest 3 digit number divisible by 8, 9 and 12 is (999-63) = 936.\n\n972+3=975 is the greatest 3 digit number which leaves a remainder of 3 when divided by 6,9 and 12."
     },
     {
       "id": 64,
@@ -765,7 +765,7 @@
         "8:27:48 hrs"
       ],
       "question": "The traffic lights at three different road crossings change after every 48 seconds, 72 seconds and 108 seconds respectively. If they all change simultaneously at 8:20:00 hours, then they will again change simultaneously at",
-      "solution": "LCM(48,72,108) = 432\r\n\r\nThe lights will change simultaneously every 432 seconds (7 mins 12 seconds).\r\n\r\nThe next change will be at 8:27:12"
+      "solution": "LCM(48,72,108) = 432\n\nThe lights will change simultaneously every 432 seconds (7 mins 12 seconds).\n\nThe next change will be at 8:27:12"
     },
     {
       "id": 65,
@@ -777,7 +777,7 @@
         "1574"
       ],
       "question": "If the product of two numbers is 84942 and their H.C.F. is 33, find their L.C.M.",
-      "solution": "HCF * LCM = 84942\r\n\r\nLCM = 84942/33 = 2574"
+      "solution": "HCF * LCM = 84942\n\nLCM = 84942/33 = 2574"
     },
     {
       "id": 66,
@@ -801,7 +801,7 @@
         "89"
       ],
       "question": "Three numbers which are co-prime to each other are such that the product of the first two is 551 and that of the last two is 1073. The sum of the three numbers is",
-      "solution": "Let the three numbers be x, y and z.\r\n\r\nxy = 551 = 19*29\r\nyz = 1073 = 29*37\r\n\r\nx = 19, y = 29, z = 37\r\n\r\nx+y+z = 85\r\n\r\n"
+      "solution": "Let the three numbers be x, y and z.\n\nxy = 551 = 19*29\nyz = 1073 = 29*37\n\nx = 19, y = 29, z = 37\n\nx+y+z = 85\n\n"
     },
     {
       "id": 68,
@@ -825,6 +825,6 @@
         "150"
       ],
       "question": "Which of the following has the most number of divisors?",
-      "solution": "If a number n = (p^a)*(q^b)*(r^c), where p,q,r are prime numbers, the number of divisors of n is (a+1)(b+1)(c+1).\r\n\r\n88 = 11*2*2*2\r\n\t8 divisors\t\r\n99 = 11*3*3\r\n\t6 divisors\r\n180 = 2*2*3*3*5\r\n\t18 divisors\r\n150 = 2*3*5*5\r\n\t12 divisors"
+      "solution": "If a number n = (p^a)*(q^b)*(r^c), where p,q,r are prime numbers, the number of divisors of n is (a+1)(b+1)(c+1).\n\n88 = 11*2*2*2\n8 divisors\n99 = 11*3*3\n6 divisors\n180 = 2*2*3*3*5\n18 divisors\n150 = 2*3*5*5\n12 divisors"
     }
   ]

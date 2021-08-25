@@ -9,7 +9,7 @@
         "20"
       ],
       "question": "Excluding stoppages, the average speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?",
-      "solution": "Due to stoppages, the bus travels only 45 kms in an hour (9 kms less). \r\n\r\nTo cover a distance of 9 km at a speed of 54 kmph, time taken \r\n\t= 9/54 = 1/6 hrs = 10 mins."
+      "solution": "Due to stoppages, the bus travels only 45 kms in an hour (9 kms less). \n\nTo cover a distance of 9 km at a speed of 54 kmph, time taken \n= 9/54 = 1/6 hrs = 10 mins."
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "300"
       ],
       "question": "A car can travel 360km with a ¾ full tank. How many km can it travel with a 2/3 full tank?",
-      "solution": "With a full tank, it can travel \r\n\t360*4/3 = 480 km\r\nWith 2/3 full tank, it can travel \r\n\t480*2/3 = 320 km"
+      "solution": "With a full tank, it can travel \n360*4/3 = 480 km\nWith 2/3 full tank, it can travel \n480*2/3 = 320 km"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "5.1 kmph"
       ],
       "question": "A man travels a distance of 2 km by walking at a speed of 6 km/hr. He returns back at a speed of 4 km/hr. What is his average speed?",
-      "solution": "Time taken for the forward journey \r\n\t= 2/6 = (1/3) hrs\r\nTime taken for the return journey \r\n\t= 2/4 = (1/2) hrs\r\nTotal time = 5/6 hrs\r\n\r\nAverage speed = 4/(5/6) = 24/5 = 4.8kmph"
+      "solution": "Time taken for the forward journey \n= 2/6 = (1/3) hrs\nTime taken for the return journey \n= 2/4 = (1/2) hrs\nTotal time = 5/6 hrs\n\nAverage speed = 4/(5/6) = 24/5 = 4.8kmph"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "4.5 kmph"
       ],
       "question": "A man walks from his home to his office daily. He starts from his home at 8:15 am and reaches his office at 9:00 am. If he walks at 6 kmph, he reaches the office 15 minutes earlier than usual. Find his usual speed.",
-      "solution": "Traveling at 6 kmph, he takes 30 minutes to reach his office.\r\n\r\nDistance travelled \r\n\t= 6*1/2 = 3 km\r\nUsual Speed \r\n\t= 3/(3/4) = 4 kmph"
+      "solution": "Traveling at 6 kmph, he takes 30 minutes to reach his office.\n\nDistance travelled \n= 6*1/2 = 3 km\nUsual Speed \n= 3/(3/4) = 4 kmph"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "48"
       ],
       "question": "At 10 a.m. two trains started traveling towards each other from stations 287 miles apart. They passed each other at 1:30 p.m. the same day. If the average speed of the faster train exceeded the average speed of the slower train by 6 miles per hour, which of the following represents the speed of the faster train, in miles per hour?",
-      "solution": "Let the speed of the faster train be x miles per hour and\r\n\t the distance travelled by it when it meets the slower train be y miles.\r\n\r\nTime taken by the faster train to cover y miles\r\n\t= Time taken by the slower train to cover (287-y) miles\r\n\t= 3.5 hours\r\n\r\n(y/x) = (287-y)/(x-6) = 3.5\r\n\r\nSolving, x = 44 miles/hr\t"
+      "solution": "Let the speed of the faster train be x miles per hour and\n the distance travelled by it when it meets the slower train be y miles.\n\nTime taken by the faster train to cover y miles\n= Time taken by the slower train to cover (287-y) miles\n= 3.5 hours\n\n(y/x) = (287-y)/(x-6) = 3.5\n\nSolving, x = 44 miles/hr"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "3 hours"
       ],
       "question": "A person walking at 5/6th of his usual speed is 40 minutes late to his office. What is his usual travel time to his office? ",
-      "solution": "Let his usual speed be x kmph, \r\nthe distance to his office be y km and \r\nhis usual travel time be t hrs.\r\n\r\ny = xt = (5/6)x * (t+(40/60))\r\n\r\nSolving the equation, \r\n\tt = 3.33 hrs = 3 hrs 20 minutes"
+      "solution": "Let his usual speed be x kmph, \nthe distance to his office be y km and \nhis usual travel time be t hrs.\n\ny = xt = (5/6)x * (t+(40/60))\n\nSolving the equation, \nt = 3.33 hrs = 3 hrs 20 minutes"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
         "8 kmph"
       ],
       "question": "Ankit crosses a 400m bridge in 3 minutes. What is speed?",
-      "solution": "He crosses 0.4 km in 3/60th of an hour. \r\n\r\nSpeed = 0.4/(1/20) = 8 kmph"
+      "solution": "He crosses 0.4 km in 3/60th of an hour. \n\nSpeed = 0.4/(1/20) = 8 kmph"
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
         "3 km"
       ],
       "question": "Vijay walks from his home to school at a speed of 5 kmph. If he walks at a speed of 4 kmph, he takes 6 more minutes. What is the distance from his home to school?",
-      "solution": "Let d be the distance from his home to school and t be the time taken.\r\n\td/t = 5\r\n\td/(t+(6/60)) = 4\r\nSolving the two equations, d = 2 km"
+      "solution": "Let d be the distance from his home to school and t be the time taken.\nd/t = 5\nd/(t+(6/60)) = 4\nSolving the two equations, d = 2 km"
     },
     {
       "id": 9,
@@ -117,7 +117,7 @@
         "1:1"
       ],
       "question": "Ajay can cover a distance of 400 metres in 2 minutes. Sanjay can cover 1 km in 300 seconds. Find the ratio of their speeds.",
-      "solution": "Ajay's speed \r\n\t= 400/120 = 3.33 m/s\r\nSanjay's speed \r\n\t= 1000/300 = 3.33 m/s"
+      "solution": "Ajay's speed \n= 400/120 = 3.33 m/s\nSanjay's speed \n= 1000/300 = 3.33 m/s"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
         "45 km"
       ],
       "question": "I drive to office at a speed of 40 kmph and return from office at a speed of 30 kmph. If the total travel time to and from the office is 1 hr 45 mins, find the distance from my home to office.",
-      "solution": "Let the distance from my home to the office be x km. \r\n\tx=40*t1 = 30*t2\r\n\tt1+t2 = 1.75\r\nSolving the two equations, x=30km"
+      "solution": "Let the distance from my home to the office be x km. \nx=40*t1 = 30*t2\nt1+t2 = 1.75\nSolving the two equations, x=30km"
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
         "75 km"
       ],
       "question": "A car travels 50% faster than a bike. Both start at the same time from A to B. The car reaches 25 minutes earlier than the bike. If the distance from A to B is 100 km, find the speed of the bike.",
-      "solution": "Let the speed of the bike be x kmph. \r\nThen the speed of the car will be 3x/2 kmph. \r\n\r\nTime taken by the bike \r\n\tt1 = 100/x\r\nTime taken by the bike \r\n\tt2 = 100/(3x/2)\r\n\r\nt1 - t2 = 25/60\r\n\r\n(100/x) - (100/(3x/2)) = 5/12\r\n\r\nSolving the equation, x = 80 kmph"
+      "solution": "Let the speed of the bike be x kmph. \nThen the speed of the car will be 3x/2 kmph. \n\nTime taken by the bike \nt1 = 100/x\nTime taken by the bike \nt2 = 100/(3x/2)\n\nt1 - t2 = 25/60\n\n(100/x) - (100/(3x/2)) = 5/12\n\nSolving the equation, x = 80 kmph"
     },
     {
       "id": 13,
@@ -153,7 +153,7 @@
         "30 km"
       ],
       "question": "In a race, a car travelled at a speed of 150 kmph. If it had travelled at 180 kmph, it would have completed the race before 3 minutes. Find the length of the track.",
-      "solution": "Let the length of the track be l km.\r\n\r\n(l/150) - (l/180) = (3/60)   \r\n\r\nSolving this, l = 45 km"
+      "solution": "Let the length of the track be l km.\n\n(l/150) - (l/180) = (3/60)   \n\nSolving this, l = 45 km"
     },
     {
       "id": 14,
@@ -165,7 +165,7 @@
         "20 kmph"
       ],
       "question": "A cyclist covers a certain distance in 50 minutes at a speed of 24 kmph. To cover the same distance in 40 minutes, he should travel at a speed of ",
-      "solution": "Distance = 24*50/60 = 20 km\r\n\r\nNew Speed = 20/(40/60)) = 30 kmph"
+      "solution": "Distance = 24*50/60 = 20 km\n\nNew Speed = 20/(40/60)) = 30 kmph"
     },
     {
       "id": 15,
@@ -177,7 +177,7 @@
         "4:3"
       ],
       "question": "If the ratio of the speeds of A and B to cover a distance of 200 m is 3:4, then the ratio of the time taken to cover the same distance is ",
-      "solution": "If the ratio of the speeds of two objects is a:b, then the time taken by them to cover the same distance is \r\n\tb:a\r\nHence, the answer is 4:3"
+      "solution": "If the ratio of the speeds of two objects is a:b, then the time taken by them to cover the same distance is \nb:a\nHence, the answer is 4:3"
     },
     {
       "id": 16,
@@ -189,7 +189,7 @@
         "32 minutes"
       ],
       "question": "In a journey of 24 miles, two thirds of the distance was travelled with a speed of 40 mph and the remaining with 60 mph. How much time did the journey take?",
-      "solution": "(2/3)*24=16 miles\r\n\r\nTime taken to cover the first 16 miles\r\n\t= (16/40) hours\r\n\t= 24 minutes\r\nTime taken to cover the next 8 miles\r\n\t= (8/60) hours\r\n\t= 8 minutes\r\nTime taken for the entire journey\r\n\t= 32 minutes"
+      "solution": "(2/3)*24=16 miles\n\nTime taken to cover the first 16 miles\n= (16/40) hours\n= 24 minutes\nTime taken to cover the next 8 miles\n= (8/60) hours\n= 8 minutes\nTime taken for the entire journey\n= 32 minutes"
     },
     {
       "id": 17,
@@ -201,7 +201,7 @@
         "50 minutes"
       ],
       "question": "Walking at 80% of his usual speed, a man is 10 mins late to his office. Find the usual time taken by him to reach his office.",
-      "solution": "Let his \r\n\tusual speed be x kmph \r\n\tusual travel time be t hours\r\n\tdistance to office be d km\r\nd=xt\r\n\r\nd=(0.8x)*[t+(10/60)]\r\n\r\nxt=0.8xt+(2x/15)\r\n\r\nSolving,\r\n\tt=40 minutes"
+      "solution": "Let his \nusual speed be x kmph \nusual travel time be t hours\ndistance to office be d km\nd=xt\n\nd=(0.8x)*[t+(10/60)]\n\nxt=0.8xt+(2x/15)\n\nSolving,\nt=40 minutes"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "75 kmph"
       ],
       "question": "An ambulance travels 25 km at a speed of 50 kmph. How fast must it travel on the return trip if the round-trip travel time should be 55 minutes?",
-      "solution": "Time taken for the forward trip\r\n\t= 25/50 hours\r\n\t= 30 minutes\r\nThe return trip should take 25 minutes\r\n\r\nSpeed \r\n\t= 25:(25/60)\r\n\t= 60 kmph\r\n"
+      "solution": "Time taken for the forward trip\n= 25/50 hours\n= 30 minutes\nThe return trip should take 25 minutes\n\nSpeed \n= 25:(25/60)\n= 60 kmph\n"
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "39.5 seconds"
       ],
       "question": "There are 21 poles with a constant distance between each pole. A car takes 30 seconds to reach the 16th pole. How long does it take to reach the last pole?",
-      "solution": "The first pole is crossed at the zeroth second.\r\n\r\nThe timer starts after the car crosses the first pole.\r\n\r\nLet the distance between each pole be x m.\r\n\r\nTo reach the 16th pole, the distance travelled by the car is 15x.\r\n\r\nThe speed of the car is 15x/30 = x/2 m/s\r\n\r\nTo reach the 21st pole, it has to travel a distance of 20x.\r\n\r\nTime taken\r\n\t= 20x:(x/2) \r\n\t= 40 seconds"
+      "solution": "The first pole is crossed at the zeroth second.\n\nThe timer starts after the car crosses the first pole.\n\nLet the distance between each pole be x m.\n\nTo reach the 16th pole, the distance travelled by the car is 15x.\n\nThe speed of the car is 15x/30 = x/2 m/s\n\nTo reach the 21st pole, it has to travel a distance of 20x.\n\nTime taken\n= 20x:(x/2) \n= 40 seconds"
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "9.5 kmph"
       ],
       "question": "A student pedals from his home to school at a speed of 12 kmph and returns back at a speed of 8 kmph. Find his average speed.",
-      "solution": "If the distances are equal,\r\n\r\nAverage speed\r\n\t= 2ab/(a+b)\r\n\t= 2*8*12/20\r\n\t= 9.6 kmph"
+      "solution": "If the distances are equal,\n\nAverage speed\n= 2ab/(a+b)\n= 2*8*12/20\n= 9.6 kmph"
     },
     {
       "id": 21,
@@ -249,7 +249,7 @@
         "12.5 km"
       ],
       "question": "A man covers a distance of 20 km in 3.5 hours partly by running and partly by walking. If he walks at 4 kmph and runs at 10 kmph, find the distance he covers by walking.",
-      "solution": "Let the distance covered by walking be x km\r\n\tthe distance covered by running be (20-x) km\r\n\r\nTime for walking + time for running = 3.5 hours\r\n\r\n(x/4)+[(20-x)/10]=3.5\r\n\r\nSolving,\r\n\t5x+40-2x = 70\r\n\t3x=30\r\n\tx=10km"
+      "solution": "Let the distance covered by walking be x km\nthe distance covered by running be (20-x) km\n\nTime for walking + time for running = 3.5 hours\n\n(x/4)+[(20-x)/10]=3.5\n\nSolving,\n5x+40-2x = 70\n3x=30\nx=10km"
     },
     {
       "id": 22,
@@ -261,7 +261,7 @@
         "60 km"
       ],
       "question": "Nitin and Bhavin, 110 km apart, start cycling towards each other. If Nitin covers a distance of 6 km to Bhavin's 5 km, how far will Nitin have travelled when they meet?",
-      "solution": "Nitin covers 6 km to Bhavin's 5 km. \r\n\r\nWhen they meet, \r\n\tif Nitin travelled a distance of 6x km, Bhavin would have travelled a distance of 5x km\r\n\r\n\t6x+5x=110\r\n\tx=10\r\nDistance travelled by Nitin\r\n\t6x=60km"
+      "solution": "Nitin covers 6 km to Bhavin's 5 km. \n\nWhen they meet, \nif Nitin travelled a distance of 6x km, Bhavin would have travelled a distance of 5x km\n\n6x+5x=110\nx=10\nDistance travelled by Nitin\n6x=60km"
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
         "200 km"
       ],
       "question": "A car gives a mileage of 20 km per liter of petrol when driven at a constant speed of 50 kmph but the mileage decreases by 10% when driven at a speed of 70 kmph. How many km can the car travel with 12 liters of petrol if it travels a speed of 70 kmph?",
-      "solution": "Mileage = 20kmph\r\n\r\nWhen driven at 70kmph,\r\n\tmileage is reduced by 10%\r\n\t\t= 90% of 20\r\n\t\t= 18 kmpl\r\nWith 12 liters of petrol,\r\n\t18*12=216 km can be travelled"
+      "solution": "Mileage = 20kmph\n\nWhen driven at 70kmph,\nmileage is reduced by 10%\n= 90% of 20\n= 18 kmpl\nWith 12 liters of petrol,\n18*12=216 km can be travelled"
     },
     {
       "id": 24,
@@ -285,7 +285,7 @@
         "3 kmph"
       ],
       "question": "If a man walks at 6 kmph, he can reach his destination at 9:00 am. However, he walks a little slower and reaches only at 10:00 am. If the distance to his destination was 12 km, at what speed did he walk?",
-      "solution": "If he travels at 6 kmph,\r\n\ttime taken to reach = 12/6 = 2 hours\r\n\r\nBut he takes 3 hours.\r\n\tSpeed = 12/3 = 4 kmph"
+      "solution": "If he travels at 6 kmph,\ntime taken to reach = 12/6 = 2 hours\n\nBut he takes 3 hours.\nSpeed = 12/3 = 4 kmph"
     },
     {
       "id": 25,
@@ -297,7 +297,7 @@
         "48 kmph"
       ],
       "question": "Rahul and Neeraj start at the same time from points A and B and travel towards B and A respectively. After they meet, Rahul takes 40 minutes to reach B and Neeraj takes 1.5 hours to reach A. If Rahul's speed is 36 kmph, find Neeraj's speed.",
-      "solution": "If two people P and Q start at the same time from points A and B towards each other and after crossing each other, they take x seconds and y seconds to reach B and A respectively,\r\n\tP's speed:Q's speed = √y:√x\r\n\r\nRahul's speed:Neeraj's speed\r\n\t= √(1.5*60):√40\r\n\t= √9:√4\r\n\t= 3:2\r\nNeeraj's speed\r\n\t= 36*2/3\r\n\t= 24 kmph"
+      "solution": "If two people P and Q start at the same time from points A and B towards each other and after crossing each other, they take x seconds and y seconds to reach B and A respectively,\nP's speed:Q's speed = √y:√x\n\nRahul's speed:Neeraj's speed\n= √(1.5*60):√40\n= √9:√4\n= 3:2\nNeeraj's speed\n= 36*2/3\n= 24 kmph"
     },
     {
       "id": 26,
@@ -309,7 +309,7 @@
         "180 km"
       ],
       "question": "A and B start from their house at 10am at speeds of 20 kmph and 40 kmph.There is a Junction T on their path. A turns left at T junction at 12:00 noon, B reaches T earlier, and turns right. Both of them continue to travel till 2pm. What is the distance between A and B at 2 pm?",
-      "solution": "A takes 2 hours to reach T junction at a speed of 20 kmph.\r\n\r\nDistance between their house and the junction\r\n\t= 20*2\r\n\t= 40 km\r\nTime taken by B to reach the T junction\r\n\t= 40/40\r\n\t= 1 hour\r\nB reached the junction at 11 am.\r\n\r\nB turned right and travelled till 2 pm.\r\n\r\nDistance travelled by B in 3 hours\r\n\t= 120 km\r\n\r\nA turned left at the T junction and travelled for 2 hours.\r\n\r\nDistance travelled by A\r\n\t= 40 km\r\n\r\nDistance between them\r\n\t= 160 km"
+      "solution": "A takes 2 hours to reach T junction at a speed of 20 kmph.\n\nDistance between their house and the junction\n= 20*2\n= 40 km\nTime taken by B to reach the T junction\n= 40/40\n= 1 hour\nB reached the junction at 11 am.\n\nB turned right and travelled till 2 pm.\n\nDistance travelled by B in 3 hours\n= 120 km\n\nA turned left at the T junction and travelled for 2 hours.\n\nDistance travelled by A\n= 40 km\n\nDistance between them\n= 160 km"
     },
     {
       "id": 27,
@@ -321,7 +321,7 @@
         "4 kmph"
       ],
       "question": "J is faster than P. J and P each walk 24 km. Sum of the speeds of J and P is 7 kmph. Sum of the time taken by them is 14 hours.Then J'speed is equal to",
-      "solution": "J>P\r\nJ+P=7\r\n\r\nThe possible values for J and P are\r\n\t(6,1), (5,2), (4,3)\r\n\r\n(24/J)+(24/P) = 14\r\n\r\n(4,3) satisfy the above equation.\r\n\r\nHence, J's speed=4 kmph\r\n"
+      "solution": "J>P\nJ+P=7\n\nThe possible values for J and P are\n(6,1), (5,2), (4,3)\n\n(24/J)+(24/P) = 14\n\n(4,3) satisfy the above equation.\n\nHence, J's speed=4 kmph\n"
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "1 hour"
       ],
       "question": "One day Eesha started 30 minutes late from home and reached her office 50 minutes late, while driving 25% slower than her usual speed. How much time in minutes does Eesha usually take to reach her office from home?",
-      "solution": "Let her usual speed be x kmph.\r\n\r\nShe drove 25% slower.\r\n\t3x/4 kmph\r\n\r\nTime taken is inversely proportional to speed.\r\n\r\nHence, the time taken will be 4/3 of the usual time.\r\n\r\nExtra time taken = 20 minutes.\r\n\r\nExtra time = (4/3)T - T\r\n\r\n(4/3)T - T = 20\r\n\r\nT = 60 minutes"
+      "solution": "Let her usual speed be x kmph.\n\nShe drove 25% slower.\n3x/4 kmph\n\nTime taken is inversely proportional to speed.\n\nHence, the time taken will be 4/3 of the usual time.\n\nExtra time taken = 20 minutes.\n\nExtra time = (4/3)T - T\n\n(4/3)T - T = 20\n\nT = 60 minutes"
     },
     {
       "id": 29,
@@ -345,7 +345,7 @@
         "267 mins"
       ],
       "question": "Car A leaves city C at 5pm and is driven at a speed of 40 kmph.2 hours later, another car B leaves city C and is driven in the same direction as car A. In how much time will car B be 9 kms ahead of car A if the speed of car B is 60kmph?",
-      "solution": "Relative speed of the cars\r\n\t= 60-40 = 20 kmph\r\n\r\nDistance travelled by A in 2 hours\r\n\t= 80 km\r\nCar B should be 9 km ahead of A. \r\n\r\nTime taken\r\n\t= (89/20) hours\r\n\t= (89/20)*60 mins\r\n\t= 267 mins"
+      "solution": "Relative speed of the cars\n= 60-40 = 20 kmph\n\nDistance travelled by A in 2 hours\n= 80 km\nCar B should be 9 km ahead of A. \n\nTime taken\n= (89/20) hours\n= (89/20)*60 mins\n= 267 mins"
     },
     {
       "id": 30,
@@ -357,7 +357,7 @@
         "6 hours"
       ],
       "question": "Two cars start from the same point at the same time towards the same destination which is 420 km away. The first and second car travel at respective speeds of 60 kmph and 90 kmph. After travelling for sometime, the speeds of the two cars get interchanged.Finally the second car reaches the destination one hour earlier than the first. Find the time after which the speeds get interchanged.",
-      "solution": "Let the total time taken by the two cars be a hours and b hours.\r\n\r\nLet the time after which the speeds interchanged be x hours.\r\n\r\nCar A:\r\n\t60x + 90(a-x) = 420\r\n\t3a - x = 14  --- (I)\r\nCar B:\r\n\t90x + 60(b-x) = 420\r\n\t2b + x = 14   --- (II)\r\n\r\nSolving (I) and (II),\r\n\t3a+2b=28\r\n\ta=b+1\r\n\r\n\tb=5\r\n\tx=4"
+      "solution": "Let the total time taken by the two cars be a hours and b hours.\n\nLet the time after which the speeds interchanged be x hours.\n\nCar A:\n60x + 90(a-x) = 420\n3a - x = 14  --- (I)\nCar B:\n90x + 60(b-x) = 420\n2b + x = 14   --- (II)\n\nSolving (I) and (II),\n3a+2b=28\na=b+1\n\nb=5\nx=4"
     },
     {
       "id": 31,
@@ -369,7 +369,7 @@
         "25 hours"
       ],
       "question": "Suresh Raina and Gautam Gambhir after a scintillating IPL match decide to travel by cycle to their respective villages. Both of them start their journey travelling in opposite directions. Each of their speeds is 6 miles per hour. When they are at a distance of 50 miles, a housefly starts flying from Suresh Raina's cycle towards Gautam Gambhir at a relative speed of 17 miles per hour with respect to Raina's speed. What will be the time taken by housefly to reach Gambhir?",
-      "solution": "Relative speed of the fly with respect to Raina's speed\r\n\t= 17 mph\r\nSince, it moves in the opposite direction to Raina,\r\nits actual speed\r\n\t= 17-6\r\n\t= 11 mph\r\nIt flies in the same direction as that of Gambhir.\r\n\r\nSo, relative speed with respect to Gambhir\r\n\t= 11-6\r\n\t= 5 mph\r\nTime taken to cover 50 miles\r\n\t= 50/5\r\n\t= 10 hours"
+      "solution": "Relative speed of the fly with respect to Raina's speed\n= 17 mph\nSince, it moves in the opposite direction to Raina,\nits actual speed\n= 17-6\n= 11 mph\nIt flies in the same direction as that of Gambhir.\n\nSo, relative speed with respect to Gambhir\n= 11-6\n= 5 mph\nTime taken to cover 50 miles\n= 50/5\n= 10 hours"
     },
     {
       "id": 32,
@@ -381,7 +381,7 @@
         "900 km"
       ],
       "question": "George while driving along the highway saw road markers which are at equal distances from each other. He crosses the markers every 20 seconds. If he increases his speed by x meters per second, he crosses the markers at every 15 seconds. But if he increases his speed by y meters per second, he crosses the marker at every 10th second. If y-x = 40 meters per second, then what is the distance between two markers?",
-      "solution": "Let George's speed be z m/s.\r\n\r\nDistance between two markers\r\n\t= 20z meters\r\n\r\n15(z+x) = 20z\r\n10(z+y) = 20z\r\ny-x=40\r\n\r\n15z+15x=20z\r\nz=3x\r\n\r\n10z+10y=20z\r\nz=y\r\n\r\ny-x=40\r\nz-(z/3)=40\r\n2z/3 = 40\r\n2z = 120\r\n\r\n20z = 1200"
+      "solution": "Let George's speed be z m/s.\n\nDistance between two markers\n= 20z meters\n\n15(z+x) = 20z\n10(z+y) = 20z\ny-x=40\n\n15z+15x=20z\nz=3x\n\n10z+10y=20z\nz=y\n\ny-x=40\nz-(z/3)=40\n2z/3 = 40\n2z = 120\n\n20z = 1200"
     },
     {
       "id": 33,
@@ -392,8 +392,8 @@
         "8:9",
         "16:15"
       ],
-      "question": "A dog takes 4 leaps for every 5 leaps of a hare but 3 leaps of a dog are equal to 4 leaps of the hare. Compare their speeds.\r\n\r\n",
-      "solution": "Let 1 leap of the dog be equal to d meters and\r\n\tthat of the hare be equal to h meters.\r\n3d = 4h\r\n\r\nd = 4h/3\r\n\r\nIn a given time,\r\n\tdistance travelled by the dog : distance travelled by the hare\r\n\t\t= 4d:5h\r\n\r\nSpeed is directly proportional to distance.\r\n\r\nRatio of their speeds\r\n\t= 4d : 5h\r\n\t= (4*4h/3):5h\r\n\t= 16h:15h\r\n\t= 16:15"
+      "question": "A dog takes 4 leaps for every 5 leaps of a hare but 3 leaps of a dog are equal to 4 leaps of the hare. Compare their speeds.\n\n",
+      "solution": "Let 1 leap of the dog be equal to d meters and\nthat of the hare be equal to h meters.\n3d = 4h\n\nd = 4h/3\n\nIn a given time,\ndistance travelled by the dog : distance travelled by the hare\n= 4d:5h\n\nSpeed is directly proportional to distance.\n\nRatio of their speeds\n= 4d : 5h\n= (4*4h/3):5h\n= 16h:15h\n= 16:15"
     },
     {
       "id": 34,
@@ -405,7 +405,7 @@
         "21:30"
       ],
       "question": "At 12.00 hours, J starts to walk from his house at a speed of 6 kmph. At 13.30, P follows him from J's house on his bicycle at 8 kmph. When will J be 3 km behind P?",
-      "solution": "Distance travelled by J at 13.30 hours\r\n\t= 1.5 hours * 6 kmph\r\n\t= 9 km\r\nRelative speed of J and P\r\n\t= 8-6\r\n\t= 2 kmph\r\nJ is 9 km ahead of P.\r\n\r\nFor J to be 3 km behind P,\r\n\ttime taken by J to cover 12 km at a relative speed of 2 kmph\r\n\t\t= 12/2 = 6 hours\r\n\r\n13.30 + 6 = 19.30"
+      "solution": "Distance travelled by J at 13.30 hours\n= 1.5 hours * 6 kmph\n= 9 km\nRelative speed of J and P\n= 8-6\n= 2 kmph\nJ is 9 km ahead of P.\n\nFor J to be 3 km behind P,\ntime taken by J to cover 12 km at a relative speed of 2 kmph\n= 12/2 = 6 hours\n\n13.30 + 6 = 19.30"
     },
     {
       "id": 36,
@@ -417,7 +417,7 @@
         "6.18"
       ],
       "question": "Ferrari S.P.A is an Italian sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1928 as Scuderia Ferrari, the company sponsored drivers and manufactured race cars before moving into production of street-legal vehicles in 1947 as Ferrari S.P.A. Throughout its history, the company has been noted for its continued participation in racing, especially in Formula One where it has employed great success. Rohit once bought a Ferrari. It could go 4 times as fast as Mohan's old Mercedes. If the speed of Mohan's Mercedes is 35 km/hr and the distance traveled by the Ferrari is 490 km, find the total time, in hours, taken by Rohit to drive that distance.",
-      "solution": "Speed of Rohit's Ferrari\r\n\t= 35*4 = 140 kmph\r\nTime taken\r\n\t= 490/140\r\n\t= 3.5 hrs"
+      "solution": "Speed of Rohit's Ferrari\n= 35*4 = 140 kmph\nTime taken\n= 490/140\n= 3.5 hrs"
     },
     {
       "id": 37,
@@ -429,7 +429,7 @@
         "5"
       ],
       "question": "A hare and a tortoise have a race along a circle of 100 yards diameter. The tortoise goes in one direction and the hare in the other. The hare starts after the tortoise has covered 1/5 of its distance and that too leisurely. The hare and tortoise meet when the hare has covered only 1/8 of the distance. By what factor should the hare increase its speed so as to tie the race?",
-      "solution": "Time taken by the hare to cover 1/8 of the distance\r\n\t= Time taken by the tortoise to cover 27/40 [(7/8)-(1/5)] of the distance\r\n\r\n1/8h = 27/40t\r\n\r\nt = 27h/5\r\n\r\nLet the new speed of the hare be h1 yards/s.\r\n\r\nTime taken by the hare to cover to 7/8 of the distance should equal\r\n\tthe time taken by the tortoise to cover 1/8 of the distance.\r\n\r\n7/8h1 = 1/8t\r\n\r\nh1 = 7t \r\n     = 7*27h/5\r\n     = 37.8 h"
+      "solution": "Time taken by the hare to cover 1/8 of the distance\n= Time taken by the tortoise to cover 27/40 [(7/8)-(1/5)] of the distance\n\n1/8h = 27/40t\n\nt = 27h/5\n\nLet the new speed of the hare be h1 yards/s.\n\nTime taken by the hare to cover to 7/8 of the distance should equal\nthe time taken by the tortoise to cover 1/8 of the distance.\n\n7/8h1 = 1/8t\n\nh1 = 7t \n     = 7*27h/5\n     = 37.8 h"
     },
     {
       "id": 38,
@@ -441,7 +441,7 @@
         "9 km"
       ],
       "question": "Vikas can cover a distance in 1hr 24 mins by covering 2/3 of the distance at 4 kmph and the rest at 5 kmph. Find the total distance.",
-      "solution": "Let the total distance be 3x km.\r\n\r\n1 hr 24 mins = 1+(24/60) = 1.4 hours\r\n\r\n2x/4 + x/5 = 1.4\r\n\r\n10x+4x=28\r\n\r\nx=2\r\n\r\n3x=6 km"
+      "solution": "Let the total distance be 3x km.\n\n1 hr 24 mins = 1+(24/60) = 1.4 hours\n\n2x/4 + x/5 = 1.4\n\n10x+4x=28\n\nx=2\n\n3x=6 km"
     },
     {
       "id": 39,
@@ -453,7 +453,7 @@
         "6.30 pm"
       ],
       "question": "A thief steals a car at 2.30pm and drives it at 60kmph. The theft is discovered at 3pm and the owner sets off in the same direction in another car at 75kmph. When will he overtake the thief?",
-      "solution": "Distance travelled by the thief from 2.30 pm - 3 pm\r\n\t= 30 km\r\nRelative speed of the two cars\r\n\t= 15 kmph\r\nTime taken\r\n\t= 30/15 = 2 hours\r\nHe overtakes the thief at 5.00 pm."
+      "solution": "Distance travelled by the thief from 2.30 pm - 3 pm\n= 30 km\nRelative speed of the two cars\n= 15 kmph\nTime taken\n= 30/15 = 2 hours\nHe overtakes the thief at 5.00 pm."
     },
     {
       "id": 40,
@@ -465,7 +465,7 @@
         "3 hours"
       ],
       "question": "In covering a distance,the speeds of A & B are in the ratio of 3:4. A takes 30 minutes more than B to reach the destination. The time taken by A to reach the destination is",
-      "solution": "Speed and Time are inversely proportional.\r\n\r\nTime taken by A and B will be the ratio 4:3.\r\n\r\nLet the time taken by A and B be 4x hours and 3x hours.\r\n\r\n4x-3x = 1/2\r\n\r\nx = 1/2\r\n\r\n4x=2 hours"
+      "solution": "Speed and Time are inversely proportional.\n\nTime taken by A and B will be the ratio 4:3.\n\nLet the time taken by A and B be 4x hours and 3x hours.\n\n4x-3x = 1/2\n\nx = 1/2\n\n4x=2 hours"
     },
     {
       "id": 35,
@@ -477,7 +477,7 @@
         "4 hours"
       ],
       "question": "In a flight of 600 km, an aircraft was slowed down due to bad weather. Its average speed for the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. The duration of the flight is",
-      "solution": "Let the usual time by t hours.\r\n\r\n(600/t) - [600/(t+1/2)] = 200\r\n\r\n3t+3/2 - 3t = t(t+1/2)\r\n\r\n3 = 2t²+t\r\n\r\n2t²+t-3=0\r\n\r\n(2t+3)(t-1)=0\r\n\r\nt=1 hour"
+      "solution": "Let the usual time by t hours.\n\n(600/t) - [600/(t+1/2)] = 200\n\n3t+3/2 - 3t = t(t+1/2)\n\n3 = 2t²+t\n\n2t²+t-3=0\n\n(2t+3)(t-1)=0\n\nt=1 hour"
     },
     {
       "id": 42,
@@ -489,7 +489,7 @@
         "midway"
       ],
       "question": "Charlie and Henry start walking towards each other from A and B, 72 kms apart, at the same time. Speed of Charlie is 4 kmph. Speed of Henry is 2 kmph in 1st hr, 2.5 in 2nd, 3 in 3rd and so on. When will they meet?",
-      "solution": "They meet midway at 36 km from A.\r\n\r\nTime taken by A to travel 36 km\r\n\t= 9 hours\r\nDistance travelled by B in 9 hours\r\n\t= 2+2.5+3+....+6\r\n\t= 36 km"
+      "solution": "They meet midway at 36 km from A.\n\nTime taken by A to travel 36 km\n= 9 hours\nDistance travelled by B in 9 hours\n= 2+2.5+3+....+6\n= 36 km"
     },
     {
       "id": 43,
@@ -501,7 +501,7 @@
         "45 kmph"
       ],
       "question": "A racehorse starts chasing a wild pony 3 hours after the pony bolts the stable. The pony runs through the entire country of Alb. Texas jumping 3 streams and crossing four 10 meter roads. The racehorse finally catches up with the pony after four hours by the time the sun had set and the moon was up in the sky for 5 hours. If the average speed of the racehorse is 72 kmph, then average speed of the wild pony is",
-      "solution": "Distance travelled by the horse\r\n\t= 72*5\r\n\t= 360 km\r\nThe pony travels 360 km in 8 hours.\r\n\r\nSpeed of the pony\r\n\t= 360/8\r\n\t= 45 kmph"
+      "solution": "Distance travelled by the horse\n= 72*5\n= 360 km\nThe pony travels 360 km in 8 hours.\n\nSpeed of the pony\n= 360/8\n= 45 kmph"
     },
     {
       "id": 44,
@@ -513,7 +513,7 @@
         "36"
       ],
       "question": "A person drives with constant speed and after some time he sees a milestone with 2 digits. Then travels for 1 hour and sees the same 2 digits in reverse order. 1 hour later he sees that the milestone has the same 2 digits with a 0 between them. What is the speed of the car?",
-      "solution": "Let x and y be the first and second digits on the first milestone and\r\n\ts be the speed of the car in s kmph\r\n\r\nDistance travelled by him in 1 hour\r\n\t= s km\r\n\r\n10x+y+s = 10y+x\r\n9x-9y+s = 0\r\n\r\n10y+x+s = 100x+y\r\n99x-9y-s = 0\r\n\r\nSubtracting one equation from the other,\r\n\t90x = 2s\r\n\ts = 45x\r\n\r\nIf x=2, s=90, which when added to a 2 digit number in the first milestone will result in a 3-digit number.\r\n\r\nSo, x=1, s=45"
+      "solution": "Let x and y be the first and second digits on the first milestone and\ns be the speed of the car in s kmph\n\nDistance travelled by him in 1 hour\n= s km\n\n10x+y+s = 10y+x\n9x-9y+s = 0\n\n10y+x+s = 100x+y\n99x-9y-s = 0\n\nSubtracting one equation from the other,\n90x = 2s\ns = 45x\n\nIf x=2, s=90, which when added to a 2 digit number in the first milestone will result in a 3-digit number.\n\nSo, x=1, s=45"
     },
     {
       "id": 45,
@@ -525,7 +525,7 @@
         "Mh²/m"
       ],
       "question": "To travel 'm' miles, the time taken is 'h' hours. Find the time taken to travel M miles.",
-      "solution": "Speed = m/h\r\n\r\nTime taken\r\n\t= M/(m/h)\r\n\t= Mh/m"
+      "solution": "Speed = m/h\n\nTime taken\n= M/(m/h)\n= Mh/m"
     },
     {
       "id": 46,
@@ -537,7 +537,7 @@
         "120"
       ],
       "question": "A person needs 6 steps to cover a distance of one slab. If he increases his foot length (step length) by 3 inches he needs only 5 steps to cover the slabs length. What is the length, in inches, of each slab?",
-      "solution": "Let his foot length be x inches.\r\n\r\nLength of the slab\r\n\t= 6x\r\n5(x+3) = 6x\r\nx = 15\r\n\r\n6x=90 inches"
+      "solution": "Let his foot length be x inches.\n\nLength of the slab\n= 6x\n5(x+3) = 6x\nx = 15\n\n6x=90 inches"
     },
     {
       "id": 47,
@@ -549,7 +549,7 @@
         "10"
       ],
       "question": "Lorries start from Bangalore to Mysore, one each at 6.00 AM, 7.00 AM, 8.00 AM..... 10.00 PM. Similarly, they start from Mysore to Bangalore too every hour from 6.00 AM to 10.00 PM. A lorry takes 9 hours to travel from Bangalore to Mysore and vice versa. A lorry which has started at 6.00 AM will cross ____ lorries.",
-      "solution": "The lorry will reach at 3.00 PM.\r\n\r\nIt will cross the lorries which started from 6.00 AM to 3.00 PM. (10 lorries)"
+      "solution": "The lorry will reach at 3.00 PM.\n\nIt will cross the lorries which started from 6.00 AM to 3.00 PM. (10 lorries)"
     },
     {
       "id": 48,
@@ -561,7 +561,7 @@
         "40 mins"
       ],
       "question": "A father and his son go out for a walk-and-run every morning around a track formed by an equilateral triangle. The father's walking speed is 2 mph and his running speed is 5 mph. The son's walking and running speeds are twice that of his father. Both start together from one apex of the triangle, the son going clockwise and the father anti-clockwise. Initially the father runs and the son walks for a certain period of time. Thereafter, as soon as the father starts walking, the son starts running. Both complete the course in 45 minutes. For how long does the father run?",
-      "solution": "Let the father run for t hours and walk for (0.75-t) hours.\r\n\r\n5t+2(0.75-t) = 4t+10(0.75-t)\r\n\r\nt = 6-8t\r\n\r\nt = 2/3 hours = 40 minutes"
+      "solution": "Let the father run for t hours and walk for (0.75-t) hours.\n\n5t+2(0.75-t) = 4t+10(0.75-t)\n\nt = 6-8t\n\nt = 2/3 hours = 40 minutes"
     },
     {
       "id": 49,
@@ -573,7 +573,7 @@
         "5 mins"
       ],
       "question": "There is a Ferarri and a Benz car. The Benz covers a distance of 15 km at a speed of 90 kmph. If the Ferarri goes two times faster than the Benz, how much time would the Ferrari take to cover the same distance?",
-      "solution": "The Ferrari covers 15 km at a speed of 180 kmph.\r\n\r\nTime taken\r\n\t= 15/180 hours\r\n\t= 60*15/180 minutes\r\n\t= 5 mins"
+      "solution": "The Ferrari covers 15 km at a speed of 180 kmph.\n\nTime taken\n= 15/180 hours\n= 60*15/180 minutes\n= 5 mins"
     },
     {
       "id": 50,
@@ -585,7 +585,7 @@
         "8.64 kmph"
       ],
       "question": "Pace length is the distance between the rear of consecutive footprints. For an old man walking, Berghian's formula is n/p=144, where n is number of steps per minute and p is pace length in m. Find the walking speed of an old man whose pace length is 150cm.",
-      "solution": "No. of steps per minute\r\n\t= 144*1.5\r\n\t= 216\r\nDistance covered in 1 minute\r\n\t= 216*1.5\r\n\t= 324 m\r\n1 min -> 324 m\r\n1 hour -> 0.324*60 km = 19.44 km\r\n\r\nSpeed\r\n\t= 19.44 kmph"
+      "solution": "No. of steps per minute\n= 144*1.5\n= 216\nDistance covered in 1 minute\n= 216*1.5\n= 324 m\n1 min -> 324 m\n1 hour -> 0.324*60 km = 19.44 km\n\nSpeed\n= 19.44 kmph"
     },
     {
       "id": 51,
@@ -597,7 +597,7 @@
         "4.5 hrs"
       ],
       "question": "A stationary engine has enough fuel to move for 12 hours when its tank is 4/5 full. How many hours will it run when the tank is 1/3 full?",
-      "solution": "Time it will run\n\t= 12*(1/3) / (4/5)\n\t= 5 hours"
+      "solution": "Time it will run\n= 12*(1/3) / (4/5)\n= 5 hours"
     },
     {
       "id": 52,
@@ -609,7 +609,7 @@
         "261.5 mins"
       ],
       "question": "Wind flows 160 miles in 330 minutes. How much time is required to flow 120 miles?",
-      "solution": "Time required\n\t= 330*(120/160)\n\t= 247.5 mins"
+      "solution": "Time required\n= 330*(120/160)\n= 247.5 mins"
     },
     {
       "id": 53,
@@ -633,7 +633,7 @@
         "2(5/6) hours"
       ],
       "question": "The centre of a storm shifts 22.5 miles in 1 hour. At the same rate, what time will it take to move 60 miles?",
-      "solution": "Time taken\n\t= 60/22.5\n\t= 2(2/3) hours"
+      "solution": "Time taken\n= 60/22.5\n= 2(2/3) hours"
     },
     {
       "id": 55,
@@ -645,7 +645,7 @@
         "L/12"
       ],
       "question": "An ocean liner L miles from port steams toward port at 11 miles per hour.  Another ship leaves the same port and steams toward the ocean liner at 1 miles per hour.  How many miles away from the port will they meet?",
-      "solution": "Relative speed\r\n\t= 12 mph\r\nThe time at which they meet is\r\n\tL/12 hours\r\n\r\nDistance travelled by the ship in L/12 hours\r\n\t= L/12 miles\r\n\r\nHence, they meet at a distance of L/12 miles from the port."
+      "solution": "Relative speed\n= 12 mph\nThe time at which they meet is\nL/12 hours\n\nDistance travelled by the ship in L/12 hours\n= L/12 miles\n\nHence, they meet at a distance of L/12 miles from the port."
     },
     {
       "id": 41,
@@ -657,6 +657,6 @@
         "1.8 hours"
       ],
       "question": "Two cars, traveling in the same direction, are 15 kms apart. One is traveling at a speed of 50 kmph and the other at 40 kmph . How much time will it take for the two cars to meet?",
-      "solution": "Relative speed = 10 kmph\n\nTime taken\n\t= 15/10\n\t= 1.5 hours"
+      "solution": "Relative speed = 10 kmph\n\nTime taken\n= 15/10\n= 1.5 hours"
     }
   ]

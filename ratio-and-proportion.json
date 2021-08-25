@@ -9,7 +9,7 @@
         "Rs.1100, Rs.900"
       ],
       "question": "Divide Rs.2000 into two shares in the ratio 3:2.",
-      "solution": "3x+2x=2000\r\n5x=2000\r\nx=400\r\n\r\n3x=1200\r\n2x=800"
+      "solution": "3x+2x=2000\n5x=2000\nx=400\n\n3x=1200\n2x=800"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "70"
       ],
       "question": "A class has 90 students. If the ratio of boys and girls is 7:8, find the number of boys in the class.",
-      "solution": "7x+8x=90\r\n15x=90\r\nx=6\r\n\r\nNumber of boys=7x=42"
+      "solution": "7x+8x=90\n15x=90\nx=6\n\nNumber of boys=7x=42"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "15 cm"
       ],
       "question": "The length and breadth of a rectangle are in the ratio 5:4. Find its perimeter if its area is 180 cm².",
-      "solution": "Let the length and breadth be 5x cm and 4x cm.\r\n\t5x*4x=180\r\n\t20x²=180\r\n\tx²=9\r\n\tx=3\r\nLength = 15cm\r\nBreadth = 12cm\r\n\r\nPerimeter\r\n\t= 2(l+b)\r\n\t= 2*27\r\n\t= 54 cm"
+      "solution": "Let the length and breadth be 5x cm and 4x cm.\n5x*4x=180\n20x²=180\nx²=9\nx=3\nLength = 15cm\nBreadth = 12cm\n\nPerimeter\n= 2(l+b)\n= 2*27\n= 54 cm"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
         "50"
       ],
       "question": "Find the mean proportion between 5 and 45.",
-      "solution": "5:x::x:45\r\n\r\nx²=45*5 = 225\r\nx=15"
+      "solution": "5:x::x:45\n\nx²=45*5 = 225\nx=15"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
         "27"
       ],
       "question": "Find the fourth proportion to 3, 7 and 9.",
-      "solution": "3:7::9:x\r\n\r\n3x=7*9=63\r\n\r\nx=21"
+      "solution": "3:7::9:x\n\n3x=7*9=63\n\nx=21"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
         "2"
       ],
       "question": "The sum of cubes of two numbers is 280. If the numbers are in the ratio 2:3, find the smallest number.",
-      "solution": "Let the numbers be 2x and 3x.\r\n(2x)³+(3x)³=280\r\n8x³+27x³=280\r\n35x³=280\r\nx³=8\r\nx=2\r\nThe numbers are 4 and 6."
+      "solution": "Let the numbers be 2x and 3x.\n(2x)³+(3x)³=280\n8x³+27x³=280\n35x³=280\nx³=8\nx=2\nThe numbers are 4 and 6."
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
         "18"
       ],
       "question": "The sum of squares of three numbers is 280. If the numbers are in the ratio 3:5:6, find the greatest number.",
-      "solution": "Let the numbers be 3x,5x and 6x.\r\n(3x)²+(5x)²+(6x)²=280\r\n9x²+25x²+36x²=280\r\n70x²=280\r\nx²=4\r\nx=2\r\n\r\nThe greatest number is 6x=12."
+      "solution": "Let the numbers be 3x,5x and 6x.\n(3x)²+(5x)²+(6x)²=280\n9x²+25x²+36x²=280\n70x²=280\nx²=4\nx=2\n\nThe greatest number is 6x=12."
     },
     {
       "id": 8,
@@ -92,8 +92,8 @@
         "12",
         "5"
       ],
-      "question": "Solve for x\r\n\t2x:25 = 6:(x/3)",
-      "solution": "2x/25 = 6/(x/3)\r\n2x/25 = 18/x\r\n2x*x = 18*25\r\nx² = 9*25\r\nx=3*5\r\nx=15"
+      "question": "Solve for x\n2x:25 = 6:(x/3)",
+      "solution": "2x/25 = 6/(x/3)\n2x/25 = 18/x\n2x*x = 18*25\nx² = 9*25\nx=3*5\nx=15"
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
         "45"
       ],
       "question": "Pooja, Amanda and Sherin divide 93 chocolates between them in the ratio (1/2):(1/3):(1/5). How many chocolates did Amanda get?",
-      "solution": "(1/2):(1/3):(1/5)\r\n\t= (15/30):(10/30):(6/30)\r\n\t= 15:10:6\r\nAmanda's share\r\n\t= [10/(15+10+6)]*93\r\n\t= [10/31]*93\r\n\t= 30"
+      "solution": "(1/2):(1/3):(1/5)\n= (15/30):(10/30):(6/30)\n= 15:10:6\nAmanda's share\n= [10/(15+10+6)]*93\n= [10/31]*93\n= 30"
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
         "5:7"
       ],
       "question": "X, Y and Z are quantities of the same kind such that X:Y=5:8 and Y:Z=4:7. Find X:Z.",
-      "solution": "X:Z=(X:Y)*(Y:Z)\r\n      =(5:8)*(4:7)\r\n      = (5/8)*(4/7)\r\n      = 5/14"
+      "solution": "X:Z=(X:Y)*(Y:Z)\n      =(5:8)*(4:7)\n      = (5/8)*(4/7)\n      = 5/14"
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
         "3:2"
       ],
       "question": "A box containing a dozen apples is opened and a few of the apples are found to be rotten. Which of the following may be the ratio of fresh apples to rotten apples?",
-      "solution": "Let X and Y be the number of fresh apples and rotten apples.\r\n\tX+Y=12\r\nRatio = X:Y\r\n\r\nIf the ratio simplifies to a:b,\r\n\ta+b has to be a factor of 12.\r\n\r\n3+1=4 is a factor of 12. Hence (B) can be the ratio."
+      "solution": "Let X and Y be the number of fresh apples and rotten apples.\nX+Y=12\nRatio = X:Y\n\nIf the ratio simplifies to a:b,\na+b has to be a factor of 12.\n\n3+1=4 is a factor of 12. Hence (B) can be the ratio."
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
         "8"
       ],
       "question": "A bag contains 1 rupee, 2 rupee and 5 rupee coins amounting to Rs.264. If the ratio of the number of these coins is 3:5:4, find the number of 1 rupee coins.",
-      "solution": "Let the number of 1 rupee, 2 rupee and 5 rupee coins be 3x, 5x and 4x.\r\n\r\n(1*3x)+(2*5x)+(5*4x)=264\r\n3x+10x+20x=264\r\n33x=264\r\nx=8\r\n\r\nNo. of 1 rupee coins\r\n\t= 3x = 24"
+      "solution": "Let the number of 1 rupee, 2 rupee and 5 rupee coins be 3x, 5x and 4x.\n\n(1*3x)+(2*5x)+(5*4x)=264\n3x+10x+20x=264\n33x=264\nx=8\n\nNo. of 1 rupee coins\n= 3x = 24"
     },
     {
       "id": 13,
@@ -153,7 +153,7 @@
         "108"
       ],
       "question": "The ratio of boys and girls in a class was 11:13. 8 girls and 4 boys join the class from this academic year and the ratio becomes 4:5. Find the strength of the class.",
-      "solution": "Let the number of boys and girls in the class be 11x and 13x.\r\n\r\n4 boys and 8 girls join the class.\r\nStrength of the class \r\n\t= 11x+13x+4+8\r\n\t= 24x+12\r\n\r\n(11x+4):(13x+8) = 4:5\r\n5*(11x+4)=4*(13x+8)\r\n55x+20=52x+32\r\n3x=12\r\nx=4\r\n\r\n24x+12=108"
+      "solution": "Let the number of boys and girls in the class be 11x and 13x.\n\n4 boys and 8 girls join the class.\nStrength of the class \n= 11x+13x+4+8\n= 24x+12\n\n(11x+4):(13x+8) = 4:5\n5*(11x+4)=4*(13x+8)\n55x+20=52x+32\n3x=12\nx=4\n\n24x+12=108"
     },
     {
       "id": 14,
@@ -165,7 +165,7 @@
         "15000 m²"
       ],
       "question": "The plan for a rectangular area is drawn to a scale of 1:500. If the length and breadth in the plan is 30 cm and 20 cm, find the actual area.",
-      "solution": "Actual length\r\n\t= 30*500 cm\r\nActual breadth\r\n\t= 20*500 cm\r\nActual area\r\n\t= 30*20*500*500\r\n\t= 15000 m²"
+      "solution": "Actual length\n= 30*500 cm\nActual breadth\n= 20*500 cm\nActual area\n= 30*20*500*500\n= 15000 m²"
     },
     {
       "id": 15,
@@ -177,7 +177,7 @@
         "40$"
       ],
       "question": "A sum of 150$ is divided among A,B and C such that for each dollar A gets, B gets 60 cents and C gets 40 cents. Find B's share.",
-      "solution": "If A gets 100 cents,\r\n\tB gets 60 cents\r\n\tC gets 40 cents\r\nA:B:C=100:60:40=5:3:2\r\n\r\nB's share\r\n\t= (3/10)*150\r\n\t= 45$"
+      "solution": "If A gets 100 cents,\nB gets 60 cents\nC gets 40 cents\nA:B:C=100:60:40=5:3:2\n\nB's share\n= (3/10)*150\n= 45$"
     },
     {
       "id": 16,
@@ -189,7 +189,7 @@
         "6"
       ],
       "question": "Three quantities X, Y and Z are such that XY=kZ where k is constant. Initially, X was at 4 and X:Y:Z was 2:3:4. If the value of Y is changed to 12 and Z is kept constant, find the value of X.",
-      "solution": "X:Y:Z=2:3:4\r\n\tX=4\r\n\tThen, Y=6, Z=8\r\nXY=kZ\r\n4*6=k*8\r\n8k=24\r\nk=3\r\n\tY=12, Z=8\r\n\tX*12=3*8\r\n\tX=2"
+      "solution": "X:Y:Z=2:3:4\nX=4\nThen, Y=6, Z=8\nXY=kZ\n4*6=k*8\n8k=24\nk=3\nY=12, Z=8\nX*12=3*8\nX=2"
     },
     {
       "id": 17,
@@ -201,7 +201,7 @@
         "8:5"
       ],
       "question": "A:B=2:3, B:C=3:4, A:D=4:5. Find C:D.",
-      "solution": "A:C=(A:B)*(B:C)\r\n      =(2/3)*(3/4)\r\n      = 1/2\r\nC:D=(C:A)*(A:D)\r\n      =(2)*(4/5)\r\n      = 8:5\r\n"
+      "solution": "A:C=(A:B)*(B:C)\n      =(2/3)*(3/4)\n      = 1/2\nC:D=(C:A)*(A:D)\n      =(2)*(4/5)\n      = 8:5\n"
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "Rs.10000"
       ],
       "question": "4 singers, 5 dancers and 3 comperes divide an amount of Rs.130000 among themselves such that 3 comperes get as much as 2 dancers and 3 dancers get as much as 2 singers. Find the amount received by a singer.",
-      "solution": "4S+5D+3C=130000\r\n\r\n3C=2D\r\n\r\n3D=2S\r\nS=3D/2\r\n\r\n[4*(3D/2)]+5D+2D = 130000\r\n6D+5D+2D = 130000\r\n13D = 130000\r\nD = Rs.10000\r\n\r\nS=3D/2 = Rs.15000"
+      "solution": "4S+5D+3C=130000\n\n3C=2D\n\n3D=2S\nS=3D/2\n\n[4*(3D/2)]+5D+2D = 130000\n6D+5D+2D = 130000\n13D = 130000\nD = Rs.10000\n\nS=3D/2 = Rs.15000"
     },
     {
       "id": 19,
@@ -225,7 +225,7 @@
         "2:1"
       ],
       "question": "p is 50% more than q. Find the ratio of p to q.",
-      "solution": "p = q+(50/100)q\r\n    = 1.5q\r\np:q = 1.5q:q\r\n      = 1.5:1\r\n      = 3:2"
+      "solution": "p = q+(50/100)q\n    = 1.5q\np:q = 1.5q:q\n      = 1.5:1\n      = 3:2"
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "2:3"
       ],
       "question": "x is 20% more than z and y is 80% more than z. Find x:y.",
-      "solution": "x = z+(20/100)z\r\n   = 1.2z\r\ny = 1.8z\r\n\r\nx:y = 1.2z:1.8z\r\n      = 12:18\r\n      = 2:3 "
+      "solution": "x = z+(20/100)z\n   = 1.2z\ny = 1.8z\n\nx:y = 1.2z:1.8z\n      = 12:18\n      = 2:3 "
     },
     {
       "id": 21,
@@ -249,7 +249,7 @@
         "400"
       ],
       "question": "According to a recipe, 400 grams of flour should be mixed with 500 grams of sugar to bake cookies. If I have only 300 grams of flour, how much sugar should I mix to maintain the same proportion?",
-      "solution": "Flour and sugar have to mixed in the ratio 4:5\r\n\r\n4:5::300:x\r\n4x=1500\r\nx=375\r\n375 grams of sugar should be mixed."
+      "solution": "Flour and sugar have to mixed in the ratio 4:5\n\n4:5::300:x\n4x=1500\nx=375\n375 grams of sugar should be mixed."
     },
     {
       "id": 22,
@@ -261,7 +261,7 @@
         "4:5"
       ],
       "question": "If x% of 200=y% of 250, find y:x.",
-      "solution": "(x/100)*200 = (y/100)*250\r\n\r\ny/x = 20/25 = 4/5\r\n\r\ny:x=4:5"
+      "solution": "(x/100)*200 = (y/100)*250\n\ny/x = 20/25 = 4/5\n\ny:x=4:5"
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
         "27 cm"
       ],
       "question": "The perimeter of a triangle is 81 cm. If the sides are in the ratio 4:3:2, find the length of the largest side.",
-      "solution": "Let the three sides be 4x,3x and 2x.\r\n\r\n4x+3x+2x = 81\r\n9x = 81\r\nx = 9\r\n\r\nLength of the largest side\r\n\t= 4x = 36 cm"
+      "solution": "Let the three sides be 4x,3x and 2x.\n\n4x+3x+2x = 81\n9x = 81\nx = 9\n\nLength of the largest side\n= 4x = 36 cm"
     },
     {
       "id": 24,
@@ -285,7 +285,7 @@
         "5"
       ],
       "question": "The ratio of two numbers a and b is 3:5. If 2 is added to both the numbers, the ratio becomes 2:3. Find b.",
-      "solution": "a:b = 3:5\r\n5a = 3b\r\n\r\n(a+2):(b+2) = 2:3\r\n3(a+2) = 2(b+2)\r\n3a+6 = 2b+4\r\n3*(3b/5) = 2b-2\r\n9b = 10b-10\r\nb  =10"
+      "solution": "a:b = 3:5\n5a = 3b\n\n(a+2):(b+2) = 2:3\n3(a+2) = 2(b+2)\n3a+6 = 2b+4\n3*(3b/5) = 2b-2\n9b = 10b-10\nb  =10"
     },
     {
       "id": 25,
@@ -297,7 +297,7 @@
         "240"
       ],
       "question": "A bag contains 50 paise, 1 rupee and 2 rupee coins in the ratio 2:5:8. If the total amount is Rs. 352, find the total number of coins in the bag.",
-      "solution": "Let the number of 50p, 1 rupee and 2 rupee coins be 2x,5x and 8x.\r\n\r\n0.5*(2x)+5x+2*8x = 352\r\n22x=352\r\nx=16\r\n\r\nTotal no. of coins\r\n\t= 2x+5x+8x\r\n\t= 15x = 240"
+      "solution": "Let the number of 50p, 1 rupee and 2 rupee coins be 2x,5x and 8x.\n\n0.5*(2x)+5x+2*8x = 352\n22x=352\nx=16\n\nTotal no. of coins\n= 2x+5x+8x\n= 15x = 240"
     },
     {
       "id": 26,
@@ -309,7 +309,7 @@
         "50"
       ],
       "question": "The ratio of the runs scored by Tarun and Varun in a cricket match is 5:8. The ratio of the scores of Arun and Varun is 6:5. The sum of the scores of three of them is 226. Find Arun's score.",
-      "solution": "T:V = 5:8\nA:V = 6:5\n\nT+A+V = 226\n\nT=5V/8\nA=6V/5\n\n(5V/8)+(6V/5)+V = 226\n\nSolving,\n\tV=80\n\tA=6V/5=96"
+      "solution": "T:V = 5:8\nA:V = 6:5\n\nT+A+V = 226\n\nT=5V/8\nA=6V/5\n\n(5V/8)+(6V/5)+V = 226\n\nSolving,\nV=80\nA=6V/5=96"
     },
     {
       "id": 27,
@@ -321,7 +321,7 @@
         "35:33"
       ],
       "question": "The number of seats available for Biology and Computer Science in a school is in the ratio 5:8. They are to be increased by 30% and 25% . Find the new ratio.",
-      "solution": "Let the number of seats be 5x and 8x.\r\n\r\nNew ratio \r\n\t= (1.3*5x):(1.25*8x)\r\n\t= 6.5x:10x\r\n\t= 13:20"
+      "solution": "Let the number of seats be 5x and 8x.\n\nNew ratio \n= (1.3*5x):(1.25*8x)\n= 6.5x:10x\n= 13:20"
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "Rs.2000"
       ],
       "question": "A, B, C and D divide a sum of money among themselves in the ratio 7:4:3:2. If D gets Rs. 500 less than A, find the total amount.",
-      "solution": "Let the amount be divided into 7x,4x,3x and 2x.\r\n\r\n7x-2x = 500\r\n5x=500\r\nx = 100\r\n\r\nTotal amount\r\n\t= 7x+4x+3x+2x\r\n\t= 16x\r\n\t= Rs.1600"
+      "solution": "Let the amount be divided into 7x,4x,3x and 2x.\n\n7x-2x = 500\n5x=500\nx = 100\n\nTotal amount\n= 7x+4x+3x+2x\n= 16x\n= Rs.1600"
     },
     {
       "id": 29,
@@ -345,7 +345,7 @@
         "77"
       ],
       "question": "The sum of three numbers is 172. The ratio of the first and second numbers is 8:11. The ratio of the second and third is 5:7. Find the second number.",
-      "solution": "Let the numbers be a, b and c.\r\n\r\na+b+c = 172\r\na:b = 8:11\r\nb:c = 5:7\r\n\r\n11a = 8b\r\na = 8b/11\r\n\r\n7b = 5c\r\nc = 7b/5\r\n\r\n(8b/11)+b+(7b/5) = 172\r\n40b+55b+77b = 172*55\r\n172b = 172*55\r\nb=55"
+      "solution": "Let the numbers be a, b and c.\n\na+b+c = 172\na:b = 8:11\nb:c = 5:7\n\n11a = 8b\na = 8b/11\n\n7b = 5c\nc = 7b/5\n\n(8b/11)+b+(7b/5) = 172\n40b+55b+77b = 172*55\n172b = 172*55\nb=55"
     },
     {
       "id": 30,
@@ -357,7 +357,7 @@
         "4:3"
       ],
       "question": "A journey of 750 km was covered partly by car(x km) and partly by train(y km). If the distance travelled by train was 150 km more than the distance travelled by car, find x:y.",
-      "solution": "x+y = 750\r\ny-x = 150\r\n\r\nSolving,\r\n\ty = 450\r\n\tx = 300\r\nx:y = 300:450 = 2:3"
+      "solution": "x+y = 750\ny-x = 150\n\nSolving,\ny = 450\nx = 300\nx:y = 300:450 = 2:3"
     },
     {
       "id": 31,
@@ -369,7 +369,7 @@
         "C < A < B"
       ],
       "question": "The savings of employees equal income minus expenditure. If the income of 3 employees A,B,C are in the ratio 1:2:3 and their expense ratio 3:2:1, then what is the order of the employees in the increasing order of their savings?",
-      "solution": "A earns the least and spends the most.\r\n\tHence, A has minimum savings.\r\nB earns less than C and spends more than C.\r\n\tHence, B's savings is less than C.\r\n\r\nA<B<C"
+      "solution": "A earns the least and spends the most.\nHence, A has minimum savings.\nB earns less than C and spends more than C.\nHence, B's savings is less than C.\n\nA<B<C"
     },
     {
       "id": 32,
@@ -381,7 +381,7 @@
         "0%"
       ],
       "question": "The value of a diamond varies directly as the square of its weight. If a diamond falls and breaks into two pieces with weights in the ratio 2:3, what is the loss percentage in the value?",
-      "solution": "Let the weight of the diamond be 5y.\r\nValue = (5y)² = 25y²\r\n\r\nIt breaks into two pieces with weights in the ratio 2:3\r\n\t2y and 3y\r\n\r\nValue = (2y)²+(3y)² = 13y²\r\n\r\nLoss of value\r\n\t= 12y²\r\nLoss %\r\n\t= (12y²/25y²)*100\r\n\t= 48%"
+      "solution": "Let the weight of the diamond be 5y.\nValue = (5y)² = 25y²\n\nIt breaks into two pieces with weights in the ratio 2:3\n2y and 3y\n\nValue = (2y)²+(3y)² = 13y²\n\nLoss of value\n= 12y²\nLoss %\n= (12y²/25y²)*100\n= 48%"
     },
     {
       "id": 33,
@@ -393,7 +393,7 @@
         "720"
       ],
       "question": "A bag contains 50 p, 25 p and 10 p coins in the ratio 5:9:4, amounting to Rs.206. Find the total number of coins in the bag.",
-      "solution": "Let the number of 50p, 25p and 10p coins be 5x, 9x and 4x.\r\n\r\n(5x*50)+(9x*25)+(4x*10) = 20600\r\n\r\n250x+225x+40x=20600\r\n\r\n515x=20600\r\n\r\nx=40\r\n\r\nTotal number of coins\r\n\t= 18x\r\n\t= 720"
+      "solution": "Let the number of 50p, 25p and 10p coins be 5x, 9x and 4x.\n\n(5x*50)+(9x*25)+(4x*10) = 20600\n\n250x+225x+40x=20600\n\n515x=20600\n\nx=40\n\nTotal number of coins\n= 18x\n= 720"
     },
     {
       "id": 34,
@@ -405,7 +405,7 @@
         "Rs.1248"
       ],
       "question": "The cost of a precious stone varies as the square of its weight. A diamond weighing 10 decigrams costs Rs. 2600. The loss incurred when it breaks into two pieces whose weights are in the ratio 3:2 is",
-      "solution": "The cost varies as the square of the weight.\r\n\r\nWeight of the diamond = 10 dg\r\n\r\nWeight of the two pieces = 6dg, 4dg\r\n\r\nValue of the two pieces\r\n\t= 2600*(36+16)/100\r\n\t= 2600*52/100\r\nLoss in value\r\n\t= 2600*48/100\r\n\t= Rs.1248"
+      "solution": "The cost varies as the square of the weight.\n\nWeight of the diamond = 10 dg\n\nWeight of the two pieces = 6dg, 4dg\n\nValue of the two pieces\n= 2600*(36+16)/100\n= 2600*52/100\nLoss in value\n= 2600*48/100\n= Rs.1248"
     },
     {
       "id": 35,
@@ -417,7 +417,7 @@
         "80"
       ],
       "question": "There are two numbers in the ratio 8:9. If the smaller of the two numbers is decreased by 14 and the larger number is increased by 8, the ratio of the two numbers is 5:8. Find the larger number.",
-      "solution": "(8x-14)/(9x+8) = 5/8\r\n\r\n64x-112 = 45x+40\r\n\r\n19x = 152\r\n\r\nx = 8\r\n\r\nLarger number = 72"
+      "solution": "(8x-14)/(9x+8) = 5/8\n\n64x-112 = 45x+40\n\n19x = 152\n\nx = 8\n\nLarger number = 72"
     },
     {
       "id": 36,
@@ -429,7 +429,7 @@
         "1.6"
       ],
       "question": "If the ratio of the production of 3 different companies A B & C is 4:7:5 and the overall production last year was 4 lac tonnes and if each company had an increase of 20% in production level this year, what is the production of Company B this year (in lac tonnes)?",
-      "solution": "Production of Company B\r\n\t= 1.2*(7/16)*400000\r\n\t= 2.1 lac tonnes"
+      "solution": "Production of Company B\n= 1.2*(7/16)*400000\n= 2.1 lac tonnes"
     },
     {
       "id": 37,
@@ -441,7 +441,7 @@
         "$462"
       ],
       "question": "Francois Pachet, a researcher at Sony Computer Science Laboratories is also a jazz musician. He decided to build a robot able to improvise like a pro. Named Continuator, the robot can duet with a live musician in real-time. It listens to a musical phrase and then computes a complementary phrase with the same playing style. The cost of making the robot is divided between materials, labor and overheads in the ratio of 4:5:2. If the materials cost $ 84.0, the cost of the robot is",
-      "solution": "4x = 84\r\nx = 21\r\n\r\n4x+5x+2x=11x=231"
+      "solution": "4x = 84\nx = 21\n\n4x+5x+2x=11x=231"
     },
     {
       "id": 38,
@@ -453,7 +453,7 @@
         "4.88:1"
       ],
       "question": "Navin managed to draw 3 circles of equal radii with their centers on the diagonal of a square such  that the two extreme circles touch two sides of the square and the middle circle touches two circles on either side. Find the ratio of the side of the square to the radius of the circles. (√2 = 1.44)",
-      "solution": "Part of the diagonal from the vertex of square to center of extreme circle\r\n\t= √2 r\r\n\r\nDiagonal of the square\r\n\t√2 a= 2√2 r + 4r\r\n\ta:r = 2+2√2 = 4.88"
+      "solution": "Part of the diagonal from the vertex of square to center of extreme circle\n= √2 r\n\nDiagonal of the square\n√2 a= 2√2 r + 4r\na:r = 2+2√2 = 4.88"
     },
     {
       "id": 39,
@@ -465,7 +465,7 @@
         "21"
       ],
       "question": "The ratio between two numbers is 5:7 and their product is 560. What is the difference between these two numbers?",
-      "solution": "x/y = 5/7\r\nxy = 560\r\n\r\nSolving,\r\n\tx = 20\r\n\ty = 28\r\nDifference = 8"
+      "solution": "x/y = 5/7\nxy = 560\n\nSolving,\nx = 20\ny = 28\nDifference = 8"
     },
     {
       "id": 40,
@@ -477,7 +477,7 @@
         "25"
       ],
       "question": "The ratio of the sum of squares of first n natural numbers to the square of the sum of first n natural numbers is 17:325. The value of n is",
-      "solution": "Sum of squares of n terms\r\n\t= n(n+1)(2n+1)/6\r\nSquare of sum of first n terms\r\n\t= n²(n+1)²/4\r\n[n(n+1)(2n+1)/6]:[n²(n+1)²/4] = 17:325\r\n\r\n2(2n+1) : 3n(n+1) = 17:325\r\n\r\n1300n+750 = 51n²+51n\r\n\r\n51n²-1249n-750 = 0\r\n\r\nn=25"
+      "solution": "Sum of squares of n terms\n= n(n+1)(2n+1)/6\nSquare of sum of first n terms\n= n²(n+1)²/4\n[n(n+1)(2n+1)/6]:[n²(n+1)²/4] = 17:325\n\n2(2n+1) : 3n(n+1) = 17:325\n\n1300n+750 = 51n²+51n\n\n51n²-1249n-750 = 0\n\nn=25"
     },
     {
       "id": 41,
@@ -489,7 +489,7 @@
         "9"
       ],
       "question": "An alloy is to contain copper and zinc in the ratio 9:4. The zinc required (in kg) to be melted with 24 kg of copper, is",
-      "solution": "Let the required amount of zinc be x kg.\r\n\r\n9:4::24:x\r\n\r\n9x = 4 * 24\r\n\r\nx = (4*24)/9\r\n   = 32/3\r\n   = 10(2/3) kg"
+      "solution": "Let the required amount of zinc be x kg.\n\n9:4::24:x\n\n9x = 4 * 24\n\nx = (4*24)/9\n   = 32/3\n   = 10(2/3) kg"
     },
     {
       "id": 42,
@@ -501,7 +501,7 @@
         "58"
       ],
       "question": "The sum of three numbers is 98. If the ratio of the first to second is2:3and that of the second to the third is5:8, then the second number is",
-      "solution": "a:b = 2:3\r\nb:c = 5:8\r\n\r\na+b+c = 98\r\n(2b/3)+b + (8b/5) = 98\r\n\r\n10b+15b+24b = 1470\r\n\r\nb = 1470/49 = 30"
+      "solution": "a:b = 2:3\nb:c = 5:8\n\na+b+c = 98\n(2b/3)+b + (8b/5) = 98\n\n10b+15b+24b = 1470\n\nb = 1470/49 = 30"
     },
     {
       "id": 43,
@@ -513,7 +513,7 @@
         "6"
       ],
       "question": "The least whole number which when subtracted from both the terms of the ratio 6 : 7 gives a ratio less than 16 : 21, is",
-      "solution": "(6-x)/(7-x) < 16/21\r\n\r\n126-21x < 112-16x\r\n\r\n5x > 14\r\n\r\nx > 2.8\r\n\r\nx = 3"
+      "solution": "(6-x)/(7-x) < 16/21\n\n126-21x < 112-16x\n\n5x > 14\n\nx > 2.8\n\nx = 3"
     },
     {
       "id": 44,
@@ -525,7 +525,7 @@
         "200"
       ],
       "question": "In a bag, there are coins of 25 p, 10 p and 5 p in the ratio of 1 : 2 : 3. If there is Rs. 30 in all, how many 5 p coins are there?",
-      "solution": "25x+20x+15x = 3000\r\n\r\n60x = 3000\r\n\r\nx = 50"
+      "solution": "25x+20x+15x = 3000\n\n60x = 3000\n\nx = 50"
     },
     {
       "id": 45,
@@ -537,7 +537,7 @@
         "600%"
       ],
       "question": "The salaries of A, B, and C are in the ratio of 1 : 2 : 3. The salary of B and C together is Rs. 6000. By what percent is the salary of C more than that of A?",
-      "solution": "Let the salaries of A, B, C be x, 2x and 3x respectively.\r\n\r\n2x + 3x = 6000\r\n\r\nx = 1200\r\n\r\nC's salary = 3600\r\n\r\n% by which C's salary is more than A\r\n\t= (3600-1200)/1200 * 100\r\n\t= 200%"
+      "solution": "Let the salaries of A, B, C be x, 2x and 3x respectively.\n\n2x + 3x = 6000\n\nx = 1200\n\nC's salary = 3600\n\n% by which C's salary is more than A\n= (3600-1200)/1200 * 100\n= 200%"
     },
     {
       "id": 46,
@@ -549,7 +549,7 @@
         "5.5"
       ],
       "question": "If 7 : x = 17.5 : 22.5, then the value of x is",
-      "solution": "7*22.5 = x*17.5\r\n\r\nx = 7 * 22.5/17.5\r\n\r\nx = 9"
+      "solution": "7*22.5 = x*17.5\n\nx = 7 * 22.5/17.5\n\nx = 9"
     },
     {
       "id": 47,
@@ -561,7 +561,7 @@
         "24 men"
       ],
       "question": "If 20 men or 24 women or 40 boys can do a job in 12 days working for 8 hours a day, how many men working with 6 women and 2 boys take to do a job four times as big working for 5 hours a day for 12 days?",
-      "solution": "Amount of work done by 20 men = 24 women = 40 boys\r\n\r\nWork done by\r\n\t1 man = 1.2 women = 2 boys\r\n\r\nNo. of man hours needed to do the job\r\n\t= 20*12*8\r\n\r\nThe new job is four times as big as the old job.\r\n\r\nNo. of man hours needed for the new job\r\n\t= 4*20*12*8\r\n\r\nn*12*5 = 4*20*12*8\r\n\r\nn = 128\r\n\r\n128 men alone can complete the new task.\r\n\r\n6 women and 2 boys are also working on it.\r\n\r\n6 women = 6/1.2 = 5 men\r\n2 boys = 2/2 = 1 man\r\n\r\nNo. of men needed\r\n\t= 128-(5+1)\r\n\t= 122"
+      "solution": "Amount of work done by 20 men = 24 women = 40 boys\n\nWork done by\n1 man = 1.2 women = 2 boys\n\nNo. of man hours needed to do the job\n= 20*12*8\n\nThe new job is four times as big as the old job.\n\nNo. of man hours needed for the new job\n= 4*20*12*8\n\nn*12*5 = 4*20*12*8\n\nn = 128\n\n128 men alone can complete the new task.\n\n6 women and 2 boys are also working on it.\n\n6 women = 6/1.2 = 5 men\n2 boys = 2/2 = 1 man\n\nNo. of men needed\n= 128-(5+1)\n= 122"
     },
     {
       "id": 48,
@@ -573,7 +573,7 @@
         "Rs. 750"
       ],
       "question": "A sum of money is to the divided among P, Q and R in the ratio of 2 : 3 : 5. If the total share of P and R together is Rs 400 more than that of Q, what is R's share in it?",
-      "solution": "2x+5x = 400+3x\r\n\r\nx = 100\r\n\r\nR's share = 5x = 500"
+      "solution": "2x+5x = 400+3x\n\nx = 100\n\nR's share = 5x = 500"
     },
     {
       "id": 49,
@@ -585,7 +585,7 @@
         "19"
       ],
       "question": "If 76 is divided into four parts proportional to 7, 5, 3, 4, then the smallest part is",
-      "solution": "7x+5x+3x+4x = 76\r\n\r\n19x = 76\r\n\r\nx = 4\r\n\r\n3x = 12"
+      "solution": "7x+5x+3x+4x = 76\n\n19x = 76\n\nx = 4\n\n3x = 12"
     },
     {
       "id": 50,
@@ -597,7 +597,7 @@
         "400"
       ],
       "question": "Pencils, Pens and Exercise books in a shop are in the ratio of 10 : 2 : 3. If there are 120 pencils, the number of exercise books in the shop is",
-      "solution": "10x = 120\r\nx = 12\r\n\r\n3x = 36"
+      "solution": "10x = 120\nx = 12\n\n3x = 36"
     },
     {
       "id": 51,
@@ -609,7 +609,7 @@
         "Rs. 1200"
       ],
       "question": "An outgoing batch of students wants to gift a PA system worth Rs.4,200 to their school. If the teachers, offer to pay 50% more than the students and an external benefactor gives three times the teacher's contribution, then how much should the teachers donate?",
-      "solution": "x + 1.5x + 4.5x = 4200\r\n\r\nx = 600\r\n\r\n1.5x = 900"
+      "solution": "x + 1.5x + 4.5x = 4200\n\nx = 600\n\n1.5x = 900"
     },
     {
       "id": 52,
@@ -621,7 +621,7 @@
         "36: 121"
       ],
       "question": "The compounded ratio of (2 : 3), (6: 11) and (11 :2) is",
-      "solution": "Compound ratio\r\n\t= (2/3) * (6/11) * (11/2)\r\n\t= 2/1\r\n\t= 2:1"
+      "solution": "Compound ratio\n= (2/3) * (6/11) * (11/2)\n= 2/1\n= 2:1"
     },
     {
       "id": 53,
@@ -633,7 +633,7 @@
         "Rs. 33600"
       ],
       "question": "A certain amount was divided between Sagar and Kanishk in the ratio of 4 : 3. If Kanishk's share was Rs. 4800, the total amount was",
-      "solution": "3x = 4800\r\nx = 1600\r\n\r\n7x = 11200"
+      "solution": "3x = 4800\nx = 1600\n\n7x = 11200"
     },
     {
       "id": 54,
@@ -645,7 +645,7 @@
         "Rs. 2200"
       ],
       "question": "The ratio of the income of A to that of B is 5 : 4 and the expenditure of A to that of B is 3: 2. If at the end of the year, each saves Rs 800, the income of A is",
-      "solution": "Let the incomes of A and B be 5x and 4x and\r\n\tthe expenditures of A and B be 3y and 2y.\r\n\r\n5x - 3y = 800\r\n4x - 2y = 800\r\n\r\nSolving,\r\n\tx = 400\r\n\r\nIncome of A = 5x = Rs. 2000"
+      "solution": "Let the incomes of A and B be 5x and 4x and\nthe expenditures of A and B be 3y and 2y.\n\n5x - 3y = 800\n4x - 2y = 800\n\nSolving,\nx = 400\n\nIncome of A = 5x = Rs. 2000"
     },
     {
       "id": 55,
@@ -657,7 +657,7 @@
         "3 : 4"
       ],
       "question": "The ratio of spirit and water in a mixture is 1 : 3. If the volume of the solution is increased by 25% by adding spirit only, what is the resultant ratio of spirit and water?",
-      "solution": "Let the initial amount of spirit and water in the mixture be x and 3x liters.\r\n\r\nInitial Volume\r\n\t= 4x\r\n\r\n25% of 4x = x\r\n\r\nx liters of spirit is added.\r\n\r\nResultant ratio\r\n\t= (x+x):3x\r\n\t= 2:3"
+      "solution": "Let the initial amount of spirit and water in the mixture be x and 3x liters.\n\nInitial Volume\n= 4x\n\n25% of 4x = x\n\nx liters of spirit is added.\n\nResultant ratio\n= (x+x):3x\n= 2:3"
     },
     {
       "id": 56,
@@ -669,7 +669,7 @@
         "9"
       ],
       "question": "There is a certain numbers of toys in the box. They are divided in such a way that the person who gets1/4 of the whole gets thrice of what the others get on an average. Find the number of people amongst whom the toys are distributed.",
-      "solution": "Let t be the number of toys and n be the number of persons.\r\n\r\nt/4 = 3*(3t/4) / (n-1)\r\n\r\nn-1 = 9\r\n\r\nn = 10"
+      "solution": "Let t be the number of toys and n be the number of persons.\n\nt/4 = 3*(3t/4) / (n-1)\n\nn-1 = 9\n\nn = 10"
     },
     {
       "id": 57,
@@ -681,7 +681,7 @@
         "12"
       ],
       "question": "If the work done by (p - 1) men in (p + 1) days to the work done by (p + 2) men in (p - 1) days is in the ratio 9 : 10, find the value of p.",
-      "solution": "(p-1)(p+1) : (p+2)(p-1) = 9:10\r\n\r\n(p²-1):(p²+p-2) = 9:10\r\n\r\n10p²-10 = 9p²+9p-18\r\n\r\np²-9p+8 = 0\r\n\r\n(p-1)(p-8) = 0\r\n\r\np = 1 or p = 8\r\n\r\nIf p=1, (p-1) men will be 0.\r\n\tS0, p can't be 1. \r\n\r\np = 8."
+      "solution": "(p-1)(p+1) : (p+2)(p-1) = 9:10\n\n(p²-1):(p²+p-2) = 9:10\n\n10p²-10 = 9p²+9p-18\n\np²-9p+8 = 0\n\n(p-1)(p-8) = 0\n\np = 1 or p = 8\n\nIf p=1, (p-1) men will be 0.\nS0, p can't be 1. \n\np = 8."
     },
     {
       "id": 58,
@@ -693,7 +693,7 @@
         "1590"
       ],
       "question": "Rs 4830 is divided among Abhishek, Dishant and Prashant such that if Abhishek's share diminishes by Rs 5, Dishant's share diminishes by Rs 10 and Prashant's share diminishes by Rs 15, their shares will be in the ratio 5:4:3. Find Dishant's original share.",
-      "solution": "a+d+p = 4830\r\n\r\n(a-5):(d-10):(p-15) = 5:4:3\r\n\r\nSum of their diminished shares\r\n\t= a+d+p-30\r\n\t= 4800\r\n\r\n(d-10)/4800 = 4/(5+4+3)\r\n\r\nd-10 = 4800*4/12 = 1600\r\n\r\nd = 1610"
+      "solution": "a+d+p = 4830\n\n(a-5):(d-10):(p-15) = 5:4:3\n\nSum of their diminished shares\n= a+d+p-30\n= 4800\n\n(d-10)/4800 = 4/(5+4+3)\n\nd-10 = 4800*4/12 = 1600\n\nd = 1610"
     },
     {
       "id": 59,
@@ -705,7 +705,7 @@
         "35:75"
       ],
       "question": "What is the ratio whose terms differ by 40 and the measure of which is 2/7?",
-      "solution": "x/(x+40) = 2/7\r\n\r\n7x = 2x+80\r\n\r\nx = 16\r\n\r\nRatio = x/(x+40) = 16/56"
+      "solution": "x/(x+40) = 2/7\n\n7x = 2x+80\n\nx = 16\n\nRatio = x/(x+40) = 16/56"
     },
     {
       "id": 60,
@@ -717,7 +717,7 @@
         "25"
       ],
       "question": "The ratio of the squares of first n natural numbers to square of sum of first n natural numbers is55:7. The value of n is",
-      "solution": "Sum of first n natural numbers\r\n\t= n(n+1)/2\r\nSum of squares of first n natural numbers\r\n\t= n(n+1)(2n+1)/6\r\n\r\n[n²(n+1)²/4] : [n(n+1)(2n+1)/6] = 55 : 7\r\n\r\n3n(n+1) : 2(2n+1) = 55 : 7\r\n\r\n21n²+21n = 220n + 110\r\n\r\n21n²-199n-110 = 0\r\n\r\n(n-10)(21n+11) = 0\r\n\r\nn = 10"
+      "solution": "Sum of first n natural numbers\n= n(n+1)/2\nSum of squares of first n natural numbers\n= n(n+1)(2n+1)/6\n\n[n²(n+1)²/4] : [n(n+1)(2n+1)/6] = 55 : 7\n\n3n(n+1) : 2(2n+1) = 55 : 7\n\n21n²+21n = 220n + 110\n\n21n²-199n-110 = 0\n\n(n-10)(21n+11) = 0\n\nn = 10"
     },
     {
       "id": 61,
@@ -729,7 +729,7 @@
         "15:30:40:48"
       ],
       "question": "If P:Q = 1:2, Q:R = 3:4 and R:S = 5:6, then find the value of P:Q:R:S.",
-      "solution": "P:Q = 1:2 = 3:6\r\nQ:R = 3:4 = 6:8\r\n\r\nP:Q:R = 3:6:8 = 15:30:40\r\nR:S = 5:6 = 40:48\r\n\r\nP:Q:R:S = 15:30:40:48"
+      "solution": "P:Q = 1:2 = 3:6\nQ:R = 3:4 = 6:8\n\nP:Q:R = 3:6:8 = 15:30:40\nR:S = 5:6 = 40:48\n\nP:Q:R:S = 15:30:40:48"
     },
     {
       "id": 62,
@@ -741,7 +741,7 @@
         "72"
       ],
       "question": "If 6 : 2 :: x : 18, then find the value of x.",
-      "solution": "6:2::x:18\r\n\r\n2x = 18*6\r\n\r\nx = 54"
+      "solution": "6:2::x:18\n\n2x = 18*6\n\nx = 54"
     },
     {
       "id": 63,
@@ -753,7 +753,7 @@
         "33:16"
       ],
       "question": "If a:b = 2:5, then find the value of(4a+5b):(3a+2b).",
-      "solution": "(4a+5b):(3a+2b)\r\n\t= [4(a/b)+5]:[3(a/b)+2]\r\n\t= [33/5]:[16/5]\r\n\t= 33:16"
+      "solution": "(4a+5b):(3a+2b)\n= [4(a/b)+5]:[3(a/b)+2]\n= [33/5]:[16/5]\n= 33:16"
     },
     {
       "id": 64,
@@ -765,6 +765,6 @@
         "320"
       ],
       "question": "In a college, the ratio of the number of boys to girls is 5:7. If there are 210 girls, the total number of students in the college is",
-      "solution": "Let the total number of students be x.\r\n\r\nNumber of girls = 7x/12 = 210\r\n\r\nx = 360"
+      "solution": "Let the total number of students be x.\n\nNumber of girls = 7x/12 = 210\n\nx = 360"
     }
   ]

@@ -9,7 +9,7 @@
         "2.5 m/s"
       ],
       "question": "In a race, A beats B by 20 m or 10 seconds. Find B's speed.",
-      "solution": "20 meters are covered by B in 10 seconds.\r\n\r\nB's speed\r\n\t= 20/10\r\n\t= 2 m/s"
+      "solution": "20 meters are covered by B in 10 seconds.\n\nB's speed\n= 20/10\n= 2 m/s"
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
         "2.25 m/s"
       ],
       "question": "A and B take part in a 100 m race. A gives B a start of 10 m and still beats B by 5 seconds. If A's speed is 2.5 m/s, find B's speed.",
-      "solution": "Time taken by A to cover 100 m\r\n\t= 100/2.5\r\n\t= 40 seconds\r\nA gives B a start of 10 m. Hence, B covers only 90 m.\r\n\r\nA beats B by 5 seconds.\r\n\r\nHence, time taken by B to cover 90 m\r\n\t= 40+5\r\n\t= 45 seconds\r\nB covers 90 m in 45 seconds.\r\n\r\nB's speed\r\n\t= 90/45\r\n\t= 2 m/s"
+      "solution": "Time taken by A to cover 100 m\n= 100/2.5\n= 40 seconds\nA gives B a start of 10 m. Hence, B covers only 90 m.\n\nA beats B by 5 seconds.\n\nHence, time taken by B to cover 90 m\n= 40+5\n= 45 seconds\nB covers 90 m in 45 seconds.\n\nB's speed\n= 90/45\n= 2 m/s"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
         "98 s"
       ],
       "question": "In a 500 m race, A beats B by 40 metres or 8 seconds. Find A's time over the course.",
-      "solution": "B covers 40 meters in 8 seconds.\r\n\tB's speed = 40/8 = 5 m/s\r\nTime taken by B to cover 500m\r\n\t= 500/5\r\n\t= 100 seconds\r\n\r\nA beats B by 8 seconds. Hence,\r\n\tTime taken by A\r\n\t\t= 100-8\r\n\t\t= 92 seconds"
+      "solution": "B covers 40 meters in 8 seconds.\nB's speed = 40/8 = 5 m/s\nTime taken by B to cover 500m\n= 500/5\n= 100 seconds\n\nA beats B by 8 seconds. Hence,\nTime taken by A\n= 100-8\n= 92 seconds"
     },
     {
       "id": 5,
@@ -45,7 +45,7 @@
         "105 seconds"
       ],
       "question": "Ram and Lakshman take part in a 200 m race. Ram beats Lakshman by 15 seconds. If Ram's speed is 2 m/s, find the time taken by Lakshman to finish the race.",
-      "solution": "Time taken by Ram to finish\r\n\t= 200/2\r\n\t= 100 seconds\r\nRam beats Lakshman by 15 s.\r\n\r\nTime taken by Lakshman to finish\r\n\t= 115 seconds"
+      "solution": "Time taken by Ram to finish\n= 200/2\n= 100 seconds\nRam beats Lakshman by 15 s.\n\nTime taken by Lakshman to finish\n= 115 seconds"
     },
     {
       "id": 6,
@@ -57,7 +57,7 @@
         "75 m"
       ],
       "question": "A's speed is twice B's speed. In a 100m race, how many metres start can A give B so that the race ends in a dead heat?",
-      "solution": "For the race to end in a dead heat,\r\n\tboth A and B should reach the winning post at the same time.\r\n\r\nA's speed is twice B's speed.\r\n\r\nTo run the same distance,\r\n\ttime taken by B=2*(time taken by A)\r\n\r\nTime taken by B to run 100 m\r\n\t= 2*Time taken by A to run 100 m\r\n\r\nTime taken by B to run 50 m\r\n\t= Time taken by A to run 100 m\r\n\r\nHence, A can give B a start of 50 m."
+      "solution": "For the race to end in a dead heat,\nboth A and B should reach the winning post at the same time.\n\nA's speed is twice B's speed.\n\nTo run the same distance,\ntime taken by B=2*(time taken by A)\n\nTime taken by B to run 100 m\n= 2*Time taken by A to run 100 m\n\nTime taken by B to run 50 m\n= Time taken by A to run 100 m\n\nHence, A can give B a start of 50 m."
     },
     {
       "id": 7,
@@ -69,7 +69,7 @@
         "120 m"
       ],
       "question": "The speeds of A and B are in the ratio 3:4. B gives A a start of 30 m. How far should the winning post be so that the race ends in a dead heat?",
-      "solution": "Let A's speed be 3x m/s and\r\n      B's speed be 4x m/s\r\nLet the distance of the winning post be l m.\r\n\r\nTime taken by A to finish the race\r\n\t= (l-30)/3x\r\nTime taken by B to finish the race\r\n\t= l/4x\r\nFor the race to end in a dead heat,\r\n\t(l-30)/3x = l/4x\r\nSolving,\r\n\tl = 120 m"
+      "solution": "Let A's speed be 3x m/s and\n      B's speed be 4x m/s\nLet the distance of the winning post be l m.\n\nTime taken by A to finish the race\n= (l-30)/3x\nTime taken by B to finish the race\n= l/4x\nFor the race to end in a dead heat,\n(l-30)/3x = l/4x\nSolving,\nl = 120 m"
     },
     {
       "id": 8,
@@ -81,7 +81,7 @@
         "20 m"
       ],
       "question": "P can run a 500 m race in 3 minutes and Q in 3 mins 20 seconds. How many meters start can P give Q so that the race ends in a dead heat?",
-      "solution": "Q takes 20 seconds more than P to run 500 m\r\n\r\nDistance covered by Q in 3 mins 20 seconds(200 s)\r\n\t= 500m\r\nDistance covered by Q in 20 seconds\r\n\t= (500/200)*20\r\n\t= 50 m\r\nIf Q skips 50m, the race can be finished in 3 minutes(same as P).\r\n\r\nHence, for the race to end in a dead heat,\r\n\tP should give Q a start of 50 m."
+      "solution": "Q takes 20 seconds more than P to run 500 m\n\nDistance covered by Q in 3 mins 20 seconds(200 s)\n= 500m\nDistance covered by Q in 20 seconds\n= (500/200)*20\n= 50 m\nIf Q skips 50m, the race can be finished in 3 minutes(same as P).\n\nHence, for the race to end in a dead heat,\nP should give Q a start of 50 m."
     },
     {
       "id": 9,
@@ -93,7 +93,7 @@
         "10 m"
       ],
       "question": "The speeds of Daniel and Robert are in the ratio 3:4. In a 300 m race, Daniel has a start of 90 m. Daniel won the race by",
-      "solution": "To reach the winning post,\r\n\tDaniel has to run 300-90 = 210m\r\nTime taken by Daniel to run 210m\r\n\t= 210/3x\r\n\t= 70/x\r\nDistance covered by Robert in (70/x)seconds\r\n\t= (70/x)*4x\r\n\t= 280m\r\nHence, Daniel won by 20 m."
+      "solution": "To reach the winning post,\nDaniel has to run 300-90 = 210m\nTime taken by Daniel to run 210m\n= 210/3x\n= 70/x\nDistance covered by Robert in (70/x)seconds\n= (70/x)*4x\n= 280m\nHence, Daniel won by 20 m."
     },
     {
       "id": 10,
@@ -105,7 +105,7 @@
         "25 m"
       ],
       "question": "In a 100 m race, A beats B by 10 m and C by 20 m. In a 180m race, by how many meters will B beat C?",
-      "solution": "Time taken by A to cover 100 m\r\n\t= time taken by B to cover 90 m\r\n\t= time taken by C to cover 80 m\r\nB:C = 90:80 = 9:8\r\n\r\nWhen B covers 9 m, C covers 8 m\r\nWhen B covers 180 m, \r\n\tC covers 160 m.\r\nB beats C by 20 m."
+      "solution": "Time taken by A to cover 100 m\n= time taken by B to cover 90 m\n= time taken by C to cover 80 m\nB:C = 90:80 = 9:8\n\nWhen B covers 9 m, C covers 8 m\nWhen B covers 180 m, \nC covers 160 m.\nB beats C by 20 m."
     },
     {
       "id": 11,
@@ -117,7 +117,7 @@
         "42 m"
       ],
       "question": "In a 200 m race, B beats A by 50 m and A beats C by 8 m. By how many meters did B beat C in the same race?",
-      "solution": "When B runs 200m, A runs 150m.\r\n\tB:A = 200:150\r\nWhen A runs 200m, C runs 192 m.\r\n\tA:C = 200:192\r\nB:C = (B/A)*(A/C)\r\n      = (200/150)*(200/192)\r\n      = 200/144\r\nWhen B covers 200m, C runs only 144 m.\r\n\r\nHence, B beats C by 56 m."
+      "solution": "When B runs 200m, A runs 150m.\nB:A = 200:150\nWhen A runs 200m, C runs 192 m.\nA:C = 200:192\nB:C = (B/A)*(A/C)\n      = (200/150)*(200/192)\n      = 200/144\nWhen B covers 200m, C runs only 144 m.\n\nHence, B beats C by 56 m."
     },
     {
       "id": 12,
@@ -129,7 +129,7 @@
         "3.5 mins"
       ],
       "question": "In a 1 km race, A beats B by 35 metres or 7 seconds. Find B's time over the course.",
-      "solution": "Distance travelled by B in 7 seconds\r\n\t= 35 m\r\nB's speed = 5 m/s\r\n\r\nTime taken by B to cover 1 km\r\n\t= 1000/5\r\n\t= 200 seconds\r\n\t= 3 minutes 20 seconds"
+      "solution": "Distance travelled by B in 7 seconds\n= 35 m\nB's speed = 5 m/s\n\nTime taken by B to cover 1 km\n= 1000/5\n= 200 seconds\n= 3 minutes 20 seconds"
     },
     {
       "id": 13,
@@ -141,7 +141,7 @@
         "45 s"
       ],
       "question": "In a 100 m race, A reaches the winning post in 30 seconds and beats B by 10 m. Find the time taken by B to reach the winning post.",
-      "solution": "B was 10 m behind when A finished the race.\r\n\r\nB ran 90 m in 30 seconds.\r\n\r\nTime taken by B to run 100 m\r\n\t= 100*30/90\r\n\t= 33.33 s"
+      "solution": "B was 10 m behind when A finished the race.\n\nB ran 90 m in 30 seconds.\n\nTime taken by B to run 100 m\n= 100*30/90\n= 33.33 s"
     },
     {
       "id": 14,
@@ -153,7 +153,7 @@
         "5 m/s"
       ],
       "question": "In a 400 m race, A runs at 8 kmph. If A gives B a start of 16m and still beats him by 1 minute, find B's speed.",
-      "solution": "8 kmph = (8*5/18) m/s\r\n\r\nTime taken by A to run 400 m\r\n\t= 400/[8*(5/18)]\r\n\t= 180 s\r\n\t= 3 minutes\r\nB takes 3+1=4 minutes to complete the race.\r\n\r\nB has a start of 16 m and hence runs only 384 m.\r\n\r\nB's speed \r\n\t= 384/(4*60)\r\n\t= 1.6 m/s\t"
+      "solution": "8 kmph = (8*5/18) m/s\n\nTime taken by A to run 400 m\n= 400/[8*(5/18)]\n= 180 s\n= 3 minutes\nB takes 3+1=4 minutes to complete the race.\n\nB has a start of 16 m and hence runs only 384 m.\n\nB's speed \n= 384/(4*60)\n= 1.6 m/s"
     },
     {
       "id": 15,
@@ -165,7 +165,7 @@
         "20 m"
       ],
       "question": "In a 100 m race, A reaches the winning post in 40 seconds and B in 50 seconds. A beats B by",
-      "solution": "B covers 100 m in 50 seconds.\r\n\r\nDistance covered by B in 40 seconds\r\n\t= 100*(40/50)\r\n\r\nAlternatively, using the formula,\r\n\tx=100 m, t1=40s, t2=50s\r\n\td=(x/t2)(t1-t2)\r\n                  =(100/50)*10\r\n                  = 20 m\r\n\t= 80 m\r\nB was 20 meters behind when A finished the race.\r\n\r\nA beats B by 20 m."
+      "solution": "B covers 100 m in 50 seconds.\n\nDistance covered by B in 40 seconds\n= 100*(40/50)\n\nAlternatively, using the formula,\nx=100 m, t1=40s, t2=50s\nd=(x/t2)(t1-t2)\n                  =(100/50)*10\n                  = 20 m\n= 80 m\nB was 20 meters behind when A finished the race.\n\nA beats B by 20 m."
     },
     {
       "id": 16,
@@ -177,7 +177,7 @@
         "20 m"
       ],
       "question": "In a 200 m race, A can give B 20 m and C 56 m. In the same race, how many meters start can B give C?",
-      "solution": "A:B = 200:180\r\nA:C = 200:144\r\n\r\nB/C = (B/A)*(A/C)\r\n       = (180/200)*(200/144)\r\n       = 180/144\r\nWhen B runs 180 m, C runs 144 m\r\n\r\nWhen B runs 200 m, C runs\r\n\t144*200/180\r\n\t160 m\r\nB can give C a start of 40 m."
+      "solution": "A:B = 200:180\nA:C = 200:144\n\nB/C = (B/A)*(A/C)\n       = (180/200)*(200/144)\n       = 180/144\nWhen B runs 180 m, C runs 144 m\n\nWhen B runs 200 m, C runs\n144*200/180\n160 m\nB can give C a start of 40 m."
     },
     {
       "id": 17,
@@ -189,7 +189,7 @@
         "3 km"
       ],
       "question": "In a 10 km race, P and Q complete the race in 4 minutes and 5 min 20 sec respectively. P beats Q by ",
-      "solution": "Q takes 5 min 20 sec (320 seconds) to run 10 km.\r\n\r\nDistance covered by Q in 4 mins (240 s)\r\n\t= 10*240/320\r\n\t= 7.5 km\r\nQ covers 7.5 km when P completes the race.\r\n\r\nP beats Q by 2.5 km.\r\n\r\nAlternatively, using the formula,\r\n\tx=1 km, t1=240s, t2=320s\r\n\td=(x/t2)(t1-t2)\r\n                  =(10000/320)*80\r\n                  = 2.5 km"
+      "solution": "Q takes 5 min 20 sec (320 seconds) to run 10 km.\n\nDistance covered by Q in 4 mins (240 s)\n= 10*240/320\n= 7.5 km\nQ covers 7.5 km when P completes the race.\n\nP beats Q by 2.5 km.\n\nAlternatively, using the formula,\nx=1 km, t1=240s, t2=320s\nd=(x/t2)(t1-t2)\n                  =(10000/320)*80\n                  = 2.5 km"
     },
     {
       "id": 19,
@@ -201,7 +201,7 @@
         "20"
       ],
       "question": "In a game of cards, A can give B 15 points in 60 and A can give C 20 points in 60. How many points can B give C in a game of 90?",
-      "solution": "In a game of 60, while A scores 60, \r\n\tB scores 60-15=45\r\n\tC scores 60-20=40\r\nWhen B scores 45, C scores 40.\r\n\r\nIn a game of 90, when B scores 90, \r\n\tC scores 90*40/45=80\r\nB can give C (90-80)=10 points.\t"
+      "solution": "In a game of 60, while A scores 60, \nB scores 60-15=45\nC scores 60-20=40\nWhen B scores 45, C scores 40.\n\nIn a game of 90, when B scores 90, \nC scores 90*40/45=80\nB can give C (90-80)=10 points."
     },
     {
       "id": 18,
@@ -213,7 +213,7 @@
         "200 m"
       ],
       "question": "A runs 1(1/3) times as fast as B. If A gives B a start of 50 m, how far must the winning post be so that the race ends in a dead heat?",
-      "solution": "Let B's speed = x m/s\r\n      A's speed = 1(1/3) x = (4x/3) m/s\r\nLet y be the distance of the winning post.\r\n\r\nFor the race to end in a dead heat,\r\n\ttime taken by A to run y m = time taken by B to run (y-50) m\r\n\r\n\ty/[4x/3] = (y-50)/x\r\n\t3y/4 = y-50\r\n\ty/4 = 50\r\n\ty = 200 m\r\n\r\nAlternatively, using the shortcut,\r\n\tn=4/3, x=50\r\n\r\n\ty = x[n/(n-1)]\r\n\t   = 50*[(4/3)/(1/3)]\r\n\t   = 50*4\r\n\t   = 200m"
+      "solution": "Let B's speed = x m/s\n      A's speed = 1(1/3) x = (4x/3) m/s\nLet y be the distance of the winning post.\n\nFor the race to end in a dead heat,\ntime taken by A to run y m = time taken by B to run (y-50) m\n\ny/[4x/3] = (y-50)/x\n3y/4 = y-50\ny/4 = 50\ny = 200 m\n\nAlternatively, using the shortcut,\nn=4/3, x=50\n\ny = x[n/(n-1)]\n   = 50*[(4/3)/(1/3)]\n   = 50*4\n   = 200m"
     },
     {
       "id": 2,
@@ -225,7 +225,7 @@
         "200 m"
       ],
       "question": "The time taken by P to run 50 m is equal to the time taken by Q to run 75 m. In a 600 m race, Q beats P by",
-      "solution": "When Q runs 75 m, P runs 50 m.\r\nWhen Q runs 600 m, P runs\r\n\t600*50/75\r\n\t400 m\r\nQ beats P by 200 m"
+      "solution": "When Q runs 75 m, P runs 50 m.\nWhen Q runs 600 m, P runs\n600*50/75\n400 m\nQ beats P by 200 m"
     },
     {
       "id": 20,
@@ -237,7 +237,7 @@
         "8"
       ],
       "question": "At a game of billiards, A can give B 6 points in 50 and he can give C 13 in 65. In a game of 55, number of points B can give C is",
-      "solution": "If A gets 50 points, B gets (50-6)=44 points\r\n\tA:B=50:44\r\n\r\nIf A gets 65 points, C gets (65-13)=52 points\r\n\tA:C=65:52\r\n\r\nB:C = (B/A)*(A/C)\r\n       = (44/50)*(65/52)\r\n       = (11/10)\r\n\r\nIf B gets 11 points, C gets 10.\r\nIf B gets 55 points, C gets 50.\r\n\tHence, in a game of 55, B can give C (55-50)=5 points"
+      "solution": "If A gets 50 points, B gets (50-6)=44 points\nA:B=50:44\n\nIf A gets 65 points, C gets (65-13)=52 points\nA:C=65:52\n\nB:C = (B/A)*(A/C)\n       = (44/50)*(65/52)\n       = (11/10)\n\nIf B gets 11 points, C gets 10.\nIf B gets 55 points, C gets 50.\nHence, in a game of 55, B can give C (55-50)=5 points"
     },
     {
       "id": 25,
@@ -249,7 +249,7 @@
         "18 m"
       ],
       "question": "In a 100 m race , P beat Q by 10 m and R by 20 m. By how many meters will Q beat R in a race of 90 m?",
-      "solution": "P:Q = 100:90\r\nP:R = 100:80\r\n\r\nQ:R = (Q:P)*(P:R)\r\n       = (90/100)*(100/80)\r\n       = 90/80\r\nIf Q runs 90 m, R runs 80 m.\r\n\r\nQ beats R by 10 m."
+      "solution": "P:Q = 100:90\nP:R = 100:80\n\nQ:R = (Q:P)*(P:R)\n       = (90/100)*(100/80)\n       = 90/80\nIf Q runs 90 m, R runs 80 m.\n\nQ beats R by 10 m."
     },
     {
       "id": 24,
@@ -261,7 +261,7 @@
         "64 m"
       ],
       "question": "The distance travelled by A in 20 seconds is equal to the distance travelled by B in 16 seconds. In a 320 m race, B beats A by",
-      "solution": "A's speed = a m/s\r\nB's speed = b m/s\r\n\r\nSpeed is inversely proportional to time taken.\r\n\r\na:b = 16:20 = 4:5\r\n\r\na=4b/5\r\n\r\nTime taken by B to run 320 m\r\n\t= 320/b\r\nDistance travelled by A in (320/b) seconds\r\n\t= a*(320/b)\r\n\t= (4b/5)*(320/b)\r\n\t= 256 m\r\nB beats A by 64 m."
+      "solution": "A's speed = a m/s\nB's speed = b m/s\n\nSpeed is inversely proportional to time taken.\n\na:b = 16:20 = 4:5\n\na=4b/5\n\nTime taken by B to run 320 m\n= 320/b\nDistance travelled by A in (320/b) seconds\n= a*(320/b)\n= (4b/5)*(320/b)\n= 256 m\nB beats A by 64 m."
     },
     {
       "id": 23,
@@ -273,7 +273,7 @@
         "18"
       ],
       "question": "In a game of cards, A can give B 10 points in 50 and A can give C 20 points in 60. How many points can B give C in a game of 90?",
-      "solution": "A:B=50:40\r\nA:C=60:40\r\n\r\nB:C = (B/A)*(A/C)\r\n       = (40/50)*(60/40)\r\n       = 60/50\r\nIf B gets 60 points, C gets 50.\r\nIf B gets 90 points, C gets\r\n\t90*50/60 = 75\r\n\r\nB can give C 25 points in a game of 90."
+      "solution": "A:B=50:40\nA:C=60:40\n\nB:C = (B/A)*(A/C)\n       = (40/50)*(60/40)\n       = 60/50\nIf B gets 60 points, C gets 50.\nIf B gets 90 points, C gets\n90*50/60 = 75\n\nB can give C 25 points in a game of 90."
     },
     {
       "id": 22,
@@ -285,7 +285,7 @@
         "4.5 kmph"
       ],
       "question": "A and B take part in a 200m race. A runs at 5 Km/hr. A gives B a start of 10m and still beats him by 8 seconds. Find the speed of B.",
-      "solution": "Time taken by A to cover 200m\r\n\t= 0.2/5\r\n\t= 0.04 hours\r\n\t= 0.04*60*60 s\r\n\t= 144s\r\nB takes 8 seconds more than A.\r\n\tTime taken by B to run 190 m = 152s\r\nB's speed\r\n\t= 190/152  m/s\r\n\t= (5/4) m/s\r\n\t= (5/4)*(18/5) kmph\r\n\t= 4.5 kmph"
+      "solution": "Time taken by A to cover 200m\n= 0.2/5\n= 0.04 hours\n= 0.04*60*60 s\n= 144s\nB takes 8 seconds more than A.\nTime taken by B to run 190 m = 152s\nB's speed\n= 190/152  m/s\n= (5/4) m/s\n= (5/4)*(18/5) kmph\n= 4.5 kmph"
     },
     {
       "id": 21,
@@ -297,7 +297,7 @@
         "50 m"
       ],
       "question": "In a 500 m race, the ratio of the speeds of two contestants A and B is 4:5. A has a start of 120 m. A beats B by",
-      "solution": "Let A's speed = 4x m/s\r\n      B's speed = 5x m/s\r\n\r\nA has a start of 120 m.\r\n\r\nTime taken by A to run 380 m\r\n\t= 380/4x\r\n\t= 95/x s\r\nDistance covered by B in (95/x) s\r\n\t= 5x*95/x\r\n\t= 475 m\r\nA beats B by 25 m."
+      "solution": "Let A's speed = 4x m/s\n      B's speed = 5x m/s\n\nA has a start of 120 m.\n\nTime taken by A to run 380 m\n= 380/4x\n= 95/x s\nDistance covered by B in (95/x) s\n= 5x*95/x\n= 475 m\nA beats B by 25 m."
     },
     {
       "id": 30,
@@ -309,7 +309,7 @@
         "100 seconds"
       ],
       "question": "In a 400 metres race A beats B by 20 metres or 5 seconds. Find the time taken by B to finish the race.",
-      "solution": "B covers the last 20 meters in 5 seconds.\r\n\tB's speed = 20/5 = 4 m/s\r\nTime taken by B to cover 400m\r\n\t= 400/4\r\n\t= 100 seconds"
+      "solution": "B covers the last 20 meters in 5 seconds.\nB's speed = 20/5 = 4 m/s\nTime taken by B to cover 400m\n= 400/4\n= 100 seconds"
     },
     {
       "id": 29,
@@ -321,7 +321,7 @@
         "3 seconds"
       ],
       "question": "A and B take part in a 100 m race. A runs at 5 m/s and B runs at 4 m/s. A gives B a start of 8 m. A beats B by",
-      "solution": "Time taken by A to run 100m\r\n\t= 100/5\r\n\t= 20 seconds\r\nTime taken by B to run 92 m\r\n\t= 92/4\r\n\t= 23 seconds\r\nA beats B by 3 seconds."
+      "solution": "Time taken by A to run 100m\n= 100/5\n= 20 seconds\nTime taken by B to run 92 m\n= 92/4\n= 23 seconds\nA beats B by 3 seconds."
     },
     {
       "id": 28,
@@ -333,7 +333,7 @@
         "0.5 m/s"
       ],
       "question": "A can run 800 meters in 3 minutes 20 seconds and B can cover the same distance in 2 minutes 40 seconds. Find the difference in the speeds of A and B.",
-      "solution": "Time taken by A to run 800 m\r\n\t= 200 seconds\r\nA's speed\r\n\t= 800/200\r\n\t= 4 m/s\r\nTime taken by B to run 800 m\r\n\t= 160 s\r\nB's speed\r\n\t= 800/160\r\n\t= 5 m/s\r\nDifference in speed\r\n\t= 1 m/s"
+      "solution": "Time taken by A to run 800 m\n= 200 seconds\nA's speed\n= 800/200\n= 4 m/s\nTime taken by B to run 800 m\n= 160 s\nB's speed\n= 800/160\n= 5 m/s\nDifference in speed\n= 1 m/s"
     },
     {
       "id": 27,
@@ -345,7 +345,7 @@
         "12"
       ],
       "question": "In a game of 60, A can give B 6 points. How many points can A give B in a game of 100?",
-      "solution": "When A gets 60 points, B gets 54.\r\n\r\nWhen A gets 100 points, B gets\r\n\t54*100/60 = 90\r\nA can give 10 points."
+      "solution": "When A gets 60 points, B gets 54.\n\nWhen A gets 100 points, B gets\n54*100/60 = 90\nA can give 10 points."
     },
     {
       "id": 26,
@@ -357,7 +357,7 @@
         "4:3"
       ],
       "question": "A completed a 500 m race in 40 seconds and beat B by 10 seconds. Find the ratio of the speeds of A and B.",
-      "solution": "Time taken by A = 40 s\r\nTime taken by B = 50 s\r\n\r\nRatio of speeds\r\n\t= 50:40\r\n\t= 5:4"
+      "solution": "Time taken by A = 40 s\nTime taken by B = 50 s\n\nRatio of speeds\n= 50:40\n= 5:4"
     },
     {
       "id": 31,
@@ -369,7 +369,7 @@
         "90 seconds"
       ],
       "question": "A and B run a 1 km race. If A gives B a start of 50m, A wins by 14 seconds and if A gives B a start of 22 seconds, B wins by 20 meters.Find the time taken by A to run 1 km.",
-      "solution": "Let the speeds of A and B be a m/s and b m/s respectively.\r\n\r\nCase (I):\r\n\tA gives B a start of 50 m.\r\n\tA wins by 14 seconds.\r\n\r\n\tA runs 1000 m, while B runs only 950 m\r\n\tA reached 14 seconds before B.\r\n\tDistance travelled by B in 14 seconds = 14b\r\n\r\n\tHence, while A ran 1000m, \r\n\t\tB had completed only 950-14b m\r\n\ta/b = 1000/(950-14b)\r\n\r\nCase (II):\r\n\tA gives B a start of 22 seconds.\r\n\tB wins by 20 meters.\r\n\r\n\tA started 22 seconds after B started.\r\n\tA was 20 meters behind(980 m) when B completed 1000 m.\r\n\tDistance covered by B in the first 22 seconds\r\n\t\t= 22b\r\n\r\n\tIf B had also started at the same time, B would have run (1000-22b) m\r\n\r\n\ta/b = 980/(1000-2b)\r\n\r\n1000/(950-14b) = 980/(1000-22b)\r\n\r\nSolving,\r\n\tb = 25/3\r\n\r\na/(25/3) = 1000/[950-14*(25/3)]\r\n\r\na = 10 m/s\r\n\r\nTo run 1 km,\r\n\tA takes 100 seconds."
+      "solution": "Let the speeds of A and B be a m/s and b m/s respectively.\n\nCase (I):\nA gives B a start of 50 m.\nA wins by 14 seconds.\n\nA runs 1000 m, while B runs only 950 m\nA reached 14 seconds before B.\nDistance travelled by B in 14 seconds = 14b\n\nHence, while A ran 1000m, \nB had completed only 950-14b m\na/b = 1000/(950-14b)\n\nCase (II):\nA gives B a start of 22 seconds.\nB wins by 20 meters.\n\nA started 22 seconds after B started.\nA was 20 meters behind(980 m) when B completed 1000 m.\nDistance covered by B in the first 22 seconds\n= 22b\n\nIf B had also started at the same time, B would have run (1000-22b) m\n\na/b = 980/(1000-2b)\n\n1000/(950-14b) = 980/(1000-22b)\n\nSolving,\nb = 25/3\n\na/(25/3) = 1000/[950-14*(25/3)]\n\na = 10 m/s\n\nTo run 1 km,\nA takes 100 seconds."
     },
     {
       "id": 32,
@@ -381,7 +381,7 @@
         "80"
       ],
       "question": "Anusha, Banu and Esha run a race of 100 meters. Anusha is the fastest followed by Banu and then Esha. Anusha, Banu and Esha maintain constant speeds during the entire race. When Anusha reached the goal post, Banu was 10m behind. When Banu reached the goal post, Esha was 10m behind. Find the distance covered by Eesha when Anusha reached the goal post.",
-      "solution": "When Anusha covered 100m, Banu covered 90 m\r\n\tA:B = 10:9\r\nWhen Banu covered 100m, Eesha covered 90 m.\r\n\tB:E = 10:9\r\nA:E = (A:B)*(B:E) = 100:81\r\n\r\nWhen Anusha covers 100m, Eesha covered 81m."
+      "solution": "When Anusha covered 100m, Banu covered 90 m\nA:B = 10:9\nWhen Banu covered 100m, Eesha covered 90 m.\nB:E = 10:9\nA:E = (A:B)*(B:E) = 100:81\n\nWhen Anusha covers 100m, Eesha covered 81m."
     },
     {
       "id": 33,
@@ -393,7 +393,7 @@
         "4.8 kmph"
       ],
       "question": "In a 100 m race, A runs at 8 km per hour. If A gives B a start of 4 m and still wins by 15 seconds, what is the speed of B?",
-      "solution": "A's speed\r\n\t= 8*5/18 m/s\r\n\t= 20/9 m/s\r\nTime taken by A to run 100 m\r\n\t= 100/(20/9)\r\n\t= 45 seconds\r\nA takes 15 seconds more than B to complete the race.\r\n\r\nSince, A gives B a start of 4 m, B runs only 96 m.\r\n\r\nB's speed\r\n\t= 96/60\r\n\t= 1.6 m/s\r\n\t= 1.6*18/5 kmph\r\n\t= 5.76 kmph"
+      "solution": "A's speed\n= 8*5/18 m/s\n= 20/9 m/s\nTime taken by A to run 100 m\n= 100/(20/9)\n= 45 seconds\nA takes 15 seconds more than B to complete the race.\n\nSince, A gives B a start of 4 m, B runs only 96 m.\n\nB's speed\n= 96/60\n= 1.6 m/s\n= 1.6*18/5 kmph\n= 5.76 kmph"
     },
     {
       "id": 34,
@@ -405,7 +405,7 @@
         "12"
       ],
       "question": "In a game of 80 points, A can give B 5 points and C 15 points. Then how many points can B give C in a game of 60?",
-      "solution": "When A gets 80 points, B gets 75 points and C gets 65 points.\r\n\r\nWhen B gets 60 points, C gets\r\n\t(65/75)*60 = 52 points\r\n\r\nB can give C (60-52)=8 points"
+      "solution": "When A gets 80 points, B gets 75 points and C gets 65 points.\n\nWhen B gets 60 points, C gets\n(65/75)*60 = 52 points\n\nB can give C (60-52)=8 points"
     },
     {
       "id": 35,
@@ -417,7 +417,7 @@
         "4.5 m/s"
       ],
       "question": "In a 100m race, A beats B by 15m and B beats C by 10m. If A beats C by 5 seconds, then find the speed of C.",
-      "solution": "When A ran 100m, B ran 85 m.\r\n\r\nWhen B ran 100m, C ran 90 m.\r\nWhen B ran 85m, C ran\r\n\t(90/100)*85 = 76.5 m\r\n\r\nA beats C by (100-76.5) = 23.5m\r\nA beats C by 5 seconds.\r\n\r\nC ran 23.5 m in 5 seconds.\r\n\r\nC's speed\r\n\t= 23.5/5\r\n\t= 4.7 m/s"
+      "solution": "When A ran 100m, B ran 85 m.\n\nWhen B ran 100m, C ran 90 m.\nWhen B ran 85m, C ran\n(90/100)*85 = 76.5 m\n\nA beats C by (100-76.5) = 23.5m\nA beats C by 5 seconds.\n\nC ran 23.5 m in 5 seconds.\n\nC's speed\n= 23.5/5\n= 4.7 m/s"
     },
     {
       "id": 36,
@@ -429,6 +429,6 @@
         "10"
       ],
       "question": "Adam sat with his friends in the Chinnaswamy stadium at Madurai to watch the 100 metres running race organized by the Asian athletics Association. Five rounds were run. After every round half the teams were eliminated. Finally, one team wins the game. How many teams participated in the race?",
-      "solution": "In the final round,\r\n\t2 teams.\r\nIn the penultimate round,\r\n\t4 teams.\r\nIn the 3rd round,\r\n\t8 teams.\r\nIn the 2nd round,\r\n\t16 teams.\r\nIn the 1st round,\r\n\t32 teams."
+      "solution": "In the final round,\n2 teams.\nIn the penultimate round,\n4 teams.\nIn the 3rd round,\n8 teams.\nIn the 2nd round,\n16 teams.\nIn the 1st round,\n32 teams."
     }
   ]
