@@ -79,7 +79,7 @@ function getGenresHTML(genres, genreObjs) {
       Object.keys(localStorage)
         .filter(key => key.includes("aptitude-"))
         .forEach(key => localStorage.removeItem(key));
-      location.reload();
+      render(getGenresHTML(genres, genreObjs));
     }
   };
   d.innerHTML = `
@@ -115,7 +115,7 @@ function getGenreHTML(title) {
       Object.keys(localStorage)
         .filter(key => key.includes("aptitude-" + title))
         .forEach(key => localStorage.removeItem(key));
-      location.reload();
+        render(getGenreHTML(title));
     }
   };
   d.innerHTML = `
@@ -124,7 +124,7 @@ function getGenreHTML(title) {
         <h1 class="display-5 my-5">${dashedToCapitalize(title)}</h1>
         <div class="my-3">
           <input id="formula-collapse-trigger" hidden type="checkbox">
-          <label style="border-radius: 1rem;" for="formula-collapse-trigger"></label>
+          <label class="pointer-hover" style="border-radius: 1rem;" for="formula-collapse-trigger"></label>
           <pre id="formula" class="bg-dark text-start shadow">${formula}</pre>
         </div>
         <a class="text-reset" target="_blank" href="https://github.com/4skinSkywalker/aptitude-tests/issues/${index + 1}">Issues with questions in ${dashedToCapitalize(title)}?<br>Click here to report it</a>
@@ -166,10 +166,11 @@ function getGenreHTML(title) {
                     return `
                       <label
                         for="radio-${problem.id}-${answer}"
-                        class="fade-in-top-left staggered d-block p-2 rounded-3 shadow ${(savedAnswer == i) ? 'right' : ''}"
+                        class="pointer-hover fade-in-top-left staggered d-block p-2 rounded-3 shadow ${(savedAnswer == i) ? 'right' : ''}"
                         style="background-color: #333;"
                       >
                         <input
+                          class="pointer-hover"
                           id="radio-${problem.id}-${answer}"
                           type="radio" name="radio-${problem.id}"
                           value="${answer}"
