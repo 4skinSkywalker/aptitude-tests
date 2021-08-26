@@ -146,12 +146,13 @@ function getGenreHTML(title) {
                       let listOfAnswers = labelOfChoosenAns.parentElement;
                       let labelOfSolution = listOfAnswers
                         .querySelectorAll("label")[problem.answerIndex];
+                      let solution = document.querySelector("#solution-" + problem.id);
                       if (labelOfChoosenAns !== labelOfSolution) {
                         // Highlight the incorrect answer in red
-                        labelOfChoosenAns.classList.add("bg-danger");
+                        labelOfChoosenAns.classList.add("wrong");
                         // Show the guide
-                        document.querySelector("#solution-" + problem.id)
-                          .classList.remove("d-none");
+                        solution.classList.remove("d-none");
+                        solution.classList.add("fade-in-top");
                       } else {
                         // Save answer to LS
                         localStorage.setItem(
@@ -160,12 +161,12 @@ function getGenreHTML(title) {
                         );
                       }
                       // Highlight the correct answer in green
-                      labelOfSolution.classList.add("bg-success");
+                      labelOfSolution.classList.add("right");
                     }
                     return `
                       <label
                         for="radio-${problem.id}-${answer}"
-                        class="fade-in-top-left staggered d-block p-2 rounded-3 shadow ${(savedAnswer == i) ? 'bg-success' : ''}"
+                        class="fade-in-top-left staggered d-block p-2 rounded-3 shadow ${(savedAnswer == i) ? 'right' : ''}"
                         style="background-color: #333;"
                       >
                         <input

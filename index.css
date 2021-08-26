@@ -84,6 +84,16 @@ label[for="formula-collapse-trigger"]::after {
   }
 }
 
+.wrong {
+  background-color: #dc3545!important;
+  transition: background-color .5s ease-out;
+}
+
+.right {
+  background-color: #198754!important;
+  transition: background-color .5s ease-out .3s;
+}
+
 .fade-in-top {
   transform: translateY(-100px);
   opacity: 0;
