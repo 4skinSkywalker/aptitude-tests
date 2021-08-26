@@ -34,7 +34,7 @@ label[for="formula-collapse-trigger"]::after {
   content: "Show How-to for this class of problems ▼"
 }
 
-#formula-collapse-trigger:checked ~ label::after {
+#formula-collapse-trigger:checked ~ label[for="formula-collapse-trigger"]::after {
   content: "Hide How-to for this class of problems ▲"
 }
 

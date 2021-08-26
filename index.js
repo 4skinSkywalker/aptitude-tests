@@ -34,11 +34,37 @@ let genres = [
 ];
 
 let app = document.querySelector("#app");
+let scrollBackBtn = document.querySelector("#scroll-back-btn");
 let genreObjs;
+let lastScrollPos = 0;
 
-// Events
+// Evts
+document.addEventListener("scroll", setScrollBackBtnText);
 
 // Fns
+function setScrollBackBtnText() {
+  if (lastScrollPos === 0 && document.documentElement.scrollTop === 0) {
+    scrollBackBtn.style.display = "none";
+  } else {
+    scrollBackBtn.style.display = "block";
+  }
+
+  if (document.documentElement.scrollTop !== 0) {
+    scrollBackBtn.innerHTML = "▲ Top";
+  } else {
+    scrollBackBtn.innerHTML = "▼ Prev";
+  }
+}
+
+function scrollBack() {
+  if (document.documentElement.scrollTop !== 0) {
+    lastScrollPos = document.documentElement.scrollTop;
+    document.documentElement.scrollTop = 0;
+  } else {
+    document.documentElement.scrollTop = lastScrollPos;
+  }
+}
+
 async function readJSON(src) {
   let res = await fetch(src);
   let json = res.json();
@@ -196,6 +222,10 @@ function getGenreHTML(title) {
 }
 
 function render(el) {
+  // Reset the scroll
+  lastScrollPos = 0;
+  document.documentElement.scrollTop = 0;
+  setScrollBackBtnText();
   if (app.firstElementChild) {
     app.replaceChild(
       el,
@@ -204,8 +234,6 @@ function render(el) {
   } else {
     app.appendChild(el);
   }
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
 }
 
 (async function (){
