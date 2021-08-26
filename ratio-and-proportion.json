@@ -1,4 +1,6 @@
-[
+{
+  "formula": "\nRATIO:\nThe ratio of two quantities a and b, (of the same kind and same unit) is the fraction a/b. It is written as a:b.\n\na is called the antecedent and\nb is called the consequent.\n\nPROPORTION:\nIf a,b,c,d are in proportion, it means a/b = c/d. It is written as \na:b::c:d.\nHere, \na and d are called extremes and \nb and c are called mean terms.\n\nProduct of means\n=Product of extremes\nad=bc\n\nDirect Proportion:\nWhen two quantities, x and y, are related in such a way that an increase in one causes an increase in the other, they are said to be directly proportional to each other.\n\nIndirect Proportion:\nWhen two quantities, x and y, are related in such a way that an increase in one causes a decrease in the other, they are said to be inversely proportional to each other.",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 0,
@@ -768,3 +770,4 @@
       "solution": "Let the total number of students be x.\n\nNumber of girls = 7x/12 = 210\n\nx = 360"
     }
   ]
+}

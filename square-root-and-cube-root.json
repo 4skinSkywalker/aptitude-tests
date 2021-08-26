@@ -1,4 +1,6 @@
-[
+{
+  "formula": "SQUARE ROOT:\n\nIf a² = b, then b is the square of a and a is the square root of b.\na = √b\n\nExample:\n5² = 25\n√25 = 5\n\nCUBE ROOT:\n\nIf a³ = b, b is the cube of a and a is the cube root of b.\na = b\n\nExample:\n4³ = 64\nCube root of 64 = 4\n\n(i)√xy = √x * √y\n(ii)√(x/y) = √x / √y",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 0,
@@ -240,3 +242,4 @@
       "solution": "√(4a² - 4a + 1) + 3a\n= √(2a-1)² + 3a\n\n√(2a-1)² is either (2a-1) or -(2a-1).\n\nCase I:\n2a-1+3a = 5a-1 = -0.4805\n\nCase II:\n-(2a-1)+3a = a+1 = 1.1039\n\nOnly case II satisfies the options."
     }
   ]
+}

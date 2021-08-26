@@ -1,4 +1,6 @@
-[
+{
+  "formula": "C.P is the cost price and S.P is the selling price\n\nIf S.P>C.P,\nGain or Profit = S.P-C.P\nGain % = (Profit/C.P)*100\nS.P = C.P * [(100+gain%)/100]\nC.P = (100*S.P)/(100+gain%)\n\nIf C.P>S.P,\nLoss = C.P-S.P\nLoss % = (Loss/C.P)*100\nS.P = C.P * [(100-loss%)/100]\nC.P = (100*S.P)/(100-loss%)\n\nIf an article is sold at a gain of x%, \nS.P = (100+x)% of C.P\n\nIf an article is sold at a loss of y%,\nS.P = (100-x)% of C.P\n\nWhen a person sells two items of the same cost, one at a gain of x% and the other at a loss of x%, he always incurs a loss.\nLoss % = x²/100\n\nIf a shopkeeper sells his goods at C.P, but uses false weights of x kg, his gain is:\nGain %  =  [(True Weight-False Weight)/False Weight]*100\n              =  [Error/(True Value-Error)]*100",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -480,3 +482,4 @@
       "solution": "Marked price\n= 1.25*9600\n= 12000\n\nSP of the fridge with 10% discount\n= 0.9*12000\n= 10800\n\nProfit obtained for 12 fridges\n= 12*(10800-9600)\n= 14400\n\n20% profit for 20 fridges\n= 20*0.2*9600\n= 38400\n\nProfit for 8 fridges\n= 38400-14400\n= 24000\nProfit for a fridge\n= 3000\nSP = 12600\n\nThey should add Rs.600 to the marked price of 12000.\n\n600 = 5% of 12000"
     }
   ]
+}

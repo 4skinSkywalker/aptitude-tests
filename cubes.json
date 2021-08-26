@@ -1,4 +1,6 @@
-[
+{
+  "formula": "A cube has \n       (i)  6 faces\n       (ii) 12 edges \n       (iii) 8 corners\n\nA cube painted on all faces is cut into n³ smaller cubes.\n       I. The cubes in the corners of the bigger cube are painted on 3 faces.\n\n       II. The cubes along the 12 edges except those at the corners are painted on 2 faces.\n\n       III. The cubes at the center of each face of the bigger cube are painted on 1 face.\n\nNumber of small cubes painted on 3 faces \n= 8\nNumber of small cubes painted on only 2 faces \n= 12(n-2)\nNumber of small cubes painted on only 1 face \n= 6(n-2)²\nNumber of small cubes unpainted on all faces \n= (n-2)³\nNumber of small cubes with atleast one face painted \n= [6(n-2)²]+[12(n-2)]+8\nNumber of small cubes with atleast two faces painted \n= [12(n-2)]+8",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 3,
@@ -984,3 +986,4 @@
       "solution": "152 cubes have at least one face colored.\n\n6*16 = 96 cubes have one face colored.\n\n152-96 = 156 cubes have at least two faces colored."
     }
   ]
+}

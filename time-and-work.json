@@ -1,4 +1,6 @@
-[
+{
+  "formula": "Time and Work are inversely proportional factors.\n\nTime taken to complete a work    =   1 /  Work done in a day\n\n1. If a person can complete a work in n days, then the amount of work done by him in one day = 1/n.\n\n2. The vice-versa:\n     If a person completes 1/nth of a work in a day, he takes n days to complete the entire work.\n\n3. More the number of men, lesser the time taken to complete the work.\n    Lesser the number of men, more the time taken to complete the work.\n    This indicates men and time are also inversely proportional.\n\n4. Men and work are directly proportional.\n    Lesser the number of men, lesser the amount of work that can be completed.\n    More the number of men, more the amount of work that can be completed.\n\n5. If n1 men take time t1 to complete a work w and n2 men take time t2 to complete the same work,\n(n1*t1) /w  =   (n2*t2) /w\n\n6. If A is twice as good a workman as B,\nRatio of work done by A and B = 2:1\nRatio of time taken by A and B to complete the work = 1:2\n\n7. If A can do a work in x days and B can do the same work in y days, the number of days taken by them to complete the work together is\nxy/(x+y)\n",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -912,3 +914,4 @@
       "solution": "Let the initial provisions last for x days for y men.\n\nAfter 10 days, the provisions would last for (x-10) days for y men.\n\nBut, since (1/5)th of the men left. It lasts for x days for (4y/5) men.\n\n(x-10)*y = x*4y/5\n\n5x-50 = 4x\n\nx = 50"
     }
   ]
+}

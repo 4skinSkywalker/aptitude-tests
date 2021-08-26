@@ -3,7 +3,7 @@ if ("scrollRestoration" in history) {
 }
 
 // Vars
-let genre = [
+let genres = [
   "ages",
   "area-and-volume",
   "average",
@@ -34,7 +34,7 @@ let genre = [
 ];
 
 let app = document.querySelector("#app");
-let genreProblems;
+let genreObjs;
 
 // Events
 
@@ -58,7 +58,7 @@ function getUniqueId() {
 }
 
 function findIndexOfGenre(title) {
-  return genre.indexOf(title);
+  return genres.indexOf(title);
 }
 
 function escapeHTML(unsafe) {
@@ -70,7 +70,7 @@ function escapeHTML(unsafe) {
     .replace(/'/g, "&#039;");
 }
 
-function getGenreList(areas, genreProblems) {
+function getGenresHTML(genres, genreObjs) {
   let d = document.createElement("DIV");
   window.reset = function () {
     // Reset all the genres
@@ -87,13 +87,14 @@ function getGenreList(areas, genreProblems) {
       <h1 class="display-5 my-5">Aptitude Areas</h1>
       <div id="genre-grid" class="m-3">
         ${
-          areas.map((area, i) => {
+          genres.map((genre, i) => {
+            let { problems } = genreObjs[i];
             let userCorrectAnswers = Object.entries(localStorage)
-              .filter(([key, value]) => key.includes("aptitude-" + area));
+              .filter(([key, value]) => key.includes("aptitude-" + genre));
             return `
-              <div class="d-flex flex-column justify-content-between align-items-center bg-dark p-3 pointer-hover shadow" style="border-radius: 1rem;" onclick="render(getProblemsList('${area}'));">
-                <div class="fs-3">${dashedToCapitalize(area)}</div>
-                <div class="fs-5">${userCorrectAnswers.length} / ${genreProblems[i].length}</div>
+              <div class="fade-in-top staggered d-flex flex-column justify-content-between align-items-center bg-dark p-3 pointer-hover shadow" style="border-radius: 1rem;" onclick="render(getGenreHTML('${genre}'));">
+                <div class="fs-3">${dashedToCapitalize(genre)}</div>
+                <div class="fs-5">${userCorrectAnswers.length} / ${problems.length}</div>
               </div>
             `
           }).join("")
@@ -103,9 +104,9 @@ function getGenreList(areas, genreProblems) {
   return d.firstElementChild;
 }
 
-function getProblemsList(title) {
+function getGenreHTML(title) {
   let index = findIndexOfGenre(title);
-  let problems = genreProblems[index];
+  let { formula, problems } = genreObjs[index];
   let d = document.createElement("DIV");
   window.reset = function () {
     // Reset just the current genre
@@ -121,6 +122,11 @@ function getProblemsList(title) {
     <div class="container text-white">
       <header class="text-center">
         <h1 class="display-5 my-5">${dashedToCapitalize(title)}</h1>
+        <div class="my-3">
+          <input id="formula-collapse-trigger" hidden type="checkbox">
+          <label style="border-radius: 1rem;" for="formula-collapse-trigger"></label>
+          <pre id="formula" class="bg-dark text-start shadow">${formula}</pre>
+        </div>
         <a class="text-reset" target="_blank" href="https://github.com/4skinSkywalker/aptitude-tests/issues/${index + 1}">Issues with questions in ${dashedToCapitalize(title)}?<br>Click here to report it</a>
       </header>
       <div class="d-grid gap-3 m-3">
@@ -128,7 +134,7 @@ function getProblemsList(title) {
           problems.map((problem, i) => {
             let answerMemoryKey = "aptitude-" + title + "-" + problem.id;
             let savedAnswer = localStorage.getItem(answerMemoryKey);
-            return `<div class="d-grid gap-2 bg-dark p-3 shadow" style="border-radius: 1rem;">
+            return `<div class="fade-in-left staggered d-grid gap-2 bg-dark p-3 shadow" style="border-radius: 1rem;">
               <div>${problem.id} / ${problems.length}</div>
               <pre class="fs-5">${escapeHTML(problem.question)}</pre>
               <div class="d-grid gap-2 m-2">
@@ -159,7 +165,7 @@ function getProblemsList(title) {
                     return `
                       <label
                         for="radio-${problem.id}-${answer}"
-                        class="d-block p-2 rounded-3 shadow ${(savedAnswer == i) ? 'bg-success' : ''}"
+                        class="fade-in-top-left staggered d-block p-2 rounded-3 shadow ${(savedAnswer == i) ? 'bg-success' : ''}"
                         style="background-color: #333;"
                       >
                         <input
@@ -202,12 +208,12 @@ function render(el) {
 
 (async function (){
 
-  genreProblems = await Promise.all(
-    genre.map(area =>
-      readJSON(area + ".json")
+  genreObjs = await Promise.all(
+    genres.map(genre =>
+      readJSON(genre + ".json")
     )
   );
 
-  render(getGenreList(genre, genreProblems));
+  render(getGenresHTML(genres, genreObjs));
 
 })();

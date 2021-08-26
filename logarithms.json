@@ -1,4 +1,6 @@
-[
+{
+  "formula": "If aⁿ = x, where a is a real number > 1, it can be written as\n\nn = logₐx\n\nThe value of log x to the base a equals n.\n\nExample:\n2³ = 8 can also be written as log₂ 8 = 3\n\nPROPERTIES:\n\n(i)logₐ (xy) = logₐ x + logₐ y\n(ii)logₐ (x/y) = logₐ x - logₐ y\n(iii)logₐ a = 1\n(iv)logₐ 1 = 0\n(v)logₐ xⁿ = n logₐ x\n(vi)logₐ x = 1/logₓ a\n(vii)logₐ x = log x/log a\n\nLogarithms with base 10 are known as Common Logarithms or Decimal Logarithms.\n\nEvey logarithm has two parts, Characteristic and Mantissa.\nThe whole number part of a logarithm is called the Characteristic.\nThe decimal part of a logarithm is called the Mantissa.\n\nExample:\nlog₁₀ 2 = 0.3010\n\nIn this, 0 is the Characteristic and 0.3010 is the Mantissa.",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 1,
@@ -240,3 +242,4 @@
       "solution": "log₂(log₅ 625)\n= log₂(log₅ 5⁴)\n= log₂ 4\n= log₂ 2²\n= 2"
     }
   ]
+}

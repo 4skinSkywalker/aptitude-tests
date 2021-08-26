@@ -1,4 +1,6 @@
-[
+{
+  "formula": "SURD:\n\nThe irrational root of an integer is called a surd. Eg. √2, √3, √5 etc..\n\nINDEX:\n\nThe power or exponent is called an index. Eg. in 3², 3 is the base and 2 is the index.\n\nLAWS OF INDICES:\n\n(i)a^m * a^n = a^(m+n)\n(ii)a^m ÷ a^n = a^(m-n)\n(iii)(a^m)^n = a^(mn)\n(iv)(ab)^n = a^n * b^n\n(v)(a/b)^n = (a^n)/(b^n)\n(vi)a^0 = 1\n(vii)a^1 = a",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 1,
@@ -240,3 +242,4 @@
       "solution": "3^a = 3^(3b)\n\na = 3b\n\n(1/3a)+(1/9b) = 5/36\n(1/9b)+(1/9b) = 5/36\n\n2/9b = 5/36\n\nb = 8/5"
     }
   ]
+}

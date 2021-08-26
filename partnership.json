@@ -1,4 +1,6 @@
-[
+{
+  "formula": "Partnership is the relation between two or more persons who have agreed to run a business jointly and share the profits.\n\n1. If P and Q invest Rs.x and Rs.y in business for the same amount of time,\nP's profit share:Q's profit share = x:y\n\n2. If P and Q invest Rs.x and Rs.y for a months and b months respectively,\nP's profit share:Q's profit share = ax:by\n\n3. The person managing the business is called a working partner.\n\n4. The person who just invests in the business is called a sleeping partner.\n",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -360,3 +362,4 @@
       "solution": "Amount invested by Rajesh\n= (1/3)*58800\n= Rs.19600"
     }
   ]
+}

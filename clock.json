@@ -1,4 +1,6 @@
-[
+{
+  "formula": "1. Angle traced by the minute hand in an hour = 360°\n    Angle traced by the hour hand in an hour = 30°\n    Angle traced by the minute hand in x minutes = 6x°\n    Angle traced by the hour hand in x minutes = (x/2)°\n\n2. Minute Spaces:\nThe face or dial of a watch is a circle whose circumference is divided into 60 equal parts, called minute spaces.\n\nIn an hour, the minute hand travels 60 minute spaces and the hour hand travels 5 minute spaces. Hence, the minute hand gains 55 minute spaces over the hour hand in an hour.\n\nWhen the hands of a clock are x minute spaces apart, they are inclined at 6x°.\n\n3. Both the hands coincide once every 65(5/11) minutes. \n          22 times in a day.\n\n4. When the hands lie in a straight line in opposite directions, they are 30 minute spaces apart.\n           22 times a day.\n\n5. When the hands of a clock are at right angles, they are 15 minute spaces apart. \n           44 times in a day.",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 1,
@@ -432,3 +434,4 @@
       "solution": "The clock gains 5 minutes every day.\n\nHence, it gains 30 minutes in 6 days.\n\nWhen it shows 10.30 am on Sunday, the true time is 10.00 am."
     }
   ]
+}

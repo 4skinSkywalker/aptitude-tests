@@ -1,4 +1,6 @@
-[
+{
+  "formula": "When two ingredients are mixed together in different ratios to form a mixture, the ratio of the quantities of the two constituents is given by \nQc:Qd = (d-m):(m-c)\n\nQc = Cheaper Quantity\nQd = Dearer Quantity\nc = C.P of unit quantity of cheaper\nd = C.P of unit quantity of dearer\nm = C.P of unit quantity of mixture\n\nFrom a container containing x litres of milk, y litres are withdrawn and replaced with water. \n\nIf this operation is performed n times, \nAmount of milk in the container after n operations = x[(1-(y/x))^n]",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 0,
@@ -420,3 +422,4 @@
       "solution": "a/b = 3/5\nb/c = 8/5\n\na+b+c=35\n\n(3b/5)+b+(5b/8)=35\n\n24b+40b+25b=1400\n\nb=1400/89 = 15.73"
     }
   ]
+}

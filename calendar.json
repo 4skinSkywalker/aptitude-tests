@@ -1,4 +1,6 @@
-[
+{
+  "formula": "1. The number of days more than the complete weeks during a given period is the number of odd days during that period. \n\n2. An ordinary year has 365 days i.e 52 weeks and 1 day.\nThe number of odd days in an ordinary year is 1.\n\n3. A leap year has 366 days i.e. 52 weeks and 2 days.\nThe number of odd days in a leap year is 2.\n\n4. Number of odd days in\nJan - 3\nFeb  - 0/1 (1 in leap year)\nMar - 3\nApr  - 2\nMay - 3\nJun   - 2\nJul    - 3 \nAug - 3\nSep  - 2\nOct  - 3\nNov - 2\nDec  - 3\n\n4. All years divisible by 4, except centuries, are leap years.\n    Every fourth century is a leap year.\n400,800,1200,1600 are leap years.\n100,200 are ordinary years    \n\n5. A calendar repeats after every 400 years.\n\n6. Number of odd days in a century = 5\n    Number of odd day in a leap century = 6\n\n7. In an ordinary year, the following pairs of months begin on the same day\nJan, Oct\nFeb, Mar, Nov\nApr, Jul\nSep, Dec\n\n8. In a leap year, the following pairs of months begin on the same day.\nJan, Apr, Jul\nFeb, Aug\nMar, Nov\nSep, Dec",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -792,3 +794,4 @@
       "solution": "5 days ago,\nThursday was yesterday\nFriday was today.\n\nHence,\nToday is Wednesday.\n\n3 days after Sunday is Wednesday\nDay after tomorrow should be wednesday.\nToday should be Monday.\n\nMonday is 2 days before Wednesday"
     }
   ]
+}

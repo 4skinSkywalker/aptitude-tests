@@ -1,4 +1,6 @@
-[
+{
+  "formula": "If a pipe can fill a tank in x hours, \npart of the tank filled in 1 hour = 1/x\n\nIf a pipe can empty a tank in y hours,\npart of the tank emptied in 1 hour = 1/y\n\nIf a pipe A can fill a tank in a hours and pipe B can fill it in b hours, time taken to fill the tank when both the pipes are opened simultaneously is\nab/(a+b)",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 1,
@@ -828,3 +830,4 @@
       "solution": "2 hrs 20 minutes\n= 2+(1/3) hours\n= 7/3 hours\n\nWork done by the leak in 1 hour\n= (1/2) - (3/7)\n= 1/14\n\nThe leak will empty the tank in 14 hours."
     }
   ]
+}

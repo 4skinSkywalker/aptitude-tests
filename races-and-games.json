@@ -1,4 +1,6 @@
-[
+{
+  "formula": "RACES:\nRace is a competition of speed, as in running, riding, driving or sailing.\n\nSuppose A and B are two contestants in a race. If before the start of the race, \nA is at the starting point and \nB is ahead of A by 10 metres, \nthen we say that 'A gives B, a start of 10 metres'.\n\nTo cover a race of 100 metres in this case, A will have to cover 100 metres while B will have to cover only (100 - 10) = 90 metres.\n\nIn a 100m race, \n'A can give B 10 m' or \n'A gives B a start of 10 m'\nmeans that while A runs 100 m, B runs (100-10) = 90 m.\n\n'A beats B by 5 seconds' \nmeans that B finishes 5 seconds after A.\n\n'A beats B by 10 meters or 5 seconds'\nmeans that B was 10 meters behind when A finished.\nB has covered the last 10 meters in 5 seconds.\nHence, B's speed = (10/5) = 2 m/s\n\n* If all the contestants of the race reach the goal at the same time, then the race is called a Dead Heat Race\n\n* If A is n times as fast as B and A gives B a start of x metres, then the distance of the winning post so that the race ends in a dead heat is\nx[n/(n-1)] metres\n\n* If A and B can run a x m race in t1 seconds and t2 seconds respectively, where t1<t2, then A beats B by a distance of\n(x/t2)*(t1-t2) m\n\nGAMES:\nA game of n points, means that the person among the contestants, who scores n points first is the winner.\n\nIf A scores 100 points while B scores only 80 points, then we say that 'A can give B 20 points'.",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -432,3 +434,4 @@
       "solution": "In the final round,\n2 teams.\nIn the penultimate round,\n4 teams.\nIn the 3rd round,\n8 teams.\nIn the 2nd round,\n16 teams.\nIn the 1st round,\n32 teams."
     }
   ]
+}

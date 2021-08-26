@@ -1,4 +1,6 @@
-[
+{
+  "formula": "1. If two trains of length a m and b m are travelling in opposite directions with speeds of x m/s and y m/s,\nRelative Speed = (x+y) m/s\nTime taken to cross each other = (a+b)/(x+y) seconds\n\n2. If two trains of length a m and b m are travelling in the same direction with speeds of x m/s and y m/s (x>y),\nRelative Speed = (x-y) m/s\nTime taken to cross each other = (a+b)/(x-y) seconds\n\n3. If two trains P and Q start at the same time from stations A and B towards each other and after crossing each other, they take x seconds and y seconds to reach B and A respectively,\nP's speed:Q's speed = √y:√x\n\n4. Time taken by a train of length l m travelling at a speed of x m/s to cross a pole or a standing post is\nl/x seconds\n\n5. Time taken by a train of length l m travelling at a speed of x m/s to cross a stationary object of length a metres is\n(l+a)/x seconds\n",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 3,
@@ -672,3 +674,4 @@
       "solution": "4 trains will be needed.\n\nT1, T2 leave Delhi on the first and second nights.\nT3, T4 leave Chennai on the first and second nights.\n\nT1 would reach Chennai on the third day morning and hence would leave Chennai on the third night.\n\nT3 would reach Delhi on the third day morning and hence would leave Delhi on the third night."
     }
   ]
+}

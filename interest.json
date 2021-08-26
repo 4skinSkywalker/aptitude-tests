@@ -1,4 +1,6 @@
-[
+{
+  "formula": "Let \nP be the principal, \nT be the time in years, \nR the rate of interest\n\nSIMPLE INTEREST:\nSimple Interest(S.I) = PTR/100\nAmount(A) = P+I\n\nLet \nP be the principal, \nn be the time in years, \nR the rate of interest per annum\n\nCOMPOUND INTEREST:\nWhen interest is compounded annually,\nA = P[1+(R/100)]^n\n\nWhen interest is compounded half-yearly,\nA = P[1+(R/200)]^2n\n\nWhen interest is compounded quarterly,\nA = P[1+(R/400)]^4n\n",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -708,3 +710,4 @@
       "solution": "Difference in C.I and S.I for 2 years\n= Rs.(696.30-660)\n= Rs.36.30.\n\nS.I for one year= Rs330\n\nS.I on Rs.330 for 1 year=Rs.36.30\n\n330*1*R/100 = 36.30\n\nR = 11%."
     }
   ]
+}

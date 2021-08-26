@@ -1,4 +1,6 @@
-[
+{
+  "formula": "The series can contain \n\n(i) Square numbers\n1,4,9,16,...\n(ii) Cube numbers\n1,8,27,....\n(iii) Prime numbers\n2,3,5,7,....\n(iii) A combination of two series\n1,1,4,8,9,27,16,...\n(iv) Arithmetic progression\n2,4,6,8,10,....\n(v) Geometric progression\n1,2,4,8,16,....\n(vi) Fibonacci Series\n0,1,1,2,3,5,8,.....\n",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 1,
@@ -1200,3 +1202,4 @@
       "solution": "Each number is multiplied by 3.\n\n1*3=3"
     }
   ]
+}

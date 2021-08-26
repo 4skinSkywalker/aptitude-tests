@@ -1,4 +1,6 @@
-[
+{
+  "formula": "FACTORIAL:\nLet n be a positive integer. Then factorial n is defined as\nn! = n(n-1)(n-2)....3.2.1\n\n(i)    0! = 1\n(ii)   1! = 1\n(iii)  2! = 2 \n\nPERMUTATIONS:\nThe different ways in which a set or a number of things can be ordered or arranged by taking some or all at a time.\n\nThe number of permutations of n things, taken r at a time, is \nnPr = n!/(n-r)!\nnP1 = n\nnPn = n!\n\nIf there are n objects of which \nx1 are of one kind; \nx2 are of another kind; \nx3 of third kind and so on and \nxr of rth kind, such that\nx1+x2+x3+...+xr = n\nthen, permutations of these n objects\n= n!/(x1!.x2!.x3!....xr!)\n\nCOMBINATIONS:\nThe different ways of selecting several objects out of a larger group. Unlike permutations, order does not matter here.\n\nThe number of all combinations of n things, taken r at a time is\nnCr = n!/[r!(n-r)!]\n\nnC1 = n\nnCn = 1\nnCr = nC(n-r)\nnCr = nPr/r!\n",
+  "problems": [
     {
       "id": 9,
       "answerIndex": 1,
@@ -864,3 +866,4 @@
       "solution": "The word OPTICAL contains 7 different letters.\n\nThe three vowels O,I,A should come together. Hence, they can be considered as a single letter.\n\nWe have to arrange the letters PTCL (OIA).\n\n5 letters can be arranged in 5! = 120 ways.\n\nThe vowels (OIA) can be arranged among themselves in 3! = 6 ways.\n\nRequired number of ways\n= (120 x 6)\n= 720"
     }
   ]
+}

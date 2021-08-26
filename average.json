@@ -1,4 +1,6 @@
-[
+{
+  "formula": "Average is the sum of all data values divided by the number of values.\nAverage = (∑x)/n \n\nIf the average of n1 items is x1 and the average of n2 items is x2, the average of the whole set is \n[(n1*x1)+(n1*x2)]/(n1+n2)",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 3,
@@ -900,3 +902,4 @@
       "solution": "(76+65+82+67+85)/5 = 75"
     }
   ]
+}

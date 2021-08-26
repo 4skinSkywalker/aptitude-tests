@@ -1,4 +1,6 @@
-[
+{
+  "formula": " x% = x/100\n\nIf the price of a commodity increases by R%, the decrease in consumption in order to keep the expenditure fixed is\n[(R*100)/(100+R)] %\n\nIf the value of an item increases by x%, the new value is \n[(100+x)/100]*original value\n\nIf the present population of a town is P and it increases at the rate of R% every year, the population after t years is\nP*[(1+(R/100))^n]\n\nIf the present value of a machine is P and it depreciates by R% annually, the value of the machine after n years is\nP*[(1-(R/100))^n]",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -540,3 +542,4 @@
       "solution": "Area = 1.3l*0.8w = 1.04 lb\n\nArea increases by 4%."
     }
   ]
+}

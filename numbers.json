@@ -1,4 +1,6 @@
-[
+{
+  "formula": "FINDING THE NUMBER OF FACTORS:\nExpress the number as the product of primes.\n\nn = (a^x)(b^y)(c^z)\na,b,c are prime numbers\nthe number of factors of n is (x+1)(y+1)(z+1)\n\nFor a number to be divisible by two numbers x and y, it should be divisible by the L.C.M of x and y.\n\nPERFECT NUMBER:\nA number equal to the sum of its positive divisors is a perfect number.\nExample: 6,28\n\nNATURAL NUMBERS:\n1,2,3,4,.....\n\nWHOLE NUMBERS:\n0,1,2,,3,4,...",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 2,
@@ -1200,3 +1202,4 @@
       "solution": "x+x+1 = 55\n\n2x = 54\nx = 27\n\nx+1 = 28"
     }
   ]
+}

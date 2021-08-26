@@ -1,4 +1,6 @@
-[
+{
+  "formula": "Speed = Distance/Time\n\nTo convert km/hr to m/s, multiply by 5/18\n\nTo convert m/s to km/hr, multiply by 18/5\n\nIf a distance of d km is travelled during the forward journey at a km/hr and during the return journey at b km/hr, the average speed for the entire journey is\n (2ab)/(a+b) km/hr\n\nIf the ratio of the speeds of two objects is a:b, then the time taken by them to cover the same distance is \nb:a",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 1,
@@ -660,3 +662,4 @@
       "solution": "Relative speed = 10 kmph\n\nTime taken\n= 15/10\n= 1.5 hours"
     }
   ]
+}

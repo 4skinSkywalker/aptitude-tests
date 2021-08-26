@@ -1,4 +1,6 @@
-[
+{
+  "formula": "For most of the questions in this topic, two or more linear equations will be obtained. Solve those equations to get the answer.\n\nExample:\n\n10 years ago, a father was four times as old as his son. 10 years hence, he will be twice as old his son. Find the son's present age.\n\nSolution:\n\nLet the father's present age be F and the son's age be S.\n\n10 years ago:\n(F-10)=4(S-10)\nF-10 = 4S-40\nF=4S-30\n10 years hence:\n(F+10)=2(S+10)\nF+10=2S+20\nF-2S=10\nReplacing F with 4S-30,\n(4S-30)-2S=10\n2S=40\nS=20\nSon's present age=20 years",
+  "problems": [
     {
       "id": 1,
       "answerIndex": 3,
@@ -756,3 +758,4 @@
       "solution": "Let the present ages of son and father be x years and (56-x) years respectively.\n\n(56-x+4)=3(x+4)\n\n4x =48\n\nx = 12\n\nThe ages of the son and father are 12 years and 44 years."
     }
   ]
+}
