@@ -89,10 +89,10 @@
       "id": 13,
       "answerIndex": 2,
       "answers": [
-        "x>y>z",
-        "y<z<x",
-        "y>x>z",
-        "x<y<z"
+        "x > y > z",
+        "y < z < x",
+        "y > x > z",
+        "x < y < z"
       ],
       "question": "If x=3/4, y=4/5 and z=3/5, which of the following is true?",
       "solution": "x = 15/20\ny = 16/20\nz = 12/20\n\ny>x>z"
