@@ -89,10 +89,10 @@
       "id": 8,
       "answerIndex": 0,
       "answers": [
-        "600m",
-        "300m",
-        "150m",
-        "115m"
+        "600",
+        "300",
+        "150",
+        "115"
       ],
       "question": "The number of revolutions a wheel of diameter 21cm takes in travelling a distance of 396m is",
       "solution": "No. of revolutions \n= Distance travelled/Circumference \n= 39600/πd \n= 600"
