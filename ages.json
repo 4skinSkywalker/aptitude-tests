@@ -135,7 +135,7 @@
     },
     {
       "id": 12,
-      "answerIndex": 2,
+      "answerIndex": 3,
       "answers": [
         "P",
         "Q",
@@ -143,7 +143,7 @@
         "S"
       ],
       "question": "In a group of 4 friends, P is the eldest and R is the youngest. Neither is of the same age as the others. The sum of the ages of R and S is greater than twice the age of Q. Who is the second eldest?",
-      "solution": "R+S>2Q\nQ<R+S/2\nSince R<Q,  S>Q\n\nR<Q<S<P"
+      "solution": "R+S>2Q\nQ<(R+S)/2\nSince R<Q,  S>Q\n\nR<Q<S<P"
     },
     {
       "id": 13,
