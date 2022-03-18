@@ -163,11 +163,11 @@
       "answers": [
         "30 cm²",
         "36 cm²",
-        "216 cm²",
+        "54 cm²",
         "180 cm²"
       ],
       "question": "The sides of a rectangle are in the ratio 2:3. If the perimeter of the rectangle is 30 cm, find its area.",
-      "solution": "2x+3x=30\n\nx=6\n\nArea=12*18 = 216 cm²"
+      "solution": "2x=b\n\n3x=l\n\n2b+2l=30\n\nx=3\n\nA=b*l\n\nA=54cm²"
     },
     {
       "id": 15,
