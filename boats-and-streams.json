@@ -190,7 +190,7 @@
         "2.9 kmph",
         "3.5 kmph"
       ],
-      "question": "In a to and fro journey between two places, the average speed of a boat was 9.1 kmph. If the upstream speed of the boat is 7 kmph, find the speed of the stream.\n",
+      "question": "In a to and from journey between two places, the average speed of a boat was 9.1 kmph. If the upstream speed of the boat is 7 kmph, find the speed of the stream.\n",
       "solution": "u = b-s\nd = b+s\n\nAverage speed\n= 2ud/(u+d)\n\n(2*7*d)/(7+d) = 9.1\n\n14d = 9.1(7+d)\n\nSolving,\nd=13 kmph\n\ns = d-u/2 = 3 kmph\n\n"
     },
     {
