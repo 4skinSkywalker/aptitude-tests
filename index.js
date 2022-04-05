@@ -234,6 +234,11 @@ function render(el) {
   } else {
     app.appendChild(el);
   }
+  const lastRight = [...document.querySelectorAll(".right")].pop();
+  if (lastRight)
+  setTimeout(() =>
+    lastRight.scrollIntoView({ behavior: "smooth" })
+  , 450);
 }
 
 (async function (){
