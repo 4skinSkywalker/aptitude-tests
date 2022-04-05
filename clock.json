@@ -246,12 +246,12 @@
       "answerIndex": 3,
       "answers": [
         "2 pm on Tue",
-        "3 pm on Wed",
-        "2 pm on Mon",
-        "12 pm on Tue"
+        "12 am on Mon",
+        "2 am on Tue",
+        "None of above"
       ],
-      "question": "A watch which gains time uniformly is 2 minutes slow at 10 am on Sunday and is 4 min 48 sec fast at noon on the following Sunday. When was it correct?",
-      "solution": "Time from 10 am on Sunday to 12 pm the next Sunday\n= (24*7)+2\n= 170 hours\nThe watch gained (2 min+4 min 48 sec)\n= 120+288 sec\n= 408 seconds in 170 hours.\nIt was correct when it gained 2 minutes(120 sec).\n408 sec --> 170 hrs\n120 sec --> 170*(120/408) \n    = 50 hrs\n    = 2 days+2 hrs\nIt was correct at 12 pm on Tuesday."
+      "question": "A watch which gains time uniformly is 2 minutes slow at noon on Sunday and is 4 min 48 sec fast at 2 pm on the following Sunday. When was it correct?",
+      "solution": "A watch gains uniformly is 2 min slow at 12:00 on Sunday.\nOn following sunday it is 4 min 48 sec fast on 2 PM.\nTotal time between 12 AM and 2 PM on another sunday = (24h*7)+2h.\nTime gained = 4 min 48 sec + 2 min = 6 min 48 sec = 408 sec.\nThe clock will show correct time only when it gains 2 min.\n408 sec ----> in 170 hour\n120 sec ---> in x hour\n408/170 = 120/x\nx = 50 hours = 2 days 2 hours for noon on the sunday = 2 PM on Tuesday."
     },
     {
       "id": 22,
