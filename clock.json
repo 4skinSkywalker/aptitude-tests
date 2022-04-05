@@ -251,7 +251,7 @@
         "None of above"
       ],
       "question": "A watch which gains time uniformly is 2 minutes slow at noon on Sunday and is 4 min 48 sec fast at 2 pm on the following Sunday. When was it correct?",
-      "solution": "A watch gains uniformly is 2 min slow at 12:00 on Sunday.\nOn following sunday it is 4 min 48 sec fast on 2 PM.\nTotal time between 12 AM and 2 PM on another sunday = (24h*7)+2h.\nTime gained = 4 min 48 sec + 2 min = 6 min 48 sec = 408 sec.\nThe clock will show correct time only when it gains 2 min.\n408 sec ----> in 170 hour\n120 sec ---> in x hour\n408/170 = 120/x\nx = 50 hours = 2 days 2 hours for noon on the sunday = 2 PM on Tuesday."
+      "solution": "A watch gains uniformly is 2 min slow at 12:00 on Sunday.\n\nOn following sunday it is 4 min 48 sec fast on 2 PM.\n\nTotal time between 12 AM and 2 PM on another sunday = (24h*7)+2h.\n\nTime gained = 4 min 48 sec + 2 min = 6 min 48 sec = 408 sec.\n\nThe clock will show correct time only when it gains 2 min.\n\n408 sec ----> in 170 hour\n120 sec ---> in x hour\n\n408/170 = 120/x\n\nx = 50 hours = 2 days 2 hours for noon on the sunday = 2 PM on Tuesday."
     },
     {
       "id": 22,
