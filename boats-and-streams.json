@@ -298,7 +298,7 @@
                 "4.5 kmph",
                 "7.5 kmph"
             ],
-            "question": "A swimmer swims 5 km upstream and 3 km downstream in 1 hour. If the speed of the stream is 3 kmph, find the swimmer's speed.",
+            "question": "A swimmer swims 5 km upstream and 3 km downstream in 2 hour. If the speed of the stream is 3 kmph, find the swimmer's speed.",
             "solution": "Let swimmer's speed=x kmph\n\nTime taken to swim downstream\n= 5/(x-3)\nTime taken to swim upstream\n= 3/(x+3)\n\n[5/(x-3)]+[3/(x+3)] = 2\n5x+15+3x-9 = 2(x²-9)\n2x²-8x-24=0\nx²-4x-12=0\n(x-6)(x+2)=0\n\nx can't be -2\nHence, x=6 kmph"
         },
         {
