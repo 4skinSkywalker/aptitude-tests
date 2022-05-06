@@ -2,7 +2,7 @@
     "formula": "A cube has \n       (i)  6 faces\n       (ii) 12 edges \n       (iii) 8 corners\n\nA cube painted on all faces is cut into n³ smaller cubes.\n       I. The cubes in the corners of the bigger cube are painted on 3 faces.\n\n       II. The cubes along the 12 edges except those at the corners are painted on 2 faces.\n\n       III. The cubes at the center of each face of the bigger cube are painted on 1 face.\n\nNumber of small cubes painted on 3 faces \n= 8\nNumber of small cubes painted on only 2 faces \n= 12(n-2)\nNumber of small cubes painted on only 1 face \n= 6(n-2)²\nNumber of small cubes unpainted on all faces \n= (n-2)³\nNumber of small cubes with atleast one face painted \n= [6(n-2)²]+[12(n-2)]+8\nNumber of small cubes with atleast two faces painted \n= [12(n-2)]+8",
     "problems": [
         {
-            "id": 0,
+            "id": 1,
             "answerIndex": 3,
             "answers": [
                 "12",
@@ -14,7 +14,7 @@
             "solution": "The cubes at the corners of the bigger cube will be painted on 3 sides. \n\nThere are 8 corners.\n\n8 cubes are painted on 3 sides"
         },
         {
-            "id": 1,
+            "id": 2,
             "answerIndex": 0,
             "answers": [
                 "12",
@@ -26,7 +26,7 @@
             "solution": "No. of cubes painted on only two sides\n= 12(n-2) \n= 12(3-2) \n= 12"
         },
         {
-            "id": 2,
+            "id": 3,
             "answerIndex": 2,
             "answers": [
                 "12",
@@ -38,7 +38,7 @@
             "solution": "No. of cubes painted on atleast 1 side \n= 6(n-2)²+12(n-2)+8 \n= 26"
         },
         {
-            "id": 3,
+            "id": 4,
             "answerIndex": 1,
             "answers": [
                 "3",
@@ -50,7 +50,7 @@
             "solution": "No. of cubes unpainted on all sides \n= (n-2)³ = 1"
         },
         {
-            "id": 4,
+            "id": 5,
             "answerIndex": 0,
             "answers": [
                 "1:27",
@@ -62,7 +62,7 @@
             "solution": "Ratio of the volume of smaller cube to larger cube \n= 1:n³ = 1:27"
         },
         {
-            "id": 5,
+            "id": 6,
             "answerIndex": 1,
             "answers": [
                 "3 cm",
@@ -74,7 +74,7 @@
             "solution": "Volume of a smaller cube = (12*12*12)/216 = 8cm³\n\nSide of a smaller cube = 2cm"
         },
         {
-            "id": 6,
+            "id": 7,
             "answerIndex": 3,
             "answers": [
                 "80",
@@ -86,7 +86,7 @@
             "solution": "216=6³n=6\n\nNo. of cubes unpainted on all sides=(n-2)³ = 64"
         },
         {
-            "id": 7,
+            "id": 8,
             "answerIndex": 0,
             "answers": [
                 "16",
@@ -98,7 +98,7 @@
             "solution": "The cubes along the edges joining the red and blue faces, except those at the corners are painted only red and blue.\n\nThere are 4 such cubes along the 4 edges.\n\nHence, the answer is 16."
         },
         {
-            "id": 8,
+            "id": 9,
             "answerIndex": 2,
             "answers": [
                 "48",
@@ -110,7 +110,7 @@
             "solution": "The cubes at the centre of the two green faces are painted only green.\n\n16 on each face. \n\nHence, 32 cubes are painted only with green"
         },
         {
-            "id": 9,
+            "id": 10,
             "answerIndex": 2,
             "answers": [
                 "36",
@@ -122,7 +122,7 @@
             "solution": "The cubes on the two blue faces have atleast one face painted blue.\n\n36+36=72 cubes"
         },
         {
-            "id": 10,
+            "id": 11,
             "answerIndex": 3,
             "answers": [
                 "1",
@@ -134,7 +134,7 @@
             "solution": "Each face has n² = 25 cubes.\n\nThe 25 cubes on the pink face have atleast one face coloured pink."
         },
         {
-            "id": 11,
+            "id": 12,
             "answerIndex": 2,
             "answers": [
                 "24",
@@ -146,7 +146,7 @@
             "solution": "The 27cubes at the centre of the larger cube+\n        (9+9)cubes at the center of the two uncoloured faces+\n3 cubes at the edge joining the uncoloured faces \n                        = 48"
         },
         {
-            "id": 12,
+            "id": 13,
             "answerIndex": 2,
             "answers": [
                 "19",
@@ -158,7 +158,7 @@
             "solution": "6 cubes at the 6 corners+\n        (5*3) cubes along the five edges \n= 21"
         },
         {
-            "id": 13,
+            "id": 14,
             "answerIndex": 3,
             "answers": [
                 "19",
@@ -170,7 +170,7 @@
             "solution": "Except the cubes on the edges joining orange face with brown and silver, all other cubes on the orange face are coloured only on one face. (4*4) = 16 cubes"
         },
         {
-            "id": 14,
+            "id": 15,
             "answerIndex": 2,
             "answers": [
                 "8",
@@ -182,7 +182,7 @@
             "solution": "The cubes on the two corners (Orange, Blue, Silver) and (Pink, Blue, Silver) have 3 faces coloured."
         },
         {
-            "id": 15,
+            "id": 16,
             "answerIndex": 3,
             "answers": [
                 "16",
@@ -194,7 +194,7 @@
             "solution": "No cubes are painted on all faces.\n"
         },
         {
-            "id": 16,
+            "id": 17,
             "answerIndex": 2,
             "answers": [
                 "16",
@@ -206,7 +206,7 @@
             "solution": "The cubes at the center of the edges joining the 2 yellow faces and the 2 green faces are painted only on two faces with yellow and green respectively.\n\nThere are 2 cubes at the middle of each edge.\n\n2*2 = 4 cubes"
         },
         {
-            "id": 17,
+            "id": 18,
             "answerIndex": 1,
             "answers": [
                 "4",
@@ -218,7 +218,7 @@
             "solution": "The cubes at the center of each yellow face are painted yellow on one face only.\n\nThere are 4 cubes at the center of each face.\n\n4*2 = 8"
         },
         {
-            "id": 18,
+            "id": 19,
             "answerIndex": 2,
             "answers": [
                 "16",
@@ -230,7 +230,7 @@
             "solution": "The cubes at the 8 vertices are painted on 3 sides."
         },
         {
-            "id": 19,
+            "id": 20,
             "answerIndex": 0,
             "answers": [
                 "10",
@@ -242,7 +242,7 @@
             "solution": "The cubes along the edges joining the green and red faces(14)\n- The cubes at the vertex connecting the yellow face(4)\n= 10 cubes"
         },
         {
-            "id": 20,
+            "id": 21,
             "answerIndex": 1,
             "answers": [
                 "125",
@@ -254,7 +254,7 @@
             "solution": "No. of cubes painted on only 1 face\n= 6(n-2)²\n= 150"
         },
         {
-            "id": 21,
+            "id": 22,
             "answerIndex": 3,
             "answers": [
                 "8",
@@ -266,7 +266,7 @@
             "solution": "12(n-2)+8\n= 68"
         },
         {
-            "id": 22,
+            "id": 23,
             "answerIndex": 0,
             "answers": [
                 "125",
@@ -278,7 +278,7 @@
             "solution": "(n-2)³ = 125"
         },
         {
-            "id": 23,
+            "id": 24,
             "answerIndex": 2,
             "answers": [
                 "68",
@@ -290,7 +290,7 @@
             "solution": "12(n-2) = 60"
         },
         {
-            "id": 24,
+            "id": 25,
             "answerIndex": 0,
             "answers": [
                 "275",
@@ -302,7 +302,7 @@
             "solution": "No. of cubes painted on atmost 1 face\n= No. of cubes unpainted on all faces+\nNo. of cubes painted on only 1 face\n= (n-2)³+6(n-2)²\n= 125+150\n= 275"
         },
         {
-            "id": 25,
+            "id": 26,
             "answerIndex": 0,
             "answers": [
                 "8",
@@ -314,7 +314,7 @@
             "solution": "The cube at the center of the larger cube,\nthe 3 cube at the center of the 3 invisible faces,\nthe 3 cube at the center of the 3 edges connecting the invisible faces and\nthe cube at the corner joining the invisible faces are unpainted on all sides. \n\nFor cubes painted on 3 adjacent faces,\nNo. of cubes unpainted on all sides = (n-1)³\nHere, n=3\nSo, the answer is 8."
         },
         {
-            "id": 26,
+            "id": 27,
             "answerIndex": 2,
             "answers": [
                 "8",
@@ -326,7 +326,7 @@
             "solution": "The cubes along the edges connecting the visible faces are painted on atleast 2 faces\n\n3*2 cubes along the 3 edges + 1 corner cube = 7"
         },
         {
-            "id": 27,
+            "id": 28,
             "answerIndex": 3,
             "answers": [
                 "3",
@@ -338,7 +338,7 @@
             "solution": "The cube at the corner connecting the 3 visible faces is painted on 3 faces."
         },
         {
-            "id": 28,
+            "id": 29,
             "answerIndex": 0,
             "answers": [
                 "12",
@@ -350,7 +350,7 @@
             "solution": "The cube has been painted on the three visible faces. The three faces are adjacent.\n\nNo. of cubes painted on 1 face\n= (3*2*2) cubes on the 3 visible faces\n= 4*3\n= 12"
         },
         {
-            "id": 29,
+            "id": 30,
             "answerIndex": 2,
             "answers": [
                 "33",
@@ -362,7 +362,7 @@
             "solution": "No. of cubes\n= Volume of larger cube/Volume of smaller cube\n= (3*3*3)/(1*1*1)\n= 27"
         },
         {
-            "id": 30,
+            "id": 31,
             "answerIndex": 0,
             "answers": [
                 "8",
@@ -374,7 +374,7 @@
             "solution": "The 4 cubes in the edge connecting yellow and green and the 4 cubes in the edge connecting purple and green.\n\n4+4 = 8"
         },
         {
-            "id": 31,
+            "id": 32,
             "answerIndex": 3,
             "answers": [
                 "8",
@@ -386,7 +386,7 @@
             "solution": "9 cubes in the center of the yellow face+\n7 cubes along the edges connecting the yellow face to the 2 uncolored faces\n= 16"
         },
         {
-            "id": 32,
+            "id": 33,
             "answerIndex": 3,
             "answers": [
                 "1",
@@ -398,7 +398,7 @@
             "solution": "The 25 cubes in the purple face have atleast one face purple."
         },
         {
-            "id": 33,
+            "id": 34,
             "answerIndex": 2,
             "answers": [
                 "19",
@@ -410,7 +410,7 @@
             "solution": "6 corner cubes +\n(5*3) cubes along the edges connecting the colored faces\n= 21"
         },
         {
-            "id": 34,
+            "id": 35,
             "answerIndex": 2,
             "answers": [
                 "24",
@@ -422,7 +422,7 @@
             "solution": "27 inner cubes+\n18 cubes in the center of the two uncolored faces+\n3 cubes along the edge connecting the two uncolored faces\n= 48"
         },
         {
-            "id": 35,
+            "id": 36,
             "answerIndex": 2,
             "answers": [
                 "32",
@@ -434,7 +434,7 @@
             "solution": "No cube will have 4 colored faces."
         },
         {
-            "id": 36,
+            "id": 37,
             "answerIndex": 0,
             "answers": [
                 "192",
@@ -446,7 +446,7 @@
             "solution": "In each cube, the 2 cubes in the center of the 12 edges will have only 2 colored faces.\n\nNo. of such cubes\n= 8*12*2\n= 192"
         },
         {
-            "id": 37,
+            "id": 38,
             "answerIndex": 2,
             "answers": [
                 "128",
@@ -458,7 +458,7 @@
             "solution": "In each cube, the 4 cubes in the center of each of the six faces have only one face colored.\n\nNo. of such faces\n= 8*6*4\n= 192"
         },
         {
-            "id": 38,
+            "id": 39,
             "answerIndex": 0,
             "answers": [
                 "64",
@@ -470,7 +470,7 @@
             "solution": "The 8 cubes in the center of each cube will have no face colored.\n\nNo. of such cubes\n= 8*8\n= 64"
         },
         {
-            "id": 39,
+            "id": 40,
             "answerIndex": 3,
             "answers": [
                 "12",
@@ -482,7 +482,7 @@
             "solution": "The 8 corner cubes in each cube will have three faces colored.\n\nNo. of such cubes\n= 8*8\n= 64"
         },
         {
-            "id": 40,
+            "id": 41,
             "answerIndex": 2,
             "answers": [
                 "24",
@@ -494,7 +494,7 @@
             "solution": "In each cube, the two faces in the center of the 3 edges connecting the blue faces have two faces colored blue and the rest uncolored.\n\nNo. of such cubes\n= 8*2*3\n= 48"
         },
         {
-            "id": 41,
+            "id": 42,
             "answerIndex": 0,
             "answers": [
                 "0",
@@ -506,7 +506,7 @@
             "solution": "No cube will have 4 faces colored."
         },
         {
-            "id": 42,
+            "id": 43,
             "answerIndex": 2,
             "answers": [
                 "96",
@@ -518,7 +518,7 @@
             "solution": "In each cube, the two cubes in the center of the 3 edges connecting the red faces will have two faced red and the rest uncolored.\n\nNo. of such cubes\n= 8*3*2\n= 48"
         },
         {
-            "id": 43,
+            "id": 44,
             "answerIndex": 3,
             "answers": [
                 "0",
@@ -530,7 +530,7 @@
             "solution": "In each of the 8 cubes, the corner cube which connects the 3 red faces will 3 faces red.\n\nNo. of such cubes\n= 8*1\n= 8"
         },
         {
-            "id": 44,
+            "id": 45,
             "answerIndex": 2,
             "answers": [
                 "4",
@@ -542,7 +542,7 @@
             "solution": "In each of the 8 cubes, the corner cube which connects the 3 blue faces alone is colored blue on 3 faces.\n\nNo. of such cubes\n= 8*1\n= 8"
         },
         {
-            "id": 45,
+            "id": 46,
             "answerIndex": 2,
             "answers": [
                 "256",
@@ -554,7 +554,7 @@
             "solution": "In each cube, the no. of smaller cubes that will remain is 3³ = 27.\n\nNo. of such cubes\n= 8*27\n= 216"
         },
         {
-            "id": 46,
+            "id": 47,
             "answerIndex": 2,
             "answers": [
                 "96",
@@ -566,7 +566,7 @@
             "solution": "In each cube, 6 corner cubes and 2 cubes in the center of 6 edges will have red and blue colors on atleast one face.\n\nNo. of such cubes\n= 8*(6+(2*6))\n= 8*18\n= 144"
         },
         {
-            "id": 47,
+            "id": 48,
             "answerIndex": 0,
             "answers": [
                 "24",
@@ -578,7 +578,7 @@
             "solution": "In each of the 8 cubes, there are 3 corner cubes which have two faces red and one face blue.\n\nNo. of such cubes\n= 8*3\n= 24"
         },
         {
-            "id": 48,
+            "id": 49,
             "answerIndex": 3,
             "answers": [
                 "4",
@@ -590,7 +590,7 @@
             "solution": "The 4 cubes in the center of each face have only one face colored.\n\n6*4 = 24"
         },
         {
-            "id": 49,
+            "id": 50,
             "answerIndex": 1,
             "answers": [
                 "24",
@@ -602,7 +602,7 @@
             "solution": "The 8 smaller cubes at the center of the cube have no faces colored."
         },
         {
-            "id": 50,
+            "id": 51,
             "answerIndex": 1,
             "answers": [
                 "4",
@@ -614,7 +614,7 @@
             "solution": "The 8 corner cubes have three faces colored."
         },
         {
-            "id": 51,
+            "id": 52,
             "answerIndex": 3,
             "answers": [
                 "0",
@@ -626,7 +626,7 @@
             "solution": "The 2 cubes in the center of the 12 edges have two adjacent faces colored red."
         },
         {
-            "id": 52,
+            "id": 53,
             "answerIndex": 2,
             "answers": [
                 "28",
@@ -638,7 +638,7 @@
             "solution": "The 2 cubes in the center of the 8 edges connecting a green face and a red or black face.\n\nNo. of such cubes\n= 2*8\n= 16"
         },
         {
-            "id": 53,
+            "id": 54,
             "answerIndex": 2,
             "answers": [
                 "0",
@@ -650,7 +650,7 @@
             "solution": "The 8 cubes at the center."
         },
         {
-            "id": 54,
+            "id": 55,
             "answerIndex": 1,
             "answers": [
                 "4",
@@ -662,7 +662,7 @@
             "solution": "8 corner cubes."
         },
         {
-            "id": 55,
+            "id": 56,
             "answerIndex": 3,
             "answers": [
                 "32",
@@ -674,7 +674,7 @@
             "solution": "The 4 cubes in the center of the 6 faces.\n\n4*6 = 32"
         },
         {
-            "id": 56,
+            "id": 57,
             "answerIndex": 1,
             "answers": [
                 "48",
@@ -686,7 +686,7 @@
             "solution": "8 cubes are colored on 3 faces.\n\n(64-8) = 56 faces are colored on at the most 3 faces."
         },
         {
-            "id": 57,
+            "id": 58,
             "answerIndex": 1,
             "answers": [
                 "4",
@@ -698,7 +698,7 @@
             "solution": "The single cube at the center of the 8 edges connecting the brown face and a pink or orange face.\n\n8*1 = 8"
         },
         {
-            "id": 58,
+            "id": 59,
             "answerIndex": 1,
             "answers": [
                 "0",
@@ -710,7 +710,7 @@
             "solution": "The single cube at the center."
         },
         {
-            "id": 59,
+            "id": 60,
             "answerIndex": 1,
             "answers": [
                 "4",
@@ -722,7 +722,7 @@
             "solution": "8 corner cubes."
         },
         {
-            "id": 60,
+            "id": 61,
             "answerIndex": 0,
             "answers": [
                 "6",
@@ -734,7 +734,7 @@
             "solution": "Cubes at the center of each of the 6 faces.\n\n6*1 = 6"
         },
         {
-            "id": 61,
+            "id": 62,
             "answerIndex": 3,
             "answers": [
                 "20",
@@ -746,7 +746,7 @@
             "solution": "Leaving out the 8 corner cubes,\n(27-8)=19 cubes are colored at the most on two faces."
         },
         {
-            "id": 62,
+            "id": 63,
             "answerIndex": 0,
             "answers": [
                 "54",
@@ -758,7 +758,7 @@
             "solution": "The 9 cubes at the center of the 6 faces.\n\n6*9 = 54"
         },
         {
-            "id": 63,
+            "id": 64,
             "answerIndex": 0,
             "answers": [
                 "27",
@@ -770,7 +770,7 @@
             "solution": "The 27 cubes at the center."
         },
         {
-            "id": 64,
+            "id": 65,
             "answerIndex": 1,
             "answers": [
                 "White",
@@ -782,7 +782,7 @@
             "solution": "Black is opposite to red which is at the bottom."
         },
         {
-            "id": 65,
+            "id": 66,
             "answerIndex": 1,
             "answers": [
                 "Blue",
@@ -794,7 +794,7 @@
             "solution": "Blue is opposite to white."
         },
         {
-            "id": 66,
+            "id": 67,
             "answerIndex": 0,
             "answers": [
                 "Black, white, brown, red",
@@ -806,7 +806,7 @@
             "solution": "Black, Brown, Red, White"
         },
         {
-            "id": 67,
+            "id": 68,
             "answerIndex": 2,
             "answers": [
                 "Red",
@@ -818,7 +818,7 @@
             "solution": "Blue is opposite to Green."
         },
         {
-            "id": 68,
+            "id": 69,
             "answerIndex": 3,
             "answers": [
                 "0",
@@ -830,7 +830,7 @@
             "solution": "All the 128 cubes have at least two red faces."
         },
         {
-            "id": 69,
+            "id": 70,
             "answerIndex": 2,
             "answers": [
                 "0",
@@ -842,7 +842,7 @@
             "solution": "No. of red faces in the first 64 cubes\n= 128\nNo. of red faces in the second 64 cubes\n= 192\n\n128+192 = 320"
         },
         {
-            "id": 70,
+            "id": 71,
             "answerIndex": 0,
             "answers": [
                 "64",
@@ -854,7 +854,7 @@
             "solution": "The 64 cubes in the second cube have two adjacent blue faces."
         },
         {
-            "id": 71,
+            "id": 72,
             "answerIndex": 3,
             "answers": [
                 "128",
@@ -866,7 +866,7 @@
             "solution": "No cubes have only one red face. All the cubes have at least two red faces."
         },
         {
-            "id": 72,
+            "id": 73,
             "answerIndex": 1,
             "answers": [
                 "Red and Yellow",
@@ -878,7 +878,7 @@
             "solution": "In the first 64 cubes, there are two green cubes.\n\nIn the second 64 cubes, there are two blue cubes."
         },
         {
-            "id": 73,
+            "id": 74,
             "answerIndex": 1,
             "answers": [
                 "24",
@@ -890,7 +890,7 @@
             "solution": "64-(4*4) = 48"
         },
         {
-            "id": 74,
+            "id": 75,
             "answerIndex": 2,
             "answers": [
                 "4",
@@ -902,7 +902,7 @@
             "solution": "The 8 cubes in the center."
         },
         {
-            "id": 75,
+            "id": 76,
             "answerIndex": 0,
             "answers": [
                 "4",
@@ -914,7 +914,7 @@
             "solution": "4 cubes in the center of the top face."
         },
         {
-            "id": 76,
+            "id": 77,
             "answerIndex": 3,
             "answers": [
                 "4",
@@ -926,7 +926,7 @@
             "solution": "4 cubes in the center of the 4 faces (top and bottom are left out)\n+ 2 cubes in the center of the 4 edges of the bottom face\n= 16+8\n= 24"
         },
         {
-            "id": 77,
+            "id": 78,
             "answerIndex": 0,
             "answers": [
                 "0",
@@ -938,7 +938,7 @@
             "solution": "No cubes have more than 3 colored faces."
         },
         {
-            "id": 78,
+            "id": 79,
             "answerIndex": 3,
             "answers": [
                 "0",
@@ -950,7 +950,7 @@
             "solution": "The 8 corner cubes have 3 yellow faces."
         },
         {
-            "id": 79,
+            "id": 80,
             "answerIndex": 0,
             "answers": [
                 "0",
@@ -962,7 +962,7 @@
             "solution": "No cube has one face blue and one face yellow."
         },
         {
-            "id": 80,
+            "id": 81,
             "answerIndex": 3,
             "answers": [
                 "64",
@@ -974,7 +974,7 @@
             "solution": "64 cubes at the center are uncolored on all faces.\n\n216-64 = 152 cubes have at least one face colored."
         },
         {
-            "id": 81,
+            "id": 82,
             "answerIndex": 2,
             "answers": [
                 "96",
