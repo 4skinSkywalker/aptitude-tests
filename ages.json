@@ -370,7 +370,7 @@
                 "48",
                 "86"
             ],
-            "question": "In 10 years, A will be twice as old as B was 10 years ago. Â If A isÂ now 9 years older than B, the present age of B is",
+            "question": "In 10 years, A will be twice as old as B was 10 years ago. If A is now 9 years older than B, the present age of B is",
             "solution": "A+10 = 2(B-10)\nA=B+9\n\nSolving the two equations,\nB+19=2B-20\nB=39"
         },
         {
