@@ -382,7 +382,7 @@
                 "49",
                 "53"
             ],
-            "question": "At the end of 1994, R was half as old as his grandmother. The sum of the years in which they were born is 3844.Â How old was R at the end of 1999?",
+            "question": "At the end of 1994, R was half as old as his grandmother. The sum of the years in which they were born is 3844. How old was R at the end of 1999?",
             "solution": "Let the age of R in 1994 be x and that of his grandma be 2x.\n\nYear of R's birth\n1994-x\nYear of grandma's birth\n1994-2x\n1994-x+1994-2x=3844\n\n3x = 3988 - 3844\n     = 144\nx = 48\n\nAge of R in 1999 = x+5 = 53"
         },
         {
