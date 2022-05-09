@@ -382,7 +382,7 @@
                 "20 feet",
                 "14 feet"
             ],
-            "question": "A circular swimming pool is surrounded by a concrete wall 4 feet wide. If the area of the wall is 11/25 of the area of the pool, then the radius of the pool in feet is",
+            "question": "A circular swimming pool is surrounded all around by a concrete wall 4 feet thick. If the area of the wall is 11/25 of the area of the pool, then the radius of the pool in feet is",
             "solution": "Let the radius of the pool be r feet.\n\nArea of the pool\n= πr²\nArea of the concrete wall\n= π(r+4)² - πr²\n= 8πr+16π\n\n(8πr+16π) = (11/25)*πr²\n\n200r+400=11r²\n\n11r²-200r-400=0\n\nSolving,\nr=20"
         },
         {
