@@ -394,7 +394,7 @@
         "10 pm",
         "11:23 pm"
       ],
-      "question": "A clock is set right at 5 am. The clock loses 16 minutes in 24 hours. What will be the true time when theclock indicates 10 pm on the 4th day?",
+      "question": "A clock is set right at 5 am. The clock loses 16 minutes in 24 hours. What will be the true time when the clock indicates 10 pm on the 4th day?",
       "solution": "Time from 5 am on the 1st day to 10 pm on the 4th day\n= (24*3)+17\n= 89 hours\n\nTime lost in 89 hours\n= 16*89/24\n= 59.33\n\nThe true time will approximately be 11 pm.\n"
     },
     {
