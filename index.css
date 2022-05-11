@@ -68,6 +68,10 @@ label[for="formula-collapse-trigger"]::after {
     color .5s ease-out .5s;
 }
 
+.completed {
+  background-color: #482!important;
+}
+
 @media (max-width: 1200px) {
   #genre-grid {
     grid-template-columns: repeat(3, 1fr);
