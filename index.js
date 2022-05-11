@@ -118,7 +118,7 @@ function getGenresHTML(genres, genreObjs) {
             let userCorrectAnswers = Object.entries(localStorage)
               .filter(([key, value]) => key.includes("aptitude-" + genre));
             return `
-              <div class="fade-in-top staggered d-flex flex-column justify-content-between align-items-center bg-dark p-3 pointer-hover shadow" style="border-radius: 1rem;" onclick="render(getGenreHTML('${genre}'));">
+              <div class="${ userCorrectAnswers.length / problems.length === 1 && 'completed' || '' }fade-in-top staggered d-flex flex-column justify-content-between align-items-center bg-dark p-3 pointer-hover shadow" style="border-radius: 1rem;" onclick="render(getGenreHTML('${genre}'));">
                 <div class="fs-3">${dashedToCapitalize(genre)}</div>
                 <div class="fs-5">${userCorrectAnswers.length} / ${problems.length}</div>
               </div>
