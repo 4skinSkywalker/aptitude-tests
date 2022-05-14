@@ -430,7 +430,7 @@
                 "0",
                 "12"
             ],
-            "question":"A cube is cut into 8 small equal cubes. All the faces of the four small cubes are painted with green color. Then each cube is cut into 64 small equal cubes.\n\nHow many small cubes will have 4 colored faces and two non-colored faces?",
+            "question":"A cube is cut into 8 small equal cubes. All the faces of the eight small cubes are painted with green color. Then each cube is cut into 64 small equal cubes.\n\nHow many small cubes will have 4 colored faces and two non-colored faces?",
             "solution":"No cube will have 4 colored faces."
         },
         {
