@@ -466,7 +466,7 @@
                 "3 km/hr",
                 "Data Inadequate"
             ],
-            "question": "A boat running upstream covers a distance of 20 km in 4 hours while for covering the same distance downstream, it takes only 2 hours. Find the speed of the stream.",
+            "question": "A boat running upstream covers a distance of 20 km in 5 hours while for covering the same distance downstream, it takes only 2 hours. Find the speed of the stream.",
             "solution": "u = 20/5 = 4 kmph\nd = 20/2 = 10 kmph\n\nb-s = 4\nb+s = 10\n\ns = 3 kmph"
         },
         {
