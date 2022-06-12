@@ -498,12 +498,12 @@
             "answerIndex": 1,
             "answers": [
                 "Friday",
-                "Sunday",
+                "Monday",
                 "Tuesday",
                 "Wednesday"
             ],
             "question": "What will be the day of the week on 1st Jan 2001?",
-            "solution": "1600 years contain 0 odd day. \n300 years contain 1 odd day.\n100 years contain 5 odd days. \n2000 years contain (0+ 1 +5) odd days =6 odd days. \n2001 has one odd day. \n\nTotal number of odd days upto 1st Jan, 2001 = 7 odd days\n\nJan 1, 2001 will be Sunday."
+            "solution": "2000 years contain 0 odd day\n1st Jan, 2001 has one odd day\nTotal number of odd days up to 1st Jan, 2001 = 0+1\nThe day will be Monday."
         },
         {
             "id": 43,
