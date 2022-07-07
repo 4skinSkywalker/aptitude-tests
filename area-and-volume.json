@@ -599,7 +599,7 @@
                 "0.084"
             ],
             "question": "A rectangular box is 2 m long and 3.5 m wide. How many cubic metres of sand are needed to fill the box upto a depth of 12 cm?",
-            "solution": "Volume needed\n= 3*3.5*0.12\n= 0.84"
+            "solution": "Volume needed\n= 2*3.5*0.12\n= 0.84"
         },
         {
             "id": 51,
