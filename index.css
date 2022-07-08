@@ -68,8 +68,13 @@ label[for="formula-collapse-trigger"]::after {
     color .5s ease-out .5s;
 }
 
-.completed {
+.completed-section {
   background-color: #482!important;
+}
+
+.pending-section {
+  background-color: #fa4!important;
+  color: #222!important;
 }
 
 @media (max-width: 1200px) {
