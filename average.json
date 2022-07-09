@@ -627,7 +627,7 @@
         },
         {
             "id": 53,
-            "answerIndex": 3,
+            "answerIndex": 2,
             "answers": [
                 "A",
                 "B",
@@ -635,7 +635,7 @@
                 "D"
             ],
             "question": "There are 60 students in a class. These students are divided into three groups A, B and C of 15, 20 and 25 students each. The groups A and C are combined to form group D. If all students of the class have the same weight, then which of the following is false?\n\n(A) The average weight of all the four groups is the same.\n(B) The total weight of A and C is twice the total weight of B.\n(C) The average weight of D is greater than the average weight of A.\n(D) The average weight of all the groups remains the same even if a number of students are shifted from one group to another.",
-            "solution": "D is false.\n\nThe average weight remains the same since all the students have the same weight."
+            "solution": "C is false.\n\nThe average weight remains the same since all the students have the same weight."
         },
         {
             "id": 54,
