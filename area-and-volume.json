@@ -718,8 +718,8 @@
                 "2√14 cm",
                 "10√2 cm"
             ],
-            "question": "The maximum length of a pencil that can he kept in a rectangular box of dimensions 8 cm x 6 cm x 2 cm, is",
-            "solution": "Dialonal of the box\n= √(l²+b²+h²)\n= √104\n= 2√26 cm"
+            "question": "The maximum length of a pencil that can be kept in a rectangular box of dimensions 8 cm x 6 cm x 2 cm, is",
+            "solution": "Diagonal of the box\n= √(l²+b²+h²)\n= √104\n= 2√26 cm"
         },
         {
             "id": 61,
