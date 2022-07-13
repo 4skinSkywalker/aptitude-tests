@@ -778,7 +778,7 @@
                 "25",
                 "24"
             ],
-            "question": "A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are",
+            "question": "A club consists of members whose ages difference, between any two consecutive ages, is constant. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are",
             "solution": "Common difference = 3 months = (1/4) years\n\na = 7, d = 1/4\n\nSn = (n/2)[2a+(n-1)d]\n\n250 = (n/2)[14+(1/4)(n-1)]\n\n14n + n(n-1)/4 = 500\n\nn²+55n-2000 = 0\n\n(n+80)(n-25) = 0\n\nn = 25"
         },
         {
