@@ -755,7 +755,7 @@
                 "9 times"
             ],
             "question": "The radius of a wire is decreased to one-third. If volume remains the same, length will increase",
-            "solution": "πr²h = π(1/3)r²H\n\nH = 9h"
+            "solution": "πr²h = π(1/3r)²H\n\nH = 9h"
         },
         {
             "id": 64,
