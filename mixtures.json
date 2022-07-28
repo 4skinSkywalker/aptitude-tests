@@ -142,8 +142,8 @@
                 "2:1",
                 "5:3"
             ],
-            "question": "There are two bottles A and B, each containing syrup and water in the ratio of 5:2 and 4:3. Find the ratio in which these mixtures should be mixed in order to obtain a new mixture containing milk and water in the ratio 2:1.",
-            "solution": "Syrup in 1 liter of A = 5/7 \nSyrup in 1 liter of B = 4/7\n\nBy the rule of alligation,\n5/74/7\n2/3\n\n(2/3-4/7) : (5/7-2/3)\n\n(2/21):    (1/21)\nRatio = 2:1"
+            "question": "There are two bottles A and B, each containing syrup and water in the ratio of 5:2 and 4:3. Find the ratio in which these mixtures should be mixed in order to obtain a new mixture containing syrup and water in the ratio 2:1.",
+            "solution": "Syrup in 1 liter of A = 5/7 \nSyrup in 1 liter of B = 4/7\n\nBy the rule of alligation,\n5/7 4/7\n2/3\n\n(2/3-4/7) : (5/7-2/3)\n\n(2/21):    (1/21)\nRatio = 2:1"
         },
         {
             "id": 13,
