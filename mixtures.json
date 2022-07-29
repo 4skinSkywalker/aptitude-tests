@@ -195,7 +195,7 @@
         },
         {
             "id": 17,
-            "answerIndex": 1,
+            "answerIndex": 0,
             "answers": [
                 "1:1",
                 "9:7",
@@ -203,7 +203,7 @@
                 "11:8"
             ],
             "question": "In what ratio must a grocer mix two varieties of rice costing Rs.16/kg and Rs.24/kg to produce a mixture costing Rs.20/kg.",
-            "solution": "By the rule of alligation,\n\n16.524.5\n20\n\n(24.5-20):(20-16.5)\n= 4.5:3.5\n= 9:7"
+            "solution": "16x+24y=20(x+y)\n\n-4x=-4y\n\nx/y=1/1"
         },
         {
             "id": 18,
