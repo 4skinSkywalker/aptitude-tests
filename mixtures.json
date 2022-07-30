@@ -275,7 +275,7 @@
                 "10.5%"
             ],
             "question": "Three varieties of sugar costing Rs.25/kg, Rs.30/kg and Rs.36/kg are mixed in the ratio 2:3:5 and sold at Rs.36/kg. Find the gain%.",
-            "solution": "Cost of the mixture\n= (25*2)+(30*3)+(36*5)\n= (50+90+180)/10\n= Rs.32/kg\nGain = Rs.4\n\nGain%\n= (4/32)*100\n= 12.5%"
+            "solution": "Cost of the mixture\n= (25*2)+(30*3)+(36*5)/10\n= (50+90+180)/10\n= Rs.32/kg\nGain = Rs.4\n\nGain%\n= (4/32)*100\n= 12.5%"
         },
         {
             "id": 24,
