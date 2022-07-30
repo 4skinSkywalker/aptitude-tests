@@ -327,15 +327,15 @@
         },
         {
             "id": 28,
-            "answerIndex": 3,
+            "answerIndex": 2,
             "answers": [
-                "13:22",
-                "11:16",
-                "11:20",
-                "13:20"
+                "3:2",
+                "2:5",
+                "2:3",
+                "None of the above"
             ],
-            "question": "The ratio of metal 1 and metal 2 in alloy A is 3:4. In alloy B, same metals are mixed in the ratio 5:8. If 20 kg of alloy B and 10 kg of alloy A are mixed, find out the ratio of metal 1 and metal 2 in the new alloy.",
-            "solution": "20kg of B is mixed with 10kg of A\n\nRatio of metal 1 and metal 2\n= [(5*20)+(3*10)]:[(8*20)+(4*10)]\n= 130:200\n= 13:20"
+            "question": "The ratio of ‘metal 1’ and ‘metal 2’ in alloy ‘A’ is 3 :4. In alloy ‘B’ same metals are mixed in the ratio 5:8. If 26 kg of alloy ‘B’ and 14 kg of alloy ‘A’ are mixed then find out the ratio of ‘metal 1’ and ‘metal 2’ in the new alloy....",
+            "solution": "(14*3/7 + 26*5/13) / (14*4/7 + 26*8/13)\n= (2*3 + 2*5) / (2*4 + 2*8)\n= 16/24\n= 2/3"
         },
         {
             "id": 29,
