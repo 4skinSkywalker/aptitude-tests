@@ -17,13 +17,13 @@
             "id": 2,
             "answerIndex": 1,
             "answers": [
-                "4 liters",
-                "5 liters",
-                "6 liters",
-                "7 liters"
+                "24 liters",
+                "35 liters",
+                "46 liters",
+                "None of the above"
             ],
             "question": "The ratio of milk and water contained in a mixture is 7:1. On adding 2 liters of water to the mixture, the ratio becomes 5:1. Find the amount of milk contained.",
-            "solution": "Let the amount of milk and water be 7x and x respectively.\n\n(7x)/(x+2) = 5\nx=5 liters"
+            "solution": "Let the amount of milk and water be 7x and x respectively.\n\n(7x)/(x+2) = 5\nx=5 liters\nmilk=7x=35 liters"
         },
         {
             "id": 3,
