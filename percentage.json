@@ -358,8 +358,8 @@
         "150",
         "200"
       ],
-      "question": "A survey of n people in the town of badaville found that 50% of them prefer brand A. Another survey of 100 people in the town of chottaville found that 60% prefer brand A. In total, 55% of all the people surveyed together prefer Brand A. What is the total number of people surveyed?\nSol: 50% (n)+ 60% (100 ) = 55% (n+ 100)\nSolving we get n = 200\n",
-      "solution": "(50% of n) + (60% of 100)\n= 55% of (n+100)\n\n0.5n+60 = 0.55n+55\n0.05n = 5\nn=100\n\nTotal no. of people surveyed\n= 200"
+      "question": "A survey of n people in the town of badaville found that 50% of them prefer brand A. Another survey of 100 people in the town of chottaville found that 60% prefer brand A. In total, 55% of all the people surveyed together prefer Brand A. What is the total number of people surveyed?",
+      "solution": "Sol: 50% (n)+ 60% (100 ) = 55% (n+ 100)\nSolving we get n = 200\n(50% of n) + (60% of 100)\n= 55% of (n+100)\n\n0.5n+60 = 0.55n+55\n0.05n = 5\nn=100\n\nTotal no. of people surveyed\n= 200"
     },
     {
       "id": 31,
