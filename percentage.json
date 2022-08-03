@@ -443,7 +443,7 @@
         "24%"
       ],
       "question": "A person runs from A to B. He has to take 1/5 of the time less to reach B when compared to running at normal speed. To achieve this, by what percentage should he increase his speed?",
-      "solution": "Let his usual speed be s kmph and\nthe usual time taken be t hours.\n\nNew time taken\n= 4t/5\nNew speed\n= st/(4t/5)\n= 5s/4\n\nHe should increase his speed by 25%."
+      "solution": "Let his usual speed be s kmph and\nthe usual time taken be t hours.\n\nNew time taken\n= 4t/5\nNew speed\n= s/(4t/5)\n= 5s/4\n\nHe should increase his speed by 25%."
     },
     {
       "id": 38,
