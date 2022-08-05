@@ -171,15 +171,15 @@
     },
     {
       "id": 15,
-      "answerIndex": 3,
+      "answerIndex": 0,
       "answers": [
-        "70%",
-        "50%",
-        "35%",
-        "30%"
+        "4% of a",
+        "5% of a",
+        "20% of a",
+        "None of above"
       ],
-      "question": "In a cricket match, Rahul scored a century with 13 boundaries and 3 sixes. What percentage of his runs did he make by running between the wickets?",
-      "solution": "Runs scored in boundaries and sixes \n= (13*4)+(3*6) \n= 52+18 = 70\nRuns scored between the wickets \n= 100-70 = 30\n30% of the runs are scored by running between the wickets."
+      "question": "If 20% of a = b, then b% of 20 is the same as...",
+      "solution": "0.2*a=b\n20*b/100=20*0.2*a/100\n20*b/100=0.2*a/5\n20*b/100=0.04*a\nSo 4% of a"
     },
     {
       "id": 16,
