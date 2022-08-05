@@ -467,7 +467,7 @@
         "240"
       ],
       "question": "In a class 80% have passed english, 70% passed Hindi and 10% did not pass either. If 144 students passed both, what is the total strength of the class?",
-      "solution": "% of students who passed both\n= 80+70-100+10\n= 60%\n\n60% of x = 144\nx = 240"
+      "solution": "Let X denotes total # (number) of students in the class\nE # of students passed in English\nH # of students passed in Hindi\nB # of students passed in both.\n#(EUH)= #(E) + #(H) - #(E&H)\n= (1 - 0.1)*X = 0.7*X + 0.8*X - 144\n= 60% of X = 144\n= X = 240."
     },
     {
       "id": 40,
