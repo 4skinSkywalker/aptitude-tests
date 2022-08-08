@@ -1,485 +1,485 @@
 {
-  "formula": "C.P is the cost price and S.P is the selling price\n\nIf S.P>C.P,\nGain or Profit = S.P-C.P\nGain % = (Profit/C.P)*100\nS.P = C.P * [(100+gain%)/100]\nC.P = (100*S.P)/(100+gain%)\n\nIf C.P>S.P,\nLoss = C.P-S.P\nLoss % = (Loss/C.P)*100\nS.P = C.P * [(100-loss%)/100]\nC.P = (100*S.P)/(100-loss%)\n\nIf an article is sold at a gain of x%, \nS.P = (100+x)% of C.P\n\nIf an article is sold at a loss of y%,\nS.P = (100-x)% of C.P\n\n\n\nWhen a person sells two items of the same price, one at a gain of x% and the other at a loss of x%, he always incurs a loss.\n\nLet’s say the Selling Price of each item be 120 and those items sold at 20% profit and 20% loss.\n\nCost Price of 1st item will be (120/1.2)=100.\nCost Price of 2nd item will be (120/0.8)=150\n\nSo total CP will be (100+150)=250\nand total SP will be (120+120) 240\n\nSo SP is less than CP\nWe can find loss percentage: [(250–240)/250]*100 it will be 4%\nWhich is equal to square of (20/100)\nSo loss % = x²/100\n\n\n\nIf a shopkeeper sells his goods at C.P, but uses false weights of x kg, his gain is:\nGain % = [(True Weight-False Weight)/False Weight]*100\n= [Error/(True Value-Error)]*100",
-  "problems": [
-    {
-      "id": 1,
-      "answerIndex": 2,
-      "answers": [
-        "Rs.200",
-        "Rs.220",
-        "Rs.240",
-        "Rs.250"
-      ],
-      "question": "A shopkeeper sells 1 kg of apples for Rs. 160 at a loss of 20%. At what price should he sell a kg of apples to gain 20%?",
-      "solution": "Let the cost price be Rs. (160+x)\nLoss = Rs.x\n\nLoss% = (x/(160+x))*100 = 20%\n\nx=Rs.40\nC.P=Rs.200\n\nGain% = (Gain/C.P) * 100 = 20%\nGain = Rs.40\n\nS.P=Gain+C.P=Rs.240"
-    },
-    {
-      "id": 2,
-      "answerIndex": 2,
-      "answers": [
-        "10%",
-        "5%",
-        "20%",
-        "12%"
-      ],
-      "question": "I bought 10 pencils for Rs.50 and sold them for Rs.60. What is my gain %?",
-      "solution": "Gain % = (gain/C.P) * 100 = 20%"
-    },
-    {
-      "id": 3,
-      "answerIndex": 2,
-      "answers": [
-        "25%",
-        "40%",
-        "50%",
-        "60%"
-      ],
-      "question": "A man sells an article at a profit of 20%. If he had bought it for 20% less but sells at the same price, find the gain %.",
-      "solution": "Let the C.P be Rs.x\nS.P=1.2x\n\nIf he had bought it for 20% less, C.P = 0.8x\n\nGain = 0.4x\nGain% = (0.4x/0.8x) * 100 = 50%"
-    },
-    {
-      "id": 4,
-      "answerIndex": 1,
-      "answers": [
-        "5%",
-        "5(5/19)%",
-        "4(5/19)%",
-        "5(10/19)%"
-      ],
-      "question": "A shopkeeper sells his goods at the cost price but uses a false weight of 950 gm. Find his gain %.",
-      "solution": "Let the cost of 1 kg of goods be Rs.100. \nThe cost of 950g is Rs. 95.\n\nHe sells Rs.95 worth goods for Rs.100. \nGain = Rs.5\nC.P = Rs.95\n\nGain % = (5/95) * 100 = 5(5/19)%"
-    },
-    {
-      "id": 5,
-      "answerIndex": 2,
-      "answers": [
-        "20%",
-        "15%",
-        "12.5%",
-        "10%"
-      ],
-      "question": "A shopkeeper sells a bag at a gain of 25%. He offers a discount of 10% on the bag. What is his profit %?",
-      "solution": "Let the C.P of the bag be Rs.x\nS.P = 1.25x\n\nAfter discount, the selling price is \n0.9*1.25x = 1.125x\n\nGain % = ((1.125x-x)/x)*100 = 12.5%"
-    },
-    {
-      "id": 6,
-      "answerIndex": 0,
-      "answers": [
-        "Rs.16",
-        "Rs.18",
-        "Rs.10",
-        "Rs.8"
-      ],
-      "question": "A man bought 10 apples and 8 oranges for Rs.200 and sold them for Rs.212. If he gained 12.5% on the apples and lost 20% on the oranges. Find the cost of an apple.",
-      "solution": "Let the cost of an apple be Rs.x and the cost of an orange be Rs.y\n\nThe S.P of an apple is Rs.1.125x and the S.P of an orange is Rs.0.8y\n\n10x+8y=200\n10*(1.125x)+8*(0.8y)=212\n\nSolving these, x=16"
-    },
-    {
-      "id": 7,
-      "answerIndex": 3,
-      "answers": [
-        "25%",
-        "20%",
-        "15%",
-        "10%"
-      ],
-      "question": "John buys a second-hand car for Rs.1,80,000 and spent Rs.20,000 for repairing it. He sold it for Rs.2,20000. Find his gain %.",
-      "solution": "C.P = 180000+20000 = 200000\nS.P = 220000\n\nGain %=((220000-200000)/200000) * 100 = 10%"
-    },
-    {
-      "id": 8,
-      "answerIndex": 3,
-      "answers": [
-        "5%",
-        "10%",
-        "15%",
-        "25%"
-      ],
-      "question": "12 articles were sold at the cost price of 15 articles. Find the profit %.",
-      "solution": "Let the C.P of an article be Rs.x\n\nS.P = 15x/12 = 1.25x\n\nGain % = ((1.25x-x)/x)*100 = 25%"
-    },
-    {
-      "id": 9,
-      "answerIndex": 0,
-      "answers": [
-        "100%",
-        "75%",
-        "50%",
-        "25%"
-      ],
-      "question": "The gain triples when the selling price of an item is doubled. Find the gain %.",
-      "solution": "Let the C.P be Rs.x and the S.P be Rs.y. \n\nGain = y-x\n\n2y-x = 3*(y-x)\ny=2x\n\nGain = y-x = 2x-x = x\n\nGain % = (x/x)*100 = 100%"
-    },
-    {
-      "id": 10,
-      "answerIndex": 1,
-      "answers": [
-        "Rs.20",
-        "Rs.21",
-        "Rs.24",
-        "Rs.25"
-      ],
-      "question": "A shopkeeper bought 60 apples at the rate of Rs.240 per dozen. For how much should he sell an apple in order to gain 5%?",
-      "solution": "C.P of an apple \n= 240/12 = Rs.20\nGain % = ((S.P-20)/20) * 100 = 5%\n\nS.P=Rs.21"
-    },
-    {
-      "id": 11,
-      "answerIndex": 3,
-      "answers": [
-        "40%",
-        "45%",
-        "50%",
-        "56.25%"
-      ],
-      "question": "Tarun bought 10 toffees for Rs.8 and sold 8 toffees for Rs.10. Find his gain percent.",
-      "solution": "C.P = 8/10 = Rs.0.8\nS.P = 10/8 = Rs.1.25\n\nGain = 0.45\n\nGain = (0.45/0.8) * 100 = 56.25%"
-    },
-    {
-      "id": 12,
-      "answerIndex": 2,
-      "answers": [
-        "Rs.6",
-        "Rs.8",
-        "Rs.10",
-        "Rs.12"
-      ],
-      "question": "Ram sold 15 pens for Rs.120. The loss incurred was equal to the cost price of 3 pens. Find the cost price of a pen.",
-      "solution": "Let the C.P of a pen be Rs.x\n\n15x - 120 = 3x\nx = Rs.10"
-    },
-    {
-      "id": 13,
-      "answerIndex": 3,
-      "answers": [
-        "25% gain",
-        "10% gain",
-        "10% loss",
-        "No gain No loss"
-      ],
-      "question": "A shopkeeper sells two phones for Rs.6000, one at a gain of 50% and the other at a loss of 25%. Find his overall gain or loss %.",
-      "solution": "C.P of the first phone \n= 6000/1.5 = Rs.4000\nC.P of the second phone \n= 6000/0.75 = Rs.8000\n\nTotal cost = Rs.12000 = Total S.P\n\nNeither gain nor loss"
-    },
-    {
-      "id": 14,
-      "answerIndex": 1,
-      "answers": [
-        "Rs.106",
-        "Rs.120",
-        "Rs.160",
-        "Rs.600"
-      ],
-      "question": "Rahul sold an article for Rs.100. He lost one sixth of what it cost him. Find the cost of the article.",
-      "solution": "Let the C.P be Rs.x\n\nS.P = x - (x/6) = 100\nx = Rs.120"
-    },
-    {
-      "id": 15,
-      "answerIndex": 0,
-      "answers": [
-        "12.5%",
-        "25%",
-        "30%",
-        "15%"
-      ],
-      "question": "A shopkeeper mixes 30 kg of dhall costing Rs.20/kg with 20 kg of another variety of dhall costing Rs.30/kg and sells the mixture at Rs.27/kg. Find his profit percent.",
-      "solution": "C.P = (30*20)+(20*30) = Rs.1200\n\nCost per kg = 1200/50 = Rs.24\n\nGain = ((27-24)/24)*100 = 12.5%"
-    },
-    {
-      "id": 16,
-      "answerIndex": 2,
-      "answers": [
-        "10% gain",
-        "10% loss",
-        "No gain No loss",
-        "5% gain"
-      ],
-      "question": "A man buys two watches for Rs.1500. He sells one at a gain of 20% and the other at a loss of 20%. His gain or loss for the complete transaction is",
-      "solution": "20% of Rs.1500 is always the same, be it a gain or loss.\n\nThe amount he gained is equal to the amount he lost.\nHence, no gain, no loss.\n\nS.P of the first watch\n= (120/100)*1500\n= Rs.1800\n\nS.P of the second watch\n= (80/100)*1500\n= Rs.1200\n\nTotal S.P = Total C.P = Rs.3000\n\nNeither gain nor loss"
-    },
-    {
-      "id": 17,
-      "answerIndex": 0,
-      "answers": [
-        "100%",
-        "50%",
-        "200%",
-        "150%"
-      ],
-      "question": "On selling 100 articles, a trader makes a profit equal to the S.P of 50 articles. Find his gain %.",
-      "solution": "100*Profit = 50*SP\n\n100(SP-CP) = 50SP\n\n50SP = 100CP\nSP = 2CP\n\nGain% \n= (Gain/CP) *100\n= [(SP-CP)/CP]*100\n= [(2CP-CP)/CP]*100\n= 100%\n"
-    },
-    {
-      "id": 18,
-      "answerIndex": 3,
-      "answers": [
-        "40%",
-        "80%",
-        "200%",
-        "140%"
-      ],
-      "question": "An article when sold at a certain price gives a profit of 20%. Find the gain % if it is sold for twice the price.",
-      "solution": "SP = 1.2CP\n\nIf it is sold for twice the price,\nNew SP = 2.4CP\n\nGain = SP-CP = 1.4CP\n\nGain% = (Gain/CP)*100 = 140%"
-    },
-    {
-      "id": 19,
-      "answerIndex": 1,
-      "answers": [
-        "950 gms",
-        "900 gms",
-        "930 gms",
-        "940 gms"
-      ],
-      "question": "A grocer professes to sell goods at the cost price but uses false weights. He gains (100/9)% in this manner. He uses a weight of",
-      "solution": "Gain % =  [(True Weight-False Weight)/False Weight]*100\n\n100/9 = [(1-x)/x]*100\n\n(1-x)/x = 1/9\n\n10x=9\n\nx = 0.9 kg=900gms"
-    },
-    {
-      "id": 20,
-      "answerIndex": 3,
-      "answers": [
-        "Rs.150000",
-        "Rs.30000",
-        "Rs.10000",
-        "Rs.20000"
-      ],
-      "question": "A man bought a television and a dvd player. If he sold the television at a loss of 5% and the player at a gain of 10%, he neither gains nor loses from the transaction. But, if he sells the television at a gain of 20% and the player at a loss of 10%, he gains Rs.3000. Find the cost price of the television.",
-      "solution": "Let the cost of the television be Rs.x and the player be Rs.y\n\nCase I:\nLoss on selling TV = Gain on selling player\n(5/100)x = (10/100)y\n\nCase II:\nGain on selling TV-Loss on selling player=Rs.3000\n\n(20/100)x-(10/100)y = 3000\n\n0.05x=0.1y\n0.2x-0.1y=3000\n\nSolving,\nx=Rs.20000\n"
-    },
-    {
-      "id": 21,
-      "answerIndex": 1,
-      "answers": [
-        "10%",
-        "11.11%",
-        "9%",
-        "10.09%"
-      ],
-      "question": "If the C.P is 90% of SP, find the gain %.",
-      "solution": "CP = 0.9SP\n\nGain = 0.1SP\n\nGain% = (0.1SP/0.9SP)*100\n            = 100/9%\n            = 11.11% "
-    },
-    {
-      "id": 22,
-      "answerIndex": 3,
-      "answers": [
-        "Rs.80",
-        "Rs.100",
-        "Rs.120",
-        "Rs.75"
-      ],
-      "question": "The SP of an article at a gain of 8% is Rs.12 more than the SP at a loss of 8%. Find CP.",
-      "solution": "Let the CP be Rs.x\n\n1.08x = 0.92x+12\n\n0.16x = 12\n\nx = 1200/16\n\nx=Rs.75\n"
-    },
-    {
-      "id": 23,
-      "answerIndex": 3,
-      "answers": [
-        "Rs.2200",
-        "Rs.2160",
-        "Rs.1967",
-        "Rs.2000"
-      ],
-      "question": "The price of an item including tax is Rs.2376. The tax levied on it is 8% and the shopkeeper has made a profit of 10%. Find its CP.",
-      "solution": "The price of the item before tax\n= 2376*(100/108)\n= Rs.2200\nProfit = 10%\nCP = 2200*(100/110)\n      = Rs.2000"
-    },
-    {
-      "id": 24,
-      "answerIndex": 2,
-      "answers": [
-        "Rs.22400",
-        "Rs.25200",
-        "Rs.23520",
-        "Rs.24000"
-      ],
-      "question": "A man bought a TV for Rs.20000 and paid Rs.1000 for its transport. At what price should he sell it to gain 12%?",
-      "solution": "Total CP\n= Original CP+Transport charges\n= Rs.21000\nGain = 12%\n\nSP = 21000*112/100\n      = Rs.23520"
-    },
-    {
-      "id": 25,
-      "answerIndex": 0,
-      "answers": [
-        "16%",
-        "12%",
-        "10%",
-        "15%"
-      ],
-      "question": "The selling price of an article is Rs.1500. Ravi bought it at a discount of 10% and sold it to Harsha for Rs.1566. Find Ravi's gain %.",
-      "solution": "Ravi bought it for\n1500*90/100 = Rs.1350\nGain = 1566-1350 = Rs.216\n\nGain%\n= (216/1350)*100\n= 16%"
-    },
-    {
-      "id": 30,
-      "answerIndex": 1,
-      "answers": [
-        "40%",
-        "50%",
-        "25%",
-        "20%"
-      ],
-      "question": "The SP of 4 articles equals the CP of 6 articles. Find the gain%.",
-      "solution": "Let the CP of an article be Rs.x\n4*SP=6x\nSP = 6x/4 = 3x/2\nGain = (3x/2)-x\n         = x/2\nGain %\n= (x/2)/x *100\n= 50%"
-    },
-    {
-      "id": 29,
-      "answerIndex": 0,
-      "answers": [
-        "Rs.2720",
-        "Rs.3185",
-        "Rs.2270",
-        "Rs.3080"
-      ],
-      "question": "Ganesh bought a watch for Rs.3200 and sold it at a loss of 15%. At what price did he sell it?",
-      "solution": "SP = 85% of 3200\n     = 85*32\n     = 2720"
-    },
-    {
-      "id": 28,
-      "answerIndex": 0,
-      "answers": [
-        "1% Loss",
-        "(1/99)% Gain",
-        "1(1/99)% Loss",
-        "No gain, no loss"
-      ],
-      "question": "A shopkeeper sells two kittens for the same price, one at a loss of 10% and the other at a profit of 10%. Find his net profit or loss in the transaction.",
-      "solution": "Let the SP of a kitten be Rs.x\n\nCP of the first kitten\n= x/0.9\nCP of the second kitten\n= x/1.1\nTotal CP\n= 2x/0.99\nTotal SP\n= 2x\nCP>SP\nLoss %\n= [[(2x/0.99)-2x]/(2x/0.99)]*100\n= [(0.02x/0.99)/(2x/0.99)]*100\n= 1%"
-    },
-    {
-      "id": 27,
-      "answerIndex": 2,
-      "answers": [
-        "16%",
-        "40%",
-        "60%",
-        "80%"
-      ],
-      "question": "The SP of an article is twice the CP. The shopkeeper offers a discount of 20% on the product. Find his net gain %.",
-      "solution": "Let the CP be Rs.x.\nSP=2x\n\nDiscount \n= 20% of 2x\n= 0.4x\nPrice after discount\n= 1.6x\nGain=0.6x\nGain%\n= (0.6x/x)*100\n= 60%"
-    },
-    {
-      "id": 26,
-      "answerIndex": 3,
-      "answers": [
-        "1,50,000 $",
-        "2,00,000 $",
-        "1,000,000 $",
-        "100,000 $"
-      ],
-      "question": "Three-fourths of a consignment was sold at a profit of 10% and the rest at a loss of 12%. The overall profit was 4,500$. Find the value of the consignment.",
-      "solution": "Let the value of the consignment be x $\n\n[(10/100)*(3/4)x]-\n[(12/100)*(1/4)x]=4500\n0.075x-0.03x=4500\n0.045x=4500\nx=100,000$"
-    },
-    {
-      "id": 31,
-      "answerIndex": 1,
-      "answers": [
-        "10%",
-        "9.09%",
-        "11.11%",
-        "12.5%"
-      ],
-      "question": "A man sold 12 candies for 10$ at a loss of b%. Then again he sold 12 candies for 12$ at a profit of b%. Find the value of b.",
-      "solution": "Case (I):\n\nSP = 10 $\nLoss = b%\n\n(CP-10)/CP = b/100\n\nCase (II):\n\nSP = 12 $\nProfit = b%\n\n(12-CP)/CP = b/100\n\nCP-10 = 12-CP\n2CP = 22\nCP = 11\n\nb/100 = 1/11\n\nb=100/11 = 9.09%"
-    },
-    {
-      "id": 32,
-      "answerIndex": 1,
-      "answers": [
-        "Rs.130,000",
-        "Rs.80,000",
-        "Rs.70,000",
-        "Rs.120,000"
-      ],
-      "question": "A cow and a horse are bought for Rs.2,00,000. The cow is sold at a profit of 20% and the horse is sold at a loss of 10%.The overall gain is Rs.4000. Find the cost price of the cow.",
-      "solution": "Total profit %\n= (4000/200000)*100\n= 2%\n\nBy the rule of alligation,\n\n20%-10%\n\n2%\n\n2-(-10)20-2\n12%18%\n\nCost price of the cow\n= [12/(18+12)]*200000\n= [2/5]*200000\n= Rs.80,000"
-    },
-    {
-      "id": 33,
-      "answerIndex": 0,
-      "answers": [
-        "3%",
-        "4.5%",
-        "5%",
-        "7.5%"
-      ],
-      "question": "A book was sold for Rs.27.50 at a profit of 10%. If it was sold for Rs.25.75, then what would be the profit%?",
-      "solution": "110% of CP = 27.5\n\nCP = 27.5*10/11 = 25\n\nSP=25.75\nProfit=0.75\n\nProfit%\n= (0.75/25)*100\n= 3%"
-    },
-    {
-      "id": 34,
-      "answerIndex": 3,
-      "answers": [
-        "200, 400",
-        "250, 450",
-        "300, 500",
-        "400, 200"
-      ],
-      "question": "A man bought a horse and a cart. If he sold the horse at 10% loss and the cart at 20% gain, he would not lose anything; but if he sold the horse at 5% loss and the cart at 5% gain, he would lose Rs.10 in the bargain. The amount paid by him was Rs._____ for the horse and Rs._____ for the cart.",
-      "solution": "Let the cost of the horse and the cart be Rs.h and Rs.c\n\n0.9h+1.2c=h+c\n0.1h=0.2c\nh=2c\n\n0.95h+1.05c=h+c-10\n0.05h-10=0.05c\n0.1c-10=0.05c\n0.05c=10\nc=200\nh=400"
-    },
-    {
-      "id": 35,
-      "answerIndex": 0,
-      "answers": [
-        "Rs. 22,781.25",
-        "Rs. 24,150.25",
-        "Rs. 28,140.50",
-        "Rs. 18,000"
-      ],
-      "question": "Two unemployed young men decided to start a business together. They pooled in their savings, which came to Rs.2000. They were both lucky, their business prospered and they were able to increase their capital by 50 percent every 3 years. How much did they have in all at the end of eighteen years?",
-      "solution": "Their capital increased by 50% every 30 years.\n\nTotal amount after 18 years\n= (1.5)^6 * 2000\n= Rs.22781.25"
-    },
-    {
-      "id": 36,
-      "answerIndex": 1,
-      "answers": [
-        "Rs.12000",
-        "Rs.13000",
-        "Rs.14000",
-        "Rs.15000"
-      ],
-      "question": "A manufacturer undertakes to supply 2000 pieces of a particular component at Rs.25 per piece. According to his estimates, even if 5% fail to pass the quality tests, then he will make a profit of 25%. However, as it turned out, 50% of the components were rejected. What is the loss to the manufacturer?",
-      "solution": "If 5% of the components fail,\nTotal selling price\n= 0.95*2000*25\n= Rs.47500\n\nHe will make a profit of 25%.\n\n47500 = 1.25*CP\n\nCP = Rs.38000\n\n50% of the components were rejected.\n\nSP = 0.5*2000*25\n     = 25000\n\nLoss = Rs.13000"
-    },
-    {
-      "id": 37,
-      "answerIndex": 0,
-      "answers": [
-        "23$ loss",
-        "23$ gain",
-        "54$ loss",
-        "54$ gain"
-      ],
-      "question": "John buys a cycle for 31 dollars and gives a cheque for 35 dollars. The shopkeeper exchanged the cheque with his neighbor and gave the change to John. After 2 days, it is known that cheque is bounced. Shop keeper paid the amount to his neighbour. The cost price of cycle is 19 dollars. What is the profit/loss for shop keeper?",
-      "solution": "Loss = Change given to John+Actual cost of the cycle\n        = 4+19 = 23$"
-    },
-    {
-      "id": 38,
-      "answerIndex": 1,
-      "answers": [
-        "20$",
-        "15$",
-        "10$",
-        "7.5$"
-      ],
-      "question": "A person buys a horse for 15 pounds, after one year he sells it for 20 pounds. After one year, again he buys the same horse at 30 pounds and sells it for 40 pounds. What is the profit for that person?",
-      "solution": "Profit\n= (20-15)+(40-30)\n= 15$"
-    },
-    {
-      "id": 39,
-      "answerIndex": 1,
-      "answers": [
-        "Rs.175",
-        "Rs.200",
-        "Rs.225",
-        "Rs.250"
-      ],
-      "question": "A machine is sold at a profit of 10%. Had it been sold for Rs 40 less, there would have been a loss of 10%. What was the cost price?",
-      "solution": "1.1x - 0.9x = 40\n\n0.2x = 40\n\nx = 200"
-    },
-    {
-      "id": 40,
-      "answerIndex": 0,
-      "answers": [
-        "5%",
-        "6%",
-        "7%",
-        "8%"
-      ],
-      "question": "Vivek and Sons are leading sellers of luxury goods like air conditioners, refrigerators, colour televisions, washing machines etc. They bought twenty branded refrigerators at Rs. 9600 each. They marked the selling price adding 25% over the purchase price. The company wanted to make 20% profit by the sale of these twenty refrigerators. A group of software programmers from Sugar Info Systems, Chennai approached them for buying refrigerators and in order to get new clientele they offered 10% discount on the selling price and sold 12 refrigerators. What is the percentage of profit they should add over the selling price already marked while selling the other 8 refrigerators in order to ensure that they make a profit of 20% over cost price in the sale of twenty refrigerators?",
-      "solution": "Marked price\n= 1.25*9600\n= 12000\n\nSP of the fridge with 10% discount\n= 0.9*12000\n= 10800\n\nProfit obtained for 12 fridges\n= 12*(10800-9600)\n= 14400\n\n20% profit for 20 fridges\n= 20*0.2*9600\n= 38400\n\nProfit for 8 fridges\n= 38400-14400\n= 24000\nProfit for a fridge\n= 3000\nSP = 12600\n\nThey should add Rs.600 to the marked price of 12000.\n\n600 = 5% of 12000"
-    }
-  ]
+    "formula": "C.P is the cost price and S.P is the selling price\n\nIf S.P>C.P,\nGain or Profit = S.P-C.P\nGain % = (Profit/C.P)*100\nS.P = C.P * [(100+gain%)/100]\nC.P = (100*S.P)/(100+gain%)\n\nIf C.P>S.P,\nLoss = C.P-S.P\nLoss % = (Loss/C.P)*100\nS.P = C.P * [(100-loss%)/100]\nC.P = (100*S.P)/(100-loss%)\n\nIf an article is sold at a gain of x%, \nS.P = (100+x)% of C.P\n\nIf an article is sold at a loss of y%,\nS.P = (100-x)% of C.P\n\n\n\nWhen a person sells two items of the same price, one at a gain of x% and the other at a loss of x%, he always incurs a loss.\n\nLet’s say the Selling Price of each item be 120 and those items sold at 20% profit and 20% loss.\n\nCost Price of 1st item will be (120/1.2)=100.\nCost Price of 2nd item will be (120/0.8)=150\n\nSo total CP will be (100+150)=250\nand total SP will be (120+120) 240\n\nSo SP is less than CP\nWe can find loss percentage: [(250–240)/250]*100 it will be 4%\nWhich is equal to square of (20/100)\nSo loss % = x²/100\n\n\n\nIf a shopkeeper sells his goods at C.P, but uses false weights of x kg, his gain is:\nGain % = [(True Weight-False Weight)/False Weight]*100\n= [Error/(True Value-Error)]*100",
+    "problems": [
+        {
+            "id": 1,
+            "answerIndex": 2,
+            "answers": [
+                "Rs.200",
+                "Rs.220",
+                "Rs.240",
+                "Rs.250"
+            ],
+            "question": "A shopkeeper sells 1 kg of apples for Rs. 160 at a loss of 20%. At what price should he sell a kg of apples to gain 20%?",
+            "solution": "Let the cost price be Rs. (160+x)\nLoss = Rs.x\n\nLoss% = (x/(160+x))*100 = 20%\n\nx=Rs.40\nC.P=Rs.200\n\nGain% = (Gain/C.P) * 100 = 20%\nGain = Rs.40\n\nS.P=Gain+C.P=Rs.240"
+        },
+        {
+            "id": 2,
+            "answerIndex": 2,
+            "answers": [
+                "10%",
+                "5%",
+                "20%",
+                "12%"
+            ],
+            "question": "I bought 10 pencils for Rs.50 and sold them for Rs.60. What is my gain %?",
+            "solution": "Gain % = (gain/C.P) * 100 = 20%"
+        },
+        {
+            "id": 3,
+            "answerIndex": 2,
+            "answers": [
+                "25%",
+                "40%",
+                "50%",
+                "60%"
+            ],
+            "question": "A man sells an article at a profit of 20%. If he had bought it for 20% less but sells at the same price, find the gain %.",
+            "solution": "Let the C.P be Rs.x\nS.P=1.2x\n\nIf he had bought it for 20% less, C.P = 0.8x\n\nGain = 0.4x\nGain% = (0.4x/0.8x) * 100 = 50%"
+        },
+        {
+            "id": 4,
+            "answerIndex": 1,
+            "answers": [
+                "5%",
+                "5(5/19)%",
+                "4(5/19)%",
+                "5(10/19)%"
+            ],
+            "question": "A shopkeeper sells his goods at the cost price but uses a false weight of 950 gm. Find his gain %.",
+            "solution": "Let the cost of 1 kg of goods be Rs.100. \nThe cost of 950g is Rs. 95.\n\nHe sells Rs.95 worth goods for Rs.100. \nGain = Rs.5\nC.P = Rs.95\n\nGain % = (5/95) * 100 = 5(5/19)%"
+        },
+        {
+            "id": 5,
+            "answerIndex": 2,
+            "answers": [
+                "20%",
+                "15%",
+                "12.5%",
+                "10%"
+            ],
+            "question": "A shopkeeper sells a bag at a gain of 25%. He offers a discount of 10% on the bag. What is his profit %?",
+            "solution": "Let the C.P of the bag be Rs.x\nS.P = 1.25x\n\nAfter discount, the selling price is \n0.9*1.25x = 1.125x\n\nGain % = ((1.125x-x)/x)*100 = 12.5%"
+        },
+        {
+            "id": 6,
+            "answerIndex": 0,
+            "answers": [
+                "Rs.16",
+                "Rs.18",
+                "Rs.10",
+                "Rs.8"
+            ],
+            "question": "A man bought 10 apples and 8 oranges for Rs.200 and sold them for Rs.212. If he gained 12.5% on the apples and lost 20% on the oranges. Find the cost of an apple.",
+            "solution": "Let the cost of an apple be Rs.x and the cost of an orange be Rs.y\n\nThe S.P of an apple is Rs.1.125x and the S.P of an orange is Rs.0.8y\n\n10x+8y=200\n10*(1.125x)+8*(0.8y)=212\n\nSolving these, x=16"
+        },
+        {
+            "id": 7,
+            "answerIndex": 3,
+            "answers": [
+                "25%",
+                "20%",
+                "15%",
+                "10%"
+            ],
+            "question": "John buys a second-hand car for Rs.1,80,000 and spent Rs.20,000 for repairing it. He sold it for Rs.2,20000. Find his gain %.",
+            "solution": "C.P = 180000+20000 = 200000\nS.P = 220000\n\nGain %=((220000-200000)/200000) * 100 = 10%"
+        },
+        {
+            "id": 8,
+            "answerIndex": 3,
+            "answers": [
+                "5%",
+                "10%",
+                "15%",
+                "25%"
+            ],
+            "question": "12 articles were sold at the cost price of 15 articles. Find the profit %.",
+            "solution": "Let the C.P of an article be Rs.x\n\nS.P = 15x/12 = 1.25x\n\nGain % = ((1.25x-x)/x)*100 = 25%"
+        },
+        {
+            "id": 9,
+            "answerIndex": 0,
+            "answers": [
+                "100%",
+                "75%",
+                "50%",
+                "25%"
+            ],
+            "question": "The gain triples when the selling price of an item is doubled. Find the gain %.",
+            "solution": "Let the C.P be Rs.x and the S.P be Rs.y. \n\nGain = y-x\n\n2y-x = 3*(y-x)\ny=2x\n\nGain = y-x = 2x-x = x\n\nGain % = (x/x)*100 = 100%"
+        },
+        {
+            "id": 10,
+            "answerIndex": 1,
+            "answers": [
+                "Rs.20",
+                "Rs.21",
+                "Rs.24",
+                "Rs.25"
+            ],
+            "question": "A shopkeeper bought 60 apples at the rate of Rs.240 per dozen. For how much should he sell an apple in order to gain 5%?",
+            "solution": "C.P of an apple \n= 240/12 = Rs.20\nGain % = ((S.P-20)/20) * 100 = 5%\n\nS.P=Rs.21"
+        },
+        {
+            "id": 11,
+            "answerIndex": 3,
+            "answers": [
+                "40%",
+                "45%",
+                "50%",
+                "56.25%"
+            ],
+            "question": "Tarun bought 10 toffees for Rs.8 and sold 8 toffees for Rs.10. Find his gain percent.",
+            "solution": "C.P = 8/10 = Rs.0.8\nS.P = 10/8 = Rs.1.25\n\nGain = 0.45\n\nGain = (0.45/0.8) * 100 = 56.25%"
+        },
+        {
+            "id": 12,
+            "answerIndex": 2,
+            "answers": [
+                "Rs.6",
+                "Rs.8",
+                "Rs.10",
+                "Rs.12"
+            ],
+            "question": "Ram sold 15 pens for Rs.120. The loss incurred was equal to the cost price of 3 pens. Find the cost price of a pen.",
+            "solution": "Let the C.P of a pen be Rs.x\n\n15x - 120 = 3x\nx = Rs.10"
+        },
+        {
+            "id": 13,
+            "answerIndex": 3,
+            "answers": [
+                "25% gain",
+                "10% gain",
+                "10% loss",
+                "No gain No loss"
+            ],
+            "question": "A shopkeeper sells two phones for Rs.6000, one at a gain of 50% and the other at a loss of 25%. Find his overall gain or loss %.",
+            "solution": "C.P of the first phone \n= 6000/1.5 = Rs.4000\nC.P of the second phone \n= 6000/0.75 = Rs.8000\n\nTotal cost = Rs.12000 = Total S.P\n\nNeither gain nor loss"
+        },
+        {
+            "id": 14,
+            "answerIndex": 1,
+            "answers": [
+                "Rs.106",
+                "Rs.120",
+                "Rs.160",
+                "Rs.600"
+            ],
+            "question": "Rahul sold an article for Rs.100. He lost one sixth of what it cost him. Find the cost of the article.",
+            "solution": "Let the C.P be Rs.x\n\nS.P = x - (x/6) = 100\nx = Rs.120"
+        },
+        {
+            "id": 15,
+            "answerIndex": 0,
+            "answers": [
+                "12.5%",
+                "25%",
+                "30%",
+                "15%"
+            ],
+            "question": "A shopkeeper mixes 30 kg of dhall costing Rs.20/kg with 20 kg of another variety of dhall costing Rs.30/kg and sells the mixture at Rs.27/kg. Find his profit percent.",
+            "solution": "C.P = (30*20)+(20*30) = Rs.1200\n\nCost per kg = 1200/50 = Rs.24\n\nGain = ((27-24)/24)*100 = 12.5%"
+        },
+        {
+            "id": 16,
+            "answerIndex": 2,
+            "answers": [
+                "10% gain",
+                "10% loss",
+                "No gain No loss",
+                "5% gain"
+            ],
+            "question": "A man buys two watches for Rs.1500. He sells one at a gain of 20% and the other at a loss of 20%. His gain or loss for the complete transaction is",
+            "solution": "20% of Rs.1500 is always the same, be it a gain or loss.\n\nThe amount he gained is equal to the amount he lost.\nHence, no gain, no loss.\n\nS.P of the first watch\n= (120/100)*1500\n= Rs.1800\n\nS.P of the second watch\n= (80/100)*1500\n= Rs.1200\n\nTotal S.P = Total C.P = Rs.3000\n\nNeither gain nor loss"
+        },
+        {
+            "id": 17,
+            "answerIndex": 0,
+            "answers": [
+                "100%",
+                "50%",
+                "200%",
+                "150%"
+            ],
+            "question": "On selling 100 articles, a trader makes a profit equal to the S.P of 50 articles. Find his gain %.",
+            "solution": "100*Profit = 50*SP\n\n100(SP-CP) = 50SP\n\n50SP = 100CP\nSP = 2CP\n\nGain% \n= (Gain/CP) *100\n= [(SP-CP)/CP]*100\n= [(2CP-CP)/CP]*100\n= 100%\n"
+        },
+        {
+            "id": 18,
+            "answerIndex": 3,
+            "answers": [
+                "40%",
+                "80%",
+                "200%",
+                "140%"
+            ],
+            "question": "An article when sold at a certain price gives a profit of 20%. Find the gain % if it is sold for twice the price.",
+            "solution": "SP = 1.2CP\n\nIf it is sold for twice the price,\nNew SP = 2.4CP\n\nGain = SP-CP = 1.4CP\n\nGain% = (Gain/CP)*100 = 140%"
+        },
+        {
+            "id": 19,
+            "answerIndex": 1,
+            "answers": [
+                "950 gms",
+                "900 gms",
+                "930 gms",
+                "940 gms"
+            ],
+            "question": "A grocer professes to sell goods at the cost price but uses false weights. He gains (100/9)% in this manner. He uses a weight of",
+            "solution": "Gain % =  [(True Weight-False Weight)/False Weight]*100\n\n100/9 = [(1-x)/x]*100\n\n(1-x)/x = 1/9\n\n10x=9\n\nx = 0.9 kg=900gms"
+        },
+        {
+            "id": 20,
+            "answerIndex": 3,
+            "answers": [
+                "Rs.150000",
+                "Rs.30000",
+                "Rs.10000",
+                "Rs.20000"
+            ],
+            "question": "A man bought a television and a dvd player. If he sold the television at a loss of 5% and the player at a gain of 10%, he neither gains nor loses from the transaction. But, if he sells the television at a gain of 20% and the player at a loss of 10%, he gains Rs.3000. Find the cost price of the television.",
+            "solution": "Let the cost of the television be Rs.x and the player be Rs.y\n\nCase I:\nLoss on selling TV = Gain on selling player\n(5/100)x = (10/100)y\n\nCase II:\nGain on selling TV-Loss on selling player=Rs.3000\n\n(20/100)x-(10/100)y = 3000\n\n0.05x=0.1y\n0.2x-0.1y=3000\n\nSolving,\nx=Rs.20000\n"
+        },
+        {
+            "id": 21,
+            "answerIndex": 1,
+            "answers": [
+                "10%",
+                "11.11%",
+                "9%",
+                "10.09%"
+            ],
+            "question": "If the C.P is 90% of SP, find the gain %.",
+            "solution": "CP = 0.9SP\n\nGain = 0.1SP\n\nGain% = (0.1SP/0.9SP)*100\n            = 100/9%\n            = 11.11% "
+        },
+        {
+            "id": 22,
+            "answerIndex": 3,
+            "answers": [
+                "Rs.80",
+                "Rs.100",
+                "Rs.120",
+                "Rs.75"
+            ],
+            "question": "The SP of an article at a gain of 8% is Rs.12 more than the SP at a loss of 8%. Find CP.",
+            "solution": "Let the CP be Rs.x\n\n1.08x = 0.92x+12\n\n0.16x = 12\n\nx = 1200/16\n\nx=Rs.75\n"
+        },
+        {
+            "id": 23,
+            "answerIndex": 3,
+            "answers": [
+                "Rs.2200",
+                "Rs.2160",
+                "Rs.1967",
+                "Rs.2000"
+            ],
+            "question": "The price of an item including tax is Rs.2376. The tax levied on it is 8% and the shopkeeper has made a profit of 10%. Find its CP.",
+            "solution": "The price of the item before tax\n= 2376*(100/108)\n= Rs.2200\nProfit = 10%\nCP = 2200*(100/110)\n      = Rs.2000"
+        },
+        {
+            "id": 24,
+            "answerIndex": 2,
+            "answers": [
+                "Rs.22400",
+                "Rs.25200",
+                "Rs.23520",
+                "Rs.24000"
+            ],
+            "question": "A man bought a TV for Rs.20000 and paid Rs.1000 for its transport. At what price should he sell it to gain 12%?",
+            "solution": "Total CP\n= Original CP+Transport charges\n= Rs.21000\nGain = 12%\n\nSP = 21000*112/100\n      = Rs.23520"
+        },
+        {
+            "id": 25,
+            "answerIndex": 0,
+            "answers": [
+                "16%",
+                "12%",
+                "10%",
+                "15%"
+            ],
+            "question": "The selling price of an article is Rs.1500. Ravi bought it at a discount of 10% and sold it to Harsha for Rs.1566. Find Ravi's gain %.",
+            "solution": "Ravi bought it for\n1500*90/100 = Rs.1350\nGain = 1566-1350 = Rs.216\n\nGain%\n= (216/1350)*100\n= 16%"
+        },
+        {
+            "id": 26,
+            "answerIndex": 3,
+            "answers": [
+                "1,50,000 $",
+                "2,00,000 $",
+                "1,000,000 $",
+                "100,000 $"
+            ],
+            "question": "Three-fourths of a consignment was sold at a profit of 10% and the rest at a loss of 12%. The overall profit was 4,500$. Find the value of the consignment.",
+            "solution": "Let the value of the consignment be x $\n\n[(10/100)*(3/4)x]-\n[(12/100)*(1/4)x]=4500\n0.075x-0.03x=4500\n0.045x=4500\nx=100,000$"
+        },
+        {
+            "id": 27,
+            "answerIndex": 2,
+            "answers": [
+                "16%",
+                "40%",
+                "60%",
+                "80%"
+            ],
+            "question": "The SP of an article is twice the CP. The shopkeeper offers a discount of 20% on the product. Find his net gain %.",
+            "solution": "Let the CP be Rs.x.\nSP=2x\n\nDiscount \n= 20% of 2x\n= 0.4x\nPrice after discount\n= 1.6x\nGain=0.6x\nGain%\n= (0.6x/x)*100\n= 60%"
+        },
+        {
+            "id": 28,
+            "answerIndex": 0,
+            "answers": [
+                "1% Loss",
+                "(1/99)% Gain",
+                "1(1/99)% Loss",
+                "No gain, no loss"
+            ],
+            "question": "A shopkeeper sells two kittens for the same price, one at a loss of 10% and the other at a profit of 10%. Find his net profit or loss in the transaction.",
+            "solution": "Let the SP of a kitten be Rs.x\n\nCP of the first kitten\n= x/0.9\nCP of the second kitten\n= x/1.1\nTotal CP\n= 2x/0.99\nTotal SP\n= 2x\nCP>SP\nLoss %\n= [[(2x/0.99)-2x]/(2x/0.99)]*100\n= [(0.02x/0.99)/(2x/0.99)]*100\n= 1%"
+        },
+        {
+            "id": 29,
+            "answerIndex": 0,
+            "answers": [
+                "Rs.2720",
+                "Rs.3185",
+                "Rs.2270",
+                "Rs.3080"
+            ],
+            "question": "Ganesh bought a watch for Rs.3200 and sold it at a loss of 15%. At what price did he sell it?",
+            "solution": "SP = 85% of 3200\n     = 85*32\n     = 2720"
+        },
+        {
+            "id": 30,
+            "answerIndex": 1,
+            "answers": [
+                "40%",
+                "50%",
+                "25%",
+                "20%"
+            ],
+            "question": "The SP of 4 articles equals the CP of 6 articles. Find the gain%.",
+            "solution": "Let the CP of an article be Rs.x\n4*SP=6x\nSP = 6x/4 = 3x/2\nGain = (3x/2)-x\n         = x/2\nGain %\n= (x/2)/x *100\n= 50%"
+        },
+        {
+            "id": 31,
+            "answerIndex": 1,
+            "answers": [
+                "10%",
+                "9.09%",
+                "11.11%",
+                "12.5%"
+            ],
+            "question": "A man sold 12 candies for 10$ at a loss of b%. Then again he sold 12 candies for 12$ at a profit of b%. Find the value of b.",
+            "solution": "Case (I):\n\nSP = 10 $\nLoss = b%\n\n(CP-10)/CP = b/100\n\nCase (II):\n\nSP = 12 $\nProfit = b%\n\n(12-CP)/CP = b/100\n\nCP-10 = 12-CP\n2CP = 22\nCP = 11\n\nb/100 = 1/11\n\nb=100/11 = 9.09%"
+        },
+        {
+            "id": 32,
+            "answerIndex": 1,
+            "answers": [
+                "Rs.130,000",
+                "Rs.80,000",
+                "Rs.70,000",
+                "Rs.120,000"
+            ],
+            "question": "A cow and a horse are bought for Rs.2,00,000. The cow is sold at a profit of 20% and the horse is sold at a loss of 10%.The overall gain is Rs.4000. Find the cost price of the cow.",
+            "solution": "Total profit %\n= (4000/200000)*100\n= 2%\n\nBy the rule of alligation,\n\n20%-10%\n\n2%\n\n2-(-10)20-2\n12%18%\n\nCost price of the cow\n= [12/(18+12)]*200000\n= [2/5]*200000\n= Rs.80,000"
+        },
+        {
+            "id": 33,
+            "answerIndex": 0,
+            "answers": [
+                "3%",
+                "4.5%",
+                "5%",
+                "7.5%"
+            ],
+            "question": "A book was sold for Rs.27.50 at a profit of 10%. If it was sold for Rs.25.75, then what would be the profit%?",
+            "solution": "110% of CP = 27.5\n\nCP = 27.5*10/11 = 25\n\nSP=25.75\nProfit=0.75\n\nProfit%\n= (0.75/25)*100\n= 3%"
+        },
+        {
+            "id": 34,
+            "answerIndex": 3,
+            "answers": [
+                "200, 400",
+                "250, 450",
+                "300, 500",
+                "400, 200"
+            ],
+            "question": "A man bought a horse and a cart. If he sold the horse at 10% loss and the cart at 20% gain, he would not lose anything; but if he sold the horse at 5% loss and the cart at 5% gain, he would lose Rs.10 in the bargain. The amount paid by him was Rs._____ for the horse and Rs._____ for the cart.",
+            "solution": "Let the cost of the horse and the cart be Rs.h and Rs.c\n\n0.9h+1.2c=h+c\n0.1h=0.2c\nh=2c\n\n0.95h+1.05c=h+c-10\n0.05h-10=0.05c\n0.1c-10=0.05c\n0.05c=10\nc=200\nh=400"
+        },
+        {
+            "id": 35,
+            "answerIndex": 0,
+            "answers": [
+                "Rs. 22,781.25",
+                "Rs. 24,150.25",
+                "Rs. 28,140.50",
+                "Rs. 18,000"
+            ],
+            "question": "Two unemployed young men decided to start a business together. They pooled in their savings, which came to Rs.2000. They were both lucky, their business prospered and they were able to increase their capital by 50 percent every 3 years. How much did they have in all at the end of eighteen years?",
+            "solution": "Their capital increased by 50% every 30 years.\n\nTotal amount after 18 years\n= (1.5)^6 * 2000\n= Rs.22781.25"
+        },
+        {
+            "id": 36,
+            "answerIndex": 1,
+            "answers": [
+                "Rs.12000",
+                "Rs.13000",
+                "Rs.14000",
+                "Rs.15000"
+            ],
+            "question": "A manufacturer undertakes to supply 2000 pieces of a particular component at Rs.25 per piece. According to his estimates, even if 5% fail to pass the quality tests, then he will make a profit of 25%. However, as it turned out, 50% of the components were rejected. What is the loss to the manufacturer?",
+            "solution": "If 5% of the components fail,\nTotal selling price\n= 0.95*2000*25\n= Rs.47500\n\nHe will make a profit of 25%.\n\n47500 = 1.25*CP\n\nCP = Rs.38000\n\n50% of the components were rejected.\n\nSP = 0.5*2000*25\n     = 25000\n\nLoss = Rs.13000"
+        },
+        {
+            "id": 37,
+            "answerIndex": 0,
+            "answers": [
+                "23$ loss",
+                "23$ gain",
+                "54$ loss",
+                "54$ gain"
+            ],
+            "question": "John buys a cycle for 31 dollars and gives a cheque for 35 dollars. The shopkeeper exchanged the cheque with his neighbor and gave the change to John. After 2 days, it is known that cheque is bounced. Shop keeper paid the amount to his neighbour. The cost price of cycle is 19 dollars. What is the profit/loss for shop keeper?",
+            "solution": "Loss = Change given to John+Actual cost of the cycle\n        = 4+19 = 23$"
+        },
+        {
+            "id": 38,
+            "answerIndex": 1,
+            "answers": [
+                "20$",
+                "15$",
+                "10$",
+                "7.5$"
+            ],
+            "question": "A person buys a horse for 15 pounds, after one year he sells it for 20 pounds. After one year, again he buys the same horse at 30 pounds and sells it for 40 pounds. What is the profit for that person?",
+            "solution": "Profit\n= (20-15)+(40-30)\n= 15$"
+        },
+        {
+            "id": 39,
+            "answerIndex": 1,
+            "answers": [
+                "Rs.175",
+                "Rs.200",
+                "Rs.225",
+                "Rs.250"
+            ],
+            "question": "A machine is sold at a profit of 10%. Had it been sold for Rs 40 less, there would have been a loss of 10%. What was the cost price?",
+            "solution": "1.1x - 0.9x = 40\n\n0.2x = 40\n\nx = 200"
+        },
+        {
+            "id": 40,
+            "answerIndex": 0,
+            "answers": [
+                "5%",
+                "6%",
+                "7%",
+                "8%"
+            ],
+            "question": "Vivek and Sons are leading sellers of luxury goods like air conditioners, refrigerators, colour televisions, washing machines etc. They bought twenty branded refrigerators at Rs. 9600 each. They marked the selling price adding 25% over the purchase price. The company wanted to make 20% profit by the sale of these twenty refrigerators. A group of software programmers from Sugar Info Systems, Chennai approached them for buying refrigerators and in order to get new clientele they offered 10% discount on the selling price and sold 12 refrigerators. What is the percentage of profit they should add over the selling price already marked while selling the other 8 refrigerators in order to ensure that they make a profit of 20% over cost price in the sale of twenty refrigerators?",
+            "solution": "Marked price\n= 1.25*9600\n= 12000\n\nSP of the fridge with 10% discount\n= 0.9*12000\n= 10800\n\nProfit obtained for 12 fridges\n= 12*(10800-9600)\n= 14400\n\n20% profit for 20 fridges\n= 20*0.2*9600\n= 38400\n\nProfit for 8 fridges\n= 38400-14400\n= 24000\nProfit for a fridge\n= 3000\nSP = 12600\n\nThey should add Rs.600 to the marked price of 12000.\n\n600 = 5% of 12000"
+        }
+    ]
 }
