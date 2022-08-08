@@ -382,8 +382,8 @@
                 "Rs.70,000",
                 "Rs.120,000"
             ],
-            "question": "A cow and a horse are bought for Rs.2,00,000. The cow is sold at a profit of 20% and the horse is sold at a loss of 10%.The overall gain is Rs.4000. Find the cost price of the cow.",
-            "solution": "Total profit %\n= (4000/200000)*100\n= 2%\n\nBy the rule of alligation,\n\n20%-10%\n\n2%\n\n2-(-10)20-2\n12%18%\n\nCost price of the cow\n= [12/(18+12)]*200000\n= [2/5]*200000\n= Rs.80,000"
+            "question": "A cow and a horse are bought for Rs.200,000. The cow is sold at a profit of 20% and the horse is sold at a loss of 10%.The overall gain is Rs.4,000. Find the cost price of the cow.",
+            "solution": "Let x be the cost of the cow\nSo 200,000-x is the cost of the horse\n\n1.2x+0.9(200,000-x)=200,000+4,000\n0.3x=240,000\nx=80,000"
         },
         {
             "id": 33,
