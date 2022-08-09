@@ -154,7 +154,7 @@
                 "10% loss",
                 "No gain No loss"
             ],
-            "question": "A shopkeeper sells two phones for Rs.6000, one at a gain of 50% and the other at a loss of 25%. Find his overall gain or loss %.",
+            "question": "A shopkeeper sells two phones for Rs.6000 each, one at a gain of 50% and the other at a loss of 25%. Find his overall gain or loss %.",
             "solution": "C.P of the first phone \n= 6000/1.5 = Rs.4000\nC.P of the second phone \n= 6000/0.75 = Rs.8000\n\nTotal cost = Rs.12000 = Total S.P\n\nNeither gain nor loss"
         },
         {
