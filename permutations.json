@@ -1,869 +1,869 @@
 {
-  "formula": "FACTORIAL:\nLet n be a positive integer. Then factorial n is defined as\nn! = n(n-1)(n-2)....3.2.1\n\n(i)    0! = 1\n(ii)   1! = 1\n(iii)  2! = 2 \n\nPERMUTATIONS:\nThe different ways in which a set or a number of things can be ordered or arranged by taking some or all at a time.\n\nThe number of permutations of n things, taken r at a time, is \nnPr = n!/(n-r)!\nnP1 = n\nnPn = n!\n\nIf there are n objects of which \nx1 are of one kind; \nx2 are of another kind; \nx3 of third kind and so on and \nxr of rth kind, such that\nx1+x2+x3+...+xr = n\nthen, permutations of these n objects\n= n!/(x1!.x2!.x3!....xr!)\n\nCOMBINATIONS:\nThe different ways of selecting several objects out of a larger group. Unlike permutations, order does not matter here.\n\nThe number of all combinations of n things, taken r at a time is\nnCr = n!/[r!(n-r)!]\n\nnC1 = n\nnCn = 1\nnCr = nC(n-r)\nnCr = nPr/r!\n",
-  "problems": [
-    {
-      "id": 9,
-      "answerIndex": 1,
-      "answers": [
-        "768",
-        "1568",
-        "560",
-        "1548"
-      ],
-      "question": "From a group consisting of 8 boys and 5 girls, 6 persons are to be selected to form a team so that at least 3 boys are there in the team. In how many ways can this be done?",
-      "solution": "The team can consist of \n3 boys, 3 girls\n4 boys, 2 girls\n5 boys, 1 girl\n6 boys\n\nNo. of ways \n= (8C3*5C3)+ (8C4*5C2)+ (8C5*5C1)+ (8C6)\n= (56*10)+(70*10)+(56*5)+28\n= 1568"
-    },
-    {
-      "id": 8,
-      "answerIndex": 2,
-      "answers": [
-        "210",
-        "1050",
-        "25200",
-        "21400"
-      ],
-      "question": "Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?",
-      "solution": "No. of ways of selecting 3 consonants(out of 7) and 2 vowels(out of 4)\n= 7C3 * 4C2\n= 35*6\n= 210\n\nThere are 210 groups, each having 3 consonants and 2 vowels. Each group has 5 letters.\n\nNo. of ways of arranging those 5 letters\n= 5!\n= 120\n\nRequired no. of ways \n= 210*120\n= 25200\n\n"
-    },
-    {
-      "id": 7,
-      "answerIndex": 1,
-      "answers": [
-        "8!",
-        "1440",
-        "576",
-        "120"
-      ],
-      "question": "In how many ways can the word APTITUDE be arranged such that the vowels always come together?",
-      "solution": "The word APTITUDE has 8 letters. (4 vowels, 2 Ts, 1 P and 1 D)\n\nThe 4 vowels (A,E,I,U) should always come together. They can be considered as a single letter. So the word can be considered as a 5-letter word.\n\nNo. of ways of arranging the 4 vowels\n= 4! = 24\n\nNo. of ways of arranging a 5-letter word\n= 5!\n\nSince there are two Ts, no. of ways\n= 5!/2!\n= 60\n\nNo. of ways of arranging 'APTITUDE' so that vowels dont come together\n= 60*24\n= 1440"
-    },
-    {
-      "id": 6,
-      "answerIndex": 3,
-      "answers": [
-        "720",
-        "120",
-        "60",
-        "24"
-      ],
-      "question": "In how many ways can the letters of the word POCKET be arranged without changing the positions of the vowels?",
-      "solution": "Without changing the positions of the two vowels, only the four consonants P,C,K,T have to be rearranged.\n\nNo. of ways of arranging 4 letters\n= 4!\n= 24\n"
-    },
-    {
-      "id": 5,
-      "answerIndex": 0,
-      "answers": [
-        "1024",
-        "256",
-        "100",
-        "20"
-      ],
-      "question": "There are 10 yes or no questions. In how many ways can these be answered? ",
-      "solution": "No. of ways of answering 1 question\n= 2 (Y,N)\n\nNo. of ways of answering 2 question\n= 2*2 (YY,YN,NY,NN)\n\nNo. of ways of answering 10 questions = 2^10 = 1024"
-    },
-    {
-      "id": 4,
-      "answerIndex": 1,
-      "answers": [
-        "360",
-        "180",
-        "720",
-        "90"
-      ],
-      "question": "In how many different ways can the letters of the word LITTLE be arranged?",
-      "solution": "The word LITTLE has 6 letters. (2L, 1I, 2T, 1E)\n\nNo. of ways \n= 6!/(2!*1!*2!*1!)\n= 180"
-    },
-    {
-      "id": 3,
-      "answerIndex": 0,
-      "answers": [
-        "74",
-        "72",
-        "40",
-        "30"
-      ],
-      "question": "A box contains 2 blue balls, 3 green balls and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one red ball is to be drawn?",
-      "solution": "No. of ways of selecting atleast 1 red ball\n= Selecting 3 R \n+ Selecting 2 R and 1 B or G \n+ 1 R and 2 B or G\nWays of selecting 3 Red balls\n= 4C3\nWays of selecting 2R and 1 B or G\n= 4C2*5C1\nWays of selecting 1R and 2 B or G\n= 4C1*5C2\nRequired no. of ways\n= 4C3 + (4C2*5C1) + (4C1*5C2)\n= 4+30+40\n= 74"
-    },
-    {
-      "id": 12,
-      "answerIndex": 0,
-      "answers": [
-        "210",
-        "6!",
-        "10C6 * 6!",
-        "5040"
-      ],
-      "question": "A school has 10 volleyball players. A team of 5 members and a captain has to be selected out of these 10 players. In how many different ways can the selection be done?",
-      "solution": "Out of the 10 players, 6 have to be selected.\n\nRequired no. of ways\n= 10C6\n= 210"
-    },
-    {
-      "id": 11,
-      "answerIndex": 1,
-      "answers": [
-        "24 minutes",
-        "120 minutes",
-        "10 minutes",
-        "5 minutes"
-      ],
-      "question": "You have displayed your five favourite novels between the two ends of your book shelf. If you decide to arrange the five books in every possible combination and move just one book every minute, how long would it take you?",
-      "solution": "No. of ways of arranging 5 books\n= 5!\n= 120\nTime taken to arrange\n= 120 minutes"
-    },
-    {
-      "id": 10,
-      "answerIndex": 2,
-      "answers": [
-        "720",
-        "240",
-        "36",
-        "24"
-      ],
-      "question": "In how many different ways can the letters of the word DENIAL be arranged in such a way that the vowels occupy only the even positions?",
-      "solution": "The vowels E,I,A occupy only the even positions.\n\nNo. of ways of arranging the 3 vowels in the even positions\n= 3!\nNo of ways of arranging the consonants in the odd positions\n= 3!\nRequired no. of ways\n= 3!*3!\n= 36\n"
-    },
-    {
-      "id": 1,
-      "answerIndex": 2,
-      "answers": [
-        "36",
-        "25",
-        "60",
-        "120"
-      ],
-      "question": "How many 4-digit numbers can be formed from the digits 2, 4, 5, 6, 8 and 9 which are divisible by 5 and none of the digits is repeated?",
-      "solution": "For the number to be divisible by 5, the last digit should be 5.\n\nThe first 3 digits can be one among 2,4,6,8 and 9.\n\nNumber of ways of arranging the first 3 digits\n= 5P3\n= 5!/2!\n= 3*4*5\n= 60"
-    },
-    {
-      "id": 13,
-      "answerIndex": 0,
-      "answers": [
-        "1225",
-        "2450",
-        "100",
-        "500"
-      ],
-      "question": "In a party, there are 50 people. Each person shakes their hand with every other person. How many handshakes take place?",
-      "solution": "No. of handshakes\n= No. of ways of selecting 2 people out of 50\n= 50C2\n= 50*49/2\n= 1225"
-    },
-    {
-      "id": 14,
-      "answerIndex": 3,
-      "answers": [
-        "8",
-        "16",
-        "28",
-        "20"
-      ],
-      "question": "Find the number of diagonals in an octagon.",
-      "solution": "An octagon has 8 vertices.\nNo. of ways of connecting 2 vertices\n= 8C2\n= 8*7/2\n= 28\nSubtracting the 8 sides, \nthe no. of diagonals = 28-8 = 20"
-    },
-    {
-      "id": 15,
-      "answerIndex": 0,
-      "answers": [
-        "1152",
-        "576",
-        "24",
-        "2"
-      ],
-      "question": "There are 8 seats in a railway compartment - 4 seats facing the engine and the other 4 facing away from the engine. Of the 8 passengers, 3 prefer to face the engine, 3 prefer away and 2 have no preference. In how many ways can the passengers be arranged based on their preferences?",
-      "solution": "Of the 4 seats facing the engine,\n3 are occupied by the persons who prefer it.\nNo. of ways of arranging 3 persons in 4 seats = 4!\nOf the 4 seats facing away from the engine,\n3 are occupied by the persons who prefer it.\nNo. of ways of arranging 4 persons in 3 seats= 4!\nThe rest 2 are occupied by the persons who have no preferences. It can be done in 2 ways.\n\nRequired no. of ways\n= 2*4!*4!\n= 1152"
-    },
-    {
-      "id": 16,
-      "answerIndex": 1,
-      "answers": [
-        "650",
-        "715",
-        "165",
-        "117"
-      ],
-      "question": "Find the number of ways in which 11 players can be selected from 15 players if the captain and the vice-captain are always selected.",
-      "solution": "The captain and the vice-captain are always selected.\n\nThe rest of the 9 players are to be selected from the remaining 13.\n\nNo. of ways \n= 13C9\n= 13!/(9!*4!)\n= 715"
-    },
-    {
-      "id": 17,
-      "answerIndex": 2,
-      "answers": [
-        "10",
-        "25",
-        "31",
-        "32"
-      ],
-      "question": "In how many ways can 5 true or false questions be answered incorrectly?",
-      "solution": "5 true or false questions can be answered in 2^5=32 ways.\n\nOnly one of these is correct.\n\nNo. of ways of answering incorrectly\n= 31"
-    },
-    {
-      "id": 18,
-      "answerIndex": 3,
-      "answers": [
-        "160",
-        "140",
-        "168",
-        "70"
-      ],
-      "question": "8 friends go for a trip in 2 cars. Each car can accomodate a maximum of 4 persons. In how many ways can they travel?",
-      "solution": "Required no. of ways\n= No. of ways of selecting 4 persons for the first car (since the remaining four will have to travel in the second car)\n= 8C4\n= 8!/(4!.4!)\n= 70"
-    },
-    {
-      "id": 19,
-      "answerIndex": 2,
-      "answers": [
-        "252",
-        "500",
-        "462",
-        "450"
-      ],
-      "question": "A family of 10 people travel in two cars, of which one can seat 6 and the other only 5. In how many ways can they travel? ",
-      "solution": "They can travel in these ways.\n6 people in the first car, 4 people in the second car\n5 people in the two cars\nRequired no. of ways\n= 10C6+10C5\n= 210+252\n= 462"
-    },
-    {
-      "id": 2,
-      "answerIndex": 0,
-      "answers": [
-        "210",
-        "840",
-        "21",
-        "140"
-      ],
-      "question": "How many 3-letter words with or without meaning, can be formed out of the letters of the word SUCTION if repetition of letters is not allowed?",
-      "solution": "SUCTION contains 7 different letters.\n\nNo. of ways of arranging 3 letters out of 7 letters\n= 7P3\n= 7!/4!\n= 210"
-    },
-    {
-      "id": 20,
-      "answerIndex": 1,
-      "answers": [
-        "960",
-        "1800",
-        "720",
-        "2520"
-      ],
-      "question": "In how many ways can the letters of the word EDUCATE be rearranged so that the two Es do not appear together? ",
-      "solution": "No. of ways of arrangin the letters of EDUCATE (7 letters, 2 Es)\n= 7!/2!\n= 2520\n\nIf EE is taken as a single letter, there would be a total of 6 letters.\n\nNo. of ways in which E's appear together\n= 6!\n= 720\nRequired no. of ways\n= 2520-720\n= 1800"
-    },
-    {
-      "id": 21,
-      "answerIndex": 0,
-      "answers": [
-        "2520",
-        "1260",
-        "32",
-        "49"
-      ],
-      "question": "Find the number of possible ways in which 8 students can be divided into 4 equal teams to take part in an inter-school competition.",
-      "solution": "Each team consists of 2 students.\n\nFor the first team,\n2 students are selected from 8 in\n8C2 = 8*7/2 = 28 ways\nFor the second team,\n2 are selected from the remaining 6 in\n6C2 = 6*5/2 = 15 ways\nFor the third team,\n2 are selected from the remaining 4 in\n4C2 = 6 ways\nThe remaining 2 will belong to the fourth team.\n\nTotal no. of ways\n= 28*15*6\n= 2520"
-    },
-    {
-      "id": 22,
-      "answerIndex": 3,
-      "answers": [
-        "208",
-        "520",
-        "2197",
-        "28561"
-      ],
-      "question": "In how many ways can you select four cards, each of a different suit from a standard deck of cards?",
-      "solution": "No. of ways of selecting a spade from 13 spades\n= 13C1 = 13\nNo. of ways of selecting a clubs from 13 clubs\n= 13 \nNo. of ways of selecting a hearts from 13 hearts\n= 13 \nNo. of ways of selecting a diamond from 13 diamonds\n= 13 \nTotal no. of ways\n= 13*13*13*13\n= 28561\n"
-    },
-    {
-      "id": 23,
-      "answerIndex": 0,
-      "answers": [
-        "13",
-        "52",
-        "26",
-        "169"
-      ],
-      "question": "In how many ways can four cards of different suits having the same value be selected from a standard pack of cards?",
-      "solution": "A card can take 13 distinct values.\n\nSince all 4 cards have the same value, only the value has to be selected from the 13 values.\n\nNo. of ways of selecting 1 value from 13 values\n= 13C1\n= 13"
-    },
-    {
-      "id": 24,
-      "answerIndex": 1,
-      "answers": [
-        "105",
-        "2450",
-        "700",
-        "350"
-      ],
-      "question": "A committee consisting of 3 men and 4 women is to be formed from a group of 7 men and 8 women. In how many ways can this be done?",
-      "solution": "No. of ways of selecting 3 men from 7\n= 7C3\n= 35\nNo. of ways of selecting 4 men from 8\n= 8C4\n= 70\nTotal no. of ways\n= 35*70\n= 2450"
-    },
-    {
-      "id": 25,
-      "answerIndex": 1,
-      "answers": [
-        "28",
-        "35",
-        "21",
-        "14"
-      ],
-      "question": "Find the number of triangles in a heptagon.",
-      "solution": "There are 7 vertices in a heptagon.\n\nNo. of ways of selecting 3 vertices out of 7\n= 7C3\n= 35"
-    },
-    {
-      "id": 30,
-      "answerIndex": 1,
-      "answers": [
-        "30",
-        "33",
-        "40",
-        "24"
-      ],
-      "question": "How many different 4-letter words can be formed using the letters of the word CONSTITUTION such it starts with C and ends with N?",
-      "solution": "From the word CONSTITUTION, the 4-letter word\nC_ _ N has to be formed.\nLeaving out these two letters, we have\n2 O, 1 N, 1 S, 3 T, 2 I, 1 U\n\n3 unique letters - N S U\n3 duplicate letters - O T I\n\nIf our second letter is either of N,S or U\nwe have 5 choices for the third letter.\nEg: NS, NU, NO, NT, NI\n\nIf our second letter is either O, T or I\nwe have 6 choices for the third letter.\nEg: ON, OS, OU, OO, OT, OI\n\nNo. of ways\n= (3*5)+(3*6)\n= 33"
-    },
-    {
-      "id": 29,
-      "answerIndex": 3,
-      "answers": [
-        " n(n-1)(n-1)!",
-        "(n+1)!/(n(n-1))",
-        "(n+1)! - n!",
-        "(n + 1)! - 1!"
-      ],
-      "question": "What is the value of 1*1! + 2*2! + 3!*3! + ............ n*n! ?",
-      "solution": "1*1! = (2 -1)*1! = 2*1! - 1*1! = 2! - 1!\n \n2*2! = (3-1)*2! = 3*2! - 1*2! = 3! - 2!\n\nn*n! = (n+1 - 1)*n! = (n+1)(n!) - n! = (n+1)! - n!\n\n 1*1! + 2*2! +.......... n*n!\n= 2! - 1! + 3! - 2! +.....+(n+1)! - n!\n= (n+1)! - 1!"
-    },
-    {
-      "id": 28,
-      "answerIndex": 3,
-      "answers": [
-        "50",
-        "120",
-        "504",
-        "2520"
-      ],
-      "question": "How many 3 letter words, with or without meaning, can be formed using the letters of the English alphabet without repetition such that the word begins with a vowel and ends with a consonant?",
-      "solution": "The first letter is one of the 5 vowels.\nNo. of ways\n= 5\n\nThe last letter is one of the 21 consonants.\nNo. of ways\n= 21\n\nThe middle letter is selected from the remaining 24 letters.\nNo. of ways\n= 24\n\nTotal no. of ways\n= 5*21*24\n= 2520"
-    },
-    {
-      "id": 27,
-      "answerIndex": 3,
-      "answers": [
-        "300",
-        "1120",
-        "1050",
-        "2590"
-      ],
-      "question": "From a group of 6 men and 8 women, six persons are to be selected to form a committee such that there are at least 2 men and 2 women in the committee. In how many ways can it be done?",
-      "solution": "The commitee can consist of\n2 men, 4 women\n3 men, 3 women\n4 men, 2 women\nNo. of ways\n= (6C2*8C4)+(6C3*8C3)+(6C4*8C2)\n= (15*70)+(20*56)+(15*28)\n= 1050+1120+420\n= 2590"
-    },
-    {
-      "id": 26,
-      "answerIndex": 2,
-      "answers": [
-        "125",
-        "625",
-        "1024",
-        "20"
-      ],
-      "question": "In how many ways can 5 letters be posted in 4 postboxes if each postbox can contain any number of letters?",
-      "solution": "No. of ways of posting the first letter in any of the 4 postboxes\n= 4\nSimilarly, no. of ways of posting the second letter\n= 4\nNo. of ways of posting the 5 letters\n= 4*4*4*4*4\n= 1024"
-    },
-    {
-      "id": 31,
-      "answerIndex": 0,
-      "answers": [
-        "4",
-        "5",
-        "6",
-        "1"
-      ],
-      "question": "An organisation has 3 committees, only 2 persons are members of all 3 committees but every pair of committees has 3 members in common. What is the least possible number of members in any one committee?",
-      "solution": "Let A and B be the 2 persons who are members of all committees.\n\nEvery pair of committees has 3 members in common.\nLet A, B and C be common to I and II.\nLet A, B and D be common to II and III.\nLet A, B and E be common to III and I.\n\nI   - A, B, C, E\nII  - A, B, C, D\nIII - A, B, D, E\n\nHence, the least possible number of members is 4."
-    },
-    {
-      "id": 32,
-      "answerIndex": 2,
-      "answers": [
-        "13",
-        "36",
-        "72",
-        "18"
-      ],
-      "question": "A student can select one of 6 different math books, one of 3 different chemistry books & one of 4 different science books. In how many different ways can students select one book each of math, chemistry & science?",
-      "solution": "No. of different ways\n= 6C1*3C1*4C1\n= 6*3*4\n= 72"
-    },
-    {
-      "id": 33,
-      "answerIndex": 0,
-      "answers": [
-        "6!*7P4",
-        "6!*6P4",
-        "4!*7P6",
-        "4!*6P6"
-      ],
-      "question": "4 women and 6 men have to be seated in a row given that no two women can sit together. How many different arrangements are possible?",
-      "solution": "The 6 men can be seated in 6! ways.\n\nThe women have to be seated in between the men or at the corners.\n_ M _ M _ M _ M _ M _ M _\n\nThere are 7 possible seats for them.\n\nNo. of ways in which 4 women can occupy 7 seats\n= 7P4\n\nTotal no. of ways\n= 6!*7P4"
-    },
-    {
-      "id": 34,
-      "answerIndex": 1,
-      "answers": [
-        "1565",
-        "2256",
-        "2456",
-        "1243"
-      ],
-      "question": "In how many ways can a team of 11 members be selected from a team of 5 men and 11 women such that the team must comprise of not more than 3 men?",
-      "solution": "The team may comprise of 0, 1, 2 or 3 men.\n\nTotal no. of ways\n= (5C0*11C11) + (5C1*11C10) + (5C2*11C9) + (5C3*11C8)\n= 1+(5*11)+(10*55)+(10*165)\n= 1+55+550+1650\n= 2256"
-    },
-    {
-      "id": 35,
-      "answerIndex": 2,
-      "answers": [
-        "5",
-        "7",
-        "8",
-        "10"
-      ],
-      "question": "A owes B Rs.50. He agrees to pay B over a number of consecutive days on a Monday, paying a single note or Rs.10 or Rs.20 on each day.In how many different ways can A repay B?",
-      "solution": "Rs.10 on all days\n1 way\nRs.10 on 4 days, Rs.20 on 1 day\n4 ways\nRs.10 on 1 day, Rs.20 on 2 days\n3 ways\nTotal = 8 ways"
-    },
-    {
-      "id": 36,
-      "answerIndex": 2,
-      "answers": [
-        "9",
-        "10",
-        "11",
-        "12"
-      ],
-      "question": "Find the total number of combinations of 5 letters a,b,a,b,b taking some or all at a time.",
-      "solution": "a,b,a,b,b\n\n1 letter can be chosen in 2 ways\na , b\n2 letters can be chosen in 3 ways\naa, ab, bb\n3 letters can be chosen in 3 ways\naab, abb, bbb \n4 letters can be chosen in 2 ways\naabb, abbb\n5 letters can be chosen in 1 way\n\nTotal ways = 11"
-    },
-    {
-      "id": 37,
-      "answerIndex": 1,
-      "answers": [
-        "1001!",
-        "1001!-1",
-        "1001!+1",
-        "1001!+1001"
-      ],
-      "question": "1(1!)+2(2!)+3(3!)+....+1000(1000!) = ?",
-      "solution": "1(1!) = 1\n2!-1\n\n1(1!)+2(2!) = 1+4=5\n3!-1\n\n1(1!)+2(2!)+3(3!)=1+4+18=23\n4!-1\n\n1(1!)+2(2!)+3(3!)+....n(n!)\n(n+1)!-1\n\nThe answer is 1001!-1"
-    },
-    {
-      "id": 38,
-      "answerIndex": 2,
-      "answers": [
-        "4096",
-        "3854",
-        "3584",
-        "3468"
-      ],
-      "question": "The total number of 4 digit numbers which do not have the digits 3 or 6 is",
-      "solution": "The first digit cant be 0, 3 or 6.\nHence, it can take 7 other values.\nThe other three digits cant be 3 or 6.\nHence, they can take 8 other values.\n\nHence, total no. of such 4 digit numbers\n= 7*8*8*8\n= 3584"
-    },
-    {
-      "id": 39,
-      "answerIndex": 3,
-      "answers": [
-        "40",
-        "140",
-        "210",
-        "84"
-      ],
-      "question": "In how many ways can we distribute 10 pencils to 4 children so that each child gets atleast one pencil?",
-      "solution": "No. of ways of distributing r identical objects to n distinct objects so that each get atleast one\n= (n-1)C(r-1)\n= 9C3\n= 84"
-    },
-    {
-      "id": 40,
-      "answerIndex": 1,
-      "answers": [
-        "360",
-        "720",
-        "480",
-        "5040"
-      ],
-      "question": "In how many different ways can the letters of the word LEADING be arranged in such a way that the vowels always come together?",
-      "solution": "There are three vowels and four consonants. The vowels should always come together. So, they can be considered as a letter.\n\nNo. of ways of arranging 5 letters\n= 5!\nNo. of ways of arranging the vowels\n= 3!\nTotal no. of ways\n= 5!*3!\n= 720"
-    },
-    {
-      "id": 41,
-      "answerIndex": 0,
-      "answers": [
-        "8",
-        "10",
-        "12",
-        "16"
-      ],
-      "question": "Find the number of ways a batsman can score a century only in terms of both 4's & 6's.",
-      "solution": "Let the batsman score x fours and y sixes.\n\n4x+6y = 100\n2x+3y=50\n\nx = (50-3y)/2\n\n50-3y should be a multiple of 2.\nHence, y should be even.\n\ny=0, x=25\ny=2, x=22\ny=4, x=19\n.....\n.....\ny=16, x=1\n\nSince he should get both 4s and 6s, 0 sixes is not possible.\n\nNo. of ways = 8"
-    },
-    {
-      "id": 42,
-      "answerIndex": 0,
-      "answers": [
-        "GIRINWT",
-        "GINIRTW",
-        "GIRINTW",
-        "GINWTRI"
-      ],
-      "question": "The letters in the word WRITING are permuted in all possible ways and arranged in alphabetical order. Find the word at position 50 in the permuted alphabetical order.",
-      "solution": "Arranging the letters of WRITING in alphabetical order,\nG,I,I,N,R,T,W\n\nG _ _ _ _ _ _\nNo. of words starting with G\n= 6!/2!\n= 360 ways\nThe 50th word starts with G.\n\nGI _ _ _ _ _\nNo. of words starting with GI\n= 5! = 120\n\nG I I _ _ _ _\nNo. of words starting with GII\n= 4! = 24\n\nG I N _ _ _ _\nNo. of words starting with GIN\n= 4!\n= 24\n\n24+24 = 48\n\nThe 50th word will be the second word starting with GIR.\n\n49th word - GIRINTW\n50th word - GIRINWT"
-    },
-    {
-      "id": 43,
-      "answerIndex": 0,
-      "answers": [
-        "2",
-        "15",
-        "4",
-        "30"
-      ],
-      "question": "A white cube(with six faces) is painted red on two different faces.How many different ways can this be done (two paintings are considered same if on a suitable rotation of the cube one painting can be carried to the other)?",
-      "solution": "This can be done only in two ways.\n\n1. Painting two opposite faces\n2. Painting two adjacent faces"
-    },
-    {
-      "id": 44,
-      "answerIndex": 0,
-      "answers": [
-        "3003",
-        "10^6",
-        "3000",
-        "6^10"
-      ],
-      "question": "A manufacturer of chocolates makes 6 different flavors of chocolates. The chocolates are sold in boxes of 10. How many \"different\" boxes of chocolates can be made?",
-      "solution": "If n similar articles are to be distributed to r persons, x1+x2+x3......xr=n each person is eligible to take any number of articles then the total ways are\n(n+r-1) C r-1\n\nHere, n=10 and r=6\n\n15C5 = 15*14*13*12*11/(1*2*3*4*5)\n          = 3003"
-    },
-    {
-      "id": 45,
-      "answerIndex": 1,
-      "answers": [
-        "16",
-        "60",
-        "45",
-        "40"
-      ],
-      "question": "How many different 9 digit numbers can be formed from the number 223355888 by re-arranging its digits so that the odd digits occupy the even positions?",
-      "solution": "There are 4 even places and they are occupied by the 4 odd digits (3,3,5,5)\n\nNo. of ways\n= 4!/(2!*2!)\n= 6\n\nThe 5 even numbers should occupy the 5 odd places. (2,2,8,8,8)\n\nNo. of ways\n= 5!/(2!*3!)\n= 10\n\nTotal no. of ways\n= 10*6 = 60"
-    },
-    {
-      "id": 46,
-      "answerIndex": 3,
-      "answers": [
-        "AOTDSP",
-        "AOTPDS",
-        "AOTDPS",
-        "AOSTPD"
-      ],
-      "question": "The letters in the word ADOPTS are permuted in all possible ways and arranged in alphabetical order then find the word at position 42 in the permuted alphabetical order?",
-      "solution": "Arranging the letters of ADOPTS in alphabetical order,\nA,D,O,P,S,T\n\nA  _ _ _ _ _\nNo. of words starting with A\n= 5!\n= 120 ways\nThe 42nd word starts with A.\n\nAD _ _ _ _\nNo. of words starting with AD\n= 4! = 24\n\nA O _ _ _ _\nNo. of words starting with AO\n= 4! = 24\n\nThe 42nd word starts with AO.\n\nNo. of words starting with AOD\n= 6\nNo. of words starting with AOP\n= 6\nNo. of words starting with AOS\n= 6\n24+6+6+6=42\n\nThe 42nd word is the last word starting with AOS\n\nAOSTPD"
-    },
-    {
-      "id": 54,
-      "answerIndex": 2,
-      "answers": [
-        "10",
-        "11",
-        "12",
-        "13"
-      ],
-      "question": "36 people {a1, a2... a36} meet and shake hands in a circular fashion. In other words, there are totally 36 handshakes involving the pairs, {a1, a2}, {a2, a3}, ..., {a35, a36}, {a36, a1}. Then the size of the smallest set of people such that the rest have shaken hands with at least one person in the set is",
-      "solution": "{a1, a2}, {a2, a3},{a3, a4}, {a4, a5},{a5, a6}, {a6, a7} ..., {a35, a36}, {a36, a1} \n\nRemove a3, a6, a9, ......, a36 (12 people).\n\nThe rest will have shaken hands with atleast one person in the set."
-    },
-    {
-      "id": 53,
-      "answerIndex": 2,
-      "answers": [
-        "50",
-        "8",
-        "60",
-        "42"
-      ],
-      "question": "A lady has fine gloves and hats in her closet- 18 blue, 33 red, and 25 yellow. The lights are out and it is totally dark. In spite of the darkness, she can make out the difference between a hat and a glove. She takes out an item out of the closet only if she is sure that it is a glove. How many gloves must she take out to make sure she has a pair of each color?",
-      "solution": "She has to take 60 gloves to ensure she has a pair of each color.\n\nFirst 33 may be red.\n\nThe next 25 may be yellow.\n\nThe next 2 may be blue."
-    },
-    {
-      "id": 52,
-      "answerIndex": 2,
-      "answers": [
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "question": "If x is 1, 2, or 3 and y is either 2 or 4, then the product xy can have how many different possible values?",
-      "solution": "Possible values of xy\n= 2,4,8,6,12"
-    },
-    {
-      "id": 51,
-      "answerIndex": 1,
-      "answers": [
-        "3",
-        "6",
-        "12",
-        "21"
-      ],
-      "question": "There are 20 balls of green color, 20 of red color, 20 of blue color, 20 of black and 20 of yellow. Howmany balls do you have to pick to guarantee 2 pairs of same color?",
-      "solution": "The first 5 balls may be one of each color. The 6th ball will definitely form a pair with any one of the five."
-    },
-    {
-      "id": 50,
-      "answerIndex": 0,
-      "answers": [
-        "24",
-        "30",
-        "60",
-        "96"
-      ],
-      "question": "A gardener wishes to plant 5 bushes in a straight row. Each bush has flowers of a different solid color (white, yellow, pink, red and purple). How many ways can the bushes be arranged so that the middle bush is the one with red flowers?",
-      "solution": "The middle bush is red. The other 4 bushes can be arrranged in 4! = 24 ways."
-    },
-    {
-      "id": 49,
-      "answerIndex": 2,
-      "answers": [
-        "2",
-        "3",
-        "4",
-        "8"
-      ],
-      "question": "Sixty-eight people are sitting in 20 cars and each car contains at most 4 people. What is the maximum possible number of cars that could contain exactly 1 of the 68 people?",
-      "solution": "16 cars contain 4 people each and 4 cars contain 1 person each."
-    },
-    {
-      "id": 48,
-      "answerIndex": 1,
-      "answers": [
-        "24",
-        "60",
-        "90",
-        "120"
-      ],
-      "question": "Meg and Bob are among the 5 participants in a cycling race. If each participant finishes the race and no two participants finish at the same time, in how many different possible orders can the participants finish the race so that Meg finishes ahead of Bob?",
-      "solution": "Case (i)\nMeg finishes first. The other 4 can take any of the other places.\nNo. of ways = 4! = 24\n\nCase (ii)\nMeg finishes second. Bob has to be either third, fourth or fifth. The other 3 can take any of the 3 other places.\nNo. of ways = 3*3! = 18\n\nCase (iii)\nMeg finishes 3rd. Bob has to be 4th or 5th. Others can take any of the remaining 3 places.\nNo. of ways = 2*3! = 12\n\nCase (iv)\nMeg finishes 4th. Bob finishes 5th. Others can take the 3 other places.\nNo. of ways = 3! = 6\n\nTotal no. of ways\n= 24+18+12+6\n= 60"
-    },
-    {
-      "id": 47,
-      "answerIndex": 3,
-      "answers": [
-        "3",
-        "4",
-        "6",
-        "9"
-      ],
-      "question": "Bill purchases an item and receives no change. Before the purchase, he had only a five dollar bill, two ten-dollar bills, and a twenty-dollar bill. How many distinct possibilities are there for the total amount of his purchase?",
-      "solution": "Possible values\n5, 10, 15, 20, 25, 30, 35, 40, 45"
-    },
-    {
-      "id": 55,
-      "answerIndex": 1,
-      "answers": [
-        "2",
-        "3",
-        "48",
-        "25"
-      ],
-      "question": "It is dark in my bedroom and I want to get two socks of the same color from my drawer, which contains 24 red and 24 blue socks. How many socks do I have to take from the drawer to get at least two socks of the same color?",
-      "solution": "The first two socks may be one each of red and blue. The third will definitely make a pair with either of the two."
-    },
-    {
-      "id": 56,
-      "answerIndex": 0,
-      "answers": [
-        "23",
-        "24",
-        "46",
-        "253"
-      ],
-      "question": "23 people are there, they are shaking hands together, how many hand shakes are possible, if they are in pairs of cyclic sequence?",
-      "solution": "If there are three persons and they shake hands in cyclic manner,\n(a,b), (b,c), (c,a)\n\nSimilarly, if there are 23 persons,\n23 handshakes are possible."
-    },
-    {
-      "id": 57,
-      "answerIndex": 3,
-      "answers": [
-        "1225",
-        "900",
-        "600",
-        "300"
-      ],
-      "question": "The thanksgiving banquet at No.2, Richter Street, had 49 guests which consisted of 6 statesmen, 26 relatives and their families. At the end of a banquet 25 people shake hands with other, some of which were between the statesmen alone, some between relatives alone and some between the statesmen and relatives. How many handshakes will there be in total?",
-      "solution": "No. of handshakes\n= 25C2\n= 300"
-    },
-    {
-      "id": 58,
-      "answerIndex": 1,
-      "answers": [
-        "120",
-        "119",
-        "100",
-        "90"
-      ],
-      "question": "3 kinds of pizzas were available in a Pizza Shop. But, now they have introduced 7 new types. A person wants to buy three different types of pizzas with at least 1 in the new type. In how many ways can he select?",
-      "solution": "He should not select\n3 from old\n\nNo. of ways of selecting 3 from old\n= 1\nNo. of ways\n= 10C3 - 1\n= 120-1\n= 119"
-    },
-    {
-      "id": 59,
-      "answerIndex": 0,
-      "answers": [
-        "6",
-        "7",
-        "21",
-        "28"
-      ],
-      "question": "There are 7 friends (A1, A2, A3....A7). If A1 has to shake hands with all without repetition, how many handshakes are possible?",
-      "solution": "A1 will shake hands with A2,A3,A4,A5,A6,A7.\n\n6 handshakes."
-    },
-    {
-      "id": 60,
-      "answerIndex": 1,
-      "answers": [
-        "3295",
-        "2996",
-        "2955",
-        "3145"
-      ],
-      "question": "SSCT Consultancy Services wanted to select 78 candidates from the five engineering Colleges in Andhra Pradesh, Tamil Nadu, Kerala and Karnataka. They wanted only those candidates who have cleared all papers in semester exams to appear for their recruitment test. The test paper set by them consisted of two parts- Part I and Part II. Each part consisted of 7 questions and the candidates are supposed to answer only six questions. Candidates were given the freedom to choose any 6 questions across Part I and Part II but with a simple condition that at least one question should be answered from part I. In how many ways a candidate can attempt this paper assuming he answers six questions?",
-      "solution": "The candidates can choose\n1 from A, 5 from B\n2 from A, 4 from B\n3 from A, 3 from B\n4 from A, 2 from B\n5 from A, 1 from B\n6 from A, 0 from B\n\nNo. of ways\n= (7C1*7C5)+(7C2*7C4)+(7C3*7C3)+(7C4*7C2)+(7C5*7C1)+(7C6)\n= 147+735+1225+735+147+7\n= 2996"
-    },
-    {
-      "id": 61,
-      "answerIndex": 3,
-      "answers": [
-        "365C7",
-        "7",
-        "4",
-        "2"
-      ],
-      "question": "In how many ways can a leap year have 53 Sundays?",
-      "solution": "In a leap year there are 366 days. (52 weeks + 2 extra days)\n\nTo have 53 Sundays,\none of the two extra days must be a Sunday. \n\nThis can occur in only 2 ways.\n(Saturday and Sunday) or (Sunday and Monday)\n\nNumber of ways =2"
-    },
-    {
-      "id": 62,
-      "answerIndex": 1,
-      "answers": [
-        "34360",
-        "17280",
-        "16640",
-        "56660"
-      ],
-      "question": "There are 4 books on fairy tales, 5 novels and 3 plays. In how many ways can you arrange these so that books on fairy tales are together, novels are together and plays are together and in the order, books on fairy tales, novels and plays?",
-      "solution": "The books on fairy tales can be arranged in 4! = 24 ways\nThe books on novels can be arranged in 5! = 120 ways\nThe books on plays can be arranged in 3! = 6 ways\n\nThey have to be arranged in the order\nFairy Tales, Novels, Play\n\nTotal Number of ways\n= 24*120*6\n= 17280\n"
-    },
-    {
-      "id": 63,
-      "answerIndex": 2,
-      "answers": [
-        "10",
-        "12",
-        "15",
-        "20"
-      ],
-      "question": "A teacher of 6 students takes 2 of his students at a time to a zoo as often as he can, without taking the same pair of children together more than once. How many times does the teacher go to the zoo?",
-      "solution": "Two students can be selected from 6 in 6C2 ways.\n\n6C2 = 6*5/2 = 15\n\nTherefore, the teacher goes 15 times to the zoo."
-    },
-    {
-      "id": 64,
-      "answerIndex": 0,
-      "answers": [
-        "26³×21",
-        "26×25×24×21",
-        "25×24×23×21",
-        "None of these"
-      ],
-      "question": "How many four letter distinct initials can be formed using the alphabets of English language such that the last of the four letters is always a consonant?",
-      "solution": "The last of the four letters should be a consonant. Therefore, there are 21 options for the last letter.\n\nThe first three letters can be either consonants or vowels. So, each letter has 26 options. \n\nWe are asked to find out the number of distinct initials and not initials where the letters are distinct. Hence, the letters can be repeated in an initial.\n\nNumber of distinct initials\n= 26*26*26*21\n= 26³*21"
-    },
-    {
-      "id": 65,
-      "answerIndex": 1,
-      "answers": [
-        "105",
-        "168",
-        "189",
-        "120"
-      ],
-      "question": "A box contains 10 balls out of which 3 are red and the rest are blue. In how many ways can a random sample of 6 balls be drawn from the bag so that at the most 2 red balls are included in the sample and no sample has all the 6 balls of the same colour?",
-      "solution": "There are 3 red balls and 7 blue balls.\n\nGiven the conditions, 6 balls can be selected in the following ways.\n\n(i) One red ball and 5 blue balls\n(ii) Two red balls and 4 blue balls\n\nTotal number of ways\n= 3C1*7C5 + 3C2*7C4\n= 63 + 105\n= 168"
-    },
-    {
-      "id": 66,
-      "answerIndex": 3,
-      "answers": [
-        "5P6",
-        "5!",
-        "5",
-        "None of the above"
-      ],
-      "question": "There are 6 equally spaced points A,B,C,D,E and F marked on a circle with radius R. How many convex pentagons of distinctly different areas can be drawn using these points as vertices?",
-      "solution": "All the points are equally spaced. Hence, the area of all the convex pentagons will be the same."
-    },
-    {
-      "id": 67,
-      "answerIndex": 2,
-      "answers": [
-        "252",
-        "432",
-        "462",
-        "504"
-      ],
-      "question": "A man is positioned at the origin of the coordinate system. The man can take steps of unit measure in the direction North, East, West or South. Find the number of ways in which he can reach the point (5,6), covering the shortest possible distance.",
-      "solution": "In order to reach (5,6) covering the shortest distance at the same time, the man has to make 5 horizontal and 6 vertical steps.\n\nThe number of ways in which these steps can be taken\n= 11! / (5!*6!)\n= 462"
-    },
-    {
-      "id": 68,
-      "answerIndex": 1,
-      "answers": [
-        "60000",
-        "65000",
-        "70000",
-        "75000"
-      ],
-      "question": "Find thetotalnumberofdistinctvehiclenumbersthatcanbeformedusingtwo letters followed by two numbers. Letters need to be distinct.",
-      "solution": "Choosing two Letters:\nOut of 26 alphabets, two distinct letters can be chosen in 26P2 ways.\n \nChoosing two Numbers:\nThere are 10 ways (any number from 0 to 9) to choose the first digit and similarly, another 10 ways to choose the second digit.\nHence the two numbers can be chosen in 10*10 = 100 ways. (00 to 99)\n\nTotal Number of ways\n= 26P2*100\n= 65000"
-    },
-    {
-      "id": 69,
-      "answerIndex": 1,
-      "answers": [
-        "10C3",
-        "10P3",
-        "240",
-        "360"
-      ],
-      "question": "In how many ways a President, VP and Waterboy can be selected from a group of 10 people?",
-      "solution": "We are selecting three different posts, so order matters.\n\nNumber of ways of selecting a President, VP and Waterboy from a group of 10 people\n= 10P3"
-    },
-    {
-      "id": 70,
-      "answerIndex": 1,
-      "answers": [
-        "5!",
-        "4!",
-        "6!–2!",
-        "6!/2!"
-      ],
-      "question": "How many words can be formed by re-arranging the letters of the word ASCENT such that A and T occupy the first and last position respectively?",
-      "solution": "A and T should occupy the first and last position.\n\nA _ _ _ _ T\n\nThe remaining 4 positions can be filled in\n4! ways by the remaining letters (S,C,E,N,T). \n\n4! words can be formed."
-    },
-    {
-      "id": 71,
-      "answerIndex": 1,
-      "answers": [
-        "6! × 1440",
-        "18! × 1440",
-        "18! ×2! × 1440",
-        "None of these"
-      ],
-      "question": "A class photograph has to be taken. The front row consists of 6 girls who are sitting. 20 boys are standing behind. The two corner positions are reserved for the 2 tallest boys. In how many ways can the students be arranged?",
-      "solution": "The two tallest boys can be arranged in 2! ways, rest 18 can be arranged in 18! ways.\n\nGirls can be arranged in 6! ways.\n\nTotal number of ways in which all the students can be arranged\n= 2!* 18! * 6!\n= 18! * 2 * 720 \n= 18! * 1440"
-    },
-    {
-      "id": 72,
-      "answerIndex": 1,
-      "answers": [
-        "120",
-        "720",
-        "4320",
-        "2160"
-      ],
-      "question": "In how many different ways can the letters of the word OPTICAL be arranged so that the vowels always come together?",
-      "solution": "The word OPTICAL contains 7 different letters.\n\nThe three vowels O,I,A should come together. Hence, they can be considered as a single letter.\n\nWe have to arrange the letters PTCL (OIA).\n\n5 letters can be arranged in 5! = 120 ways.\n\nThe vowels (OIA) can be arranged among themselves in 3! = 6 ways.\n\nRequired number of ways\n= (120 x 6)\n= 720"
-    }
-  ]
+    "formula": "FACTORIAL:\nLet n be a positive integer. Then factorial n is defined as\nn! = n(n-1)(n-2)....3.2.1\n\n(i)    0! = 1\n(ii)   1! = 1\n(iii)  2! = 2 \n\nPERMUTATIONS:\nThe different ways in which a set or a number of things can be ordered or arranged by taking some or all at a time.\n\nThe number of permutations of n things, taken r at a time, is \nnPr = n!/(n-r)!\nnP1 = n\nnPn = n!\n\nIf there are n objects of which \nx1 are of one kind; \nx2 are of another kind; \nx3 of third kind and so on and \nxr of rth kind, such that\nx1+x2+x3+...+xr = n\nthen, permutations of these n objects\n= n!/(x1!.x2!.x3!....xr!)\n\nCOMBINATIONS:\nThe different ways of selecting several objects out of a larger group. Unlike permutations, order does not matter here.\n\nThe number of all combinations of n things, taken r at a time is\nnCr = n!/[r!(n-r)!]\n\nnC1 = n\nnCn = 1\nnCr = nC(n-r)\nnCr = nPr/r!\n",
+    "problems": [
+        {
+            "id": 1,
+            "answerIndex": 2,
+            "answers": [
+                "36",
+                "25",
+                "60",
+                "120"
+            ],
+            "question": "How many 4-digit numbers can be formed from the digits 2, 4, 5, 6, 8 and 9 which are divisible by 5 and none of the digits is repeated?",
+            "solution": "For the number to be divisible by 5, the last digit should be 5.\n\nThe first 3 digits can be one among 2,4,6,8 and 9.\n\nNumber of ways of arranging the first 3 digits\n= 5P3\n= 5!/2!\n= 3*4*5\n= 60"
+        },
+        {
+            "id": 2,
+            "answerIndex": 0,
+            "answers": [
+                "210",
+                "840",
+                "21",
+                "140"
+            ],
+            "question": "How many 3-letter words with or without meaning, can be formed out of the letters of the word SUCTION if repetition of letters is not allowed?",
+            "solution": "SUCTION contains 7 different letters.\n\nNo. of ways of arranging 3 letters out of 7 letters\n= 7P3\n= 7!/4!\n= 210"
+        },
+        {
+            "id": 3,
+            "answerIndex": 0,
+            "answers": [
+                "74",
+                "72",
+                "40",
+                "30"
+            ],
+            "question": "A box contains 2 blue balls, 3 green balls and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one red ball is to be drawn?",
+            "solution": "No. of ways of selecting atleast 1 red ball\n= Selecting 3 R \n+ Selecting 2 R and 1 B or G \n+ 1 R and 2 B or G\nWays of selecting 3 Red balls\n= 4C3\nWays of selecting 2R and 1 B or G\n= 4C2*5C1\nWays of selecting 1R and 2 B or G\n= 4C1*5C2\nRequired no. of ways\n= 4C3 + (4C2*5C1) + (4C1*5C2)\n= 4+30+40\n= 74"
+        },
+        {
+            "id": 4,
+            "answerIndex": 1,
+            "answers": [
+                "360",
+                "180",
+                "720",
+                "90"
+            ],
+            "question": "In how many different ways can the letters of the word LITTLE be arranged?",
+            "solution": "The word LITTLE has 6 letters. (2L, 1I, 2T, 1E)\n\nNo. of ways \n= 6!/(2!*1!*2!*1!)\n= 180"
+        },
+        {
+            "id": 5,
+            "answerIndex": 0,
+            "answers": [
+                "1024",
+                "256",
+                "100",
+                "20"
+            ],
+            "question": "There are 10 yes or no questions. In how many ways can these be answered? ",
+            "solution": "No. of ways of answering 1 question\n= 2 (Y,N)\n\nNo. of ways of answering 2 question\n= 2*2 (YY,YN,NY,NN)\n\nNo. of ways of answering 10 questions = 2^10 = 1024"
+        },
+        {
+            "id": 6,
+            "answerIndex": 3,
+            "answers": [
+                "720",
+                "120",
+                "60",
+                "24"
+            ],
+            "question": "In how many ways can the letters of the word POCKET be arranged without changing the positions of the vowels?",
+            "solution": "Without changing the positions of the two vowels, only the four consonants P,C,K,T have to be rearranged.\n\nNo. of ways of arranging 4 letters\n= 4!\n= 24\n"
+        },
+        {
+            "id": 7,
+            "answerIndex": 1,
+            "answers": [
+                "8!",
+                "1440",
+                "576",
+                "120"
+            ],
+            "question": "In how many ways can the word APTITUDE be arranged such that the vowels always come together?",
+            "solution": "The word APTITUDE has 8 letters. (4 vowels, 2 Ts, 1 P and 1 D)\n\nThe 4 vowels (A,E,I,U) should always come together. They can be considered as a single letter. So the word can be considered as a 5-letter word.\n\nNo. of ways of arranging the 4 vowels\n= 4! = 24\n\nNo. of ways of arranging a 5-letter word\n= 5!\n\nSince there are two Ts, no. of ways\n= 5!/2!\n= 60\n\nNo. of ways of arranging 'APTITUDE' so that vowels dont come together\n= 60*24\n= 1440"
+        },
+        {
+            "id": 8,
+            "answerIndex": 2,
+            "answers": [
+                "210",
+                "1050",
+                "25200",
+                "21400"
+            ],
+            "question": "Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?",
+            "solution": "No. of ways of selecting 3 consonants(out of 7) and 2 vowels(out of 4)\n= 7C3 * 4C2\n= 35*6\n= 210\n\nThere are 210 groups, each having 3 consonants and 2 vowels. Each group has 5 letters.\n\nNo. of ways of arranging those 5 letters\n= 5!\n= 120\n\nRequired no. of ways \n= 210*120\n= 25200\n\n"
+        },
+        {
+            "id": 9,
+            "answerIndex": 1,
+            "answers": [
+                "768",
+                "1568",
+                "560",
+                "1548"
+            ],
+            "question": "From a group consisting of 8 boys and 5 girls, 6 persons are to be selected to form a team so that at least 3 boys are there in the team. In how many ways can this be done?",
+            "solution": "The team can consist of \n3 boys, 3 girls\n4 boys, 2 girls\n5 boys, 1 girl\n6 boys\n\nNo. of ways \n= (8C3*5C3)+ (8C4*5C2)+ (8C5*5C1)+ (8C6)\n= (56*10)+(70*10)+(56*5)+28\n= 1568"
+        },
+        {
+            "id": 10,
+            "answerIndex": 2,
+            "answers": [
+                "720",
+                "240",
+                "36",
+                "24"
+            ],
+            "question": "In how many different ways can the letters of the word DENIAL be arranged in such a way that the vowels occupy only the even positions?",
+            "solution": "The vowels E,I,A occupy only the even positions.\n\nNo. of ways of arranging the 3 vowels in the even positions\n= 3!\nNo of ways of arranging the consonants in the odd positions\n= 3!\nRequired no. of ways\n= 3!*3!\n= 36\n"
+        },
+        {
+            "id": 11,
+            "answerIndex": 1,
+            "answers": [
+                "24 minutes",
+                "120 minutes",
+                "10 minutes",
+                "5 minutes"
+            ],
+            "question": "You have displayed your five favourite novels between the two ends of your book shelf. If you decide to arrange the five books in every possible combination and move just one book every minute, how long would it take you?",
+            "solution": "No. of ways of arranging 5 books\n= 5!\n= 120\nTime taken to arrange\n= 120 minutes"
+        },
+        {
+            "id": 12,
+            "answerIndex": 0,
+            "answers": [
+                "210",
+                "6!",
+                "10C6 * 6!",
+                "5040"
+            ],
+            "question": "A school has 10 volleyball players. A team of 5 members and a captain has to be selected out of these 10 players. In how many different ways can the selection be done?",
+            "solution": "Out of the 10 players, 6 have to be selected.\n\nRequired no. of ways\n= 10C6\n= 210"
+        },
+        {
+            "id": 13,
+            "answerIndex": 0,
+            "answers": [
+                "1225",
+                "2450",
+                "100",
+                "500"
+            ],
+            "question": "In a party, there are 50 people. Each person shakes their hand with every other person. How many handshakes take place?",
+            "solution": "No. of handshakes\n= No. of ways of selecting 2 people out of 50\n= 50C2\n= 50*49/2\n= 1225"
+        },
+        {
+            "id": 14,
+            "answerIndex": 3,
+            "answers": [
+                "8",
+                "16",
+                "28",
+                "20"
+            ],
+            "question": "Find the number of diagonals in an octagon.",
+            "solution": "An octagon has 8 vertices.\nNo. of ways of connecting 2 vertices\n= 8C2\n= 8*7/2\n= 28\nSubtracting the 8 sides, \nthe no. of diagonals = 28-8 = 20"
+        },
+        {
+            "id": 15,
+            "answerIndex": 0,
+            "answers": [
+                "1152",
+                "576",
+                "24",
+                "2"
+            ],
+            "question": "There are 8 seats in a railway compartment - 4 seats facing the engine and the other 4 facing away from the engine. Of the 8 passengers, 3 prefer to face the engine, 3 prefer away and 2 have no preference. In how many ways can the passengers be arranged based on their preferences?",
+            "solution": "Of the 4 seats facing the engine,\n3 are occupied by the persons who prefer it.\nNo. of ways of arranging 3 persons in 4 seats = 4!\nOf the 4 seats facing away from the engine,\n3 are occupied by the persons who prefer it.\nNo. of ways of arranging 4 persons in 3 seats= 4!\nThe rest 2 are occupied by the persons who have no preferences. It can be done in 2 ways.\n\nRequired no. of ways\n= 2*4!*4!\n= 1152"
+        },
+        {
+            "id": 16,
+            "answerIndex": 1,
+            "answers": [
+                "650",
+                "715",
+                "165",
+                "117"
+            ],
+            "question": "Find the number of ways in which 11 players can be selected from 15 players if the captain and the vice-captain are always selected.",
+            "solution": "The captain and the vice-captain are always selected.\n\nThe rest of the 9 players are to be selected from the remaining 13.\n\nNo. of ways \n= 13C9\n= 13!/(9!*4!)\n= 715"
+        },
+        {
+            "id": 17,
+            "answerIndex": 2,
+            "answers": [
+                "10",
+                "25",
+                "31",
+                "32"
+            ],
+            "question": "In how many ways can 5 true or false questions be answered incorrectly?",
+            "solution": "5 true or false questions can be answered in 2^5=32 ways.\n\nOnly one of these is correct.\n\nNo. of ways of answering incorrectly\n= 31"
+        },
+        {
+            "id": 18,
+            "answerIndex": 3,
+            "answers": [
+                "160",
+                "140",
+                "168",
+                "70"
+            ],
+            "question": "8 friends go for a trip in 2 cars. Each car can accomodate a maximum of 4 persons. In how many ways can they travel?",
+            "solution": "Required no. of ways\n= No. of ways of selecting 4 persons for the first car (since the remaining four will have to travel in the second car)\n= 8C4\n= 8!/(4!.4!)\n= 70"
+        },
+        {
+            "id": 19,
+            "answerIndex": 2,
+            "answers": [
+                "252",
+                "500",
+                "462",
+                "450"
+            ],
+            "question": "A family of 10 people travel in two cars, of which one can seat 6 and the other only 5. In how many ways can they travel? ",
+            "solution": "They can travel in these ways.\n6 people in the first car, 4 people in the second car\n5 people in the two cars\nRequired no. of ways\n= 10C6+10C5\n= 210+252\n= 462"
+        },
+        {
+            "id": 20,
+            "answerIndex": 1,
+            "answers": [
+                "960",
+                "1800",
+                "720",
+                "2520"
+            ],
+            "question": "In how many ways can the letters of the word EDUCATE be rearranged so that the two Es do not appear together? ",
+            "solution": "No. of ways of arrangin the letters of EDUCATE (7 letters, 2 Es)\n= 7!/2!\n= 2520\n\nIf EE is taken as a single letter, there would be a total of 6 letters.\n\nNo. of ways in which E's appear together\n= 6!\n= 720\nRequired no. of ways\n= 2520-720\n= 1800"
+        },
+        {
+            "id": 21,
+            "answerIndex": 0,
+            "answers": [
+                "2520",
+                "1260",
+                "32",
+                "49"
+            ],
+            "question": "Find the number of possible ways in which 8 students can be divided into 4 equal teams to take part in an inter-school competition.",
+            "solution": "Each team consists of 2 students.\n\nFor the first team,\n2 students are selected from 8 in\n8C2 = 8*7/2 = 28 ways\nFor the second team,\n2 are selected from the remaining 6 in\n6C2 = 6*5/2 = 15 ways\nFor the third team,\n2 are selected from the remaining 4 in\n4C2 = 6 ways\nThe remaining 2 will belong to the fourth team.\n\nTotal no. of ways\n= 28*15*6\n= 2520"
+        },
+        {
+            "id": 22,
+            "answerIndex": 3,
+            "answers": [
+                "208",
+                "520",
+                "2197",
+                "28561"
+            ],
+            "question": "In how many ways can you select four cards, each of a different suit from a standard deck of cards?",
+            "solution": "No. of ways of selecting a spade from 13 spades\n= 13C1 = 13\nNo. of ways of selecting a clubs from 13 clubs\n= 13 \nNo. of ways of selecting a hearts from 13 hearts\n= 13 \nNo. of ways of selecting a diamond from 13 diamonds\n= 13 \nTotal no. of ways\n= 13*13*13*13\n= 28561\n"
+        },
+        {
+            "id": 23,
+            "answerIndex": 0,
+            "answers": [
+                "13",
+                "52",
+                "26",
+                "169"
+            ],
+            "question": "In how many ways can four cards of different suits having the same value be selected from a standard pack of cards?",
+            "solution": "A card can take 13 distinct values.\n\nSince all 4 cards have the same value, only the value has to be selected from the 13 values.\n\nNo. of ways of selecting 1 value from 13 values\n= 13C1\n= 13"
+        },
+        {
+            "id": 24,
+            "answerIndex": 1,
+            "answers": [
+                "105",
+                "2450",
+                "700",
+                "350"
+            ],
+            "question": "A committee consisting of 3 men and 4 women is to be formed from a group of 7 men and 8 women. In how many ways can this be done?",
+            "solution": "No. of ways of selecting 3 men from 7\n= 7C3\n= 35\nNo. of ways of selecting 4 men from 8\n= 8C4\n= 70\nTotal no. of ways\n= 35*70\n= 2450"
+        },
+        {
+            "id": 25,
+            "answerIndex": 1,
+            "answers": [
+                "28",
+                "35",
+                "21",
+                "14"
+            ],
+            "question": "Find the number of triangles in a heptagon.",
+            "solution": "There are 7 vertices in a heptagon.\n\nNo. of ways of selecting 3 vertices out of 7\n= 7C3\n= 35"
+        },
+        {
+            "id": 26,
+            "answerIndex": 2,
+            "answers": [
+                "125",
+                "625",
+                "1024",
+                "20"
+            ],
+            "question": "In how many ways can 5 letters be posted in 4 postboxes if each postbox can contain any number of letters?",
+            "solution": "No. of ways of posting the first letter in any of the 4 postboxes\n= 4\nSimilarly, no. of ways of posting the second letter\n= 4\nNo. of ways of posting the 5 letters\n= 4*4*4*4*4\n= 1024"
+        },
+        {
+            "id": 27,
+            "answerIndex": 3,
+            "answers": [
+                "300",
+                "1120",
+                "1050",
+                "2590"
+            ],
+            "question": "From a group of 6 men and 8 women, six persons are to be selected to form a committee such that there are at least 2 men and 2 women in the committee. In how many ways can it be done?",
+            "solution": "The commitee can consist of\n2 men, 4 women\n3 men, 3 women\n4 men, 2 women\nNo. of ways\n= (6C2*8C4)+(6C3*8C3)+(6C4*8C2)\n= (15*70)+(20*56)+(15*28)\n= 1050+1120+420\n= 2590"
+        },
+        {
+            "id": 28,
+            "answerIndex": 3,
+            "answers": [
+                "50",
+                "120",
+                "504",
+                "2520"
+            ],
+            "question": "How many 3 letter words, with or without meaning, can be formed using the letters of the English alphabet without repetition such that the word begins with a vowel and ends with a consonant?",
+            "solution": "The first letter is one of the 5 vowels.\nNo. of ways\n= 5\n\nThe last letter is one of the 21 consonants.\nNo. of ways\n= 21\n\nThe middle letter is selected from the remaining 24 letters.\nNo. of ways\n= 24\n\nTotal no. of ways\n= 5*21*24\n= 2520"
+        },
+        {
+            "id": 29,
+            "answerIndex": 3,
+            "answers": [
+                " n(n-1)(n-1)!",
+                "(n+1)!/(n(n-1))",
+                "(n+1)! - n!",
+                "(n + 1)! - 1!"
+            ],
+            "question": "What is the value of 1*1! + 2*2! + 3!*3! + ............ n*n! ?",
+            "solution": "1*1! = (2 -1)*1! = 2*1! - 1*1! = 2! - 1!\n \n2*2! = (3-1)*2! = 3*2! - 1*2! = 3! - 2!\n\nn*n! = (n+1 - 1)*n! = (n+1)(n!) - n! = (n+1)! - n!\n\n 1*1! + 2*2! +.......... n*n!\n= 2! - 1! + 3! - 2! +.....+(n+1)! - n!\n= (n+1)! - 1!"
+        },
+        {
+            "id": 30,
+            "answerIndex": 1,
+            "answers": [
+                "30",
+                "33",
+                "40",
+                "24"
+            ],
+            "question": "How many different 4-letter words can be formed using the letters of the word CONSTITUTION such it starts with C and ends with N?",
+            "solution": "From the word CONSTITUTION, the 4-letter word\nC_ _ N has to be formed.\nLeaving out these two letters, we have\n2 O, 1 N, 1 S, 3 T, 2 I, 1 U\n\n3 unique letters - N S U\n3 duplicate letters - O T I\n\nIf our second letter is either of N,S or U\nwe have 5 choices for the third letter.\nEg: NS, NU, NO, NT, NI\n\nIf our second letter is either O, T or I\nwe have 6 choices for the third letter.\nEg: ON, OS, OU, OO, OT, OI\n\nNo. of ways\n= (3*5)+(3*6)\n= 33"
+        },
+        {
+            "id": 31,
+            "answerIndex": 0,
+            "answers": [
+                "4",
+                "5",
+                "6",
+                "1"
+            ],
+            "question": "An organisation has 3 committees, only 2 persons are members of all 3 committees but every pair of committees has 3 members in common. What is the least possible number of members in any one committee?",
+            "solution": "Let A and B be the 2 persons who are members of all committees.\n\nEvery pair of committees has 3 members in common.\nLet A, B and C be common to I and II.\nLet A, B and D be common to II and III.\nLet A, B and E be common to III and I.\n\nI   - A, B, C, E\nII  - A, B, C, D\nIII - A, B, D, E\n\nHence, the least possible number of members is 4."
+        },
+        {
+            "id": 32,
+            "answerIndex": 2,
+            "answers": [
+                "13",
+                "36",
+                "72",
+                "18"
+            ],
+            "question": "A student can select one of 6 different math books, one of 3 different chemistry books & one of 4 different science books. In how many different ways can students select one book each of math, chemistry & science?",
+            "solution": "No. of different ways\n= 6C1*3C1*4C1\n= 6*3*4\n= 72"
+        },
+        {
+            "id": 33,
+            "answerIndex": 0,
+            "answers": [
+                "6!*7P4",
+                "6!*6P4",
+                "4!*7P6",
+                "4!*6P6"
+            ],
+            "question": "4 women and 6 men have to be seated in a row given that no two women can sit together. How many different arrangements are possible?",
+            "solution": "The 6 men can be seated in 6! ways.\n\nThe women have to be seated in between the men or at the corners.\n_ M _ M _ M _ M _ M _ M _\n\nThere are 7 possible seats for them.\n\nNo. of ways in which 4 women can occupy 7 seats\n= 7P4\n\nTotal no. of ways\n= 6!*7P4"
+        },
+        {
+            "id": 34,
+            "answerIndex": 1,
+            "answers": [
+                "1565",
+                "2256",
+                "2456",
+                "1243"
+            ],
+            "question": "In how many ways can a team of 11 members be selected from a team of 5 men and 11 women such that the team must comprise of not more than 3 men?",
+            "solution": "The team may comprise of 0, 1, 2 or 3 men.\n\nTotal no. of ways\n= (5C0*11C11) + (5C1*11C10) + (5C2*11C9) + (5C3*11C8)\n= 1+(5*11)+(10*55)+(10*165)\n= 1+55+550+1650\n= 2256"
+        },
+        {
+            "id": 35,
+            "answerIndex": 2,
+            "answers": [
+                "5",
+                "7",
+                "8",
+                "10"
+            ],
+            "question": "A owes B Rs.50. He agrees to pay B over a number of consecutive days on a Monday, paying a single note or Rs.10 or Rs.20 on each day.In how many different ways can A repay B?",
+            "solution": "Rs.10 on all days\n1 way\nRs.10 on 4 days, Rs.20 on 1 day\n4 ways\nRs.10 on 1 day, Rs.20 on 2 days\n3 ways\nTotal = 8 ways"
+        },
+        {
+            "id": 36,
+            "answerIndex": 2,
+            "answers": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "question": "Find the total number of combinations of 5 letters a,b,a,b,b taking some or all at a time.",
+            "solution": "a,b,a,b,b\n\n1 letter can be chosen in 2 ways\na , b\n2 letters can be chosen in 3 ways\naa, ab, bb\n3 letters can be chosen in 3 ways\naab, abb, bbb \n4 letters can be chosen in 2 ways\naabb, abbb\n5 letters can be chosen in 1 way\n\nTotal ways = 11"
+        },
+        {
+            "id": 37,
+            "answerIndex": 1,
+            "answers": [
+                "1001!",
+                "1001!-1",
+                "1001!+1",
+                "1001!+1001"
+            ],
+            "question": "1(1!)+2(2!)+3(3!)+....+1000(1000!) = ?",
+            "solution": "1(1!) = 1\n2!-1\n\n1(1!)+2(2!) = 1+4=5\n3!-1\n\n1(1!)+2(2!)+3(3!)=1+4+18=23\n4!-1\n\n1(1!)+2(2!)+3(3!)+....n(n!)\n(n+1)!-1\n\nThe answer is 1001!-1"
+        },
+        {
+            "id": 38,
+            "answerIndex": 2,
+            "answers": [
+                "4096",
+                "3854",
+                "3584",
+                "3468"
+            ],
+            "question": "The total number of 4 digit numbers which do not have the digits 3 or 6 is",
+            "solution": "The first digit cant be 0, 3 or 6.\nHence, it can take 7 other values.\nThe other three digits cant be 3 or 6.\nHence, they can take 8 other values.\n\nHence, total no. of such 4 digit numbers\n= 7*8*8*8\n= 3584"
+        },
+        {
+            "id": 39,
+            "answerIndex": 3,
+            "answers": [
+                "40",
+                "140",
+                "210",
+                "84"
+            ],
+            "question": "In how many ways can we distribute 10 pencils to 4 children so that each child gets atleast one pencil?",
+            "solution": "No. of ways of distributing r identical objects to n distinct objects so that each get atleast one\n= (n-1)C(r-1)\n= 9C3\n= 84"
+        },
+        {
+            "id": 40,
+            "answerIndex": 1,
+            "answers": [
+                "360",
+                "720",
+                "480",
+                "5040"
+            ],
+            "question": "In how many different ways can the letters of the word LEADING be arranged in such a way that the vowels always come together?",
+            "solution": "There are three vowels and four consonants. The vowels should always come together. So, they can be considered as a letter.\n\nNo. of ways of arranging 5 letters\n= 5!\nNo. of ways of arranging the vowels\n= 3!\nTotal no. of ways\n= 5!*3!\n= 720"
+        },
+        {
+            "id": 41,
+            "answerIndex": 0,
+            "answers": [
+                "8",
+                "10",
+                "12",
+                "16"
+            ],
+            "question": "Find the number of ways a batsman can score a century only in terms of both 4's & 6's.",
+            "solution": "Let the batsman score x fours and y sixes.\n\n4x+6y = 100\n2x+3y=50\n\nx = (50-3y)/2\n\n50-3y should be a multiple of 2.\nHence, y should be even.\n\ny=0, x=25\ny=2, x=22\ny=4, x=19\n.....\n.....\ny=16, x=1\n\nSince he should get both 4s and 6s, 0 sixes is not possible.\n\nNo. of ways = 8"
+        },
+        {
+            "id": 42,
+            "answerIndex": 0,
+            "answers": [
+                "GIRINWT",
+                "GINIRTW",
+                "GIRINTW",
+                "GINWTRI"
+            ],
+            "question": "The letters in the word WRITING are permuted in all possible ways and arranged in alphabetical order. Find the word at position 50 in the permuted alphabetical order.",
+            "solution": "Arranging the letters of WRITING in alphabetical order,\nG,I,I,N,R,T,W\n\nG _ _ _ _ _ _\nNo. of words starting with G\n= 6!/2!\n= 360 ways\nThe 50th word starts with G.\n\nGI _ _ _ _ _\nNo. of words starting with GI\n= 5! = 120\n\nG I I _ _ _ _\nNo. of words starting with GII\n= 4! = 24\n\nG I N _ _ _ _\nNo. of words starting with GIN\n= 4!\n= 24\n\n24+24 = 48\n\nThe 50th word will be the second word starting with GIR.\n\n49th word - GIRINTW\n50th word - GIRINWT"
+        },
+        {
+            "id": 43,
+            "answerIndex": 0,
+            "answers": [
+                "2",
+                "15",
+                "4",
+                "30"
+            ],
+            "question": "A white cube(with six faces) is painted red on two different faces.How many different ways can this be done (two paintings are considered same if on a suitable rotation of the cube one painting can be carried to the other)?",
+            "solution": "This can be done only in two ways.\n\n1. Painting two opposite faces\n2. Painting two adjacent faces"
+        },
+        {
+            "id": 44,
+            "answerIndex": 0,
+            "answers": [
+                "3003",
+                "10^6",
+                "3000",
+                "6^10"
+            ],
+            "question": "A manufacturer of chocolates makes 6 different flavors of chocolates. The chocolates are sold in boxes of 10. How many \"different\" boxes of chocolates can be made?",
+            "solution": "If n similar articles are to be distributed to r persons, x1+x2+x3......xr=n each person is eligible to take any number of articles then the total ways are\n(n+r-1) C r-1\n\nHere, n=10 and r=6\n\n15C5 = 15*14*13*12*11/(1*2*3*4*5)\n          = 3003"
+        },
+        {
+            "id": 45,
+            "answerIndex": 1,
+            "answers": [
+                "16",
+                "60",
+                "45",
+                "40"
+            ],
+            "question": "How many different 9 digit numbers can be formed from the number 223355888 by re-arranging its digits so that the odd digits occupy the even positions?",
+            "solution": "There are 4 even places and they are occupied by the 4 odd digits (3,3,5,5)\n\nNo. of ways\n= 4!/(2!*2!)\n= 6\n\nThe 5 even numbers should occupy the 5 odd places. (2,2,8,8,8)\n\nNo. of ways\n= 5!/(2!*3!)\n= 10\n\nTotal no. of ways\n= 10*6 = 60"
+        },
+        {
+            "id": 46,
+            "answerIndex": 3,
+            "answers": [
+                "AOTDSP",
+                "AOTPDS",
+                "AOTDPS",
+                "AOSTPD"
+            ],
+            "question": "The letters in the word ADOPTS are permuted in all possible ways and arranged in alphabetical order then find the word at position 42 in the permuted alphabetical order?",
+            "solution": "Arranging the letters of ADOPTS in alphabetical order,\nA,D,O,P,S,T\n\nA  _ _ _ _ _\nNo. of words starting with A\n= 5!\n= 120 ways\nThe 42nd word starts with A.\n\nAD _ _ _ _\nNo. of words starting with AD\n= 4! = 24\n\nA O _ _ _ _\nNo. of words starting with AO\n= 4! = 24\n\nThe 42nd word starts with AO.\n\nNo. of words starting with AOD\n= 6\nNo. of words starting with AOP\n= 6\nNo. of words starting with AOS\n= 6\n24+6+6+6=42\n\nThe 42nd word is the last word starting with AOS\n\nAOSTPD"
+        },
+        {
+            "id": 47,
+            "answerIndex": 3,
+            "answers": [
+                "3",
+                "4",
+                "6",
+                "9"
+            ],
+            "question": "Bill purchases an item and receives no change. Before the purchase, he had only a five dollar bill, two ten-dollar bills, and a twenty-dollar bill. How many distinct possibilities are there for the total amount of his purchase?",
+            "solution": "Possible values\n5, 10, 15, 20, 25, 30, 35, 40, 45"
+        },
+        {
+            "id": 48,
+            "answerIndex": 1,
+            "answers": [
+                "24",
+                "60",
+                "90",
+                "120"
+            ],
+            "question": "Meg and Bob are among the 5 participants in a cycling race. If each participant finishes the race and no two participants finish at the same time, in how many different possible orders can the participants finish the race so that Meg finishes ahead of Bob?",
+            "solution": "Case (i)\nMeg finishes first. The other 4 can take any of the other places.\nNo. of ways = 4! = 24\n\nCase (ii)\nMeg finishes second. Bob has to be either third, fourth or fifth. The other 3 can take any of the 3 other places.\nNo. of ways = 3*3! = 18\n\nCase (iii)\nMeg finishes 3rd. Bob has to be 4th or 5th. Others can take any of the remaining 3 places.\nNo. of ways = 2*3! = 12\n\nCase (iv)\nMeg finishes 4th. Bob finishes 5th. Others can take the 3 other places.\nNo. of ways = 3! = 6\n\nTotal no. of ways\n= 24+18+12+6\n= 60"
+        },
+        {
+            "id": 49,
+            "answerIndex": 2,
+            "answers": [
+                "2",
+                "3",
+                "4",
+                "8"
+            ],
+            "question": "Sixty-eight people are sitting in 20 cars and each car contains at most 4 people. What is the maximum possible number of cars that could contain exactly 1 of the 68 people?",
+            "solution": "16 cars contain 4 people each and 4 cars contain 1 person each."
+        },
+        {
+            "id": 50,
+            "answerIndex": 0,
+            "answers": [
+                "24",
+                "30",
+                "60",
+                "96"
+            ],
+            "question": "A gardener wishes to plant 5 bushes in a straight row. Each bush has flowers of a different solid color (white, yellow, pink, red and purple). How many ways can the bushes be arranged so that the middle bush is the one with red flowers?",
+            "solution": "The middle bush is red. The other 4 bushes can be arrranged in 4! = 24 ways."
+        },
+        {
+            "id": 51,
+            "answerIndex": 1,
+            "answers": [
+                "3",
+                "6",
+                "12",
+                "21"
+            ],
+            "question": "There are 20 balls of green color, 20 of red color, 20 of blue color, 20 of black and 20 of yellow. Howmany balls do you have to pick to guarantee 2 pairs of same color?",
+            "solution": "The first 5 balls may be one of each color. The 6th ball will definitely form a pair with any one of the five."
+        },
+        {
+            "id": 52,
+            "answerIndex": 2,
+            "answers": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "question": "If x is 1, 2, or 3 and y is either 2 or 4, then the product xy can have how many different possible values?",
+            "solution": "Possible values of xy\n= 2,4,8,6,12"
+        },
+        {
+            "id": 53,
+            "answerIndex": 2,
+            "answers": [
+                "50",
+                "8",
+                "60",
+                "42"
+            ],
+            "question": "A lady has fine gloves and hats in her closet- 18 blue, 33 red, and 25 yellow. The lights are out and it is totally dark. In spite of the darkness, she can make out the difference between a hat and a glove. She takes out an item out of the closet only if she is sure that it is a glove. How many gloves must she take out to make sure she has a pair of each color?",
+            "solution": "She has to take 60 gloves to ensure she has a pair of each color.\n\nFirst 33 may be red.\n\nThe next 25 may be yellow.\n\nThe next 2 may be blue."
+        },
+        {
+            "id": 54,
+            "answerIndex": 2,
+            "answers": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "question": "36 people {a1, a2... a36} meet and shake hands in a circular fashion. In other words, there are totally 36 handshakes involving the pairs, {a1, a2}, {a2, a3}, ..., {a35, a36}, {a36, a1}. Then the size of the smallest set of people such that the rest have shaken hands with at least one person in the set is",
+            "solution": "{a1, a2}, {a2, a3},{a3, a4}, {a4, a5},{a5, a6}, {a6, a7} ..., {a35, a36}, {a36, a1} \n\nRemove a3, a6, a9, ......, a36 (12 people).\n\nThe rest will have shaken hands with atleast one person in the set."
+        },
+        {
+            "id": 55,
+            "answerIndex": 1,
+            "answers": [
+                "2",
+                "3",
+                "48",
+                "25"
+            ],
+            "question": "It is dark in my bedroom and I want to get two socks of the same color from my drawer, which contains 24 red and 24 blue socks. How many socks do I have to take from the drawer to get at least two socks of the same color?",
+            "solution": "The first two socks may be one each of red and blue. The third will definitely make a pair with either of the two."
+        },
+        {
+            "id": 56,
+            "answerIndex": 0,
+            "answers": [
+                "23",
+                "24",
+                "46",
+                "253"
+            ],
+            "question": "23 people are there, they are shaking hands together, how many hand shakes are possible, if they are in pairs of cyclic sequence?",
+            "solution": "If there are three persons and they shake hands in cyclic manner,\n(a,b), (b,c), (c,a)\n\nSimilarly, if there are 23 persons,\n23 handshakes are possible."
+        },
+        {
+            "id": 57,
+            "answerIndex": 3,
+            "answers": [
+                "1225",
+                "900",
+                "600",
+                "300"
+            ],
+            "question": "The thanksgiving banquet at No.2, Richter Street, had 49 guests which consisted of 6 statesmen, 26 relatives and their families. At the end of a banquet 25 people shake hands with other, some of which were between the statesmen alone, some between relatives alone and some between the statesmen and relatives. How many handshakes will there be in total?",
+            "solution": "No. of handshakes\n= 25C2\n= 300"
+        },
+        {
+            "id": 58,
+            "answerIndex": 1,
+            "answers": [
+                "120",
+                "119",
+                "100",
+                "90"
+            ],
+            "question": "3 kinds of pizzas were available in a Pizza Shop. But, now they have introduced 7 new types. A person wants to buy three different types of pizzas with at least 1 in the new type. In how many ways can he select?",
+            "solution": "He should not select\n3 from old\n\nNo. of ways of selecting 3 from old\n= 1\nNo. of ways\n= 10C3 - 1\n= 120-1\n= 119"
+        },
+        {
+            "id": 59,
+            "answerIndex": 0,
+            "answers": [
+                "6",
+                "7",
+                "21",
+                "28"
+            ],
+            "question": "There are 7 friends (A1, A2, A3....A7). If A1 has to shake hands with all without repetition, how many handshakes are possible?",
+            "solution": "A1 will shake hands with A2,A3,A4,A5,A6,A7.\n\n6 handshakes."
+        },
+        {
+            "id": 60,
+            "answerIndex": 1,
+            "answers": [
+                "3295",
+                "2996",
+                "2955",
+                "3145"
+            ],
+            "question": "SSCT Consultancy Services wanted to select 78 candidates from the five engineering Colleges in Andhra Pradesh, Tamil Nadu, Kerala and Karnataka. They wanted only those candidates who have cleared all papers in semester exams to appear for their recruitment test. The test paper set by them consisted of two parts- Part I and Part II. Each part consisted of 7 questions and the candidates are supposed to answer only six questions. Candidates were given the freedom to choose any 6 questions across Part I and Part II but with a simple condition that at least one question should be answered from part I. In how many ways a candidate can attempt this paper assuming he answers six questions?",
+            "solution": "The candidates can choose\n1 from A, 5 from B\n2 from A, 4 from B\n3 from A, 3 from B\n4 from A, 2 from B\n5 from A, 1 from B\n6 from A, 0 from B\n\nNo. of ways\n= (7C1*7C5)+(7C2*7C4)+(7C3*7C3)+(7C4*7C2)+(7C5*7C1)+(7C6)\n= 147+735+1225+735+147+7\n= 2996"
+        },
+        {
+            "id": 61,
+            "answerIndex": 3,
+            "answers": [
+                "365C7",
+                "7",
+                "4",
+                "2"
+            ],
+            "question": "In how many ways can a leap year have 53 Sundays?",
+            "solution": "In a leap year there are 366 days. (52 weeks + 2 extra days)\n\nTo have 53 Sundays,\none of the two extra days must be a Sunday. \n\nThis can occur in only 2 ways.\n(Saturday and Sunday) or (Sunday and Monday)\n\nNumber of ways =2"
+        },
+        {
+            "id": 62,
+            "answerIndex": 1,
+            "answers": [
+                "34360",
+                "17280",
+                "16640",
+                "56660"
+            ],
+            "question": "There are 4 books on fairy tales, 5 novels and 3 plays. In how many ways can you arrange these so that books on fairy tales are together, novels are together and plays are together and in the order, books on fairy tales, novels and plays?",
+            "solution": "The books on fairy tales can be arranged in 4! = 24 ways\nThe books on novels can be arranged in 5! = 120 ways\nThe books on plays can be arranged in 3! = 6 ways\n\nThey have to be arranged in the order\nFairy Tales, Novels, Play\n\nTotal Number of ways\n= 24*120*6\n= 17280\n"
+        },
+        {
+            "id": 63,
+            "answerIndex": 2,
+            "answers": [
+                "10",
+                "12",
+                "15",
+                "20"
+            ],
+            "question": "A teacher of 6 students takes 2 of his students at a time to a zoo as often as he can, without taking the same pair of children together more than once. How many times does the teacher go to the zoo?",
+            "solution": "Two students can be selected from 6 in 6C2 ways.\n\n6C2 = 6*5/2 = 15\n\nTherefore, the teacher goes 15 times to the zoo."
+        },
+        {
+            "id": 64,
+            "answerIndex": 0,
+            "answers": [
+                "26³×21",
+                "26×25×24×21",
+                "25×24×23×21",
+                "None of these"
+            ],
+            "question": "How many four letter distinct initials can be formed using the alphabets of English language such that the last of the four letters is always a consonant?",
+            "solution": "The last of the four letters should be a consonant. Therefore, there are 21 options for the last letter.\n\nThe first three letters can be either consonants or vowels. So, each letter has 26 options. \n\nWe are asked to find out the number of distinct initials and not initials where the letters are distinct. Hence, the letters can be repeated in an initial.\n\nNumber of distinct initials\n= 26*26*26*21\n= 26³*21"
+        },
+        {
+            "id": 65,
+            "answerIndex": 1,
+            "answers": [
+                "105",
+                "168",
+                "189",
+                "120"
+            ],
+            "question": "A box contains 10 balls out of which 3 are red and the rest are blue. In how many ways can a random sample of 6 balls be drawn from the bag so that at the most 2 red balls are included in the sample and no sample has all the 6 balls of the same colour?",
+            "solution": "There are 3 red balls and 7 blue balls.\n\nGiven the conditions, 6 balls can be selected in the following ways.\n\n(i) One red ball and 5 blue balls\n(ii) Two red balls and 4 blue balls\n\nTotal number of ways\n= 3C1*7C5 + 3C2*7C4\n= 63 + 105\n= 168"
+        },
+        {
+            "id": 66,
+            "answerIndex": 3,
+            "answers": [
+                "5P6",
+                "5!",
+                "5",
+                "None of the above"
+            ],
+            "question": "There are 6 equally spaced points A,B,C,D,E and F marked on a circle with radius R. How many convex pentagons of distinctly different areas can be drawn using these points as vertices?",
+            "solution": "All the points are equally spaced. Hence, the area of all the convex pentagons will be the same."
+        },
+        {
+            "id": 67,
+            "answerIndex": 2,
+            "answers": [
+                "252",
+                "432",
+                "462",
+                "504"
+            ],
+            "question": "A man is positioned at the origin of the coordinate system. The man can take steps of unit measure in the direction North, East, West or South. Find the number of ways in which he can reach the point (5,6), covering the shortest possible distance.",
+            "solution": "In order to reach (5,6) covering the shortest distance at the same time, the man has to make 5 horizontal and 6 vertical steps.\n\nThe number of ways in which these steps can be taken\n= 11! / (5!*6!)\n= 462"
+        },
+        {
+            "id": 68,
+            "answerIndex": 1,
+            "answers": [
+                "60000",
+                "65000",
+                "70000",
+                "75000"
+            ],
+            "question": "Find thetotalnumberofdistinctvehiclenumbersthatcanbeformedusingtwo letters followed by two numbers. Letters need to be distinct.",
+            "solution": "Choosing two Letters:\nOut of 26 alphabets, two distinct letters can be chosen in 26P2 ways.\n \nChoosing two Numbers:\nThere are 10 ways (any number from 0 to 9) to choose the first digit and similarly, another 10 ways to choose the second digit.\nHence the two numbers can be chosen in 10*10 = 100 ways. (00 to 99)\n\nTotal Number of ways\n= 26P2*100\n= 65000"
+        },
+        {
+            "id": 69,
+            "answerIndex": 1,
+            "answers": [
+                "10C3",
+                "10P3",
+                "240",
+                "360"
+            ],
+            "question": "In how many ways a President, VP and Waterboy can be selected from a group of 10 people?",
+            "solution": "We are selecting three different posts, so order matters.\n\nNumber of ways of selecting a President, VP and Waterboy from a group of 10 people\n= 10P3"
+        },
+        {
+            "id": 70,
+            "answerIndex": 1,
+            "answers": [
+                "5!",
+                "4!",
+                "6!–2!",
+                "6!/2!"
+            ],
+            "question": "How many words can be formed by re-arranging the letters of the word ASCENT such that A and T occupy the first and last position respectively?",
+            "solution": "A and T should occupy the first and last position.\n\nA _ _ _ _ T\n\nThe remaining 4 positions can be filled in\n4! ways by the remaining letters (S,C,E,N,T). \n\n4! words can be formed."
+        },
+        {
+            "id": 71,
+            "answerIndex": 1,
+            "answers": [
+                "6! × 1440",
+                "18! × 1440",
+                "18! ×2! × 1440",
+                "None of these"
+            ],
+            "question": "A class photograph has to be taken. The front row consists of 6 girls who are sitting. 20 boys are standing behind. The two corner positions are reserved for the 2 tallest boys. In how many ways can the students be arranged?",
+            "solution": "The two tallest boys can be arranged in 2! ways, rest 18 can be arranged in 18! ways.\n\nGirls can be arranged in 6! ways.\n\nTotal number of ways in which all the students can be arranged\n= 2!* 18! * 6!\n= 18! * 2 * 720 \n= 18! * 1440"
+        },
+        {
+            "id": 72,
+            "answerIndex": 1,
+            "answers": [
+                "120",
+                "720",
+                "4320",
+                "2160"
+            ],
+            "question": "In how many different ways can the letters of the word OPTICAL be arranged so that the vowels always come together?",
+            "solution": "The word OPTICAL contains 7 different letters.\n\nThe three vowels O,I,A should come together. Hence, they can be considered as a single letter.\n\nWe have to arrange the letters PTCL (OIA).\n\n5 letters can be arranged in 5! = 120 ways.\n\nThe vowels (OIA) can be arranged among themselves in 3! = 6 ways.\n\nRequired number of ways\n= (120 x 6)\n= 720"
+        }
+    ]
 }
