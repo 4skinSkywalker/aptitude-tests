@@ -142,7 +142,7 @@
                 "10C6 * 6!",
                 "5040"
             ],
-            "question": "A school has 10 volleyball players. A team of 5 members and a captain has to be selected out of these 10 players. In how many different ways can the selection be done?",
+            "question": "A school has 10 volleyball players. A team of 6 members has to be selected out of these 10 players. In how many different ways can the selection be done?",
             "solution": "Out of the 10 players, 6 have to be selected.\n\nRequired no. of ways\n= 10C6\n= 210"
         },
         {
