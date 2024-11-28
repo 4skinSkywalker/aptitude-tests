@@ -1,845 +1,500 @@
 {
-    "formula": "Fractions are written in the form x/y, where y≠0.\n\nx is called the numerator and\ny is called the denominator.\n\nTypes of fractions:\n\n(i) Proper fractions:\nNumerator<Denominator\nEg:2/3, 6/11\n(ii) Improper Fractions:\nNumerator>Denominator\nEg:3/2, 11/6\n(iii) Mixed Fractions:\nThey have two parts, a whole number and a fraction.\nEg.1(2/3), 5(3/14)\n(iv) Decimal Fractions\nThey have powers of 10 as denominators.\nEg:7/10, 9/100, 13/1000\n\nThere are many more types of fractions.\n\nA fraction is converted into percentage by multiplying by 100.\n\nEg: To convert 2/5 into percentage,\n(2/5)*100 = 40%",
-    "problems": [
-        {
-            "id": 1,
-            "answerIndex": 2,
-            "answers": [
-                "x=1/z",
-                "x=1/z²",
-                "x=z",
-                "None of the above"
-            ],
-            "question": "If x=1/y and y=1/z, then",
-            "solution": "x=1/y\n\nx=1/(1/z) = z"
-        },
-        {
-            "id": 2,
-            "answerIndex": 0,
-            "answers": [
-                "5/7",
-                "4/7",
-                "7/4",
-                "7/5"
-            ],
-            "question": "What fraction of a number is two-sevenths of two and a half times the number?",
-            "solution": "Let the number be x.\n\n2½ x = (5/2)x\n\n(2/7)*(5/2)x\n= 5/7 x"
-        },
-        {
-            "id": 3,
-            "answerIndex": 3,
-            "answers": [
-                "14",
-                "49",
-                "35",
-                "51"
-            ],
-            "question": "A box contains 140 ice-creams, 30% of which are strawberry, two-sevenths are chocolate, 5% are mango and the rest are vanilla. How many ice-creams are vanilla flavoured?",
-            "solution": "No. of strawberry ice-creams\n= 30% of 140\n= 42\nNo. of chocolate ice-creams\n= (2/7)*140\n= 40\nNo. of mango ice-creams\n= 5% of 140\n= 7\nNo. of vanilla\n= 140-(42+40+7)\n= 51"
-        },
-        {
-            "id": 4,
-            "answerIndex": 2,
-            "answers": [
-                "0.7",
-                "0.07",
-                "0.035",
-                "0.35"
-            ],
-            "question": "Find the decimal value of 30% of 20% of (7/12).",
-            "solution": "(30/100)*(20/100)*(7/12)\n= 7/200\n= 0.035"
-        },
-        {
-            "id": 5,
-            "answerIndex": 3,
-            "answers": [
-                "2",
-                "2/100",
-                "2/1000",
-                "2/10000"
-            ],
-            "question": "Convert 2% of (0.01) into a fraction.",
-            "solution": "2% of 0.01\n= (2/100)*(0.01)\n= (2/100)*(1/100)\n= 2/10000"
-        },
-        {
-            "id": 6,
-            "answerIndex": 0,
-            "answers": [
-                "1/6",
-                "1/5",
-                "1/4",
-                "2/3"
-            ],
-            "question": "Priya and Riya baked cookies. Priya ate half of it and Riya ate one-third of it. They gave the rest to Heena. What fraction of the cookies did Heena get?",
-            "solution": "Let x be the fraction of the cookies Heena got.\n(1/2)+(1/3)+x=1\n(5/6)+x = 1\nx = 1-(5/6)\nx = 1/6"
-        },
-        {
-            "id": 7,
-            "answerIndex": 2,
-            "answers": [
-                "24",
-                "36",
-                "48",
-                "40"
-            ],
-            "question": "The sum of two numbers is 14 and the sum of their reciprocals is 7/24. Find their product.",
-            "solution": "Let the two numbers be x and y.\nx+y = 14\n\n(1/x)+(1/y) = 7/24\n(x+y)/xy = 7/24\n14/xy = 7/24\nxy = 48"
-        },
-        {
-            "id": 8,
-            "answerIndex": 2,
-            "answers": [
-                "x > y > z",
-                "y < z < x",
-                "y > x > z",
-                "x < y < z"
-            ],
-            "question": "If x=3/4, y=4/5 and z=3/5, which of the following is true?",
-            "solution": "x = 15/20\ny = 16/20\nz = 12/20\n\ny>x>z"
-        },
-        {
-            "id": 9,
-            "answerIndex": 3,
-            "answers": [
-                "8",
-                "6",
-                "10",
-                "4"
-            ],
-            "question": "The sum of a number and its reciprocal is 17/4. Find the number.",
-            "solution": "x+(1/x) = 17/4\n(x²+1)/x = 17/4\n\nSubstitute the options in the above equations.\nx=4"
-        },
-        {
-            "id": 10,
-            "answerIndex": 0,
-            "answers": [
-                "35/6",
-                "6",
-                "5/2",
-                "7/2"
-            ],
-            "question": "If x=2 and y=3, find the value of\nx+(1/x)+(1/y)+y",
-            "solution": "x+(1/x)+(1/y)+y\n= 2+(1/2)+3+(1/3)\n= 35/6"
-        },
-        {
-            "id": 11,
-            "answerIndex": 0,
-            "answers": [
-                "1",
-                "2",
-                "3",
-                "4"
-            ],
-            "question": "If x=5 and y=7, find the value of\n(x²-14x+49)/(25-10y+y²)",
-            "solution": "(x²-14x+49) \n= (x-7)²\n= (5-7)²\n= 4\n(25-10y+y²) \n= (5-y)²\n= (5-7)²\n= 4\n4/4 = 1"
-        },
-        {
-            "id": 12,
-            "answerIndex": 0,
-            "answers": [
-                "1/2",
-                "2/5",
-                "1/4",
-                "3/5"
-            ],
-            "question": "Ram spends one-fifth of his salary for his children's education, 20% for household expenditures, 10% for other miscellaneous expenses and saves the rest. What fraction of his salary does he save?",
-            "solution": "1/5 = 20%\n\n% he saves\n= 100-(20+20+10) %\n= 50%\n50% = 1/2"
-        },
-        {
-            "id": 13,
-            "answerIndex": 1,
-            "answers": [
-                "30",
-                "20",
-                "25",
-                "35"
-            ],
-            "question": "After giving one-fourth of her chocolates to Tina, Anna has 60 chocolates. How many chocolates did she give to Tina?",
-            "solution": "Let the no. of chocolates Anna had be x\n\nx-(x/4) = 60\n3x/4 = 60\nx=80\n\nShe gave (x/4)=20 chocolates to Tina"
-        },
-        {
-            "id": 14,
-            "answerIndex": 2,
-            "answers": [
-                "11/25",
-                "12/25",
-                "14/25",
-                "3/5"
-            ],
-            "question": "Two candidates contested in an election and one of them got 44% of the total votes. If he got 1080 votes less than the winning candidate and all the votes were valid, what fraction of the total votes did the winning candidate get?",
-            "solution": "% of votes the winning candidate got\n= 100-44\n= 56%\n56/100\n= 14/25"
-        },
-        {
-            "id": 15,
-            "answerIndex": 0,
-            "answers": [
-                "29/50",
-                "21/50",
-                "31/50",
-                "19/50"
-            ],
-            "question": "60% of a class are boys and 40% are girls. 30% of the girls and 50% of the boys went for a trip. What fraction of the class didn't go for the trip?",
-            "solution": "Let the no. of students in the class be x.\n\nNo. of students who went for the trip\n= 30% of 0.4x + 50% of 0.6x\n= 0.12x+0.3x\n= 0.42x\n0.58x students did not go for the trip.\n\n0.58x/x = 58/100 = 29/50"
-        },
-        {
-            "id": 16,
-            "answerIndex": 0,
-            "answers": [
-                "836/10000",
-                "836/1000",
-                "836/100000",
-                "836/100"
-            ],
-            "question": "Which of the following fractions equals 0.0836?",
-            "solution": "836/10000\n= 0.0836"
-        },
-        {
-            "id": 17,
-            "answerIndex": 1,
-            "answers": [
-                "1/1000",
-                "1/10000",
-                "1/100",
-                "1/5000"
-            ],
-            "question": "Find the value of (0.05)/500.",
-            "solution": "(0.05)/500\n= 5/50000\n= 1/10000"
-        },
-        {
-            "id": 18,
-            "answerIndex": 0,
-            "answers": [
-                "b < a < c",
-                "b < c < a",
-                "c < a < b",
-                "a < c < b"
-            ],
-            "question": "If a=(3/7), b=(3/7)² and c=√(3/7), then which of the following is true?",
-            "solution": "Squaring a proper fraction will make it smaller.\n(3/7)² = 9/49\nCompare 3/7 and 9/49\n3/7 = 21/49\n9/49<21/49\n(3/7)²<3/7<√(3/7)\nb<a<c\n(A) is true"
-        },
-        {
-            "id": 19,
-            "answerIndex": 1,
-            "answers": [
-                "4/3",
-                "1/7",
-                "3/4",
-                "7"
-            ],
-            "question": "If x=4, then (x²-6x+9)/(x²-9) = ",
-            "solution": " (x²-6x+9) = (x-3)²\n(x²-9) = (x+3)(x-3)\n\n(x²-6x+9)/(x²-9)\n= (x-3)/(x+3)\n= (4-3)/(4+3)\n= 1/7"
-        },
-        {
-            "id": 20,
-            "answerIndex": 2,
-            "answers": [
-                "4/5",
-                "8/5",
-                "2/3",
-                "6/7"
-            ],
-            "question": "[4-½]/[5+¼]",
-            "solution": "4-½ = (8-1)/2 = 7/2\n5+¼ = (20+1)/4 = 21/4\n\n[4-½]/[5+¼] \n= (7/2)/(21/4)\n= 2/3"
-        },
-        {
-            "id": 21,
-            "answerIndex": 3,
-            "answers": [
-                "60",
-                "45",
-                "30",
-                "35"
-            ],
-            "question": "By how much is one-third of 570 lesser than half of 450?",
-            "solution": "(1/3)*570 = 190\n\n(1/2)*450 = 225\n\n225-190=35"
-        },
-        {
-            "id": 22,
-            "answerIndex": 1,
-            "answers": [
-                "35,000$",
-                "37,500$",
-                "40,000$",
-                "50,000$"
-            ],
-            "question": "The value of three-fifth of a plot is 30,000$. Find the value of three-fourth of the plot.",
-            "solution": "x*3/5 = 30000\n\nx*3/4 = 30000*(3/4)/(3/5)\n          = 30000*5/4\n          = 37,500$"
-        },
-        {
-            "id": 23,
-            "answerIndex": 0,
-            "answers": [
-                "120",
-                "90",
-                "75",
-                "60"
-            ],
-            "question": "If a half of a number is added to quarter of the number, the result is 50 more than one-third of the number. Find the number.",
-            "solution": "Let the number be x.\n\n(x/2)+(x/4) = 50+(x/3)\n\n3x/4 = 50+(x/3)\n\n(3x/4)-(x/3) = 50\n\n5x/12 = 50\n\nx=120"
-        },
-        {
-            "id": 24,
-            "answerIndex": 1,
-            "answers": [
-                "Rs.100,000",
-                "Rs.50000",
-                "Rs.80,000",
-                "Rs.60,000"
-            ],
-            "question": "A man spends one-fifth of his salary for household expenditures and one fourth of the remaining for his children. He donates one-third of what is left to charity and saves the rest. If he saves Rs.20000, find his salary.",
-            "solution": "Let his salary be Rs.x\n\nAmount spent for household expenditures\n= x/5\nAmount spent for children\n= (1/4)*(4x/5) = x/5\nAmount left\n= x-(2x/5)\n= 3x/5\nAmount donated to charity\n= (1/3)*(3x/5)\n= x/5\nAmount left = Amount saved\n\n x-(3x/5) = 20000\n 2x/5 = 20000\n\nx=Rs.50000\n"
-        },
-        {
-            "id": 25,
-            "answerIndex": 0,
-            "answers": [
-                "3/7",
-                "4/5",
-                "2/9",
-                "5/8"
-            ],
-            "question": "A fraction becomes 1/2 if 1 is added to each of the numerator and denominator. If 1 is subtracted from the numerator and denominator, it becomes 1/3. Find the fraction.",
-            "solution": "Let the fraction be x/y\n\n(x+1)/(y+1) = 1/2\n2x+2 = y+1\n2x-y = -1\n\n(x-1)/(y-1) = 1/3\n3x-3 = y-1\n3x-y = 2\n\nSolving the two equations,\nx=3\ny=7"
-        },
-        {
-            "id": 26,
-            "answerIndex": 1,
-            "answers": [
-                "2/11",
-                "2/13",
-                "3/14",
-                "1/6"
-            ],
-            "question": "A girl earns twice as much in December as in each of the other months. What part of her entire year's earning does she earn in December?",
-            "solution": "If her earning in the first 11 months is x, her earning in December is 2x.\n\n2x/(11x+2x) = 2x/13x = 2/13"
-        },
-        {
-            "id": 27,
-            "answerIndex": 2,
-            "answers": [
-                "18",
-                "24",
-                "12",
-                "30"
-            ],
-            "question": "In a class room, three fourth of the boys are above 160 cm in height and they are 18 in number. Also, out of the total strength, the boys form only two third and the rest are girls. The total number of girls in the class is",
-            "solution": "Let the no. of boys be b.\n\n3/4 b = 18\n\nb = 24\n\nLet the total strength be x.\n\n2/3 x = 24\n\nx = 36\n\nNo. of girls = 12"
-        },
-        {
-            "id": 28,
-            "answerIndex": 3,
-            "answers": [
-                "2/y",
-                "y/2",
-                "y/(y-2)",
-                "(y-2)/y"
-            ],
-            "question": "Mr.X takes y hours to complete typing a manuscript. After 2 hours, he was called away. What fractional part of the assignment was left incomplete?",
-            "solution": "He still needs y-2 hours to complete the manuscript.\n\nPart of work incomplete\n= (y-2)/y"
-        },
-        {
-            "id": 29,
-            "answerIndex": 3,
-            "answers": [
-                "90",
-                "150",
-                "300",
-                "450"
-            ],
-            "question": "If a light flashes every 6 seconds, how many times will it flash in ¾ of an hour?",
-            "solution": "No. of times it flashes\n= (3/4)*60*60/6\n= 450"
-        },
-        {
-            "id": 30,
-            "answerIndex": 0,
-            "answers": [
-                "30",
-                "33",
-                "34",
-                "35"
-            ],
-            "question": "There are 50 students enrolled in a post-graduate program. Of the enrolled students, 90% took the final exam. Two thirds of the students who took the final exam passed. How many students passed thefinal exam?",
-            "solution": "No. of students who passed\n= 2/3*90% of 50\n= (2/3)*(90/100)*50\n= 30"
-        },
-        {
-            "id": 31,
-            "answerIndex": 2,
-            "answers": [
-                "Rs.32000",
-                "Rs.315000",
-                "Rs.30000",
-                "Rs.30300"
-            ],
-            "question": "James bought an iPad for Rs.x and spent Rs.(x/8) to buy its accessories. If he spent a sum of Rs.33,750, find the cost of the iPad.",
-            "solution": "x+(x/8) = 33750\n\n9x/8 = 33750\n\nx=Rs.30,000"
-        },
-        {
-            "id": 32,
-            "answerIndex": 1,
-            "answers": [
-                "35",
-                "28",
-                "42",
-                "21"
-            ],
-            "question": "The number of boys in a class is one and a half times the number of girls. If the strength of the class is 70, find the number of girls.",
-            "solution": "B=G+(G/2) = 3G/2\n\nB+G=70\n\n(3G/2)+G=70\n5G/2 = 70\nG=28"
-        },
-        {
-            "id": 33,
-            "answerIndex": 2,
-            "answers": [
-                "Rs.2400",
-                "Rs.3000",
-                "Rs.3600",
-                "Rss.4000"
-            ],
-            "question": "A, B and C share a sum of money among themselves. A gets half of B's share and B gets one-third of C's share. If A got Rs.400, find the sum.",
-            "solution": "A=400\nB=2A = 800\nC=3B=2400\n\nA+B+C=Rs.3600"
-        },
-        {
-            "id": 34,
-            "answerIndex": 0,
-            "answers": [
-                "5/16",
-                "5/12",
-                "5/8",
-                "3/8"
-            ],
-            "question": "One-fourth of a pole is buried under the ground. One-sixth of the remaining length is painted white, one-half of the remainder is painted black and the rest is painted red. What fraction of the pole is painted red?",
-            "solution": "Let the length of the pole be x m.\n\nFraction of pole above the ground\n= 3/4\nFraction of pole painted white\n= (1/6)*(3/4)\n= 1/8\nFraction of pole left\n= (3/4)-(1/8)\n= 5/8\nHalf of this is painted black and half is painted red.\n\nFraction of pole painted red\n= (1/2)*(5/8)\n= 5/16"
-        },
-        {
-            "id": 35,
-            "answerIndex": 3,
-            "answers": [
-                "120",
-                "200",
-                "240",
-                "300"
-            ],
-            "question": "The highest score in a cricket match was 2/5th of the total. The second highest score was 90. The sum of the first and second highest scores was (7/10)th of the total. Find the total runs scored.",
-            "solution": "Let the highest score be x and the total runs be t.\n\nx=2t/5\n\nx+90 = 7t/10\n(2t/5)+90 = 7t/10\n3t/10 = 90\nt=300"
-        },
-        {
-            "id": 36,
-            "answerIndex": 3,
-            "answers": [
-                "Rs.500",
-                "Rs.900",
-                "Rs.1200",
-                "Rs.1000"
-            ],
-            "question": "A man spends half of his salary on household expenses, 1/4th for rent, 1/5th for travel expenses and deposits the rest in a bank. If his monthly deposits in the bank amount to Rs.50, what is his monthly salary?",
-            "solution": "Part of salary deposited in the bank\n= 1-(1/4)-(1/5)-(1/2)\n= 1/20\n\n1/20 of x = 50\nx = 1000"
-        },
-        {
-            "id": 37,
-            "answerIndex": 1,
-            "answers": [
-                "64/30",
-                "64/33",
-                "64/22",
-                "64/31"
-            ],
-            "question": "31 - 29 - 2/33 =",
-            "solution": "31 - 29 - 2/33\n= 2 - 2/33\n= 64/33"
-        },
-        {
-            "id": 38,
-            "answerIndex": 2,
-            "answers": [
-                "E",
-                "1/2 E",
-                "1/4 E",
-                "1/8 E"
-            ],
-            "question": "E=I²R. What is the effect of E when I becomes I/2?",
-            "solution": "E = I²R\n\nIf I becomes I/2, E becomes E/4."
-        },
-        {
-            "id": 39,
-            "answerIndex": 2,
-            "answers": [
-                "121",
-                "134",
-                "111",
-                "147"
-            ],
-            "question": "3/5 of 25% of 740 = ?",
-            "solution": "3/5 of 25% of 740\n= 111"
-        },
-        {
-            "id": 40,
-            "answerIndex": 1,
-            "answers": [
-                "22/62",
-                "15/46",
-                "2/3",
-                "1"
-            ],
-            "question": "Which of the following fractions is less than 1/3?",
-            "solution": "Only 15/46 is less than 1/3."
-        },
-        {
-            "id": 41,
-            "answerIndex": 3,
-            "answers": [
-                "250",
-                "750",
-                "400",
-                "300"
-            ],
-            "question": "If 75 % of a number is added to 75, the result is the number itself, then the number is",
-            "solution": "0.75x + 75 = x\n\n0.25x = 75\n\nx = 300"
-        },
-        {
-            "id": 42,
-            "answerIndex": 0,
-            "answers": [
-                "25/39",
-                "14/39",
-                "5/13",
-                "10/3"
-            ],
-            "question": "Out of 13 applicants for a job, there are 5 women and 8 men. It is desired to select 2 persons for the job. The probability that at least one of the selected persons will be a woman is",
-            "solution": "P(atleast one woman)\n= 5C2+(5C1*8C1) / 13C2\n= 50/78\n= 25/39"
-        },
-        {
-            "id": 43,
-            "answerIndex": 1,
-            "answers": [
-                "74.5",
-                "74.625",
-                "74.8",
-                "75"
-            ],
-            "question": "In a school, for a student out of 100, he got the average of 7 subjects as 74 and he got 79 marks in the 8th subject. What is the average of all the subjects?",
-            "solution": "Average\n = ((74*7)+79)/8\n = 74.625"
-        },
-        {
-            "id": 44,
-            "answerIndex": 0,
-            "answers": [
-                "255",
-                "256",
-                "257",
-                "258"
-            ],
-            "question": "A person has to make 86 pieces of a long bar. He takes 3 seconds to cut a piece. What is the total time taken by him in seconds to make 86 pieces?",
-            "solution": "He has to cut 85 times to make 86 pieces.\n\nTime taken\n= 85*3\n= 255 seconds"
-        },
-        {
-            "id": 45,
-            "answerIndex": 0,
-            "answers": [
-                "115 cm",
-                "110 cm",
-                "200 cm",
-                "95 cm"
-            ],
-            "question": "A long, thin strip of width 10cm is kept on a flat surface. Another identical strip is kept on it in an overlapping manner such that the combined width of the two is 15cm. What is the width if 22 such strips kept like this?",
-            "solution": "Total width\n= 10+(21*(15-10))\n= 115 cm"
-        },
-        {
-            "id": 46,
-            "answerIndex": 0,
-            "answers": [
-                "256",
-                "128",
-                "225",
-                "127"
-            ],
-            "question": "A game is played between 2 players and one player is declared as winner. All the winners from first round, played in the second round. All the winners from second round played in third round and so on. If 8 rounds were played to declare only one player as winner, how many players played in first round?",
-            "solution": "No. of players in the first round\n= 2^8\n= 256"
-        },
-        {
-            "id": 47,
-            "answerIndex": 0,
-            "answers": [
-                "2000",
-                "4000",
-                "6000",
-                "1000"
-            ],
-            "question": "After spending 2/3 of his salary on rent and food items and 1/4th of the remaining on transportation, Rajesh has Rs.6000 with him. How much did he pay on transportation?",
-            "solution": "Let his salary be Rs.x.\n\nAmount spent on rent\n= 2x/3\nAmount remaining\n= x/3\nAmount spent on transportation\n= x/12\nAmount remaining\n= (x/3)-(x/12)\n= x/4\n\nx/4 = 6000\nx = 24000\n\nAmount spent on transportation\n= x/12\n= 2000"
-        },
-        {
-            "id": 48,
-            "answerIndex": 2,
-            "answers": [
-                "25 kmph",
-                "32 kmph",
-                "20 kmph",
-                "28 kmph"
-            ],
-            "question": "A horse chases a pony 3 hours after the pony started to run. Horse takes 4 hours to reach the pony. If the average speed of the horse is 35 kmph, what is the average speed of the pony? ",
-            "solution": "Distance covered by the horse\n= 35*4\n= 140 km\nThe pony covers 140 km in 7 hours.\n\nPony's speed\n= 20 kmph"
-        },
-        {
-            "id": 49,
-            "answerIndex": 2,
-            "answers": [
-                "33.33%",
-                "75%",
-                "300%",
-                "150%"
-            ],
-            "question": "A trader makes a profit equal to the selling price of 75 articles when he sold 100 of the articles. What % profit did he make in the transaction?",
-            "solution": "Let the SP of an article be Rs.x\n\nWhen 100 articles are sold,\nSP = 100x\nProfit = 75x\n\nCP = SP - Profit\nCP = 25x\n\nProfit% = (75x/25x)*100"
-        },
-        {
-            "id": 50,
-            "answerIndex": 2,
-            "answers": [
-                "12",
-                "58",
-                "64",
-                "89"
-            ],
-            "question": "Of a total of 225 employees, 32% are female, 89% of female employees are between the ages of 20 and 35. How many employees are females between the ages of 20 and 35?",
-            "solution": "No. of female employees between 20-35\n= 0.32*0.89*225\n= 64.08"
-        },
-        {
-            "id": 51,
-            "answerIndex": 3,
-            "answers": [
-                "240",
-                "248",
-                "280",
-                "288"
-            ],
-            "question": "A train starts full of passengers. At the first station, it drops one-third of the passengers and takes 280 more. At the second station, it drops one-half of the new total and takes 12 more. On arriving at the third station, it is found to have 248 passengers. Find the number of passengers in the beginning.",
-            "solution": "Let the initial number of passengers be x.\n\nNumber of passengers when arriving at the second station\n= 2x/3 + 280\nNumber of passengers when arriving at the third station\n= (1/2)*(2x/3 + 280) + 12 = 248\n\n(1/2)*(2x/3+280) = 236\n\n2x/3 + 280 = 472\n\n2x/3 = 192\n\nx = 288"
-        },
-        {
-            "id": 52,
-            "answerIndex": 3,
-            "answers": [
-                "3/10 hours",
-                "3 hours",
-                "2/5 hours",
-                "10/3 hours"
-            ],
-            "question": "Worker W produces n units in 5 hours. Workers V and W, working independently but at the same time, produce n units in 2 hours. How long would it take for V alone to produce n units?",
-            "solution": "No. of units produced by W in 1 hour\n= n/5\nNo. of units produced by V and W in hour\n= n/2\nNo. of units produced by V in 1 hour\n= (n/2)-(n/5)\n= 3n/10\n3n/10 units -> 1 hour\nn units -> 10/3 hours"
-        },
-        {
-            "id": 53,
-            "answerIndex": 2,
-            "answers": [
-                "31",
-                "36",
-                "37",
-                "38"
-            ],
-            "question": "The sum of four consecutive counting numbers is 154. Find the smallest number.",
-            "solution": "x+x+1+x+2+x+3+ = 154\n\n4x+6 = 154\n\nx = 37"
-        },
-        {
-            "id": 54,
-            "answerIndex": 1,
-            "answers": [
-                "353",
-                "65",
-                "244",
-                "4225"
-            ],
-            "question": "(209-144)^3 / ((209*209)-2*(209*144)+(144*144)) = ?",
-            "solution": "(a-b)³=(a-b)(a-b)²=(a-b)(a²-2ab+b²)\n\nSo the answer is 65"
-        },
-        {
-            "id": 55,
-            "answerIndex": 2,
-            "answers": [
-                "25%",
-                "33.33%",
-                "50%",
-                "20%"
-            ],
-            "question": "If 50% of the 2:3 solution of milk and water is replaced with water, then the concentration of the solution is reduced by",
-            "solution": "Let the initial volume of the solution be 5x liters and\nthe amount of milk in it be 2x liters.\nInitial concentration\n= 2x/5x = 40%\n\n50% of the solution is taken out and replaced with water.\n\nAmount of milk in 50% of the solution = x liter\n\nConcentration of the solution\n= x/5x = 20%\n\nThe concentration is reduced by 50%."
-        },
-        {
-            "id": 56,
-            "answerIndex": 0,
-            "answers": [
-                "b < a",
-                "b > a",
-                "b = a",
-                "b >= a"
-            ],
-            "question": "If a and b are positive integers and (a-b)/3.5 = 4/7, then",
-            "solution": "(a-b)/3.5 = 4/7\n\na-b = 2\n\na = b+2\n\nb<a"
-        },
-        {
-            "id": 57,
-            "answerIndex": 0,
-            "answers": [
-                "9B",
-                "6B",
-                "8B",
-                "5B"
-            ],
-            "question": "If A/B = 3/5,then 15A = ?",
-            "solution": "5A = 3B\n15A = 9B"
-        },
-        {
-            "id": 58,
-            "answerIndex": 0,
-            "answers": [
-                "a - (b/3) - (c/2)",
-                "(a/6) - (b/3) - (c/2)",
-                " a - (b/2) - (c/3)",
-                "(a/6) - (b/2) - (c/3)"
-            ],
-            "question": "Three containers A, B and C have volumes a, b, and c respectively; and container A is full of water while the other two are empty. If from container A, water is poured into container B which becomes 1/3 full, and into container C which becomes 1/2 full, how much water is left in container A?",
-            "solution": "Amount of water left in A\n= a - (b/3) - (c/2)"
-        },
-        {
-            "id": 59,
-            "answerIndex": 3,
-            "answers": [
-                "5%",
-                "10%",
-                "16%",
-                "22%"
-            ],
-            "question": "In an acoustics class, 120 students are male and 100 students are female. 25% of the male students and 20% of the female students are engineering students. 20% of the male engineering students and 25% of the female engineering students passed the final exam. What percentage of engineering students passed the exam?",
-            "solution": "No. of engineering students\n= 0.25*120 + 0.2*100\n= 30+20\n= 50\nNo. of students who passed\n= 0.2*30 + 0.25*20\n= 11\n% of engineering students who passed\n= (11/50)*100\n= 22%"
-        },
-        {
-            "id": 60,
-            "answerIndex": 2,
-            "answers": [
-                ".0025",
-                ".0256",
-                ".00027",
-                ".000126"
-            ],
-            "question": "What decimal of an hour is a second?",
-            "solution": "1/3600 = 0.00027"
-        },
-        {
-            "id": 61,
-            "answerIndex": 3,
-            "answers": [
-                "1% of a",
-                "0.5% of a",
-                "10% of a",
-                "0.6% of a"
-            ],
-            "question": "If b equals 10% of a and c equals 20% of b, then which one of the following equals 30% of c?",
-            "solution": "b = 0.1 a\nc = 0.2 b\n\n30% of c\n= 0.3*0.2*0.1a\n= 0.006 a\n= 0.6% of a"
-        },
-        {
-            "id": 62,
-            "answerIndex": 3,
-            "answers": [
-                "3",
-                "4",
-                "6",
-                "7"
-            ],
-            "question": "There are 4 more women than men on Centerville's board of education. If there are 10 members on the board, how many are women?",
-            "solution": "m+w = 10\nw = m+4\n\nm = 3, w = 7"
-        },
-        {
-            "id": 63,
-            "answerIndex": 2,
-            "answers": [
-                "0.172",
-                "1.72",
-                "17.2",
-                "172"
-            ],
-            "question": "If 2994 : 14.5 = 172, then 29.94 : 1.45 = ?",
-            "solution": "2994 : 14.5 = 172\n\n29.94 : 1.45 = 17.2"
-        },
-        {
-            "id": 64,
-            "answerIndex": 2,
-            "answers": [
-                "-4",
-                "-2",
-                "-3",
-                "-1"
-            ],
-            "question": "If 1.125 * 10^k= 0.00125, then the value of k is",
-            "solution": "1.125*10^(-3) = 0.001125\n\nk = -3"
-        },
-        {
-            "id": 65,
-            "answerIndex": 2,
-            "answers": [
-                "1/5",
-                "2/9",
-                "23/99",
-                "23/100"
-            ],
-            "question": "When 0.232323..... is converted into a fraction, then the result is",
-            "solution": "0.232323... = 23/99"
-        },
-        {
-            "id": 66,
-            "answerIndex": 0,
-            "answers": [
-                "1",
-                "4.75",
-                "1.75",
-                "6.5"
-            ],
-            "question": "The value of (3.75 * 3.75 - 2*3.75*2.75 + 2.75*2.75 ) is",
-            "solution": "(a² - 2ab + b²) = (a - b)²\n\n(3.75)² - 2*3.75*2.75 + (2.75)²\n= (3.75-2.75)²\n= 1"
-        },
-        {
-            "id": 67,
-            "answerIndex": 3,
-            "answers": [
-                "35",
-                "250",
-                "75",
-                "85"
-            ],
-            "question": "Peter got 30% of the maximum marks in an examination and failed by 10 marks. However, Paul who took the same examination got 40% of the total marks and got 15 marks more than the passing marks. What were the passing marks in the examination?",
-            "solution": "Let the maximum marks be x.\n\n30% of x is 10 less than the passing mark.\n\n40% of x is 15 more than the passing mark.\n\n0.3x+10 = 0.4x-15\n\n0.1x = 25\n\nx = 250\n\nPassing Marks\n= 30% of 250 + 10\n= 75+10\n= 85"
-        },
-        {
-            "id": 68,
-            "answerIndex": 1,
-            "answers": [
-                "13/16",
-                "15/19",
-                "17/21",
-                "7/8"
-            ],
-            "question": "Which of the following fractions is the smallest?",
-            "solution": "15/19 is the smallest."
-        },
-        {
-            "id": 69,
-            "answerIndex": 2,
-            "answers": [
-                "Rs 13,000",
-                "Rs 10,000",
-                "Rs 7,000",
-                "Rs 5,500"
-            ],
-            "question": "A textile manufacturing firm employees 50 looms. It makes fabrics for a branded company. The aggregate sales value of the output of the 50 looms is Rs 5,00,000 and the monthly manufacturing expenses is Rs 1,50,000. Assume that each loom contributes equally to the sales and manufacturing expenses are evenly spread over the number of looms. Monthly establishment charges are Rs 75,000. If one loom breaks down and remains idle for one month, the decrease in profit is",
-            "solution": "Each loom contributes equally to the sales and manufacturing expenses.\n\nEstablishment Charges are fixed.\n\nDecrease in Profit\n= Sales from the idle loom - Manufacturing expense of the idle loom\n= (500000/50)-(150000/50)\n= 7000"
-        },
-        {
-            "id": 70,
-            "answerIndex": 0,
-            "answers": [
-                "16.66% profit",
-                "12% loss",
-                "29.17% loss",
-                "8.33% profit"
-            ],
-            "question": "After offering a discount of 37.5%, Pankaj sold the rice at a profit of 25%. Had he offered a discount of 41.67%, his profit or loss percent would have been",
-            "solution": "0.625*SP = 1.25*CP\n\n\n0.5833*SP\n= 0.5833*(1.25/0.625)*CP\n= 1.1666 CP\n\nProfit\n= 0.1666 CP\nProfit %\n= (Profit/CP)*100\n= 16.66%"
-        }
-    ]
+  "formula": "Fractions are written in the form x/y, where y≠0.\n\nx is called the numerator and\ny is called the denominator.\n\nTypes of fractions:\n\n(i) Proper fractions:\nNumerator<Denominator\nEg:2/3, 6/11\n(ii) Improper Fractions:\nNumerator>Denominator\nEg:3/2, 11/6\n(iii) Mixed Fractions:\nThey have two parts, a whole number and a fraction.\nEg.1(2/3), 5(3/14)\n(iv) Decimal Fractions\nThey have powers of 10 as denominators.\nEg:7/10, 9/100, 13/1000\n\nThere are many more types of fractions.\n\nA fraction is converted into percentage by multiplying by 100.\n\nEg: To convert 2/5 into percentage,\n(2/5)*100 = 40%",
+  "problems": [
+    {
+      "id": 1,
+      "answerIndex": 2,
+      "answers": ["x=1/z", "x=1/z²", "x=z", "None of the above"],
+      "question": "If x=1/y and y=1/z, then",
+      "solution": "x=1/y\n\nx=1/(1/z) = z"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": ["5/7", "4/7", "7/4", "7/5"],
+      "question": "What fraction of a number is two-sevenths of two and a half times the number?",
+      "solution": "Let the number be x.\n\n2½ x = (5/2)x\n\n(2/7)*(5/2)x\n= 5/7 x"
+    },
+    {
+      "id": 3,
+      "answerIndex": 3,
+      "answers": ["14", "49", "35", "51"],
+      "question": "A box contains 140 ice-creams, 30% of which are strawberry, two-sevenths are chocolate, 5% are mango and the rest are vanilla. How many ice-creams are vanilla flavoured?",
+      "solution": "No. of strawberry ice-creams\n= 30% of 140\n= 42\nNo. of chocolate ice-creams\n= (2/7)*140\n= 40\nNo. of mango ice-creams\n= 5% of 140\n= 7\nNo. of vanilla\n= 140-(42+40+7)\n= 51"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": ["0.7", "0.07", "0.035", "0.35"],
+      "question": "Find the decimal value of 30% of 20% of (7/12).",
+      "solution": "(30/100)*(20/100)*(7/12)\n= 7/200\n= 0.035"
+    },
+    {
+      "id": 5,
+      "answerIndex": 3,
+      "answers": ["2", "2/100", "2/1000", "2/10000"],
+      "question": "Convert 2% of (0.01) into a fraction.",
+      "solution": "2% of 0.01\n= (2/100)*(0.01)\n= (2/100)*(1/100)\n= 2/10000"
+    },
+    {
+      "id": 6,
+      "answerIndex": 0,
+      "answers": ["1/6", "1/5", "1/4", "2/3"],
+      "question": "Priya and Riya baked cookies. Priya ate half of it and Riya ate one-third of it. They gave the rest to Heena. What fraction of the cookies did Heena get?",
+      "solution": "Let x be the fraction of the cookies Heena got.\n(1/2)+(1/3)+x=1\n(5/6)+x = 1\nx = 1-(5/6)\nx = 1/6"
+    },
+    {
+      "id": 7,
+      "answerIndex": 2,
+      "answers": ["24", "36", "48", "40"],
+      "question": "The sum of two numbers is 14 and the sum of their reciprocals is 7/24. Find their product.",
+      "solution": "Let the two numbers be x and y.\nx+y = 14\n\n(1/x)+(1/y) = 7/24\n(x+y)/xy = 7/24\n14/xy = 7/24\nxy = 48"
+    },
+    {
+      "id": 8,
+      "answerIndex": 2,
+      "answers": ["x > y > z", "y < z < x", "y > x > z", "x < y < z"],
+      "question": "If x=3/4, y=4/5 and z=3/5, which of the following is true?",
+      "solution": "x = 15/20\ny = 16/20\nz = 12/20\n\ny>x>z"
+    },
+    {
+      "id": 9,
+      "answerIndex": 3,
+      "answers": ["8", "6", "10", "4"],
+      "question": "The sum of a number and its reciprocal is 17/4. Find the number.",
+      "solution": "x+(1/x) = 17/4\n(x²+1)/x = 17/4\n\nSubstitute the options in the above equations.\nx=4"
+    },
+    {
+      "id": 10,
+      "answerIndex": 0,
+      "answers": ["35/6", "6", "5/2", "7/2"],
+      "question": "If x=2 and y=3, find the value of\nx+(1/x)+(1/y)+y",
+      "solution": "x+(1/x)+(1/y)+y\n= 2+(1/2)+3+(1/3)\n= 35/6"
+    },
+    {
+      "id": 11,
+      "answerIndex": 0,
+      "answers": ["1", "2", "3", "4"],
+      "question": "If x=5 and y=7, find the value of\n(x²-14x+49)/(25-10y+y²)",
+      "solution": "(x²-14x+49) \n= (x-7)²\n= (5-7)²\n= 4\n(25-10y+y²) \n= (5-y)²\n= (5-7)²\n= 4\n4/4 = 1"
+    },
+    {
+      "id": 12,
+      "answerIndex": 0,
+      "answers": ["1/2", "2/5", "1/4", "3/5"],
+      "question": "Ram spends one-fifth of his salary for his children's education, 20% for household expenditures, 10% for other miscellaneous expenses and saves the rest. What fraction of his salary does he save?",
+      "solution": "1/5 = 20%\n\n% he saves\n= 100-(20+20+10) %\n= 50%\n50% = 1/2"
+    },
+    {
+      "id": 13,
+      "answerIndex": 1,
+      "answers": ["30", "20", "25", "35"],
+      "question": "After giving one-fourth of her chocolates to Tina, Anna has 60 chocolates. How many chocolates did she give to Tina?",
+      "solution": "Let the no. of chocolates Anna had be x\n\nx-(x/4) = 60\n3x/4 = 60\nx=80\n\nShe gave (x/4)=20 chocolates to Tina"
+    },
+    {
+      "id": 14,
+      "answerIndex": 2,
+      "answers": ["11/25", "12/25", "14/25", "3/5"],
+      "question": "Two candidates contested in an election and one of them got 44% of the total votes. If he got 1080 votes less than the winning candidate and all the votes were valid, what fraction of the total votes did the winning candidate get?",
+      "solution": "% of votes the winning candidate got\n= 100-44\n= 56%\n56/100\n= 14/25"
+    },
+    {
+      "id": 15,
+      "answerIndex": 0,
+      "answers": ["29/50", "21/50", "31/50", "19/50"],
+      "question": "60% of a class are boys and 40% are girls. 30% of the girls and 50% of the boys went for a trip. What fraction of the class didn't go for the trip?",
+      "solution": "Let the no. of students in the class be x.\n\nNo. of students who went for the trip\n= 30% of 0.4x + 50% of 0.6x\n= 0.12x+0.3x\n= 0.42x\n0.58x students did not go for the trip.\n\n0.58x/x = 58/100 = 29/50"
+    },
+    {
+      "id": 16,
+      "answerIndex": 0,
+      "answers": ["836/10000", "836/1000", "836/100000", "836/100"],
+      "question": "Which of the following fractions equals 0.0836?",
+      "solution": "836/10000\n= 0.0836"
+    },
+    {
+      "id": 17,
+      "answerIndex": 1,
+      "answers": ["1/1000", "1/10000", "1/100", "1/5000"],
+      "question": "Find the value of (0.05)/500.",
+      "solution": "(0.05)/500\n= 5/50000\n= 1/10000"
+    },
+    {
+      "id": 18,
+      "answerIndex": 0,
+      "answers": ["b < a < c", "b < c < a", "c < a < b", "a < c < b"],
+      "question": "If a=(3/7), b=(3/7)² and c=√(3/7), then which of the following is true?",
+      "solution": "Squaring a proper fraction will make it smaller.\n(3/7)² = 9/49\nCompare 3/7 and 9/49\n3/7 = 21/49\n9/49<21/49\n(3/7)²<3/7<√(3/7)\nb<a<c\n(A) is true"
+    },
+    {
+      "id": 19,
+      "answerIndex": 1,
+      "answers": ["4/3", "1/7", "3/4", "7"],
+      "question": "If x=4, then (x²-6x+9)/(x²-9) = ",
+      "solution": " (x²-6x+9) = (x-3)²\n(x²-9) = (x+3)(x-3)\n\n(x²-6x+9)/(x²-9)\n= (x-3)/(x+3)\n= (4-3)/(4+3)\n= 1/7"
+    },
+    {
+      "id": 20,
+      "answerIndex": 2,
+      "answers": ["4/5", "8/5", "2/3", "6/7"],
+      "question": "[4-½]/[5+¼]",
+      "solution": "4-½ = (8-1)/2 = 7/2\n5+¼ = (20+1)/4 = 21/4\n\n[4-½]/[5+¼] \n= (7/2)/(21/4)\n= 2/3"
+    },
+    {
+      "id": 21,
+      "answerIndex": 3,
+      "answers": ["60", "45", "30", "35"],
+      "question": "By how much is one-third of 570 lesser than half of 450?",
+      "solution": "(1/3)*570 = 190\n\n(1/2)*450 = 225\n\n225-190=35"
+    },
+    {
+      "id": 22,
+      "answerIndex": 1,
+      "answers": ["35,000$", "37,500$", "40,000$", "50,000$"],
+      "question": "The value of three-fifth of a plot is 30,000$. Find the value of three-fourth of the plot.",
+      "solution": "x*3/5 = 30000\n\nx*3/4 = 30000*(3/4)/(3/5)\n          = 30000*5/4\n          = 37,500$"
+    },
+    {
+      "id": 23,
+      "answerIndex": 0,
+      "answers": ["120", "90", "75", "60"],
+      "question": "If a half of a number is added to quarter of the number, the result is 50 more than one-third of the number. Find the number.",
+      "solution": "Let the number be x.\n\n(x/2)+(x/4) = 50+(x/3)\n\n3x/4 = 50+(x/3)\n\n(3x/4)-(x/3) = 50\n\n5x/12 = 50\n\nx=120"
+    },
+    {
+      "id": 24,
+      "answerIndex": 1,
+      "answers": ["Rs.100,000", "Rs.50000", "Rs.80,000", "Rs.60,000"],
+      "question": "A man spends one-fifth of his salary for household expenditures and one fourth of the remaining for his children. He donates one-third of what is left to charity and saves the rest. If he saves Rs.20000, find his salary.",
+      "solution": "Let his salary be Rs.x\n\nAmount spent for household expenditures\n= x/5\nAmount spent for children\n= (1/4)*(4x/5) = x/5\nAmount left\n= x-(2x/5)\n= 3x/5\nAmount donated to charity\n= (1/3)*(3x/5)\n= x/5\nAmount left = Amount saved\n\n x-(3x/5) = 20000\n 2x/5 = 20000\n\nx=Rs.50000\n"
+    },
+    {
+      "id": 25,
+      "answerIndex": 0,
+      "answers": ["3/7", "4/5", "2/9", "5/8"],
+      "question": "A fraction becomes 1/2 if 1 is added to each of the numerator and denominator. If 1 is subtracted from the numerator and denominator, it becomes 1/3. Find the fraction.",
+      "solution": "Let the fraction be x/y\n\n(x+1)/(y+1) = 1/2\n2x+2 = y+1\n2x-y = -1\n\n(x-1)/(y-1) = 1/3\n3x-3 = y-1\n3x-y = 2\n\nSolving the two equations,\nx=3\ny=7"
+    },
+    {
+      "id": 26,
+      "answerIndex": 1,
+      "answers": ["2/11", "2/13", "3/14", "1/6"],
+      "question": "A girl earns twice as much in December as in each of the other months. What part of her entire year's earning does she earn in December?",
+      "solution": "If her earning in the first 11 months is x, her earning in December is 2x.\n\n2x/(11x+2x) = 2x/13x = 2/13"
+    },
+    {
+      "id": 27,
+      "answerIndex": 2,
+      "answers": ["18", "24", "12", "30"],
+      "question": "In a class room, three fourth of the boys are above 160 cm in height and they are 18 in number. Also, out of the total strength, the boys form only two third and the rest are girls. The total number of girls in the class is",
+      "solution": "Let the no. of boys be b.\n\n3/4 b = 18\n\nb = 24\n\nLet the total strength be x.\n\n2/3 x = 24\n\nx = 36\n\nNo. of girls = 12"
+    },
+    {
+      "id": 28,
+      "answerIndex": 3,
+      "answers": ["2/y", "y/2", "y/(y-2)", "(y-2)/y"],
+      "question": "Mr.X takes y hours to complete typing a manuscript. After 2 hours, he was called away. What fractional part of the assignment was left incomplete?",
+      "solution": "He still needs y-2 hours to complete the manuscript.\n\nPart of work incomplete\n= (y-2)/y"
+    },
+    {
+      "id": 29,
+      "answerIndex": 3,
+      "answers": ["90", "150", "300", "450"],
+      "question": "If a light flashes every 6 seconds, how many times will it flash in ¾ of an hour?",
+      "solution": "No. of times it flashes\n= (3/4)*60*60/6\n= 450"
+    },
+    {
+      "id": 30,
+      "answerIndex": 0,
+      "answers": ["30", "33", "34", "35"],
+      "question": "There are 50 students enrolled in a post-graduate program. Of the enrolled students, 90% took the final exam. Two thirds of the students who took the final exam passed. How many students passed thefinal exam?",
+      "solution": "No. of students who passed\n= 2/3*90% of 50\n= (2/3)*(90/100)*50\n= 30"
+    },
+    {
+      "id": 31,
+      "answerIndex": 2,
+      "answers": ["Rs.32000", "Rs.315000", "Rs.30000", "Rs.30300"],
+      "question": "James bought an iPad for Rs.x and spent Rs.(x/8) to buy its accessories. If he spent a sum of Rs.33,750, find the cost of the iPad.",
+      "solution": "x+(x/8) = 33750\n\n9x/8 = 33750\n\nx=Rs.30,000"
+    },
+    {
+      "id": 32,
+      "answerIndex": 1,
+      "answers": ["35", "28", "42", "21"],
+      "question": "The number of boys in a class is one and a half times the number of girls. If the strength of the class is 70, find the number of girls.",
+      "solution": "B=G+(G/2) = 3G/2\n\nB+G=70\n\n(3G/2)+G=70\n5G/2 = 70\nG=28"
+    },
+    {
+      "id": 33,
+      "answerIndex": 2,
+      "answers": ["Rs.2400", "Rs.3000", "Rs.3600", "Rss.4000"],
+      "question": "A, B and C share a sum of money among themselves. A gets half of B's share and B gets one-third of C's share. If A got Rs.400, find the sum.",
+      "solution": "A=400\nB=2A = 800\nC=3B=2400\n\nA+B+C=Rs.3600"
+    },
+    {
+      "id": 34,
+      "answerIndex": 0,
+      "answers": ["5/16", "5/12", "5/8", "3/8"],
+      "question": "One-fourth of a pole is buried under the ground. One-sixth of the remaining length is painted white, one-half of the remainder is painted black and the rest is painted red. What fraction of the pole is painted red?",
+      "solution": "Let the length of the pole be x m.\n\nFraction of pole above the ground\n= 3/4\nFraction of pole painted white\n= (1/6)*(3/4)\n= 1/8\nFraction of pole left\n= (3/4)-(1/8)\n= 5/8\nHalf of this is painted black and half is painted red.\n\nFraction of pole painted red\n= (1/2)*(5/8)\n= 5/16"
+    },
+    {
+      "id": 35,
+      "answerIndex": 3,
+      "answers": ["120", "200", "240", "300"],
+      "question": "The highest score in a cricket match was 2/5th of the total. The second highest score was 90. The sum of the first and second highest scores was (7/10)th of the total. Find the total runs scored.",
+      "solution": "Let the highest score be x and the total runs be t.\n\nx=2t/5\n\nx+90 = 7t/10\n(2t/5)+90 = 7t/10\n3t/10 = 90\nt=300"
+    },
+    {
+      "id": 36,
+      "answerIndex": 3,
+      "answers": ["Rs.500", "Rs.900", "Rs.1200", "Rs.1000"],
+      "question": "A man spends half of his salary on household expenses, 1/4th for rent, 1/5th for travel expenses and deposits the rest in a bank. If his monthly deposits in the bank amount to Rs.50, what is his monthly salary?",
+      "solution": "Part of salary deposited in the bank\n= 1-(1/4)-(1/5)-(1/2)\n= 1/20\n\n1/20 of x = 50\nx = 1000"
+    },
+    {
+      "id": 37,
+      "answerIndex": 1,
+      "answers": ["64/30", "64/33", "64/22", "64/31"],
+      "question": "31 - 29 - 2/33 =",
+      "solution": "31 - 29 - 2/33\n= 2 - 2/33\n= 64/33"
+    },
+    {
+      "id": 38,
+      "answerIndex": 2,
+      "answers": ["E", "1/2 E", "1/4 E", "1/8 E"],
+      "question": "E=I²R. What is the effect of E when I becomes I/2?",
+      "solution": "E = I²R\n\nIf I becomes I/2, E becomes E/4."
+    },
+    {
+      "id": 39,
+      "answerIndex": 2,
+      "answers": ["121", "134", "111", "147"],
+      "question": "3/5 of 25% of 740 = ?",
+      "solution": "3/5 of 25% of 740\n= 111"
+    },
+    {
+      "id": 40,
+      "answerIndex": 1,
+      "answers": ["22/62", "15/46", "2/3", "1"],
+      "question": "Which of the following fractions is less than 1/3?",
+      "solution": "Only 15/46 is less than 1/3."
+    },
+    {
+      "id": 41,
+      "answerIndex": 3,
+      "answers": ["250", "750", "400", "300"],
+      "question": "If 75 % of a number is added to 75, the result is the number itself, then the number is",
+      "solution": "0.75x + 75 = x\n\n0.25x = 75\n\nx = 300"
+    },
+    {
+      "id": 42,
+      "answerIndex": 0,
+      "answers": ["25/39", "14/39", "5/13", "10/3"],
+      "question": "Out of 13 applicants for a job, there are 5 women and 8 men. It is desired to select 2 persons for the job. The probability that at least one of the selected persons will be a woman is",
+      "solution": "P(atleast one woman)\n= 5C2+(5C1*8C1) / 13C2\n= 50/78\n= 25/39"
+    },
+    {
+      "id": 43,
+      "answerIndex": 1,
+      "answers": ["74.5", "74.625", "74.8", "75"],
+      "question": "In a school, for a student out of 100, he got the average of 7 subjects as 74 and he got 79 marks in the 8th subject. What is the average of all the subjects?",
+      "solution": "Average\n = ((74*7)+79)/8\n = 74.625"
+    },
+    {
+      "id": 44,
+      "answerIndex": 0,
+      "answers": ["255", "256", "257", "258"],
+      "question": "A person has to make 86 pieces of a long bar. He takes 3 seconds to cut a piece. What is the total time taken by him in seconds to make 86 pieces?",
+      "solution": "He has to cut 85 times to make 86 pieces.\n\nTime taken\n= 85*3\n= 255 seconds"
+    },
+    {
+      "id": 45,
+      "answerIndex": 0,
+      "answers": ["115 cm", "110 cm", "200 cm", "95 cm"],
+      "question": "A long, thin strip of width 10cm is kept on a flat surface. Another identical strip is kept on it in an overlapping manner such that the combined width of the two is 15cm. What is the width if 22 such strips kept like this?",
+      "solution": "Total width\n= 10+(21*(15-10))\n= 115 cm"
+    },
+    {
+      "id": 46,
+      "answerIndex": 0,
+      "answers": ["256", "128", "225", "127"],
+      "question": "A game is played between 2 players and one player is declared as winner. All the winners from first round, played in the second round. All the winners from second round played in third round and so on. If 8 rounds were played to declare only one player as winner, how many players played in first round?",
+      "solution": "No. of players in the first round\n= 2^8\n= 256"
+    },
+    {
+      "id": 47,
+      "answerIndex": 0,
+      "answers": ["2000", "4000", "6000", "1000"],
+      "question": "After spending 2/3 of his salary on rent and food items and 1/4th of the remaining on transportation, Rajesh has Rs.6000 with him. How much did he pay on transportation?",
+      "solution": "Let his salary be Rs.x.\n\nAmount spent on rent\n= 2x/3\nAmount remaining\n= x/3\nAmount spent on transportation\n= x/12\nAmount remaining\n= (x/3)-(x/12)\n= x/4\n\nx/4 = 6000\nx = 24000\n\nAmount spent on transportation\n= x/12\n= 2000"
+    },
+    {
+      "id": 48,
+      "answerIndex": 2,
+      "answers": ["25 kmph", "32 kmph", "20 kmph", "28 kmph"],
+      "question": "A horse chases a pony 3 hours after the pony started to run. Horse takes 4 hours to reach the pony. If the average speed of the horse is 35 kmph, what is the average speed of the pony? ",
+      "solution": "Distance covered by the horse\n= 35*4\n= 140 km\nThe pony covers 140 km in 7 hours.\n\nPony's speed\n= 20 kmph"
+    },
+    {
+      "id": 49,
+      "answerIndex": 2,
+      "answers": ["33.33%", "75%", "300%", "150%"],
+      "question": "A trader makes a profit equal to the selling price of 75 articles when he sold 100 of the articles. What % profit did he make in the transaction?",
+      "solution": "Let the SP of an article be Rs.x\n\nWhen 100 articles are sold,\nSP = 100x\nProfit = 75x\n\nCP = SP - Profit\nCP = 25x\n\nProfit% = (75x/25x)*100"
+    },
+    {
+      "id": 50,
+      "answerIndex": 2,
+      "answers": ["12", "58", "64", "89"],
+      "question": "Of a total of 225 employees, 32% are female, 89% of female employees are between the ages of 20 and 35. How many employees are females between the ages of 20 and 35?",
+      "solution": "No. of female employees between 20-35\n= 0.32*0.89*225\n= 64.08"
+    },
+    {
+      "id": 51,
+      "answerIndex": 3,
+      "answers": ["240", "248", "280", "288"],
+      "question": "A train starts full of passengers. At the first station, it drops one-third of the passengers and takes 280 more. At the second station, it drops one-half of the new total and takes 12 more. On arriving at the third station, it is found to have 248 passengers. Find the number of passengers in the beginning.",
+      "solution": "Let the initial number of passengers be x.\n\nNumber of passengers when arriving at the second station\n= 2x/3 + 280\nNumber of passengers when arriving at the third station\n= (1/2)*(2x/3 + 280) + 12 = 248\n\n(1/2)*(2x/3+280) = 236\n\n2x/3 + 280 = 472\n\n2x/3 = 192\n\nx = 288"
+    },
+    {
+      "id": 52,
+      "answerIndex": 3,
+      "answers": ["3/10 hours", "3 hours", "2/5 hours", "10/3 hours"],
+      "question": "Worker W produces n units in 5 hours. Workers V and W, working independently but at the same time, produce n units in 2 hours. How long would it take for V alone to produce n units?",
+      "solution": "No. of units produced by W in 1 hour\n= n/5\nNo. of units produced by V and W in hour\n= n/2\nNo. of units produced by V in 1 hour\n= (n/2)-(n/5)\n= 3n/10\n3n/10 units -> 1 hour\nn units -> 10/3 hours"
+    },
+    {
+      "id": 53,
+      "answerIndex": 2,
+      "answers": ["31", "36", "37", "38"],
+      "question": "The sum of four consecutive counting numbers is 154. Find the smallest number.",
+      "solution": "x+x+1+x+2+x+3+ = 154\n\n4x+6 = 154\n\nx = 37"
+    },
+    {
+      "id": 54,
+      "answerIndex": 1,
+      "answers": ["353", "65", "244", "4225"],
+      "question": "(209-144)^3 / ((209*209)-2*(209*144)+(144*144)) = ?",
+      "solution": "(a-b)³=(a-b)(a-b)²=(a-b)(a²-2ab+b²)\n\nSo the answer is 65"
+    },
+    {
+      "id": 55,
+      "answerIndex": 2,
+      "answers": ["25%", "33.33%", "50%", "20%"],
+      "question": "If 50% of the 2:3 solution of milk and water is replaced with water, then the concentration of the solution is reduced by",
+      "solution": "Let the initial volume of the solution be 5x liters and\nthe amount of milk in it be 2x liters.\nInitial concentration\n= 2x/5x = 40%\n\n50% of the solution is taken out and replaced with water.\n\nAmount of milk in 50% of the solution = x liter\n\nConcentration of the solution\n= x/5x = 20%\n\nThe concentration is reduced by 50%."
+    },
+    {
+      "id": 56,
+      "answerIndex": 0,
+      "answers": ["b < a", "b > a", "b = a", "b >= a"],
+      "question": "If a and b are positive integers and (a-b)/3.5 = 4/7, then",
+      "solution": "(a-b)/3.5 = 4/7\n\na-b = 2\n\na = b+2\n\nb<a"
+    },
+    {
+      "id": 57,
+      "answerIndex": 0,
+      "answers": ["9B", "6B", "8B", "5B"],
+      "question": "If A/B = 3/5,then 15A = ?",
+      "solution": "5A = 3B\n15A = 9B"
+    },
+    {
+      "id": 58,
+      "answerIndex": 0,
+      "answers": [
+        "a - (b/3) - (c/2)",
+        "(a/6) - (b/3) - (c/2)",
+        " a - (b/2) - (c/3)",
+        "(a/6) - (b/2) - (c/3)"
+      ],
+      "question": "Three containers A, B and C have volumes a, b, and c respectively; and container A is full of water while the other two are empty. If from container A, water is poured into container B which becomes 1/3 full, and into container C which becomes 1/2 full, how much water is left in container A?",
+      "solution": "Amount of water left in A\n= a - (b/3) - (c/2)"
+    },
+    {
+      "id": 59,
+      "answerIndex": 3,
+      "answers": ["5%", "10%", "16%", "22%"],
+      "question": "In an acoustics class, 120 students are male and 100 students are female. 25% of the male students and 20% of the female students are engineering students. 20% of the male engineering students and 25% of the female engineering students passed the final exam. What percentage of engineering students passed the exam?",
+      "solution": "No. of engineering students\n= 0.25*120 + 0.2*100\n= 30+20\n= 50\nNo. of students who passed\n= 0.2*30 + 0.25*20\n= 11\n% of engineering students who passed\n= (11/50)*100\n= 22%"
+    },
+    {
+      "id": 60,
+      "answerIndex": 2,
+      "answers": [".0025", ".0256", ".00027", ".000126"],
+      "question": "What decimal of an hour is a second?",
+      "solution": "1/3600 = 0.00027"
+    },
+    {
+      "id": 61,
+      "answerIndex": 3,
+      "answers": ["1% of a", "0.5% of a", "10% of a", "0.6% of a"],
+      "question": "If b equals 10% of a and c equals 20% of b, then which one of the following equals 30% of c?",
+      "solution": "b = 0.1 a\nc = 0.2 b\n\n30% of c\n= 0.3*0.2*0.1a\n= 0.006 a\n= 0.6% of a"
+    },
+    {
+      "id": 62,
+      "answerIndex": 3,
+      "answers": ["3", "4", "6", "7"],
+      "question": "There are 4 more women than men on Centerville's board of education. If there are 10 members on the board, how many are women?",
+      "solution": "m+w = 10\nw = m+4\n\nm = 3, w = 7"
+    },
+    {
+      "id": 63,
+      "answerIndex": 2,
+      "answers": ["0.172", "1.72", "17.2", "172"],
+      "question": "If 2994 : 14.5 = 172, then 29.94 : 1.45 = ?",
+      "solution": "2994 : 14.5 = 172\n\n29.94 : 1.45 = 17.2"
+    },
+    {
+      "id": 64,
+      "answerIndex": 2,
+      "answers": ["-4", "-2", "-3", "-1"],
+      "question": "If 1.125 * 10^k= 0.00125, then the value of k is",
+      "solution": "1.125*10^(-3) = 0.001125\n\nk = -3"
+    },
+    {
+      "id": 65,
+      "answerIndex": 2,
+      "answers": ["1/5", "2/9", "23/99", "23/100"],
+      "question": "When 0.232323..... is converted into a fraction, then the result is",
+      "solution": "0.232323... = 23/99"
+    },
+    {
+      "id": 66,
+      "answerIndex": 0,
+      "answers": ["1", "4.75", "1.75", "6.5"],
+      "question": "The value of (3.75 * 3.75 - 2*3.75*2.75 + 2.75*2.75 ) is",
+      "solution": "(a² - 2ab + b²) = (a - b)²\n\n(3.75)² - 2*3.75*2.75 + (2.75)²\n= (3.75-2.75)²\n= 1"
+    },
+    {
+      "id": 67,
+      "answerIndex": 3,
+      "answers": ["35", "250", "75", "85"],
+      "question": "Peter got 30% of the maximum marks in an examination and failed by 10 marks. However, Paul who took the same examination got 40% of the total marks and got 15 marks more than the passing marks. What were the passing marks in the examination?",
+      "solution": "Let the maximum marks be x.\n\n30% of x is 10 less than the passing mark.\n\n40% of x is 15 more than the passing mark.\n\n0.3x+10 = 0.4x-15\n\n0.1x = 25\n\nx = 250\n\nPassing Marks\n= 30% of 250 + 10\n= 75+10\n= 85"
+    },
+    {
+      "id": 68,
+      "answerIndex": 1,
+      "answers": ["13/16", "15/19", "17/21", "7/8"],
+      "question": "Which of the following fractions is the smallest?",
+      "solution": "15/19 is the smallest."
+    },
+    {
+      "id": 69,
+      "answerIndex": 2,
+      "answers": ["Rs 13,000", "Rs 10,000", "Rs 7,000", "Rs 5,500"],
+      "question": "A textile manufacturing firm employees 50 looms. It makes fabrics for a branded company. The aggregate sales value of the output of the 50 looms is Rs 5,00,000 and the monthly manufacturing expenses is Rs 1,50,000. Assume that each loom contributes equally to the sales and manufacturing expenses are evenly spread over the number of looms. Monthly establishment charges are Rs 75,000. If one loom breaks down and remains idle for one month, the decrease in profit is",
+      "solution": "Each loom contributes equally to the sales and manufacturing expenses.\n\nEstablishment Charges are fixed.\n\nDecrease in Profit\n= Sales from the idle loom - Manufacturing expense of the idle loom\n= (500000/50)-(150000/50)\n= 7000"
+    },
+    {
+      "id": 70,
+      "answerIndex": 0,
+      "answers": ["16.66% profit", "12% loss", "29.17% loss", "8.33% profit"],
+      "question": "After offering a discount of 37.5%, Pankaj sold the rice at a profit of 25%. Had he offered a discount of 41.67%, his profit or loss percent would have been",
+      "solution": "0.625*SP = 1.25*CP\n\n\n0.5833*SP\n= 0.5833*(1.25/0.625)*CP\n= 1.1666 CP\n\nProfit\n= 0.1666 CP\nProfit %\n= (Profit/CP)*100\n= 16.66%"
+    }
+  ]
 }

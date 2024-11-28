@@ -1,893 +1,533 @@
 {
-    "formula": "SQUARE\nIf the side = a units,\nArea = a² sq.units\nPerimeter = 4a units\nDiagonal = √2a units\n\nRECTANGLE\nIf the length = l and breadth = b units,\nArea = lb sq.units\nPerimeter = 2*(l+b) units\nDiagonal = √(l²+b² ) units\n\nCIRCLE\nIf the radius = r units\nArea = πr² sq.units\nCircumference = 2πr units\n\nHEXAGON\nIf the side of a regular hexagon=a units,\nArea = 3√3a²/2 sq.units\nPerimeter = 6a units\n\nCUBE\nIf the edge of a cube = a units\nVolume = a³ cubic units\nSurface Area = 6a² sq.units\nDiagonal = √3a units\n\nCUBOID\nIf the length = l, breadth = b and height = h units,\nVolume = lbh cubic units\nSurface Area = 2*(lb+bh+hl) sq.units\nDiagonal = √(l²+b²+h²) units\n\nSPHERE\nSurface area = 4 * PI * r^2\nVolume = (4 * PI * r^3)/3\n\nCYLINDER\nIf the height = h and the base radius = r units,\nVolume = πr²h cubic units\nCurved Surface Area = 2πrh sq.units\nTotal Surface Area = 2πr(h+r) sq.units\n\nCONE\nIf the height = h and the base radius = r units,\nVolume = (1/3)πr²h cubic units\nSlant Height l = √(r²+h²) units \nCurved Surface Area = πrl sq.units\nTotal Surface Area = πr(l+r) sq.units ",
-    "problems": [
-        {
-            "id": 1,
-            "answerIndex": 0,
-            "answers": [
-                "2500",
-                "500",
-                "100",
-                "50"
-            ],
-            "question": "The size of a wooden block is 1*5*10cm³. Find the number of blocks needed to construct a wooden cube of side 50cm.",
-            "solution": "No. of blocks needed = (50*50*50)/(1*5*10) = 2500"
-        },
-        {
-            "id": 2,
-            "answerIndex": 0,
-            "answers": [
-                "8",
-                "16",
-                "32",
-                "64"
-            ],
-            "question": "The size of a wooden block is 2*4*8 cm³. Find the minimum number of such blocks needed to construct a wooden cube.",
-            "solution": "A wooden cube constructed from these blocks will have a side of minimum 8cm.\n\nNo. of blocks needed = (8*8*8)/(2*4*8) = 8"
-        },
-        {
-            "id": 3,
-            "answerIndex": 3,
-            "answers": [
-                "12m",
-                "10m",
-                "8m",
-                "6m"
-            ],
-            "question": "Three cubes of sides 3m, 4m and 5m are melted to form a new cube. The side of the new cube is",
-            "solution": "Total volume of the three cubes \n= 3³+4³+5³ = 216m³\nSide of the new cube = 6m"
-        },
-        {
-            "id": 4,
-            "answerIndex": 2,
-            "answers": [
-                "108",
-                "54",
-                "27",
-                "6"
-            ],
-            "question": "A wooden cube of volume 216 m³ is cut into smaller cubes each of whose side measure 2 m. How many smaller cubes have been formed?",
-            "solution": "Volume of the smaller cubes \n= a³ = 8m³\nNumber of cubes = 216/8 = 27"
-        },
-        {
-            "id": 5,
-            "answerIndex": 3,
-            "answers": [
-                "150",
-                "50",
-                "15",
-                "6"
-            ],
-            "question": "A cuboid of length 10m, breadth 5m and height 15m is to be formed using cubes of side 5m. How many such cubes are needed to form the cuboid?",
-            "solution": "No. of cubes needed \n= Volume of the cuboid/Volume of a cube\n= (10*15*5)/(5*5*5) = 6\n"
-        },
-        {
-            "id": 6,
-            "answerIndex": 2,
-            "answers": [
-                "1",
-                "2",
-                "3",
-                "6"
-            ],
-            "question": "A cuboid of length 16m, breadth 9m and height 12m is cut into 64 equal smaller cubes. How much do the sides of the cubes measure?",
-            "solution": "Volume of the smaller cube \n= 16*9*12 : 64 \n= 27m³\nSide of the smaller cube = 3m"
-        },
-        {
-            "id": 7,
-            "answerIndex": 2,
-            "answers": [
-                "10 m³",
-                "20 m³",
-                "50 m³",
-                "100 m³"
-            ],
-            "question": "A cylinder of radius 5m and height 7m is melted to form 11 equal cuboids. Find the volume of the cuboid.",
-            "solution": "Volume of the cylinder \n= πr²h = 550m³\nVolume of the cuboid \n= 550/11 = 50 m³"
-        },
-        {
-            "id": 8,
-            "answerIndex": 0,
-            "answers": [
-                "600",
-                "300",
-                "150",
-                "115"
-            ],
-            "question": "The number of revolutions a wheel of diameter 21cm takes in travelling a distance of 396m is",
-            "solution": "No. of revolutions \n= Distance travelled/Circumference \n= 39600/πd \n= 600"
-        },
-        {
-            "id": 9,
-            "answerIndex": 2,
-            "answers": [
-                "100 cm",
-                "50 cm",
-                "25 cm",
-                "20 cm"
-            ],
-            "question": "A metal cube of side 5 cm is hammered into a square sheet of thickness 0.2 cm. The side of the sheet is",
-            "solution": "Volume of the cube = Volume of the sheet\n\n5³ = 0.2*a²\n\na = 25 cm"
-        },
-        {
-            "id": 10,
-            "answerIndex": 1,
-            "answers": [
-                "0.88 hrs",
-                "1.76 hrs",
-                "50.4 hrs",
-                "61.6 hrs"
-            ],
-            "question": "A man runs around a circular track of radius 70 m at a speed of 5 km/hr. How long does it take for him to complete 20 rounds?",
-            "solution": "Circumference of the track \n= 2*π*70 m \n= 440m\nTime to complete 20 rounds \n= 20*440/5000 \n= 1.76 hrs"
-        },
-        {
-            "id": 11,
-            "answerIndex": 2,
-            "answers": [
-                "12.5 cm²",
-                "25 cm²",
-                "50 cm²",
-                "100 cm²"
-            ],
-            "question": "The area of the largest square that can be inscribed in a circle of radius 5cm is",
-            "solution": "Diagonal of the square = Diameter of the circle\n\n√2 a = 2r = 10cm\n\na² = 50 cm²"
-        },
-        {
-            "id": 12,
-            "answerIndex": 3,
-            "answers": [
-                "10m",
-                "5m",
-                "7.5m",
-                "4.8m"
-            ],
-            "question": "In a rectangular hall of length 12m and breadth 8m, the sum of the areas of the floor and the ceiling is equal to the sum of the area of the four walls. Find the height of the hall.",
-            "solution": "2*12*8 = (2*12h) + (2*8h)\n\nh = 4.8m"
-        },
-        {
-            "id": 13,
-            "answerIndex": 0,
-            "answers": [
-                "πa²/4",
-                "πa²/2",
-                "πa²/8",
-                "πa²"
-            ],
-            "question": "The area of the largest circle that can be inscribed in a square of side a is ",
-            "solution": "Diameter of the circle = Side of the square\n\n2r = a\n\nArea = πa²/4"
-        },
-        {
-            "id": 14,
-            "answerIndex": 2,
-            "answers": [
-                "30 cm²",
-                "36 cm²",
-                "54 cm²",
-                "180 cm²"
-            ],
-            "question": "The sides of a rectangle are in the ratio 2:3. If the perimeter of the rectangle is 30 cm, find its area.",
-            "solution": "2x=b\n\n3x=l\n\n2b+2l=30\n\nx=3\n\nA=b*l\n\nA=54cm²"
-        },
-        {
-            "id": 15,
-            "answerIndex": 3,
-            "answers": [
-                "480 liters",
-                "240 liters",
-                "240000 liters",
-                "480000 liters"
-            ],
-            "question": "The capacity of a tank of dimensions 12m*10m*4m is",
-            "solution": "Volume of the tank \n= 12*10*4\n= 480 cubic metres\n\nConverting cubic metre to liters,\nCapacity of the tank\n= 480*1000 \n= 480,000 liters\n"
-        },
-        {
-            "id": 16,
-            "answerIndex": 0,
-            "answers": [
-                "6 units",
-                "36 units",
-                "12 units",
-                "10 units"
-            ],
-            "question": "If the numerical values of the volume and surface area of a cube are equal, find the length of its edge.",
-            "solution": "Let the length of its edge be a m.\n\nVolume of a cube \n= a³ cubic units\nSurface area \n= 6a² square units\na³ = 6a²\n\na = 6 units"
-        },
-        {
-            "id": 17,
-            "answerIndex": 1,
-            "answers": [
-                "64 cm",
-                "48 cm",
-                "96 cm",
-                "36 cm"
-            ],
-            "question": "The area of a regular hexagon is 96√3 cm². The perimeter of the hexagon is ",
-            "solution": "Area of a hexagon \n= (3√3/2)a² = 96√3\n\na² = 96*2/3 = 64\n\na = 8 cm\n\nPerimeter of a hexagon\n= 6a\n= 48 cm"
-        },
-        {
-            "id": 18,
-            "answerIndex": 3,
-            "answers": [
-                "170m²",
-                "136m²",
-                "15m²",
-                "120m²"
-            ],
-            "question": "One side of a rectangular field is 8m and one of its diagonals is 17m. The area of the field is",
-            "solution": "√(l²+b²) = 17\n\nl²+b² = 289\n\nl² = 289-64 = 225\n\nl = 15m\n\nArea = 15*8 = 120 m²"
-        },
-        {
-            "id": 19,
-            "answerIndex": 2,
-            "answers": [
-                "6 minutes",
-                "30 minutes",
-                "3 minutes",
-                "5 minutes"
-            ],
-            "question": "The area of a square field is 20000 sq m. A boy crosses the field diagonally at the rate of  4 km/hr. Find the time taken by the boy to cross the field.",
-            "solution": "Side of the field \n= √20000\n= 100√2 m\nDiagonal of the field\n=  √2a\n= 200 m\nTime taken to cross 200 m\n= 0.2/4\n= 0.05 hrs\n= 3 minutes"
-        },
-        {
-            "id": 20,
-            "answerIndex": 1,
-            "answers": [
-                "3:1",
-                "1:3",
-                "1:9",
-                "27:1"
-            ],
-            "question": "A 3 cm cube is cut into as many 1 cm cubes as possible. What is the ratio of the surface area of the larger cube to that of the sum of the surface areas of the smaller cubes? ",
-            "solution": "Surface area of a 3 cm cube\n= 6*3²\n= 54 cm²\nSurface area of a 1 cm cube\n= 6*1²\n= 6 cm²\nNo. of smaller cubes formed\n= Volume of larger cube/Volume of smaller cube\n= 3³/1³\n= 27\nRatio\n= 54/(27*6)\n= 1:3"
-        },
-        {
-            "id": 21,
-            "answerIndex": 2,
-            "answers": [
-                "13m",
-                "5m",
-                "12m",
-                "10m"
-            ],
-            "question": " If the diagonal and the area of a rectangle are 13 m and 60 m², what is the length of the rectangle? ",
-            "solution": "Diagonal of the rectangle\n= √(l²+b²) = 13\nl²+b² = 169\nlb = 60\n\n(60/b)²+b² = 169\n\n(b^4)-169(b^2)+3600 = 0\n\nb² = 144 or 25\nb = 12 or 5\n\nBreadth is the shortest side, hence b = 5m\n\nLength = 12m "
-        },
-        {
-            "id": 22,
-            "answerIndex": 0,
-            "answers": [
-                "2πx units",
-                "2πr units",
-                "2π(r+x) units",
-                "2π units"
-            ],
-            "question": "If the radius of a circle increases by x units, its circumference increases by",
-            "solution": "New radius \n= (r+x) units\nNew circumference\n= 2π(r+x) units\nOriginal circumference\n= 2πr units\nThe circumference increases by 2πx units."
-        },
-        {
-            "id": 23,
-            "answerIndex": 2,
-            "answers": [
-                "2",
-                "6",
-                "12",
-                "24"
-            ],
-            "question": "A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 50 sq. ft. per day, then find the approximate number of days taken by the cow to graze the whole field.",
-            "solution": "The cow can graze the circular area in the middle of the field with radius equal to the length of the rope.\n\nArea which can be grazed by the cow\n= πr²\n= 616 sq.ft\nArea grazed in a day\n= 50 sq.ft\nTime taken to graze 616 sq.ft\n= 616/50\n= 12.13 days"
-        },
-        {
-            "id": 24,
-            "answerIndex": 1,
-            "answers": [
-                "6.25%",
-                "12.5%",
-                "25%",
-                "22%"
-            ],
-            "question": "If a metal block 2cm*4cm*5.5cm is placed inside a right circular cylinder with a radius of 4cm and a height of 7cm, what percentage of the space inside the cylinder is taken up by the block?",
-            "solution": "Volume of the metal block\n= lbh cubic units\n= 2*4*5.5\n= 44 cm³\nVolume of the cylinder\n= πr²h cubic units\n= (22/7)*(4*4)*7 cm³\n= 352 cm³\n% of space occupied by the block\n= (44/352)*100\n= 12.5%"
-        },
-        {
-            "id": 25,
-            "answerIndex": 2,
-            "answers": [
-                "lb+x(l+b)+x²",
-                "lb+x(l+b)",
-                " x(l+b)+x²",
-                "4x"
-            ],
-            "question": "If each of the sides of a rectangle are increased by x units. Find the increase in the area.",
-            "solution": "Area of the rectangle\n= (l+x)(b+x)\n= lb+x(l+b)+x²\nIncrease in area\n= x(l+b)+x²"
-        },
-        {
-            "id": 26,
-            "answerIndex": 3,
-            "answers": [
-                "74 cm³",
-                "218 cm³",
-                "400 cm³",
-                "468 cm³"
-            ],
-            "question": "Two cubes of sides 5 cm and 7 cm are melted together to form a new cube. Find the volume of the new cube.",
-            "solution": "Volume of the first cube\n= 5³\n= 125 cm³\nVolume of the second  cube\n= 7³\n= 343 cm³\nVolume of the new cube\n= 125+343\n= 468 cm³"
-        },
-        {
-            "id": 27,
-            "answerIndex": 3,
-            "answers": [
-                "150%",
-                "600%",
-                "500%",
-                "400%"
-            ],
-            "question": "A 5 cm cube is cut into 1 cm cubes. Find the % increase in surface area after such cutting.",
-            "solution": "Surface area of a 5 cm cube\n= 6*5²\n= 150 cm²\nSurface area of a 1 cm cube\n= 6*1²\n= 6 cm²\nNo. of smaller cubes formed\n= Volume of larger cube/Volume of smaller cube\n= 5³/1³\n= 125\nSum of surface areas of smaller cubes\n= 125*6\n= 750 m²\nIncrease in surface area\n= 600 m²\n% increase\n= (600/150)*100\n= 400%"
-        },
-        {
-            "id": 28,
-            "answerIndex": 2,
-            "answers": [
-                "13m",
-                "5m",
-                "12m",
-                "10m"
-            ],
-            "question": " If the diagonal and the area of a rectangle are 13 m and 60 m², what is the length of the rectangle? ",
-            "solution": "Diagonal of the rectangle\n= √(l²+b²) = 13\nl²+b² = 169\nlb = 60\n\n(60/b)²+b² = 169\n\n(b^4)-169(b^2)+3600 = 0\n\nb² = 144 or 25\nb = 12 or 5\n\nBreadth is the shortest side, hence b = 5m\n\nLength = 12m "
-        },
-        {
-            "id": 29,
-            "answerIndex": 0,
-            "answers": [
-                "1:π",
-                "2:π",
-                "π:1",
-                "π:2"
-            ],
-            "question": "A rectangular sheet of paper is converted into a cylinder by rolling it along its length. What is the ratio of the diameter of the base to the breadth of the paper?",
-            "solution": "Height of the cylinder = Length of the paper\nCircumference of its base = Breadth of the paper\n2πr = b\n\nDiameter \nd = 2r = b/π\nd:b = 1:π"
-        },
-        {
-            "id": 30,
-            "answerIndex": 2,
-            "answers": [
-                "450 m x 300 m",
-                "150 m x 100 m",
-                "480 m x 320 m",
-                "100 m x 100 m"
-            ],
-            "question": "Raj drives slowly along the perimeter of a rectangular park at 24 kmph and completes one full round in 4 min. If the ratio of the length to breadth of the park is 3 : 2, what are the dimensions?",
-            "solution": "Raj's speed = 24 kmph\n\nIn 60 mins, he covers 24 km.\nIn 4 mins, he covers\n24000/15 = 1600 m\nPerimeter of the park\n= 1600 m\nl:b = 3:2\n\n2(l+b)=1600\n2*(3x+2x)=1600\nx=160\n\nl=480m, b=320m"
-        },
-        {
-            "id": 31,
-            "answerIndex": 3,
-            "answers": [
-                "45 feet",
-                "63 feet",
-                "275 feet",
-                "315 feet"
-            ],
-            "question": "Perimeter of the backwheel is 9 feet and that of the front wheel is 7 feet. On travelling a certain distance, the front wheel makes 10 revolutions more than the back wheel. What is the distance?",
-            "solution": "Let the revolutions made by the front wheel be x and that of the back wheel be x-10\n\nx*7 = (x-10)*9\n\n7x = 9x-90\n\nx=45\n\nDistance = 45*7 = 315 feet"
-        },
-        {
-            "id": 32,
-            "answerIndex": 2,
-            "answers": [
-                "24 feet",
-                "22 feet",
-                "20 feet",
-                "14 feet"
-            ],
-            "question": "A circular swimming pool is surrounded all around by a concrete wall 4 feet thick. If the area of the wall is 11/25 of the area of the pool, then the radius of the pool in feet is",
-            "solution": "Let the radius of the pool be r feet.\n\nArea of the pool\n= πr²\nArea of the concrete wall\n= π(r+4)² - πr²\n= 8πr+16π\n\n(8πr+16π) = (11/25)*πr²\n\n200r+400=11r²\n\n11r²-200r-400=0\n\nSolving,\nr=20"
-        },
-        {
-            "id": 33,
-            "answerIndex": 0,
-            "answers": [
-                "30%",
-                "18.75%",
-                "15%",
-                "13.6%"
-            ],
-            "question": "The length, breadth and height of a room are in the ratio 3:2:1. The breadth and height are halved, while the length is doubled. Then the total area of the 4 walls of the room will be decreased by",
-            "solution": "Let the length, breadth and height be 3x, 2x and x.\n\nArea of the 4 walls\n= 2h(l+b)\n= 2x*5x\n= 10x²\n\nNew length, breadth and height\n= 6x, x, (x/2)\n\nNew area\n= 2*(x/2)*(7x)\n= 7x²\n\nDecrease in area\n= 3x²\n% decrease\n= (3x²/10x²)*100\n= 30%"
-        },
-        {
-            "id": 34,
-            "answerIndex": 1,
-            "answers": [
-                "5.5",
-                "4.5",
-                "7.5",
-                "6.5"
-            ],
-            "question": "Nirmal makes a popular brand of ice cream in a rectangular shaped bar 6cm long, 5cm wide and 2cm thick. To cut costs, the company had decided to reduce the volume of the bar by 19%. The thickness will remain same, but the length and width will be decreased by some percentage. The new width will be",
-            "solution": "Volume of the bar\n= lbh\n= 60 cm³\nIf the volume is reduced by 19%,\nnew volume\n= 81% of 60\n= 48.6\nLet the length and breadth be reduced to x%.\n\n((x/100*6)*(x/100)*5)*2 = 48.6\n\n6x² = 48600\nx² = 8100\nx = 90\n\nNew width = 90% of 5 = 4.5"
-        },
-        {
-            "id": 35,
-            "answerIndex": 3,
-            "answers": [
-                "6K",
-                "8K",
-                "12K",
-                "7K"
-            ],
-            "question": "A farmer has two rectangular fields. The larger field has twice the length and 4 times the width of the smaller field. If the smaller field has area K, then the area of the larger field is greater than the area of the smaller field by what amount?",
-            "solution": "lw = K\n\n2l*4w = 8lw\n\n8lw-lw = 7lw = 7K\n\n"
-        },
-        {
-            "id": 36,
-            "answerIndex": 1,
-            "answers": [
-                "3",
-                "4",
-                "5",
-                "6"
-            ],
-            "question": "The length of the side of a square is represented by x+2. The length of the side of an equilateral triangle is 2x. If the square and the equilateral triangle have equal perimeter, then the value of x is",
-            "solution": "Perimeter of the square\n= 4x+8\nPerimeter of the triangle\n= 6x\n\n4x+8=6x\nx=4"
-        },
-        {
-            "id": 37,
-            "answerIndex": 2,
-            "answers": [
-                "16%",
-                "44%",
-                "36%",
-                "40%"
-            ],
-            "question": "If the radius of a circle is decreased by 20 percent, the area of the circle decreases by",
-            "solution": "Let the radius of the circle be r units and the area be πr² square units.\n\nNew radius = 0.8r\n\nNew area\n= 0.64 πr²\n\nDecrease in area\n= 0.36 πr²\n36% decrease."
-        },
-        {
-            "id": 38,
-            "answerIndex": 1,
-            "answers": [
-                "x²/9",
-                "x²/8",
-                "x²/4",
-                "x²"
-            ],
-            "question": "A total of x feet of fencing is to form three sides of a level rectangular yard. What is the maximum possible area of the yard, in terms of x?",
-            "solution": "Let the two sides of the rectangular yard be l feet and b feet.\n\nx feet of fencing covers three sides.\n\nx = 2l + b\nb = x-2l\n\nArea of the yard\n= lb square feet\n= l(x-2l)\n= lx - 2l²\nTo get the maximum possible value for the area,\nd(area)/dl = 0\nx - 4l = 0\nl = x/4\nThe maximum value for area occurs when l = x/4\n\nb = x-2l = x/2\n\nArea\n= (x/4)(x/2)\n= x²/8"
-        },
-        {
-            "id": 39,
-            "answerIndex": 3,
-            "answers": [
-                "24",
-                "120",
-                "240",
-                "450"
-            ],
-            "question": "How many unit cubes are needed to make a block whose dimensions are 10, 9 and 5?",
-            "solution": "No. of cubes needed\n= 10*9*5\n= 450"
-        },
-        {
-            "id": 40,
-            "answerIndex": 3,
-            "answers": [
-                "100%",
-                "200%",
-                "700%",
-                "800%"
-            ],
-            "question": "If the radius of a sphere is doubled, then its volume is increased by",
-            "solution": "v = (4/3) πr³\n\nR = 2r\n\nV = 8*(4/3)πr³\n\nThe volume increses by 800%."
-        },
-        {
-            "id": 41,
-            "answerIndex": 0,
-            "answers": [
-                "100%",
-                "150%",
-                "300%",
-                "120%"
-            ],
-            "question": "What is the percentage increase in area when a triangle is cloned (so that we have two triangles in total) and the resulting two triangles are joined on their bases to form a parallelogram?",
-            "solution": "The area gets doubled since the two triangles are identical.\n\nHence, the area is increased by 100%."
-        },
-        {
-            "id": 42,
-            "answerIndex": 2,
-            "answers": [
-                "2424 cm²",
-                "2446 cm²",
-                "2464 cm²",
-                "2484 cm²"
-            ],
-            "question": "The volume of a sphere is 88/21 * 14³ cm³. The curved surface of the sphere is",
-            "solution": "V = (4/3)πr³ = (88/21)*14³\n\nr = 14\n\nCSA of a sphere\n= 4πr²\n= 2464 cm²"
-        },
-        {
-            "id": 43,
-            "answerIndex": 0,
-            "answers": [
-                "100%",
-                "200%",
-                "300%",
-                "400%"
-            ],
-            "question": "If the height of a cone is doubled, then its volume is increased by",
-            "solution": "V = (1/3)πr²h\n\nIf the height is doubled, the volume is also doubled. Hence, the volume increases by 100%."
-        },
-        {
-            "id": 44,
-            "answerIndex": 2,
-            "answers": [
-                "Rs.1050",
-                "Rs.1400",
-                "Rs.3150",
-                "Rs.4200"
-            ],
-            "question": "The cost of painting the four walls of a room is Rs.350. The cost of painting a room three times in length, breadth and height will be",
-            "solution": "Let the length, breadth and height of the room be l, b and h units.\n\nArea of the 4 walls\n= 2h(l+b)\nIf the length, breadth and height are 3l, 3b and 3h,\n\nArea of the 4 walls\n= 18h(l+b)\n\nCost = 350*9 = Rs.3150"
-        },
-        {
-            "id": 45,
-            "answerIndex": 0,
-            "answers": [
-                "(154×√5) cm²",
-                "11 cm²",
-                "(154×√7) cm²",
-                "5324 cm²"
-            ],
-            "question": "The area of the base of a right circular cone is 154 cm² and its height is 14 cm. The curved surface of the cone is",
-            "solution": "πr² = 154\nr = 7\nh = 14\n\nl = √(r²+h²) = 7√5\n\nCSA = πrl = 154√5 cm²"
-        },
-        {
-            "id": 46,
-            "answerIndex": 1,
-            "answers": [
-                "10 cm",
-                "15 cm",
-                "18 cm",
-                "24 cm"
-            ],
-            "question": "The material of a cone is converted into the shape of a cylinder of equal radius. If the height of the cylinder is 5 cm, the height of the cone is",
-            "solution": "1/3 πr²h = πr²H\n\nh = 3H = 15 cm"
-        },
-        {
-            "id": 47,
-            "answerIndex": 1,
-            "answers": [
-                "20 cm",
-                "25 cm",
-                "35 cm",
-                "50 cm"
-            ],
-            "question": "50 men took a dip in water tank 40 m long and 20 m broad on a religious day. If the average displacements of water by a man is 4 m³, then the rise in the water level in the tank will be",
-            "solution": "Total displacement of water\n= 50*4\n= 200\n\n40*20*h = 200\nh = 1/4 m = 25 cm"
-        },
-        {
-            "id": 48,
-            "answerIndex": 2,
-            "answers": [
-                "2 h",
-                "4 h",
-                "2h/3",
-                "h"
-            ],
-            "question": "A solid consists of a circular cylinder with an exact fitting right circular cone placed on the top. The height of the cone is h. If the total volume of the solid is three times the volume of the cone, then the height of the cylinder is",
-            "solution": "Let the height of the cylinder be H.\n\n1/3 πr²h + πr²H = 3*(1/3 πr²h)\n\nh/3 + H = h\n\nH = 2h/3"
-        },
-        {
-            "id": 49,
-            "answerIndex": 1,
-            "answers": [
-                "1 : 5",
-                "1 : 25",
-                "1 : 125",
-                "1 : 625"
-            ],
-            "question": "A cube of edge 5 cm is cut into cubes of each edge 1 cm. The ratio of the total surface area of one of the small cubes to that of the large cube is equal to",
-            "solution": "Ratio\n=(6*1*1 / 6*5*5)\n= 1:25"
-        },
-        {
-            "id": 50,
-            "answerIndex": 1,
-            "answers": [
-                "84",
-                "0.84",
-                "8.4",
-                "0.084"
-            ],
-            "question": "A rectangular box is 2 m long and 3.5 m wide. How many cubic metres of sand are needed to fill the box upto a depth of 12 cm?",
-            "solution": "Volume needed\n= 2*3.5*0.12\n= 0.84"
-        },
-        {
-            "id": 51,
-            "answerIndex": 2,
-            "answers": [
-                "196 cm²",
-                "784 cm²",
-                "1176 cm²",
-                "588 cm²"
-            ],
-            "question": "The volume of a cube is 2744 cu.cm. Its surface area is",
-            "solution": "a³ = 2744\n\na = 14\n\n6² = 1176 cm²"
-        },
-        {
-            "id": 52,
-            "answerIndex": 1,
-            "answers": [
-                "9800000",
-                "1000000",
-                "7500000",
-                "1200000"
-            ],
-            "question": "A wooden box of dimensions 8 m x 7 m x 6 m is used to carry rectangular boxes of dimensions 8 cm x 7 cm x 6 cm. The maximum number of boxes that can be carried in the wooden box, is",
-            "solution": "No. of boxes\n= (800*700*600)/(8*7*6)\n= 1000000"
-        },
-        {
-            "id": 53,
-            "answerIndex": 1,
-            "answers": [
-                "10/√3 cm",
-                "10√3 cm",
-                "10/√2 cm",
-                "10√2 cm"
-            ],
-            "question": "The surface area of a cube is 600 cm². The length of its diagonal is",
-            "solution": "6a² = 600\na = 10\n\nd = √3 a = 10√3 cm"
-        },
-        {
-            "id": 54,
-            "answerIndex": 2,
-            "answers": [
-                "720",
-                "900",
-                "1200",
-                "1800"
-            ],
-            "question": "A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of four walls, the volume of the hall is",
-            "solution": "2lb = 2h(l+b)\n\n15*12 = h*27\n\nh = 20/3\n\nlbh = 1200"
-        },
-        {
-            "id": 55,
-            "answerIndex": 1,
-            "answers": [
-                "36",
-                "216",
-                "218",
-                "432"
-            ],
-            "question": "How many cubes of 3 cm edge can be cut from a cube of 18 cm edge?",
-            "solution": "No. of cubes\n= 18³/3³\n= 216"
-        },
-        {
-            "id": 56,
-            "answerIndex": 1,
-            "answers": [
-                "56 kg",
-                "36 kg",
-                "48 kg",
-                "27 kg"
-            ],
-            "question": "A beam 9 m long, 40 cm wide and 20 cm high is made up of iron which weighs 50 kg per cubic metre. The weight of the beam is",
-            "solution": "Weight of the beam\n= 9*0.4*0.2*50\n= 36"
-        },
-        {
-            "id": 57,
-            "answerIndex": 3,
-            "answers": [
-                "32 m³",
-                "36 m³",
-                "40 m³",
-                "44 m³"
-            ],
-            "question": "A circular well with a diameter of 2 metres , is dug to a depth of 14 metres. What is the volume of the earth dug out?",
-            "solution": "r = d/2 = 1\n\nVolume of earth\n= πr²h\n= 44 m³"
-        },
-        {
-            "id": 58,
-            "answerIndex": 3,
-            "answers": [
-                "1 : 4",
-                "1 : 16",
-                "4 : 1",
-                "16 : 1"
-            ],
-            "question": "Spheres A and B have their radii 40 cm and 10 cm respectively. The ratio of the surface area of A to the surface area of B is",
-            "solution": "r1:r2 = 4:1\n\nSurface area is proportional to the square of the radius.\n\nA1: A2 = 16:1"
-        },
-        {
-            "id": 59,
-            "answerIndex": 1,
-            "answers": [
-                "4:π",
-                "6:π",
-                "4:3π",
-                "2:π"
-            ],
-            "question": "The ratio of the volume of a cube to that of a sphere which will fit inside the cube is",
-            "solution": "Side of the cube = Diameter of the sphere\n\na = 2r\n\na³ : (4/3)πr³\n= 8r³ : (4/3)πr³\n= 6:π"
-        },
-        {
-            "id": 60,
-            "answerIndex": 1,
-            "answers": [
-                "2√2 cm",
-                "2√26 cm",
-                "2√14 cm",
-                "10√2 cm"
-            ],
-            "question": "The maximum length of a pencil that can be kept in a rectangular box of dimensions 8 cm x 6 cm x 2 cm, is",
-            "solution": "Diagonal of the box\n= √(l²+b²+h²)\n= √104\n= 2√26 cm"
-        },
-        {
-            "id": 61,
-            "answerIndex": 1,
-            "answers": [
-                "1 : 2",
-                "1 : 4",
-                "1 :√2",
-                "3 : 8"
-            ],
-            "question": "The radii of two spheres are in the ratio 1:2. The ratio of their surface areas is",
-            "solution": "Surface area of a sphere is proportional to the square of its radius.\n\nRatio of surface areas\n= 1:4"
-        },
-        {
-            "id": 62,
-            "answerIndex": 1,
-            "answers": [
-                "2 metres",
-                "3 metres",
-                "4 metres",
-                "3√3metres"
-            ],
-            "question": "The length of an edge of a hollow cube open at one face is √3 metres. What is the length of the largest pole that it can accommodate?",
-            "solution": "Diagonal of the cube\n= √3 a\n= 3 m"
-        },
-        {
-            "id": 63,
-            "answerIndex": 3,
-            "answers": [
-                "1 time",
-                "3 times",
-                "6 times",
-                "9 times"
-            ],
-            "question": "The radius of a wire is decreased to one-third. If volume remains the same, length will increase",
-            "solution": "πr²h = π(1/3r)²H\n\nH = 9h"
-        },
-        {
-            "id": 64,
-            "answerIndex": 1,
-            "answers": [
-                "1300 m³",
-                "1331 m³",
-                "1452 m³",
-                "1542 m³"
-            ],
-            "question": "The surface area of a cube is 726 m². Its volume is",
-            "solution": "6a² = 726\n\na = 11\n\nVolume = a³ = 1331"
-        },
-        {
-            "id": 65,
-            "answerIndex": 3,
-            "answers": [
-                "is doubled",
-                "increases 6 times",
-                "increases 4 times",
-                "increases 8 times"
-            ],
-            "question": "If each edge of a cube is doubled, then its volume",
-            "solution": "V = a³\n\nIf the edge is doubled, volume becomes 8 times."
-        },
-        {
-            "id": 66,
-            "answerIndex": 3,
-            "answers": [
-                "120 litres",
-                "12000 litres",
-                "1200 litres",
-                "120000 litres"
-            ],
-            "question": "The capacity of a tank of dimensions (8 m x 6 m x 2.5 m), is",
-            "solution": "8*6*2.5\n= 120 m³\n= 120000 liters"
-        },
-        {
-            "id": 67,
-            "answerIndex": 1,
-            "answers": [
-                "30 m",
-                "30√2 m",
-                "15√2 m",
-                "60 m"
-            ],
-            "question": "The length of the longest rod that can be placed in a room 30 m long, 24 m broad and 18 m high, is",
-            "solution": "Dialonal of the room\n= √(l²+b²+h²)\n= √1800\n= 30√2 m"
-        },
-        {
-            "id": 68,
-            "answerIndex": 2,
-            "answers": [
-                "3 cm",
-                "4 cm",
-                "6 cm",
-                "8 cm"
-            ],
-            "question": "The surface area of a sphere is same as the curved surface area of a right circular cylinder whose height and diameter are 12 cm each. The radius of the sphere is",
-            "solution": "4πR² = 2π6*12\n\nR = 6 cm"
-        },
-        {
-            "id": 69,
-            "answerIndex": 0,
-            "answers": [
-                "4:25",
-                "4:15",
-                "3:25",
-                "3:15"
-            ],
-            "question": "The diagonals of two squares are in the ratio of 2:5. Find the ratio of their areas.",
-            "solution": "Area is proportional to the square of the diagonals.\n\nRatio = 4:25"
-        },
-        {
-            "id": 70,
-            "answerIndex": 1,
-            "answers": [
-                "22 cm",
-                "24 cm",
-                "26 cm",
-                "28 cm"
-            ],
-            "question": "The perimeters of two squares are 40 cm and 32 cm. Find the perimeter of a third square whose area is equal to the difference of the areas of the two squares.",
-            "solution": "4a1 = 40\n4a2 = 32\n\na1 = 10\na2 = 8\n\na² = a1² - a2² = 36\na = 6\n\n4a = 24"
-        },
-        {
-            "id": 71,
-            "answerIndex": 1,
-            "answers": [
-                "18 m",
-                "20 m",
-                "22 m",
-                "25 m"
-            ],
-            "question": "The area of a rectangle is 460 square metres. If the length is 15% more than the breadth, what is the breadth of the rectangular field?",
-            "solution": "l = 1.15 b\n\nlb = 460\n1.15 b² = 460\nb² = 400\nb = 20"
-        },
-        {
-            "id": 72,
-            "answerIndex": 2,
-            "answers": [
-                "152600 m²",
-                "153500 m²",
-                "153600 m²",
-                "153800 m²"
-            ],
-            "question": "The ratio between the length and the breadth of a rectangular park is 3 : 2. If a man cycling along the boundary of the park at the speed of 12 km/hr completes one round in 8 minutes, then the area of the park (in sq. m) is",
-            "solution": "Perimeter of the park\n= Distance covered by the man in 8 minutes\n= 8*12000/60\n= 1600\n2(l+b) = 1600\nl+b = 800\nl:b = 3:2\n\nSolving,\nl = 480\nb = 320\n\nArea = lb = 153600"
-        },
-        {
-            "id": 73,
-            "answerIndex": 1,
-            "answers": [
-                "42 m²",
-                "49 m²",
-                "52 m²",
-                "64 m²"
-            ],
-            "question": "A cistern 6 m long and 4 m wide contains water up to a height of 1 m 25 cm. Find the total area of the wet surface.",
-            "solution": "Area of the wet surface\n= 2h(l+b) + lb\n= 2*1.25(4+6)+6*4\n= 49 m²"
-        },
-        {
-            "id": 74,
-            "answerIndex": 3,
-            "answers": [
-                "800",
-                "125",
-                "400",
-                "8000"
-            ],
-            "question": "A spherical lead ball of radius 10 cm is melted and small lead balls of radius 5 mm are made. The total number of possible small lead balls is",
-            "solution": "No. of balls\n= (100*100*100)/(5*5*5)\n= 8000"
-        }
-    ]
+  "formula": "SQUARE\nIf the side = a units,\nArea = a² sq.units\nPerimeter = 4a units\nDiagonal = √2a units\n\nRECTANGLE\nIf the length = l and breadth = b units,\nArea = lb sq.units\nPerimeter = 2*(l+b) units\nDiagonal = √(l²+b² ) units\n\nCIRCLE\nIf the radius = r units\nArea = πr² sq.units\nCircumference = 2πr units\n\nHEXAGON\nIf the side of a regular hexagon=a units,\nArea = 3√3a²/2 sq.units\nPerimeter = 6a units\n\nCUBE\nIf the edge of a cube = a units\nVolume = a³ cubic units\nSurface Area = 6a² sq.units\nDiagonal = √3a units\n\nCUBOID\nIf the length = l, breadth = b and height = h units,\nVolume = lbh cubic units\nSurface Area = 2*(lb+bh+hl) sq.units\nDiagonal = √(l²+b²+h²) units\n\nSPHERE\nSurface area = 4 * PI * r^2\nVolume = (4 * PI * r^3)/3\n\nCYLINDER\nIf the height = h and the base radius = r units,\nVolume = πr²h cubic units\nCurved Surface Area = 2πrh sq.units\nTotal Surface Area = 2πr(h+r) sq.units\n\nCONE\nIf the height = h and the base radius = r units,\nVolume = (1/3)πr²h cubic units\nSlant Height l = √(r²+h²) units \nCurved Surface Area = πrl sq.units\nTotal Surface Area = πr(l+r) sq.units ",
+  "problems": [
+    {
+      "id": 1,
+      "answerIndex": 0,
+      "answers": ["2500", "500", "100", "50"],
+      "question": "The size of a wooden block is 1*5*10cm³. Find the number of blocks needed to construct a wooden cube of side 50cm.",
+      "solution": "No. of blocks needed = (50*50*50)/(1*5*10) = 2500"
+    },
+    {
+      "id": 2,
+      "answerIndex": 0,
+      "answers": ["8", "16", "32", "64"],
+      "question": "The size of a wooden block is 2*4*8 cm³. Find the minimum number of such blocks needed to construct a wooden cube.",
+      "solution": "A wooden cube constructed from these blocks will have a side of minimum 8cm.\n\nNo. of blocks needed = (8*8*8)/(2*4*8) = 8"
+    },
+    {
+      "id": 3,
+      "answerIndex": 3,
+      "answers": ["12m", "10m", "8m", "6m"],
+      "question": "Three cubes of sides 3m, 4m and 5m are melted to form a new cube. The side of the new cube is",
+      "solution": "Total volume of the three cubes \n= 3³+4³+5³ = 216m³\nSide of the new cube = 6m"
+    },
+    {
+      "id": 4,
+      "answerIndex": 2,
+      "answers": ["108", "54", "27", "6"],
+      "question": "A wooden cube of volume 216 m³ is cut into smaller cubes each of whose side measure 2 m. How many smaller cubes have been formed?",
+      "solution": "Volume of the smaller cubes \n= a³ = 8m³\nNumber of cubes = 216/8 = 27"
+    },
+    {
+      "id": 5,
+      "answerIndex": 3,
+      "answers": ["150", "50", "15", "6"],
+      "question": "A cuboid of length 10m, breadth 5m and height 15m is to be formed using cubes of side 5m. How many such cubes are needed to form the cuboid?",
+      "solution": "No. of cubes needed \n= Volume of the cuboid/Volume of a cube\n= (10*15*5)/(5*5*5) = 6\n"
+    },
+    {
+      "id": 6,
+      "answerIndex": 2,
+      "answers": ["1", "2", "3", "6"],
+      "question": "A cuboid of length 16m, breadth 9m and height 12m is cut into 64 equal smaller cubes. How much do the sides of the cubes measure?",
+      "solution": "Volume of the smaller cube \n= 16*9*12 : 64 \n= 27m³\nSide of the smaller cube = 3m"
+    },
+    {
+      "id": 7,
+      "answerIndex": 2,
+      "answers": ["10 m³", "20 m³", "50 m³", "100 m³"],
+      "question": "A cylinder of radius 5m and height 7m is melted to form 11 equal cuboids. Find the volume of the cuboid.",
+      "solution": "Volume of the cylinder \n= πr²h = 550m³\nVolume of the cuboid \n= 550/11 = 50 m³"
+    },
+    {
+      "id": 8,
+      "answerIndex": 0,
+      "answers": ["600", "300", "150", "115"],
+      "question": "The number of revolutions a wheel of diameter 21cm takes in travelling a distance of 396m is",
+      "solution": "No. of revolutions \n= Distance travelled/Circumference \n= 39600/πd \n= 600"
+    },
+    {
+      "id": 9,
+      "answerIndex": 2,
+      "answers": ["100 cm", "50 cm", "25 cm", "20 cm"],
+      "question": "A metal cube of side 5 cm is hammered into a square sheet of thickness 0.2 cm. The side of the sheet is",
+      "solution": "Volume of the cube = Volume of the sheet\n\n5³ = 0.2*a²\n\na = 25 cm"
+    },
+    {
+      "id": 10,
+      "answerIndex": 1,
+      "answers": ["0.88 hrs", "1.76 hrs", "50.4 hrs", "61.6 hrs"],
+      "question": "A man runs around a circular track of radius 70 m at a speed of 5 km/hr. How long does it take for him to complete 20 rounds?",
+      "solution": "Circumference of the track \n= 2*π*70 m \n= 440m\nTime to complete 20 rounds \n= 20*440/5000 \n= 1.76 hrs"
+    },
+    {
+      "id": 11,
+      "answerIndex": 2,
+      "answers": ["12.5 cm²", "25 cm²", "50 cm²", "100 cm²"],
+      "question": "The area of the largest square that can be inscribed in a circle of radius 5cm is",
+      "solution": "Diagonal of the square = Diameter of the circle\n\n√2 a = 2r = 10cm\n\na² = 50 cm²"
+    },
+    {
+      "id": 12,
+      "answerIndex": 3,
+      "answers": ["10m", "5m", "7.5m", "4.8m"],
+      "question": "In a rectangular hall of length 12m and breadth 8m, the sum of the areas of the floor and the ceiling is equal to the sum of the area of the four walls. Find the height of the hall.",
+      "solution": "2*12*8 = (2*12h) + (2*8h)\n\nh = 4.8m"
+    },
+    {
+      "id": 13,
+      "answerIndex": 0,
+      "answers": ["πa²/4", "πa²/2", "πa²/8", "πa²"],
+      "question": "The area of the largest circle that can be inscribed in a square of side a is ",
+      "solution": "Diameter of the circle = Side of the square\n\n2r = a\n\nArea = πa²/4"
+    },
+    {
+      "id": 14,
+      "answerIndex": 2,
+      "answers": ["30 cm²", "36 cm²", "54 cm²", "180 cm²"],
+      "question": "The sides of a rectangle are in the ratio 2:3. If the perimeter of the rectangle is 30 cm, find its area.",
+      "solution": "2x=b\n\n3x=l\n\n2b+2l=30\n\nx=3\n\nA=b*l\n\nA=54cm²"
+    },
+    {
+      "id": 15,
+      "answerIndex": 3,
+      "answers": ["480 liters", "240 liters", "240000 liters", "480000 liters"],
+      "question": "The capacity of a tank of dimensions 12m*10m*4m is",
+      "solution": "Volume of the tank \n= 12*10*4\n= 480 cubic metres\n\nConverting cubic metre to liters,\nCapacity of the tank\n= 480*1000 \n= 480,000 liters\n"
+    },
+    {
+      "id": 16,
+      "answerIndex": 0,
+      "answers": ["6 units", "36 units", "12 units", "10 units"],
+      "question": "If the numerical values of the volume and surface area of a cube are equal, find the length of its edge.",
+      "solution": "Let the length of its edge be a m.\n\nVolume of a cube \n= a³ cubic units\nSurface area \n= 6a² square units\na³ = 6a²\n\na = 6 units"
+    },
+    {
+      "id": 17,
+      "answerIndex": 1,
+      "answers": ["64 cm", "48 cm", "96 cm", "36 cm"],
+      "question": "The area of a regular hexagon is 96√3 cm². The perimeter of the hexagon is ",
+      "solution": "Area of a hexagon \n= (3√3/2)a² = 96√3\n\na² = 96*2/3 = 64\n\na = 8 cm\n\nPerimeter of a hexagon\n= 6a\n= 48 cm"
+    },
+    {
+      "id": 18,
+      "answerIndex": 3,
+      "answers": ["170m²", "136m²", "15m²", "120m²"],
+      "question": "One side of a rectangular field is 8m and one of its diagonals is 17m. The area of the field is",
+      "solution": "√(l²+b²) = 17\n\nl²+b² = 289\n\nl² = 289-64 = 225\n\nl = 15m\n\nArea = 15*8 = 120 m²"
+    },
+    {
+      "id": 19,
+      "answerIndex": 2,
+      "answers": ["6 minutes", "30 minutes", "3 minutes", "5 minutes"],
+      "question": "The area of a square field is 20000 sq m. A boy crosses the field diagonally at the rate of  4 km/hr. Find the time taken by the boy to cross the field.",
+      "solution": "Side of the field \n= √20000\n= 100√2 m\nDiagonal of the field\n=  √2a\n= 200 m\nTime taken to cross 200 m\n= 0.2/4\n= 0.05 hrs\n= 3 minutes"
+    },
+    {
+      "id": 20,
+      "answerIndex": 1,
+      "answers": ["3:1", "1:3", "1:9", "27:1"],
+      "question": "A 3 cm cube is cut into as many 1 cm cubes as possible. What is the ratio of the surface area of the larger cube to that of the sum of the surface areas of the smaller cubes? ",
+      "solution": "Surface area of a 3 cm cube\n= 6*3²\n= 54 cm²\nSurface area of a 1 cm cube\n= 6*1²\n= 6 cm²\nNo. of smaller cubes formed\n= Volume of larger cube/Volume of smaller cube\n= 3³/1³\n= 27\nRatio\n= 54/(27*6)\n= 1:3"
+    },
+    {
+      "id": 21,
+      "answerIndex": 2,
+      "answers": ["13m", "5m", "12m", "10m"],
+      "question": " If the diagonal and the area of a rectangle are 13 m and 60 m², what is the length of the rectangle? ",
+      "solution": "Diagonal of the rectangle\n= √(l²+b²) = 13\nl²+b² = 169\nlb = 60\n\n(60/b)²+b² = 169\n\n(b^4)-169(b^2)+3600 = 0\n\nb² = 144 or 25\nb = 12 or 5\n\nBreadth is the shortest side, hence b = 5m\n\nLength = 12m "
+    },
+    {
+      "id": 22,
+      "answerIndex": 0,
+      "answers": ["2πx units", "2πr units", "2π(r+x) units", "2π units"],
+      "question": "If the radius of a circle increases by x units, its circumference increases by",
+      "solution": "New radius \n= (r+x) units\nNew circumference\n= 2π(r+x) units\nOriginal circumference\n= 2πr units\nThe circumference increases by 2πx units."
+    },
+    {
+      "id": 23,
+      "answerIndex": 2,
+      "answers": ["2", "6", "12", "24"],
+      "question": "A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 50 sq. ft. per day, then find the approximate number of days taken by the cow to graze the whole field.",
+      "solution": "The cow can graze the circular area in the middle of the field with radius equal to the length of the rope.\n\nArea which can be grazed by the cow\n= πr²\n= 616 sq.ft\nArea grazed in a day\n= 50 sq.ft\nTime taken to graze 616 sq.ft\n= 616/50\n= 12.13 days"
+    },
+    {
+      "id": 24,
+      "answerIndex": 1,
+      "answers": ["6.25%", "12.5%", "25%", "22%"],
+      "question": "If a metal block 2cm*4cm*5.5cm is placed inside a right circular cylinder with a radius of 4cm and a height of 7cm, what percentage of the space inside the cylinder is taken up by the block?",
+      "solution": "Volume of the metal block\n= lbh cubic units\n= 2*4*5.5\n= 44 cm³\nVolume of the cylinder\n= πr²h cubic units\n= (22/7)*(4*4)*7 cm³\n= 352 cm³\n% of space occupied by the block\n= (44/352)*100\n= 12.5%"
+    },
+    {
+      "id": 25,
+      "answerIndex": 2,
+      "answers": ["lb+x(l+b)+x²", "lb+x(l+b)", " x(l+b)+x²", "4x"],
+      "question": "If each of the sides of a rectangle are increased by x units. Find the increase in the area.",
+      "solution": "Area of the rectangle\n= (l+x)(b+x)\n= lb+x(l+b)+x²\nIncrease in area\n= x(l+b)+x²"
+    },
+    {
+      "id": 26,
+      "answerIndex": 3,
+      "answers": ["74 cm³", "218 cm³", "400 cm³", "468 cm³"],
+      "question": "Two cubes of sides 5 cm and 7 cm are melted together to form a new cube. Find the volume of the new cube.",
+      "solution": "Volume of the first cube\n= 5³\n= 125 cm³\nVolume of the second  cube\n= 7³\n= 343 cm³\nVolume of the new cube\n= 125+343\n= 468 cm³"
+    },
+    {
+      "id": 27,
+      "answerIndex": 3,
+      "answers": ["150%", "600%", "500%", "400%"],
+      "question": "A 5 cm cube is cut into 1 cm cubes. Find the % increase in surface area after such cutting.",
+      "solution": "Surface area of a 5 cm cube\n= 6*5²\n= 150 cm²\nSurface area of a 1 cm cube\n= 6*1²\n= 6 cm²\nNo. of smaller cubes formed\n= Volume of larger cube/Volume of smaller cube\n= 5³/1³\n= 125\nSum of surface areas of smaller cubes\n= 125*6\n= 750 m²\nIncrease in surface area\n= 600 m²\n% increase\n= (600/150)*100\n= 400%"
+    },
+    {
+      "id": 28,
+      "answerIndex": 2,
+      "answers": ["13m", "5m", "12m", "10m"],
+      "question": " If the diagonal and the area of a rectangle are 13 m and 60 m², what is the length of the rectangle? ",
+      "solution": "Diagonal of the rectangle\n= √(l²+b²) = 13\nl²+b² = 169\nlb = 60\n\n(60/b)²+b² = 169\n\n(b^4)-169(b^2)+3600 = 0\n\nb² = 144 or 25\nb = 12 or 5\n\nBreadth is the shortest side, hence b = 5m\n\nLength = 12m "
+    },
+    {
+      "id": 29,
+      "answerIndex": 0,
+      "answers": ["1:π", "2:π", "π:1", "π:2"],
+      "question": "A rectangular sheet of paper is converted into a cylinder by rolling it along its length. What is the ratio of the diameter of the base to the breadth of the paper?",
+      "solution": "Height of the cylinder = Length of the paper\nCircumference of its base = Breadth of the paper\n2πr = b\n\nDiameter \nd = 2r = b/π\nd:b = 1:π"
+    },
+    {
+      "id": 30,
+      "answerIndex": 2,
+      "answers": [
+        "450 m x 300 m",
+        "150 m x 100 m",
+        "480 m x 320 m",
+        "100 m x 100 m"
+      ],
+      "question": "Raj drives slowly along the perimeter of a rectangular park at 24 kmph and completes one full round in 4 min. If the ratio of the length to breadth of the park is 3 : 2, what are the dimensions?",
+      "solution": "Raj's speed = 24 kmph\n\nIn 60 mins, he covers 24 km.\nIn 4 mins, he covers\n24000/15 = 1600 m\nPerimeter of the park\n= 1600 m\nl:b = 3:2\n\n2(l+b)=1600\n2*(3x+2x)=1600\nx=160\n\nl=480m, b=320m"
+    },
+    {
+      "id": 31,
+      "answerIndex": 3,
+      "answers": ["45 feet", "63 feet", "275 feet", "315 feet"],
+      "question": "Perimeter of the backwheel is 9 feet and that of the front wheel is 7 feet. On travelling a certain distance, the front wheel makes 10 revolutions more than the back wheel. What is the distance?",
+      "solution": "Let the revolutions made by the front wheel be x and that of the back wheel be x-10\n\nx*7 = (x-10)*9\n\n7x = 9x-90\n\nx=45\n\nDistance = 45*7 = 315 feet"
+    },
+    {
+      "id": 32,
+      "answerIndex": 2,
+      "answers": ["24 feet", "22 feet", "20 feet", "14 feet"],
+      "question": "A circular swimming pool is surrounded all around by a concrete wall 4 feet thick. If the area of the wall is 11/25 of the area of the pool, then the radius of the pool in feet is",
+      "solution": "Let the radius of the pool be r feet.\n\nArea of the pool\n= πr²\nArea of the concrete wall\n= π(r+4)² - πr²\n= 8πr+16π\n\n(8πr+16π) = (11/25)*πr²\n\n200r+400=11r²\n\n11r²-200r-400=0\n\nSolving,\nr=20"
+    },
+    {
+      "id": 33,
+      "answerIndex": 0,
+      "answers": ["30%", "18.75%", "15%", "13.6%"],
+      "question": "The length, breadth and height of a room are in the ratio 3:2:1. The breadth and height are halved, while the length is doubled. Then the total area of the 4 walls of the room will be decreased by",
+      "solution": "Let the length, breadth and height be 3x, 2x and x.\n\nArea of the 4 walls\n= 2h(l+b)\n= 2x*5x\n= 10x²\n\nNew length, breadth and height\n= 6x, x, (x/2)\n\nNew area\n= 2*(x/2)*(7x)\n= 7x²\n\nDecrease in area\n= 3x²\n% decrease\n= (3x²/10x²)*100\n= 30%"
+    },
+    {
+      "id": 34,
+      "answerIndex": 1,
+      "answers": ["5.5", "4.5", "7.5", "6.5"],
+      "question": "Nirmal makes a popular brand of ice cream in a rectangular shaped bar 6cm long, 5cm wide and 2cm thick. To cut costs, the company had decided to reduce the volume of the bar by 19%. The thickness will remain same, but the length and width will be decreased by some percentage. The new width will be",
+      "solution": "Volume of the bar\n= lbh\n= 60 cm³\nIf the volume is reduced by 19%,\nnew volume\n= 81% of 60\n= 48.6\nLet the length and breadth be reduced to x%.\n\n((x/100*6)*(x/100)*5)*2 = 48.6\n\n6x² = 48600\nx² = 8100\nx = 90\n\nNew width = 90% of 5 = 4.5"
+    },
+    {
+      "id": 35,
+      "answerIndex": 3,
+      "answers": ["6K", "8K", "12K", "7K"],
+      "question": "A farmer has two rectangular fields. The larger field has twice the length and 4 times the width of the smaller field. If the smaller field has area K, then the area of the larger field is greater than the area of the smaller field by what amount?",
+      "solution": "lw = K\n\n2l*4w = 8lw\n\n8lw-lw = 7lw = 7K\n\n"
+    },
+    {
+      "id": 36,
+      "answerIndex": 1,
+      "answers": ["3", "4", "5", "6"],
+      "question": "The length of the side of a square is represented by x+2. The length of the side of an equilateral triangle is 2x. If the square and the equilateral triangle have equal perimeter, then the value of x is",
+      "solution": "Perimeter of the square\n= 4x+8\nPerimeter of the triangle\n= 6x\n\n4x+8=6x\nx=4"
+    },
+    {
+      "id": 37,
+      "answerIndex": 2,
+      "answers": ["16%", "44%", "36%", "40%"],
+      "question": "If the radius of a circle is decreased by 20 percent, the area of the circle decreases by",
+      "solution": "Let the radius of the circle be r units and the area be πr² square units.\n\nNew radius = 0.8r\n\nNew area\n= 0.64 πr²\n\nDecrease in area\n= 0.36 πr²\n36% decrease."
+    },
+    {
+      "id": 38,
+      "answerIndex": 1,
+      "answers": ["x²/9", "x²/8", "x²/4", "x²"],
+      "question": "A total of x feet of fencing is to form three sides of a level rectangular yard. What is the maximum possible area of the yard, in terms of x?",
+      "solution": "Let the two sides of the rectangular yard be l feet and b feet.\n\nx feet of fencing covers three sides.\n\nx = 2l + b\nb = x-2l\n\nArea of the yard\n= lb square feet\n= l(x-2l)\n= lx - 2l²\nTo get the maximum possible value for the area,\nd(area)/dl = 0\nx - 4l = 0\nl = x/4\nThe maximum value for area occurs when l = x/4\n\nb = x-2l = x/2\n\nArea\n= (x/4)(x/2)\n= x²/8"
+    },
+    {
+      "id": 39,
+      "answerIndex": 3,
+      "answers": ["24", "120", "240", "450"],
+      "question": "How many unit cubes are needed to make a block whose dimensions are 10, 9 and 5?",
+      "solution": "No. of cubes needed\n= 10*9*5\n= 450"
+    },
+    {
+      "id": 40,
+      "answerIndex": 3,
+      "answers": ["100%", "200%", "700%", "800%"],
+      "question": "If the radius of a sphere is doubled, then its volume is increased by",
+      "solution": "v = (4/3) πr³\n\nR = 2r\n\nV = 8*(4/3)πr³\n\nThe volume increses by 800%."
+    },
+    {
+      "id": 41,
+      "answerIndex": 0,
+      "answers": ["100%", "150%", "300%", "120%"],
+      "question": "What is the percentage increase in area when a triangle is cloned (so that we have two triangles in total) and the resulting two triangles are joined on their bases to form a parallelogram?",
+      "solution": "The area gets doubled since the two triangles are identical.\n\nHence, the area is increased by 100%."
+    },
+    {
+      "id": 42,
+      "answerIndex": 2,
+      "answers": ["2424 cm²", "2446 cm²", "2464 cm²", "2484 cm²"],
+      "question": "The volume of a sphere is 88/21 * 14³ cm³. The curved surface of the sphere is",
+      "solution": "V = (4/3)πr³ = (88/21)*14³\n\nr = 14\n\nCSA of a sphere\n= 4πr²\n= 2464 cm²"
+    },
+    {
+      "id": 43,
+      "answerIndex": 0,
+      "answers": ["100%", "200%", "300%", "400%"],
+      "question": "If the height of a cone is doubled, then its volume is increased by",
+      "solution": "V = (1/3)πr²h\n\nIf the height is doubled, the volume is also doubled. Hence, the volume increases by 100%."
+    },
+    {
+      "id": 44,
+      "answerIndex": 2,
+      "answers": ["Rs.1050", "Rs.1400", "Rs.3150", "Rs.4200"],
+      "question": "The cost of painting the four walls of a room is Rs.350. The cost of painting a room three times in length, breadth and height will be",
+      "solution": "Let the length, breadth and height of the room be l, b and h units.\n\nArea of the 4 walls\n= 2h(l+b)\nIf the length, breadth and height are 3l, 3b and 3h,\n\nArea of the 4 walls\n= 18h(l+b)\n\nCost = 350*9 = Rs.3150"
+    },
+    {
+      "id": 45,
+      "answerIndex": 0,
+      "answers": ["(154×√5) cm²", "11 cm²", "(154×√7) cm²", "5324 cm²"],
+      "question": "The area of the base of a right circular cone is 154 cm² and its height is 14 cm. The curved surface of the cone is",
+      "solution": "πr² = 154\nr = 7\nh = 14\n\nl = √(r²+h²) = 7√5\n\nCSA = πrl = 154√5 cm²"
+    },
+    {
+      "id": 46,
+      "answerIndex": 1,
+      "answers": ["10 cm", "15 cm", "18 cm", "24 cm"],
+      "question": "The material of a cone is converted into the shape of a cylinder of equal radius. If the height of the cylinder is 5 cm, the height of the cone is",
+      "solution": "1/3 πr²h = πr²H\n\nh = 3H = 15 cm"
+    },
+    {
+      "id": 47,
+      "answerIndex": 1,
+      "answers": ["20 cm", "25 cm", "35 cm", "50 cm"],
+      "question": "50 men took a dip in water tank 40 m long and 20 m broad on a religious day. If the average displacements of water by a man is 4 m³, then the rise in the water level in the tank will be",
+      "solution": "Total displacement of water\n= 50*4\n= 200\n\n40*20*h = 200\nh = 1/4 m = 25 cm"
+    },
+    {
+      "id": 48,
+      "answerIndex": 2,
+      "answers": ["2 h", "4 h", "2h/3", "h"],
+      "question": "A solid consists of a circular cylinder with an exact fitting right circular cone placed on the top. The height of the cone is h. If the total volume of the solid is three times the volume of the cone, then the height of the cylinder is",
+      "solution": "Let the height of the cylinder be H.\n\n1/3 πr²h + πr²H = 3*(1/3 πr²h)\n\nh/3 + H = h\n\nH = 2h/3"
+    },
+    {
+      "id": 49,
+      "answerIndex": 1,
+      "answers": ["1 : 5", "1 : 25", "1 : 125", "1 : 625"],
+      "question": "A cube of edge 5 cm is cut into cubes of each edge 1 cm. The ratio of the total surface area of one of the small cubes to that of the large cube is equal to",
+      "solution": "Ratio\n=(6*1*1 / 6*5*5)\n= 1:25"
+    },
+    {
+      "id": 50,
+      "answerIndex": 1,
+      "answers": ["84", "0.84", "8.4", "0.084"],
+      "question": "A rectangular box is 2 m long and 3.5 m wide. How many cubic metres of sand are needed to fill the box upto a depth of 12 cm?",
+      "solution": "Volume needed\n= 2*3.5*0.12\n= 0.84"
+    },
+    {
+      "id": 51,
+      "answerIndex": 2,
+      "answers": ["196 cm²", "784 cm²", "1176 cm²", "588 cm²"],
+      "question": "The volume of a cube is 2744 cu.cm. Its surface area is",
+      "solution": "a³ = 2744\n\na = 14\n\n6² = 1176 cm²"
+    },
+    {
+      "id": 52,
+      "answerIndex": 1,
+      "answers": ["9800000", "1000000", "7500000", "1200000"],
+      "question": "A wooden box of dimensions 8 m x 7 m x 6 m is used to carry rectangular boxes of dimensions 8 cm x 7 cm x 6 cm. The maximum number of boxes that can be carried in the wooden box, is",
+      "solution": "No. of boxes\n= (800*700*600)/(8*7*6)\n= 1000000"
+    },
+    {
+      "id": 53,
+      "answerIndex": 1,
+      "answers": ["10/√3 cm", "10√3 cm", "10/√2 cm", "10√2 cm"],
+      "question": "The surface area of a cube is 600 cm². The length of its diagonal is",
+      "solution": "6a² = 600\na = 10\n\nd = √3 a = 10√3 cm"
+    },
+    {
+      "id": 54,
+      "answerIndex": 2,
+      "answers": ["720", "900", "1200", "1800"],
+      "question": "A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of four walls, the volume of the hall is",
+      "solution": "2lb = 2h(l+b)\n\n15*12 = h*27\n\nh = 20/3\n\nlbh = 1200"
+    },
+    {
+      "id": 55,
+      "answerIndex": 1,
+      "answers": ["36", "216", "218", "432"],
+      "question": "How many cubes of 3 cm edge can be cut from a cube of 18 cm edge?",
+      "solution": "No. of cubes\n= 18³/3³\n= 216"
+    },
+    {
+      "id": 56,
+      "answerIndex": 1,
+      "answers": ["56 kg", "36 kg", "48 kg", "27 kg"],
+      "question": "A beam 9 m long, 40 cm wide and 20 cm high is made up of iron which weighs 50 kg per cubic metre. The weight of the beam is",
+      "solution": "Weight of the beam\n= 9*0.4*0.2*50\n= 36"
+    },
+    {
+      "id": 57,
+      "answerIndex": 3,
+      "answers": ["32 m³", "36 m³", "40 m³", "44 m³"],
+      "question": "A circular well with a diameter of 2 metres , is dug to a depth of 14 metres. What is the volume of the earth dug out?",
+      "solution": "r = d/2 = 1\n\nVolume of earth\n= πr²h\n= 44 m³"
+    },
+    {
+      "id": 58,
+      "answerIndex": 3,
+      "answers": ["1 : 4", "1 : 16", "4 : 1", "16 : 1"],
+      "question": "Spheres A and B have their radii 40 cm and 10 cm respectively. The ratio of the surface area of A to the surface area of B is",
+      "solution": "r1:r2 = 4:1\n\nSurface area is proportional to the square of the radius.\n\nA1: A2 = 16:1"
+    },
+    {
+      "id": 59,
+      "answerIndex": 1,
+      "answers": ["4:π", "6:π", "4:3π", "2:π"],
+      "question": "The ratio of the volume of a cube to that of a sphere which will fit inside the cube is",
+      "solution": "Side of the cube = Diameter of the sphere\n\na = 2r\n\na³ : (4/3)πr³\n= 8r³ : (4/3)πr³\n= 6:π"
+    },
+    {
+      "id": 60,
+      "answerIndex": 1,
+      "answers": ["2√2 cm", "2√26 cm", "2√14 cm", "10√2 cm"],
+      "question": "The maximum length of a pencil that can be kept in a rectangular box of dimensions 8 cm x 6 cm x 2 cm, is",
+      "solution": "Diagonal of the box\n= √(l²+b²+h²)\n= √104\n= 2√26 cm"
+    },
+    {
+      "id": 61,
+      "answerIndex": 1,
+      "answers": ["1 : 2", "1 : 4", "1 :√2", "3 : 8"],
+      "question": "The radii of two spheres are in the ratio 1:2. The ratio of their surface areas is",
+      "solution": "Surface area of a sphere is proportional to the square of its radius.\n\nRatio of surface areas\n= 1:4"
+    },
+    {
+      "id": 62,
+      "answerIndex": 1,
+      "answers": ["2 metres", "3 metres", "4 metres", "3√3metres"],
+      "question": "The length of an edge of a hollow cube open at one face is √3 metres. What is the length of the largest pole that it can accommodate?",
+      "solution": "Diagonal of the cube\n= √3 a\n= 3 m"
+    },
+    {
+      "id": 63,
+      "answerIndex": 3,
+      "answers": ["1 time", "3 times", "6 times", "9 times"],
+      "question": "The radius of a wire is decreased to one-third. If volume remains the same, length will increase",
+      "solution": "πr²h = π(1/3r)²H\n\nH = 9h"
+    },
+    {
+      "id": 64,
+      "answerIndex": 1,
+      "answers": ["1300 m³", "1331 m³", "1452 m³", "1542 m³"],
+      "question": "The surface area of a cube is 726 m². Its volume is",
+      "solution": "6a² = 726\n\na = 11\n\nVolume = a³ = 1331"
+    },
+    {
+      "id": 65,
+      "answerIndex": 3,
+      "answers": [
+        "is doubled",
+        "increases 6 times",
+        "increases 4 times",
+        "increases 8 times"
+      ],
+      "question": "If each edge of a cube is doubled, then its volume",
+      "solution": "V = a³\n\nIf the edge is doubled, volume becomes 8 times."
+    },
+    {
+      "id": 66,
+      "answerIndex": 3,
+      "answers": ["120 litres", "12000 litres", "1200 litres", "120000 litres"],
+      "question": "The capacity of a tank of dimensions (8 m x 6 m x 2.5 m), is",
+      "solution": "8*6*2.5\n= 120 m³\n= 120000 liters"
+    },
+    {
+      "id": 67,
+      "answerIndex": 1,
+      "answers": ["30 m", "30√2 m", "15√2 m", "60 m"],
+      "question": "The length of the longest rod that can be placed in a room 30 m long, 24 m broad and 18 m high, is",
+      "solution": "Dialonal of the room\n= √(l²+b²+h²)\n= √1800\n= 30√2 m"
+    },
+    {
+      "id": 68,
+      "answerIndex": 2,
+      "answers": ["3 cm", "4 cm", "6 cm", "8 cm"],
+      "question": "The surface area of a sphere is same as the curved surface area of a right circular cylinder whose height and diameter are 12 cm each. The radius of the sphere is",
+      "solution": "4πR² = 2π6*12\n\nR = 6 cm"
+    },
+    {
+      "id": 69,
+      "answerIndex": 0,
+      "answers": ["4:25", "4:15", "3:25", "3:15"],
+      "question": "The diagonals of two squares are in the ratio of 2:5. Find the ratio of their areas.",
+      "solution": "Area is proportional to the square of the diagonals.\n\nRatio = 4:25"
+    },
+    {
+      "id": 70,
+      "answerIndex": 1,
+      "answers": ["22 cm", "24 cm", "26 cm", "28 cm"],
+      "question": "The perimeters of two squares are 40 cm and 32 cm. Find the perimeter of a third square whose area is equal to the difference of the areas of the two squares.",
+      "solution": "4a1 = 40\n4a2 = 32\n\na1 = 10\na2 = 8\n\na² = a1² - a2² = 36\na = 6\n\n4a = 24"
+    },
+    {
+      "id": 71,
+      "answerIndex": 1,
+      "answers": ["18 m", "20 m", "22 m", "25 m"],
+      "question": "The area of a rectangle is 460 square metres. If the length is 15% more than the breadth, what is the breadth of the rectangular field?",
+      "solution": "l = 1.15 b\n\nlb = 460\n1.15 b² = 460\nb² = 400\nb = 20"
+    },
+    {
+      "id": 72,
+      "answerIndex": 2,
+      "answers": ["152600 m²", "153500 m²", "153600 m²", "153800 m²"],
+      "question": "The ratio between the length and the breadth of a rectangular park is 3 : 2. If a man cycling along the boundary of the park at the speed of 12 km/hr completes one round in 8 minutes, then the area of the park (in sq. m) is",
+      "solution": "Perimeter of the park\n= Distance covered by the man in 8 minutes\n= 8*12000/60\n= 1600\n2(l+b) = 1600\nl+b = 800\nl:b = 3:2\n\nSolving,\nl = 480\nb = 320\n\nArea = lb = 153600"
+    },
+    {
+      "id": 73,
+      "answerIndex": 1,
+      "answers": ["42 m²", "49 m²", "52 m²", "64 m²"],
+      "question": "A cistern 6 m long and 4 m wide contains water up to a height of 1 m 25 cm. Find the total area of the wet surface.",
+      "solution": "Area of the wet surface\n= 2h(l+b) + lb\n= 2*1.25(4+6)+6*4\n= 49 m²"
+    },
+    {
+      "id": 74,
+      "answerIndex": 3,
+      "answers": ["800", "125", "400", "8000"],
+      "question": "A spherical lead ball of radius 10 cm is melted and small lead balls of radius 5 mm are made. The total number of possible small lead balls is",
+      "solution": "No. of balls\n= (100*100*100)/(5*5*5)\n= 8000"
+    }
+  ]
 }

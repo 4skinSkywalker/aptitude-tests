@@ -30,7 +30,7 @@ let genres = [
   "surds-and-indices",
   "time-and-distance",
   "time-and-work",
-  "trains"
+  "trains",
 ];
 
 let app = document.querySelector("#app");
@@ -73,9 +73,7 @@ async function readJSON(src) {
 
 function dashedToCapitalize(text) {
   let els = text.split("-");
-  els = els.map(el =>
-    el[0].toUpperCase() + el.slice(1).toLowerCase()
-  );
+  els = els.map((el) => el[0].toUpperCase() + el.slice(1).toLowerCase());
   return els.join(" ");
 }
 
@@ -100,11 +98,13 @@ function getGenresHTML(genres, genreObjs) {
   let d = document.createElement("DIV");
   window.reset = function () {
     // Reset all the genres
-    let isUserSure = confirm(`Are you sure that you want to reset all progresses?`);
+    let isUserSure = confirm(
+      `Are you sure that you want to reset all progresses?`,
+    );
     if (isUserSure) {
       Object.keys(localStorage)
-        .filter(key => key.includes("aptitude-"))
-        .forEach(key => localStorage.removeItem(key));
+        .filter((key) => key.includes("aptitude-"))
+        .forEach((key) => localStorage.removeItem(key));
       render(getGenresHTML(genres, genreObjs));
     }
   };
@@ -112,20 +112,25 @@ function getGenresHTML(genres, genreObjs) {
     <div class="container text-white text-center">
       <h1 class="display-5 my-5">Aptitude Areas</h1>
       <div id="genre-grid" class="m-3">
-        ${
-          genres.map((genre, i) => {
+        ${genres
+          .map((genre, i) => {
             let { problems } = genreObjs[i];
-            let userCorrectAnswers = Object.entries(localStorage)
-              .filter(([key, value]) => key.includes("aptitude-" + genre));
-            let status = userCorrectAnswers.length / problems.length === 1 && 'completed-section' || userCorrectAnswers.length && 'pending-section' || '';
+            let userCorrectAnswers = Object.entries(localStorage).filter(
+              ([key, value]) => key.includes("aptitude-" + genre),
+            );
+            let status =
+              (userCorrectAnswers.length / problems.length === 1 &&
+                "completed-section") ||
+              (userCorrectAnswers.length && "pending-section") ||
+              "";
             return `
-              <div class="${ status } fade-in-top staggered d-flex flex-column justify-content-between align-items-center bg-dark p-3 pointer-hover shadow" style="border-radius: 1rem;" onclick="render(getGenreHTML('${genre}'));">
+              <div class="${status} fade-in-top staggered d-flex flex-column justify-content-between align-items-center bg-dark p-3 pointer-hover shadow" style="border-radius: 1rem;" onclick="render(getGenreHTML('${genre}'));">
                 <div class="fs-3">${dashedToCapitalize(genre)}</div>
                 <div class="fs-5">${userCorrectAnswers.length} / ${problems.length}</div>
               </div>
-            `
-          }).join("")
-        }
+            `;
+          })
+          .join("")}
       </div>
     </div>`;
   return d.firstElementChild;
@@ -137,12 +142,14 @@ function getGenreHTML(title) {
   let d = document.createElement("DIV");
   window.reset = function () {
     // Reset just the current genre
-    let isUserSure = confirm(`Are you sure that you want to reset progresses in ${dashedToCapitalize(title)}?`);
+    let isUserSure = confirm(
+      `Are you sure that you want to reset progresses in ${dashedToCapitalize(title)}?`,
+    );
     if (isUserSure) {
       Object.keys(localStorage)
-        .filter(key => key.includes("aptitude-" + title))
-        .forEach(key => localStorage.removeItem(key));
-        render(getGenreHTML(title));
+        .filter((key) => key.includes("aptitude-" + title))
+        .forEach((key) => localStorage.removeItem(key));
+      render(getGenreHTML(title));
     }
   };
   d.innerHTML = `
@@ -157,23 +164,27 @@ function getGenreHTML(title) {
         <a class="text-reset" target="_blank" href="https://github.com/4skinSkywalker/aptitude-tests/issues/${index + 1}">Issues with questions in ${dashedToCapitalize(title)}?<br>Click here to report it</a>
       </header>
       <div class="d-grid gap-3 m-3">
-        ${
-          problems.map((problem, i) => {
+        ${problems
+          .map((problem, i) => {
             let answerMemoryKey = "aptitude-" + title + "-" + problem.id;
             let savedAnswer = localStorage.getItem(answerMemoryKey);
             return `<div class="fade-in-left staggered d-grid gap-2 bg-dark p-3 shadow" style="border-radius: 1rem;">
               <div>${problem.id} / ${problems.length}</div>
               <pre class="fs-5">${escapeHTML(problem.question)}</pre>
               <div class="d-grid gap-2 m-2">
-                ${
-                  problem.answers.map((answer, i) => {
+                ${problem.answers
+                  .map((answer, i) => {
                     let checkFnId = getUniqueId();
                     window[checkFnId] = function (radio) {
                       let labelOfChoosenAns = radio.parentElement;
                       let listOfAnswers = labelOfChoosenAns.parentElement;
-                      let labelOfSolution = listOfAnswers
-                        .querySelectorAll("label")[problem.answerIndex];
-                      let solution = document.querySelector("#solution-" + problem.id);
+                      let labelOfSolution =
+                        listOfAnswers.querySelectorAll("label")[
+                          problem.answerIndex
+                        ];
+                      let solution = document.querySelector(
+                        "#solution-" + problem.id,
+                      );
                       if (labelOfChoosenAns !== labelOfSolution) {
                         // Highlight the incorrect answer in red
                         labelOfChoosenAns.classList.add("wrong");
@@ -184,16 +195,16 @@ function getGenreHTML(title) {
                         // Save answer to LS
                         localStorage.setItem(
                           answerMemoryKey,
-                          problem.answerIndex
+                          problem.answerIndex,
                         );
                       }
                       // Highlight the correct answer in green
                       labelOfSolution.classList.add("right");
-                    }
+                    };
                     return `
                       <label
                         for="radio-${problem.id}-${answer}"
-                        class="pointer-hover fade-in-top-left staggered d-block p-2 rounded-3 shadow ${(savedAnswer == i) ? 'right' : ''}"
+                        class="pointer-hover fade-in-top-left staggered d-block p-2 rounded-3 shadow ${savedAnswer == i ? "right" : ""}"
                         style="background-color: #333;"
                       >
                         <input
@@ -202,21 +213,21 @@ function getGenreHTML(title) {
                           type="radio" name="radio-${problem.id}"
                           value="${answer}"
                           oninput="${checkFnId}(this)"
-                          ${(savedAnswer == i) ? 'checked' : ''}
+                          ${savedAnswer == i ? "checked" : ""}
                         >
                         ${answer}
                       </label>
                     `;
-                  }).join("")
-                }
+                  })
+                  .join("")}
               </div>
               <pre
                 id="solution-${problem.id}"
                 class="d-none px-4 py-2 fst-italic fs-5"
               >${escapeHTML(problem.solution)}</pre>
-            </div>`
-          }).join("")
-        }
+            </div>`;
+          })
+          .join("")}
       </div>
     </div>`;
   return d.firstElementChild;
@@ -228,28 +239,19 @@ function render(el) {
   document.documentElement.scrollTop = 0;
   setScrollBackBtnText();
   if (app.firstElementChild) {
-    app.replaceChild(
-      el,
-      app.firstElementChild
-    );
+    app.replaceChild(el, app.firstElementChild);
   } else {
     app.appendChild(el);
   }
   const lastRight = [...document.querySelectorAll(".right")].pop();
   if (lastRight)
-  setTimeout(() =>
-    lastRight.scrollIntoView({ behavior: "smooth" })
-  , 450);
+    setTimeout(() => lastRight.scrollIntoView({ behavior: "smooth" }), 450);
 }
 
-(async function (){
-
+(async function () {
   genreObjs = await Promise.all(
-    genres.map(genre =>
-      readJSON(genre + ".json")
-    )
+    genres.map((genre) => readJSON(genre + ".json")),
   );
 
   render(getGenresHTML(genres, genreObjs));
-
 })();

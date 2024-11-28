@@ -4,552 +4,322 @@
     {
       "id": 1,
       "answerIndex": 1,
-      "answers": [
-        "12 minutes",
-        "13.5 minutes",
-        "15 mintes",
-        "14.5 minutes"
-      ],
+      "answers": ["12 minutes", "13.5 minutes", "15 mintes", "14.5 minutes"],
       "question": "Pipe A and Pipe B can fill a tank in 20 minutes and 30 minutes respectively. Pipe C can empty the tank in 60 minutes.  The tank is initially empty. Both the pipes A and B are opened. Pipe C is opened after 6 minutes. How much time does it take to fill the tank?",
       "solution": "1/20th of the tank is filled by Pipe A in 1 minute.\n\n1/30th of the tank is filled by Pipe B in 1 minute. \n\n1/60th of the tank is emptied by Pipe C in 1 minute.\n\nPart of tank filled in the first 6 minutes = 6*[(1/20)+(1/30)] = 1/2\n\nWhen all pipes are opened, part of tank filled in 1 minute = (1/12)-(1/60) = 1/15\n\nTime required to fill the remaining ½ of the tank = (1/2)/(1/15) = 7.5\n\nTotal time = 6+7.5 = 13.5 minutes"
     },
     {
       "id": 2,
       "answerIndex": 0,
-      "answers": [
-        "12",
-        "15",
-        "20",
-        "18"
-      ],
+      "answers": ["12", "15", "20", "18"],
       "question": "Pipe A and Pipe B can fill a tank in 20 minutes and 10 minutes respectively. Pipe C can empty the tank in 15 minutes.  If the three pipes are opened simultaneously, find the time taken to fill the tank.",
       "solution": "When all pipes are opened simultaneously, \npart of tank filled in 1 minute = (1/20)+(1/10)-(1/15) = 1/12\nTime taken to fill the tank = 12 minutes"
     },
     {
       "id": 3,
       "answerIndex": 2,
-      "answers": [
-        "7 liters",
-        "5 liters",
-        "3.5 liters",
-        "2.5 liters"
-      ],
+      "answers": ["7 liters", "5 liters", "3.5 liters", "2.5 liters"],
       "question": "Pipes P and Q can empty a tank in 1 hr and 1.5 hrs respectively. Pipes R and S can fill a tank in 2 hrs and 2.5 hrs respectively. The tank is filled to its capacity of 15 liters and all four pipes are opened simultaneously. How much water remains in the tank after an hour? ",
       "solution": "Part of tank emptied by P in an hour \n= 1\nPart of tank emptied by Q in an hour \n= 1/1.5 = 2/3\nPart of tank filled by R in an hour \n= ½\nPart of tank filled by S in an hour \n= 1/2.5 = 2/5\nPart of tank emptied in an hour = (1+(2/3))-( ½ +(2/5)) = 23/30\n\nWater remaining in the tank = 15*7/30 = 3.5 liters"
     },
     {
       "id": 4,
       "answerIndex": 1,
-      "answers": [
-        "180 minutes",
-        "167 minutes",
-        "200 minutes",
-        "178 minutes"
-      ],
+      "answers": ["180 minutes", "167 minutes", "200 minutes", "178 minutes"],
       "question": "Three pipes, A, B, & C are attached to a tank. A & B can fill it in 20 & 30 minutes respectively while C can empty it in 15 minutes. If A, B & C are kept open successively for 1 minute each, how soon will the tank be filled?",
       "solution": "Part of the tank filled in 3 minutes \n= (1/20)+(1/30)-(1/15) \n= 1/60\nPart filled in 165 minutes \n= (165/3)*(1/60) \n= 55/60\nPart filled in 167 minutes \n= (55/60)+(1/20)+(1/30) \n= 60/60 =1\nThe tank is filled in 167 minutes."
     },
     {
       "id": 5,
       "answerIndex": 3,
-      "answers": [
-        "30 minutes",
-        "45 minutes",
-        "40 minutes",
-        "25 minutes"
-      ],
+      "answers": ["30 minutes", "45 minutes", "40 minutes", "25 minutes"],
       "question": "Pipe A and Pipe B can fill a tank in 1 hour and 1 ¼ hours respectively. Both pipes are opened in the beginning and after some time, pipe B is closed. The tank is filled in 40 minutes. Pipe B was closed after",
       "solution": "Part of tank filled by A in a minute \n= 1/60 \nPart of tank filled by B in a minute \n= 1/75\nLet pipe B be closed after x minutes.\n\nPart of tank filled in x minutes \n= x*[(1/60)+(1/75)] \n= 9x/300 \nPart of tank filled in (40-x) minutes \n= [(40-x)*(1/60)] \n= (40-x)/60\n\n(9x/300) + ((40-x)/60) = 1\n4x = 100\nx = 25"
     },
     {
       "id": 6,
       "answerIndex": 2,
-      "answers": [
-        "60 minutes",
-        "40 minutes",
-        "30 minutes",
-        "20 minutes"
-      ],
+      "answers": ["60 minutes", "40 minutes", "30 minutes", "20 minutes"],
       "question": "Two pipes A and B can fill a tank in 20 minutes when opened simultaneously. If pipe A alone takes 60 minutes to fill the tank, how much time will pipe B alone take to fill the tank?",
       "solution": "Let B take x minutes to fill the tank.\n\nPart of the tank filled by A and B \n= (1/60) + (1/x) = (1/20)\nSolving this, x=30"
     },
     {
       "id": 7,
       "answerIndex": 3,
-      "answers": [
-        "10 minutes",
-        "7/6 hours",
-        "6/7 hours",
-        "7 hours"
-      ],
+      "answers": ["10 minutes", "7/6 hours", "6/7 hours", "7 hours"],
       "question": "A pipe can fill a tank in an hour. Because of a leak, it took 1 hour and 10 minutes to fill the tank. Find the time taken by the leak to drain all the water in the tank.",
       "solution": "Let the leak take x hours to drain the tank.\n\n1 hr 10 min = 1+(1/6) = 7/6 hrs\n\n1-(1/x) = 1/(7/6) = 6/7\n\nPart of tank leaked in an hour = 1-6/7 = 1/7\n\nThe leak takes 7 hours to drain all the water."
     },
     {
       "id": 8,
       "answerIndex": 1,
-      "answers": [
-        "6 minutes",
-        "12 minutes",
-        "12.5 minutes",
-        "24 minutes"
-      ],
+      "answers": ["6 minutes", "12 minutes", "12.5 minutes", "24 minutes"],
       "question": "Two taps A and B can fill a bathtub in 10 minutes and 15 minutes respectively. If A was open for the first two minutes, B for the next two minutes and so on, the bathtub is filled in",
       "solution": "Part of the tub filled in the first 2 minutes \n= 2*1/10 = 1/5\nPart of the tub filled in the next 2 minutes \n= 2*1/15 = 2/15\nPart of the filled in 4 minutes \n= (1/5) + (2/15) = 1/3\nTime required to fill the tub \n= 3*4 = 12 minutes"
     },
     {
       "id": 9,
       "answerIndex": 0,
-      "answers": [
-        "7 minutes",
-        "14 minutes",
-        "3.5 minutes",
-        "28 minutes"
-      ],
+      "answers": ["7 minutes", "14 minutes", "3.5 minutes", "28 minutes"],
       "question": "A tank has three inlets A, B and C. C takes twice the time taken by A to fill the tank and B takes half the time taken by A to fill the tank. If they can fill the tank together in 4 minutes, find the time taken by B to fill the tank.",
       "solution": "Let A take x minutes to fill the tank.\n\n(1/x) + (1/(x/2)) + (1/2x) = 1/4\n\n(7/2x) = ¼\n\nx = 14\nx/2 = 7"
     },
     {
       "id": 10,
       "answerIndex": 2,
-      "answers": [
-        "480 liters",
-        "360 liters",
-        "300 liters",
-        "240 liters"
-      ],
+      "answers": ["480 liters", "360 liters", "300 liters", "240 liters"],
       "question": "An inlet pipe fills a tank at the rate of 5 litres of water a minute. An outlet connected to the tank can empty a full tank in 5 hours. Both the pipes are opened together for 30 minutes and then, the outlet is closed. It took another 36 minutes to fill the tank. Find the capacity of the tank.",
       "solution": "Let the inlet pipe take x minutes to fill the tank.\n\nPart of the tank filled by the inlet in a minute \n= (1/x)\nPart of the tank emptied by the outlet in a minute \n= 1/(5*60) = 1/300\nPart of the tank filled in the first 30 minutes \n= 30*[(1/x)-(1/300)] \n= (300-x)/10x\nPart of the tank filled in the next 36 minutes \n= 36*(1/x) \n\n1 - [(300-x)/10x] = 36/x\n\nSolving, x = 60\nCapacity of the tank = 60*5 = 300 liters"
     },
     {
       "id": 11,
       "answerIndex": 0,
-      "answers": [
-        "10 hours",
-        "5 hours",
-        "9 hours",
-        "6 hours"
-      ],
+      "answers": ["10 hours", "5 hours", "9 hours", "6 hours"],
       "question": "Pipe A fills a tank at the rate of 5 litre every hour. Pipe B fills another tank at a rate of 1 litre in the first hour, 2 litres in the second hour, 3 in the third and so on. After how many hours will the volume of water contained in the two tanks be equal?",
       "solution": "Let the water contained in the tanks be equal after x hours.\n\n5x=1+2+3+...+x\n\n5x = x(x+1)/2\n\nx=9 hours"
     },
     {
       "id": 12,
       "answerIndex": 0,
-      "answers": [
-        "15 minutes",
-        "30 minutes",
-        "12 minutes",
-        "10 minutes"
-      ],
+      "answers": ["15 minutes", "30 minutes", "12 minutes", "10 minutes"],
       "question": "Pipe A can fill a tank thrice as faster as Pipe B. If pipe A alone can fill the tank in 20 minutes, how long does it take to fill the tank if both the pipes are opened?",
       "solution": "Part of tank filled by Pipe A in 1 minute \n= 1/20\nPart of tank filled by Pipe B in 1 minute \n= (1/20):3\n= 1/60\nPart of tank filled by them together in 1 minute\n= (1/20)+(1/60)\n= 1/15\nThey take 15 minutes to fill the tank.\n"
     },
     {
       "id": 13,
       "answerIndex": 1,
-      "answers": [
-        "20 minutes",
-        "1 hour",
-        "30 minutes",
-        "45 minutes"
-      ],
+      "answers": ["20 minutes", "1 hour", "30 minutes", "45 minutes"],
       "question": "A tap can fill a bucket in 10 minutes. Due to a leak in the bucket, it takes 12 minutes to fill. After the tap is closed, the leak empties the bucket in ",
       "solution": "Let the leak take x minutes to empty the bucket.\n\nPart of bucket filled by the tap in 1 minute\n= 1/10\n(1/10)-(1/x) = (1/12)\n\nx=60 minutes"
     },
     {
       "id": 14,
       "answerIndex": 3,
-      "answers": [
-        "28",
-        "20",
-        "15",
-        "24"
-      ],
+      "answers": ["28", "20", "15", "24"],
       "question": "An empty drum can be filled with 18 buckets of water, if the capacity of each bucket is 16 liters. How many buckets will be need to fill the drum if the capacity of each bucket is 12 liters?",
       "solution": "Capacity of the drum\n= 18*16\n= 288 liters\nNo. of buckets needed\n= 288/12\n= 24"
     },
     {
       "id": 15,
       "answerIndex": 2,
-      "answers": [
-        "100 minutes",
-        "75 minutes",
-        "90 minutes",
-        "80 minutes"
-      ],
+      "answers": ["100 minutes", "75 minutes", "90 minutes", "80 minutes"],
       "question": "Pipe A can fill a tank in 4 hours and pipe B that can fill a tank in 2 hours. Both are opened when the tank is empty. Pipe A is closed 30 minutes before the tank overflows. How long did it take for the tank to overflow?",
       "solution": "Part of tank filled by both pipes in 1 hour\n= (1/4)+(1/2)\n= 3/4\n\nPipe A is closed before 30 minutes of overflow.\n\nOnly pipe B was opened.\n\nPart of tank filled by pipe B in 30 minutes\n= 1/4\n\nThe remaining 3/4th of the tank was filled by pipes A and B.\n\nTo fill 3/4th of the tank together, 1 hour is taken.\n\nTime for overflow\n= 1 hour+30 minutes\n= 90 minutes\n\n"
     },
     {
       "id": 16,
       "answerIndex": 0,
-      "answers": [
-        "3 hours",
-        "30 hours",
-        "10 hours",
-        "3.33 hours"
-      ],
+      "answers": ["3 hours", "30 hours", "10 hours", "3.33 hours"],
       "question": "Three pipes can fill a tank in 6, 10 and 15 hours respectively. If they are opened together, how long does it take to fill the tank?",
       "solution": "Part of tank filled by the 3 pipes in 1 hour\n=(1/6)+(1/10)+(1/15)\n= 10/30\n= 1/3\nThey take 3 hours.\n\n"
     },
     {
       "id": 17,
       "answerIndex": 2,
-      "answers": [
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
+      "answers": ["4", "5", "6", "7"],
       "question": "There are 10 pipes connected to a tank, some are inlet pipes and the others are outlets. Each of the inlet pipes can fill the tank in 6 hours and each of the outlet pipes can drain the entire tank in 8 hours. If all the pipes are opened when the tank is full, the tank is drained in half a day. How many of them are outlet pipes?",
       "solution": "Let there be x inlet pipes and (10-x) outlet pipes\n\nPart of tank filled by an inlet pipe in an hour\n= 1/6\nPart of tank drained by an outlet pipe in an hour\n= 1/8\n\nIf all the pipes are opened, the tank is drained in half a day(12 hours)\n\nPart of tank drained in an hour when all are open\n= 1/12\nPart of tank drained by (10-x) outlet pipes-Part of tank filled by x inlet pipes = 1/12\n\n[(10-x)/8]-[x/6] = 1/12\n\nSolving,\n\n3(10-x)-4x = 2\n30-7x=2\n7x=28\nx=4\n\nThere are 4 inlet pipes and 6 outlet pipes.\n"
     },
     {
       "id": 18,
       "answerIndex": 1,
-      "answers": [
-        "70 cans",
-        "14 cans",
-        "28 cans",
-        "84 cans"
-      ],
+      "answers": ["70 cans", "14 cans", "28 cans", "84 cans"],
       "question": "Water flowing from a tap fills a 5 liter can in 2 minutes. How many such cans can be filled in 1680 seconds?",
       "solution": "1680 seconds = 28 minutes\n\n1 can is filled in 2 minutes.\n14 cans can be filled in 28 minutes."
     },
     {
       "id": 19,
       "answerIndex": 2,
-      "answers": [
-        "12 hours",
-        "18 hours",
-        "1 day",
-        "2 days"
-      ],
+      "answers": ["12 hours", "18 hours", "1 day", "2 days"],
       "question": "Pipes A and B can fill a tank in 8 hours and 12 hours respectively. Both of them were opened simultaneously when the tank was empty. It took 6 hours to fill the tank due to a leak in the bottom. After the pipes were closed, the leak will drain the full tank in ",
       "solution": "Let the leak take x hours to empty the tank.\n\nPart of tank emptied by the leak in an hour\n= 1/x\nPart of tank filled in an hour\n= (1/8)+(1/12)-(1/x)\n= (5/24)-1/x = 1/6\n1/x = (5/24)-(1/6)\n       = 1/24\nx = 24 hours"
     },
     {
       "id": 20,
       "answerIndex": 3,
-      "answers": [
-        "2 hours",
-        "4 hours",
-        "4.5 hours",
-        "3 hours"
-      ],
+      "answers": ["2 hours", "4 hours", "4.5 hours", "3 hours"],
       "question": "Pipe A fills a cistern twice as faster as pipe B. Pipe A was opened when the tank was empty and after an hour, pipe B was also opened. Find the time taken to fill the cistern if pipe B alone can fill it in 8 hours.",
       "solution": "Part of tank filled by pipe B in an hour\n= 1/8\nPart of tank filled by pipe A in an hour\n= 1/4\nIn the first hour, 1/4 th of the tank is filled.\n\nThe remaining 3/4 th of the tank is filled by A and B together.\n\nPart of tank filled by A and B in an hour\n= (1/4)+(1/8)\n= 3/8\nTime taken to fill 3/4 of the tank\n= (3/4):(3/8)\n= 2 hours\nThe cistern is filled in 1+2 = 3 hours"
     },
     {
-      "id": 25,
-      "answerIndex": 2,
-      "answers": [
-        "12 hours",
-        "15 hours",
-        "18 hours",
-        "24 hours"
-      ],
-      "question": "Three pipes A, B and C take 3 hours to fill a tank. If pipes A and B alone take 6 hours and 9 hours to fill the tank, find the time taken by pipe C alone to fill the tank.",
-      "solution": "(1/C) = (1/3)-(1/6)-(1/9)\n         = (1/18)\nC alone takes 18 hrs to fill the tank."
-    },
-    {
-      "id": 24,
-      "answerIndex": 3,
-      "answers": [
-        "1 hr 40 mins",
-        "36 mins",
-        "20 mins",
-        "24 mins"
-      ],
-      "question": "Pipes P and Q can fill a tank in 40 minutes and 1 hour respectively. If they are opened together, find the time taken to fill the tank.",
-      "solution": "Part of tank filled by P and Q in a minute\n= (1/40)+(1/60)\n= 5/120\n= 1/24\nIt takes 24 minutes to fill the tank."
-    },
-    {
-      "id": 23,
-      "answerIndex": 1,
-      "answers": [
-        "360 liters",
-        "216 liters",
-        "180 liters",
-        "144 liters"
-      ],
-      "question": "Water flows from a tap at the rate of 1.2 liters per minute. If the tap is opened for 3 hours, find the amount of water collected in the tank.",
-      "solution": "Amount of water collected in 180 mins\n= 180*1.2\n= 216 liters"
-    },
-    {
-      "id": 22,
-      "answerIndex": 2,
-      "answers": [
-        "4.5 hours",
-        "6 hours",
-        "7.5 hours",
-        "9 hours"
-      ],
-      "question": "Pipe X can fill a tank in 5 hours. If pipe Y is also opened, the tank is filled in 3 hours. Find the time taken by pipe Y alone to fill the tank.",
-      "solution": "(1/X)+(1/Y) = (1/3)\n\n(1/Y) = (1/3)-(1/5)\n         = 2/15\nY takes 15/2=7.5 hours to fill the tank."
-    },
-    {
       "id": 21,
       "answerIndex": 0,
-      "answers": [
-        "3x/2",
-        "3x",
-        "2x",
-        "2x/3"
-      ],
+      "answers": ["3x/2", "3x", "2x", "2x/3"],
       "question": "Pipe P can fill a tank in 'x' hours. On account of a leak at the bottom of the tank, it takes thrice as long to fill the tank. How long will the leak at the bottom of the tank take to empty a full tank, after pipe P is closed?",
       "solution": "Part of tank filled by P in an hour = 1/x\n\nPart of tank emptied by the leak in an hour = 1/y\n\nDue to the leak, it takes 3x hours to fill the tank.\nPart of tank filled in an hour = 1/3x\n\n(1/x)-(1/y) = (1/3x)\n(1/y) = (1/x)-(1/3x)\n         = 2/3x\ny = 3x/2\n\nThe leak takes 3x/2 hrs to empty the tank."
     },
     {
-      "id": 30,
-      "answerIndex": 0,
-      "answers": [
-        "22 minutes",
-        "15 minutes",
-        "11 minutes",
-        "6 minutes"
-      ],
-      "question": "A tank can be filled by 2 pipes X, Y and Z, when turned on separately, in 33 minutes, 11 minutes and 22 minutes respectively. If all are turned on for 2 mins and then Y and Z are turned off, find the time taken by X alone to fill the cistern.",
-      "solution": "Part of tank filled X,Y and Z in 1 minute\n= (1/33)+(1/11)+(1/22)\n= 1/6\nPart of tank filled in the first 2 minutes\n= 2*1/6 = 1/3\n2/3 of the tank is filled by X alone\n\nTime taken by X to fill 2/3 of the tank\n= (2/3)/(1/33)\n= 22 minutes"
+      "id": 22,
+      "answerIndex": 2,
+      "answers": ["4.5 hours", "6 hours", "7.5 hours", "9 hours"],
+      "question": "Pipe X can fill a tank in 5 hours. If pipe Y is also opened, the tank is filled in 3 hours. Find the time taken by pipe Y alone to fill the tank.",
+      "solution": "(1/X)+(1/Y) = (1/3)\n\n(1/Y) = (1/3)-(1/5)\n         = 2/15\nY takes 15/2=7.5 hours to fill the tank."
     },
     {
-      "id": 29,
-      "answerIndex": 0,
-      "answers": [
-        "40 minutes",
-        "1 hour",
-        "75 minutes",
-        "90 minutes"
-      ],
-      "question": "A tank is filled by two taps in half an hour. If the first tap alone takes 2 hours to fill the tank, find the time taken by the second tap alone to fill the tank.",
-      "solution": "Part of tank filled by the two taps in 1 minute\n= 1/30\nPart of tank filled by tap A in 1 minute\n= 1/120\n(1/A)+(1/B)=(1/30)\n\n(1/B)=(1/30)-(1/120)\n         =(1/40)\nB alone takes 40 minutes to fill the tank."
-    },
-    {
-      "id": 28,
+      "id": 23,
       "answerIndex": 1,
-      "answers": [
-        "35 minutes",
-        "30 minutes",
-        "25 minutes",
-        "20 minutes"
-      ],
-      "question": "Tap A can fill a cistern in 1 hour and tap B can fill it in 30 minutes. Tap A is opened first and tap B is also opened after 15 minutes. Find the time taken to fill the cistern.",
-      "solution": "Part of cistern filled by A in 1 minute\n= (1/60)\nPart of cistern filled by A in 15 mins\n= 15/60 = 1/4\nPart of cistern filled by A and B in 1 minute\n= (1/60)+(1/30)\n= 1/20\n3/4 th of the cistern is filled by A and B\n\nTime taken to fill 3/4 of the cistern\n= (3/4)/(1/20)\n= 15 minutes\nThe cistern is filled in 30 minutes"
+      "answers": ["360 liters", "216 liters", "180 liters", "144 liters"],
+      "question": "Water flows from a tap at the rate of 1.2 liters per minute. If the tap is opened for 3 hours, find the amount of water collected in the tank.",
+      "solution": "Amount of water collected in 180 mins\n= 180*1.2\n= 216 liters"
     },
     {
-      "id": 27,
+      "id": 24,
       "answerIndex": 3,
-      "answers": [
-        "70 mins",
-        "(7/5) hrs",
-        "21(3/7) mins",
-        "42 mins"
-      ],
-      "question": "An outlet pipe can empty (5/7) of the cistern in half an hour. Find the time taken to empty the full cistern.",
-      "solution": "(5/7)th of the cistern is emptied in\n30 minutes\nFull cistern is emptied in\n30*7/5 = 42 minutes"
+      "answers": ["1 hr 40 mins", "36 mins", "20 mins", "24 mins"],
+      "question": "Pipes P and Q can fill a tank in 40 minutes and 1 hour respectively. If they are opened together, find the time taken to fill the tank.",
+      "solution": "Part of tank filled by P and Q in a minute\n= (1/40)+(1/60)\n= 5/120\n= 1/24\nIt takes 24 minutes to fill the tank."
+    },
+    {
+      "id": 25,
+      "answerIndex": 2,
+      "answers": ["12 hours", "15 hours", "18 hours", "24 hours"],
+      "question": "Three pipes A, B and C take 3 hours to fill a tank. If pipes A and B alone take 6 hours and 9 hours to fill the tank, find the time taken by pipe C alone to fill the tank.",
+      "solution": "(1/C) = (1/3)-(1/6)-(1/9)\n         = (1/18)\nC alone takes 18 hrs to fill the tank."
     },
     {
       "id": 26,
       "answerIndex": 1,
-      "answers": [
-        "1 hour",
-        "36 minutes",
-        "45 minutes",
-        "54 minutes"
-      ],
+      "answers": ["1 hour", "36 minutes", "45 minutes", "54 minutes"],
       "question": "Two pipes A and B can can fill a tank in half an hour and 1(1/2) hours respectively. An outlet at the bottom of the tank can empty a full tank in 1 hour. If all the three pipes are opened, find the time taken to fill the tank.",
       "solution": "Part of tank filled by pipe A in 1 minute\n= 1/30\nPart of tank filled by pipe B in 1 minute\n= 1/90\nPart of tank emptied by the outlet in 1 minute\n= 1/60\n\nPart of tank filled when all the pipes are opened\n= Part of tank filled by inlet-Part of tank emptied by outlet\n= (1/30)+(1/90)-(1/60)\n= (6+2-3)/180\n= 1/36\nThe tank is filled in 36 mins."
     },
     {
+      "id": 27,
+      "answerIndex": 3,
+      "answers": ["70 mins", "(7/5) hrs", "21(3/7) mins", "42 mins"],
+      "question": "An outlet pipe can empty (5/7) of the cistern in half an hour. Find the time taken to empty the full cistern.",
+      "solution": "(5/7)th of the cistern is emptied in\n30 minutes\nFull cistern is emptied in\n30*7/5 = 42 minutes"
+    },
+    {
+      "id": 28,
+      "answerIndex": 1,
+      "answers": ["35 minutes", "30 minutes", "25 minutes", "20 minutes"],
+      "question": "Tap A can fill a cistern in 1 hour and tap B can fill it in 30 minutes. Tap A is opened first and tap B is also opened after 15 minutes. Find the time taken to fill the cistern.",
+      "solution": "Part of cistern filled by A in 1 minute\n= (1/60)\nPart of cistern filled by A in 15 mins\n= 15/60 = 1/4\nPart of cistern filled by A and B in 1 minute\n= (1/60)+(1/30)\n= 1/20\n3/4 th of the cistern is filled by A and B\n\nTime taken to fill 3/4 of the cistern\n= (3/4)/(1/20)\n= 15 minutes\nThe cistern is filled in 30 minutes"
+    },
+    {
+      "id": 29,
+      "answerIndex": 0,
+      "answers": ["40 minutes", "1 hour", "75 minutes", "90 minutes"],
+      "question": "A tank is filled by two taps in half an hour. If the first tap alone takes 2 hours to fill the tank, find the time taken by the second tap alone to fill the tank.",
+      "solution": "Part of tank filled by the two taps in 1 minute\n= 1/30\nPart of tank filled by tap A in 1 minute\n= 1/120\n(1/A)+(1/B)=(1/30)\n\n(1/B)=(1/30)-(1/120)\n         =(1/40)\nB alone takes 40 minutes to fill the tank."
+    },
+    {
+      "id": 30,
+      "answerIndex": 0,
+      "answers": ["22 minutes", "15 minutes", "11 minutes", "6 minutes"],
+      "question": "A tank can be filled by 2 pipes X, Y and Z, when turned on separately, in 33 minutes, 11 minutes and 22 minutes respectively. If all are turned on for 2 mins and then Y and Z are turned off, find the time taken by X alone to fill the cistern.",
+      "solution": "Part of tank filled X,Y and Z in 1 minute\n= (1/33)+(1/11)+(1/22)\n= 1/6\nPart of tank filled in the first 2 minutes\n= 2*1/6 = 1/3\n2/3 of the tank is filled by X alone\n\nTime taken by X to fill 2/3 of the tank\n= (2/3)/(1/33)\n= 22 minutes"
+    },
+    {
       "id": 31,
       "answerIndex": 0,
-      "answers": [
-        "20 hours",
-        "18 hours",
-        "24 hours",
-        "22.5 hours"
-      ],
+      "answers": ["20 hours", "18 hours", "24 hours", "22.5 hours"],
       "question": "Two pipes A and B can fill a tank in 36 hours and 45 hours respectively. If both the pipes are opened simultaneously, how much time will be taken to fill the tank?",
       "solution": "Part of tank filled by A in 1 hour\n= 1/36\nPart of tank filled by B in 1 hour\n= 1/45\nPart of tank filled by both in 1 hour\n= (1/36)+(1/45)\n= 81/(36*45)\n= 1/20\nThey can fill the tank in 20 hours."
     },
     {
       "id": 32,
       "answerIndex": 0,
-      "answers": [
-        "26 hrs",
-        "25 hrs",
-        "24 hrs",
-        "27 hrs"
-      ],
+      "answers": ["26 hrs", "25 hrs", "24 hrs", "27 hrs"],
       "question": "There are two water tanks A and B, A is much smaller than B. While water fills at the rate of one liter every hour in A, it gets filled up like 10, 20, 40, 80, 160 in tank B. (At the end of first hour, B has 10 liters, second hour it has 20, third hour it has 40 and so on). If tank B is 1/32 filled after 21 hours, what is the total duration required to fill it completely?",
       "solution": "Amount of water in the tank after 21 hours\n= 10+20+40+80+.....+(10*2^20)\n= 10(1+2+4+8+......2^20)\n\nSum of the GP\n= a*r^(n-1)\n= 2^20\n\nLet the total capacity of the tank be x liters.\n\n1/32 of x = 10*2^20\n\nx = 10*2^20*2^5\n   = 10*2^25\n\nThe tank gets filled in 26 hours."
     },
     {
       "id": 33,
       "answerIndex": 0,
-      "answers": [
-        "100 mins",
-        "90 mins",
-        "110 mins",
-        "120 mins"
-      ],
+      "answers": ["100 mins", "90 mins", "110 mins", "120 mins"],
       "question": "Two pipes A and B can separately fill a cistern in 60 minutes and 75 minutes respectively. There is a third pipe in the bottom of the cistern to empty it. If all the three pipes are simultaneously opened, then the cistern is full in 50 minutes. In how much time, the third pipe alone can empty the cistern?",
       "solution": "Part of tank emptied by the third pipe in 1 minute\n= (1/60)+(1/75)-(1/50)\n= 1/100\nThe third pipe can empty the cistern in 100 minutes."
     },
     {
       "id": 34,
       "answerIndex": 1,
-      "answers": [
-        "18",
-        "10",
-        "15",
-        "8"
-      ],
+      "answers": ["18", "10", "15", "8"],
       "question": "15 buckets of water fill a tank when the capacity of each bucket is 12 liters. How many buckets will be needed to fill the tank in the same time, if the capacity of each bucket is 18liters?",
       "solution": "No. of buckets needed\n= 15*12/18\n= 10"
     },
     {
       "id": 35,
       "answerIndex": 1,
-      "answers": [
-        "18 hrs",
-        "36 hrs",
-        "35 hrs",
-        "9 hrs"
-      ],
+      "answers": ["18 hrs", "36 hrs", "35 hrs", "9 hrs"],
       "question": "Two taps A and B can fill a tank in 5 hours and 20 hours respectively. If both the taps are open then due to a leakage, it took 30 minutes more to fill the tank. If the tank is full, how long will it take for the leakage alone to empty the tank?",
       "solution": "Part of tank filled by A and B in 1 hour\n= (1/5)+(1/20)\n= 1/4\nThey take 4 hours to fill the tank. But due to the leak, they've taken 4.5 hours to fill the tank.\n\nPart of tank emptied by the leak in 1 hour\n= 1/4 - 1/4.5\n= 1/4 - 2/9\n= 1/36\nThe leak can empty the tank in 36 hours."
     },
     {
       "id": 36,
       "answerIndex": 1,
-      "answers": [
-        "192 mins",
-        "144 mins",
-        "108 mins",
-        "81 mins"
-      ],
+      "answers": ["192 mins", "144 mins", "108 mins", "81 mins"],
       "question": "One pipe can fill a tank three times as fast as another pipe. If the two pipes can fill the tank together in 36 minutes, then the slower pipe alone will be able to fill the tank in",
       "solution": "Let the time taken by the faster pipe to fill the tank be x mins and\nthe time taken by the slower pipe be 3x mins.\n\n1/x+ 1/3x = 1/36\n4/3x = 1/36\nx = 48\n\n3x = 144"
     },
     {
       "id": 37,
       "answerIndex": 3,
-      "answers": [
-        "30/17",
-        "30/11",
-        "9/2",
-        "60/17"
-      ],
+      "answers": ["30/17", "30/11", "9/2", "60/17"],
       "question": "Pipe A and B can fill a tank in 5 and 6 hours respectively. Pipe C can empty it in 12 hours. If all the three pipes are opened together, in how many hours will the tank be filled?",
       "solution": "(1/5)+(1/6)-(1/12)\n= 17/60\n\nThe tank will be filled in (60/17) hours."
     },
     {
       "id": 38,
       "answerIndex": 1,
-      "answers": [
-        "4 hrs",
-        "3 hrs 45 mins",
-        "4 hrs 15 mins",
-        "3 hrs 15 mins"
-      ],
+      "answers": ["4 hrs", "3 hrs 45 mins", "4 hrs 15 mins", "3 hrs 15 mins"],
       "question": "A tap can fill a tank in 6 hours. After half the tank is filled, three more similar taps are opened. What is the total time taken to fill the tank completely?",
       "solution": "Half the tank is filled in 3 hours.\n\nNow, 4 taps are filling the tank.\n\nTime taken by 1 tap to fill half the tank\n= 3\nTime taken by 4 taps to fill half the tank\n= 3/4\n\nTotal time taken\n= 3 hrs 45 mins"
     },
     {
       "id": 39,
       "answerIndex": 3,
-      "answers": [
-        "6.5 hrs",
-        "4.5 hrs",
-        "5 hrs",
-        "7.2 hrs"
-      ],
+      "answers": ["6.5 hrs", "4.5 hrs", "5 hrs", "7.2 hrs"],
       "question": "A cistern can be filled by a tap in 4 hours while it can be emptied by another tap in 9 hours. If both the taps are opened simultaneously, then after how much time will the cistern get filled?",
       "solution": "(1/4)-(1/9) = 5/36\n\nThe cistern gets filled in 36/5 = 7.2 hours."
     },
     {
       "id": 40,
       "answerIndex": 1,
-      "answers": [
-        "10 hrs",
-        "15 hrs",
-        "30 hrs",
-        "6 hrs"
-      ],
+      "answers": ["10 hrs", "15 hrs", "30 hrs", "6 hrs"],
       "question": "A tank is filled by three pipes with uniform flow. The first two pipes operating simultaneously fill the tank in the same time during which the tank is filled by the third pipe alone. The second pipe fills the tank 5 hours faster than the first pipe and 4 hours slower than the third pipe. The time required by the first pipe alone to fill the tank is",
       "solution": "1/A + 1/B = 1/C\n\nB = A - 5\nB = C + 4\n\nC = A - 9\n\n1/A + 1/(A-5) = 1/(A-9)\n\n1/(A-9) - 1/(A-5) = 1/A\n\nSubstitute the options given in the place of A.\n\nIf A=10,\n1 - 1/5 not equal to 1/10\nIf A=15,\n1/6 - 1/10 = 1/15\n\nSo, A=15."
     },
     {
       "id": 41,
       "answerIndex": 2,
-      "answers": [
-        "1/11",
-        "5/11",
-        "6/11",
-        "8/11"
-      ],
+      "answers": ["1/11", "5/11", "6/11", "8/11"],
       "question": "Three pipes A, B and C can fill a tank from empty to full in 30 minutes, 20 minutes and 10 minutes respectively. When the tank is empty, all three pipes are opened. A, B and C discharge chemical solutions P, Q and R respectively. What is the proportion of solution R in the liquid in the tank after 3 minutes?",
       "solution": "Part of tank filled in 3 minutes\n= 3*[(1/30)+(1/20)+(1/10)]\n= 11/20\nPart of tank filled by C in 3 minutes\n= 3/10\n\nRatio\n= 3/10 : 11/20\n= 6:11"
     },
     {
       "id": 42,
       "answerIndex": 0,
-      "answers": [
-        "17 minutes",
-        "12 minutes",
-        "19 minutes",
-        "21 minutes"
-      ],
+      "answers": ["17 minutes", "12 minutes", "19 minutes", "21 minutes"],
       "question": "Two taps can fill a cistern in 30 and 40 minutes respectively. If both the taps are opened simultaneously then the approximate time taken to fill the cistern is",
       "solution": "Let the time taken to fill the cistern be x minutes.\n\n1/x = 1/30 + 1/40 = 7/120\n\nx = 120/7 = 17.14 minutes"
     },
     {
       "id": 43,
       "answerIndex": 1,
-      "answers": [
-        "16 minutes",
-        "32 minutes",
-        "48 minutes",
-        "40 minutes"
-      ],
+      "answers": ["16 minutes", "32 minutes", "48 minutes", "40 minutes"],
       "question": "A Pipe P can fill a tank in 16 minutes and the other pipe Q can empty the whole tank in 32 minutes. If both P and Q are opened simultaneously, then the time taken to fill the tank is",
       "solution": "Let the time taken to fill the tank be x minutes\n\n1/x = 1/P - 1/Q\n      = 1/16 - 1/32\n      = 1/32\n\nx = 32 minutes"
     },
     {
       "id": 44,
       "answerIndex": 1,
-      "answers": [
-        "8 hrs",
-        "6 hrs",
-        "2hrs",
-        "1 hrs"
-      ],
+      "answers": ["8 hrs", "6 hrs", "2hrs", "1 hrs"],
       "question": "Two pipes A and B together can fill a cistern in 4 hours. Had they been opened separately, B would have taken 6 hours more than A to fill the cistern. How much time will be taken by A alone to fill the cistern?",
       "solution": "1/A + 1/B = 1/4\n\nB = A+6\n\nWe can check the options to find the answer.\n\nIf A=8,\n1/8 + 1/14 not equal to 1/4\nIf A=6,\n1/6 + 1/12 = 1/4\nSo, A = 6."
     },
     {
       "id": 45,
       "answerIndex": 2,
-      "answers": [
-        "3.5",
-        "2",
-        "3",
-        "2.5"
-      ],
+      "answers": ["3.5", "2", "3", "2.5"],
       "question": "Pipe A can fill a tank in 5 hours, pipe B in 10 hours and pipe C in 30 hours. If all the pipes are open, in how many hours will the tank be filled?",
       "solution": "Part of tank filled in 1 hour when all the pipes are open\n= (1/A)+(1/B)+(1/C)\n= (1/5)+(1/10)+(1/30)\n= 1/3\n\nThe tank will be filled in 3 hours."
     },
     {
       "id": 46,
       "answerIndex": 1,
-      "answers": [
-        "8 hrs",
-        "14 hrs",
-        "7 hrs",
-        "13/3"
-      ],
+      "answers": ["8 hrs", "14 hrs", "7 hrs", "13/3"],
       "question": "A pump can fill a tank with water in 2 hours. Because of a leak, it took 7/3 hours to fill the tank. The leak can drain out the tank in",
       "solution": "Let the leak take x hours to drain out the tank.\n\n1/2 - 1/x = 3/7\n\n1/x = 1/2 - 3/7 = 1/14\n\nx = 14"
     },
@@ -568,48 +338,28 @@
     {
       "id": 48,
       "answerIndex": 3,
-      "answers": [
-        "10 mins",
-        "15 mins",
-        "12 mins",
-        "20 mins"
-      ],
+      "answers": ["10 mins", "15 mins", "12 mins", "20 mins"],
       "question": "A tank can be filled by a tap in 20 minutes and by another tap in 60 minutes. Both the taps are kept open for 10 minutes and then the first tap is shut off. After this, the tank will be completely filled in",
       "solution": "Part of tank filled by both the taps in 1 minute\n= (1/20)+(1/60)\n= 1/15\nPart of tank filled by both the taps in 10 minutes\n= 2/3\nThe remaining 1/3 of the tank is filled by the second tap alone.\n\nTime taken to fill 1/3 of the tank\n= (1/3) / (1/60)\n= 20 minutes"
     },
     {
       "id": 49,
       "answerIndex": 3,
-      "answers": [
-        "8",
-        "15",
-        "16",
-        "18"
-      ],
+      "answers": ["8", "15", "16", "18"],
       "question": "12 buckets of water fill a tank when the capacity of each bucket is 13.5 litres. How many buckets will be needed to fill the same tank, if the capacity of each bucket is 9 litres?",
       "solution": "Capacity of the tank\n= (12 * 13.5) litres\n= 162 litres\n\nNumber of 9 litre buckets needed\n= (162/9) = 18"
     },
     {
       "id": 50,
       "answerIndex": 3,
-      "answers": [
-        "60 hrs",
-        "80 hrs",
-        "70 hrs",
-        "90 hrs"
-      ],
+      "answers": ["60 hrs", "80 hrs", "70 hrs", "90 hrs"],
       "question": "A cistern can be filled in 9 hours but it takes 10 hours due to a leak in its bottom. If the cistern is full, the time that the leak will take to empty it, is",
       "solution": "Part of the cistern emptied by the leak in 1 hour\n= (1/9 - 1/10)\n= 1/90\nThe leak will empty the cistern in 90 hrs."
     },
     {
       "id": 51,
       "answerIndex": 0,
-      "answers": [
-        "5 mins",
-        "12 mins",
-        "10 mins",
-        "15(2/3) mins"
-      ],
+      "answers": ["5 mins", "12 mins", "10 mins", "15(2/3) mins"],
       "question": "To fill a cistern, pipes A, B and C take 20 minutes, 15 minutes and 12 minutes respectively. The time taken by the three pipes together to fill the cistern is",
       "solution": "Part of tank filled by A, B and C in 1 minute\n= 1/20 + 1/15 + 1/12\n= 1/5\n\nThe cistern will be filled in 5 mins."
     },
@@ -628,72 +378,42 @@
     {
       "id": 53,
       "answerIndex": 3,
-      "answers": [
-        "7580",
-        "8290",
-        "7960",
-        "8640"
-      ],
+      "answers": ["7580", "8290", "7960", "8640"],
       "question": "A leak in the bottom of a tank can empty the full tank in 8 hours. An inlet pipe fills water at the rate of 6 litres a minute. When the tank is full, the inlet is opened and due to the leak, the tank is empty in 12 hours. How many litres does the cistern hold?",
       "solution": "Part of tank filled by the inlet in 1 hour\n= (1/8) - (1/12)\n= 1/24\nPart of tank filled by the inlet in 1 minute\n= (1/24) * (1/60)\n= 1/1440\n\nLet the volume of the tank be x litres.\n\nx/1440 = 6\n\nx = 8640"
     },
     {
       "id": 54,
       "answerIndex": 1,
-      "answers": [
-        "7hrs",
-        "7 hrs 30 mins",
-        "8hrs",
-        "8 hrs 30 mins"
-      ],
+      "answers": ["7hrs", "7 hrs 30 mins", "8hrs", "8 hrs 30 mins"],
       "question": "Two pipes can fill a tank in 10 hours and 12 hours respectively while a third pipe empties the full tank in 20 hours. If all the three pipes operate simultaneously, in how much time the tank will be filled?",
       "solution": "Part of tank filled in 1 hour\n= (1/10) + (1/12) + (1/20)\n= 2/15 \nThe tank will be filled in\n15/2 hrs = 7 hrs 30 minutes"
     },
     {
       "id": 55,
       "answerIndex": 2,
-      "answers": [
-        "5 hrs",
-        "12.5 hrs",
-        "6 hrs",
-        "7.5 hrs"
-      ],
+      "answers": ["5 hrs", "12.5 hrs", "6 hrs", "7.5 hrs"],
       "question": "Two taps A and B can fill a tank in 10 hours and 15 hours respectively. If both the taps are opened together, the tank will be full in",
       "solution": "Part of tank filled by A and B in 1 hour\n= (1/10)+(1/15)\n= 1/6\nThe tank will be filled in 6 hours."
     },
     {
       "id": 56,
       "answerIndex": 2,
-      "answers": [
-        "5 hrs",
-        "7 hrs",
-        "6 hrs",
-        "8 hrs"
-      ],
+      "answers": ["5 hrs", "7 hrs", "6 hrs", "8 hrs"],
       "question": "A tap can fill a cistern in 2 hours and another tap can empty the cistern in 3 hours. How long will it take to fill the cistern if both the taps are opened?",
       "solution": "Part of the cistern filled by the first tap in 1 hour\n= 1/2\nPart of the cistern filled by the second tap in 1 hour\n= 1/3\nPart of the cistern filled in 1 hour when both the taps are opened\n= (1/2) - (1/3)\n= 1/6\nThe cistern will be filled in 6 hours."
     },
     {
       "id": 57,
       "answerIndex": 2,
-      "answers": [
-        "8 minutes",
-        "12 minutes",
-        "10 minutes",
-        "16 minutes"
-      ],
+      "answers": ["8 minutes", "12 minutes", "10 minutes", "16 minutes"],
       "question": "A cistern has two taps which fill it in 12 minutes and 15 minutes respectively. There is also a waste pipe in the cistern. When all the three are opened, the empty cistern is full in 20 minutes. How long will the waste pipe take to empty the full cistern?",
       "solution": "Part of tank emptied by the waste pipe in 1 minute\n= (1/12) + (1/15) - (1/20)\n= 1/10\n\nThe waste pipe takes 10 minutes to empty the cistern."
     },
     {
       "id": 58,
       "answerIndex": 1,
-      "answers": [
-        "10 hours 30 mins",
-        "21 hours",
-        "12 hours",
-        "24 hours"
-      ],
+      "answers": ["10 hours 30 mins", "21 hours", "12 hours", "24 hours"],
       "question": "An electric pump can fill a tank in 3 hours. Because of a leak in the tank, it took 3 hours 30 minutes to fill the tank. The leak can drain out all the water of the tank in",
       "solution": "3 hrs 30 minutes\n= 3.5 hours\n= 7/2 hours\n\nWork done by the leak in 1 hour\n= (1/3) - (2/7)\n= 1/21\n\nThe leak will empty the tank in 21 hours."
     },
@@ -712,24 +432,14 @@
     {
       "id": 60,
       "answerIndex": 2,
-      "answers": [
-        "60 gallons",
-        "100 gallons",
-        "120 gallons",
-        "180 gallons"
-      ],
+      "answers": ["60 gallons", "100 gallons", "120 gallons", "180 gallons"],
       "question": "Two pipes can fill a tank in 20 and 24 minutes respectively and a waste pipe can empty 3 gallons per minute. All the three pipes working together can fill the tank in 15 minutes. The capacity of the tank is",
       "solution": "Let the time taken by the waste pipe to empty a full tank be x minutes.\n\n1/20 + 1/24 - 1/x = 1/15\n\n1/x = 3/120 = 1/40\n\nx = 40\n\nThe pipe can empty 3 gallons/minute. It takes 40 minutes to empty the full tank.\n\nCapacity of the tank\n= 40*3\n= 120 gallons."
     },
     {
       "id": 61,
       "answerIndex": 2,
-      "answers": [
-        "20 hours",
-        "25 hours",
-        "35 hours",
-        "Cannot be determined"
-      ],
+      "answers": ["20 hours", "25 hours", "35 hours", "Cannot be determined"],
       "question": "A tank is filled in 5 hours by three pipes A, B and C. The pipe C is twice as fast as B and B is twice as fast as A. How much time will pipe A alone take to fill the tank?",
       "solution": "1/A + 1/B + 1/C = 1/5\n\nLet the time taken by A to fill the tank be x hours.\n\nB is twice as fast as A.\nTime taken by B = x/2 minutes\nC is twice as fast as B.\nTime taken by C = x/4 minutes\n\n1/x + 2/x + 4/x = 1/5\n\nx = 35"
     },
@@ -748,84 +458,49 @@
     {
       "id": 63,
       "answerIndex": 3,
-      "answers": [
-        "15 mins",
-        "20 mins",
-        "27.5 mins",
-        "30 mins"
-      ],
+      "answers": ["15 mins", "20 mins", "27.5 mins", "30 mins"],
       "question": "A large tanker can be filled by two pipes A and B in 60 minutes and 40 minutes respectively. How many minutes will it take to fill the tanker from empty state if B is used for half the time and A and B fill it together for the other half?",
       "solution": "Let the time taken to fill the tanker be 2x minutes.\n\nPart of tank filled by B in x minutes\n= x/40\nPart of tank filled by A and B in x minutes\n= x/40 + x/60\n\nx/40 + x/40 + x/60 = 1\n\nx = 15\n\n2x = 30"
     },
     {
       "id": 64,
       "answerIndex": 2,
-      "answers": [
-        "10",
-        "12",
-        "14",
-        "16"
-      ],
+      "answers": ["10", "12", "14", "16"],
       "question": "Three pipes A, B and C can fill a tank in 6 hours. After working at it together for 2 hours, C is closed and A and B can fill the remaining part in 7 hours. The number of hours taken by C alone to fill the tank is",
       "solution": "1/A + 1/B + 1/C = 1/6\n\nPart of the tank filled by A, B and C in 2 hours\n= 2/6\n= 1/3\n\nThe remaining 2/3 of the tank is filled by A and B in 7 hours.\n\nPart of tank filled by A and B in 1 hour\n= (2/3) / 7\n= 2/21\n\n1/C = 1/6 - 2/21\n       = 3/42\n       = 1/14\n\nC alone can fill the tank in 14 hours."
     },
     {
       "id": 65,
       "answerIndex": 1,
-      "answers": [
-        "6 hours",
-        "7 hours",
-        "8 hours",
-        "9 hours"
-      ],
+      "answers": ["6 hours", "7 hours", "8 hours", "9 hours"],
       "question": "Three taps A, B and C can fill a tank in 12, 15 and 20 hours respectively. If A is open all the time and B and C are open for one hour each alternately, the tank will be full in",
       "solution": "Part of tank filled by A and B in 1 hour\n= 1/12 + 1/15\n= 9/60\nPart of tank filled by A and C in 1 hour\n= 1/12 + 1/20\n= 8/60\n\nPart of tank filled in the first two hours\n= 9/60 + 8/60\n= 17/60\nPart of tank filled in six hours\n= 3*17/60\n= 51/60\nPart of tank filled in seven hours\n= 51/60 + 9/60\n= 1\n\nThe tank will be full in 7 hours."
     },
     {
       "id": 66,
       "answerIndex": 2,
-      "answers": [
-        "90 mins",
-        "60 mins",
-        "45 mins",
-        "40 mins"
-      ],
+      "answers": ["90 mins", "60 mins", "45 mins", "40 mins"],
       "question": "A pipe can fill a tank twice as fast as another pipe. If together the two pipes can fill the tank in 30 minutes, then the faster pipe alone will be able to fill the tank in",
       "solution": "Let the time taken by the faster pipe to fill the tank be x mins and\nthe time taken by the slower pipe be 2x mins.\n\n1/2x + 1/x = 1/30\n3/2x = 1/30\nx = 45"
     },
     {
       "id": 67,
       "answerIndex": 1,
-      "answers": [
-        "4 hrs 30 mins",
-        "5 hrs",
-        "5 hrs 15 mins",
-        "5 hrs 30 mins"
-      ],
+      "answers": ["4 hrs 30 mins", "5 hrs", "5 hrs 15 mins", "5 hrs 30 mins"],
       "question": "A pipe can fill a tank in 6 hours. After three-fourth the tank is filled, two more similar taps are opened. What is the total time taken to fill the tank completely?",
       "solution": "Part of tank filled by 3 pipes in 1 hour\n= 3/6\n= 1/2\n1/4 th of the tank is filled by 3 pipes in 1/2 hours.\n\nTime taken by the pipe to fill 3/4 of the tank\n= 6*3/4\n= 9/2\n\nTotal time taken\n= 1/2 + 9/2\n= 5 hours"
     },
     {
       "id": 68,
       "answerIndex": 3,
-      "answers": [
-        "72 mins",
-        "80 mins",
-        "100 mins",
-        "90 mins"
-      ],
+      "answers": ["72 mins", "80 mins", "100 mins", "90 mins"],
       "question": "If two pipes C and D can together fill a tank in 36 minutes and pipe C alone takes 1 hour to fill the tank, find the time taken by pipe D alone to fill the tank.",
       "solution": "1/D = 1/36 - 1/60 = 1/90\n\nD alone takes 90 minutes to fill the tank."
     },
     {
       "id": 69,
       "answerIndex": 0,
-      "answers": [
-        "14 hours",
-        "10.5 hours",
-        "21 hours",
-        "15 hours"
-      ],
+      "answers": ["14 hours", "10.5 hours", "21 hours", "15 hours"],
       "question": "An pump can fill a tank in 2 hours. Because of a leak in the tank, it took 2 hours 20 minutes to fill the tank. The leak can drain out all the water of the tank in",
       "solution": "2 hrs 20 minutes\n= 2+(1/3) hours\n= 7/3 hours\n\nWork done by the leak in 1 hour\n= (1/2) - (3/7)\n= 1/14\n\nThe leak will empty the tank in 14 hours."
     }

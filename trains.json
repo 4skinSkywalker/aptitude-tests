@@ -4,672 +4,392 @@
     {
       "id": 1,
       "answerIndex": 3,
-      "answers": [
-        "50 km",
-        "100 km",
-        "120 km",
-        "150 km"
-      ],
+      "answers": ["50 km", "100 km", "120 km", "150 km"],
       "question": "Two trains P and Q are traveling from station A to station B at speeds of 100kmph and 120 kmph respectively. Train Q stops at station C for 10 minutes but reaches station B 5 minutes before train P. Find the distance between stations A and B.",
       "solution": "Let the distance between A and B be x km\n\nTime taken by train P = x/100\n\nTime taken by train Q = x/120\n\nx/100 = (x/120) + (1/4)\nx = 150km"
     },
     {
       "id": 2,
       "answerIndex": 1,
-      "answers": [
-        "150 km",
-        "120 km",
-        "100 km",
-        "80 km"
-      ],
+      "answers": ["150 km", "120 km", "100 km", "80 km"],
       "question": "Two trains A and B travel at speeds of 80kmph and 120kmph respectively, from station C to D. If train B reaches half an hour before train A, find the distance between stations C and D.",
       "solution": "Let the distance between C and D be x km\n\nTime taken by train A = x/80\n\nTime taken by train B = x/120\n\nx/80 = (x/120) + (1/2)\nx = 120km"
     },
     {
       "id": 3,
       "answerIndex": 2,
-      "answers": [
-        "200 m",
-        "250 m",
-        "500 m",
-        "1 km"
-      ],
+      "answers": ["200 m", "250 m", "500 m", "1 km"],
       "question": "A passenger in a train travelling at 150 kmph observes another train travelling in the same direction at a speed of 120 kmph for 1 minute. Find the length of the second train.",
       "solution": "Relative speed of the trains \n= 150-120 \n= 30 kmph \n= 30*5/18 m/s\n30*5/18 = l/60\nl = 500m"
     },
     {
       "id": 4,
       "answerIndex": 0,
-      "answers": [
-        "275m",
-        "250m",
-        "225m",
-        "200m"
-      ],
+      "answers": ["275m", "250m", "225m", "200m"],
       "question": "Two trains travelling in opposite directions at speeds of 110 kmph and 90 kmph cross each other for 9s. If the length of the first train is 225m, find the length of the second train.",
       "solution": "Relative speed of the trains \n= 110+90 \n= 200 kmph \n= 200*5/18 m/s\n200*5/18 = (225+l)/9\nl = 275m"
     },
     {
       "id": 5,
       "answerIndex": 2,
-      "answers": [
-        "38",
-        "40",
-        "44",
-        "48"
-      ],
+      "answers": ["38", "40", "44", "48"],
       "question": "At 10 a.m. two trains started traveling toward each other from stations 287 miles apart. They passed each other at 1:30 p.m. the same day. If the average speed of the faster train exceeded the average speed of the slower train by 6 miles per hour, which of the following represents the speed ofthe faster train, in miles per hour?",
       "solution": "Let the speeds of the two trains be x miles/hr and (x-6) miles/hr.\n\nCombined distance travelled by the two trains from 10 am to 1:30 pm = 287 miles\n\n(3.5*x)+(3.5*(x-6))=287\nx=44 miles/hr"
     },
     {
       "id": 6,
       "answerIndex": 0,
-      "answers": [
-        "240m",
-        "360m",
-        "540m",
-        "180m"
-      ],
+      "answers": ["240m", "360m", "540m", "180m"],
       "question": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
       "solution": "Speed of the train \n= 54 km/hr \n= 54*5/18 = 15 m/s\nLength of the train \n= 15*20 = 300m\n300+l = 36*15 \nl = 240m"
     },
     {
       "id": 7,
       "answerIndex": 1,
-      "answers": [
-        "3:2",
-        "2:3",
-        "4:3",
-        "2:5"
-      ],
+      "answers": ["3:2", "2:3", "4:3", "2:5"],
       "question": "Two trains travelling in the same direction cross a pole in 12 seconds and 10 seconds respectively. The second train takes 54 seconds to cross the first train. Find the ratio of their speed. ",
       "solution": "Let the speeds of the trains be x m/s and y m/s respectively.\nl1 = 12xl2 = 10y\nSecond train overtakes the first train. So y>x\n\nl1+l2 = 54(y-x)\n12x+10y = 54(y-x)\n\n66x = 44y\nx:y=2:3"
     },
     {
       "id": 8,
       "answerIndex": 3,
-      "answers": [
-        "3:4",
-        "3:5",
-        "1:2",
-        "4:5"
-      ],
+      "answers": ["3:4", "3:5", "1:2", "4:5"],
       "question": "Two trains start at the same time, one from station A to B and another from station B to A. After they meet, they take 50 seconds and 32 seconds to reach their destinations respectively. Find the ratio of their speeds.",
       "solution": "Let the speeds of the trains be x m/s and y m/s respectively.\n\nx:y = √32:√50 = 4:5"
     },
     {
       "id": 9,
       "answerIndex": 2,
-      "answers": [
-        "60 kmph",
-        "25 kmph",
-        "90 kmph",
-        "100 kmph"
-      ],
+      "answers": ["60 kmph", "25 kmph", "90 kmph", "100 kmph"],
       "question": "A train of length 260 m crosses a bridge of length 40 m in 12 seconds. Find the speed of the train.",
       "solution": "Speed of the train \n= (260+40)/12 \n= 300/12 m/s \n(300/12)*(18/5) kmph = 90 kmph"
     },
     {
       "id": 10,
       "answerIndex": 2,
-      "answers": [
-        "18s",
-        "10s",
-        "6s",
-        "5s"
-      ],
+      "answers": ["18s", "10s", "6s", "5s"],
       "question": "A man jogs at a speed of 10 kmph along a railway track. A train of length 100 m running in the same direction at a speed of 40 kmph is 200 m behind him. Find the time taken by the train to cross the man.",
       "solution": "Relative speed \n= 40-10 = 30 kmph\nTime taken to cross the man \n= (100+200)/30 = 10s"
     },
     {
       "id": 11,
       "answerIndex": 3,
-      "answers": [
-        "250m",
-        "240m",
-        "300m",
-        "270m"
-      ],
+      "answers": ["250m", "240m", "300m", "270m"],
       "question": "A passenger in a train of length l running at a speed of 48 kmph observes another train running in the opposite direction at a speed of 60 kmph for 8 seconds. The trains cross each other for 17 seconds. Find l.",
       "solution": "Relative speed of the trains \n= 48+60 \n= 108 kmph \n= 30 m/s\nLength of the second train\n=30*8 = 240m\n\n(l+240) = 30*17 = 510\n\nl = 270m"
     },
     {
       "id": 12,
       "answerIndex": 0,
-      "answers": [
-        "5:30 pm",
-        "5:10 pm",
-        "5:15 pm",
-        "5:20 pm"
-      ],
+      "answers": ["5:30 pm", "5:10 pm", "5:15 pm", "5:20 pm"],
       "question": "Stations A and B are 110 km apart. Train C starts from A at 4:00 pm and travels to B at a speed of 40 kmph. Train D starts from B at 4:30 pm and travels towards A at a speed of 50 kmph. They meet at",
       "solution": "Distance travelled by C in ½ an hour (at 4:30 pm) \n= 40* ½ = 20 km\nLet the distance travelled by C after 4:30 pm till it meets D be x km. \n\nTime taken by C to travel x km = Time taken by D to travel 90-x km\n\nx/40 = (90-x)/50\nx=40 km\n\nTime taken = 1 hour\nThey meet at 5:30 pm(an hour after 4:30 pm)."
     },
     {
       "id": 13,
       "answerIndex": 1,
-      "answers": [
-        "200m",
-        "180m",
-        "160m",
-        "150m"
-      ],
+      "answers": ["200m", "180m", "160m", "150m"],
       "question": "A train 220 m long crosses a man standing in a platform in 11 seconds and the platform in 20 seconds. Find the length of the platform.",
       "solution": "Speed of the train = 220/11 = 20 m/s\n\nLet the length of the platform be l m\n\n(220+l)/20 = 20\nl = 180m"
     },
     {
       "id": 14,
       "answerIndex": 2,
-      "answers": [
-        "1 minute",
-        "54 seconds",
-        "48 seconds",
-        "45 seconds"
-      ],
+      "answers": ["1 minute", "54 seconds", "48 seconds", "45 seconds"],
       "question": "Find the time taken by a train of length 200 m travelling at a speed of 90 kmph to cross a 1 km long tunnel.",
       "solution": "Speed of the train \n= 90*5/18 = 25 m/s\nTime to cross the tunnel \n= (1000+200)/25 = 48s"
     },
     {
       "id": 15,
       "answerIndex": 2,
-      "answers": [
-        "200m",
-        "150m",
-        "100m",
-        "75m"
-      ],
+      "answers": ["200m", "150m", "100m", "75m"],
       "question": "A train travelling at 50 kmph crosses another train which is twice its length and travelling in the opposite direction at a speed of 40 kmph in 12 seconds. Find the length of the first train.",
       "solution": "Relative speed \n= 50+40 \n= 90 kmph \n= 25 m/s\nIf the length of the first train is l m, the length of the second train is 2l m.\n\n3l/25 = 12\nl  = 100m"
     },
     {
       "id": 16,
       "answerIndex": 3,
-      "answers": [
-        "90m",
-        "120m",
-        "150m",
-        "100m"
-      ],
+      "answers": ["90m", "120m", "150m", "100m"],
       "question": "A train 200m long travelling at a speed of 150 kmph overtakes another train travelling at a speed of 90 kmph in 18 seconds. Find the length of the second train.",
       "solution": "Relative Speed\n= 150-90\n= 60 kmph\n= (60*5/18) m/s\nDistance covered in 18 seconds\n= (60*5/18)*18\n= 300m\nl1+l2 = 300\nl2 = 100m"
     },
     {
       "id": 17,
       "answerIndex": 1,
-      "answers": [
-        "2:3",
-        "3:2",
-        "4:3",
-        "3:4"
-      ],
+      "answers": ["2:3", "3:2", "4:3", "3:4"],
       "question": "Two trains of equal length take 12 seconds and 18 seconds respectively to cross a telegraph post. Find the ratio of their speeds.",
       "solution": "Ratio of their speeds is inversely proportional to the ratio of the time taken since the distance travelled(length of the trains) is equal.\n\nRatio of their speeds\n= 18:12\n= 3:2"
     },
     {
       "id": 18,
       "answerIndex": 1,
-      "answers": [
-        "240 m",
-        "220 m",
-        "200 m",
-        "300 m"
-      ],
+      "answers": ["240 m", "220 m", "200 m", "300 m"],
       "question": "A train travelling at 72 kmph crosses a platform in 20 seconds and a man standing on the platform in 9 seconds. What is the length of the platform?",
       "solution": "Let the length of the train be l1 km and the length of the platform be l2 km.\n\nSpeed = 72kmph = 20m/s\n\n(l1+l2)/20 = 20\nl1/20 = 9\n\nSolving,\nl2 = 220m"
     },
     {
       "id": 19,
       "answerIndex": 0,
-      "answers": [
-        "50 kmph",
-        "40 kmph",
-        "90 kmph",
-        "80 kmph"
-      ],
+      "answers": ["50 kmph", "40 kmph", "90 kmph", "80 kmph"],
       "question": "A and B are two stations located 180 kilometres apart. Two trains start from the two stations at the same time and meet each other after two hours. If the speed of the train moving from A to B is 10 kmph more than the train moving in the opposite direction, find the speed of the faster train.",
       "solution": "Let d1 and d2 be the distances travelled by the two trains when they meet.\n\nLet their speeds be x kmph and (x+10) kmph.\n\nd1+d2=180\n\n2x+2*(x+10) = 180\n\nSolving,\nx=40\nSpeed of the faster train \n= 50kmph"
     },
     {
       "id": 20,
       "answerIndex": 3,
-      "answers": [
-        "6:5",
-        "8:11",
-        "5:11",
-        "5:6"
-      ],
+      "answers": ["6:5", "8:11", "5:11", "5:6"],
       "question": "Two trains travelling at speeds of 90kmph and 72kmph take 16 seconds and 22 seconds to cross a platform of length 200m. Find the ratio of their lengths.",
       "solution": "First train:\nSpeed = 90kmph = 25m/s\nLength = l1m\nSecond train:\nSpeed = 72kmph = 20 m/s\nLength = l2m\n(l1+200)/25 = 16\n(l2+200)/20 = 22\n\nl1=200m\nl2=240m\n\nl1:l2=5:6"
     },
     {
       "id": 21,
       "answerIndex": 3,
-      "answers": [
-        "72 kmph",
-        "78 kmph",
-        "80 kmph",
-        "75 kmph"
-      ],
+      "answers": ["72 kmph", "78 kmph", "80 kmph", "75 kmph"],
       "question": "A train overtakes two persons walking at speeds of 3 kmph and 5 kmph in 14 seconds and 14.4 seconds respectively. If they are walking in the same direction as the train, find the speed of the train. ",
       "solution": "Let the speed of the train be x km/hr.\n\nRelative speed of the train and the first person\n= x-3 kmph\n= (x-3)*(5/18) m/s\nRelative speed of the train and the second person\n= (x-5)*(5/18) m/s\nLength of the train\n= Relative speed*Time to overtake\n\n[(x-3)*(5/18)]*14 = [(x-5)*(5/18)]*14.4\n\n(x-3)*14 = (x-5)*14.4\nSolving,\n14x-42 = 14.4x-72\n0.4x = 30\nx = 75kmph"
     },
     {
       "id": 22,
       "answerIndex": 1,
-      "answers": [
-        "11 s",
-        "20 s",
-        "18 s",
-        "14 s"
-      ],
+      "answers": ["11 s", "20 s", "18 s", "14 s"],
       "question": "The time taken by a 300m long train travelling at a speed of 54 kmph to cross a pole is",
       "solution": "Speed of the train\n= 54*5/18\n= 15 m/s\nTime taken\n= 300/15\n= 20 seconds"
     },
     {
       "id": 23,
       "answerIndex": 3,
-      "answers": [
-        "300m",
-        "180m",
-        "240m",
-        "150m"
-      ],
+      "answers": ["300m", "180m", "240m", "150m"],
       "question": "A train travelling at 72 kmph overtakes another train twice its length travelling in the same direction with half its speed in 45 seconds. Find the length of the first train.",
       "solution": "Let the lengths of the two trains be l1 m and l2 m respectively.\n\nl2=2*l1\n\nSpeed of the second train\n= 72/2\n= 36 kmph\nRelative speed of the two trains\n= 72-36\n= 36 kmph\n= 10 m/s\nTime taken to cross each other\n(l1+l2)/10 = 45\n3l1 = 450\nl1 = 150 m"
     },
     {
       "id": 24,
       "answerIndex": 1,
-      "answers": [
-        "1 km",
-        "1.2 km",
-        "700 m",
-        "900 m"
-      ],
+      "answers": ["1 km", "1.2 km", "700 m", "900 m"],
       "question": "A train crosses a man standing on a platform in 20 seconds and the platform in 100 seconds. If the train is 300m long, find the length of the platform.",
       "solution": "Let the length of the platform be x m.\n\n300/20 = (300+x)/100\n\n15 = (300+x)/100\n\n1500 = 300+x\n\nx = 1200m = 1.2 km"
     },
     {
       "id": 25,
       "answerIndex": 0,
-      "answers": [
-        "45 kmph",
-        "48 kmph",
-        "42 kmph",
-        "54 kmph"
-      ],
+      "answers": ["45 kmph", "48 kmph", "42 kmph", "54 kmph"],
       "question": "A train starts from station A at 7:00 a.m. and reaches station B at 8:20 a.m. Find the speed of the train if the distance between the stations A and B is 60 km.",
       "solution": "Time taken\n= 1 hour 20 minutes\n= 1+(20/60)\n= 1(1/3) hours\n= 4/3 hours\nSpeed\n= 60:(4/3)\n= 45 kmph"
     },
     {
-      "id": 30,
-      "answerIndex": 1,
-      "answers": [
-        "250 km",
-        "200 km",
-        "100 km",
-        "33 km"
-      ],
-      "question": "If a train travels from station A to B at an average speed of 50 kmph without any stoppages, it reaches 5 minutes before the scheduled time. However, if it travels at an average speed of 48 kmph, it reaches 5 mins late. Find the distance between A and B.",
-      "solution": "Let the distance between the A and B be x km and \n      the usual time of travel be y hours\n\nIf speed=50 kmph,\ntime taken = y+5 mins\n(x/50) = y-(5/60)\nIf speed=40 kmph,\ntime taken = y+5 mins\n(x/48) = y+(5/60)\n\nSolving the two equations,\nx=200 km"
-    },
-    {
-      "id": 29,
-      "answerIndex": 2,
-      "answers": [
-        "15 kmph",
-        "25 kmph",
-        "50 kmph",
-        "45 kmph"
-      ],
-      "question": "Two trains of length 240 m and 180 m, travelling in opposite directions cross each other in 45 seconds. If the speed of the first train is 40 kmph, find the speed of the second train.",
-      "solution": "Relative speed of the trains\n= (240+210)/18\n= 450/18\n= 25 m/s\n= (25*18/5) kmph\n= 90 kmph\n40+x=90\nx=50 kmph"
-    },
-    {
-      "id": 28,
-      "answerIndex": 3,
-      "answers": [
-        "750 m",
-        "600 m",
-        "500 m",
-        "550 m"
-      ],
-      "question": "A train travelling at a speed of 45 kmph takes 2 minutes to cross a bridge. If the train is 200m long, find the length of the bridge.",
-      "solution": "Distance travelled by the train in 2 minutes\n= (45*5/18)*60\n= 750 m\nLength of the bridge\n= 750-200\n= 550 m"
-    },
-    {
-      "id": 27,
-      "answerIndex": 0,
-      "answers": [
-        "1 pm",
-        "12:30 pm",
-        "3 pm",
-        "2 pm"
-      ],
-      "question": "Trains A and B start from station P in the same direction at 9:00 am and 10:00 am respectively. If the speeds of the trains are in the ratio 3:4, at what time will train B cross train A?",
-      "solution": "Let the speeds of train A be 3x kmph and 4x kmph.\n\nDistance travelled by train A in the first 1 hour(9 am to 10 am)\n= 3x km\nRelative speed of trains moving in the same direction\n= 4x-3x\n= x kmph\nTrain A is 3x km ahead of B at 10 am.\n\nTime taken to cover 3x km with a relative speed of x kmph\n= 3x/x\n= 3 hours\nTrain B crosses train A at 1 pm."
-    },
-    {
       "id": 26,
       "answerIndex": 2,
-      "answers": [
-        "54 km",
-        "5 km",
-        "45 km",
-        "4 km"
-      ],
+      "answers": ["54 km", "5 km", "45 km", "4 km"],
       "question": "Two trains, with speeds of 60 kmph and 48 kmph, leave the same station at the same time in opposite directions. How far apart will they be after 25 minutes?",
       "solution": "Distance travelled by train A in 25 minutes\n= 60*25/60\n= 25 km\nDistance travelled by train B in 25 minutes\n= 48*25/60\n= 20 km\nDistance between them\n= 45 km"
     },
     {
+      "id": 27,
+      "answerIndex": 0,
+      "answers": ["1 pm", "12:30 pm", "3 pm", "2 pm"],
+      "question": "Trains A and B start from station P in the same direction at 9:00 am and 10:00 am respectively. If the speeds of the trains are in the ratio 3:4, at what time will train B cross train A?",
+      "solution": "Let the speeds of train A be 3x kmph and 4x kmph.\n\nDistance travelled by train A in the first 1 hour(9 am to 10 am)\n= 3x km\nRelative speed of trains moving in the same direction\n= 4x-3x\n= x kmph\nTrain A is 3x km ahead of B at 10 am.\n\nTime taken to cover 3x km with a relative speed of x kmph\n= 3x/x\n= 3 hours\nTrain B crosses train A at 1 pm."
+    },
+    {
+      "id": 28,
+      "answerIndex": 3,
+      "answers": ["750 m", "600 m", "500 m", "550 m"],
+      "question": "A train travelling at a speed of 45 kmph takes 2 minutes to cross a bridge. If the train is 200m long, find the length of the bridge.",
+      "solution": "Distance travelled by the train in 2 minutes\n= (45*5/18)*60\n= 750 m\nLength of the bridge\n= 750-200\n= 550 m"
+    },
+    {
+      "id": 29,
+      "answerIndex": 2,
+      "answers": ["15 kmph", "25 kmph", "50 kmph", "45 kmph"],
+      "question": "Two trains of length 240 m and 180 m, travelling in opposite directions cross each other in 45 seconds. If the speed of the first train is 40 kmph, find the speed of the second train.",
+      "solution": "Relative speed of the trains\n= (240+210)/18\n= 450/18\n= 25 m/s\n= (25*18/5) kmph\n= 90 kmph\n40+x=90\nx=50 kmph"
+    },
+    {
+      "id": 30,
+      "answerIndex": 1,
+      "answers": ["250 km", "200 km", "100 km", "33 km"],
+      "question": "If a train travels from station A to B at an average speed of 50 kmph without any stoppages, it reaches 5 minutes before the scheduled time. However, if it travels at an average speed of 48 kmph, it reaches 5 mins late. Find the distance between A and B.",
+      "solution": "Let the distance between the A and B be x km and \n      the usual time of travel be y hours\n\nIf speed=50 kmph,\ntime taken = y+5 mins\n(x/50) = y-(5/60)\nIf speed=40 kmph,\ntime taken = y+5 mins\n(x/48) = y+(5/60)\n\nSolving the two equations,\nx=200 km"
+    },
+    {
       "id": 31,
       "answerIndex": 2,
-      "answers": [
-        "160 m",
-        "150 m",
-        "140 m",
-        "120 m"
-      ],
+      "answers": ["160 m", "150 m", "140 m", "120 m"],
       "question": "A train running at 54 kmph takes 20 seconds to pass a platform. Next it takes 12 seconds to pass a man walking at 6 kmph in the same direction in which the train is going. Find the length of the platform.",
       "solution": "Speed of the train\n= 54*5/18 m/s\n= 15 m/s\n\nThe man is walking in the same direction as that of the train.\nSpeed of the man\n= 6*5/18\n= 5/3 m/s\nRelative speed\n= 15-(5/3)\n= 40/3 m/s\nLength of the train\n= 12*40/3\n= 160 m\n\nLet the length of the platform be x m.\n\nl+x = 15*20 = 300\n\nx=140m"
     },
     {
       "id": 32,
       "answerIndex": 3,
-      "answers": [
-        "45 kmph",
-        "47.5 kmph",
-        "52 kmph",
-        "56.25 kmph"
-      ],
+      "answers": ["45 kmph", "47.5 kmph", "52 kmph", "56.25 kmph"],
       "question": "The average speed of a train in the onward journey is 25% more than that in the return journey. The train halts for one hour on reaching the destination. The total time taken for the complete to and from journey is 17 hours, covering a distance of 800 km. The speed of the train in the onward journey is:\r",
       "solution": "Let the speed in return journey be x km/hr.\rThen, speed in onward journey =(125/100)x = (5/4)x km/hr\rSo. Speed in onward journey = [(5/4)*45] km/hr = 56.25 km/hr\r"
     },
     {
       "id": 33,
       "answerIndex": 3,
-      "answers": [
-        "4 : 3 : 5",
-        "5 : 3 : 4",
-        "15 : 9 : 20",
-        "15 : 20 : 12"
-      ],
+      "answers": ["4 : 3 : 5", "5 : 3 : 4", "15 : 9 : 20", "15 : 20 : 12"],
       "question": "Three trains are travelling from a place A to another place B. Their speeds are in the ratio of 4 : 3 : 5. The time ratio to reach B by these trains will be in the ratio",
       "solution": "Ratio of speeds = 4 : 3 : 5\rTherefore Ratio of times taken = (1/4) : (1/3) : (1/5) = 15 : 20 : 12\r"
     },
     {
       "id": 34,
       "answerIndex": 2,
-      "answers": [
-        "120 km",
-        "360 km",
-        "480 km",
-        "500 km"
-      ],
+      "answers": ["120 km", "360 km", "480 km", "500 km"],
       "question": "Bombay Express Left Delhi from Bombay at 14.30 hrs, travelling at a speed of 60 kmph and Rajdhani Express left. Delhi for Bombay on the\rsame day at 16.30 hrs, travelling at a speed of 80 kmph. How far away from Delhi will the two trains meet?",
       "solution": "Suppose they meet x hours after 14.30 hrs. Then, 60x = 80 (x - 2) or x = 8.\rRequired distance = (60 x 8) km = 480 km."
     },
     {
       "id": 35,
       "answerIndex": 1,
-      "answers": [
-        "210 kms",
-        "420 kms",
-        "140 kms",
-        "90 kms"
-      ],
+      "answers": ["210 kms", "420 kms", "140 kms", "90 kms"],
       "question": "A train travels a certain distance taking 7 hrs in forward journey. During the return journey, the speed is increased by 12 km/hr and the time taken is 5 hrs. What is the total distance travelled?",
       "solution": "Let the initial speed of the train be x kmph.\n\n7x = 5(x+12)\n\n2x = 60\n\nx = 30\n\nTotal distance travelled\n= 2*7x\n= 420 km"
     },
     {
       "id": 36,
       "answerIndex": 3,
-      "answers": [
-        "48 km/hr",
-        "66 km/hr",
-        "54 km/hr",
-        "82 km/hr"
-      ],
+      "answers": ["48 km/hr", "66 km/hr", "54 km/hr", "82 km/hr"],
       "question": "A train 108 m long moving at a speed of 50 km/hr crosses a train 112 m long coming from opposite direction in 6 seconds. The speed of the second train is",
       "solution": "Let the speed of the second train be x kmph.\n\n(50+x)*5/18 = (108+112)/6\n\n50+x = 132\n\nx = 82 m"
     },
     {
       "id": 37,
       "answerIndex": 1,
-      "answers": [
-        "130",
-        "500",
-        "360",
-        "540"
-      ],
+      "answers": ["130", "500", "360", "540"],
       "question": "A train 800 metres long is running at a speed of 78 km/hr. If it crosses a tunnel in 1 minute, then the length of the tunnel (in meters) is",
       "solution": "(800+x) = 60*78*5/18\n\nx = 500 m"
     },
     {
       "id": 38,
       "answerIndex": 0,
-      "answers": [
-        "40 sec",
-        "45 sec",
-        "42 sec",
-        "48 sec"
-      ],
+      "answers": ["40 sec", "45 sec", "42 sec", "48 sec"],
       "question": "A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?",
       "solution": "Time taken\n= (360+140)/(45*5/18)\n= 40 s"
     },
     {
       "id": 39,
       "answerIndex": 3,
-      "answers": [
-        "66 km/hr",
-        "78 km/hr",
-        "72 km/hr",
-        "81 km/hr"
-      ],
+      "answers": ["66 km/hr", "78 km/hr", "72 km/hr", "81 km/hr"],
       "question": "A train overtakes two persons walking along a railway track. The first one walks at 4.5 km/hr. The other one walks at 5.4 km/hr. The train needs 8.4 and 8.5 seconds respectively to overtake them. What is the speed of the train if both the persons are walking in the same direction as the train?",
       "solution": "Let the length of the train be l m and\nthe speed of the train be x kmph.\n\n8.4*(x-4.5)*5/18 = 8.5*(x-5.4)*5/18\n\n0.1x = 8.1\n\nx = 81 kmph"
     },
     {
       "id": 40,
       "answerIndex": 2,
-      "answers": [
-        "320 m",
-        "650 m",
-        "350 m",
-        "Data inadequate"
-      ],
+      "answers": ["320 m", "650 m", "350 m", "Data inadequate"],
       "question": "A 300 metre long train crosses a platform in 39 seconds while it crosses a signal pole in 18 seconds. What is the length of the platform?",
       "solution": "Speed of the train\n= 300/18\n\nLet the length of the bridge be x m.\n\n(300+x) = (300/18)*39\n\nx = 350"
     },
     {
       "id": 41,
       "answerIndex": 2,
-      "answers": [
-        "2 : 3",
-        "6 : 7",
-        "4 : 3",
-        "9 : 16"
-      ],
+      "answers": ["2 : 3", "6 : 7", "4 : 3", "9 : 16"],
       "question": "Two, trains, one from Howrah to Patna and the other from Patna to Howrah, start simultaneously. After they meet, the trains reach their destinations after 9 hours and 16 hours respectively. The ratio of their speeds is",
       "solution": "Ratio of their speeds\n= √16:√9\n= 4:3"
     },
     {
       "id": 42,
       "answerIndex": 2,
-      "answers": [
-        "5 sec",
-        "7 sec",
-        "6 sec",
-        "10 sec"
-      ],
+      "answers": ["5 sec", "7 sec", "6 sec", "10 sec"],
       "question": "A train 110 metres long is running with a speed of 60 kmph. In what time will it pass a man who is running at 6 kmph in the direction opposite to that in which the train is going?",
       "solution": "Relative Speed\n= 66 kmph\n\nTime taken\n= 110/(66*5/18)\n= 6 seconds"
     },
     {
       "id": 43,
       "answerIndex": 3,
-      "answers": [
-        "65 sec",
-        "80 sec",
-        "72 sec",
-        "89 sec"
-      ],
+      "answers": ["65 sec", "80 sec", "72 sec", "89 sec"],
       "question": "A train 240 m long passes a pole in 24 seconds. How long will it take to pass a platform 650 m long?",
       "solution": "Speed of the train\n= 240/24\n= 10 m/s\nTime taken to cross the pole\n= (240+650)/10\n= 89"
     },
     {
       "id": 44,
       "answerIndex": 3,
-      "answers": [
-        "230 m",
-        "260 m",
-        "240 m",
-        "270 m"
-      ],
+      "answers": ["230 m", "260 m", "240 m", "270 m"],
       "question": "A goods train runs at the speed of 72 kmph and crosses a 250 m long platform in 26 seconds. What is the length of the goods train?",
       "solution": "(250+x)/26 = 72*5/18\n\nx = 270"
     },
     {
       "id": 45,
       "answerIndex": 0,
-      "answers": [
-        "400 m",
-        "560 m",
-        "450 m",
-        "600 m"
-      ],
+      "answers": ["400 m", "560 m", "450 m", "600 m"],
       "question": "A train travelling at 48 kmph completely crosses another train having half its length and travelling in opposite direction at 42 kmph, in 12 seconds. It also passes a railway platform in 45 seconds. The length of the platform is",
       "solution": "Relative speed\n= 48+42\n= 90 kmph\n\nl+(l/2) = 12*90*5/18\n\n3l/2 = 300\n\nl = 200\n\n(200+x) = 45*48*5/18\n\nx = 400 m"
     },
     {
       "id": 46,
       "answerIndex": 1,
-      "answers": [
-        "3.6 sec",
-        "36 sec",
-        "18 sec",
-        "72 sec"
-      ],
+      "answers": ["3.6 sec", "36 sec", "18 sec", "72 sec"],
       "question": "A jogger running at 9 kmph alongside a railway track is 240 m ahead of the engine of a 120 m long train running at 45 kmph in the same direction. In how much time, will the train pass the jogger?",
       "solution": "Relative speed\n= 45-9\n= 36 kmph\nTime taken\n= (240+120)/(36*5/18)\n= 36 seconds"
     },
     {
       "id": 47,
       "answerIndex": 1,
-      "answers": [
-        "23 m",
-        "27.77 m",
-        "23.22 m",
-        "29 m"
-      ],
+      "answers": ["23 m", "27.77 m", "23.22 m", "29 m"],
       "question": "Two trains are running at 40 km/hr and 20 km/hr respectively in the same direction. Fast train completely passes a man sitting in the slower train in 5 seconds. What is the length of the fast train?",
       "solution": "Relative Speed\n= 40-20\n= 20 kmph\n\nl = 5*20*5/18 = 27.77 m"
     },
     {
       "id": 48,
       "answerIndex": 0,
-      "answers": [
-        "230 m",
-        "260 m",
-        "240 m",
-        "270 m"
-      ],
+      "answers": ["230 m", "260 m", "240 m", "270 m"],
       "question": "A 270 metres long train running at the speed of 120 kmph crosses another train running in opposite direction at the speed of 80 kmph in 9 seconds. What is the length of the other train?",
       "solution": "Relative Speed\n= 120+80\n= 200 kmph\n\n270+l = 9*200*5/18\n\nl = 230 m"
     },
     {
       "id": 49,
       "answerIndex": 2,
-      "answers": [
-        "1 : 3",
-        "3 : 4",
-        "3 : 2",
-        "None of these"
-      ],
+      "answers": ["1 : 3", "3 : 4", "3 : 2", "None of these"],
       "question": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is",
       "solution": "Let the speeds of the two trains be x1 m/s and x2 m/s\nand their lengths be l1 m and l2 m.\n\nl1 = 27*x1\nl2 = 17*x2\n\n(l1+l2) = 23*(x1+x2)\n27x1 + 17x2 = 23x1 + 23x2\n\n4x1 = 6x2\n\nx1:x2 = 3:2"
     },
     {
       "id": 50,
       "answerIndex": 2,
-      "answers": [
-        "10",
-        "15",
-        "12",
-        "20"
-      ],
+      "answers": ["10", "15", "12", "20"],
       "question": "Two trains of equal lengths take 10 seconds and 15 seconds respectively to cross a telegraph post. If the length of each train be 120 metres, in what time (in seconds) will they cross each other travelling in opposite direction?",
       "solution": "Let the speeds of the two trains be x1 m/s and x2 m/s.\n\nx1 = 120/10 = 12 m/s\nx2 = 120/15 = 8 m/s\n\nRelative speed\n= 20 m/s\n\nTime taken to cross each other\n= 240/20\n= 12 s"
     },
     {
       "id": 51,
       "answerIndex": 2,
-      "answers": [
-        "45 m",
-        "54 m",
-        "50 m",
-        "72 m"
-      ],
+      "answers": ["45 m", "54 m", "50 m", "72 m"],
       "question": "A train overtakes two persons who are walking in the same direction in which the train is going, at the rate of 2 kmph and 4 kmph and passes them completely in 9 and 10 seconds respectively. The length of the train is",
       "solution": "Let the speed of the train be s kmph and its length be l m.\n\nl = 9*(s-2)*5/18 = 10*(s-4)*5/18\n\n9s - 18 = 10s - 40\n\ns = 22\n\nl = 9*20*5/18 = 50 m"
     },
     {
       "id": 52,
       "answerIndex": 2,
-      "answers": [
-        "45 km/hr",
-        "54 km/hr",
-        "50 km/hr",
-        "55 km/hr"
-      ],
+      "answers": ["45 km/hr", "54 km/hr", "50 km/hr", "55 km/hr"],
       "question": "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is",
       "solution": "10*(s-5)*5/18 = 125\n\ns-5 = 45\n\ns = 50 kmph"
     },
     {
       "id": 53,
       "answerIndex": 2,
-      "answers": [
-        "9 a.m.",
-        "10.30 a.m.",
-        "10 a.m.",
-        "11 a.m."
-      ],
+      "answers": ["9 a.m.", "10.30 a.m.", "10 a.m.", "11 a.m."],
       "question": "Two stations A and B are 110 km apart on a straight line. One train starts from A at 7 a.m. and travels towards B at 20 kmph. Another train starts from B at 8 a.m. and travels towards A at a speed of 25 kmph. At what time will they meet?",
       "solution": "Distance travelled by the first train in an hour (at 8:00 am) \n= 20*1 = 20 km\n\nThey are 90 km apart at 8 am.\n\nLet the distance travelled by the first train after 8:00 am till it meets the second train be x km. \n\nTime taken by Train 1 to travel x km = Time taken by Train 2 to travel 90-x km\n\nx/20 = (90-x)/25\nx=40 km\n\nTime taken by the first train to travel 40 km = 2 hours\n\nThey meet at 10:00 am(2 hours after 8 am)."
     },
     {
       "id": 54,
       "answerIndex": 2,
-      "answers": [
-        "2.5 min",
-        "3.2 min",
-        "3 min",
-        "3.5 min"
-      ],
+      "answers": ["2.5 min", "3.2 min", "3 min", "3.5 min"],
       "question": "A train travelling at a speed of 75 mph enters a tunnel 3.5 miles long. The train is 0.25 mile long. How long does it take for the train to pass through the tunnel from the moment the front enters to the moment the rear emerges?",
       "solution": "Time taken\n= (3.5+0.25)/75 hours\n= 0.05 hrs\n= 3 minutes"
     },
     {
       "id": 55,
       "answerIndex": 2,
-      "answers": [
-        "25",
-        "40",
-        "30",
-        "45"
-      ],
+      "answers": ["25", "40", "30", "45"],
       "question": "How many seconds will a 500 metre long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?",
       "solution": "Relative speed\n= 63-3\n= 60 kmph\nTime taken\n= 500/(60*5/18)\n= 30 seconds"
     },
     {
       "id": 56,
       "answerIndex": 0,
-      "answers": [
-        "4",
-        "8",
-        "12",
-        "16"
-      ],
+      "answers": ["4", "8", "12", "16"],
       "question": "What is the minimum number of trains required between Delhi and Chennai such that every night one train leaves Chennai for Delhi and one train leaves Delhi to Chennai and the train which leaves at night arrives at morning and the journey is of 36hrs?",
       "solution": "4 trains will be needed.\n\nT1, T2 leave Delhi on the first and second nights.\nT3, T4 leave Chennai on the first and second nights.\n\nT1 would reach Chennai on the third day morning and hence would leave Chennai on the third night.\n\nT3 would reach Delhi on the third day morning and hence would leave Delhi on the third night."
     }

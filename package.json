@@ -1,0 +1,15 @@
+{
+  "name": "aptitude-tests",
+  "version": "1.0.0",
+  "description": "Let's try it! [Aptitude Test](https://4skinskywalker.github.io/aptitude-tests/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
+}
