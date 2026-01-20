@@ -7,7 +7,7 @@ const windowHeight = window.innerHeight;
 const canvas = document.getElementById('canvas');
 canvas.width = windowWidth * 4;
 canvas.height = windowHeight * 4;
-const sdb = new SimpleDrawingBoard(canvas);
+const sdb = new SimpleDrawingBoard(canvas, { lineColor: '#000' });
 
 // Vars
 let genres = [
