@@ -14,20 +14,13 @@
   </head>
   <body>
 
-    <button
-      class="position-fixed btn btn-light text-dark"
-      style="top: 1rem; left: 1rem; z-index: 100;"
-      onclick="render(getGenresHTML(genres, genreObjs));"
-    >
-      Home
-    </button>
-    <button
-      class="position-fixed btn btn-light text-dark"
-      style="top: 1rem; right: 1rem; z-index: 100;"
-      onclick="reset();"
-    >
-      Reset
-    </button>
+    <div style="display: flex; justify-content: center; gap: 10px; position: fixed; width: 100%; top: 1rem; z-index: 100; padding-inline: 10px;">
+      <button class="btn btn-light text-dark" onclick="render(getGenresHTML(genres, genreObjs));">Home</button>
+      <button class="btn btn-light text-dark" onclick="reset();">Reset</button>
+      <div style="margin-inline: auto;"></div>
+      <button class="btn btn-light text-dark" onclick="importData();">Import</button>
+      <button class="btn btn-light text-dark" onclick="exportData();">Export</button>
+    </div>
     <div id="app" class="py-5"></div>
     <button
       id="scroll-back-btn"

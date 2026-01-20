@@ -42,6 +42,37 @@ let lastScrollPos = 0;
 document.addEventListener("scroll", setScrollBackBtnText);
 
 // Fns
+function importData() {
+  const input = document.createElement("input");
+  input.type = "file";
+  input.accept = "application/json";
+  input.onchange = function () {
+    const file = input.files[0];
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      const data = JSON.parse(e.target.result);
+      data.forEach(([key, value]) => {
+        localStorage.setItem(key, value);
+      });
+      render(getGenresHTML(genres, genreObjs));
+    };
+    reader.readAsText(file);
+  };
+  input.click();
+}
+
+function exportData() {
+  const ls = Object.entries(localStorage).filter(x => x[0].match(/^aptitude/));
+  const data = JSON.stringify(ls);
+  const blob = new Blob([data], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `aptitude-tests-${Date.now()}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 function setScrollBackBtnText() {
   if (lastScrollPos === 0 && document.documentElement.scrollTop === 0) {
     scrollBackBtn.style.display = "none";
