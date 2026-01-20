@@ -2,6 +2,13 @@ if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
 }
 
+const windowWidth = window.innerWidth;
+const windowHeight = window.innerHeight;
+const canvas = document.getElementById('canvas');
+canvas.width = windowWidth * 4;
+canvas.height = windowHeight * 4;
+const sdb = new SimpleDrawingBoard(canvas);
+
 // Vars
 let genres = [
   "ages",
@@ -42,6 +49,16 @@ let lastScrollPos = 0;
 document.addEventListener("scroll", setScrollBackBtnText);
 
 // Fns
+function openDrawingBoard() {
+  document.querySelector('.drawing-board').style.display = 'block';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDrawingBoard() {
+  document.querySelector('.drawing-board').style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
 function importData() {
   const input = document.createElement("input");
   input.type = "file";

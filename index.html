@@ -23,14 +23,35 @@
     </div>
     <div id="app" class="py-5"></div>
     <button
+      class="position-fixed btn btn-light text-dark"
+      style="bottom: 1rem; left: 1rem; z-index: 100;"
+      onClick="openDrawingBoard();"
+    >Draw</button>
+    <button
       id="scroll-back-btn"
       class="position-fixed btn btn-light text-dark"
       style="display: none; bottom: 1rem; right: 1rem; z-index: 100;"
       onclick="scrollBack()"
-    >
-    </button>
+    ></button>
+
+    <div class="drawing-board">
+      <div class="canvas-wrapper">
+        <canvas id="canvas"></canvas>
+      </div>
+      <button
+        class="position-fixed btn btn-dark text-light"
+        style="bottom: 1.5rem; right: 1.5rem; z-index: 150;"
+        onClick="sdb.clear();"
+      >Clear</button>
+      <button
+        class="position-fixed btn btn-dark text-light"
+        style="bottom: 1.5rem; left: 1.5rem; z-index: 150;"
+        onClick="closeDrawingBoard();"
+      >Close</button>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/simple-drawing-board.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
