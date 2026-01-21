@@ -23,10 +23,6 @@ pre {
   opacity: 0.9;
 }
 
-.shadow {
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15) !important;
-}
-
 .drawing-board {
   position: fixed;
   top: 0;
