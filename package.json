@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+    "agents": "ts-node ./agent/agents.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }

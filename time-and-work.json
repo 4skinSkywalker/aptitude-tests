@@ -4,532 +4,912 @@
     {
       "id": 1,
       "answerIndex": 2,
-      "answers": ["9 days", "4.5 days", "2 days", "1.5 days"],
+      "answers": [
+        "9 days",
+        "4.5 days",
+        "2 days",
+        "1.5 days"
+      ],
       "question": "A can complete a work in 6 days and B can complete a work in 3 days. If A and B work together, in how many days can the work be completed?",
       "solution": "Part of work completed by A in 1 day \n= 1/6\nPart of work completed by B in 1 day \n= 1/3\nPart of work completed by A and B together in a day \n= 1/6 +1/3 = ½\nDays taken to complete the work = 2"
     },
     {
       "id": 2,
       "answerIndex": 0,
-      "answers": ["10 days", "12 days", "8 days", "9 days"],
+      "answers": [
+        "10 days",
+        "12 days",
+        "8 days",
+        "9 days"
+      ],
       "question": "C takes 6 days to complete half of a work and D takes 5 days to complete 1/3rd of the same work. They take turns to complete the task. If C works for the first 4 days, in how many days will D complete the rest of the work without the help of C?",
       "solution": "Part of work completed by C in 1 day \n= 1/12\nPart of work completed by D in 1 day \n= 1/15\nPart of work completed by C in 4 days \n= 1/3\nWork remaining \n= 2/3\nTime taken by D to complete the work \n= (2/3):(1/15) = 10 days"
     },
     {
       "id": 3,
       "answerIndex": 3,
-      "answers": ["2 men", "12 men", "9 men", "18 men"],
+      "answers": [
+        "2 men",
+        "12 men",
+        "9 men",
+        "18 men"
+      ],
       "question": "If6 men take 9 days to complete a work, how many men can complete the work in 3 days?",
       "solution": "For the work to be completed in 9 days, \n6 men are required.\nTime and men are inversely proportional.\n\nFor the work to be completed in 3 days, \n6*9/3 = 18 men are required"
     },
     {
       "id": 4,
       "answerIndex": 1,
-      "answers": ["8 days", "6 days", "4 days", "2 days"],
+      "answers": [
+        "8 days",
+        "6 days",
+        "4 days",
+        "2 days"
+      ],
       "question": "A can build up a structure in 8 days and B can break it in 4 days. A has worked for 4 days and then B joined to work with A for another 2 days only. In how many days will A alone build up the remaining part of the structure?",
       "solution": "Part of structure built by A in a day \n= 1/8\nPart of structure built by B in a day \n= 1/4\nPart of structure built by A in 4 days \n= 4*1/8 = ½\nPart of structure broken in the next 2 days after B joins A \n= 2*((1/4) - (1/8)) = ¼\nA can build up the remaining 3/4th of the structure in   \n6 days"
     },
     {
       "id": 5,
       "answerIndex": 0,
-      "answers": ["35 men", "40 men", "45 men", "30 men"],
+      "answers": [
+        "35 men",
+        "40 men",
+        "45 men",
+        "30 men"
+      ],
       "question": "A contract is to be completed in 50 days and 105 men were set to work, each working 8 hours a day. After 25 days, 2/5th of the work is finished. How many additional men be employed so that the work may be completed on time, each man now working 9 hours a day?",
       "solution": "Total hours of work in the first 25 days \n= 105*8 \n= 840\n2/5th of the work is completed in 840 hours.\n\n3/5th of the work takes 1260 hours.\n\nWorking 9 hrs a day, 140 men are needed. \n\nSo, 35 additional men are needed."
     },
     {
       "id": 6,
       "answerIndex": 3,
-      "answers": ["123.33 days", "60 days", "50.33 days", "40 days"],
+      "answers": [
+        "123.33 days",
+        "60 days",
+        "50.33 days",
+        "40 days"
+      ],
       "question": "Tarun, Varun and Arun are working together on a software project. Tarun alone can complete in 100 days. Varun alone can complete in 120 days. Arun alone can complete in 150 days. When working together, how long does it take for them to complete the project?",
       "solution": "Part of project completed by Tarun in a day \n= 1/100\nPart of project completed by Varun in a day \n= 1/120\nPart of project completed by Arun in a day \n= 1/150\nPart of project completed by them together in a day \n= (1/100)+(1/120)+(1/150)=1/40\nThey take 40 days to complete the project."
     },
     {
       "id": 7,
       "answerIndex": 2,
-      "answers": ["4(2/3) days", "4 days", "5(1/3) days", "1(1/3) days"],
+      "answers": [
+        "4(2/3) days",
+        "4 days",
+        "5(1/3) days",
+        "1(1/3) days"
+      ],
       "question": "A and B together take 6 days to complete a task. B and C together take 12 days to complete the same task. A and C together take 8 days to complete it. If A, B and C are working together, how long does it take for them to complete the task?",
       "solution": "(1/A)+(1/B) = (1/6)\n(1/B)+(1/C) = (1/12)\n(1/A)+(1/C) = (1/8)\nSolving the three equations,\n(1/A)+(1/B)+(1/C) = (3/16)\nTogether they take 16/3 = 5(1/3) days to complete the task."
     },
     {
       "id": 8,
       "answerIndex": 0,
-      "answers": ["48", "34(2/7)", "44", "45"],
+      "answers": [
+        "48",
+        "34(2/7)",
+        "44",
+        "45"
+      ],
       "question": "A and B can finish a piece of work in 20 days .B and C in 30 days and C and A in 40 days. In how many days will A alone finish the job?",
       "solution": "(1/A)+(1/B) = (1/20)\n(1/B)+(1/C) = (1/30)\n(1/A)+(1/C) = (1/40)\nSolving the three equations,\nA=48"
     },
     {
       "id": 9,
       "answerIndex": 3,
-      "answers": ["7 days", "5 days", "6 days", "4 days"],
+      "answers": [
+        "7 days",
+        "5 days",
+        "6 days",
+        "4 days"
+      ],
       "question": "In a management company 6 boys and 8 girls can do a piece of work in 10 days while 26 boys and 48 girls can do the same in 2 days. Find the time taken by 15 boys and 20 girls in doing the same type of work?",
       "solution": "(6/B)+(8/G) = (1/10)\n(26/B)+(48/G) = (1/2)\n\nSolving the two equations, \nB = 100 and G = 200\n(15/B)+(20/G) = (1/4)\n\nThey can complete the work in 4 days"
     },
     {
       "id": 10,
       "answerIndex": 2,
-      "answers": ["Rs.2400", "Rs.2000", "Rs.1200", "Rs.600"],
+      "answers": [
+        "Rs.2400",
+        "Rs.2000",
+        "Rs.1200",
+        "Rs.600"
+      ],
       "question": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
       "solution": "Part of work completed by A and B in 3 days \n= 3*((1/6) + (1/8)) \n= 5/8\nC has completed 3/8th of the work\nAmount to be paid to C \n= 3200*3/8 \n= Rs.1200 "
     },
     {
       "id": 11,
       "answerIndex": 0,
-      "answers": ["13", "11", "12", "15"],
+      "answers": [
+        "13",
+        "11",
+        "12",
+        "15"
+      ],
       "question": "A,B,C, can do a work in 8,14,16 days respectively. A does the work for the first 2 days. B continues from it and finishes 2/3rd of the remaining work. C finishes the remaining work. How many days would have taken to complete the work?",
       "solution": "A completes 2*(1/8) = 1/4th of the work\n\n2/3rd of the remaining work \n= (3/4) * (2/3) = 1/2\nB completes 1/2 of the work in \n(1/2):(1/14) = 7 days\nC completes 1/4th of the work in \n(1/4):(1/16) = 4 days\nThey take 13 days to complete the work"
     },
     {
       "id": 12,
       "answerIndex": 1,
-      "answers": ["4", "9.6", "9", "10"],
+      "answers": [
+        "4",
+        "9.6",
+        "9",
+        "10"
+      ],
       "question": "A can lay a railway track between two given stations in 16 days and B can do the same job in 12 days. With help of C, they did the job in 4 days only. Then, C alone can do the job in",
       "solution": "Part of work completed by A and B in 4 days \n= 4*((1/16) + (1/12)) \n= 7/12\nC can complete 5/12th of the work in 4 days\n\nC can complete the whole job in \n4:(5/12) = 9.6 days"
     },
     {
       "id": 13,
       "answerIndex": 3,
-      "answers": ["2700", "1080", "450", "1800"],
+      "answers": [
+        "2700",
+        "1080",
+        "450",
+        "1800"
+      ],
       "question": "Running at the same constant rate, 6 identical machines can produce a total of 270 bottles per minute. At this rate, how many bottles could 10 such machines produce in 4 minutes?",
       "solution": "Number of bottles produced by 1 machine in a minute \n= 270/6\nNumber of bottles produced by 10 machines in 4 minutes \n= (270/6)*10*4 = 1800"
     },
     {
       "id": 14,
       "answerIndex": 2,
-      "answers": ["12:00 pm", "2:00 am", "12:00 am", "10:00 pm"],
+      "answers": [
+        "12:00 pm",
+        "2:00 am",
+        "12:00 am",
+        "10:00 pm"
+      ],
       "question": "Amit can complete a task in 15 hours and Anish can complete the same task in 12 hours. Amit starts the task at 9:00 am and stops working at 2:00pm. Anish starts working on the task at 4:00 pm. At what time is the task completed?",
       "solution": "Amit works for 5 hours.\n\nSo he completes 5/15 = 1/3 of the task\n\nAnish has to complete 2/3rd of the task\n\n12*2/3 = 8 hours are needed.\n\nHe completes the task at 12:00 am."
     },
     {
       "id": 15,
       "answerIndex": 0,
-      "answers": ["16", "4", "12", "8"],
+      "answers": [
+        "16",
+        "4",
+        "12",
+        "8"
+      ],
       "question": "If 12 men work 8 hours a day to complete a work in 10 days, how many men working 12 hours a day can complete the work in 5 days?",
       "solution": "12 men work 8 hours for 10 days\nx men work 12 hours for 5 days\n\nx = (12*8*10)/(12*5) = 16 men"
     },
     {
       "id": 16,
       "answerIndex": 3,
-      "answers": ["24 days", "14 days", "15 days", "20 days"],
+      "answers": [
+        "24 days",
+        "14 days",
+        "15 days",
+        "20 days"
+      ],
       "question": "If 28 men can finish a work in 15 days, 21 men can finish the same work in ",
       "solution": "Time and Men are inversely proportional.\n\nTime taken by 28 men to finish the work \n= 15 days\nTime taken by a man to finish the work\n= 15*28 days\nTime taken by 21 men\n= (15*28)/21\n= 20 days"
     },
     {
       "id": 17,
       "answerIndex": 2,
-      "answers": ["1", "5", "10", "25"],
+      "answers": [
+        "1",
+        "5",
+        "10",
+        "25"
+      ],
       "question": "If 10 workers can make 10 tables in 10 days, then how many days would it take for 5 workers to make 5 tables?",
       "solution": "10 workers make 10 tables in 10 days.\n\n1 worker makes 1 table in 10 days.\n\nSimilarly, 5 workers can make 5 tables in 10 days."
     },
     {
       "id": 18,
       "answerIndex": 0,
-      "answers": ["32 hours", "48 hours", "3 days", "4 days"],
+      "answers": [
+        "32 hours",
+        "48 hours",
+        "3 days",
+        "4 days"
+      ],
       "question": "B can work 3 times faster than A. They work together on a task and complete it in a day. How long does it take for B alone to complete the task? ",
       "solution": "Part of task completed by A in a day = 1/x\n\nPart of task completed by B in a day = 3/x\n(B is thrice as efficient as A)\n\n(1/x)+(3/x) = 1\n\n4/x = 1\n\nx = 4\n\nB completes 3/4th of the task in a day.\n\nHe takes 4/3 days to complete the entire task. \n\n4/3 days = (4/3*24) hours = 32 hours"
     },
     {
       "id": 19,
       "answerIndex": 2,
-      "answers": ["3/5", "4/7", "2/5", "1/4"],
+      "answers": [
+        "3/5",
+        "4/7",
+        "2/5",
+        "1/4"
+      ],
       "question": "Alex can do a work in 15 days and Vinod in 12 days. If they work on it together for 4 days, the fraction of work that is left is",
       "solution": "Part of work completed by Alex in a day = 1/15\n\nPart of work completed by Vinod in a day = 1/12\n\nPart of work completed by them in a day\n= (1/15)+(1/12)\n= 3/20\nPart of work completed by them in 4 days\n= (3/20)*4\n= 3/5\nFraction of work left\n= 1-(3/5)\n= 2/5"
     },
     {
       "id": 20,
       "answerIndex": 2,
-      "answers": ["5", "6", "7", "8"],
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
       "question": "A and B can do a piece of work in 21 and 24 days respectively.They start the work together and after some days, A leaves and B completes the rest of the task in 9 days. After how many days did A leave?",
       "solution": "Part of work completed by A in a day = 1/21\n\nPart of work completed by B in a day = 1/24\n\nPart of work completed by them together in a day\n= (1/21)+(1/24)\n= 5/56\nPart of work completed by B in 9 days\n= 9/24\n= 3/8\nIf A left after x days,\n(5x/56)+(3/8) = 1\nx = 7"
     },
     {
       "id": 21,
       "answerIndex": 2,
-      "answers": ["3:4", "5:4", "4:3", "5:3"],
+      "answers": [
+        "3:4",
+        "5:4",
+        "4:3",
+        "5:3"
+      ],
       "question": "Twelve men can do a work in twenty days while twenty women can finish the same work in sixteen days. Find the ratio between the capacity of a man and a woman.",
       "solution": "Part of work completed by a man in a day\n= 1/(12*20)\n= 1/240\nPart of work completed by a woman in a day\n= 1/(20*16)\n= 1/320\nRatio of their capacities\n= (1/240):(1/320)\n= 320:240\n= 4:3"
     },
     {
       "id": 22,
       "answerIndex": 2,
-      "answers": ["12", "8", "10", "9"],
+      "answers": [
+        "12",
+        "8",
+        "10",
+        "9"
+      ],
       "question": "A alone can finish a work in X days. B alone can finish the same work in X+5 days. Together, they take 6 days to complete the work. Find X.",
       "solution": "Part of work completed by A in a day\n= 1/X\nPart of work completed by B in a day\n= 1/(X+5)\n(1/X)+(1/(X+5)) = 1/6\n\n(2X+5)/(X²+5X) = 1/6\n\nX²+5X = 6(2X+5)\n\nX²-7X-30=0\n\nSolving, X=10"
     },
     {
       "id": 23,
       "answerIndex": 0,
-      "answers": ["50", "75", "60", "45"],
+      "answers": [
+        "50",
+        "75",
+        "60",
+        "45"
+      ],
       "question": "David and Varun can complete a task in 30 days. David leaves after 20 days and Varun alone completes it in another 25 days. How many days does David alone take to complete the entire task?",
       "solution": "Part of work completed by David and Varun in a day\n= 1/30\nPart of work completed by them in 20 days\n= 20/30 = 2/3\n1/3 of the work is remaining.\nVarun completes 1/3rd of the work in 25 days.\nPart of work completed by him in a day\n= (1/3):25\n= 1/75\n(1/D)+(1/V) = 1/30\n(1/D) = (1/30)-(1/75)\n          = 1/50\nDavid can complete it in 50 days."
     },
     {
       "id": 24,
       "answerIndex": 3,
-      "answers": ["85 days", "126 days", "118 days", "136 days"],
+      "answers": [
+        "85 days",
+        "126 days",
+        "118 days",
+        "136 days"
+      ],
       "question": "Efficiency of Amit and Anish are in the ratio 5:8. If Anish takes 51 days less than Amit to complete the work, find the time taken by Amit to complete the work.",
       "solution": "Time taken is inversely proportional to their efficiency. So, time taken is in the ratio 8:5.\n\nTime taken by Amit to finish the work = 8x\nTime taken by Anish to finish the work = 5x\n\n8x-5x=51\n\n3x=51\nx=17\n\n8x=136"
     },
     {
       "id": 25,
       "answerIndex": 3,
-      "answers": ["48 days", "24 days", "40 days", "36 days"],
+      "answers": [
+        "48 days",
+        "24 days",
+        "40 days",
+        "36 days"
+      ],
       "question": "15 men can build a 500m long wall in 30 days. In how many days can 30 men build a 1.2 km long wall?",
       "solution": "No. of days is \ndirectly proportional to the length of the wall and\ninversely proportional to the number of men\nNo. of days\n= (1200/500)*(15/30)*30\n= 36 days"
     },
     {
       "id": 26,
       "answerIndex": 2,
-      "answers": ["30 days", "25 days", "24 days", "20 days"],
+      "answers": [
+        "30 days",
+        "25 days",
+        "24 days",
+        "20 days"
+      ],
       "question": "2 men and 12 women can finish a job in 4 days. 4 men and 6 women can do the same job in 5 days. Find the time taken by 1 man and 1 woman to complete the job.",
       "solution": "Part of work done by 1 man in a day\n= 1/m\nPart of work done by 1 woman in a day\n= 1/w\n(2/m)+(12/w) = (1/4)\n(4/m)+(6/w) = (1/5)\n\nSolving,\n1/m = 1/40\n1/w = 1/60\n(1/m)+(1/w) \n= 5/120 = 1/24"
     },
     {
       "id": 27,
       "answerIndex": 1,
-      "answers": ["15 days", "10 days", "8 days", "20 days"],
+      "answers": [
+        "15 days",
+        "10 days",
+        "8 days",
+        "20 days"
+      ],
       "question": "4 men and 2 woman can complete a work in 2 days. If 2 men alone take 5 days to complete the work, find the time taken by 2 women alone to complete the work.",
       "solution": "(4/m)+(2/w) = 1/2\n\n2/m = 1/5\n1/m = 1/10\n\n(4/10)+(2/w) = (1/2)\n2/w = 1/10\n\n2 women alone take 10 days."
     },
     {
       "id": 28,
       "answerIndex": 2,
-      "answers": ["1.8 days", "1.5 days", "1.2 days", "1 day"],
+      "answers": [
+        "1.8 days",
+        "1.5 days",
+        "1.2 days",
+        "1 day"
+      ],
       "question": "If 6 men can make 10 sofas in 2 days, then 8 men can make 8 sofas in",
       "solution": "Time is \ndirectly proportional to number of sofas\ninversely proportional to number of people\nNo. of days\n= (6/8)*(8/10)*2\n= 1.2 days"
     },
     {
       "id": 29,
       "answerIndex": 0,
-      "answers": ["20 days", "18 days", "30 days", "24 days"],
+      "answers": [
+        "20 days",
+        "18 days",
+        "30 days",
+        "24 days"
+      ],
       "question": "A completes 40% of a work in 8 days. If B is 60% as efficient as A, find the time taken by complete the rest of the work.",
       "solution": "Time taken by A to complete 60% of the work\n= 8*60/40\n= 12 days\nB is 60% as efficient as A\n\nTime taken by B to complete 60% of the work\n= 12*100/60\n= 20 days"
     },
     {
       "id": 30,
       "answerIndex": 3,
-      "answers": ["2:3", "1:3", "3:1", "3:2"],
+      "answers": [
+        "2:3",
+        "1:3",
+        "3:1",
+        "3:2"
+      ],
       "question": "A and B can complete a work in 30 days. If A alone takes 90 days to complete the work, find the ratio of the efficiencies of A and B.",
       "solution": "(1/A)+(1/B) = 1/30\n1/B = (1/30)-(1/90)\n       = 1/45\nEfficiencies of A:B\n= (1/30):(1/45)\n= 3:2"
     },
     {
       "id": 31,
       "answerIndex": 3,
-      "answers": ["11.30 am", "12 noon", "12.30 pm", "1 pm"],
+      "answers": [
+        "11.30 am",
+        "12 noon",
+        "12.30 pm",
+        "1 pm"
+      ],
       "question": "George can do a piece of work in 8 hours. Paul can do the same work in 10 hours, Hari can do the same work in 12 hours. George, Paul and Hari start the same work together at 9 am. While George stops at 11 am, the remaining two complete the work. Around what time will the work be completed?",
       "solution": "Part of work done by George in 1 hour\n= 1/8\nPart of work done by Paul in 1 hour\n= 1/10\nPart of work done by Hari in 1 hour\n= 1/12\n\nPart of work completed by all of them in 1 hour\n= (1/8)+(1/10)+(1/12)\n= 37/120\nThey work together from 9 am to 11 am.\n\nPart of work completed in 2 hours\n= 74/120\n\nWork to be completed\n= 46/120\n\nPart of work done by Paul and Hari in 1 hour\n= (1/10)+(1/12)\n= 22/120\n\nThey take approximately two more hours to complete 46/120 of the work.\n\nHence, the work gets completed around 1 pm."
     },
     {
       "id": 32,
       "answerIndex": 1,
-      "answers": ["32", "48", "96", "24"],
+      "answers": [
+        "32",
+        "48",
+        "96",
+        "24"
+      ],
       "question": "J can dig a well in 16 days. P can dig a well in 24 days. J, P, H dig in 8 days. In how many days can H alone can dig the well?",
       "solution": "(1/16)+(1/24)+(1/H) = 1/8\n\n1/H = 1/48\n\nH can dig the well in 48 days."
     },
     {
       "id": 33,
       "answerIndex": 1,
-      "answers": ["8 days", "8 (1/3) days", "10 days", "20 days"],
+      "answers": [
+        "8 days",
+        "8 (1/3) days",
+        "10 days",
+        "20 days"
+      ],
       "question": "A father is 5 times faster than the son.The father completes a work 40 days before the son.If both of them work together, when will the work be completed?",
       "solution": "Time taken is inversely proportional to efficiency.\n\nSince the father is 5 times faster than the son, the time taken by the father and son to complete the work will be in the ratio 1:5.\nLet the no. of days be x and 5x.\n\nThe father takes 40 days less.\n\n5x-x=40\nx=10\n\nIf both of them work together,\n(10*50)/(10+50)\n= 500/60\n= 8 1/3 days"
     },
     {
       "id": 34,
       "answerIndex": 3,
-      "answers": ["Rs.200", "Rs.250", "Rs.300", "Rs.350"],
+      "answers": [
+        "Rs.200",
+        "Rs.250",
+        "Rs.300",
+        "Rs.350"
+      ],
       "question": "The wages of 24 men and 16 women amount to Rs.11600 per day. Half the number of men and 37 women earn the same amount per day.What is the daily wage of a man?",
       "solution": "Let the daily wage of a man be Rs.x and that of a women be Rs.y\n\n24x+16y = 11600 -- (I)\n12x+37y = 11600 -- (II)\n\n2*(II) - (I)\n58y=11600\ny = 200\n\n12x+7400 = 11600\n12x = 4200\nx = 350"
     },
     {
       "id": 35,
       "answerIndex": 2,
-      "answers": ["Rs.2000", "Rs.2400", "Rs.3000", "Rs.3200"],
+      "answers": [
+        "Rs.2000",
+        "Rs.2400",
+        "Rs.3000",
+        "Rs.3200"
+      ],
       "question": "B alone can do piece of work in 10 days. A alone can do it in 15 days. If the total wages for the work is Rs 5000, how much should B be paid if they work together for the entire duration of the work?",
       "solution": "Ratio of the time taken by A and B\n= 15:10 = 3:2\n\nTime and work are inversely proportional.\n\nRatio of the work done by A and B\n= 2:3\n\nAmount to be paid to B\n= (3/5)*5000\n= Rs.3000"
     },
     {
       "id": 36,
       "answerIndex": 2,
-      "answers": ["368", "358", "348", "335"],
+      "answers": [
+        "368",
+        "358",
+        "348",
+        "335"
+      ],
       "question": "George and Mark can paint 720 boxes in 20 days. Mark and Harry in 24 days and Harry and George in 15 days. George works for 4 days, Mark for 8 days and Harry for 8 days. The total number of boxes painted by them is",
       "solution": "Let G, M and H be the no. of boxes painted by George, Mark and Harry in 1 day.\n\nG+M = 720/20 = 36\nM+H = 720/24 = 30\nH+G = 720/15 = 48\n\nAdding the above three equations,\n2(G+M+H) = 114\nG+M+H = 57\nG = 57-30 = 27\nM = 57-48 = 9\nH = 57-36 = 21\n\nNo. of boxes painted\n= (4*27)+(8*9)+(8*21)\n= 108+72+168\n= 348"
     },
     {
       "id": 37,
       "answerIndex": 3,
-      "answers": ["80", "90", "100", "110"],
+      "answers": [
+        "80",
+        "90",
+        "100",
+        "110"
+      ],
       "question": "A is 20% more efficient than B. If the two persons can complete a piece of work in 60 days, in how many days canA alone complete the work?",
       "solution": "Let a and b be the time taken by A and B alone to complete the work.\n\nA is 20% more efficient than B.\n\nHence,\ntime taken by B is 20% more than the time taken by A.\n(Time is inversely proportional to efficiency)\n\nb=1.2a\n\n(1/a)+(1/b) = (1/60)\n\n(1/a)+(1/1.2a) = (1/60)\n\nSolving,\n22*60 = 12a\n\na=110 days"
     },
     {
       "id": 38,
       "answerIndex": 0,
-      "answers": ["27 days", "36 days", "54 days", "24 days"],
+      "answers": [
+        "27 days",
+        "36 days",
+        "54 days",
+        "24 days"
+      ],
       "question": "A is twice as good a workman as B and together they finish a piece of work in 18 days. In how many days will A alone finish the work?",
       "solution": "Part of work completed by A in a day = 1/x\n\nB is half as efficient as A.\n\nHence, Part of work completed by B in a day = 1/2x\n\n(1/x)+(1/2x) = 1/18\n\n3*18 = 2x\n\nx = 27\n\nA alone can finish the work in 27 days."
     },
     {
       "id": 39,
       "answerIndex": 2,
-      "answers": ["12", "40", "16", "48"],
+      "answers": [
+        "12",
+        "40",
+        "16",
+        "48"
+      ],
       "question": "A man, a woman, and a child can do a piece of work in 6 days. Man only can do it in 24 days. Woman can do it in 16 days and in how many days child can do the same work?",
       "solution": "Let C be the no. of days required by the child to do the work.\n\n(1/24)+(1/16)+(1/C) = 1/6\n\n1/C = (1/6)-(5/48)\n       = 3/48\n        = 1/16"
     },
     {
       "id": 40,
       "answerIndex": 0,
-      "answers": ["7", "8", "9", "10"],
+      "answers": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
       "question": "A man was engaged on a job for 30 days on the condition that he would get a wage of Rs.10 for the day he works, but he has to pay a fine of Rs.2 for each day of his absence. If he gets Rs.216 at the end, he was absent for work for ____ days.",
       "solution": "Let x be the no. of days he was absent.\n\n10(30-x) - 2x = 216\n\n300-10x-2x=216\n\n12x=84\nx=7\n\nHe was absent for 7 days."
     },
     {
       "id": 41,
       "answerIndex": 0,
-      "answers": ["10 days", "13.33 days", "20 days", "30 days"],
+      "answers": [
+        "10 days",
+        "13.33 days",
+        "20 days",
+        "30 days"
+      ],
       "question": "It was calculated that 75 men could complete a piece of work in 20 days. When work was scheduled to commence, it was found necessary to send 25 men to another project. How much longer will it take to complete the work?",
       "solution": "75 men -> 20 days\n50 men -> 20*75/50 = 30 days\n\nIt will take 10 days longer to complete the work."
     },
     {
       "id": 42,
       "answerIndex": 2,
-      "answers": ["$1,800", "$1,750", "$1,680", "$1,575"],
+      "answers": [
+        "$1,800",
+        "$1,750",
+        "$1,680",
+        "$1,575"
+      ],
       "question": "David and Michael charged Mr. Jimenez $3,000 to remodel his basement. To complete the project, David worked 4 days alone, Michael worked 1 day alone, and they worked 10 days together. If they each received the same amount of money for each day that they worked, how much of the $3,000 did David receive?",
       "solution": "David worked for 14 days and Michael worked for 11 days.\n\nAmount received by David\n= (14/25)*3000\n= $ 1680"
     },
     {
       "id": 43,
       "answerIndex": 1,
-      "answers": ["46", "45", "44", "43"],
+      "answers": [
+        "46",
+        "45",
+        "44",
+        "43"
+      ],
       "question": "Workers at Companies X and Y are paid the same base hourly rate. Workers at company X are paid 1.5 times the base hourly rate for each hour worked per week in excess of the first 37, while workers at Company Y are paid 1.5 times the base hourly rate for each hour worked per week in excess of the first 40. In a given week, how many hours must a Company X worker work in order to receive the same pay as a company Y worker who works 46 hours?",
       "solution": "Let the base hourly rate be $ x.\n\nThe company Y worker receives\n40x + 6*1.5x = 49x\n\nLet the company X worker work for (37+y) hours\n\nHe receives\n37x + y*1.5x = 49x\ny = 12/1.5 = 8\nHe should work for 45 hours."
     },
     {
       "id": 44,
       "answerIndex": 1,
-      "answers": ["2.5", "4.5", "13.5", "3"],
+      "answers": [
+        "2.5",
+        "4.5",
+        "13.5",
+        "3"
+      ],
       "question": "9 labourers can complete the construction of a wall in 18 days. How many less days will 12 labourers take to complete the same wall?",
       "solution": "No. of days taken by 12 labourers\n= 18*(9/12)\n= 13.5\n\nThey take 4.5 days less."
     },
     {
       "id": 45,
       "answerIndex": 0,
-      "answers": ["18", "20", "24", "30"],
+      "answers": [
+        "18",
+        "20",
+        "24",
+        "30"
+      ],
       "question": "During a given week a programmer spends 1/4 of his time preparing flow chart, 3/8 of his time coding and the rest of the time in debugging the programs. If he works 48 hours during the week, how many hours did he spend debugging the program?",
       "solution": "Time spent in debugging\n= 48*[1-(1/4)-(3/8)]\n= 18 hours"
     },
     {
       "id": 46,
       "answerIndex": 2,
-      "answers": ["16", "20", "12", "8"],
+      "answers": [
+        "16",
+        "20",
+        "12",
+        "8"
+      ],
       "question": "Arun works thrice as fast as Mani. If Mani alone completes the work in 48 days, then in how many days Arun and Mani together can complete the work?",
       "solution": "Arun alone takes 16 days.\n\nPart of work completed by them in 1 day\n= (1/48)+(1/16)\n= 4/48\n= 1/12"
     },
     {
       "id": 47,
       "answerIndex": 1,
-      "answers": ["12 hours", "24 hours", "8 hours", "20 hours"],
+      "answers": [
+        "12 hours",
+        "24 hours",
+        "8 hours",
+        "20 hours"
+      ],
       "question": "If R,S, and Q can wallpaper a house in 8 hours and R and S can do it in 12 hours, how long will it take Q alone to wallpaper the house?",
       "solution": "1/q = 1/8 - 1/12\n      = 1/24\n\nQ alone will take 24 hours."
     },
     {
       "id": 48,
       "answerIndex": 2,
-      "answers": ["50 mins", "1 hr", "1 hr 12 mins", "1 hr 15 mins"],
+      "answers": [
+        "50 mins",
+        "1 hr",
+        "1 hr 12 mins",
+        "1 hr 15 mins"
+      ],
       "question": "One fast typist types some matter in 2 hours and another slow typist types the same matter in 3 hours. If both work together, in how much time they will finish?",
       "solution": "(1/2)+(1/3) = (5/6)\n\nThey finish typing in (6/5) hours. 1 hour 12 minutes."
     },
     {
       "id": 49,
       "answerIndex": 1,
-      "answers": ["64 minutes", "60 minutes", "48 minutes", "50 minutes"],
+      "answers": [
+        "64 minutes",
+        "60 minutes",
+        "48 minutes",
+        "50 minutes"
+      ],
       "question": "2 persons can complete a work in 24 minutes. The first person alone can do it in 40 minutes. Find the time required by the second person to do it alone.",
       "solution": "1/x = (1/24)-(1/40) = 1/60\n\nx = 60 minutes"
     },
     {
       "id": 50,
       "answerIndex": 0,
-      "answers": ["12", "13.5", "16", "18.75"],
+      "answers": [
+        "12",
+        "13.5",
+        "16",
+        "18.75"
+      ],
       "question": "If 20 men take 15 days to complete a job, in how many days can 25 men finish that work?\n",
       "solution": "No. of days\n= 15*(20/25)\n= 12"
     },
     {
       "id": 51,
       "answerIndex": 3,
-      "answers": ["2000", "1200", "600", "12000"],
+      "answers": [
+        "2000",
+        "1200",
+        "600",
+        "12000"
+      ],
       "question": "A wheel rotates 10 times every minute and moves 20 cm during each rotation. How many cms does the wheel move in 1 hour?",
       "solution": "The  wheel rotates 60*10 = 600 times in an hour.\n\nDistance moved\n= 20*600\n= 12000 cm"
     },
     {
       "id": 52,
       "answerIndex": 3,
-      "answers": ["Rs. 3000", "Rs. 4000", "Rs. 3500", "Rs. 2500"],
+      "answers": [
+        "Rs. 3000",
+        "Rs. 4000",
+        "Rs. 3500",
+        "Rs. 2500"
+      ],
       "question": "The price of 357 mangoes is Rs. 1517.25. What will be the approximate price of 49 dozens of such mangoes?",
       "solution": "Price of 49 dozens of mangoes\n= 49*12*(1517.25)/357\n= Rs.2499"
     },
     {
       "id": 53,
       "answerIndex": 0,
-      "answers": ["18", "24", "21", "28"],
+      "answers": [
+        "18",
+        "24",
+        "21",
+        "28"
+      ],
       "question": "If 18 persons can build a wall 140 m long in 42 days, the number of days that 30 persons will take to complete a similar wall 100 m long, is",
       "solution": "No. of days taken\n= 42*(18/30)*(100/140)\n= 18"
     },
     {
       "id": 54,
       "answerIndex": 1,
-      "answers": ["5 days", "10 days", "4 days", "20 days"],
+      "answers": [
+        "5 days",
+        "10 days",
+        "4 days",
+        "20 days"
+      ],
       "question": "If 10 men can reap a field in 8 days, then 8 men will reap the same field in",
       "solution": "Time taken by 8 men to reap the field\n= 8*(10/8)\n= 10"
     },
     {
       "id": 55,
       "answerIndex": 3,
-      "answers": ["1260", "920", "1320", "1380"],
+      "answers": [
+        "1260",
+        "920",
+        "1320",
+        "1380"
+      ],
       "question": "If 12 carpenters, working 6 hours a day can make 460 chairs in 24 days, how many chairs will 18 carpenters make in 36 days, each working 8 hours a day?",
       "solution": "No. of chairs\n= 460*(18/12)*(36/24)*(8/6)\n= 1380"
     },
     {
       "id": 56,
       "answerIndex": 3,
-      "answers": ["6 days", "12 days", "4 days", "3 days"],
+      "answers": [
+        "6 days",
+        "12 days",
+        "4 days",
+        "3 days"
+      ],
       "question": "Some persons can do a piece of work in 12 days. Two times the number of such persons will do half of that work in",
       "solution": "Time is directly proportional to Work and\ninversely proportional to the number of persons.\n\nNo. of days\n= 12*(1/2)*(1/2)\n= 3"
     },
     {
       "id": 57,
       "answerIndex": 1,
-      "answers": ["46", "32", "35", "30"],
+      "answers": [
+        "46",
+        "32",
+        "35",
+        "30"
+      ],
       "question": "If 16 men working 7 hours day can plough a fieid in 48 days, in how many days will 14 men working 12 hours a day plough the same field?",
       "solution": "No. of days\n= 48*(16/14)*(7/12)\n= 32"
     },
     {
       "id": 58,
       "answerIndex": 2,
-      "answers": ["100", "150", "120", "160"],
+      "answers": [
+        "100",
+        "150",
+        "120",
+        "160"
+      ],
       "question": "If 80 lamps can be lighted 5 hours per day for 10 days for Rs. 21.25, then the number of lamps which can be lighted 4 hours daily for 30 days for Rs. 76.50, is",
       "solution": "No. of lamps\n= 80*(5/4)*(10/30)*(76.5/21.25)\n= 120"
     },
     {
       "id": 59,
       "answerIndex": 0,
-      "answers": ["Rs. 300", "Rs. 500", "Rs. 400", "Rs. 250"],
+      "answers": [
+        "Rs. 300",
+        "Rs. 500",
+        "Rs. 400",
+        "Rs. 250"
+      ],
       "question": "The price of 438 oranges is Rs. 1384.08. What will be the approximate price of 8 dozens of oranges?",
       "solution": "8*12*(1384.08/438)\n= 303.36"
     },
     {
       "id": 60,
       "answerIndex": 1,
-      "answers": ["25", "16", "20", "12"],
+      "answers": [
+        "25",
+        "16",
+        "20",
+        "12"
+      ],
       "question": "If 20 men working together can finish a job in 20 days, then the number of days taken by 25 men of the same capacity to finish the job is",
       "solution": "No. of days\n= 20*20/25\n= 1"
     },
     {
       "id": 61,
       "answerIndex": 0,
-      "answers": ["7", "21", "14", "28"],
+      "answers": [
+        "7",
+        "21",
+        "14",
+        "28"
+      ],
       "question": "14 pumps of equal capacity can fill a tank in 6 days. If the tank has to be filled in 4 days, the number of extra pumps needed is",
       "solution": "Total number of pumps needed\n= 14*6/4\n= 21\n\nNo. of extra pumps needed\n= 21-14\n= 7"
     },
     {
       "id": 62,
       "answerIndex": 1,
-      "answers": ["6 hours", "8 hours", "9 hours", "7 hours"],
+      "answers": [
+        "6 hours",
+        "8 hours",
+        "9 hours",
+        "7 hours"
+      ],
       "question": "If 4 examiners can examine a certain number of answer books in 8 days by working 5 hours a day; for how many hours a day would 2 examiners have to work in order to examine twice the number of answer books in 20 days?",
       "solution": "No. of hours a day\n= 5*(4/2)*(2/1)*(8/20)\n= 8"
     },
     {
       "id": 63,
       "answerIndex": 0,
-      "answers": ["22.8 kg.", "25.6 kg.", "28 kg.", "None of these"],
+      "answers": [
+        "22.8 kg.",
+        "25.6 kg.",
+        "28 kg.",
+        "None of these"
+      ],
       "question": "If 22.5 metres of a uniform iron rod weighs 85.5 kg, what will be the weight of 6 meters of the same rod?",
       "solution": "85.5*(6/22.5)\n= 22.8 kg"
     },
     {
       "id": 64,
       "answerIndex": 1,
-      "answers": ["12", "15", "18", "24"],
+      "answers": [
+        "12",
+        "15",
+        "18",
+        "24"
+      ],
       "question": "A contractor undertook a certain piece of work to be completed in 9 days. He employed a certain number of labourers but 6 of them being absent from the very first day, the rest could finish the work in 15 days. The number of men originally employed were",
       "solution": "Let the number of men orginally employed be x.\n\nx men could finish the work in 9 days.\nx-6 men finished the work in 15 days.\n\n9x = 15(x-6)\n\n6x = 90\n\nx = 15"
     },
     {
       "id": 65,
       "answerIndex": 3,
-      "answers": ["20", "18", "25", "30"],
+      "answers": [
+        "20",
+        "18",
+        "25",
+        "30"
+      ],
       "question": "15 men take 21 days of 8 hours each to do a piece of work. How many days of 6 hours each would 21 women take, if 3 women do as much work as 2 men?",
       "solution": "No. of days\n= 21*(8/6)*(15/21)*(3/2)\n= 30"
     },
     {
       "id": 66,
       "answerIndex": 3,
-      "answers": ["9 km.", "70 km.", "90 km.", "885 km."],
+      "answers": [
+        "9 km.",
+        "70 km.",
+        "90 km.",
+        "885 km."
+      ],
       "question": "On a scale of a map, 0.8 cm. represents 8.8 km. If the distance between two points on the map is 80.5 cm., the distance between these points is approximately",
       "solution": "Distance\n= 8.8 * (80.5/0.8)\n= 885.5 km"
     },
     {
       "id": 67,
       "answerIndex": 1,
-      "answers": ["6", "8", "5", "12"],
+      "answers": [
+        "6",
+        "8",
+        "5",
+        "12"
+      ],
       "question": "If the rent for grazing 40 cows for 20 days is Rs. 370, how many cows can graze for 30 days for Rs. 111?",
       "solution": "No. of cows\n= 40*(20/30)*(111/370)\n= 8"
     },
     {
       "id": 68,
       "answerIndex": 2,
-      "answers": ["28 days", "42 days", "56 days", "31 days"],
+      "answers": [
+        "28 days",
+        "42 days",
+        "56 days",
+        "31 days"
+      ],
       "question": "If 27 kg. of corn would feed 42 horses for 21 days, in how many days would 36 kg. of it feed 21 horses?",
       "solution": "No. of days\n= 21*(42/21)*(36/27)\n= 56"
     },
     {
       "id": 69,
       "answerIndex": 3,
-      "answers": ["150 days", "146 days", "245 days", "260 days"],
+      "answers": [
+        "150 days",
+        "146 days",
+        "245 days",
+        "260 days"
+      ],
       "question": "120 men had provisions for 200 days. After 5 days, 30 men died due to an epidemic. The remaining food will last for _____",
       "solution": "After 5 days,\nthe food left will suffice 120 men for 195 days.\nBut only 90 men are left.\n\nNo. of days for which the food will last\n= 195*(120/90)\n= 260"
     },
     {
       "id": 70,
       "answerIndex": 0,
-      "answers": ["12.5", "13", "9.5", "11"],
+      "answers": [
+        "12.5",
+        "13",
+        "9.5",
+        "11"
+      ],
       "question": "If 9 men working 7.5 hours a day can finish a work in 20 days; then how many days will be taken by 12 men, working 6 hours a day to finish the work; it being given that 2 men of latter type work as much as 3 men of the former type in the same time?",
       "solution": "No. of days\n= 20*(9/12)*(7.5/6)*(2/3)\n= 12.5"
     },
     {
       "id": 71,
       "answerIndex": 2,
-      "answers": ["9 days", "8 days", "7 days", "6 days"],
+      "answers": [
+        "9 days",
+        "8 days",
+        "7 days",
+        "6 days"
+      ],
       "question": "If 18 pumps can raise 2170 tonnes of water in 10 days, working 7 hours a day, in how many days will 16 pumps raise 1736 tonnes, working 9 hours a day ?",
       "solution": "No. of days\n= 10*(1736/2170)*(18/16)*(7/9)\n= 7"
     },
     {
       "id": 72,
       "answerIndex": 1,
-      "answers": ["5 days", "6 days", "7 days", "9 days"],
+      "answers": [
+        "5 days",
+        "6 days",
+        "7 days",
+        "9 days"
+      ],
       "question": "If 5 men working 6 hours a day can reap the field in 20 days, in how many days will 15 men reap the field, working 8 hours a day?",
       "solution": "No. of days\n= 20*(5/15)*(6/8)\n= 5"
     },
     {
       "id": 73,
       "answerIndex": 1,
-      "answers": ["10", "12", "15", "20"],
+      "answers": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
       "question": "20 men complete one-third of a piece of work in 20 days. How many more men should be employed to finish the rest of the work in 25 more days?",
       "solution": "Time taken by 20 men to complete two thirds of the work\n= 20*2\n= 40 days\n\nNo. of men who can complete the work in 25 days\n= 20*40/25\n= 32\n\n(32-20) = 12 more men are needed."
     },
     {
       "id": 74,
       "answerIndex": 0,
-      "answers": ["51", "68", "85", "34"],
+      "answers": [
+        "51",
+        "68",
+        "85",
+        "34"
+      ],
       "question": "If 17 labourers can dig a ditch 26 metres long in 18 days, working 8 hours a day, how many more labourers should be engaged to dig a similar ditch 39 metres long in 6 days, each labourer working 9 hours a day?",
       "solution": "No. of labourers\n= 17*(39/26)*(18/6)*(8/9)\n= 68\n\n(68-17) = 51 more labourers should be engaged."
     },
     {
       "id": 75,
       "answerIndex": 1,
-      "answers": ["60", "56", "70", "42"],
+      "answers": [
+        "60",
+        "56",
+        "70",
+        "42"
+      ],
       "question": "A contract is to be completed in 56 days and 104 men were set to work, each working 8 hours a day. After 30 days, two-fifths of the work is completed. How many additional men may be employed, so that the work may be compeleted in time, each man now working 9 hours a day?",
       "solution": "104 men working 8 hours a day could complete (2/5) of the work in 30 days.\n\nPart of work remaining\n= (3/5)\n\nNo. of men needed to finish the rest of the work in 26 days working 9 hrs per day\n= 104*(8/9)*(30/26)*(3/5)*(5/2)\n= 160\n\n(160-104) = 56 additional men are needed."
     },
     {
       "id": 76,
       "answerIndex": 3,
-      "answers": ["35 days", "15 days", "25 days", "50 days"],
+      "answers": [
+        "35 days",
+        "15 days",
+        "25 days",
+        "50 days"
+      ],
       "question": "A garrison had provisions for a certain number of days. After 10 days, (1/5)th of the men desert and it is found that the provisions will now last just as long as before. How long was that?",
       "solution": "Let the initial provisions last for x days for y men.\n\nAfter 10 days, the provisions would last for (x-10) days for y men.\n\nBut, since (1/5)th of the men left. It lasts for x days for (4y/5) men.\n\n(x-10)*y = x*4y/5\n\n5x-50 = 4x\n\nx = 50"
     }

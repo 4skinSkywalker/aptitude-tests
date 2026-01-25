@@ -4,238 +4,408 @@
     {
       "id": 1,
       "answerIndex": 0,
-      "answers": ["81%", "82%", "72%", "80%"],
+      "answers": [
+        "81%",
+        "82%",
+        "72%",
+        "80%"
+      ],
       "question": "A jar contains 10 liters of milk. After selling 1 liter of milk, the milkman adds 1 liter of water to the jar. He repeats the process again. What is the percentage of milk contained in the jar now?",
       "solution": "Amount of milk after 2 operations \n= 10[1-(1/10)]^2 \n= 10*(9/10)*(9/10) \n= 8.1 litres\n% of milk = (8.1/10)*100 = 81%"
     },
     {
       "id": 2,
       "answerIndex": 1,
-      "answers": ["24 liters", "35 liters", "46 liters", "None of the above"],
+      "answers": [
+        "24 liters",
+        "35 liters",
+        "46 liters",
+        "None of the above"
+      ],
       "question": "The ratio of milk and water contained in a mixture is 7:1. On adding 2 liters of water to the mixture, the ratio becomes 5:1. Find the amount of milk contained.",
       "solution": "Let the amount of milk and water be 7x and x respectively.\n\n(7x)/(x+2) = 5\nx=5 liters\nmilk=7x=35 liters"
     },
     {
       "id": 3,
       "answerIndex": 3,
-      "answers": ["11 liters", "100 liters ", "108 liters", "109 liters"],
+      "answers": [
+        "11 liters",
+        "100 liters ",
+        "108 liters",
+        "109 liters"
+      ],
       "question": "There are two milk containers of 60 liters each. They contain milk and water in the ratio of 11:1 and 9:1. If the two are poured together, find the amount of milk in the resulting mixture.",
       "solution": "Amount of milk in the resulting mixture \n= (60*11/12)+(60*9/10) \n= 55+54 \n= 109 liters"
     },
     {
       "id": 4,
       "answerIndex": 0,
-      "answers": ["6,6", "5,7", "7,5", "4,8"],
+      "answers": [
+        "6,6",
+        "5,7",
+        "7,5",
+        "4,8"
+      ],
       "question": "A milk vendor has 2 cans of milk. The first contains 25% water and the rest milk. The second contains 50% water. How much milk should he mix from each of the containers so as to get 12 litres of milk such that the ratio of water to milk is 3:5?",
       "solution": "Let us take x liters from the first can and 12-x liters from the second can.\n\nProportion of water in the first can = 1/4\n\nProportion of water in the second can = ½\n\nProportion of water in the resulting mixture = 3/8\n\n[x*(1/4) + (12-x)*(1/2)] /12 = 3/8\nx = 6 liters"
     },
     {
       "id": 5,
       "answerIndex": 3,
-      "answers": ["11:6", "41:21", "21:11", "41:22"],
+      "answers": [
+        "11:6",
+        "41:21",
+        "21:11",
+        "41:22"
+      ],
       "question": "The proportion of milk and water in 3 samples is 4:3, 5:2 and 2:1. A mixture comprising of equal quantities of all 3 samples is made. The proportion of milk and water in the mixture is",
       "solution": "Let us consider 1 liter of each sample.\n\nProportion of milk \n= (4/7)+(5/7)+(2/3) = 41/21\nProportion of water \n= (3/7)+(2/7)+(1/3) = 22/21\nProportion of milk and water \n= 41:22"
     },
     {
       "id": 6,
       "answerIndex": 1,
-      "answers": ["Rs.150", "Rs.160", "Rs.170", "Rs.175"],
+      "answers": [
+        "Rs.150",
+        "Rs.160",
+        "Rs.170",
+        "Rs.175"
+      ],
       "question": "Tea worth Rs. 120 per kg and Rs. 136 per kg are mixed with a third variety in the ratio of 1:1:2. If the mixture is worth Rs.144 per kg, the price of the third variety per kg is",
       "solution": "Let the price of the third variety be Rs.x per kg.\n\nThey are mixed in the ratio of 1:1:2\n\n1*120+1*136+2x = 4*144\nx = 160"
     },
     {
       "id": 7,
       "answerIndex": 2,
-      "answers": ["8%", "9%", "10%", "10.67%"],
+      "answers": [
+        "8%",
+        "9%",
+        "10%",
+        "10.67%"
+      ],
       "question": "A milkman buys 75 litres of milk diluted with 4% of water. He further dilutes it by adding 5 litres of water. Find the percentage of water contained in the milk.",
       "solution": "Amount of water contained in the milk \n= 4% of 75 = 3 litres\nAfter adding 5 litres of water,\n8 litres of water is contained in 80 litres of milk.\n% of water in the milk = (8/80) * 100 = 10%"
     },
     {
       "id": 8,
       "answerIndex": 0,
-      "answers": ["2:3", "3:2", "3:4", "4:3"],
+      "answers": [
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3"
+      ],
       "question": "A merchant buys pulses from 2 different places, first variety at Rs.60/kg and second variety at Rs.50/kg. In what ratio must he mix the two types so that the resulting mixture costs Rs.54/kg?",
       "solution": "60x+50y = 54(x+y)\n6x = 4y\nx/y = 2/3"
     },
     {
       "id": 9,
       "answerIndex": 0,
-      "answers": ["4,6", "6,4", "5,5", "3,7"],
+      "answers": [
+        "4,6",
+        "6,4",
+        "5,5",
+        "3,7"
+      ],
       "question": "Toor dhal costs Rs.75/kg. Masoor dhal which is used as a supplement for toor dhal costs Rs.60/kg. A family needs a total of 10 kgs of dhal and they spend Rs.660 to buy a few kgs of toor and masoor. How many kgs of toor dhal and masoor dhal have they bought?",
       "solution": "Let the quantity of toor dhall bought be x kg. \nThen, masoor dhall = (10-x)kg\n\n75x+60(10-x) = 660\nx = 4"
     },
     {
       "id": 10,
       "answerIndex": 0,
-      "answers": ["14.25 kg", "15 kg", "14 kg", "14.5 kg"],
+      "answers": [
+        "14.25 kg",
+        "15 kg",
+        "14 kg",
+        "14.5 kg"
+      ],
       "question": "A bag contains 57 kgs of dhall with 7.5% contamination. How many kgs of non-contaminated dhall should be added to the bag so that the resultant mixture contains 6% contamination?",
       "solution": "Amount of contamination in the bag \n= 7.5% of 57 \n= 7.5*57/100\n\nLet x kgs of pure dhall be added to the bag.\n\n(7.5*57/100):(57+x) = 6/100 \nx = 14.25 kg"
     },
     {
       "id": 11,
       "answerIndex": 1,
-      "answers": ["8.25%", "8.75%", "9.25%", "9.75%"],
+      "answers": [
+        "8.25%",
+        "8.75%",
+        "9.25%",
+        "9.75%"
+      ],
       "question": "A shopkeeper buys 100kg of dhall at Rs.50 per kg and 50kg of dhall at Rs.60 per kg. He mixes them and sells the mixture at Rs.58 per kg. Find the gain percent.",
       "solution": "Cost price of the mixture \n= (100*50)+(50*60) = Rs.8000\nSales price \n= 58*150 = Rs.8700\nGain % \n= (700/8000)*100 = 8.75%"
     },
     {
       "id": 12,
       "answerIndex": 2,
-      "answers": ["4:3", "3:2", "2:1", "5:3"],
+      "answers": [
+        "4:3",
+        "3:2",
+        "2:1",
+        "5:3"
+      ],
       "question": "There are two bottles A and B, each containing syrup and water in the ratio of 5:2 and 4:3. Find the ratio in which these mixtures should be mixed in order to obtain a new mixture containing syrup and water in the ratio 2:1.",
       "solution": "Syrup in 1 liter of A = 5/7 \nSyrup in 1 liter of B = 4/7\n\nBy the rule of alligation,\n5/7 4/7\n2/3\n\n(2/3-4/7) : (5/7-2/3)\n\n(2/21):    (1/21)\nRatio = 2:1"
     },
     {
       "id": 13,
       "answerIndex": 1,
-      "answers": ["2:5", "3:5", "2:3", "4:5"],
+      "answers": [
+        "2:5",
+        "3:5",
+        "2:3",
+        "4:5"
+      ],
       "question": "In what ratio must a grocer mix two varieties of rice worth Rs.20 per kg and Rs.12 per kg so that by selling the resulting mixture at Rs.18 per kg, he gains 20%?",
       "solution": "C.P = 100*S.P/(100+Gain%)\n\nCost per kg of the mixture \n= 18*100/120 \n= Rs.15\n\nBy rule of alligation,\n2012\n15\n\n(15-12)   :   (20-15)\n\n3:5"
     },
     {
       "id": 14,
       "answerIndex": 3,
-      "answers": ["12 kg", "15 kg", "18 kg", "24 kg"],
+      "answers": [
+        "12 kg",
+        "15 kg",
+        "18 kg",
+        "24 kg"
+      ],
       "question": "Brand A costing Rs.9 per kg is mixed with brand B costing Rs.4 per kg to form a mixture worth Rs.7 per kg. How mang kgs of brand A are needed to make 40 kgs of the mixture?",
       "solution": "By the rule of alligation,\n94\n7\n\n(7-4)   :   (9-7)\n\n3:2\nBrand A and B are mixed in the ratio of 3:2\n\nTo make 40 kgs of the mixture, \n40*3/5 = 24 kgs of brand A are needed."
     },
     {
       "id": 15,
       "answerIndex": 0,
-      "answers": ["21 liters", "15 liters", "27 liters", "25 liters"],
+      "answers": [
+        "21 liters",
+        "15 liters",
+        "27 liters",
+        "25 liters"
+      ],
       "question": "A can contains a mixture of two liquids A and B in the ratio7 : 5. When 9 litres of the mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?",
       "solution": "Let the amount of liquids A and B in the original mixture be 7x liters and 5x liters.\n\nAfter 9 litres are drawn off and the can is filled with B, \nAmount of liquid A \n= 7x-(9*7/12) \n= 7x-21/4\nAmount of liquid B \n= 5x-(9*5/12)+9 \n= 5x+21/4\n(7x-21/4)/(5x+21/4) = 7/9\nx = 3\nThe can initially contained 7x=21 liters of liquid A."
     },
     {
       "id": 16,
       "answerIndex": 2,
-      "answers": ["18%", "16%", "15%", "25%"],
+      "answers": [
+        "18%",
+        "16%",
+        "15%",
+        "25%"
+      ],
       "question": "To 15 litres of milk containing 20% water, 5 litres of pure milk is added. What is the % of water contained in the resulting mixture?",
       "solution": "Amount of water present \n= 20% of 15 \n= 3 litres\nAfter adding 5 litres of pure milk,\n3 litres of water in 20 litres\n% of water\n= (3/20)*100\n= 15%"
     },
     {
       "id": 17,
       "answerIndex": 0,
-      "answers": ["1:1", "9:7", "4:3", "11:8"],
+      "answers": [
+        "1:1",
+        "9:7",
+        "4:3",
+        "11:8"
+      ],
       "question": "In what ratio must a grocer mix two varieties of rice costing Rs.16/kg and Rs.24/kg to produce a mixture costing Rs.20/kg.",
       "solution": "16x+24y=20(x+y)\n\n-4x=-4y\n\nx/y=1/1"
     },
     {
       "id": 18,
       "answerIndex": 0,
-      "answers": ["3:1", "2:1", "4:3", "7:5"],
+      "answers": [
+        "3:1",
+        "2:1",
+        "4:3",
+        "7:5"
+      ],
       "question": "Two containers A and B contain syrup and water in the ratio 7:5 and 3:1 respectively. In what ratio should they be mixed to obtain a new mixture containing syrup and water in the ratio 5:3?",
       "solution": "7/123/4\n5/8\n1/81/24\n\n1/8:1/24\n\n1:1/3\n\n3:1"
     },
     {
       "id": 19,
       "answerIndex": 2,
-      "answers": ["Rs.44", "Rs.45", "Rs.46", "Rs.45.5"],
+      "answers": [
+        "Rs.44",
+        "Rs.45",
+        "Rs.46",
+        "Rs.45.5"
+      ],
       "question": "Two varieties of pulses costing Rs.40/kg and Rs.50/kg are mixed in the ratio 2:3. Find the cost per kg of the resulting mixture.",
       "solution": "Cost of the mixture\n= [(40*2)+(50*3)]/5\n= 230/5\n= Rs.46/kg"
     },
     {
       "id": 20,
       "answerIndex": 2,
-      "answers": ["6 liters", "7.5 liters", "7.68 liters", "6.66 liters"],
+      "answers": [
+        "6 liters",
+        "7.5 liters",
+        "7.68 liters",
+        "6.66 liters"
+      ],
       "question": "From a cask filled with 15 liters of wine, 3 liters are taken out and replaced with water. This process is repeated two more times. Find the quantity of wine present in the cask.",
       "solution": "Using the formula,\n\nAmount of wine after 3 operations\n= 15[(1-(3/15))^3]\n= 15[(4/5)^3]\n= 7.68 liters"
     },
     {
       "id": 21,
       "answerIndex": 3,
-      "answers": ["15", "8", "20", "22"],
+      "answers": [
+        "15",
+        "8",
+        "20",
+        "22"
+      ],
       "question": "A man had cows and hens in his farm. The number of heads was 30 and the number of legs was 76. How many hens were there in his farm?",
       "solution": "Let x be the number of cows and y be the number of hens.\n\nx+y = 30\n4x+2y = 76\n\nSolving,\nx = 8\ny = 22"
     },
     {
       "id": 22,
       "answerIndex": 1,
-      "answers": ["20:1", "33:7", "10:1", "22:3"],
+      "answers": [
+        "20:1",
+        "33:7",
+        "10:1",
+        "22:3"
+      ],
       "question": "Two glasses A and B contain a mixture of water and honey in the ratio 5:1 and 4:1 respectively. One-fourths of the mixture in glass A is poured out and refilled with the mixture from glass B. Find the ratio of water and honey in glass A.",
       "solution": "The resulting mixture contains A and B in the ratio 3:1(three-fouths of A and one-fourths of B)\n\nProportion of water\n= [3*(5/6)+1*(4/5)]/(3+1)\n= 33/40\nProportion of honey\n= [3*(1/6)+1*(1/5)]/(3+1)\n= 7/40\nRatio of water and honey\n= 33:7"
     },
     {
       "id": 23,
       "answerIndex": 0,
-      "answers": ["12.5%", "15%", "16%", "10.5%"],
+      "answers": [
+        "12.5%",
+        "15%",
+        "16%",
+        "10.5%"
+      ],
       "question": "Three varieties of sugar costing Rs.25/kg, Rs.30/kg and Rs.36/kg are mixed in the ratio 2:3:5 and sold at Rs.36/kg. Find the gain%.",
       "solution": "Cost of the mixture\n= (25*2)+(30*3)+(36*5)/10\n= (50+90+180)/10\n= Rs.32/kg\nGain = Rs.4\n\nGain%\n= (4/32)*100\n= 12.5%"
     },
     {
       "id": 24,
       "answerIndex": 2,
-      "answers": ["15 liters", "20 liters", "10 liters", "12 liters"],
+      "answers": [
+        "15 liters",
+        "20 liters",
+        "10 liters",
+        "12 liters"
+      ],
       "question": "How many liters of water should be added to a 40 liter mixture containing milk and water in the ratio 13:7 so that the resultant mixture contains 48% water?",
       "solution": "Amount of water in the 40 liter mixture\n= (7/20)*40\n= 14 liters\nLet x liters of water be added.\n\nAmount of the mixture = (40+x) liters.\nAmount of water in it = (14+x) liters\n[(14+x)/(40+x)] = 48/100\nSolving,\nx = 10 liters"
     },
     {
       "id": 25,
       "answerIndex": 1,
-      "answers": ["1", "2", "3", "2.5"],
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "2.5"
+      ],
       "question": "Two buckets containing yellow and blue paints were mixed in the ratio 5:4 to obtain 18 liters of green paint. How many more liters of yellow paint should be added to make the ratio 3:2?",
       "solution": "Amount of yellow\n= (5/9)*18\n= 10 liters\nLet x liters be added\n(10+x)/(18+x) = 3/5\nSolving,\nx=2\n2 liters of yellow paint should be added."
     },
     {
       "id": 26,
       "answerIndex": 3,
-      "answers": ["5 liters", "6 liters", "4.5 liters", "3 liters"],
+      "answers": [
+        "5 liters",
+        "6 liters",
+        "4.5 liters",
+        "3 liters"
+      ],
       "question": "A mixture of 30 liters contains milk and water in the ratio 4:1. How much water should be added to the mixture to make the ratio 8:3?",
       "solution": "Amount of water in the mixture\n= (1/5)*30\n= 6 liters\nAmount of milk in the mixture\n= 30-6\n= 24 liters\nLet x liters of water be added.\n24/(6+x) = 8/3\n72 = 48+8x\n8x=24\nx=3"
     },
     {
       "id": 27,
       "answerIndex": 0,
-      "answers": ["25%", "20%", "30%", "15%"],
+      "answers": [
+        "25%",
+        "20%",
+        "30%",
+        "15%"
+      ],
       "question": "If 10 gallons of syrup are added to 50 gallons of a mixture, which has 10 percent syrup, then what percent of the resulting mixture is syrup?",
       "solution": "Amount of syrup in the mixture\n= 10% of 50\n= 5 gallons\nNew amount of syrup\n= 15 gallons\nNew amount of mixture\n= 60 gallons\n% of syrup\n= (15/60)*100\n= 25%"
     },
     {
       "id": 28,
       "answerIndex": 2,
-      "answers": ["3:2", "2:5", "2:3", "None of the above"],
+      "answers": [
+        "3:2",
+        "2:5",
+        "2:3",
+        "None of the above"
+      ],
       "question": "The ratio of ‘metal 1’ and ‘metal 2’ in alloy ‘A’ is 3 :4. In alloy ‘B’ same metals are mixed in the ratio 5:8. If 26 kg of alloy ‘B’ and 14 kg of alloy ‘A’ are mixed then find out the ratio of ‘metal 1’ and ‘metal 2’ in the new alloy....",
       "solution": "(14*3/7 + 26*5/13) / (14*4/7 + 26*8/13)\n= (2*3 + 2*5) / (2*4 + 2*8)\n= 16/24\n= 2/3"
     },
     {
       "id": 29,
       "answerIndex": 3,
-      "answers": ["22.5%", "24%", "21%", "20%"],
+      "answers": [
+        "22.5%",
+        "24%",
+        "21%",
+        "20%"
+      ],
       "question": "5 liters of pure water is added to 20 liters of water containing 25% alcohol. Find the percentage of alcohol in the new mixture.",
       "solution": "Amount of alcohol\n= 25% of 20\n= 5 liters\nAfter adding 5 liters of water,\n(5/25)*100 = 20%"
     },
     {
       "id": 30,
       "answerIndex": 1,
-      "answers": ["30%", "20%", "25%", "35%"],
+      "answers": [
+        "30%",
+        "20%",
+        "25%",
+        "35%"
+      ],
       "question": "A vessel is filled with liquid, 3 parts of which are water and 5 parts syrup. What % of the mixture must be drawn off and replaced with water so that the mixture may be half water and half syrup?",
       "solution": "Let the vessel contain 8 liters of liquid and\nx liters of liquid be replaced with water.\n\nThe x liters of liquid drawn off would contain\n3x/8 liters of water and\n5x/8 liters of syrup\n\nAmount of water in the new mixture\n= 3-(3x/8)+x\nAmount of syrup in the new mixture\n= 5-(5x/8)\nThe amounts of water and syrup are equal in the new mixture\n\n3-(3x/8)+x = 5-(5x/8)\n5x/4 = 2\nx = 8/5\n\nPercentage of mixture replaced\n= [(8/5)/8]*100\n= 20%"
     },
     {
       "id": 31,
       "answerIndex": 0,
-      "answers": ["1:5", "5:1", "2:3", "3:2"],
+      "answers": [
+        "1:5",
+        "5:1",
+        "2:3",
+        "3:2"
+      ],
       "question": "Neena bought two varieties of rice costing Rs.50 per kg and Rs.60 per kg and mixed them in some ratio. Then she sold that mixture at Rs.70 per kg making a profit of 20%. What was the ratio of the mixture?",
       "solution": "SP = 70\n\nProfit = 20%\n\n(70-CP)/CP = 20/100\n\nCP = 175/3 = Rs.58.33\n\nAccording to the rule of alligation,\n\n5060\n\n175/3\n\n(60-175/3)(175/3)-50\n5/325/3\n\nRatio\n= (5/3) : (25/3)\n= 1:5"
     },
     {
       "id": 32,
       "answerIndex": 0,
-      "answers": ["53.33 liters", "60 liters", "66.67 liters", "75 liters"],
+      "answers": [
+        "53.33 liters",
+        "60 liters",
+        "66.67 liters",
+        "75 liters"
+      ],
       "question": "A beaker contains 180 liters of alcohol. On 1st day, 60 l of alcohol is taken out and replaced by water. 2nd day, 60 l of mixture is taken out and replaced by water and the process continues day after day. What will be the quantity of alcohol in the beaker after 3 days?",
       "solution": "From a container containing x litres of a solution, y litres are withdrawn and replaced with water. \n\nIf this operation is performed n times, \nAmount of solution in the container after n operations = x[(1-(y/x))^n]\n\nUsing the formula,\n\nAmount of alcohol in the beaker after 3 days\n= 180*[1-(60/180)]³\n= 180*[2/3]³\n= 180*8/27\n= 53.33 liters"
     },
     {
       "id": 33,
       "answerIndex": 0,
-      "answers": ["1:5", "2:3", "1:6", "3:2"],
+      "answers": [
+        "1:5",
+        "2:3",
+        "1:6",
+        "3:2"
+      ],
       "question": "In a vessel, there are 10 litres of alcohol. An operation is defined as taking out five litres of what is present in the vessel and adding 10 litres of pure water to it. What is the ratio of alcohol to water after two operations?",
       "solution": "At the end of the first operation,\nthe vessel contains 5 liters of alcohol and 10 liters of water.\nRatio 1:2\n\nSecond Operation:\n5 liters of the mixture is taken out.\n\n5 liters of the mixture taken out contains alcohol and water in the ratio 1:2\n(5/3) liters of alcohol was taken out.\n(10/3) liters of water was taken out.\n\nAmount of alcohol in the vessel\n= 5-(5/3)\n= 10/3\nAmount of water in the vessel\n= 10-(10/3)\n= 20/3\n\n10 liters of water is added.\nAmount of water\n= (20/3)+10\n= 50/3\n\nRatio of alcohol and water\n= 1:5"
     },
     {
       "id": 34,
       "answerIndex": 3,
-      "answers": ["2.5 liters", "5 liters", "7.5 liters", "10 liters"],
+      "answers": [
+        "2.5 liters",
+        "5 liters",
+        "7.5 liters",
+        "10 liters"
+      ],
       "question": "A mixture contains alcohol and water in the ratio 4:3. If 5 litres of water is added to the mixture, the ratio becomes 4:5. Find the quantity of alcohol in the given mixture.",
       "solution": "Let the initial amount of alcohol and water be 4x and 3x liters.\n\n4x/(3x+5) = 4/5\n\n5x = 3x+5\n\nx = 2.5\n\n4x=10"
     },
